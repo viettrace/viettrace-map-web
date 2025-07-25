@@ -1,0 +1,68 @@
+{
+  "name": "viettrace-map-web",
+  "version": "0.1.0",
+  "description": "Viettrace web-based map",
+  "author": "Lam Tran <lam.tttech19@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "nextjs",
+    "open-source",
+    "vietnam",
+    "map"
+  ],
+  "engines": {
+    "pnpm": ">=9.0.0",
+    "node": "22.16.0"
+  },
+  "packageManager": "pnpm@10.12.4",
+  "scripts": {
+    "prepare": "lefthook install || true",
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "knip": "knip --no-exit-code",
+    "knip:fix": "knip --fix",
+    "knip:production": "knip --production --no-exit-code"
+  },
+  "dependencies": {
+    "@logtape/logtape": "1.0.4",
+    "@sentry/nextjs": "9.40.0",
+    "@spotlightjs/spotlight": "3.0.1",
+    "maplibre-gl": "5.6.1",
+    "next": "15.4.2",
+    "next-intl": "4.3.4",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "19.8.1",
+    "@commitlint/config-conventional": "19.8.1",
+    "@eslint/eslintrc": "3.3.1",
+    "@next/bundle-analyzer": "15.4.3",
+    "@next/eslint-plugin-next": "15.4.3",
+    "@release-it/bumper": "7.0.5",
+    "@release-it/conventional-changelog": "10.0.1",
+    "@tailwindcss/postcss": "4.1.11",
+    "@types/node": "24.0.15",
+    "@types/react": "19.1.8",
+    "@types/react-dom": "19.1.6",
+    "eslint": "9.30.1",
+    "eslint-config-next": "15.4.3",
+    "eslint-config-prettier": "10.1.5",
+    "knip": "5.61.3",
+    "lefthook": "1.11.16",
+    "lint-staged": "16.1.2",
+    "prettier": "3.6.2",
+    "prettier-plugin-tailwindcss": "0.6.14",
+    "release-it": "19.0.3",
+    "tailwindcss": "4.1.11",
+    "typescript": "5.8.3"
+  },
+  "lint-staged": {
+    "*.{ts,js}": [
+      "eslint --cache --fix",
+      "prettier --write"
+    ]
+  }
+}
