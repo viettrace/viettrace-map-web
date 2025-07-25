@@ -1,4 +1,4 @@
-# viettrace-map
+# viettrace-map-web
 
 **viettrace-map** is the core open-source project of the “viettrace” ecosystem, providing a platform for Vietnam's administrative maps to serve various social applications such as environmental protection, volunteer work, tourism, education, and heritage preservation.
 
@@ -16,75 +16,23 @@ The project enables users to search for current locations and compare them with 
 
 ---
 
-## System Architecture
+## Installation and Development
 
-```
-apps/
-├── web/         → Next.js + MapLibre GL JS
-├── mobile/      → Flutter + maplibre_gl
-packages/
-├── map-core/    → Shared map logic library (web & mobile)
-└── ui-kit/      → Common UI components
-api/             → NestJS backend + PostgreSQL + PostGIS
-data/            → GeoJSON administrative data
-```
-
----
-
-## Technologies used
-
-| Component | Technology |
-|-----------|-----------|
-| Web       | Next.js + MapLibre GL JS |
-| Mobile    | Flutter + maplibre_gl |
-| Backend   | NestJS (Node.js) |
-| Database  | PostgreSQL + PostGIS |
-| UI Kit    | TailwindCSS (web) / Flutter Theme (mobile) |
-
----
-
-## Installation
-
-> Installation will be divided into each sub-application in the `apps/` directory
-
-### 1. Web
+Istall packages
 ```bash
-cd apps/web
-pnpm install
+pnpm install --frozen-lockfile
+```
+
+Run app
+```bash
 pnpm dev
 ```
 
-### 2. Mobile
-```bash
-cd apps/mobile
-flutter pub get
-flutter run
-```
-
-### 3. Backend API
-```bash
-cd api
-pnpm install
-pnpm start:dev
-```
-
----
-
-## Administrative data
-
-- Full GeoJSON file of administrative levels is located in `data/geojson/`
-- Collected from OpenStreetMap + processed with QGIS/scripts
-- Can be imported into PostGIS for query optimization
-
----
-
 ## Development Roadmap
 
-- [x] Set up multi-platform structure
-- [ ] Display administrative maps on web/mobile
+- [x] Set up base repository
+- [ ] Display administrative maps on web
 - [ ] Click on a location to display old/new administrative information
-- [ ] API for querying place names by coordinates
-- [ ] Provide Map SDK for integration into other apps
 
 ---
 

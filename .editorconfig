@@ -1,0 +1,52 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# Top-most EditorConfig file
+root = true
+
+# All files
+[*]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+max_line_length = 100
+
+# JavaScript/TypeScript files
+[*.{js,jsx,ts,tsx}]
+quote_type = single
+
+# JSON files
+[*.json]
+insert_final_newline = false
+
+# HTML files
+[*.{html,htm}]
+max_line_length = 120
+
+# CSS/SCSS/SASS files
+[*.{css,scss,sass,less}]
+max_line_length = 120
+
+# Markdown files
+[*.{md,mdx}]
+trim_trailing_whitespace = false
+max_line_length = 80
+
+# Makefiles
+[{Makefile,makefile,*.mk}]
+indent_style = tab
+indent_size = 4
+
+# .env files
+[.env*]
+insert_final_newline = false
+
+# Test files
+[*.{test,spec}.{js,ts,jsx,tsx}]
+max_line_length = 120
+
+# Documentation files
+[*.{txt,rst}]
+max_line_length = 80

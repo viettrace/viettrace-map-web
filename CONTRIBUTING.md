@@ -1,6 +1,9 @@
 # Contributing to viettrace-map
 
-Welcome to the **viettrace-map** project – part of the viettrace open ecosystem aimed at preserving Vietnam's geographical, cultural, and administrative information. We greatly appreciate your interest in improving this project!
+Welcome to the **viettrace-map-web** project – part of the viettrace open
+ecosystem aimed at preserving Vietnam's geographical, cultural, and
+administrative information. We greatly appreciate your interest in improving
+this project!
 
 ## What you can contribute
 
@@ -18,20 +21,30 @@ Welcome to the **viettrace-map** project – part of the viettrace open ecosyste
 ### 1. Fork & Clone
 
 ```bash
-git clone https://github.com/viettrace/viettrace-map.git
-cd viettrace-map
+git clone https://github.com/viettrace/viettrace-map-web.git
+cd viettrace-map-web
 git checkout -b feature/your-feature-name
 ```
 
 ### 2. Set up the development environment
 
-- Web: `cd apps/web && pnpm install && pnpm dev`
-- Mobile: `cd apps/mobile && flutter pub get`
-- API: `cd api && pnpm install && pnpm start:dev`
+Install packages
+
+```bash
+pnpm install --frozen-lockfile
+```
+
+Run app
+
+```bash
+pnpm dev
+```
 
 ### 3. Commit according to standards
 
-We use the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) commit convention:
+We use the
+[Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) commit
+convention:
 
 ```bash
 git commit -m “feat(map): add district boundary layer display”
@@ -40,8 +53,8 @@ git push origin feature/your-feature-name
 
 ### 4. Submit a Pull Request
 
-Go to the GitHub page → create a Pull Request from your branch to `main`.
-We will review and respond as soon as possible.
+Go to the GitHub page → create a Pull Request from your branch to `main`. We
+will review and respond as soon as possible.
 
 ---
 
@@ -58,7 +71,7 @@ We will review and respond as soon as possible.
 
 You can join via:
 
-- GitHub Discussions (coming soon)
+- GitHub Discussions
 - Zalo group, Telegram, or Discord (will be updated at viettrace.org)
 - Posting articles on the blog (planned for phase 2)
 
@@ -66,6 +79,7 @@ You can join via:
 
 ## Thank you!
 
-Whether you are a developer, designer, researcher, student, or someone who loves Vietnam—all contributions are appreciated.
+Whether you are a developer, designer, researcher, student, or someone who loves
+Vietnam, all contributions are appreciated.
 
 Together, we preserve what matters

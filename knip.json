@@ -1,0 +1,94 @@
+{
+  "$schema": "https://unpkg.com/knip@5/schema.json",
+  "entry": ["src/app/**/*.{js,jsx,ts,tsx}", "next.config.{js,mjs,ts}", "src/middleware.{js,ts}"],
+  "project": ["src/**/*.{js,jsx,ts,tsx}"],
+  "ignore": [
+    "node_modules/**",
+    ".next/**",
+    "out/**",
+    "build/**",
+    "dist/**",
+    "coverage/**",
+    ".vercel/**",
+    ".env*",
+    "*.config.js",
+    "*.config.mjs",
+    "*.config.ts",
+    "tailwind.config.{js,ts}",
+    "postcss.config.{js,ts}",
+    "jest.config.{js,ts}",
+    "cypress.config.{js,ts}",
+    "playwright.config.{js,ts}"
+  ],
+  "ignoreBinaries": ["next", "lefthook", "lint-staged", "commitlint", "eslint", "prettier", "tsc", "cypress", "playwright"],
+  "ignoreDependencies": ["@types/*", "typescript", "eslint*", "prettier*", "@next/bundle-analyzer", "@next/eslint-plugin-next", "autoprefixer", "postcss", "tailwindcss"],
+  "next": {
+    "config": ["next.config.{js,ts,cjs,mjs}"],
+    "entry": [
+      "src/{instrumentation,instrumentation-client,middleware}.{js,ts}",
+      "src/app/global-error.{js,jsx,ts,tsx}",
+      "src/app/**/{error,layout,loading,not-found,page,template,default}.{js,jsx,ts,tsx}",
+      "src/app/**/route.{js,jsx,ts,tsx}",
+      "src/app/{manifest,sitemap,robots}.{js,ts}",
+      "src/app/**/{icon,apple-icon}.{js,jsx,ts,tsx}",
+      "src/app/**/{opengraph,twitter}-image.{js,jsx,ts,tsx}",
+      "src/mdx-components.{js,jsx,ts,tsx}",
+      "src/pages/**/*.{js,jsx,ts,tsx}"
+    ]
+  },
+  "commitlint": {
+    "config": [
+      "package.json",
+      "package.yaml",
+      ".commitlintrc",
+      ".config/commitlintrc",
+      ".commitlintrc.{json,yaml,yml,js,ts,cjs,mjs,cts}",
+      "commitlint.config.{js,ts,cjs,mjs,cts}",
+      ".config/commitlintrc.{json,yaml,yml,js,ts,cjs,mjs,cts}"
+    ]
+  },
+  "eslint": {
+    "config": ["eslint.config.{js,cjs,mjs,ts,cts,mts}", ".eslintrc", ".eslintrc.{js,json,cjs}", ".eslintrc.{yml,yaml}", "package.json"]
+  },
+  "lefthook": {
+    "config": [
+      "lefthook.yml",
+      ".git/hooks/prepare-commit-msg",
+      ".git/hooks/commit-msg",
+      ".git/hooks/pre-{applypatch,commit,merge-commit,push,rebase,receive}",
+      ".git/hooks/post-{checkout,commit,merge,rewrite}"
+    ]
+  },
+  "lint-staged": {
+    "config": [
+      "package.json",
+      "package.yaml",
+      "package.yml",
+      ".lint-stagedrc",
+      ".config/lint-stagedrc",
+      ".lint-stagedrc.{json,ts,js,cjs,mjs}",
+      "lint-staged.config.{ts,js,cjs,mjs}",
+      ".config/lint-stagedrc.{json,ts,js,cjs,mjs}",
+      ".lintstagedrc",
+      ".config/lintstagedrc",
+      ".lintstagedrc.{json,ts,js,cjs,mjs}",
+      "lintstaged.config.{ts,js,cjs,mjs}",
+      ".config/lintstagedrc.{json,ts,js,cjs,mjs}"
+    ]
+  },
+  "prettier": {
+    "config": [".prettierrc", ".prettierrc.{json,js,cjs,mjs,ts,cts,mts,yml,yaml,toml,json5}", "prettier.config.{js,cjs,mjs,ts,cts,mts}", "package.{json,yaml}"]
+  },
+  "typescript": {
+    "config": ["tsconfig.json"]
+  },
+  "postcss": {
+    "config": ["package.json", "postcss.config.json", ".postcssrc", ".postcssrc.{json,ts,js,cjs,mjs,mts,cts,yaml,yml}", "postcss.config.{ts,js,cjs,mjs,mts,cts}"]
+  },
+  "tailwind": {
+    "entry": ["tailwind.config.{js,cjs,mjs,ts}"]
+  },
+  "release-it": {
+    "config": [".release-it.{json,js,cjs,ts,yml,yaml,toml}", "package.json"]
+  }
+}

@@ -1,0 +1,16 @@
+pre-commit:
+  parallel: true
+  commands:
+    lint-staged:
+      run: pnpm dlx lint-staged
+      stage_fixed: true
+
+commit-msg:
+  commands:
+    commitlint:
+      run: pnpm dlx commitlint --edit {1}
+
+pre-push:
+  commands:
+    knip:
+      run: pnpm knip:production
