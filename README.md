@@ -20,7 +20,7 @@ The project enables users to search for current locations and compare them with 
 
 Istall packages
 ```bash
-pnpm install --frozen-lockfile
+pnpm install
 ```
 
 Run app
