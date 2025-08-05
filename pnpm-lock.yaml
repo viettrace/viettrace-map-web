@@ -46,8 +46,8 @@ importers:
         specifier: 15.4.3
         version: 15.4.3
       '@next/eslint-plugin-next':
-        specifier: 15.4.3
-        version: 15.4.3
+        specifier: 15.4.5
+        version: 15.4.5
       '@release-it/bumper':
         specifier: 7.0.5
         version: 7.0.5(release-it@19.0.3(@types/node@24.0.15))
@@ -666,6 +666,9 @@ packages:
 
   '@next/eslint-plugin-next@15.4.3':
     resolution: {integrity: sha512-wYYbP29uZlm9lqD1C6HDgW9WNNt6AlTogYKYpDyATs0QrKYIv/rPueoIDRH6qttXGCe3zNrb7hxfQx4w8OSkLA==}
+
+  '@next/eslint-plugin-next@15.4.5':
+    resolution: {integrity: sha512-YhbrlbEt0m4jJnXHMY/cCUDBAWgd5SaTa5mJjzOt82QwflAFfW/h3+COp2TfVSzhmscIZ5sg2WXt3MLziqCSCw==}
 
   '@next/swc-darwin-arm64@15.4.5':
     resolution: {integrity: sha512-84dAN4fkfdC7nX6udDLz9GzQlMUwEMKD7zsseXrl7FTeIItF8vpk1lhLEnsotiiDt+QFu3O1FVWnqwcRD2U3KA==}
@@ -5468,6 +5471,10 @@ snapshots:
   '@next/env@15.4.5': {}
 
   '@next/eslint-plugin-next@15.4.3':
+    dependencies:
+      fast-glob: 3.3.1
+
+  '@next/eslint-plugin-next@15.4.5':
     dependencies:
       fast-glob: 3.3.1
 
