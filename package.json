@@ -30,7 +30,7 @@
     "@sentry/nextjs": "9.40.0",
     "@spotlightjs/spotlight": "3.0.1",
     "maplibre-gl": "5.6.1",
-    "next": "15.4.5",
+    "next": "15.4.7",
     "next-intl": "4.3.4",
     "react": "19.1.0",
     "react-dom": "19.1.0"
