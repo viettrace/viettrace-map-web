@@ -9,7 +9,10 @@
     "popupMergedInto": "Merged into",
     "popupMergedDate": "Merge date",
     "loading": "Loading map...",
+    "errorTitle": "Unable to render the map",
     "errorTileServer": "Unable to load map. Please try again later.",
+    "metadataError": "Unable to load merger metadata. Popups still show province names, but merged-into details may be missing.",
+    "retry": "Try again",
     "attributionOSM": "© OpenStreetMap contributors",
     "attributionViettrace": "© Viettrace"
   },

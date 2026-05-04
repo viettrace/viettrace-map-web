@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import maplibregl from 'maplibre-gl';
 import { useTranslations } from 'next-intl';
 
@@ -18,6 +18,7 @@ interface MergerInfo {
 export default function ProvincePopup({ map, mode }: ProvincePopupProps) {
   const t = useTranslations('Map');
   const mergerDataRef = useRef<Map<string, MergerInfo>>(new Map());
+  const [metadataError, setMetadataError] = useState(false);
 
   useEffect(() => {
     fetch('/data/merger-info.json')
@@ -27,7 +28,9 @@ export default function ProvincePopup({ map, mode }: ProvincePopupProps) {
           mergerDataRef.current.set(item.oldProvince, item);
         });
       })
-      .catch(() => {});
+      .catch(() => {
+        setMetadataError(true);
+      });
   }, []);
 
   useEffect(() => {
@@ -94,5 +97,11 @@ export default function ProvincePopup({ map, mode }: ProvincePopupProps) {
     };
   }, [map, mode, t]);
 
-  return null;
+  if (!metadataError) return null;
+
+  return (
+    <div className="pointer-events-none absolute bottom-10 left-1/2 z-10 w-[min(90vw,28rem)] -translate-x-1/2 rounded-xl border border-amber-200 bg-amber-50/95 px-4 py-3 text-sm text-amber-900 shadow-lg backdrop-blur">
+      {t('metadataError')}
+    </div>
+  );
 }

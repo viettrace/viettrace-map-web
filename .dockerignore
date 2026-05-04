@@ -1,0 +1,14 @@
+.git
+.next
+node_modules
+dist
+build
+coverage
+analyze
+.env*
+!.env.sample
+*.log
+*.tsbuildinfo
+.eslintcache
+.vercel
+.vscode

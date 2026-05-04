@@ -9,7 +9,10 @@
     "popupMergedInto": "Sau sáp nhập thuộc về",
     "popupMergedDate": "Ngày sáp nhập",
     "loading": "Đang tải bản đồ...",
+    "errorTitle": "Không thể hiển thị bản đồ",
     "errorTileServer": "Không thể tải bản đồ. Vui lòng thử lại sau.",
+    "metadataError": "Không thể tải dữ liệu sáp nhập. Popup vẫn hiển thị tên tỉnh, nhưng có thể thiếu thông tin quy thuộc sau sáp nhập.",
+    "retry": "Thử lại",
     "attributionOSM": "© OpenStreetMap contributors",
     "attributionViettrace": "© Viettrace"
   },
