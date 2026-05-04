@@ -1,0 +1,21 @@
+{
+  "Map": {
+    "title": "Viettrace — Bản đồ lịch sử Việt Nam",
+    "togglePre": "63 tỉnh",
+    "togglePreLabel": "(trước 7/2025)",
+    "togglePost": "34 tỉnh",
+    "togglePostLabel": "(sau 7/2025)",
+    "popupOldProvince": "Tỉnh cũ",
+    "popupMergedInto": "Sau sáp nhập thuộc về",
+    "popupMergedDate": "Ngày sáp nhập",
+    "loading": "Đang tải bản đồ...",
+    "errorTileServer": "Không thể tải bản đồ. Vui lòng thử lại sau.",
+    "attributionOSM": "© OpenStreetMap contributors",
+    "attributionViettrace": "© Viettrace"
+  },
+  "HomePage": {
+    "title": "Viettrace",
+    "description": "So sánh bản đồ hành chính Việt Nam trước và sau sáp nhập 7/2025",
+    "cta": "Xem bản đồ"
+  }
+}
