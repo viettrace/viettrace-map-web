@@ -1,7 +1,6 @@
 'use client';
 
 import * as Sentry from '@sentry/nextjs';
-import NextError from 'next/error';
 import { useEffect } from 'react';
 
 export default function GlobalError({ error }: { error: Error & { digest?: string } }) {
@@ -10,13 +9,16 @@ export default function GlobalError({ error }: { error: Error & { digest?: strin
   }, [error]);
 
   return (
-    <html>
+    <html lang="vi">
       <body>
-        {/* `NextError` is the default Next.js error page component. Its type
-        definition requires a `statusCode` prop. However, since the App Router
-        does not expose status codes for errors, we simply pass 0 to render a
-        generic error message. */}
-        <NextError statusCode={0} />
+        <main style={{ alignItems: 'center', display: 'flex', minHeight: '100vh', justifyContent: 'center', padding: 24 }}>
+          <section style={{ maxWidth: 440, textAlign: 'center' }}>
+            <h1 style={{ fontSize: 24, fontWeight: 700, marginBottom: 12 }}>Viettrace gặp lỗi</h1>
+            <p style={{ color: '#475569', fontSize: 14, lineHeight: 1.6 }}>
+              Không thể tải ứng dụng lúc này. Vui lòng thử lại sau.
+            </p>
+          </section>
+        </main>
       </body>
     </html>
   );

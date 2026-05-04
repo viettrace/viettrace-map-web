@@ -59,9 +59,11 @@ export default function Map() {
 
   if (error) {
     return (
-      <div className="flex h-screen items-center justify-center">
-        <div className="rounded-lg bg-red-50 p-6 text-center">
-          <p className="text-red-600">Map Error: {error}</p>
+      <div className="flex min-h-dvh items-center justify-center bg-slate-50 p-6">
+        <div className="max-w-md rounded-2xl border border-red-100 bg-white p-6 text-center shadow-sm">
+          <p className="text-lg font-semibold text-slate-950">{t('errorTitle')}</p>
+          <p className="mt-2 text-sm text-slate-600">{t('errorTileServer')}</p>
+          <p className="mt-3 break-words text-xs text-slate-400">{error}</p>
         </div>
       </div>
     );
