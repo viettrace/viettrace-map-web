@@ -2,13 +2,15 @@ pre-commit:
   parallel: true
   commands:
     lint-staged:
-      run: pnpm dlx lint-staged
+      # Use project devDependency (avoid pnpm dlx cache / version skew)
+      run: pnpm exec lint-staged
       stage_fixed: true
 
 commit-msg:
   commands:
     commitlint:
-      run: pnpm dlx commitlint --edit {1}
+      # Use @commitlint/cli from devDependencies (dlx can break with incomplete dlx store)
+      run: pnpm exec commitlint --edit {1}
 
 pre-push:
   commands:

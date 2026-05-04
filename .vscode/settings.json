@@ -116,7 +116,7 @@
     "titleBar.inactiveForeground": "#15202b99"
   },
   // Extensions
-  "extensions.ignoreRecommendations": false,
+  "extensions.ignoreRecommendations": true,
   // Files
   "files.eol": "\n",
   "files.insertFinalNewline": true,

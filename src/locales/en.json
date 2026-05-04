@@ -1,6 +1,21 @@
 {
+  "Map": {
+    "title": "Viettrace — Vietnam Historical Map",
+    "togglePre": "63 provinces",
+    "togglePreLabel": "(before July 2025)",
+    "togglePost": "34 provinces",
+    "togglePostLabel": "(after July 2025)",
+    "popupOldProvince": "Former province",
+    "popupMergedInto": "Merged into",
+    "popupMergedDate": "Merge date",
+    "loading": "Loading map...",
+    "errorTileServer": "Unable to load map. Please try again later.",
+    "attributionOSM": "© OpenStreetMap contributors",
+    "attributionViettrace": "© Viettrace"
+  },
   "HomePage": {
-    "title": "Hello world!",
-    "about": "Go to the about page"
+    "title": "Viettrace",
+    "description": "Compare Vietnam administrative boundaries before and after the July 2025 merger",
+    "cta": "View map"
   }
 }
