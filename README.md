@@ -157,6 +157,35 @@ OSM attribution is required: `© OpenStreetMap contributors`.
 
 ## Docker
 
+The recommended post-MVP frontend deployment target is Vercel. Docker remains the fallback self-host path.
+
+## Vercel
+
+No `vercel.json` is required for the current app. Use Vercel's Next.js defaults unless custom routing, headers, redirects, or non-default build behavior becomes necessary.
+
+Recommended settings:
+
+| Setting | Value |
+|---|---|
+| Framework preset | Next.js |
+| Root directory | `viettrace-map-web` |
+| Install command | `pnpm install --frozen-lockfile` |
+| Build command | `pnpm build` |
+
+Production environment variables:
+
+```env
+NEXT_PUBLIC_TILE_URL_PRE=https://tiles.viettrace.org/tiles/vn_provinces_pre_2025
+NEXT_PUBLIC_TILE_URL_POST=https://tiles.viettrace.org/tiles/vn_provinces_post_2025
+NEXT_PUBLIC_MAP_STYLE=https://basemaps.cartocdn.com/gl/positron-gl-style/style.json
+NEXT_PUBLIC_SITE_URL=https://viettrace.org
+NEXT_PUBLIC_SENTRY_ENABLED=false
+```
+
+Keep `tiles.viettrace.org` on the CX23 tile server. Point `viettrace.org` and `www.viettrace.org` to Vercel.
+
+## Docker Fallback
+
 Build locally:
 
 ```bash
@@ -173,7 +202,7 @@ docker run --rm -p 3002:3000 \
   viettrace-map-web:local
 ```
 
-Deployment config is maintained in `../viettrace-infra/compose.prod.yml` and documented in `../viettrace-plans/03-runbooks/frontend-deploy.md`.
+Self-host deployment config is maintained in `../viettrace-infra/compose.prod.yml` and documented in `../viettrace-plans/03-runbooks/frontend-deploy.md`.
 
 ## Verification
 
