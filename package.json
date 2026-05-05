@@ -21,6 +21,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "release": "release-it",
     "knip": "knip --no-exit-code",
     "knip:fix": "knip --fix",
     "knip:production": "knip --production --no-exit-code"

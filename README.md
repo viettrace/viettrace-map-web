@@ -228,6 +228,20 @@ For map behavior changes, manually verify:
 - Province popup appears on click.
 - OSM/Viettrace attribution is visible.
 
+## Releases
+
+Releases are versioned from `package.json`.
+
+| Artifact | Convention |
+|---|---|
+| Version source | `package.json#version` |
+| Git tag | `v${version}` |
+| Release commit | `chore(release): v${version}` |
+| Changelog | `CHANGELOG.md` generated from Conventional Commits |
+| GitHub Release | Created by the manual `Release` workflow |
+
+Use GitHub Actions -> `Release`. For the first release, enter an exact `version` such as `0.1.0` to publish the current package version. For later releases, leave `version` empty and choose `major`, `minor`, `patch`, or prerelease increment. The workflow runs lint/build before creating the version commit, tag, changelog entry, and GitHub Release.
+
 ## Documentation
 
 | Topic | Document |

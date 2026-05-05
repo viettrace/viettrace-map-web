@@ -215,6 +215,16 @@ docker compose -f compose.full.yml --env-file viettrace-infra/.env up -d --build
 - Do not push directly to `main` except explicitly approved emergency hotfixes.
 - Data changes should update `../viettrace-plans/04-data/` when source/process/quality status changes.
 
+## Release Convention
+
+- `package.json#version` is the source of truth for release version.
+- Release tags use `v${version}`.
+- GitHub Releases are created from the same tag.
+- `CHANGELOG.md` is generated from Conventional Commits by release-it.
+- Use the manual GitHub Actions `Release` workflow for releases; exact `version` is for first/current-version releases, otherwise use `increment`.
+- Release commits use `chore(release): v${version}`.
+- Update `../viettrace-plans/05-releases/` for product/project milestone releases.
+
 ---
 
 ## Do Not

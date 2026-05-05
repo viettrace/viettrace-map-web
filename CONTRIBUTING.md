@@ -192,6 +192,24 @@ refactor/map-layer-visibility
 
 `main` is the production branch. It deploys to Vercel. Prefer short-lived branches and pull requests into `main`; do not push directly to `main` unless maintainers explicitly approve an emergency hotfix.
 
+### Release Convention
+
+Releases are bound to `package.json` version.
+
+- `package.json#version` is the version source of truth.
+- Git tags use `v${version}`, for example `v0.2.0`.
+- GitHub Releases use the same tag.
+- `CHANGELOG.md` is generated from Conventional Commits.
+- Release commits use `chore(release): v${version}`.
+
+Release workflow is manually dispatched from GitHub Actions using the `Release` workflow. For the first release, enter an exact `version` such as `0.1.0` to publish the current package version. For later releases, leave `version` empty and choose `major`, `minor`, `patch`, or prerelease increments. The workflow runs lint/build before creating the version commit, tag, changelog entry, and GitHub Release.
+
+Recommended release milestones:
+
+- `v0.1.0`: MVP complete.
+- `v0.2.0`: Public readiness.
+- `v0.3.0`: Province search/detail panel.
+
 ### Testing Guidelines
 
 #### Writing Tests
@@ -375,6 +393,7 @@ New to open source? We're here to help!
 - [QGIS](https://qgis.org/) - Geographic data processing
 - [Conventional Commits](https://www.conventionalcommits.org/)
 - [Semantic Versioning](https://semver.org/)
+- [release-it](https://github.com/release-it/release-it)
 
 ### Learning Resources
 - [Open Source Guide](https://opensource.guide/)
@@ -406,7 +425,7 @@ Together, we preserve what matters most. 🇻🇳
 
 ---
 
-**Last Updated**: August 5, 2025
+**Last Updated**: May 5, 2026
 
 **Version**: 2.0
 
