@@ -12,6 +12,7 @@
     "tag": true
   },
   "npm": {
+    "allowSameVersion": true,
     "publish": false,
     "skipChecks": true
   },
