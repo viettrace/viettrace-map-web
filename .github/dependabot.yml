@@ -4,3 +4,6 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
+    labels:
+      - "type: deps"
+      - "chore"

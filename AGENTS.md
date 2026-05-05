@@ -205,6 +205,18 @@ docker compose -f compose.full.yml --env-file viettrace-infra/.env up -d --build
 
 ---
 
+## Git And PR Convention
+
+- `main` is the production branch and deploys to Vercel.
+- Use short-lived branches: `feat/*`, `fix/*`, `docs/*`, `chore/*`, `refactor/*`, `test/*`, `ci/*`, `perf/*`, `hotfix/*`.
+- Use Conventional Commits: `type(scope): summary`.
+- PR titles should follow Conventional Commit format because maintainers use squash merge.
+- CI should pass before merge: `pnpm lint` and `pnpm build`.
+- Do not push directly to `main` except explicitly approved emergency hotfixes.
+- Data changes should update `../viettrace-plans/04-data/` when source/process/quality status changes.
+
+---
+
 ## Do Not
 
 - Do not modify `viettrace-core` as part of frontend MVP work.
