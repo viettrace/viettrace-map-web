@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Viettrace planning docs
+    url: https://github.com/viettrace/viettrace-plans
+    about: Architecture, roadmap, data notes, and runbooks live in viettrace-plans.
