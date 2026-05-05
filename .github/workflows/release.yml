@@ -2,13 +2,16 @@ name: Release
 
 permissions:
   contents: write
-  id-token: write
 
 on:
   workflow_dispatch:
     inputs:
+      version:
+        description: Exact version to release, for example 0.1.0. Leave empty to use increment.
+        required: false
+        type: string
       increment:
-        description: version to increment
+        description: Version increment used when exact version is empty
         required: true
         default: 'patch'
         type: choice
@@ -16,30 +19,63 @@ on:
           - major
           - minor
           - patch
+          - premajor
+          - preminor
+          - prepatch
+          - prerelease
 
 jobs:
   release:
+    name: Create versioned release
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
       - name: Git config
-        run: git config user.name "${GITHUB_ACTOR}" && git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Set up pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10.12.4
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '22.16.0'
+          node-version: 22.16.0
+          cache: pnpm
+          cache-dependency-path: pnpm-lock.yaml
 
-      - name: Install pnpm
-        uses: pnpm/action-setup@v3
-        with:
-          run_install: |
-            - args: [--frozen-lockfile]
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Lint
+        run: pnpm lint
+
+      - name: Build
+        run: pnpm build
+        env:
+          NEXT_PUBLIC_TILE_URL_PRE: https://tiles.viettrace.org/tiles/vn_provinces_pre_2025
+          NEXT_PUBLIC_TILE_URL_POST: https://tiles.viettrace.org/tiles/vn_provinces_post_2025
+          NEXT_PUBLIC_MAP_STYLE: https://basemaps.cartocdn.com/gl/positron-gl-style/style.json
+          NEXT_PUBLIC_SITE_URL: https://viettrace.org
+          NEXT_PUBLIC_SENTRY_ENABLED: "false"
+
+      - name: Resolve release version
+        id: release_version
+        run: |
+          if [ -n "${{ inputs.version }}" ]; then
+            echo "value=${{ inputs.version }}" >> "$GITHUB_OUTPUT"
+          else
+            echo "value=${{ inputs.increment }}" >> "$GITHUB_OUTPUT"
+          fi
 
       - name: Release
-        run: pnpm release ${{ inputs.increment }}
+        run: pnpm release ${{ steps.release_version.outputs.value }} --ci
         env:
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

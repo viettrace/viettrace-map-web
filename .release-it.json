@@ -1,13 +1,15 @@
 {
   "$schema": "https://unpkg.com/release-it@19/schema/release-it.json",
   "git": {
-    "commitMessage": "chore: release v${version}",
+    "commitMessage": "chore(release): v${version}",
     "tagName": "v${version}",
     "tagAnnotation": "Release v${version}",
     "requireCleanWorkingDir": true,
     "requireBranch": "main",
     "requireUpstream": true,
-    "push": true
+    "push": true,
+    "commit": true,
+    "tag": true
   },
   "npm": {
     "publish": false,
@@ -15,13 +17,19 @@
   },
   "github": {
     "release": true,
-    "releaseName": "Release ${version}",
+    "releaseName": "viettrace-map-web v${version}",
     "releaseNotes": null,
     "draft": false,
     "prerelease": false,
     "tokenRef": "GITHUB_TOKEN"
   },
   "plugins": {
+    "@release-it/bumper": {
+      "out": {
+        "file": "package.json",
+        "path": "version"
+      }
+    },
     "@release-it/conventional-changelog": {
       "infile": "CHANGELOG.md",
       "preset": {
