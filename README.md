@@ -246,11 +246,15 @@ We welcome issues, suggestions, translations, and pull requests.
 
 Important rules:
 
+- Use short-lived branches such as `feat/province-search`, `fix/mobile-toggle-overlap`, or `docs/update-vercel-guide`.
+- Use Conventional Commits, for example `feat(map): add province search`.
+- Open PRs into `main`; `main` is the production branch and deploys to Vercel.
 - Keep tile URLs environment-driven.
 - Preserve MapLibre source-layer names unless tile server config changes too.
 - Keep copy in both `src/locales/en.json` and `src/locales/vi.json`.
 - Keep OSM attribution visible.
 - Run `pnpm lint` before submitting meaningful changes.
+- Check the Vercel preview for UI/map behavior changes when available.
 
 See `CONTRIBUTING.md` for general contribution guidance.
 

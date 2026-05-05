@@ -35,25 +35,26 @@ assignees: ''
 <!-- Please complete the following information -->
 
 #### Browser/Device Information
-- **OS**: [e.g. macOS 13.0, Windows 11, Ubuntu 22.04]
-- **Browser**: [e.g. Chrome 118, Firefox 119, Safari 17]
+- **OS**: [e.g. macOS 14, Windows 11, Ubuntu 22.04]
+- **Browser**: [e.g. Chrome 124, Firefox 124, Safari 17]
 - **Device**: [e.g. Desktop, iPhone 14, Samsung Galaxy S23]
 - **Screen Resolution**: [e.g. 1920x1080, 375x812]
 - **Viewport Size**: [if relevant]
 
 #### Project Information
-- **Next.js Version**: [e.g. 14.0.0]
-- **Node.js Version**: [e.g. 18.17.0]
-- **Package Manager**: [e.g. npm 9.8.1, yarn 1.22.19, pnpm 8.7.0]
-- **Build Target**: [e.g. server, static export, edge runtime]
-- **Deployment Platform**: [e.g. Vercel, Netlify, self-hosted]
+- **Next.js Version**: 15.4.x if known
+- **Node.js Version**: 22.16.0 if local/dev issue
+- **Package Manager**: pnpm 10.12.4 if local/dev issue
+- **Deployment Platform**: Vercel production / Vercel preview / local dev / self-hosted
+- **Map URL**: [e.g. https://viettrace.org/vi/map]
+- **Map Mode**: [63 provinces / 34 provinces]
 
 #### Dependencies (if relevant)
 <!-- List relevant package versions -->
 ```json
 {
-  "react": "18.2.0",
-  "tailwindcss": "3.3.0",
+  "react": "19.1.0",
+  "tailwindcss": "4.1.x",
   // ... other relevant packages
 }
 ```

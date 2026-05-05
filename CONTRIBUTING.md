@@ -49,8 +49,8 @@ Before contributing, familiarize yourself with our [project structure](docs/proj
 
 Before you begin, ensure you have:
 
-- **Node.js** 18.17.0 or higher
-- **pnpm** (recommended) or npm/yarn
+- **Node.js** 22.16.0
+- **pnpm** 10.12.4 (recommended; this repo uses `pnpm-lock.yaml`)
 - **Git** for version control
 - A **GitHub account**
 
@@ -63,7 +63,7 @@ Before you begin, ensure you have:
 git clone https://github.com/YOUR_USERNAME/viettrace-map-web.git
 cd viettrace-map-web
 
-# Add the original repository as upstream
+# Add the original repository as upstream if it is different from your fork
 git remote add upstream https://github.com/viettrace/viettrace-map-web.git
 ```
 
@@ -81,10 +81,10 @@ npm ci
 
 ```bash
 # Copy the example environment file
-cp .env.example .env.local
+cp .env.sample .env.local
 
-# Edit the environment variables as needed
-# Contact maintainers if you need access to development APIs
+# Edit the public map environment variables as needed.
+# Local defaults point to http://localhost:8080 tiles.
 ```
 
 #### 4. Start Development Server
@@ -98,7 +98,7 @@ pnpm dev
 
 #### 5. Verify Your Setup
 
-- Open http://localhost:3000 in your browser
+- Open http://localhost:3000/vi/map in your browser
 - Check that the map loads correctly
 - Verify that all interactive features work
 - Check the browser console for any errors
@@ -159,10 +159,10 @@ We use [Conventional Commits](https://www.conventionalcommits.org/) to maintain 
 type(scope): description
 
 # Examples:
-git commit -m "feat(map): add district boundary layer display"
-git commit -m "fix(search): resolve location search accuracy issue"
-git commit -m "docs(api): update geocoding endpoint documentation"
-git commit -m "style(components): improve map marker hover effects"
+git commit -m "feat(map): add province search"
+git commit -m "fix(map): prevent popup on empty clicks"
+git commit -m "docs(deploy): document vercel environment variables"
+git commit -m "ci(github): add lint and build workflow"
 ```
 
 #### Scopes
@@ -171,8 +171,9 @@ Common scopes in our project:
 - `search`: Search functionality
 - `data`: Data processing and management
 - `ui`: User interface components
-- `api`: API routes and external integrations
-- `auth`: Authentication features
+- `deploy`: Deployment and Vercel changes
+- `vercel`: Vercel-specific configuration/docs
+- `config`: Framework/tooling config
 - `i18n`: Internationalization
 - `docs`: Documentation
 
@@ -183,11 +184,13 @@ Use descriptive branch names that follow this pattern:
 type/scope-description
 
 # Examples:
-feature/map-layer-controls
-fix/search-performance-issue
+feat/province-search
+fix/mobile-toggle-overlap
 docs/contributing-guide-update
-refactor/data-processing-pipeline
+refactor/map-layer-visibility
 ```
+
+`main` is the production branch. It deploys to Vercel. Prefer short-lived branches and pull requests into `main`; do not push directly to `main` unless maintainers explicitly approve an emergency hotfix.
 
 ### Testing Guidelines
 
@@ -199,18 +202,12 @@ refactor/data-processing-pipeline
 
 #### Running Tests
 ```bash
-# Run all tests
-pnpm test
-
-# Run tests in watch mode
-pnpm test:watch
-
-# Run tests with coverage
-pnpm test:coverage
-
-# Run specific test file
-pnpm test components/MapComponent.test.tsx
+# Required checks today
+pnpm lint
+pnpm build
 ```
+
+There is currently no committed test runner script. Add tests and update this section when test infrastructure is introduced.
 
 ### Data Contribution Guidelines
 
@@ -228,6 +225,8 @@ pnpm test components/MapComponent.test.tsx
 - Follow Vietnamese administrative naming conventions
 - Include both Vietnamese and English names where applicable
 
+For data issues reported by users, prefer the GitHub `Data Issue` template. If a PR changes `public/data/merger-info.json` or province label files, explain the source/reason and update `../viettrace-plans/04-data/` when the data source, process, or quality status changes.
+
 #### Example Data Structure
 ```json
 {
@@ -242,13 +241,14 @@ pnpm test components/MapComponent.test.tsx
     {
       "type": "Feature",
       "properties": {
-        "name_vi": "Hà Nội",
+        "name": "Hà Nội",
         "name_en": "Hanoi",
-        "type": "province",
-        "code": "01"
+        "boundary": "administrative",
+        "admin_level": "4",
+        "osm_id": 123456
       },
       "geometry": {
-        "type": "Polygon",
+        "type": "MultiPolygon",
         "coordinates": [...]
       }
     }
@@ -271,9 +271,8 @@ pnpm test components/MapComponent.test.tsx
 
 2. **Test your changes**:
    ```bash
-   pnpm test
-   pnpm build
    pnpm lint
+   pnpm build
    ```
 
 3. **Update documentation** if needed
@@ -292,6 +291,7 @@ pnpm test components/MapComponent.test.tsx
 - **Screenshots**: Include before/after screenshots for UI changes
 - **Testing**: Describe how you tested your changes
 - **Breaking Changes**: Clearly document any breaking changes
+- **Vercel Preview**: Check preview deployment for UI/map behavior changes when available
 
 #### 3. Review Process
 - Maintainers will review your PR within 3-5 business days

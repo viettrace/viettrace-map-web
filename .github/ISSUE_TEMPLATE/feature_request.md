@@ -35,6 +35,8 @@ A clear and concise description of what the problem is. Ex. I'm always frustrate
 - [ ] Existing component modification
 - [ ] Navigation changes
 - [ ] Form/input changes
+- [ ] Map interaction changes
+- [ ] Province search/detail behavior
 
 #### API Design
 <!-- If this involves API changes -->
@@ -64,9 +66,9 @@ interface NewFeature {
 - [ ] Desktop browsers
 - [ ] Mobile browsers
 - [ ] Tablet browsers
-- [ ] Server-side rendering
-- [ ] Static site generation
-- [ ] Edge runtime
+- [ ] Vercel production deployment
+- [ ] Vercel preview deployment
+- [ ] Local development
 
 ### Performance Considerations
 <!-- How might this feature impact performance? -->
@@ -96,7 +98,7 @@ interface NewFeature {
 <!-- Does this feature need i18n support? -->
 - [ ] No text content
 - [ ] English only acceptable
-- [ ] Multi-language support needed
+- [ ] Vietnamese and English copy needed
 - [ ] RTL language support needed
 - [ ] Number/date formatting needed
 
@@ -138,18 +140,14 @@ interface NewFeature {
 - [ ] Add accessibility features
 
 #### Backend Tasks
-- [ ] Create API endpoints
-- [ ] Add database changes
-- [ ] Implement business logic
-- [ ] Add validation
-- [ ] Add authentication/authorization
+- [ ] Not applicable for MVP frontend-only scope
+- [ ] Requires future `viettrace-core` work
 
 #### Documentation Tasks
 - [ ] Update README
 - [ ] Add component documentation
-- [ ] Update API documentation
-- [ ] Add examples
-- [ ] Update migration guide
+- [ ] Update `../viettrace-plans/` roadmap/architecture/runbooks if needed
+- [ ] Add examples/screenshots
 
 #### Testing Tasks
 - [ ] Unit tests

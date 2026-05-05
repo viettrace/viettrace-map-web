@@ -50,11 +50,15 @@ Relates to #
 - [ ] ESLint passes without errors
 - [ ] Prettier formatting applied
 - [ ] Added tests to cover changes (if applicable)
-- [ ] All new and existing tests passed
+- [ ] Existing project checks passed (`pnpm lint`, and `pnpm build` when applicable)
+- [ ] `pnpm lint` passed
+- [ ] `pnpm build` passed, or documented why it could not be run locally
+- [ ] Vercel preview checked (if available and UI/map behavior changed)
 
 ### Documentation
 - [ ] README updated (if needed)
 - [ ] Component documentation updated (if applicable)
+- [ ] `../viettrace-plans/` updated if roadmap, deploy, architecture, or data process changed
 - [ ] Added appropriate labels to this PR.
 
 ### Dependencies
@@ -65,6 +69,13 @@ Relates to #
 - [ ] Descriptive commit messages
 - [ ] Branch is up to date with main
 - [ ] No merge conflicts
+
+### Viettrace Map/Data
+- [ ] Tile URLs remain environment-driven; no hardcoded local/production tile URLs in source
+- [ ] MapLibre source-layer names are unchanged, or tile server docs/config were updated too
+- [ ] OSM attribution remains visible
+- [ ] `src/locales/en.json` and `src/locales/vi.json` were both updated for copy changes
+- [ ] Data/metadata source or process changes are documented in `../viettrace-plans/04-data/`
 
 ## Screenshots/Videos (if applicable)
 <!-- Add screenshots to help explain your changes if they include visual changes. -->
