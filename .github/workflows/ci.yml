@@ -42,6 +42,7 @@ jobs:
         env:
           NEXT_PUBLIC_TILE_URL_PRE: https://tiles.viettrace.org/tiles/vn_provinces_pre_2025
           NEXT_PUBLIC_TILE_URL_POST: https://tiles.viettrace.org/tiles/vn_provinces_post_2025
+          NEXT_PUBLIC_TILE_URL_ISLANDS: https://tiles.viettrace.org/tiles/vn_offshore_islands
           NEXT_PUBLIC_MAP_STYLE: https://basemaps.cartocdn.com/gl/positron-gl-style/style.json
           NEXT_PUBLIC_SITE_URL: https://viettrace.org
           NEXT_PUBLIC_SENTRY_ENABLED: "false"

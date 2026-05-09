@@ -1,6 +1,6 @@
-import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { hasLocale } from 'next-intl';
+import { Link } from '@src/libs/i18n/navigation';
 import { routing } from '@src/libs/i18n/routing';
 
 const OSM_BOUNDARIES_URL = 'https://osm-boundaries.com/';
@@ -145,7 +145,8 @@ export default async function DataSourcesPage({ params }: PageProps) {
       <div className="mx-auto flex w-full max-w-5xl flex-col gap-10 px-4 py-8 sm:px-6 lg:px-8">
         <header className="flex flex-col gap-5 border-b border-slate-200 pb-8">
           <Link
-            href={`/${locale}/map`}
+            href="/map"
+            locale={locale}
             className="w-fit rounded-md border border-slate-300 bg-white px-3 py-2 text-sm font-medium text-slate-700 transition-colors hover:border-slate-400 hover:bg-slate-100"
           >
             {t.backToMap}

@@ -3,19 +3,62 @@
 import { useEffect, useRef, useState } from 'react';
 import maplibregl from 'maplibre-gl';
 import { useTranslations } from 'next-intl';
+import type { MapMode } from '@src/features/map-state/mapViewTypes';
+import { getProvinceHitLayerId } from './boundaryLayerRegistry';
 
-interface ProvincePopupProps {
+interface ProvinceBoundaryPopupProps {
   map: maplibregl.Map | null;
-  mode: 'pre' | 'post';
+  mode: MapMode;
 }
 
 interface MergerInfo {
-  oldProvince: string;
-  newProvince: string;
   mergeDate: string;
+  newProvince: string;
+  oldProvince: string;
 }
 
-export default function ProvincePopup({ map, mode }: ProvincePopupProps) {
+function appendTextRow(container: HTMLElement, label: string, value: string, className: string) {
+  const row = document.createElement('div');
+  row.className = className;
+
+  const labelNode = document.createTextNode(`${label}: `);
+  const valueNode = document.createElement('strong');
+  valueNode.textContent = value;
+
+  row.append(labelNode, valueNode);
+  container.append(row);
+}
+
+function createPopupContent(name: string, merger: MergerInfo | undefined, labels: {
+  mergedDate: string;
+  mergedInto: string;
+}) {
+  const container = document.createElement('div');
+  container.style.padding = '4px';
+
+  const title = document.createElement('strong');
+  title.className = 'text-base font-semibold';
+  title.textContent = name;
+  container.append(title);
+
+  if (merger) {
+    appendTextRow(
+      container,
+      labels.mergedInto,
+      merger.newProvince,
+      'mt-1 text-sm text-slate-600',
+    );
+
+    const dateRow = document.createElement('div');
+    dateRow.className = 'mt-0.5 text-xs text-slate-400';
+    dateRow.textContent = `${labels.mergedDate}: ${merger.mergeDate}`;
+    container.append(dateRow);
+  }
+
+  return container;
+}
+
+export default function ProvinceBoundaryPopup({ map, mode }: ProvinceBoundaryPopupProps) {
   const t = useTranslations('Map');
   const mergerDataRef = useRef<Map<string, MergerInfo>>(new Map());
   const [metadataError, setMetadataError] = useState(false);
@@ -36,7 +79,7 @@ export default function ProvincePopup({ map, mode }: ProvincePopupProps) {
   useEffect(() => {
     if (!map) return;
 
-    const layerId = mode === 'pre' ? 'provinces-pre-fill' : 'provinces-post-fill';
+    const layerId = getProvinceHitLayerId(mode);
 
     const clickHandler = (e: maplibregl.MapMouseEvent) => {
       if (!map.getLayer(layerId)) return;
@@ -46,26 +89,22 @@ export default function ProvincePopup({ map, mode }: ProvincePopupProps) {
         if (!features.length) return;
 
         const feature = features[0];
-        if (!feature) return;
-        const name = feature.properties?.name as string | undefined;
+        const name = feature?.properties?.name as string | undefined;
         if (!name) return;
 
-        let html = `<strong class="text-base font-semibold">${name}</strong>`;
-
-        if (mode === 'pre') {
-          const merger = mergerDataRef.current.get(name);
-          if (merger) {
-            html += `<div style="margin-top:4px;font-size:0.875rem;color:#555">${t('popupMergedInto')}: <strong>${merger.newProvince}</strong></div>`;
-            html += `<div style="font-size:0.75rem;color:#999;margin-top:2px">${t('popupMergedDate')}: ${merger.mergeDate}</div>`;
-          }
-        }
+        const merger = mode === 'pre' ? mergerDataRef.current.get(name) : undefined;
 
         new maplibregl.Popup({ closeButton: true, maxWidth: '300px' })
           .setLngLat(e.lngLat)
-          .setHTML(`<div style="padding:4px">${html}</div>`)
+          .setDOMContent(
+            createPopupContent(name, merger, {
+              mergedDate: t('popupMergedDate'),
+              mergedInto: t('popupMergedInto'),
+            }),
+          )
           .addTo(map);
       } catch {
-        // Ignore popup errors
+        // Popup is non-critical; map interaction should continue even if metadata is malformed.
       }
     };
 
@@ -92,7 +131,7 @@ export default function ProvincePopup({ map, mode }: ProvincePopupProps) {
           map.off('mouseleave', layerId, mouseLeaveHandler);
         }
       } catch {
-        // Ignore cleanup errors
+        // Ignore cleanup errors from MapLibre teardown.
       }
     };
   }, [map, mode, t]);

@@ -43,6 +43,7 @@ For the latest state, use `../viettrace-plans/status.md` instead of this file.
 pnpm install
 pnpm dev
 pnpm lint
+pnpm test:unit
 pnpm build
 pnpm start
 pnpm knip
@@ -52,6 +53,7 @@ Notes:
 
 - `pnpm dev` runs Next.js with Turbopack on `http://localhost:3000`.
 - `pnpm lint` must pass before finishing meaningful frontend changes.
+- `pnpm test:unit` covers shared map/data utility contracts.
 - `pnpm build` uses `output: 'standalone'`; on Windows with pnpm it may require Developer Mode, elevated permissions, a cleared `.next` cache, or Docker/Linux due to `.next/trace` cache locking or `.next/standalone` symlink creation.
 
 ---
@@ -81,12 +83,18 @@ Notes:
 | `src/app/[locale]/data-sources/page.tsx` | Public data-source, attribution, and limitations page |
 | `src/app/global-error.tsx` | App-level global error fallback |
 | `src/app/opengraph-image.tsx` | Dynamic Open Graph image |
-| `src/components/Map/Map.tsx` | Map shell and MapLibre initialization |
-| `src/components/Map/ProvinceLayer.tsx` | Vector sources, fills/outlines, labels, layer visibility |
+| `src/components/Map/Map.tsx` | Compatibility entrypoint that mounts the feature map shell |
+| `src/features/map-shell/MapShell.tsx` | Map shell, feature composition, and map chrome wiring |
+| `src/features/map-shell/useMapLibre.ts` | MapLibre initialization, readiness, and error lifecycle |
+| `src/features/map-state/mapViewReducer.ts` | Shared map view state reducer |
+| `src/features/boundaries/boundaryLayerRegistry.ts` | Vector/GeoJSON source and layer registry |
+| `src/features/boundaries/BoundaryLayers.tsx` | Boundary source/layer registration and visibility sync |
+| `src/features/boundaries/ProvinceBoundaryPopup.tsx` | Temporary province click popup and merger metadata lookup |
 | `src/components/Map/MapToggle.tsx` | Before/after toggle UI |
-| `src/components/Map/ProvincePopup.tsx` | Province click popup and merger metadata lookup |
 | `src/components/Map/MapDataNotice.tsx` | Public data note, data-source page link, and data issue entry point |
 | `src/components/Map/MapAttribution.tsx` | OSM and Viettrace attribution |
+| `src/libs/config/publicEnv.ts` | Public env validation for map config |
+| `src/libs/maplibre/` | Small MapLibre helpers for sources, layers, visibility, and tile URLs |
 | `src/libs/i18n/routing.ts` | next-intl routing config, locales `en` and `vi` |
 | `src/libs/i18n/request.ts` | next-intl message loading |
 | `src/locales/en.json` | English copy |
@@ -185,15 +193,24 @@ Rules:
 
 ## Skills
 
-Load relevant skills before non-trivial changes when the environment supports them:
+For non-trivial code, refactor, UX, or architecture work, load the relevant repo-local skill before editing. Prefer the copies under `.agents/skills/`; `.claude/skills/` may exist for other tools but should not be the primary source for Codex work.
+
+If the agent runtime exposes a skill by name, use the runtime skill mechanism. If it does not, manually read the corresponding `.agents/skills/<skill>/SKILL.md` file before making changes and follow the applicable guidance.
 
 | Task | Skill |
 |---|---|
-| App Router, metadata, routing, next-intl | `next-best-practices` |
-| Client components, hooks, MapLibre event handlers, React performance | `vercel-react-best-practices` |
-| Tailwind styling, responsive overlays, design tokens | `tailwind-design-system` |
-| Complex TypeScript types/utilities only | `typescript-advanced-types` |
-| Skill discovery/install questions | `find-skills` |
+| App Router routes/layouts, metadata, middleware, next-intl, Next config, build behavior | `.agents/skills/next-best-practices/SKILL.md` |
+| Client components, hooks, MapLibre event handlers, React state, performance-sensitive refactors | `.agents/skills/vercel-react-best-practices/SKILL.md` |
+| Tailwind styling, responsive overlays, map controls, design tokens | `.agents/skills/tailwind-design-system/SKILL.md` |
+| Complex TypeScript types/utilities only | `.agents/skills/typescript-advanced-types/SKILL.md` |
+| Larger visual/product UX decisions | `.agents/skills/frontend-design/SKILL.md` or `.agents/skills/ui-ux-pro-max/SKILL.md` |
+| Skill discovery/install questions | `.agents/skills/find-skills/SKILL.md` |
+
+Minimum checklist:
+
+1. Identify which row(s) match the task before editing.
+2. Read only the relevant `SKILL.md` and directly referenced files needed for the task.
+3. Mention in the work summary which skill guidance was used, or why none applied.
 
 ---
 
