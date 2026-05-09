@@ -1,5 +1,10 @@
 # Changelog
 
+## <small>0.1.2 (2026-05-09)</small>
+
+* refactor: add boundary layer registry and related tests (#68) ([4b39da1](https://github.com/viettrace/viettrace-map-web/commit/4b39da1)), closes [#68](https://github.com/viettrace/viettrace-map-web/issues/68)
+* Feat/add report data issues (#66) ([5f5470f](https://github.com/viettrace/viettrace-map-web/commit/5f5470f)), closes [#66](https://github.com/viettrace/viettrace-map-web/issues/66)
+
 ## <small>0.1.1 (2026-05-09)</small>
 
 * feat: add offshore island labels and update map layer configurations (#65) ([5d862dd](https://github.com/viettrace/viettrace-map-web/commit/5d862dd)), closes [#65](https://github.com/viettrace/viettrace-map-web/issues/65)
