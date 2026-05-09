@@ -52,7 +52,7 @@ Notes:
 
 - `pnpm dev` runs Next.js with Turbopack on `http://localhost:3000`.
 - `pnpm lint` must pass before finishing meaningful frontend changes.
-- `pnpm build` uses `output: 'standalone'`; on Windows with pnpm it may require Developer Mode, elevated symlink permissions, or Docker/Linux due to `.next/standalone` symlink creation.
+- `pnpm build` uses `output: 'standalone'`; on Windows with pnpm it may require Developer Mode, elevated permissions, a cleared `.next` cache, or Docker/Linux due to `.next/trace` cache locking or `.next/standalone` symlink creation.
 
 ---
 
@@ -108,6 +108,7 @@ NEXT_PUBLIC_TILE_URL_PRE=http://localhost:8080/tiles/vn_provinces_pre_2025
 NEXT_PUBLIC_TILE_URL_POST=http://localhost:8080/tiles/vn_provinces_post_2025
 NEXT_PUBLIC_TILE_URL_ISLANDS=http://localhost:8080/tiles/vn_offshore_islands
 NEXT_PUBLIC_MAP_STYLE=https://basemaps.cartocdn.com/gl/positron-gl-style/style.json
+NEXT_PUBLIC_TILE_CACHE_BUSTER=
 NEXT_PUBLIC_SITE_URL=http://localhost:3000
 ```
 
@@ -117,12 +118,14 @@ Production tile URL bases:
 NEXT_PUBLIC_TILE_URL_PRE=https://tiles.viettrace.org/tiles/vn_provinces_pre_2025
 NEXT_PUBLIC_TILE_URL_POST=https://tiles.viettrace.org/tiles/vn_provinces_post_2025
 NEXT_PUBLIC_TILE_URL_ISLANDS=https://tiles.viettrace.org/tiles/vn_offshore_islands
+NEXT_PUBLIC_TILE_CACHE_BUSTER=20260509-display
 ```
 
 Rules:
 
 - Never hardcode tile URLs in source code.
 - Use `process.env.NEXT_PUBLIC_*` for browser-visible configuration.
+- Bump `NEXT_PUBLIC_TILE_CACHE_BUSTER` after tile data changes when browser/CDN caches may still hold stale MVTs.
 - `.env.local` is gitignored; do not commit secrets or private env values.
 - Docker builds need `NEXT_PUBLIC_*` args at build time because client public env values are inlined.
 
@@ -198,7 +201,7 @@ For meaningful frontend changes:
 
 1. Run `pnpm lint`.
 2. Run `pnpm build` when the change touches build/deploy/Next config or route structure.
-3. If build fails only at `.next/standalone` symlink creation on Windows, report it clearly and recommend Docker/Linux or symlink-enabled Windows verification.
+3. If build fails only on Windows-local `.next/trace` permission/cache locking or `.next/standalone` symlink creation, report it clearly and recommend Docker/Linux, CI, clearing `.next`, or an elevated/Developer Mode shell for full verification.
 4. For map behavior changes, manually verify `/vi/map` with local or production tile env vars.
 
 Useful local stack command from workspace root:

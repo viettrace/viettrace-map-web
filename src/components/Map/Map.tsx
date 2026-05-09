@@ -8,6 +8,7 @@ import ProvinceLayer from './ProvinceLayer';
 import MapToggle from './MapToggle';
 import ProvincePopup from './ProvincePopup';
 import MapAttribution from './MapAttribution';
+import MapDataNotice from './MapDataNotice';
 
 const MAP_STYLE = process.env.NEXT_PUBLIC_MAP_STYLE || 'https://basemaps.cartocdn.com/gl/positron-gl-style/style.json';
 
@@ -95,6 +96,7 @@ export default function Map() {
       )}
 
       <MapToggle mode={mode} onToggle={setMode} showIslands={showIslands} onToggleIslands={setShowIslands} />
+      <MapDataNotice />
       <MapAttribution />
     </div>
   );
