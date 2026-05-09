@@ -17,6 +17,13 @@
     "errorTileServer": "Unable to load map. Please try again later.",
     "metadataError": "Unable to load merger metadata. Popups still show province names, but merged-into details may be missing.",
     "retry": "Try again",
+    "dataNoticeTitle": "Data note",
+    "dataNoticeBody": "Province boundaries are based on OSM-Boundaries. The Hoang Sa and Truong Sa layer uses geoBoundaries ADM2 as reference data; data is still being verified and may contain inaccuracies.",
+    "dataNoticeClose": "Close data note",
+    "dataNoticeOpen": "Data note",
+    "dataNoticeHide": "Hide note",
+    "dataSourcesLink": "Data sources",
+    "reportDataIssue": "Report data issue",
     "attributionOSM": "© OpenStreetMap contributors",
     "attributionGeoBoundaries": "© geoBoundaries www.geoboundaries.org",
     "attributionViettrace": "© Viettrace"

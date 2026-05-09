@@ -17,6 +17,13 @@
     "errorTileServer": "Không thể tải bản đồ. Vui lòng thử lại sau.",
     "metadataError": "Không thể tải dữ liệu sáp nhập. Popup vẫn hiển thị tên tỉnh, nhưng có thể thiếu thông tin quy thuộc sau sáp nhập.",
     "retry": "Thử lại",
+    "dataNoticeTitle": "Ghi chú dữ liệu",
+    "dataNoticeBody": "Ranh giới tỉnh dựa trên OSM-Boundaries. Lớp Hoàng Sa và Trường Sa dùng geoBoundaries ADM2 làm dữ liệu tham chiếu; dữ liệu đang được kiểm chứng và có thể còn sai lệch.",
+    "dataNoticeClose": "Đóng ghi chú dữ liệu",
+    "dataNoticeOpen": "Ghi chú dữ liệu",
+    "dataNoticeHide": "Ẩn ghi chú",
+    "dataSourcesLink": "Nguồn dữ liệu",
+    "reportDataIssue": "Báo lỗi dữ liệu",
     "attributionOSM": "© OpenStreetMap contributors",
     "attributionGeoBoundaries": "© geoBoundaries www.geoboundaries.org",
     "attributionViettrace": "© Viettrace"

@@ -38,6 +38,8 @@ For current project state, read `../viettrace-plans/status.md`.
 |---|---|
 | `/vi/map` | Main Vietnamese map page |
 | `/en/map` | English map page |
+| `/vi/data-sources` | Public Vietnamese data-source and limitations page |
+| `/en/data-sources` | Public English data-source and limitations page |
 
 ## Requirements
 
@@ -60,6 +62,7 @@ NEXT_PUBLIC_TILE_URL_PRE=http://localhost:8080/tiles/vn_provinces_pre_2025
 NEXT_PUBLIC_TILE_URL_POST=http://localhost:8080/tiles/vn_provinces_post_2025
 NEXT_PUBLIC_TILE_URL_ISLANDS=http://localhost:8080/tiles/vn_offshore_islands
 NEXT_PUBLIC_MAP_STYLE=https://basemaps.cartocdn.com/gl/positron-gl-style/style.json
+NEXT_PUBLIC_TILE_CACHE_BUSTER=
 NEXT_PUBLIC_SITE_URL=http://localhost:3000
 ```
 
@@ -69,6 +72,7 @@ Production tile URL bases:
 NEXT_PUBLIC_TILE_URL_PRE=https://tiles.viettrace.org/tiles/vn_provinces_pre_2025
 NEXT_PUBLIC_TILE_URL_POST=https://tiles.viettrace.org/tiles/vn_provinces_post_2025
 NEXT_PUBLIC_TILE_URL_ISLANDS=https://tiles.viettrace.org/tiles/vn_offshore_islands
+NEXT_PUBLIC_TILE_CACHE_BUSTER=20260509-display
 ```
 
 Do not hardcode tile URLs in source code. Public map config must come from `NEXT_PUBLIC_*` env vars.
@@ -109,6 +113,7 @@ Then use local tile URLs from `.env.sample`.
 | `pnpm lint` | Run ESLint |
 | `pnpm build` | Build production app with standalone output |
 | `pnpm start` | Start production Next.js server |
+| `pnpm data:verify-mergers` | Verify merger metadata names against tile province names |
 | `pnpm knip` | Run dead-code detection |
 
 ## Project Structure
@@ -119,6 +124,8 @@ src/
 │   ├── [locale]/
 │   │   ├── layout.tsx
 │   │   ├── page.tsx
+│   │   ├── data-sources/
+│   │   │   └── page.tsx
 │   │   └── map/
 │   │       ├── page.tsx
 │   │       └── error.tsx
@@ -129,6 +136,7 @@ src/
 │   ├── ProvinceLayer.tsx
 │   ├── MapToggle.tsx
 │   ├── ProvincePopup.tsx
+│   ├── MapDataNotice.tsx
 │   └── MapAttribution.tsx
 ├── libs/i18n/
 ├── locales/
@@ -184,6 +192,7 @@ NEXT_PUBLIC_TILE_URL_PRE=https://tiles.viettrace.org/tiles/vn_provinces_pre_2025
 NEXT_PUBLIC_TILE_URL_POST=https://tiles.viettrace.org/tiles/vn_provinces_post_2025
 NEXT_PUBLIC_TILE_URL_ISLANDS=https://tiles.viettrace.org/tiles/vn_offshore_islands
 NEXT_PUBLIC_MAP_STYLE=https://basemaps.cartocdn.com/gl/positron-gl-style/style.json
+NEXT_PUBLIC_TILE_CACHE_BUSTER=20260509-display
 NEXT_PUBLIC_SITE_URL=https://viettrace.org
 NEXT_PUBLIC_SENTRY_ENABLED=false
 ```
@@ -206,6 +215,7 @@ docker run --rm -p 3002:3000 \
   -e NEXT_PUBLIC_TILE_URL_POST=https://tiles.viettrace.org/tiles/vn_provinces_post_2025 \
   -e NEXT_PUBLIC_TILE_URL_ISLANDS=https://tiles.viettrace.org/tiles/vn_offshore_islands \
   -e NEXT_PUBLIC_MAP_STYLE=https://basemaps.cartocdn.com/gl/positron-gl-style/style.json \
+  -e NEXT_PUBLIC_TILE_CACHE_BUSTER=20260509-display \
   viettrace-map-web:local
 ```
 
@@ -217,6 +227,7 @@ Before finishing meaningful frontend changes:
 
 ```bash
 pnpm lint
+pnpm data:verify-mergers
 ```
 
 Run build for route/config/deployment changes:
@@ -225,7 +236,7 @@ Run build for route/config/deployment changes:
 pnpm build
 ```
 
-On Windows with pnpm, `next build` standalone output may fail during symlink creation under `.next/standalone` unless symlink support is enabled. If that happens, verify through Docker/Linux or an elevated/Developer Mode shell.
+On Windows with pnpm, `next build` can fail on `.next/trace` permission/cache locking or during symlink creation under `.next/standalone`. If that happens, verify through CI, Docker/Linux, a cleared `.next` cache, or an elevated/Developer Mode shell.
 
 For map behavior changes, manually verify:
 
@@ -233,6 +244,9 @@ For map behavior changes, manually verify:
 - Pre-2025 layer is visible by default.
 - Toggle switches to post-2025 layer.
 - Province popup appears on click.
+- Data-source note links to the public localized data-sources page.
+- Data-source note can be closed and reopened from the attribution bar.
+- Report-data link opens the GitHub data issue template.
 - OSM/Viettrace attribution is visible.
 
 ## Releases

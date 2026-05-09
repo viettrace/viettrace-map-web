@@ -21,6 +21,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "data:verify-mergers": "node scripts/verify-merger-info.mjs",
     "release": "release-it",
     "knip": "knip --no-exit-code",
     "knip:fix": "knip --fix",
