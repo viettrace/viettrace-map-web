@@ -1,5 +1,9 @@
 # Changelog
 
+## <small>0.1.3 (2026-05-09)</small>
+
+* feat: enhance map functionality with province search and detail panel (#69) ([c9570df](https://github.com/viettrace/viettrace-map-web/commit/c9570df)), closes [#69](https://github.com/viettrace/viettrace-map-web/issues/69)
+
 ## <small>0.1.2 (2026-05-09)</small>
 
 * refactor: add boundary layer registry and related tests (#68) ([4b39da1](https://github.com/viettrace/viettrace-map-web/commit/4b39da1)), closes [#68](https://github.com/viettrace/viettrace-map-web/issues/68)
