@@ -18,6 +18,11 @@ export function mapViewReducer(state: MapViewState, action: MapViewAction): MapV
       return {
         ...state,
         mode: action.mode,
+        selectedFeature: state.selectedFeature?.mode === action.mode ? state.selectedFeature : null,
+        panels: {
+          ...state.panels,
+          detail: state.selectedFeature?.mode === action.mode ? state.panels.detail : false,
+        },
       };
     case 'setOffshoreIslandsVisible':
       return {
@@ -46,6 +51,7 @@ export function mapViewReducer(state: MapViewState, action: MapViewAction): MapV
     case 'selectFeature':
       return {
         ...state,
+        mode: action.feature?.mode ?? state.mode,
         selectedFeature: action.feature,
         panels: {
           ...state.panels,

@@ -44,14 +44,18 @@ src/features/
 │   └── useMapLibre.ts        # MapLibre instance lifecycle
 ├── map-state/
 │   ├── mapViewReducer.ts     # Shared map view reducer
-│   └── mapViewTypes.ts
-└── boundaries/
+│   ├── mapViewTypes.ts
+│   └── urlState.ts           # Query-param parse/serialize helpers
+├── boundaries/
     ├── boundaryLayerRegistry.ts
     ├── BoundaryLayers.tsx
-    └── ProvinceBoundaryPopup.tsx
+    └── ProvinceBoundaryInteractions.tsx
+├── province-index/           # Static province index types/search/load helpers
+├── province-search/          # Search input and result list
+└── province-detail/          # Shared selected-province detail panel
 ```
 
-New map capabilities should usually start as a feature folder, for example `province-search/`, `province-detail/`, or `compare-tools/`.
+New map capabilities should usually start as a feature folder, for example `compare-tools/`, `admin-search/`, or `place-search/`.
 
 ## Library Layer
 
@@ -62,7 +66,7 @@ src/libs/
 ├── config/publicEnv.ts       # Public env validation
 ├── geo/                      # Slug/search normalization helpers
 ├── i18n/                     # next-intl routing/request integration
-└── maplibre/                 # Source/layer/visibility/tile URL helpers
+└── maplibre/                 # Camera/source/layer/visibility/tile URL helpers
 ```
 
 Code here should be easy to unit test and should not depend on React unless there is a clear reason.
@@ -74,12 +78,13 @@ Static/generated frontend data lives in `public/data/`:
 ```txt
 public/data/
 ├── merger-info.json
+├── province-index.json
 ├── province-labels-pre.json
 ├── province-labels-post.json
 └── offshore-island-labels.json
 ```
 
-Phase 3 will add `province-index.json` as the first search/detail contract. Search and detail UX should read generated JSON, not rendered vector tiles.
+`province-index.json` is generated from display-safe pre/post GeoJSON plus merger metadata. Search, detail, and URL restore read generated JSON, not rendered vector tiles.
 
 ## Verification
 

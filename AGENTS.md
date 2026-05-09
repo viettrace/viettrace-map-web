@@ -27,7 +27,9 @@ M2 frontend map MVP is complete. The app currently supports:
 - `/vi/map` and `/en/map` map pages.
 - MapLibre map centered on Vietnam.
 - Toggle between pre-2025 63-province and post-2025 34-province layers.
-- Province click popup with static merger metadata.
+- Province search/fly-to from a generated static province index.
+- Shared selected-province detail panel opened from search or map click.
+- Shareable URL state with `mode` and province slug query params.
 - Province labels from static GeoJSON label files.
 - OSM/Viettrace attribution.
 - SEO metadata and dynamic Open Graph image.
@@ -46,6 +48,8 @@ pnpm lint
 pnpm test:unit
 pnpm build
 pnpm start
+pnpm data:generate-index
+pnpm data:verify-index
 pnpm knip
 ```
 
@@ -89,18 +93,23 @@ Notes:
 | `src/features/map-state/mapViewReducer.ts` | Shared map view state reducer |
 | `src/features/boundaries/boundaryLayerRegistry.ts` | Vector/GeoJSON source and layer registry |
 | `src/features/boundaries/BoundaryLayers.tsx` | Boundary source/layer registration and visibility sync |
-| `src/features/boundaries/ProvinceBoundaryPopup.tsx` | Temporary province click popup and merger metadata lookup |
+| `src/features/boundaries/ProvinceBoundaryInteractions.tsx` | Map click and hover interactions for province selection |
+| `src/features/province-index/` | Static province index types, loader, search, and lookup helpers |
+| `src/features/province-search/ProvinceSearch.tsx` | Province search and fly-to UI |
+| `src/features/province-detail/ProvinceDetailPanel.tsx` | Shared selected-province detail panel |
+| `src/features/map-state/urlState.ts` | URL state parse/serialize helpers for shareable map state |
 | `src/components/Map/MapToggle.tsx` | Before/after toggle UI |
 | `src/components/Map/MapDataNotice.tsx` | Public data note, data-source page link, and data issue entry point |
 | `src/components/Map/MapAttribution.tsx` | OSM and Viettrace attribution |
 | `src/libs/config/publicEnv.ts` | Public env validation for map config |
-| `src/libs/maplibre/` | Small MapLibre helpers for sources, layers, visibility, and tile URLs |
+| `src/libs/maplibre/` | Small MapLibre helpers for camera, sources, layers, visibility, and tile URLs |
 | `src/libs/i18n/routing.ts` | next-intl routing config, locales `en` and `vi` |
 | `src/libs/i18n/request.ts` | next-intl message loading |
 | `src/locales/en.json` | English copy |
 | `src/locales/vi.json` | Vietnamese copy |
 | `src/styles/globals.css` | Tailwind CSS 4 entry and theme variables |
 | `public/data/merger-info.json` | Static province merger metadata |
+| `public/data/province-index.json` | Generated province search/detail/camera index |
 | `public/data/province-labels-pre.json` | Static pre-2025 label points |
 | `public/data/province-labels-post.json` | Static post-2025 label points |
 | `public/data/offshore-island-labels.json` | Static offshore island label points |
@@ -148,6 +157,7 @@ Rules:
 - Source-layer names must be exactly `vn_provinces_pre_2025` and `vn_provinces_post_2025`.
 - Default map center is `[105.8, 21.0]`; default zoom is `5`.
 - Toggle layer visibility with `map.setLayoutProperty(layerId, 'visibility', ...)` instead of recreating sources.
+- Search/detail/URL restore must read `public/data/province-index.json`; do not depend on currently rendered vector tiles for search data.
 - Preserve required attribution: `© OpenStreetMap contributors`, `© geoBoundaries www.geoboundaries.org` for offshore islands, and `© Viettrace`.
 
 ## Tile Source Rules
