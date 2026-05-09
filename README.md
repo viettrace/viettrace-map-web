@@ -2,17 +2,19 @@
 
 Interactive web map for Viettrace, built with Next.js and MapLibre GL.
 
-Viettrace compares Vietnam province/city administrative boundaries before and after the July 2025 merger from 63 provinces to 34 provinces. This frontend renders the map UI, before/after toggle, province popups, labels, attribution, SEO metadata, and production Docker build.
+Viettrace compares Vietnam province/city administrative boundaries before and after the July 2025 merger from 63 provinces to 34 provinces. This frontend renders the map UI, before/after toggle, province search/fly-to, selected-province detail panel, shareable URL state, labels, attribution, SEO metadata, and production Docker build.
 
 ## Current Status
 
-The frontend MVP is complete. Phase 3A-0 frontend architecture foundation is also in place for search/detail/shareable-state work.
+The frontend MVP is complete. Immediate Post-MVP Phase 3 UX utility is also complete.
 
 | Area | Status |
 |---|---|
 | MapLibre map | Complete |
 | 63/34 province toggle | Complete |
-| Province popup | Complete |
+| Province search/fly-to | Complete |
+| Province detail panel | Complete |
+| Shareable URL state | Complete |
 | Static merger metadata | Complete |
 | i18n `vi`/`en` | Complete |
 | SEO/Open Graph | Complete |
@@ -114,7 +116,9 @@ Then use local tile URLs from `.env.sample`.
 | `pnpm test:unit` | Run Vitest unit tests for map/data utility contracts |
 | `pnpm build` | Build production app with standalone output |
 | `pnpm start` | Start production Next.js server |
+| `pnpm data:generate-index` | Regenerate `public/data/province-index.json` from display-safe GeoJSON and merger metadata |
 | `pnpm data:generate-labels` | Regenerate province label points from `../viettrace-data` |
+| `pnpm data:verify-index` | Verify province index counts, slugs, camera data, and merger metadata references |
 | `pnpm data:verify-mergers` | Verify merger metadata names against tile province names |
 | `pnpm knip` | Run dead-code detection |
 
@@ -141,7 +145,10 @@ src/
 ├── features/
 │   ├── map-shell/
 │   ├── map-state/
-│   └── boundaries/
+│   ├── boundaries/
+│   ├── province-index/
+│   ├── province-search/
+│   └── province-detail/
 ├── libs/
 │   ├── config/
 │   ├── geo/
@@ -152,8 +159,10 @@ src/
 
 public/data/
 ├── merger-info.json
+├── province-index.json
 ├── province-labels-pre.json
-└── province-labels-post.json
+├── province-labels-post.json
+└── offshore-island-labels.json
 ```
 
 ## Map Data
@@ -169,6 +178,7 @@ Vector tiles are served by Martin from PostGIS through `https://tiles.viettrace.
 Static frontend metadata lives in `public/data/`:
 
 - `merger-info.json`: old province to new province mappings.
+- `province-index.json`: generated search/detail/camera index from display-safe province GeoJSON.
 - `province-labels-pre.json`: label points for pre-2025 provinces.
 - `province-labels-post.json`: label points for post-2025 provinces.
 - `offshore-island-labels.json`: label points for Hoàng Sa and Trường Sa reference layer.
@@ -236,6 +246,7 @@ Before finishing meaningful frontend changes:
 ```bash
 pnpm lint
 pnpm test:unit
+pnpm data:verify-index
 pnpm data:verify-mergers
 ```
 
@@ -252,7 +263,10 @@ For map behavior changes, manually verify:
 - `/vi/map` loads.
 - Pre-2025 layer is visible by default.
 - Toggle switches to post-2025 layer.
-- Province popup appears on click.
+- Search finds province names with and without Vietnamese accents.
+- Selecting a search result switches mode when needed and fits the map to the province.
+- Province detail panel opens from both search and map click.
+- URL state restores from links such as `/vi/map?mode=pre&province=ha-giang`.
 - Data-source note links to the public localized data-sources page.
 - Data-source note can be closed and reopened from the attribution bar.
 - Report-data link opens the GitHub data issue template.

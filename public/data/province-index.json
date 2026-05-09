@@ -1,0 +1,1924 @@
+{
+  "schemaVersion": 1,
+  "sources": {
+    "mergerInfo": "public/data/merger-info.json",
+    "post": "processed/provinces/vn_post_2025_display.geojson",
+    "pre": "processed/provinces/vn_pre_2025_display.geojson"
+  },
+  "counts": {
+    "post": 34,
+    "pre": 63,
+    "total": 97
+  },
+  "provinces": [
+    {
+      "bbox": [
+        104.778453,
+        10.18346,
+        105.575616,
+        10.962291
+      ],
+      "center": [
+        105.231282,
+        10.539206
+      ],
+      "id": "pre:an-giang",
+      "mode": "pre",
+      "name": "Tỉnh An Giang",
+      "name_en": "An Giang Province",
+      "slug": "an-giang"
+    },
+    {
+      "bbox": [
+        105.976939,
+        8.345688,
+        108.431121,
+        10.804943
+      ],
+      "center": [
+        107.328436,
+        10.57388
+      ],
+      "id": "pre:ba-ria-vung-tau",
+      "mode": "pre",
+      "name": "Tỉnh Bà Rịa - Vũng Tàu",
+      "name_en": "Bà Rịa - Vũng Tàu Province",
+      "slug": "ba-ria-vung-tau",
+      "merger": {
+        "mergeDate": "2025-07-01",
+        "newProvince": "Thành phố Hồ Chí Minh"
+      }
+    },
+    {
+      "bbox": [
+        105.880575,
+        21.121951,
+        107.033577,
+        21.626273
+      ],
+      "center": [
+        106.437985,
+        21.316962
+      ],
+      "id": "pre:bac-giang",
+      "mode": "pre",
+      "name": "Tỉnh Bắc Giang",
+      "name_en": "Bắc Giang Province",
+      "slug": "bac-giang",
+      "merger": {
+        "mergeDate": "2025-07-01",
+        "newProvince": "Tỉnh Bắc Ninh"
+      }
+    },
+    {
+      "bbox": [
+        105.431119,
+        21.804335,
+        106.246998,
+        22.741376
+      ],
+      "center": [
+        105.820444,
+        22.25717
+      ],
+      "id": "pre:bac-kan",
+      "mode": "pre",
+      "name": "Tỉnh Bắc Kạn",
+      "name_en": "Bắc Kạn Province",
+      "slug": "bac-kan",
+      "merger": {
+        "mergeDate": "2025-07-01",
+        "newProvince": "Tỉnh Thái Nguyên"
+      }
+    },
+    {
+      "bbox": [
+        105.232367,
+        8.291231,
+        106.055304,
+        9.63755
+      ],
+      "center": [
+        105.509946,
+        9.329834
+      ],
+      "id": "pre:bac-lieu",
+      "mode": "pre",
+      "name": "Tỉnh Bạc Liêu",
+      "name_en": "Bạc Liêu Province",
+      "slug": "bac-lieu",
+      "merger": {
+        "mergeDate": "2025-07-01",
+        "newProvince": "Tỉnh Cà Mau"
+      }
+    },
+    {
+      "bbox": [
+        105.904097,
+        20.969118,
+        106.310746,
+        21.264115
+      ],
+      "center": [
+        106.126477,
+        21.095582
+      ],
+      "id": "pre:bac-ninh",
+      "mode": "pre",
+      "name": "Tỉnh Bắc Ninh",
+      "name_en": "Bắc Ninh Province",
+      "slug": "bac-ninh"
+    },
+    {
+      "bbox": [
+        106.027516,
+        9.427286,
+        106.993372,
+        10.340332
+      ],
+      "center": [
+        106.481156,
+        10.109364
+      ],
+      "id": "pre:ben-tre",
+      "mode": "pre",
+      "name": "Tỉnh Bến Tre",
+      "name_en": "Bến Tre Province",
+      "slug": "ben-tre",
+      "merger": {
+        "mergeDate": "2025-07-01",
+        "newProvince": "Tỉnh Vĩnh Long"
+      }
+    },
+    {
+      "bbox": [
+        108.601195,
+        13.515217,
+        109.584921,
+        14.703202
+      ],
+      "center": [
+        108.98988,
+        14.077938
+      ],
+      "id": "pre:binh-dinh",
+      "mode": "pre",
+      "name": "Tỉnh Bình Định",
+      "name_en": "Bình Định Province",
+      "slug": "binh-dinh",
+      "merger": {
+        "mergeDate": "2025-07-01",
+        "newProvince": "Tỉnh Gia Lai"
+      }
+    },
+    {
+      "bbox": [
+        106.327335,
+        10.863459,
+        106.966694,
+        11.501589
+      ],
+      "center": [
+        106.703174,
+        11.183655
+      ],
+      "id": "pre:binh-duong",
+      "mode": "pre",
+      "name": "Tỉnh Bình Dương",
+      "name_en": "Bình Dương Province",
+      "slug": "binh-duong",
+      "merger": {
+        "mergeDate": "2025-07-01",
+        "newProvince": "Thành phố Hồ Chí Minh"
+      }
+    },
+    {
+      "bbox": [
+        106.411611,
+        11.301586,
+        107.427137,
+        12.298455
+      ],
+      "center": [
+        106.926647,
+        11.754323
+      ],
+      "id": "pre:binh-phuoc",
+      "mode": "pre",
+      "name": "Tỉnh Bình Phước",
+      "name_en": "Bình Phước Province",
+      "slug": "binh-phuoc",
+      "merger": {
+        "mergeDate": "2025-07-01",
+        "newProvince": "Tỉnh Đồng Nai"
+      }
+    },
+    {
+      "bbox": [
+        107.394199,
+        9.378023,
+        109.401926,
+        11.556079
+      ],
+      "center": [
+        108.183293,
+        11.104157
+      ],
+      "id": "pre:binh-thuan",
+      "mode": "pre",
+      "name": "Tỉnh Bình Thuận",
+      "name_en": "Bình Thuận Province",
+      "slug": "binh-thuan",
+      "merger": {
+        "mergeDate": "2025-07-01",
+        "newProvince": "Tỉnh Lâm Đồng"
+      }
+    },
+    {
+      "bbox": [
+        103.482115,
+        8.179066,
+        105.673861,
+        9.561434
+      ],
+      "center": [
+        105.086972,
+        9.018018
+      ],
+      "id": "pre:ca-mau",
+      "mode": "pre",
+      "name": "Tỉnh Cà Mau",
+      "name_en": "Cà Mau Province",
+      "slug": "ca-mau"
+    },
+    {
+      "bbox": [
+        105.225678,
+        9.91953,
+        105.845472,
+        10.325209
+      ],
+      "center": [
+        105.787582,
+        10.036463
+      ],
+      "id": "pre:can-tho",
+      "mode": "pre",
+      "name": "Thành phố Cần Thơ",
+      "name_en": "Cần Thơ",
+      "slug": "can-tho"
+    },
+    {
+      "bbox": [
+        105.266713,
+        22.356923,
+        106.837646,
+        23.118795
+      ],
+      "center": [
+        106.106093,
+        22.742694
+      ],
+      "id": "pre:cao-bang",
+      "mode": "pre",
+      "name": "Tỉnh Cao Bằng",
+      "name_en": "Cao Bằng Province",
+      "slug": "cao-bang"
+    },
+    {
+      "bbox": [
+        107.818539,
+        15.91799,
+        108.656375,
+        16.334009
+      ],
+      "center": [
+        108.212,
+        16.068
+      ],
+      "id": "pre:da-nang",
+      "mode": "pre",
+      "name": "Thành phố Đà Nẵng",
+      "name_en": "Đà Nẵng",
+      "slug": "da-nang"
+    },
+    {
+      "bbox": [
+        107.48422,
+        12.160529,
+        108.995769,
+        13.41665
+      ],
+      "center": [
+        108.299906,
+        12.829227
+      ],
+      "id": "pre:dak-lak",
+      "mode": "pre",
+      "name": "Tỉnh Đắk Lắk",
+      "name_en": "Đắk Lắk Province",
+      "slug": "dak-lak"
+    },
+    {
+      "bbox": [
+        107.206129,
+        11.748872,
+        108.116383,
+        12.812519
+      ],
+      "center": [
+        107.730248,
+        12.281885
+      ],
+      "id": "pre:dak-nong",
+      "mode": "pre",
+      "name": "Tỉnh Đắk Nông",
+      "name_en": "Đắk Nông Province",
+      "slug": "dak-nong",
+      "merger": {
+        "mergeDate": "2025-07-01",
+        "newProvince": "Tỉnh Lâm Đồng"
+      }
+    },
+    {
+      "bbox": [
+        102.143864,
+        20.892692,
+        103.598795,
+        22.547925
+      ],
+      "center": [
+        103.216863,
+        21.654657
+      ],
+      "id": "pre:dien-bien",
+      "mode": "pre",
+      "name": "Tỉnh Điện Biên",
+      "name_en": "Điện Biên Province",
+      "slug": "dien-bien"
+    },
+    {
+      "bbox": [
+        106.751168,
+        10.579208,
+        107.577849,
+        11.581976
+      ],
+      "center": [
+        107.188108,
+        11.035562
+      ],
+      "id": "pre:dong-nai",
+      "mode": "pre",
+      "name": "Tỉnh Đồng Nai",
+      "name_en": "Đồng Nai Province",
+      "slug": "dong-nai"
+    },
+    {
+      "bbox": [
+        105.185576,
+        10.134769,
+        105.941897,
+        10.973467
+      ],
+      "center": [
+        105.680234,
+        10.590424
+      ],
+      "id": "pre:dong-thap",
+      "mode": "pre",
+      "name": "Tỉnh Đồng Tháp",
+      "name_en": "Đồng Tháp Province",
+      "slug": "dong-thap"
+    },
+    {
+      "bbox": [
+        107.450822,
+        12.996166,
+        108.873318,
+        14.603162
+      ],
+      "center": [
+        108.200401,
+        13.817744
+      ],
+      "id": "pre:gia-lai",
+      "mode": "pre",
+      "name": "Tỉnh Gia Lai",
+      "name_en": "Gia Lai Province",
+      "slug": "gia-lai"
+    },
+    {
+      "bbox": [
+        104.334342,
+        22.16556,
+        105.574107,
+        23.392692
+      ],
+      "center": [
+        105.002727,
+        22.73361
+      ],
+      "id": "pre:ha-giang",
+      "mode": "pre",
+      "name": "Tỉnh Hà Giang",
+      "name_en": "Hà Giang Province",
+      "slug": "ha-giang",
+      "merger": {
+        "mergeDate": "2025-07-01",
+        "newProvince": "Tỉnh Tuyên Quang"
+      }
+    },
+    {
+      "bbox": [
+        105.769011,
+        20.36286,
+        106.183224,
+        20.704382
+      ],
+      "center": [
+        105.992805,
+        20.539769
+      ],
+      "id": "pre:ha-nam",
+      "mode": "pre",
+      "name": "Tỉnh Hà Nam",
+      "name_en": "Hà Nam Province",
+      "slug": "ha-nam",
+      "merger": {
+        "mergeDate": "2025-07-01",
+        "newProvince": "Tỉnh Ninh Bình"
+      }
+    },
+    {
+      "bbox": [
+        105.288961,
+        20.564515,
+        106.020072,
+        21.385418
+      ],
+      "center": [
+        105.854041,
+        21.028333
+      ],
+      "id": "pre:ha-noi",
+      "mode": "pre",
+      "name": "Thành phố Hà Nội",
+      "name_en": "Hà Nội",
+      "slug": "ha-noi"
+    },
+    {
+      "bbox": [
+        105.103468,
+        17.909602,
+        106.753701,
+        18.767
+      ],
+      "center": [
+        105.762305,
+        18.350483
+      ],
+      "id": "pre:ha-tinh",
+      "mode": "pre",
+      "name": "Tỉnh Hà Tĩnh",
+      "name_en": "Hà Tĩnh Province",
+      "slug": "ha-tinh"
+    },
+    {
+      "bbox": [
+        106.124227,
+        20.68358,
+        106.611014,
+        21.236993
+      ],
+      "center": [
+        106.372544,
+        20.893057
+      ],
+      "id": "pre:hai-duong",
+      "mode": "pre",
+      "name": "Tỉnh Hải Dương",
+      "name_en": "Hải Dương Province",
+      "slug": "hai-duong",
+      "merger": {
+        "mergeDate": "2025-07-01",
+        "newProvince": "Thành phố Hải Phòng"
+      }
+    },
+    {
+      "bbox": [
+        106.400548,
+        19.926582,
+        107.951122,
+        21.020324
+      ],
+      "center": [
+        106.674959,
+        20.858864
+      ],
+      "id": "pre:hai-phong",
+      "mode": "pre",
+      "name": "Thành phố Hải Phòng",
+      "name_en": "Hải Phòng",
+      "slug": "hai-phong"
+    },
+    {
+      "bbox": [
+        105.328525,
+        9.582151,
+        105.896806,
+        9.994168
+      ],
+      "center": [
+        105.637952,
+        9.798506
+      ],
+      "id": "pre:hau-giang",
+      "mode": "pre",
+      "name": "Tỉnh Hậu Giang",
+      "name_en": "Hậu Giang Province",
+      "slug": "hau-giang",
+      "merger": {
+        "mergeDate": "2025-07-01",
+        "newProvince": "Thành phố Cần Thơ"
+      }
+    },
+    {
+      "bbox": [
+        106.356701,
+        10.139946,
+        107.027671,
+        11.160308
+      ],
+      "center": [
+        106.701139,
+        10.77639
+      ],
+      "id": "pre:ho-chi-minh",
+      "mode": "pre",
+      "name": "Thành phố Hồ Chí Minh",
+      "name_en": "Ho Chi Minh City",
+      "slug": "ho-chi-minh"
+    },
+    {
+      "bbox": [
+        104.836475,
+        20.305359,
+        105.857148,
+        21.112769
+      ],
+      "center": [
+        105.375995,
+        20.676337
+      ],
+      "id": "pre:hoa-binh",
+      "mode": "pre",
+      "name": "Tỉnh Hòa Bình",
+      "name_en": "Hòa Bình Province",
+      "slug": "hoa-binh",
+      "merger": {
+        "mergeDate": "2025-07-01",
+        "newProvince": "Tỉnh Phú Thọ"
+      }
+    },
+    {
+      "bbox": [
+        107.034344,
+        15.994931,
+        108.480583,
+        17.110914
+      ],
+      "center": [
+        107.586339,
+        16.463932
+      ],
+      "id": "pre:hue",
+      "mode": "pre",
+      "name": "Thành phố Huế",
+      "name_en": "Huế",
+      "slug": "hue"
+    },
+    {
+      "bbox": [
+        105.895325,
+        20.603096,
+        106.269528,
+        21.00699
+      ],
+      "center": [
+        106.069902,
+        20.783391
+      ],
+      "id": "pre:hung-yen",
+      "mode": "pre",
+      "name": "Tỉnh Hưng Yên",
+      "name_en": "Hưng Yên Province",
+      "slug": "hung-yen"
+    },
+    {
+      "bbox": [
+        108.668593,
+        11.707287,
+        109.670985,
+        12.868524
+      ],
+      "center": [
+        108.995039,
+        12.298075
+      ],
+      "id": "pre:khanh-hoa",
+      "mode": "pre",
+      "name": "Tỉnh Khánh Hòa",
+      "name_en": "Khánh Hòa Province",
+      "slug": "khanh-hoa"
+    },
+    {
+      "bbox": [
+        103.052243,
+        8.994556,
+        105.539397,
+        10.540015
+      ],
+      "center": [
+        105.243525,
+        9.990496
+      ],
+      "id": "pre:kien-giang",
+      "mode": "pre",
+      "name": "Tỉnh Kiên Giang",
+      "name_en": "Kiên Giang Province",
+      "slug": "kien-giang",
+      "merger": {
+        "mergeDate": "2025-07-01",
+        "newProvince": "Tỉnh An Giang"
+      }
+    },
+    {
+      "bbox": [
+        107.335381,
+        13.921679,
+        108.547168,
+        15.417594
+      ],
+      "center": [
+        107.932383,
+        14.699537
+      ],
+      "id": "pre:kon-tum",
+      "mode": "pre",
+      "name": "Tỉnh Kon Tum",
+      "name_en": "Kon Tum Province",
+      "slug": "kon-tum",
+      "merger": {
+        "mergeDate": "2025-07-01",
+        "newProvince": "Tỉnh Quảng Ngãi"
+      }
+    },
+    {
+      "bbox": [
+        102.32053,
+        21.686079,
+        103.985835,
+        22.813929
+      ],
+      "center": [
+        103.179866,
+        22.292167
+      ],
+      "id": "pre:lai-chau",
+      "mode": "pre",
+      "name": "Tỉnh Lai Châu",
+      "name_en": "Lai Châu Province",
+      "slug": "lai-chau"
+    },
+    {
+      "bbox": [
+        107.265731,
+        11.215373,
+        108.728737,
+        12.31737
+      ],
+      "center": [
+        108.133528,
+        11.661496
+      ],
+      "id": "pre:lam-dong",
+      "mode": "pre",
+      "name": "Tỉnh Lâm Đồng",
+      "name_en": "Lâm Đồng Province",
+      "slug": "lam-dong"
+    },
+    {
+      "bbox": [
+        106.09538,
+        21.32515,
+        107.364095,
+        22.461457
+      ],
+      "center": [
+        106.614069,
+        21.848758
+      ],
+      "id": "pre:lang-son",
+      "mode": "pre",
+      "name": "Tỉnh Lạng Sơn",
+      "name_en": "Lạng Sơn Province",
+      "slug": "lang-son"
+    },
+    {
+      "bbox": [
+        103.529434,
+        21.875806,
+        104.628655,
+        22.844915
+      ],
+      "center": [
+        104.182959,
+        22.30693
+      ],
+      "id": "pre:lao-cai",
+      "mode": "pre",
+      "name": "Tỉnh Lào Cai",
+      "name_en": "Lào Cai Province",
+      "slug": "lao-cai"
+    },
+    {
+      "bbox": [
+        105.500368,
+        10.394833,
+        106.747241,
+        11.032209
+      ],
+      "center": [
+        106.188352,
+        10.698397
+      ],
+      "id": "pre:long-an",
+      "mode": "pre",
+      "name": "Tỉnh Long An",
+      "name_en": "Long An Province",
+      "slug": "long-an",
+      "merger": {
+        "mergeDate": "2025-07-01",
+        "newProvince": "Tỉnh Tây Ninh"
+      }
+    },
+    {
+      "bbox": [
+        105.923997,
+        19.490049,
+        106.952378,
+        20.499194
+      ],
+      "center": [
+        106.228908,
+        20.268648
+      ],
+      "id": "pre:nam-dinh",
+      "mode": "pre",
+      "name": "Tỉnh Nam Định",
+      "name_en": "Nam Định Province",
+      "slug": "nam-dinh",
+      "merger": {
+        "mergeDate": "2025-07-01",
+        "newProvince": "Tỉnh Ninh Bình"
+      }
+    },
+    {
+      "bbox": [
+        103.874555,
+        18.552117,
+        106.264507,
+        20.00235
+      ],
+      "center": [
+        105.060676,
+        19.1976
+      ],
+      "id": "pre:nghe-an",
+      "mode": "pre",
+      "name": "Tỉnh Nghệ An",
+      "name_en": "Nghệ An Province",
+      "slug": "nghe-an"
+    },
+    {
+      "bbox": [
+        105.541696,
+        19.411075,
+        106.349944,
+        20.454709
+      ],
+      "center": [
+        105.928068,
+        20.205105
+      ],
+      "id": "pre:ninh-binh",
+      "mode": "pre",
+      "name": "Tỉnh Ninh Bình",
+      "name_en": "Ninh Bình Province",
+      "slug": "ninh-binh"
+    },
+    {
+      "bbox": [
+        108.551474,
+        10.763084,
+        109.537373,
+        12.164784
+      ],
+      "center": [
+        108.892848,
+        11.696564
+      ],
+      "id": "pre:ninh-thuan",
+      "mode": "pre",
+      "name": "Tỉnh Ninh Thuận",
+      "name_en": "Ninh Thuận Province",
+      "slug": "ninh-thuan",
+      "merger": {
+        "mergeDate": "2025-07-01",
+        "newProvince": "Tỉnh Khánh Hòa"
+      }
+    },
+    {
+      "bbox": [
+        104.814289,
+        20.917027,
+        105.456822,
+        21.719645
+      ],
+      "center": [
+        105.13496,
+        21.300754
+      ],
+      "id": "pre:phu-tho",
+      "mode": "pre",
+      "name": "Tỉnh Phú Thọ",
+      "name_en": "Phú Thọ Province",
+      "slug": "phu-tho"
+    },
+    {
+      "bbox": [
+        108.672538,
+        12.704963,
+        109.666548,
+        13.695333
+      ],
+      "center": [
+        109.127368,
+        13.191263
+      ],
+      "id": "pre:phu-yen",
+      "mode": "pre",
+      "name": "Tỉnh Phú Yên",
+      "name_en": "Phú Yên Province",
+      "slug": "phu-yen",
+      "merger": {
+        "mergeDate": "2025-07-01",
+        "newProvince": "Tỉnh Đắk Lắk"
+      }
+    },
+    {
+      "bbox": [
+        105.607675,
+        16.921025,
+        107.296115,
+        18.131583
+      ],
+      "center": [
+        106.400445,
+        17.509599
+      ],
+      "id": "pre:quang-binh",
+      "mode": "pre",
+      "name": "Tỉnh Quảng Bình",
+      "name_en": "Quảng Bình Province",
+      "slug": "quang-binh",
+      "merger": {
+        "mergeDate": "2025-07-01",
+        "newProvince": "Tỉnh Quảng Trị"
+      }
+    },
+    {
+      "bbox": [
+        107.210916,
+        14.951353,
+        109.023557,
+        16.166317
+      ],
+      "center": [
+        108.052713,
+        15.57617
+      ],
+      "id": "pre:quang-nam",
+      "mode": "pre",
+      "name": "Tỉnh Quảng Nam",
+      "name_en": "Quảng Nam Province",
+      "slug": "quang-nam",
+      "merger": {
+        "mergeDate": "2025-07-01",
+        "newProvince": "Thành phố Đà Nẵng"
+      }
+    },
+    {
+      "bbox": [
+        108.235489,
+        14.532607,
+        109.463235,
+        15.797288
+      ],
+      "center": [
+        108.691729,
+        14.995374
+      ],
+      "id": "pre:quang-ngai",
+      "mode": "pre",
+      "name": "Tỉnh Quảng Ngãi",
+      "name_en": "Quảng Ngãi Province",
+      "slug": "quang-ngai"
+    },
+    {
+      "bbox": [
+        106.439154,
+        20.464566,
+        108.208611,
+        21.663531
+      ],
+      "center": [
+        107.201274,
+        21.171805
+      ],
+      "id": "pre:quang-ninh",
+      "mode": "pre",
+      "name": "Tỉnh Quảng Ninh",
+      "name_en": "Quảng Ninh Province",
+      "slug": "quang-ninh"
+    },
+    {
+      "bbox": [
+        106.514295,
+        16.302194,
+        107.691968,
+        17.527021
+      ],
+      "center": [
+        106.979743,
+        16.789781
+      ],
+      "id": "pre:quang-tri",
+      "mode": "pre",
+      "name": "Tỉnh Quảng Trị",
+      "name_en": "Quảng Trị Province",
+      "slug": "quang-tri"
+    },
+    {
+      "bbox": [
+        105.544006,
+        8.702505,
+        106.453844,
+        9.938067
+      ],
+      "center": [
+        105.949399,
+        9.562837
+      ],
+      "id": "pre:soc-trang",
+      "mode": "pre",
+      "name": "Tỉnh Sóc Trăng",
+      "name_en": "Sóc Trăng Province",
+      "slug": "soc-trang",
+      "merger": {
+        "mergeDate": "2025-07-01",
+        "newProvince": "Thành phố Cần Thơ"
+      }
+    },
+    {
+      "bbox": [
+        103.212256,
+        20.573004,
+        105.025307,
+        22.030704
+      ],
+      "center": [
+        104.157594,
+        21.227677
+      ],
+      "id": "pre:son-la",
+      "mode": "pre",
+      "name": "Tỉnh Sơn La",
+      "name_en": "Sơn La Province",
+      "slug": "son-la"
+    },
+    {
+      "bbox": [
+        105.80839,
+        10.962848,
+        106.490526,
+        11.782853
+      ],
+      "center": [
+        106.162693,
+        11.401937
+      ],
+      "id": "pre:tay-ninh",
+      "mode": "pre",
+      "name": "Tỉnh Tây Ninh",
+      "name_en": "Tây Ninh Province",
+      "slug": "tay-ninh"
+    },
+    {
+      "bbox": [
+        106.10967,
+        20.077155,
+        107.119285,
+        20.728989
+      ],
+      "center": [
+        106.387607,
+        20.529683
+      ],
+      "id": "pre:thai-binh",
+      "mode": "pre",
+      "name": "Tỉnh Thái Bình",
+      "name_en": "Thái Bình Province",
+      "slug": "thai-binh",
+      "merger": {
+        "mergeDate": "2025-07-01",
+        "newProvince": "Tỉnh Hưng Yên"
+      }
+    },
+    {
+      "bbox": [
+        105.477505,
+        21.326483,
+        106.237981,
+        22.047867
+      ],
+      "center": [
+        105.835139,
+        21.64985
+      ],
+      "id": "pre:thai-nguyen",
+      "mode": "pre",
+      "name": "Tỉnh Thái Nguyên",
+      "name_en": "Thái Nguyên Province",
+      "slug": "thai-nguyen"
+    },
+    {
+      "bbox": [
+        104.375953,
+        19.187467,
+        106.269077,
+        20.669988
+      ],
+      "center": [
+        105.481611,
+        19.978157
+      ],
+      "id": "pre:thanh-hoa",
+      "mode": "pre",
+      "name": "Tỉnh Thanh Hóa",
+      "name_en": "Thanh Hóa Province",
+      "slug": "thanh-hoa"
+    },
+    {
+      "bbox": [
+        105.815766,
+        10.139946,
+        106.993372,
+        10.587008
+      ],
+      "center": [
+        106.361633,
+        10.403037
+      ],
+      "id": "pre:tien-giang",
+      "mode": "pre",
+      "name": "Tỉnh Tiền Giang",
+      "name_en": "Tiền Giang Province",
+      "slug": "tien-giang",
+      "merger": {
+        "mergeDate": "2025-07-01",
+        "newProvince": "Tỉnh Đồng Tháp"
+      }
+    },
+    {
+      "bbox": [
+        105.95308,
+        9.080059,
+        106.872272,
+        10.082234
+      ],
+      "center": [
+        106.325681,
+        9.8038
+      ],
+      "id": "pre:tra-vinh",
+      "mode": "pre",
+      "name": "Tỉnh Trà Vinh",
+      "name_en": "Trà Vinh Province",
+      "slug": "tra-vinh",
+      "merger": {
+        "mergeDate": "2025-07-01",
+        "newProvince": "Tỉnh Vĩnh Long"
+      }
+    },
+    {
+      "bbox": [
+        104.848598,
+        21.497589,
+        105.598308,
+        22.69597
+      ],
+      "center": [
+        105.258411,
+        22.07478
+      ],
+      "id": "pre:tuyen-quang",
+      "mode": "pre",
+      "name": "Tỉnh Tuyên Quang",
+      "name_en": "Tuyên Quang Province",
+      "slug": "tuyen-quang"
+    },
+    {
+      "bbox": [
+        105.681872,
+        9.882984,
+        106.289637,
+        10.331538
+      ],
+      "center": [
+        106.01257,
+        10.120304
+      ],
+      "id": "pre:vinh-long",
+      "mode": "pre",
+      "name": "Tỉnh Vĩnh Long",
+      "name_en": "Vĩnh Long Province",
+      "slug": "vinh-long"
+    },
+    {
+      "bbox": [
+        105.322481,
+        21.155584,
+        105.786565,
+        21.573798
+      ],
+      "center": [
+        105.575829,
+        21.377869
+      ],
+      "id": "pre:vinh-phuc",
+      "mode": "pre",
+      "name": "Tỉnh Vĩnh Phúc",
+      "name_en": "Vĩnh Phúc Province",
+      "slug": "vinh-phuc",
+      "merger": {
+        "mergeDate": "2025-07-01",
+        "newProvince": "Tỉnh Phú Thọ"
+      }
+    },
+    {
+      "bbox": [
+        103.886237,
+        21.32592,
+        105.100381,
+        22.291865
+      ],
+      "center": [
+        104.663122,
+        21.826868
+      ],
+      "id": "pre:yen-bai",
+      "mode": "pre",
+      "name": "Tỉnh Yên Bái",
+      "name_en": "Yên Bái Province",
+      "slug": "yen-bai",
+      "merger": {
+        "mergeDate": "2025-07-01",
+        "newProvince": "Tỉnh Lào Cai"
+      }
+    },
+    {
+      "bbox": [
+        103.052243,
+        8.994556,
+        105.575616,
+        10.962291
+      ],
+      "center": [
+        105.434439,
+        10.390354
+      ],
+      "id": "post:an-giang",
+      "mode": "post",
+      "name": "Tỉnh An Giang",
+      "name_en": "An Giang Province",
+      "slug": "an-giang",
+      "merger": {
+        "mergeDate": "2025-07-01",
+        "oldProvinces": [
+          "Tỉnh Kiên Giang"
+        ]
+      }
+    },
+    {
+      "bbox": [
+        105.880575,
+        20.969332,
+        107.033577,
+        21.626273
+      ],
+      "center": [
+        106.462526,
+        21.328217
+      ],
+      "id": "post:bac-ninh",
+      "mode": "post",
+      "name": "Tỉnh Bắc Ninh",
+      "name_en": "Bắc Ninh Province",
+      "slug": "bac-ninh",
+      "merger": {
+        "mergeDate": "2025-07-01",
+        "oldProvinces": [
+          "Tỉnh Bắc Giang"
+        ]
+      }
+    },
+    {
+      "bbox": [
+        103.482115,
+        8.179066,
+        106.055304,
+        9.63755
+      ],
+      "center": [
+        105.086972,
+        9.018018
+      ],
+      "id": "post:ca-mau",
+      "mode": "post",
+      "name": "Tỉnh Cà Mau",
+      "name_en": "Cà Mau Province",
+      "slug": "ca-mau",
+      "merger": {
+        "mergeDate": "2025-07-01",
+        "oldProvinces": [
+          "Tỉnh Bạc Liêu"
+        ]
+      }
+    },
+    {
+      "bbox": [
+        105.225678,
+        8.702505,
+        106.453844,
+        10.325209
+      ],
+      "center": [
+        105.787266,
+        10.036205
+      ],
+      "id": "post:can-tho",
+      "mode": "post",
+      "name": "Thành phố Cần Thơ",
+      "name_en": "Cần Thơ",
+      "slug": "can-tho",
+      "merger": {
+        "mergeDate": "2025-07-01",
+        "oldProvinces": [
+          "Tỉnh Hậu Giang",
+          "Tỉnh Sóc Trăng"
+        ]
+      }
+    },
+    {
+      "bbox": [
+        105.266713,
+        22.356923,
+        106.837646,
+        23.118795
+      ],
+      "center": [
+        106.106093,
+        22.742694
+      ],
+      "id": "post:cao-bang",
+      "mode": "post",
+      "name": "Tỉnh Cao Bằng",
+      "name_en": "Cao Bằng Province",
+      "slug": "cao-bang"
+    },
+    {
+      "bbox": [
+        107.210916,
+        14.951353,
+        109.023557,
+        16.334009
+      ],
+      "center": [
+        108.212,
+        16.068
+      ],
+      "id": "post:da-nang",
+      "mode": "post",
+      "name": "Thành phố Đà Nẵng",
+      "name_en": "Đà Nẵng",
+      "slug": "da-nang",
+      "merger": {
+        "mergeDate": "2025-07-01",
+        "oldProvinces": [
+          "Tỉnh Quảng Nam"
+        ]
+      }
+    },
+    {
+      "bbox": [
+        107.48422,
+        12.160529,
+        109.666548,
+        13.695333
+      ],
+      "center": [
+        108.79793,
+        12.874186
+      ],
+      "id": "post:dak-lak",
+      "mode": "post",
+      "name": "Tỉnh Đắk Lắk",
+      "name_en": "Đắk Lắk Province",
+      "slug": "dak-lak",
+      "merger": {
+        "mergeDate": "2025-07-01",
+        "oldProvinces": [
+          "Tỉnh Phú Yên"
+        ]
+      }
+    },
+    {
+      "bbox": [
+        102.143864,
+        20.892692,
+        103.598795,
+        22.547925
+      ],
+      "center": [
+        103.216863,
+        21.654657
+      ],
+      "id": "post:dien-bien",
+      "mode": "post",
+      "name": "Tỉnh Điện Biên",
+      "name_en": "Điện Biên Province",
+      "slug": "dien-bien"
+    },
+    {
+      "bbox": [
+        106.411611,
+        10.579208,
+        107.577849,
+        12.298455
+      ],
+      "center": [
+        107.162425,
+        11.428545
+      ],
+      "id": "post:dong-nai",
+      "mode": "post",
+      "name": "Tỉnh Đồng Nai",
+      "name_en": "Đồng Nai Province",
+      "slug": "dong-nai",
+      "merger": {
+        "mergeDate": "2025-07-01",
+        "oldProvinces": [
+          "Tỉnh Bình Phước"
+        ]
+      }
+    },
+    {
+      "bbox": [
+        105.185576,
+        10.134769,
+        106.993372,
+        10.973467
+      ],
+      "center": [
+        105.927136,
+        10.425183
+      ],
+      "id": "post:dong-thap",
+      "mode": "post",
+      "name": "Tỉnh Đồng Tháp",
+      "name_en": "Đồng Tháp Province",
+      "slug": "dong-thap",
+      "merger": {
+        "mergeDate": "2025-07-01",
+        "oldProvinces": [
+          "Tỉnh Tiền Giang"
+        ]
+      }
+    },
+    {
+      "bbox": [
+        107.450822,
+        12.996166,
+        109.584921,
+        14.703202
+      ],
+      "center": [
+        108.635452,
+        14.020137
+      ],
+      "id": "post:gia-lai",
+      "mode": "post",
+      "name": "Tỉnh Gia Lai",
+      "name_en": "Gia Lai Province",
+      "slug": "gia-lai",
+      "merger": {
+        "mergeDate": "2025-07-01",
+        "oldProvinces": [
+          "Tỉnh Bình Định"
+        ]
+      }
+    },
+    {
+      "bbox": [
+        105.288961,
+        20.564515,
+        106.020072,
+        21.385418
+      ],
+      "center": [
+        105.854041,
+        21.028333
+      ],
+      "id": "post:ha-noi",
+      "mode": "post",
+      "name": "Thành phố Hà Nội",
+      "name_en": "Hà Nội",
+      "slug": "ha-noi"
+    },
+    {
+      "bbox": [
+        105.103468,
+        17.909602,
+        106.753701,
+        18.767
+      ],
+      "center": [
+        105.762305,
+        18.350483
+      ],
+      "id": "post:ha-tinh",
+      "mode": "post",
+      "name": "Tỉnh Hà Tĩnh",
+      "name_en": "Hà Tĩnh Province",
+      "slug": "ha-tinh"
+    },
+    {
+      "bbox": [
+        106.124227,
+        19.917757,
+        107.951858,
+        21.236993
+      ],
+      "center": [
+        106.679927,
+        20.862328
+      ],
+      "id": "post:hai-phong",
+      "mode": "post",
+      "name": "Thành phố Hải Phòng",
+      "name_en": "Hải Phòng",
+      "slug": "hai-phong",
+      "merger": {
+        "mergeDate": "2025-07-01",
+        "oldProvinces": [
+          "Tỉnh Hải Dương"
+        ]
+      }
+    },
+    {
+      "bbox": [
+        105.976939,
+        8.345688,
+        108.431121,
+        11.501589
+      ],
+      "center": [
+        106.702105,
+        10.775525
+      ],
+      "id": "post:ho-chi-minh",
+      "mode": "post",
+      "name": "Thành phố Hồ Chí Minh",
+      "name_en": "Ho Chi Minh City",
+      "slug": "ho-chi-minh",
+      "merger": {
+        "mergeDate": "2025-07-01",
+        "oldProvinces": [
+          "Tỉnh Bà Rịa - Vũng Tàu",
+          "Tỉnh Bình Dương"
+        ]
+      }
+    },
+    {
+      "bbox": [
+        107.034344,
+        15.994931,
+        108.480583,
+        17.110914
+      ],
+      "center": [
+        107.586339,
+        16.463932
+      ],
+      "id": "post:hue",
+      "mode": "post",
+      "name": "Thành phố Huế",
+      "name_en": "Huế",
+      "slug": "hue"
+    },
+    {
+      "bbox": [
+        105.895325,
+        20.077155,
+        107.119285,
+        21.00699
+      ],
+      "center": [
+        106.284347,
+        20.606585
+      ],
+      "id": "post:hung-yen",
+      "mode": "post",
+      "name": "Tỉnh Hưng Yên",
+      "name_en": "Hưng Yên Province",
+      "slug": "hung-yen",
+      "merger": {
+        "mergeDate": "2025-07-01",
+        "oldProvinces": [
+          "Tỉnh Thái Bình"
+        ]
+      }
+    },
+    {
+      "bbox": [
+        108.551474,
+        10.763084,
+        109.670985,
+        12.868524
+      ],
+      "center": [
+        108.995039,
+        12.298075
+      ],
+      "id": "post:khanh-hoa",
+      "mode": "post",
+      "name": "Tỉnh Khánh Hòa",
+      "name_en": "Khánh Hòa Province",
+      "slug": "khanh-hoa",
+      "merger": {
+        "mergeDate": "2025-07-01",
+        "oldProvinces": [
+          "Tỉnh Ninh Thuận"
+        ]
+      }
+    },
+    {
+      "bbox": [
+        102.32053,
+        21.686079,
+        103.985835,
+        22.813929
+      ],
+      "center": [
+        103.179866,
+        22.292167
+      ],
+      "id": "post:lai-chau",
+      "mode": "post",
+      "name": "Tỉnh Lai Châu",
+      "name_en": "Lai Châu Province",
+      "slug": "lai-chau"
+    },
+    {
+      "bbox": [
+        107.206129,
+        9.378023,
+        109.401926,
+        12.812519
+      ],
+      "center": [
+        108.133528,
+        11.661496
+      ],
+      "id": "post:lam-dong",
+      "mode": "post",
+      "name": "Tỉnh Lâm Đồng",
+      "name_en": "Lâm Đồng Province",
+      "slug": "lam-dong",
+      "merger": {
+        "mergeDate": "2025-07-01",
+        "oldProvinces": [
+          "Tỉnh Bình Thuận",
+          "Tỉnh Đắk Nông"
+        ]
+      }
+    },
+    {
+      "bbox": [
+        106.09538,
+        21.32515,
+        107.364095,
+        22.461457
+      ],
+      "center": [
+        106.614069,
+        21.848758
+      ],
+      "id": "post:lang-son",
+      "mode": "post",
+      "name": "Tỉnh Lạng Sơn",
+      "name_en": "Lạng Sơn Province",
+      "slug": "lang-son"
+    },
+    {
+      "bbox": [
+        103.529434,
+        21.32592,
+        105.100381,
+        22.844915
+      ],
+      "center": [
+        104.182959,
+        22.30693
+      ],
+      "id": "post:lao-cai",
+      "mode": "post",
+      "name": "Tỉnh Lào Cai",
+      "name_en": "Lào Cai Province",
+      "slug": "lao-cai",
+      "merger": {
+        "mergeDate": "2025-07-01",
+        "oldProvinces": [
+          "Tỉnh Yên Bái"
+        ]
+      }
+    },
+    {
+      "bbox": [
+        103.874555,
+        18.552117,
+        106.264507,
+        20.00235
+      ],
+      "center": [
+        105.060676,
+        19.1976
+      ],
+      "id": "post:nghe-an",
+      "mode": "post",
+      "name": "Tỉnh Nghệ An",
+      "name_en": "Nghệ An Province",
+      "slug": "nghe-an"
+    },
+    {
+      "bbox": [
+        105.541696,
+        19.411075,
+        106.952378,
+        20.704382
+      ],
+      "center": [
+        106.100036,
+        20.286726
+      ],
+      "id": "post:ninh-binh",
+      "mode": "post",
+      "name": "Tỉnh Ninh Bình",
+      "name_en": "Ninh Bình Province",
+      "slug": "ninh-binh",
+      "merger": {
+        "mergeDate": "2025-07-01",
+        "oldProvinces": [
+          "Tỉnh Hà Nam",
+          "Tỉnh Nam Định"
+        ]
+      }
+    },
+    {
+      "bbox": [
+        104.814289,
+        20.305359,
+        105.857148,
+        21.719645
+      ],
+      "center": [
+        105.13496,
+        21.300754
+      ],
+      "id": "post:phu-tho",
+      "mode": "post",
+      "name": "Tỉnh Phú Thọ",
+      "name_en": "Phú Thọ Province",
+      "slug": "phu-tho",
+      "merger": {
+        "mergeDate": "2025-07-01",
+        "oldProvinces": [
+          "Tỉnh Hòa Bình",
+          "Tỉnh Vĩnh Phúc"
+        ]
+      }
+    },
+    {
+      "bbox": [
+        107.335381,
+        13.921679,
+        109.463235,
+        15.797288
+      ],
+      "center": [
+        108.691729,
+        14.995374
+      ],
+      "id": "post:quang-ngai",
+      "mode": "post",
+      "name": "Tỉnh Quảng Ngãi",
+      "name_en": "Quảng Ngãi Province",
+      "slug": "quang-ngai",
+      "merger": {
+        "mergeDate": "2025-07-01",
+        "oldProvinces": [
+          "Tỉnh Kon Tum"
+        ]
+      }
+    },
+    {
+      "bbox": [
+        106.439154,
+        20.464566,
+        108.208611,
+        21.663531
+      ],
+      "center": [
+        107.201274,
+        21.171805
+      ],
+      "id": "post:quang-ninh",
+      "mode": "post",
+      "name": "Tỉnh Quảng Ninh",
+      "name_en": "Quảng Ninh Province",
+      "slug": "quang-ninh"
+    },
+    {
+      "bbox": [
+        105.607675,
+        16.302194,
+        107.691968,
+        18.131583
+      ],
+      "center": [
+        107.098207,
+        16.820331
+      ],
+      "id": "post:quang-tri",
+      "mode": "post",
+      "name": "Tỉnh Quảng Trị",
+      "name_en": "Quảng Trị Province",
+      "slug": "quang-tri",
+      "merger": {
+        "mergeDate": "2025-07-01",
+        "oldProvinces": [
+          "Tỉnh Quảng Bình"
+        ]
+      }
+    },
+    {
+      "bbox": [
+        103.212256,
+        20.573004,
+        105.025307,
+        22.030704
+      ],
+      "center": [
+        104.157594,
+        21.227677
+      ],
+      "id": "post:son-la",
+      "mode": "post",
+      "name": "Tỉnh Sơn La",
+      "name_en": "Sơn La Province",
+      "slug": "son-la"
+    },
+    {
+      "bbox": [
+        105.500368,
+        10.394833,
+        106.747241,
+        11.782853
+      ],
+      "center": [
+        106.261053,
+        11.080053
+      ],
+      "id": "post:tay-ninh",
+      "mode": "post",
+      "name": "Tỉnh Tây Ninh",
+      "name_en": "Tây Ninh Province",
+      "slug": "tay-ninh",
+      "merger": {
+        "mergeDate": "2025-07-01",
+        "oldProvinces": [
+          "Tỉnh Long An"
+        ]
+      }
+    },
+    {
+      "bbox": [
+        105.431119,
+        21.326483,
+        106.246998,
+        22.741376
+      ],
+      "center": [
+        105.844079,
+        21.961097
+      ],
+      "id": "post:thai-nguyen",
+      "mode": "post",
+      "name": "Tỉnh Thái Nguyên",
+      "name_en": "Thái Nguyên Province",
+      "slug": "thai-nguyen",
+      "merger": {
+        "mergeDate": "2025-07-01",
+        "oldProvinces": [
+          "Tỉnh Bắc Kạn"
+        ]
+      }
+    },
+    {
+      "bbox": [
+        104.375953,
+        19.187467,
+        106.269077,
+        20.669988
+      ],
+      "center": [
+        105.481611,
+        19.978157
+      ],
+      "id": "post:thanh-hoa",
+      "mode": "post",
+      "name": "Tỉnh Thanh Hóa",
+      "name_en": "Thanh Hóa Province",
+      "slug": "thanh-hoa"
+    },
+    {
+      "bbox": [
+        104.334342,
+        21.497589,
+        105.598308,
+        23.392692
+      ],
+      "center": [
+        105.071585,
+        22.338206
+      ],
+      "id": "post:tuyen-quang",
+      "mode": "post",
+      "name": "Tỉnh Tuyên Quang",
+      "name_en": "Tuyên Quang Province",
+      "slug": "tuyen-quang",
+      "merger": {
+        "mergeDate": "2025-07-01",
+        "oldProvinces": [
+          "Tỉnh Hà Giang"
+        ]
+      }
+    },
+    {
+      "bbox": [
+        105.681872,
+        9.080059,
+        106.993372,
+        10.340332
+      ],
+      "center": [
+        106.294744,
+        10.046765
+      ],
+      "id": "post:vinh-long",
+      "mode": "post",
+      "name": "Tỉnh Vĩnh Long",
+      "name_en": "Vĩnh Long Province",
+      "slug": "vinh-long",
+      "merger": {
+        "mergeDate": "2025-07-01",
+        "oldProvinces": [
+          "Tỉnh Bến Tre",
+          "Tỉnh Trà Vinh"
+        ]
+      }
+    }
+  ]
+}

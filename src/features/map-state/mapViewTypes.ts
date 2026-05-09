@@ -1,6 +1,6 @@
 export type MapMode = 'pre' | 'post';
 
-interface SelectedMapFeature {
+export interface SelectedMapFeature {
   type: 'province';
   mode: MapMode;
   slug: string;

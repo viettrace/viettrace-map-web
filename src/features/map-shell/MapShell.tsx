@@ -1,15 +1,22 @@
 'use client';
 
-import { useReducer } from 'react';
+import { useCallback, useReducer } from 'react';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import { useTranslations } from 'next-intl';
 import MapAttribution from '@src/components/Map/MapAttribution';
 import MapDataNotice from '@src/components/Map/MapDataNotice';
 import MapToggle from '@src/components/Map/MapToggle';
 import BoundaryLayers from '@src/features/boundaries/BoundaryLayers';
-import ProvinceBoundaryPopup from '@src/features/boundaries/ProvinceBoundaryPopup';
+import ProvinceBoundaryInteractions from '@src/features/boundaries/ProvinceBoundaryInteractions';
 import { initialMapViewState, mapViewReducer } from '@src/features/map-state/mapViewReducer';
+import { useMapUrlState } from '@src/features/map-state/useMapUrlState';
+import ProvinceDetailPanel from '@src/features/province-detail/ProvinceDetailPanel';
+import { findProvinceBySelection } from '@src/features/province-index/provinceIndexSearch';
+import type { ProvinceIndexEntry } from '@src/features/province-index/provinceIndexTypes';
+import { useProvinceIndex } from '@src/features/province-index/useProvinceIndex';
+import ProvinceSearch from '@src/features/province-search/ProvinceSearch';
 import { readPublicEnv } from '@src/libs/config/publicEnv';
+import { fitBbox } from '@src/libs/maplibre/camera';
 import { useMapLibre } from './useMapLibre';
 
 const DEFAULT_CENTER: [number, number] = [105.8, 21.0];
@@ -19,10 +26,45 @@ export default function MapShell() {
   const [state, dispatch] = useReducer(mapViewReducer, initialMapViewState);
   const t = useTranslations('Map');
   const publicEnv = readPublicEnv();
+  const provinceIndex = useProvinceIndex();
+  const provinceEntries = provinceIndex.data?.provinces ?? [];
   const { containerRef, error, isReady, map } = useMapLibre({
     center: DEFAULT_CENTER,
     style: publicEnv.mapStyle,
     zoom: DEFAULT_ZOOM,
+  });
+  const selectedProvince = findProvinceBySelection(provinceEntries, state.selectedFeature);
+
+  const selectProvince = useCallback(
+    (entry: ProvinceIndexEntry, options: { fit?: boolean } = {}) => {
+      dispatch({
+        feature: {
+          mode: entry.mode,
+          slug: entry.slug,
+          type: 'province',
+        },
+        type: 'selectFeature',
+      });
+
+      if (map && options.fit !== false) {
+        fitBbox(map, entry.bbox);
+      }
+    },
+    [map],
+  );
+  const selectProvinceFromMap = useCallback(
+    (entry: ProvinceIndexEntry) => {
+      selectProvince(entry, { fit: false });
+    },
+    [selectProvince],
+  );
+
+  useMapUrlState({
+    dispatch,
+    entries: provinceEntries,
+    isMapReady: isReady,
+    map,
+    state,
   });
 
   if (error) {
@@ -57,8 +99,27 @@ export default function MapShell() {
       {isReady && map && (
         <>
           <BoundaryLayers map={map} state={state} />
-          <ProvinceBoundaryPopup map={map} mode={state.mode} />
+          <ProvinceBoundaryInteractions
+            entries={provinceEntries}
+            map={map}
+            mode={state.mode}
+            onSelect={selectProvinceFromMap}
+          />
         </>
+      )}
+
+      <ProvinceSearch
+        entries={provinceEntries}
+        hasError={Boolean(provinceIndex.error)}
+        isLoading={provinceIndex.isLoading}
+        onSelect={selectProvince}
+      />
+
+      {state.panels.detail && selectedProvince && (
+        <ProvinceDetailPanel
+          entry={selectedProvince}
+          onClose={() => dispatch({ feature: null, type: 'selectFeature' })}
+        />
       )}
 
       <MapToggle

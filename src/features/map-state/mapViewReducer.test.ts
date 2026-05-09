@@ -17,7 +17,7 @@ describe('mapViewReducer', () => {
   it('opens the detail panel when a feature is selected', () => {
     const state = mapViewReducer(initialMapViewState, {
       feature: {
-        mode: 'pre',
+        mode: 'post',
         slug: 'ha-noi',
         type: 'province',
       },
@@ -25,6 +25,22 @@ describe('mapViewReducer', () => {
     });
 
     expect(state.selectedFeature?.slug).toBe('ha-noi');
+    expect(state.mode).toBe('post');
     expect(state.panels.detail).toBe(true);
+  });
+
+  it('clears selected detail when switching away from the selected mode', () => {
+    const selectedState = mapViewReducer(initialMapViewState, {
+      feature: {
+        mode: 'pre',
+        slug: 'ha-giang',
+        type: 'province',
+      },
+      type: 'selectFeature',
+    });
+    const nextState = mapViewReducer(selectedState, { mode: 'post', type: 'setMode' });
+
+    expect(nextState.selectedFeature).toBeNull();
+    expect(nextState.panels.detail).toBe(false);
   });
 });
