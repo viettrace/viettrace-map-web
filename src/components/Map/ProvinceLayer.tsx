@@ -237,7 +237,7 @@ export default function ProvinceLayer({ map, mode, showIslands }: ProvinceLayerP
       });
     }
 
-    if (map.loaded()) {
+    if (map.isStyleLoaded()) {
       addSourcesAndLayers();
     } else {
       map.once('load', addSourcesAndLayers);
