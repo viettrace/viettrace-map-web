@@ -155,6 +155,7 @@ Static frontend metadata lives in `public/data/`:
 - `merger-info.json`: old province to new province mappings.
 - `province-labels-pre.json`: label points for pre-2025 provinces.
 - `province-labels-post.json`: label points for post-2025 provinces.
+- `offshore-island-labels.json`: label points for Hoàng Sa and Trường Sa reference layer.
 
 OSM attribution is required: `© OpenStreetMap contributors`.
 geoBoundaries attribution is required for offshore islands: `© geoBoundaries www.geoboundaries.org`.

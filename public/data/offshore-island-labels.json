@@ -1,0 +1,29 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hoang Sa",
+        "name_vi": "Quần đảo Hoàng Sa",
+        "name_en": "Paracel Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [111.95, 16.45]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Truong Sa",
+        "name_vi": "Quần đảo Trường Sa",
+        "name_en": "Spratly Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [114.5, 10.2]
+      }
+    }
+  ]
+}

@@ -2,6 +2,7 @@
 
 import { useEffect } from 'react';
 import maplibregl from 'maplibre-gl';
+import { useLocale } from 'next-intl';
 
 const TILE_URL_PRE = process.env.NEXT_PUBLIC_TILE_URL_PRE!;
 const TILE_URL_POST = process.env.NEXT_PUBLIC_TILE_URL_POST!;
@@ -12,6 +13,7 @@ const SOURCE_POST = 'vn-provinces-post';
 const SOURCE_ISLANDS = 'vn-offshore-islands';
 const SOURCE_PRE_LABELS = 'province-labels-pre';
 const SOURCE_POST_LABELS = 'province-labels-post';
+const SOURCE_ISLAND_LABELS = 'offshore-island-labels';
 
 const LAYER_PRE_FILL = 'provinces-pre-fill';
 const LAYER_PRE_OUTLINE = 'provinces-pre-outline';
@@ -20,7 +22,9 @@ const LAYER_POST_FILL = 'provinces-post-fill';
 const LAYER_POST_OUTLINE = 'provinces-post-outline';
 const LAYER_POST_LABEL = 'provinces-post-label';
 const LAYER_ISLANDS_FILL = 'offshore-islands-fill';
+const LAYER_ISLANDS_OUTLINE_HALO = 'offshore-islands-outline-halo';
 const LAYER_ISLANDS_OUTLINE = 'offshore-islands-outline';
+const LAYER_ISLANDS_LABEL = 'offshore-islands-label';
 
 interface ProvinceLayerProps {
   map: maplibregl.Map | null;
@@ -56,6 +60,8 @@ function addSourceIfMissing(
 }
 
 export default function ProvinceLayer({ map, mode, showIslands }: ProvinceLayerProps) {
+  const locale = useLocale();
+
   useEffect(() => {
     if (!map) return;
 
@@ -84,6 +90,11 @@ export default function ProvinceLayer({ map, mode, showIslands }: ProvinceLayerP
       addSourceIfMissing(map, SOURCE_POST_LABELS, {
         type: 'geojson',
         data: '/data/province-labels-post.json',
+      });
+
+      addSourceIfMissing(map, SOURCE_ISLAND_LABELS, {
+        type: 'geojson',
+        data: '/data/offshore-island-labels.json',
       });
 
       const preVisible = mode === 'pre';
@@ -176,7 +187,20 @@ export default function ProvinceLayer({ map, mode, showIslands }: ProvinceLayerP
         source: SOURCE_ISLANDS,
         'source-layer': 'vn_offshore_islands',
         layout: { visibility: showIslands ? 'visible' : 'none' },
-        paint: { 'fill-color': '#0f766e', 'fill-opacity': 0.12 },
+        paint: { 'fill-color': '#0f766e', 'fill-opacity': 0.16 },
+      });
+
+      addOrReplaceLayer(map, LAYER_ISLANDS_OUTLINE_HALO, {
+        id: LAYER_ISLANDS_OUTLINE_HALO,
+        type: 'line',
+        source: SOURCE_ISLANDS,
+        'source-layer': 'vn_offshore_islands',
+        layout: { visibility: showIslands ? 'visible' : 'none' },
+        paint: {
+          'line-color': '#f8fafc',
+          'line-opacity': 0.95,
+          'line-width': ['interpolate', ['linear'], ['zoom'], 4, 3, 7, 5],
+        },
       });
 
       addOrReplaceLayer(map, LAYER_ISLANDS_OUTLINE, {
@@ -185,7 +209,31 @@ export default function ProvinceLayer({ map, mode, showIslands }: ProvinceLayerP
         source: SOURCE_ISLANDS,
         'source-layer': 'vn_offshore_islands',
         layout: { visibility: showIslands ? 'visible' : 'none' },
-        paint: { 'line-color': '#0f766e', 'line-width': 1.25 },
+        paint: {
+          'line-color': '#0f766e',
+          'line-width': ['interpolate', ['linear'], ['zoom'], 4, 1.5, 7, 2.25],
+        },
+      });
+
+      addOrReplaceLayer(map, LAYER_ISLANDS_LABEL, {
+        id: LAYER_ISLANDS_LABEL,
+        type: 'symbol',
+        source: SOURCE_ISLAND_LABELS,
+        minzoom: 4,
+        layout: {
+          visibility: showIslands ? 'visible' : 'none',
+          'text-field': locale === 'en' ? ['get', 'name_en'] : ['get', 'name_vi'],
+          'text-size': ['interpolate', ['linear'], ['zoom'], 4, 12, 7, 15],
+          'text-anchor': 'center',
+          'text-allow-overlap': true,
+          'text-ignore-placement': true,
+        },
+        paint: {
+          'text-color': '#0f766e',
+          'text-halo-color': '#fff',
+          'text-halo-width': 2.5,
+          'text-halo-blur': 0.5,
+        },
       });
     }
 
@@ -204,8 +252,8 @@ export default function ProvinceLayer({ map, mode, showIslands }: ProvinceLayerP
         map.off('load', addSourcesAndLayers);
       }
     };
-    // eslint-disable-next-line react-hooks/exhaustive-deps -- mode intentionally excluded: layers added once only
-  }, [map]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- mode/showIslands intentionally excluded: visibility effect owns runtime toggles
+  }, [map, locale]);
 
   useEffect(() => {
     if (!map) return;
@@ -220,7 +268,9 @@ export default function ProvinceLayer({ map, mode, showIslands }: ProvinceLayerP
     setVisibility(map, LAYER_POST_OUTLINE, postVisible);
     setVisibility(map, LAYER_POST_LABEL, postVisible);
     setVisibility(map, LAYER_ISLANDS_FILL, showIslands);
+    setVisibility(map, LAYER_ISLANDS_OUTLINE_HALO, showIslands);
     setVisibility(map, LAYER_ISLANDS_OUTLINE, showIslands);
+    setVisibility(map, LAYER_ISLANDS_LABEL, showIslands);
   }, [map, mode, showIslands]);
 
   return null;
