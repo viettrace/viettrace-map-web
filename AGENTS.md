@@ -93,6 +93,7 @@ Notes:
 | `public/data/merger-info.json` | Static province merger metadata |
 | `public/data/province-labels-pre.json` | Static pre-2025 label points |
 | `public/data/province-labels-post.json` | Static post-2025 label points |
+| `public/data/offshore-island-labels.json` | Static offshore island label points |
 | `Dockerfile` | Multi-stage standalone production build |
 | `.env.sample` | Documented public env vars |
 
