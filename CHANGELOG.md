@@ -1,5 +1,12 @@
 # Changelog
 
+## <small>0.1.1 (2026-05-09)</small>
+
+* feat: add offshore island labels and update map layer configurations (#65) ([5d862dd](https://github.com/viettrace/viettrace-map-web/commit/5d862dd)), closes [#65](https://github.com/viettrace/viettrace-map-web/issues/65)
+* feat: add offshore islands layer and update related configurations (#64) ([1ca0381](https://github.com/viettrace/viettrace-map-web/commit/1ca0381)), closes [#64](https://github.com/viettrace/viettrace-map-web/issues/64)
+* feat: implement tile cache buster for dynamic tile URLs ([009b11f](https://github.com/viettrace/viettrace-map-web/commit/009b11f))
+* fix: update layer loading condition to use isStyleLoaded method ([efb8354](https://github.com/viettrace/viettrace-map-web/commit/efb8354))
+
 ## 0.1.0 (2026-05-05)
 
 * ci: add CI workflow and issue template (#59) ([925761b](https://github.com/viettrace/viettrace-map-web/commit/925761b)), closes [#59](https://github.com/viettrace/viettrace-map-web/issues/59)
