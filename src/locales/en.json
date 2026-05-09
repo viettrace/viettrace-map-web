@@ -5,6 +5,10 @@
     "togglePreLabel": "(before July 2025)",
     "togglePost": "34 provinces",
     "togglePostLabel": "(after July 2025)",
+    "toggleIslandsOn": "Islands: on",
+    "toggleIslandsOff": "Islands: off",
+    "toggleIslandsShow": "Show offshore islands layer",
+    "toggleIslandsHide": "Hide offshore islands layer",
     "popupOldProvince": "Former province",
     "popupMergedInto": "Merged into",
     "popupMergedDate": "Merge date",
@@ -14,6 +18,7 @@
     "metadataError": "Unable to load merger metadata. Popups still show province names, but merged-into details may be missing.",
     "retry": "Try again",
     "attributionOSM": "© OpenStreetMap contributors",
+    "attributionGeoBoundaries": "© geoBoundaries www.geoboundaries.org",
     "attributionViettrace": "© Viettrace"
   },
   "HomePage": {
