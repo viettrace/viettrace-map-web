@@ -21,6 +21,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "test:unit": "vitest run",
+    "data:generate-labels": "node scripts/generate-labels.mjs",
     "data:verify-mergers": "node scripts/verify-merger-info.mjs",
     "release": "release-it",
     "knip": "knip --no-exit-code",
@@ -28,7 +30,6 @@
     "knip:production": "knip --production --no-exit-code"
   },
   "dependencies": {
-    "@logtape/logtape": "1.0.4",
     "@sentry/nextjs": "9.40.0",
     "@spotlightjs/spotlight": "3.0.1",
     "maplibre-gl": "5.6.1",
@@ -46,8 +47,6 @@
     "@release-it/bumper": "7.0.5",
     "@release-it/conventional-changelog": "10.0.1",
     "@tailwindcss/postcss": "4.1.11",
-    "@turf/centroid": "7.3.5",
-    "@turf/helpers": "7.3.5",
     "@turf/point-on-feature": "7.3.5",
     "@types/geojson": "7946.0.16",
     "@types/node": "24.0.15",
@@ -63,10 +62,11 @@
     "prettier-plugin-tailwindcss": "0.6.14",
     "release-it": "19.0.3",
     "tailwindcss": "4.1.11",
-    "typescript": "5.8.3"
+    "typescript": "5.8.3",
+    "vitest": "4.0.16"
   },
   "lint-staged": {
-    "*.{ts,js}": [
+    "*.{ts,js,mjs}": [
       "eslint --cache --fix",
       "prettier --write"
     ]

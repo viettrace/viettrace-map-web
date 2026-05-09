@@ -16,7 +16,7 @@ export default [
   ),
   // Node CLI / tooling (CommonJS require)
   {
-    files: ['scripts/**/*.js'],
+    files: ['scripts/**/*.{js,mjs}'],
     rules: {
       '@typescript-eslint/no-require-imports': 'off',
     },

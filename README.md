@@ -6,7 +6,7 @@ Viettrace compares Vietnam province/city administrative boundaries before and af
 
 ## Current Status
 
-The frontend MVP is complete.
+The frontend MVP is complete. Phase 3A-0 frontend architecture foundation is also in place for search/detail/shareable-state work.
 
 | Area | Status |
 |---|---|
@@ -75,7 +75,7 @@ NEXT_PUBLIC_TILE_URL_ISLANDS=https://tiles.viettrace.org/tiles/vn_offshore_islan
 NEXT_PUBLIC_TILE_CACHE_BUSTER=20260509-display
 ```
 
-Do not hardcode tile URLs in source code. Public map config must come from `NEXT_PUBLIC_*` env vars.
+Do not hardcode tile URLs in source code. Public map config must come from `NEXT_PUBLIC_*` env vars. `NEXT_PUBLIC_TILE_URL_ISLANDS` is recommended for the full production layer set; if it is absent in an older local env file, the map still loads without the offshore-islands layer/toggle.
 
 ## Local Development
 
@@ -111,8 +111,10 @@ Then use local tile URLs from `.env.sample`.
 |---|---|
 | `pnpm dev` | Start Next.js dev server with Turbopack |
 | `pnpm lint` | Run ESLint |
+| `pnpm test:unit` | Run Vitest unit tests for map/data utility contracts |
 | `pnpm build` | Build production app with standalone output |
 | `pnpm start` | Start production Next.js server |
+| `pnpm data:generate-labels` | Regenerate province label points from `../viettrace-data` |
 | `pnpm data:verify-mergers` | Verify merger metadata names against tile province names |
 | `pnpm knip` | Run dead-code detection |
 
@@ -133,12 +135,18 @@ src/
 │   └── opengraph-image.tsx
 ├── components/Map/
 │   ├── Map.tsx
-│   ├── ProvinceLayer.tsx
 │   ├── MapToggle.tsx
-│   ├── ProvincePopup.tsx
 │   ├── MapDataNotice.tsx
 │   └── MapAttribution.tsx
-├── libs/i18n/
+├── features/
+│   ├── map-shell/
+│   ├── map-state/
+│   └── boundaries/
+├── libs/
+│   ├── config/
+│   ├── geo/
+│   ├── i18n/
+│   └── maplibre/
 ├── locales/
 └── styles/
 
@@ -227,6 +235,7 @@ Before finishing meaningful frontend changes:
 
 ```bash
 pnpm lint
+pnpm test:unit
 pnpm data:verify-mergers
 ```
 

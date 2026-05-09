@@ -1,7 +1,13 @@
 {
   "$schema": "https://unpkg.com/knip@5/schema.json",
-  "entry": ["src/app/**/*.{js,jsx,ts,tsx}", "next.config.{js,mjs,ts}", "src/middleware.{js,ts}"],
-  "project": ["src/**/*.{js,jsx,ts,tsx}"],
+  "entry": [
+    "src/app/**/*.{js,jsx,ts,tsx}",
+    "src/{instrumentation,instrumentation-client,middleware}.{js,ts}",
+    "src/libs/i18n/request.ts",
+    "scripts/**/*.{js,mjs}",
+    "next.config.{js,mjs,ts}"
+  ],
+  "project": ["src/**/*.{js,jsx,ts,tsx}", "scripts/**/*.{js,mjs}"],
   "ignore": [
     "node_modules/**",
     ".next/**",
@@ -20,8 +26,7 @@
     "cypress.config.{js,ts}",
     "playwright.config.{js,ts}"
   ],
-  "ignoreBinaries": ["next", "lefthook", "lint-staged", "commitlint", "eslint", "prettier", "tsc", "cypress", "playwright"],
-  "ignoreDependencies": ["@types/*", "typescript", "eslint*", "prettier*", "@next/bundle-analyzer", "@next/eslint-plugin-next", "autoprefixer", "postcss", "tailwindcss"],
+  "ignoreDependencies": ["@types/*", "eslint*", "tailwindcss"],
   "next": {
     "config": ["next.config.{js,ts,cjs,mjs}"],
     "entry": [

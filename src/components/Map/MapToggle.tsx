@@ -3,13 +3,20 @@
 import { useTranslations } from 'next-intl';
 
 interface MapToggleProps {
+  canToggleIslands?: boolean;
   mode: 'pre' | 'post';
   onToggle: (mode: 'pre' | 'post') => void;
   showIslands: boolean;
   onToggleIslands: (show: boolean) => void;
 }
 
-export default function MapToggle({ mode, onToggle, showIslands, onToggleIslands }: MapToggleProps) {
+export default function MapToggle({
+  canToggleIslands = true,
+  mode,
+  onToggle,
+  showIslands,
+  onToggleIslands,
+}: MapToggleProps) {
   const t = useTranslations('Map');
 
   return (
@@ -38,16 +45,18 @@ export default function MapToggle({ mode, onToggle, showIslands, onToggleIslands
         />
       </button>
 
-      <button
-        type="button"
-        onClick={() => onToggleIslands(!showIslands)}
-        className={`shrink-0 rounded-full px-3 py-1 text-xs font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-teal-400 focus:ring-offset-2 sm:text-sm ${
-          showIslands ? 'bg-teal-600 text-white' : 'bg-gray-100 text-gray-600'
-        }`}
-        aria-label={showIslands ? t('toggleIslandsHide') : t('toggleIslandsShow')}
-      >
-        {showIslands ? t('toggleIslandsOn') : t('toggleIslandsOff')}
-      </button>
+      {canToggleIslands && (
+        <button
+          type="button"
+          onClick={() => onToggleIslands(!showIslands)}
+          className={`shrink-0 rounded-full px-3 py-1 text-xs font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-teal-400 focus:ring-offset-2 sm:text-sm ${
+            showIslands ? 'bg-teal-600 text-white' : 'bg-gray-100 text-gray-600'
+          }`}
+          aria-label={showIslands ? t('toggleIslandsHide') : t('toggleIslandsShow')}
+        >
+          {showIslands ? t('toggleIslandsOn') : t('toggleIslandsOff')}
+        </button>
+      )}
 
       <span
         className={`shrink-0 whitespace-nowrap text-xs font-medium transition-colors sm:text-sm ${

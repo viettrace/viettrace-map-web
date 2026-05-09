@@ -1,8 +1,25 @@
-const fs = require('fs');
-const pointOnFeature = require('@turf/point-on-feature').default;
+import { readFileSync, writeFileSync } from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+import pointOnFeature from '@turf/point-on-feature';
+
+const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+const workspaceRoot = path.resolve(repoRoot, '..');
+const dataRoot = process.env.VIETTRACE_DATA_DIR
+  ? path.resolve(process.env.VIETTRACE_DATA_DIR)
+  : path.join(workspaceRoot, 'viettrace-data');
+const publicDataRoot = path.join(repoRoot, 'public', 'data');
+
+function resolveInputPath(relativePath) {
+  return path.join(dataRoot, relativePath);
+}
+
+function resolveOutputPath(fileName) {
+  return path.join(publicDataRoot, fileName);
+}
 
 function generateLabels(inputPath, outputPath, options = {}) {
-  const data = JSON.parse(fs.readFileSync(inputPath, 'utf8'));
+  const data = JSON.parse(readFileSync(inputPath, 'utf8'));
 
   const features = data.features.filter(feature => {
     if (!options.boundary) {
@@ -12,20 +29,22 @@ function generateLabels(inputPath, outputPath, options = {}) {
     return feature.properties?.boundary === options.boundary;
   });
 
-  const points = features.map(f => {
-    const p = getProvinceLabelPoint(f);
+  const points = features.map(feature => {
+    const point = getProvinceLabelPoint(feature);
+
     return {
       type: 'Feature',
-      geometry: p.geometry,
+      geometry: point.geometry,
       properties: {
-        name: f.properties.name,
-        name_en: f.properties.name_en,
+        name: feature.properties.name,
+        name_en: feature.properties.name_en,
       },
     };
   });
-  const out = { type: 'FeatureCollection', features: points };
-  fs.writeFileSync(outputPath, JSON.stringify(out));
-  console.log(`Wrote ${points.length}/${data.features.length} labels → ${outputPath}`);
+
+  const output = { type: 'FeatureCollection', features: points };
+  writeFileSync(outputPath, JSON.stringify(output));
+  console.log(`Wrote ${points.length}/${data.features.length} labels -> ${outputPath}`);
 }
 
 function getProvinceLabelPoint(feature) {
@@ -36,8 +55,8 @@ function getProvinceLabelPoint(feature) {
     return {
       type: 'Feature',
       geometry: {
-        type: 'Point',
         coordinates,
+        type: 'Point',
       },
       properties: {},
     };
@@ -122,7 +141,7 @@ function polylabel(polygon, precision) {
     return [minX, minY];
   }
 
-  let cellQueue = [];
+  const cellQueue = [];
   const half = cellSize / 2;
 
   for (let x = minX; x < maxX; x += cellSize) {
@@ -162,12 +181,13 @@ function polylabel(polygon, precision) {
 
 function createCell(x, y, h, polygon) {
   const d = pointToPolygonDist([x, y], polygon);
+
   return {
+    d,
+    h,
+    max: d + h * Math.SQRT2,
     x,
     y,
-    h,
-    d,
-    max: d + h * Math.SQRT2,
   };
 }
 
@@ -203,7 +223,7 @@ function pointToPolygonDist(point, polygon) {
       const b = ring[j];
 
       if (
-        a[1] > point[1] !== b[1] > point[1] &&
+        a[1] > point[1] !== b[1] &&
         point[0] < ((b[0] - a[0]) * (point[1] - a[1])) / (b[1] - a[1]) + a[0]
       ) {
         inside = !inside;
@@ -219,8 +239,8 @@ function pointToPolygonDist(point, polygon) {
 function getSegDistSq(point, a, b) {
   let x = a[0];
   let y = a[1];
-  let dx = b[0] - x;
-  let dy = b[1] - y;
+  const dx = b[0] - x;
+  const dy = b[1] - y;
 
   if (dx !== 0 || dy !== 0) {
     const t = Math.max(
@@ -232,10 +252,10 @@ function getSegDistSq(point, a, b) {
     y += dy * t;
   }
 
-  dx = point[0] - x;
-  dy = point[1] - y;
+  const pointDx = point[0] - x;
+  const pointDy = point[1] - y;
 
-  return dx * dx + dy * dy;
+  return pointDx * pointDx + pointDy * pointDy;
 }
 
 function ringArea(ring) {
@@ -249,12 +269,12 @@ function ringArea(ring) {
 }
 
 generateLabels(
-  'D:/viettrace/viettrace-data/vn_pre_2025.geojson',
-  'D:/viettrace/viettrace-map-web/public/data/province-labels-pre.json',
+  resolveInputPath('processed/provinces/vn_pre_2025.geojson'),
+  resolveOutputPath('province-labels-pre.json'),
 );
 generateLabels(
-  'D:/viettrace/viettrace-data/vn_post_2025.geojson',
-  'D:/viettrace/viettrace-map-web/public/data/province-labels-post.json',
+  resolveInputPath('processed/provinces/vn_post_2025.geojson'),
+  resolveOutputPath('province-labels-post.json'),
   {
     boundary: 'administrative',
   },

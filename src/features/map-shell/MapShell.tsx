@@ -1,0 +1,80 @@
+'use client';
+
+import { useReducer } from 'react';
+import 'maplibre-gl/dist/maplibre-gl.css';
+import { useTranslations } from 'next-intl';
+import MapAttribution from '@src/components/Map/MapAttribution';
+import MapDataNotice from '@src/components/Map/MapDataNotice';
+import MapToggle from '@src/components/Map/MapToggle';
+import BoundaryLayers from '@src/features/boundaries/BoundaryLayers';
+import ProvinceBoundaryPopup from '@src/features/boundaries/ProvinceBoundaryPopup';
+import { initialMapViewState, mapViewReducer } from '@src/features/map-state/mapViewReducer';
+import { readPublicEnv } from '@src/libs/config/publicEnv';
+import { useMapLibre } from './useMapLibre';
+
+const DEFAULT_CENTER: [number, number] = [105.8, 21.0];
+const DEFAULT_ZOOM = 5;
+
+export default function MapShell() {
+  const [state, dispatch] = useReducer(mapViewReducer, initialMapViewState);
+  const t = useTranslations('Map');
+  const publicEnv = readPublicEnv();
+  const { containerRef, error, isReady, map } = useMapLibre({
+    center: DEFAULT_CENTER,
+    style: publicEnv.mapStyle,
+    zoom: DEFAULT_ZOOM,
+  });
+
+  if (error) {
+    return (
+      <div className="flex min-h-dvh items-center justify-center bg-slate-50 p-6">
+        <div className="max-w-md rounded-2xl border border-red-100 bg-white p-6 text-center shadow-sm">
+          <p className="text-lg font-semibold text-slate-950">{t('errorTitle')}</p>
+          <p className="mt-2 text-sm text-slate-600">{t('errorTileServer')}</p>
+          <p className="mt-3 break-words text-xs text-slate-400">{error}</p>
+        </div>
+      </div>
+    );
+  }
+
+  return (
+    <div className="viettrace-map-shell relative h-screen w-full md:h-dvh">
+      {!isReady && (
+        <div className="absolute inset-0 z-20 flex items-center justify-center bg-white">
+          <div className="text-center">
+            <div className="mx-auto mb-2 h-6 w-6 animate-spin rounded-full border-2 border-gray-300 border-t-red-500" />
+            <p className="text-sm text-gray-500">{t('loading')}</p>
+          </div>
+        </div>
+      )}
+
+      <div
+        ref={containerRef}
+        className="h-full w-full"
+        style={{ opacity: isReady ? 1 : 0, transition: 'opacity 0.3s' }}
+      />
+
+      {isReady && map && (
+        <>
+          <BoundaryLayers map={map} state={state} />
+          <ProvinceBoundaryPopup map={map} mode={state.mode} />
+        </>
+      )}
+
+      <MapToggle
+        canToggleIslands={Boolean(publicEnv.tileUrlIslands)}
+        mode={state.mode}
+        onToggle={(mode) => dispatch({ mode, type: 'setMode' })}
+        showIslands={state.layers.offshoreIslands}
+        onToggleIslands={(visible) => dispatch({ type: 'setOffshoreIslandsVisible', visible })}
+      />
+      {state.panels.dataNotice && (
+        <MapDataNotice onClose={() => dispatch({ open: false, type: 'setDataNoticeOpen' })} />
+      )}
+      <MapAttribution
+        isDataNoticeOpen={state.panels.dataNotice}
+        onToggleDataNotice={() => dispatch({ type: 'toggleDataNotice' })}
+      />
+    </div>
+  );
+}
