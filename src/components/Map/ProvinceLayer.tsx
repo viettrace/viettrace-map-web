@@ -7,6 +7,7 @@ import { useLocale } from 'next-intl';
 const TILE_URL_PRE = process.env.NEXT_PUBLIC_TILE_URL_PRE!;
 const TILE_URL_POST = process.env.NEXT_PUBLIC_TILE_URL_POST!;
 const TILE_URL_ISLANDS = process.env.NEXT_PUBLIC_TILE_URL_ISLANDS!;
+const TILE_CACHE_BUSTER = process.env.NEXT_PUBLIC_TILE_CACHE_BUSTER;
 
 const SOURCE_PRE = 'vn-provinces-pre';
 const SOURCE_POST = 'vn-provinces-post';
@@ -59,6 +60,17 @@ function addSourceIfMissing(
   }
 }
 
+function buildTileTemplate(baseUrl: string) {
+  const template = `${baseUrl}/{z}/{x}/{y}`;
+
+  if (!TILE_CACHE_BUSTER) {
+    return template;
+  }
+
+  const separator = template.includes('?') ? '&' : '?';
+  return `${template}${separator}v=${encodeURIComponent(TILE_CACHE_BUSTER)}`;
+}
+
 export default function ProvinceLayer({ map, mode, showIslands }: ProvinceLayerProps) {
   const locale = useLocale();
 
@@ -70,14 +82,14 @@ export default function ProvinceLayer({ map, mode, showIslands }: ProvinceLayerP
 
       addSourceIfMissing(map, SOURCE_PRE, {
         type: 'vector',
-        tiles: [`${TILE_URL_PRE}/{z}/{x}/{y}`],
+        tiles: [buildTileTemplate(TILE_URL_PRE)],
         minzoom: 0,
         maxzoom: 10,
       });
 
       addSourceIfMissing(map, SOURCE_POST, {
         type: 'vector',
-        tiles: [`${TILE_URL_POST}/{z}/{x}/{y}`],
+        tiles: [buildTileTemplate(TILE_URL_POST)],
         minzoom: 0,
         maxzoom: 10,
       });
@@ -176,7 +188,7 @@ export default function ProvinceLayer({ map, mode, showIslands }: ProvinceLayerP
 
       addSourceIfMissing(map, SOURCE_ISLANDS, {
         type: 'vector',
-        tiles: [`${TILE_URL_ISLANDS}/{z}/{x}/{y}`],
+        tiles: [buildTileTemplate(TILE_URL_ISLANDS)],
         minzoom: 0,
         maxzoom: 10,
       });
