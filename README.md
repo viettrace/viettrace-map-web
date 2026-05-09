@@ -38,6 +38,8 @@ For current project state, read `../viettrace-plans/status.md`.
 |---|---|
 | `/vi/map` | Main Vietnamese map page |
 | `/en/map` | English map page |
+| `/vi/data-sources` | Public Vietnamese data-source and limitations page |
+| `/en/data-sources` | Public English data-source and limitations page |
 
 ## Requirements
 
@@ -122,6 +124,8 @@ src/
 │   ├── [locale]/
 │   │   ├── layout.tsx
 │   │   ├── page.tsx
+│   │   ├── data-sources/
+│   │   │   └── page.tsx
 │   │   └── map/
 │   │       ├── page.tsx
 │   │       └── error.tsx
@@ -240,7 +244,9 @@ For map behavior changes, manually verify:
 - Pre-2025 layer is visible by default.
 - Toggle switches to post-2025 layer.
 - Province popup appears on click.
-- Data-source note and report-data link are visible.
+- Data-source note links to the public localized data-sources page.
+- Data-source note can be closed and reopened from the attribution bar.
+- Report-data link opens the GitHub data issue template.
 - OSM/Viettrace attribution is visible.
 
 ## Releases

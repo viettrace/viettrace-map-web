@@ -78,12 +78,14 @@ Notes:
 | `src/app/[locale]/page.tsx` | Locale homepage/map entry |
 | `src/app/[locale]/map/page.tsx` | Main map route |
 | `src/app/[locale]/map/error.tsx` | Map route error fallback |
+| `src/app/[locale]/data-sources/page.tsx` | Public data-source, attribution, and limitations page |
 | `src/app/global-error.tsx` | App-level global error fallback |
 | `src/app/opengraph-image.tsx` | Dynamic Open Graph image |
 | `src/components/Map/Map.tsx` | Map shell and MapLibre initialization |
 | `src/components/Map/ProvinceLayer.tsx` | Vector sources, fills/outlines, labels, layer visibility |
 | `src/components/Map/MapToggle.tsx` | Before/after toggle UI |
 | `src/components/Map/ProvincePopup.tsx` | Province click popup and merger metadata lookup |
+| `src/components/Map/MapDataNotice.tsx` | Public data note, data-source page link, and data issue entry point |
 | `src/components/Map/MapAttribution.tsx` | OSM and Viettrace attribution |
 | `src/libs/i18n/routing.ts` | next-intl routing config, locales `en` and `vi` |
 | `src/libs/i18n/request.ts` | next-intl message loading |

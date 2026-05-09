@@ -15,6 +15,7 @@ const MAP_STYLE = process.env.NEXT_PUBLIC_MAP_STYLE || 'https://basemaps.cartocd
 export default function Map() {
   const [mode, setMode] = useState<'pre' | 'post'>('pre');
   const [showIslands, setShowIslands] = useState(true);
+  const [showDataNotice, setShowDataNotice] = useState(true);
   const [isReady, setIsReady] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const containerRef = useRef<HTMLDivElement>(null);
@@ -88,7 +89,7 @@ export default function Map() {
         style={{ opacity: isReady ? 1 : 0, transition: 'opacity 0.3s' }}
       />
 
-        {isReady && mapRef.current && (
+      {isReady && mapRef.current && (
         <>
           <ProvinceLayer map={mapRef.current} mode={mode} showIslands={showIslands} />
           <ProvincePopup map={mapRef.current} mode={mode} />
@@ -96,8 +97,11 @@ export default function Map() {
       )}
 
       <MapToggle mode={mode} onToggle={setMode} showIslands={showIslands} onToggleIslands={setShowIslands} />
-      <MapDataNotice />
-      <MapAttribution />
+      {showDataNotice && <MapDataNotice onClose={() => setShowDataNotice(false)} />}
+      <MapAttribution
+        isDataNoticeOpen={showDataNotice}
+        onToggleDataNotice={() => setShowDataNotice((current) => !current)}
+      />
     </div>
   );
 }
