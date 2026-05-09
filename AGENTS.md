@@ -105,6 +105,7 @@ Public map env vars:
 ```env
 NEXT_PUBLIC_TILE_URL_PRE=http://localhost:8080/tiles/vn_provinces_pre_2025
 NEXT_PUBLIC_TILE_URL_POST=http://localhost:8080/tiles/vn_provinces_post_2025
+NEXT_PUBLIC_TILE_URL_ISLANDS=http://localhost:8080/tiles/vn_offshore_islands
 NEXT_PUBLIC_MAP_STYLE=https://basemaps.cartocdn.com/gl/positron-gl-style/style.json
 NEXT_PUBLIC_SITE_URL=http://localhost:3000
 ```
@@ -114,6 +115,7 @@ Production tile URL bases:
 ```env
 NEXT_PUBLIC_TILE_URL_PRE=https://tiles.viettrace.org/tiles/vn_provinces_pre_2025
 NEXT_PUBLIC_TILE_URL_POST=https://tiles.viettrace.org/tiles/vn_provinces_post_2025
+NEXT_PUBLIC_TILE_URL_ISLANDS=https://tiles.viettrace.org/tiles/vn_offshore_islands
 ```
 
 Rules:
@@ -132,7 +134,7 @@ Rules:
 - Source-layer names must be exactly `vn_provinces_pre_2025` and `vn_provinces_post_2025`.
 - Default map center is `[105.8, 21.0]`; default zoom is `5`.
 - Toggle layer visibility with `map.setLayoutProperty(layerId, 'visibility', ...)` instead of recreating sources.
-- Preserve required attribution: `© OpenStreetMap contributors` and `© Viettrace`.
+- Preserve required attribution: `© OpenStreetMap contributors`, `© geoBoundaries www.geoboundaries.org` for offshore islands, and `© Viettrace`.
 
 ## Tile Source Rules
 
@@ -140,6 +142,7 @@ Rules:
 |---|---|---|---|---|
 | Pre-2025 | `vn-provinces-pre` | `vn_provinces_pre_2025` | `#d44` opacity `0.1` | `#d44` width `1.5` |
 | Post-2025 | `vn-provinces-post` | `vn_provinces_post_2025` | `#3388ff` opacity `0.1` | `#3388ff` width `1.5` |
+| Offshore islands | `vn-offshore-islands` | `vn_offshore_islands` | teal reference fill/outline | optional toggle layer |
 
 ---
 
@@ -233,5 +236,6 @@ docker compose -f compose.full.yml --env-file viettrace-infra/.env up -d --build
 - Do not hardcode `localhost` or production tile URLs in TypeScript/TSX source.
 - Do not rename MapLibre source-layer names without updating tile server docs and frontend code together.
 - Do not remove OSM attribution.
+- Do not remove geoBoundaries attribution when offshore islands layer is enabled.
 - Do not commit `.env.local` or other secret-bearing env files.
 - Do not delete static data files under `public/data/` without updating `../viettrace-plans/04-data/`.

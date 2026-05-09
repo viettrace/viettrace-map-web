@@ -5,9 +5,11 @@ import maplibregl from 'maplibre-gl';
 
 const TILE_URL_PRE = process.env.NEXT_PUBLIC_TILE_URL_PRE!;
 const TILE_URL_POST = process.env.NEXT_PUBLIC_TILE_URL_POST!;
+const TILE_URL_ISLANDS = process.env.NEXT_PUBLIC_TILE_URL_ISLANDS!;
 
 const SOURCE_PRE = 'vn-provinces-pre';
 const SOURCE_POST = 'vn-provinces-post';
+const SOURCE_ISLANDS = 'vn-offshore-islands';
 const SOURCE_PRE_LABELS = 'province-labels-pre';
 const SOURCE_POST_LABELS = 'province-labels-post';
 
@@ -17,10 +19,13 @@ const LAYER_PRE_LABEL = 'provinces-pre-label';
 const LAYER_POST_FILL = 'provinces-post-fill';
 const LAYER_POST_OUTLINE = 'provinces-post-outline';
 const LAYER_POST_LABEL = 'provinces-post-label';
+const LAYER_ISLANDS_FILL = 'offshore-islands-fill';
+const LAYER_ISLANDS_OUTLINE = 'offshore-islands-outline';
 
 interface ProvinceLayerProps {
   map: maplibregl.Map | null;
   mode: 'pre' | 'post';
+  showIslands: boolean;
 }
 
 function setVisibility(map: maplibregl.Map, layerId: string, visible: boolean) {
@@ -50,7 +55,7 @@ function addSourceIfMissing(
   }
 }
 
-export default function ProvinceLayer({ map, mode }: ProvinceLayerProps) {
+export default function ProvinceLayer({ map, mode, showIslands }: ProvinceLayerProps) {
   useEffect(() => {
     if (!map) return;
 
@@ -157,6 +162,31 @@ export default function ProvinceLayer({ map, mode }: ProvinceLayerProps) {
           'text-halo-width': 2,
         },
       });
+
+      addSourceIfMissing(map, SOURCE_ISLANDS, {
+        type: 'vector',
+        tiles: [`${TILE_URL_ISLANDS}/{z}/{x}/{y}`],
+        minzoom: 0,
+        maxzoom: 10,
+      });
+
+      addOrReplaceLayer(map, LAYER_ISLANDS_FILL, {
+        id: LAYER_ISLANDS_FILL,
+        type: 'fill',
+        source: SOURCE_ISLANDS,
+        'source-layer': 'vn_offshore_islands',
+        layout: { visibility: showIslands ? 'visible' : 'none' },
+        paint: { 'fill-color': '#0f766e', 'fill-opacity': 0.12 },
+      });
+
+      addOrReplaceLayer(map, LAYER_ISLANDS_OUTLINE, {
+        id: LAYER_ISLANDS_OUTLINE,
+        type: 'line',
+        source: SOURCE_ISLANDS,
+        'source-layer': 'vn_offshore_islands',
+        layout: { visibility: showIslands ? 'visible' : 'none' },
+        paint: { 'line-color': '#0f766e', 'line-width': 1.25 },
+      });
     }
 
     if (map.loaded()) {
@@ -189,7 +219,9 @@ export default function ProvinceLayer({ map, mode }: ProvinceLayerProps) {
     setVisibility(map, LAYER_POST_FILL, postVisible);
     setVisibility(map, LAYER_POST_OUTLINE, postVisible);
     setVisibility(map, LAYER_POST_LABEL, postVisible);
-  }, [map, mode]);
+    setVisibility(map, LAYER_ISLANDS_FILL, showIslands);
+    setVisibility(map, LAYER_ISLANDS_OUTLINE, showIslands);
+  }, [map, mode, showIslands]);
 
   return null;
 }

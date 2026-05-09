@@ -58,6 +58,7 @@ Local defaults:
 ```env
 NEXT_PUBLIC_TILE_URL_PRE=http://localhost:8080/tiles/vn_provinces_pre_2025
 NEXT_PUBLIC_TILE_URL_POST=http://localhost:8080/tiles/vn_provinces_post_2025
+NEXT_PUBLIC_TILE_URL_ISLANDS=http://localhost:8080/tiles/vn_offshore_islands
 NEXT_PUBLIC_MAP_STYLE=https://basemaps.cartocdn.com/gl/positron-gl-style/style.json
 NEXT_PUBLIC_SITE_URL=http://localhost:3000
 ```
@@ -67,6 +68,7 @@ Production tile URL bases:
 ```env
 NEXT_PUBLIC_TILE_URL_PRE=https://tiles.viettrace.org/tiles/vn_provinces_pre_2025
 NEXT_PUBLIC_TILE_URL_POST=https://tiles.viettrace.org/tiles/vn_provinces_post_2025
+NEXT_PUBLIC_TILE_URL_ISLANDS=https://tiles.viettrace.org/tiles/vn_offshore_islands
 ```
 
 Do not hardcode tile URLs in source code. Public map config must come from `NEXT_PUBLIC_*` env vars.
@@ -146,6 +148,7 @@ Vector tiles are served by Martin from PostGIS through `https://tiles.viettrace.
 |---|---|---|
 | Pre-2025, 63 provinces | `vn_provinces_pre_2025` | `NEXT_PUBLIC_TILE_URL_PRE` |
 | Post-2025, 34 provinces | `vn_provinces_post_2025` | `NEXT_PUBLIC_TILE_URL_POST` |
+| Offshore islands | `vn_offshore_islands` | `NEXT_PUBLIC_TILE_URL_ISLANDS` |
 
 Static frontend metadata lives in `public/data/`:
 
@@ -154,6 +157,7 @@ Static frontend metadata lives in `public/data/`:
 - `province-labels-post.json`: label points for post-2025 provinces.
 
 OSM attribution is required: `© OpenStreetMap contributors`.
+geoBoundaries attribution is required for offshore islands: `© geoBoundaries www.geoboundaries.org`.
 
 ## Docker
 
@@ -177,6 +181,7 @@ Production environment variables:
 ```env
 NEXT_PUBLIC_TILE_URL_PRE=https://tiles.viettrace.org/tiles/vn_provinces_pre_2025
 NEXT_PUBLIC_TILE_URL_POST=https://tiles.viettrace.org/tiles/vn_provinces_post_2025
+NEXT_PUBLIC_TILE_URL_ISLANDS=https://tiles.viettrace.org/tiles/vn_offshore_islands
 NEXT_PUBLIC_MAP_STYLE=https://basemaps.cartocdn.com/gl/positron-gl-style/style.json
 NEXT_PUBLIC_SITE_URL=https://viettrace.org
 NEXT_PUBLIC_SENTRY_ENABLED=false
@@ -198,6 +203,7 @@ Run with production-style public env values:
 docker run --rm -p 3002:3000 \
   -e NEXT_PUBLIC_TILE_URL_PRE=https://tiles.viettrace.org/tiles/vn_provinces_pre_2025 \
   -e NEXT_PUBLIC_TILE_URL_POST=https://tiles.viettrace.org/tiles/vn_provinces_post_2025 \
+  -e NEXT_PUBLIC_TILE_URL_ISLANDS=https://tiles.viettrace.org/tiles/vn_offshore_islands \
   -e NEXT_PUBLIC_MAP_STYLE=https://basemaps.cartocdn.com/gl/positron-gl-style/style.json \
   viettrace-map-web:local
 ```

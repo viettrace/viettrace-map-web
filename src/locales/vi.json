@@ -5,6 +5,10 @@
     "togglePreLabel": "(trước 7/2025)",
     "togglePost": "34 tỉnh",
     "togglePostLabel": "(sau 7/2025)",
+    "toggleIslandsOn": "Đảo: bật",
+    "toggleIslandsOff": "Đảo: tắt",
+    "toggleIslandsShow": "Hiện lớp đảo ngoài khơi",
+    "toggleIslandsHide": "Ẩn lớp đảo ngoài khơi",
     "popupOldProvince": "Tỉnh cũ",
     "popupMergedInto": "Sau sáp nhập thuộc về",
     "popupMergedDate": "Ngày sáp nhập",
@@ -14,6 +18,7 @@
     "metadataError": "Không thể tải dữ liệu sáp nhập. Popup vẫn hiển thị tên tỉnh, nhưng có thể thiếu thông tin quy thuộc sau sáp nhập.",
     "retry": "Thử lại",
     "attributionOSM": "© OpenStreetMap contributors",
+    "attributionGeoBoundaries": "© geoBoundaries www.geoboundaries.org",
     "attributionViettrace": "© Viettrace"
   },
   "HomePage": {
