@@ -1,4 +1,5 @@
 export interface PublicEnv {
+  enableQaLayers: boolean;
   mapStyle: string;
   tileCacheBuster?: string;
   tileUrlIslands?: string;
@@ -14,6 +15,7 @@ const DEFAULT_MAP_STYLE = 'https://basemaps.cartocdn.com/gl/positron-gl-style/st
 type PublicEnvSource = Record<string, string | undefined>;
 
 const browserPublicEnv: PublicEnvSource = {
+  NEXT_PUBLIC_ENABLE_QA_LAYERS: process.env.NEXT_PUBLIC_ENABLE_QA_LAYERS,
   NEXT_PUBLIC_MAP_STYLE: process.env.NEXT_PUBLIC_MAP_STYLE,
   NEXT_PUBLIC_TILE_CACHE_BUSTER: process.env.NEXT_PUBLIC_TILE_CACHE_BUSTER,
   NEXT_PUBLIC_TILE_URL_ISLANDS: process.env.NEXT_PUBLIC_TILE_URL_ISLANDS,
@@ -38,8 +40,13 @@ function readRequiredEnv(env: PublicEnvSource, key: string): string {
   return value;
 }
 
+function readBooleanEnv(env: PublicEnvSource, key: string): boolean {
+  return env[key]?.trim().toLowerCase() === 'true';
+}
+
 export function readPublicEnv(env: PublicEnvSource = browserPublicEnv): PublicEnv {
   return {
+    enableQaLayers: readBooleanEnv(env, 'NEXT_PUBLIC_ENABLE_QA_LAYERS'),
     mapStyle: env.NEXT_PUBLIC_MAP_STYLE || DEFAULT_MAP_STYLE,
     tileCacheBuster: env.NEXT_PUBLIC_TILE_CACHE_BUSTER || undefined,
     tileUrlIslands: env.NEXT_PUBLIC_TILE_URL_ISLANDS || undefined,

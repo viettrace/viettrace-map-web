@@ -135,6 +135,7 @@ Public map env vars:
 NEXT_PUBLIC_TILE_URL_PRE=http://localhost:8080/tiles/vn_provinces_pre_2025
 NEXT_PUBLIC_TILE_URL_POST=http://localhost:8080/tiles/vn_provinces_post_2025
 NEXT_PUBLIC_TILE_URL_ISLANDS=http://localhost:8080/tiles/vn_offshore_islands
+NEXT_PUBLIC_ENABLE_QA_LAYERS=false
 NEXT_PUBLIC_TILE_URL_PRE_DISTRICTS_CANDIDATE=http://localhost:8080/tiles/vn_districts_pre_2025_candidate
 NEXT_PUBLIC_TILE_URL_PRE_DISTRICTS_CANDIDATE_LABELS=http://localhost:8080/tiles/vn_districts_pre_2025_candidate_labels
 NEXT_PUBLIC_TILE_URL_POST_WARDS_CANDIDATE=http://localhost:8080/tiles/vn_wards_post_2025_candidate
@@ -158,6 +159,7 @@ Rules:
 - Never hardcode tile URLs in source code.
 - Use `process.env.NEXT_PUBLIC_*` for browser-visible configuration.
 - Treat candidate nested-boundary URLs as local/QA-only; leave them unset in production unless Phase 4 explicitly promotes them.
+- `NEXT_PUBLIC_ENABLE_QA_LAYERS` defaults to disabled behavior; set it to `true` only for local QA sessions. Leave it unset or `false` in production.
 - Candidate nested-boundary labels should use the `_candidate_labels` point tile endpoints, not polygon candidate tile sources.
 - Bump `NEXT_PUBLIC_TILE_CACHE_BUSTER` after tile data changes when browser/CDN caches may still hold stale MVTs.
 - `.env.local` is gitignored; do not commit secrets or private env values.

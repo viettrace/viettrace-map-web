@@ -25,6 +25,7 @@ export default function BoundaryLayers({ map, state }: BoundaryLayersProps) {
   const locale = useLocale();
   const publicEnv = readPublicEnv();
   const {
+    enableQaLayers,
     tileCacheBuster,
     tileUrlIslands,
     tileUrlPost,
@@ -35,10 +36,12 @@ export default function BoundaryLayers({ map, state }: BoundaryLayersProps) {
     tileUrlPreDistrictsCandidate,
   } = publicEnv;
   const includeOffshoreIslands = Boolean(tileUrlIslands);
-  const includePostWardCandidateLabels = Boolean(tileUrlPostWardsCandidateLabels);
-  const includePostWardCandidates = Boolean(tileUrlPostWardsCandidate);
-  const includePreDistrictCandidateLabels = Boolean(tileUrlPreDistrictsCandidateLabels);
-  const includePreDistrictCandidates = Boolean(tileUrlPreDistrictsCandidate);
+  const includePostWardCandidateLabels =
+    enableQaLayers && Boolean(tileUrlPostWardsCandidateLabels);
+  const includePostWardCandidates = enableQaLayers && Boolean(tileUrlPostWardsCandidate);
+  const includePreDistrictCandidateLabels =
+    enableQaLayers && Boolean(tileUrlPreDistrictsCandidateLabels);
+  const includePreDistrictCandidates = enableQaLayers && Boolean(tileUrlPreDistrictsCandidate);
 
   useEffect(() => {
     if (!map) return;
@@ -51,11 +54,19 @@ export default function BoundaryLayers({ map, state }: BoundaryLayersProps) {
         tileCacheBuster,
         tileUrlIslands,
         tileUrlPost,
-        tileUrlPostWardsCandidateLabels,
-        tileUrlPostWardsCandidate,
+        tileUrlPostWardsCandidateLabels: includePostWardCandidateLabels
+          ? tileUrlPostWardsCandidateLabels
+          : undefined,
+        tileUrlPostWardsCandidate: includePostWardCandidates
+          ? tileUrlPostWardsCandidate
+          : undefined,
         tileUrlPre,
-        tileUrlPreDistrictsCandidateLabels,
-        tileUrlPreDistrictsCandidate,
+        tileUrlPreDistrictsCandidateLabels: includePreDistrictCandidateLabels
+          ? tileUrlPreDistrictsCandidateLabels
+          : undefined,
+        tileUrlPreDistrictsCandidate: includePreDistrictCandidates
+          ? tileUrlPreDistrictsCandidate
+          : undefined,
       };
 
       ensureNationalCapitalIcon(map);

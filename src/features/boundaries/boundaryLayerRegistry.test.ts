@@ -12,6 +12,7 @@ import {
 } from './boundaryLayerRegistry';
 
 const env: PublicEnv = {
+  enableQaLayers: true,
   mapStyle: 'style',
   tileCacheBuster: '20260509-display',
   tileUrlIslands: 'https://tiles.example.test/islands',
@@ -270,8 +271,22 @@ describe('boundaryLayerRegistry', () => {
     ]);
   });
 
+  it('omits candidate sources when QA layers are disabled', () => {
+    const sources = getBoundarySourceDefinitions({
+      ...env,
+      enableQaLayers: false,
+    });
+    const sourceIds = sources.map(source => source.id);
+
+    expect(sourceIds).not.toContain(boundarySourceIds.preDistrictsCandidate);
+    expect(sourceIds).not.toContain(boundarySourceIds.preDistrictsCandidateLabels);
+    expect(sourceIds).not.toContain(boundarySourceIds.postWardsCandidate);
+    expect(sourceIds).not.toContain(boundarySourceIds.postWardsCandidateLabels);
+  });
+
   it('omits offshore island sources and layers when the tile URL is not configured', () => {
     const envWithoutIslands = {
+      enableQaLayers: false,
       mapStyle: 'style',
       tileUrlPost: 'https://tiles.example.test/post',
       tileUrlPre: 'https://tiles.example.test/pre',

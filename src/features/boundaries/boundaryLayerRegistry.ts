@@ -287,6 +287,10 @@ function getNestedCandidateSourceDefinitions(
   env: PublicEnv,
   sourceDefinitions: BoundarySourceDefinition[],
 ): BoundarySourceDefinition[] {
+  if (!env.enableQaLayers) {
+    return sourceDefinitions;
+  }
+
   const nestedSourceDefinitions = [...sourceDefinitions];
 
   if (env.tileUrlPreDistrictsCandidate) {
