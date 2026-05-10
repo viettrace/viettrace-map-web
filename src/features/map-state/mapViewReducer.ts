@@ -4,6 +4,7 @@ export const initialMapViewState: MapViewState = {
   mode: 'pre',
   selectedFeature: null,
   layers: {
+    nestedCandidates: false,
     offshoreIslands: true,
   },
   panels: {
@@ -22,6 +23,14 @@ export function mapViewReducer(state: MapViewState, action: MapViewAction): MapV
         panels: {
           ...state.panels,
           detail: state.selectedFeature?.mode === action.mode ? state.panels.detail : false,
+        },
+      };
+    case 'setNestedCandidatesVisible':
+      return {
+        ...state,
+        layers: {
+          ...state.layers,
+          nestedCandidates: action.visible,
         },
       };
     case 'setOffshoreIslandsVisible':

@@ -7,8 +7,10 @@ export const boundarySourceIds = {
   islands: 'vn-offshore-islands',
   islandLabels: 'offshore-island-labels',
   post: 'vn-provinces-post',
+  postWardsCandidate: 'vn-wards-post-2025-candidate',
   postLabels: 'province-labels-post',
   pre: 'vn-provinces-pre',
+  preDistrictsCandidate: 'vn-districts-pre-2025-candidate',
   preLabels: 'province-labels-pre',
 } as const;
 
@@ -18,12 +20,18 @@ const boundaryLayerIds = {
   islandsOutline: 'offshore-islands-outline',
   islandsOutlineHalo: 'offshore-islands-outline-halo',
   postCityLabel: 'provinces-post-city-label',
+  postWardsCandidateFill: 'wards-post-2025-candidate-fill',
+  postWardsCandidateLabel: 'wards-post-2025-candidate-label',
+  postWardsCandidateOutline: 'wards-post-2025-candidate-outline',
   postFill: 'provinces-post-fill',
   postNationalCapitalLabel: 'provinces-post-national-capital-label',
   postNationalCapitalMarker: 'provinces-post-national-capital-marker',
   postLabel: 'provinces-post-label',
   postOutline: 'provinces-post-outline',
   preCityLabel: 'provinces-pre-city-label',
+  preDistrictsCandidateFill: 'districts-pre-2025-candidate-fill',
+  preDistrictsCandidateLabel: 'districts-pre-2025-candidate-label',
+  preDistrictsCandidateOutline: 'districts-pre-2025-candidate-outline',
   preFill: 'provinces-pre-fill',
   preNationalCapitalLabel: 'provinces-pre-national-capital-label',
   preNationalCapitalMarker: 'provinces-pre-national-capital-marker',
@@ -34,7 +42,9 @@ const boundaryLayerIds = {
 const boundarySourceLayers = {
   islands: 'vn_offshore_islands',
   post: 'vn_provinces_post_2025',
+  postWardsCandidate: 'vn_wards_post_2025_candidate',
   pre: 'vn_provinces_pre_2025',
+  preDistrictsCandidate: 'vn_districts_pre_2025_candidate',
 } as const;
 
 const labelZoomStops = {
@@ -50,9 +60,17 @@ const labelZoomStops = {
     full: 5.95,
     min: 5.25,
   },
+  postWardCandidates: {
+    full: 9.1,
+    min: 8.15,
+  },
   postProvinces: {
     full: 5.8,
     min: 5.05,
+  },
+  preDistrictCandidates: {
+    full: 8.25,
+    min: 7.25,
   },
   preProvinces: {
     full: 6.05,
@@ -80,7 +98,11 @@ interface BoundaryLayerGroup {
 
 interface BoundaryLayerOptions {
   includeOffshoreIslands?: boolean;
+  includePostWardCandidates?: boolean;
+  includePreDistrictCandidates?: boolean;
 }
+
+type BoundaryLayerGroupOptions = boolean | BoundaryLayerOptions;
 
 const provinceBoundaryLayerGroups: BoundaryLayerGroup[] = [
   {
@@ -120,10 +142,49 @@ const offshoreIslandLayerGroup: BoundaryLayerGroup = {
   ],
 };
 
-export function getBoundaryLayerGroups(includeOffshoreIslands: boolean): BoundaryLayerGroup[] {
-  return includeOffshoreIslands
-    ? [...provinceBoundaryLayerGroups, offshoreIslandLayerGroup]
-    : provinceBoundaryLayerGroups;
+const preDistrictCandidateLayerGroup: BoundaryLayerGroup = {
+  id: 'pre-districts-candidate',
+  isVisible: state => state.mode === 'pre' && state.layers.nestedCandidates,
+  layerIds: [
+    boundaryLayerIds.preDistrictsCandidateFill,
+    boundaryLayerIds.preDistrictsCandidateOutline,
+    boundaryLayerIds.preDistrictsCandidateLabel,
+  ],
+};
+
+const postWardCandidateLayerGroup: BoundaryLayerGroup = {
+  id: 'post-wards-candidate',
+  isVisible: state => state.mode === 'post' && state.layers.nestedCandidates,
+  layerIds: [
+    boundaryLayerIds.postWardsCandidateFill,
+    boundaryLayerIds.postWardsCandidateOutline,
+    boundaryLayerIds.postWardsCandidateLabel,
+  ],
+};
+
+function normalizeLayerOptions(options: BoundaryLayerGroupOptions = {}): BoundaryLayerOptions {
+  return typeof options === 'boolean' ? { includeOffshoreIslands: options } : options;
+}
+
+export function getBoundaryLayerGroups(
+  options: BoundaryLayerGroupOptions = {},
+): BoundaryLayerGroup[] {
+  const normalizedOptions = normalizeLayerOptions(options);
+  const groups = [...provinceBoundaryLayerGroups];
+
+  if (normalizedOptions.includeOffshoreIslands !== false) {
+    groups.push(offshoreIslandLayerGroup);
+  }
+
+  if (normalizedOptions.includePreDistrictCandidates) {
+    groups.push(preDistrictCandidateLayerGroup);
+  }
+
+  if (normalizedOptions.includePostWardCandidates) {
+    groups.push(postWardCandidateLayerGroup);
+  }
+
+  return groups;
 }
 
 export const boundaryLayerGroups = getBoundaryLayerGroups(true);
@@ -178,10 +239,10 @@ export function getBoundarySourceDefinitions(env: PublicEnv): BoundarySourceDefi
   ];
 
   if (!env.tileUrlIslands) {
-    return sourceDefinitions;
+    return getNestedCandidateSourceDefinitions(env, sourceDefinitions);
   }
 
-  return [
+  return getNestedCandidateSourceDefinitions(env, [
     ...sourceDefinitions,
     {
       id: boundarySourceIds.islandLabels,
@@ -199,7 +260,40 @@ export function getBoundarySourceDefinitions(env: PublicEnv): BoundarySourceDefi
         type: 'vector',
       },
     },
-  ];
+  ]);
+}
+
+function getNestedCandidateSourceDefinitions(
+  env: PublicEnv,
+  sourceDefinitions: BoundarySourceDefinition[],
+): BoundarySourceDefinition[] {
+  const nestedSourceDefinitions = [...sourceDefinitions];
+
+  if (env.tileUrlPreDistrictsCandidate) {
+    nestedSourceDefinitions.push({
+      id: boundarySourceIds.preDistrictsCandidate,
+      source: {
+        maxzoom: 12,
+        minzoom: 0,
+        tiles: [buildTileTemplate(env.tileUrlPreDistrictsCandidate, env.tileCacheBuster)],
+        type: 'vector',
+      },
+    });
+  }
+
+  if (env.tileUrlPostWardsCandidate) {
+    nestedSourceDefinitions.push({
+      id: boundarySourceIds.postWardsCandidate,
+      source: {
+        maxzoom: 12,
+        minzoom: 0,
+        tiles: [buildTileTemplate(env.tileUrlPostWardsCandidate, env.tileCacheBuster)],
+        type: 'vector',
+      },
+    });
+  }
+
+  return nestedSourceDefinitions;
 }
 
 function getProvinceLayerDefinitions(
@@ -567,16 +661,173 @@ function getOffshoreIslandLayerDefinitions(
   ];
 }
 
+function getNestedCandidateLayerDefinitions(
+  locale: string,
+  state: MapViewState,
+  options: BoundaryLayerOptions,
+): BoundaryLayerDefinition[] {
+  const preVisible =
+    Boolean(options.includePreDistrictCandidates) &&
+    state.mode === 'pre' &&
+    state.layers.nestedCandidates;
+  const postVisible =
+    Boolean(options.includePostWardCandidates) &&
+    state.mode === 'post' &&
+    state.layers.nestedCandidates;
+  const labelField: maplibregl.ExpressionSpecification =
+    locale === 'en' ? ['coalesce', ['get', 'name_en'], ['get', 'name']] : ['get', 'name'];
+  const layers: BoundaryLayerDefinition[] = [];
+
+  if (options.includePreDistrictCandidates) {
+    layers.push(
+      {
+        groupId: 'pre-districts-candidate',
+        layer: {
+          id: boundaryLayerIds.preDistrictsCandidateFill,
+          layout: { visibility: preVisible ? 'visible' : 'none' },
+          maxzoom: 12,
+          minzoom: 5.35,
+          paint: { 'fill-color': '#f59e0b', 'fill-opacity': 0.035 },
+          source: boundarySourceIds.preDistrictsCandidate,
+          'source-layer': boundarySourceLayers.preDistrictsCandidate,
+          type: 'fill',
+        },
+      },
+      {
+        groupId: 'pre-districts-candidate',
+        layer: {
+          id: boundaryLayerIds.preDistrictsCandidateOutline,
+          layout: { visibility: preVisible ? 'visible' : 'none' },
+          maxzoom: 12,
+          minzoom: 5.35,
+          paint: {
+            'line-color': '#b45309',
+            'line-opacity': zoomRamp(5.35, 0.65, 7.25, 1),
+            'line-width': zoomRamp(5.35, 0.45, 9, 1.15),
+          },
+          source: boundarySourceIds.preDistrictsCandidate,
+          'source-layer': boundarySourceLayers.preDistrictsCandidate,
+          type: 'line',
+        },
+      },
+      {
+        groupId: 'pre-districts-candidate',
+        layer: {
+          filter: ['has', 'name'],
+          id: boundaryLayerIds.preDistrictsCandidateLabel,
+          layout: {
+            'text-allow-overlap': false,
+            'text-anchor': 'center',
+            'text-field': labelField,
+            'text-ignore-placement': false,
+            'text-size': zoomRamp(labelZoomStops.preDistrictCandidates.min, 10, 10, 11.5),
+            visibility: preVisible ? 'visible' : 'none',
+          },
+          maxzoom: 12,
+          minzoom: labelZoomStops.preDistrictCandidates.min,
+          paint: {
+            'text-color': '#92400e',
+            'text-halo-color': '#fff',
+            'text-halo-width': 1.6,
+            'text-opacity': zoomRamp(
+              labelZoomStops.preDistrictCandidates.min,
+              0,
+              labelZoomStops.preDistrictCandidates.full,
+              1,
+            ),
+          },
+          source: boundarySourceIds.preDistrictsCandidate,
+          'source-layer': boundarySourceLayers.preDistrictsCandidate,
+          type: 'symbol',
+        },
+      },
+    );
+  }
+
+  if (options.includePostWardCandidates) {
+    layers.push(
+      {
+        groupId: 'post-wards-candidate',
+        layer: {
+          id: boundaryLayerIds.postWardsCandidateFill,
+          layout: { visibility: postVisible ? 'visible' : 'none' },
+          maxzoom: 12,
+          minzoom: 6,
+          paint: { 'fill-color': '#8b5cf6', 'fill-opacity': 0.035 },
+          source: boundarySourceIds.postWardsCandidate,
+          'source-layer': boundarySourceLayers.postWardsCandidate,
+          type: 'fill',
+        },
+      },
+      {
+        groupId: 'post-wards-candidate',
+        layer: {
+          id: boundaryLayerIds.postWardsCandidateOutline,
+          layout: { visibility: postVisible ? 'visible' : 'none' },
+          maxzoom: 12,
+          minzoom: 6,
+          paint: {
+            'line-color': '#6d28d9',
+            'line-opacity': zoomRamp(6, 0.62, 8, 1),
+            'line-width': zoomRamp(6, 0.35, 10, 0.95),
+          },
+          source: boundarySourceIds.postWardsCandidate,
+          'source-layer': boundarySourceLayers.postWardsCandidate,
+          type: 'line',
+        },
+      },
+      {
+        groupId: 'post-wards-candidate',
+        layer: {
+          filter: ['has', 'name'],
+          id: boundaryLayerIds.postWardsCandidateLabel,
+          layout: {
+            'text-allow-overlap': false,
+            'text-anchor': 'center',
+            'text-field': labelField,
+            'text-ignore-placement': false,
+            'text-size': zoomRamp(labelZoomStops.postWardCandidates.min, 9.5, 11, 11),
+            visibility: postVisible ? 'visible' : 'none',
+          },
+          maxzoom: 12,
+          minzoom: labelZoomStops.postWardCandidates.min,
+          paint: {
+            'text-color': '#5b21b6',
+            'text-halo-color': '#fff',
+            'text-halo-width': 1.5,
+            'text-opacity': zoomRamp(
+              labelZoomStops.postWardCandidates.min,
+              0,
+              labelZoomStops.postWardCandidates.full,
+              1,
+            ),
+          },
+          source: boundarySourceIds.postWardsCandidate,
+          'source-layer': boundarySourceLayers.postWardsCandidate,
+          type: 'symbol',
+        },
+      },
+    );
+  }
+
+  return layers;
+}
+
 export function getBoundaryLayerDefinitions(
   locale: string,
   state: MapViewState,
   options: BoundaryLayerOptions = {},
 ): BoundaryLayerDefinition[] {
   const provinceLayers = getProvinceLayerDefinitions(locale, state);
+  const nestedCandidateLayers = getNestedCandidateLayerDefinitions(locale, state, options);
 
   if (options.includeOffshoreIslands === false) {
-    return provinceLayers;
+    return [...provinceLayers, ...nestedCandidateLayers];
   }
 
-  return [...provinceLayers, ...getOffshoreIslandLayerDefinitions(locale, state)];
+  return [
+    ...provinceLayers,
+    ...getOffshoreIslandLayerDefinitions(locale, state),
+    ...nestedCandidateLayers,
+  ];
 }

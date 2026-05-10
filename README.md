@@ -65,6 +65,8 @@ Local defaults:
 NEXT_PUBLIC_TILE_URL_PRE=http://localhost:8080/tiles/vn_provinces_pre_2025
 NEXT_PUBLIC_TILE_URL_POST=http://localhost:8080/tiles/vn_provinces_post_2025
 NEXT_PUBLIC_TILE_URL_ISLANDS=http://localhost:8080/tiles/vn_offshore_islands
+NEXT_PUBLIC_TILE_URL_PRE_DISTRICTS_CANDIDATE=http://localhost:8080/tiles/vn_districts_pre_2025_candidate
+NEXT_PUBLIC_TILE_URL_POST_WARDS_CANDIDATE=http://localhost:8080/tiles/vn_wards_post_2025_candidate
 NEXT_PUBLIC_MAP_STYLE=https://basemaps.cartocdn.com/gl/positron-gl-style/style.json
 NEXT_PUBLIC_TILE_CACHE_BUSTER=
 NEXT_PUBLIC_SITE_URL=http://localhost:3000
@@ -79,7 +81,7 @@ NEXT_PUBLIC_TILE_URL_ISLANDS=https://tiles.viettrace.org/tiles/vn_offshore_islan
 NEXT_PUBLIC_TILE_CACHE_BUSTER=20260509-display
 ```
 
-Do not hardcode tile URLs in source code. Public map config must come from `NEXT_PUBLIC_*` env vars. `NEXT_PUBLIC_TILE_URL_ISLANDS` is recommended for the full production layer set; if it is absent in an older local env file, the map still loads without the offshore-islands layer/toggle.
+Do not hardcode tile URLs in source code. Public map config must come from `NEXT_PUBLIC_*` env vars. `NEXT_PUBLIC_TILE_URL_ISLANDS` is recommended for the full production layer set; if it is absent in an older local env file, the map still loads without the offshore-islands layer/toggle. Candidate nested-boundary URLs are local/QA-only and should stay unset in production.
 
 ## Local Development
 
@@ -180,6 +182,8 @@ Vector tiles are served by Martin from PostGIS through `https://tiles.viettrace.
 | Pre-2025, 63 provinces | `vn_provinces_pre_2025` | `NEXT_PUBLIC_TILE_URL_PRE` |
 | Post-2025, 34 provinces | `vn_provinces_post_2025` | `NEXT_PUBLIC_TILE_URL_POST` |
 | Offshore islands | `vn_offshore_islands` | `NEXT_PUBLIC_TILE_URL_ISLANDS` |
+| Pre-2025 district candidates | `vn_districts_pre_2025_candidate` | `NEXT_PUBLIC_TILE_URL_PRE_DISTRICTS_CANDIDATE` |
+| Post-2025 ward candidates | `vn_wards_post_2025_candidate` | `NEXT_PUBLIC_TILE_URL_POST_WARDS_CANDIDATE` |
 
 Static frontend metadata lives in `public/data/`:
 
@@ -193,7 +197,7 @@ OSM attribution is required: `© OpenStreetMap contributors`.
 The CARTO basemap credit is kept available in the app-owned attribution disclosure.
 geoBoundaries attribution is required for offshore islands: `© geoBoundaries www.geoboundaries.org`.
 
-Province labels use localized fields (`name` for Vietnamese, `name_en` for English). Hà Nội is rendered as the national capital with a marker; city labels are allowed at default zoom, while province labels and offshore-island labels fade in at closer zoom levels.
+Province labels use localized fields (`name` for Vietnamese, `name_en` for English). Hà Nội is rendered as the national capital with a marker; city labels are allowed at default zoom, while province labels and offshore-island labels fade in at closer zoom levels. Candidate district/ward labels are rendered only at closer zooms behind the QA toggle.
 
 ## Docker
 
