@@ -15,8 +15,10 @@ const env: PublicEnv = {
   mapStyle: 'style',
   tileCacheBuster: '20260509-display',
   tileUrlIslands: 'https://tiles.example.test/islands',
+  tileUrlPostWardsCandidateLabels: 'https://tiles.example.test/post-ward-labels',
   tileUrlPostWardsCandidate: 'https://tiles.example.test/post-wards',
   tileUrlPost: 'https://tiles.example.test/post',
+  tileUrlPreDistrictsCandidateLabels: 'https://tiles.example.test/pre-district-labels',
   tileUrlPreDistrictsCandidate: 'https://tiles.example.test/pre-districts',
   tileUrlPre: 'https://tiles.example.test/pre',
 };
@@ -207,6 +209,12 @@ describe('boundaryLayerRegistry', () => {
     const postCandidateSource = sources.find(
       source => source.id === boundarySourceIds.postWardsCandidate,
     )?.source as { tiles: string[] } | undefined;
+    const preCandidateLabelSource = sources.find(
+      source => source.id === boundarySourceIds.preDistrictsCandidateLabels,
+    )?.source as { tiles: string[] } | undefined;
+    const postCandidateLabelSource = sources.find(
+      source => source.id === boundarySourceIds.postWardsCandidateLabels,
+    )?.source as { tiles: string[] } | undefined;
     const state = {
       ...initialMapViewState,
       layers: { ...initialMapViewState.layers, nestedCandidates: true },
@@ -214,7 +222,9 @@ describe('boundaryLayerRegistry', () => {
     };
     const layers = getBoundaryLayerDefinitions('vi', state, {
       includePostWardCandidates: true,
+      includePostWardCandidateLabels: true,
       includePreDistrictCandidates: true,
+      includePreDistrictCandidateLabels: true,
     });
 
     expect(preCandidateSource?.tiles[0]).toBe(
@@ -222,6 +232,12 @@ describe('boundaryLayerRegistry', () => {
     );
     expect(postCandidateSource?.tiles[0]).toBe(
       'https://tiles.example.test/post-wards/{z}/{x}/{y}?v=20260509-display',
+    );
+    expect(preCandidateLabelSource?.tiles[0]).toBe(
+      'https://tiles.example.test/pre-district-labels/{z}/{x}/{y}?v=20260509-display',
+    );
+    expect(postCandidateLabelSource?.tiles[0]).toBe(
+      'https://tiles.example.test/post-ward-labels/{z}/{x}/{y}?v=20260509-display',
     );
     expect(
       layers.find(definition => definition.layer.id === 'wards-post-2025-candidate-outline')?.layer
@@ -231,10 +247,19 @@ describe('boundaryLayerRegistry', () => {
       layers.find(definition => definition.layer.id === 'districts-pre-2025-candidate-outline')
         ?.layer.layout,
     ).toMatchObject({ visibility: 'none' });
+    const postCandidateLabel = layers.find(
+      definition => definition.layer.id === 'wards-post-2025-candidate-label',
+    )?.layer as maplibregl.SymbolLayerSpecification | undefined;
+
+    expect(postCandidateLabel?.source).toBe(boundarySourceIds.postWardsCandidateLabels);
+    expect(postCandidateLabel?.['source-layer']).toBe('vn_wards_post_2025_candidate_labels');
+    expect(postCandidateLabel?.minzoom).toBe(10.75);
     expect(
       getBoundaryLayerGroups({
         includePostWardCandidates: true,
+        includePostWardCandidateLabels: true,
         includePreDistrictCandidates: true,
+        includePreDistrictCandidateLabels: true,
       }).map(group => group.id),
     ).toEqual([
       'pre-provinces',

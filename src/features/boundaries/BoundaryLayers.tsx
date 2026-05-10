@@ -28,12 +28,16 @@ export default function BoundaryLayers({ map, state }: BoundaryLayersProps) {
     tileCacheBuster,
     tileUrlIslands,
     tileUrlPost,
+    tileUrlPostWardsCandidateLabels,
     tileUrlPostWardsCandidate,
     tileUrlPre,
+    tileUrlPreDistrictsCandidateLabels,
     tileUrlPreDistrictsCandidate,
   } = publicEnv;
   const includeOffshoreIslands = Boolean(tileUrlIslands);
+  const includePostWardCandidateLabels = Boolean(tileUrlPostWardsCandidateLabels);
   const includePostWardCandidates = Boolean(tileUrlPostWardsCandidate);
+  const includePreDistrictCandidateLabels = Boolean(tileUrlPreDistrictsCandidateLabels);
   const includePreDistrictCandidates = Boolean(tileUrlPreDistrictsCandidate);
 
   useEffect(() => {
@@ -47,8 +51,10 @@ export default function BoundaryLayers({ map, state }: BoundaryLayersProps) {
         tileCacheBuster,
         tileUrlIslands,
         tileUrlPost,
+        tileUrlPostWardsCandidateLabels,
         tileUrlPostWardsCandidate,
         tileUrlPre,
+        tileUrlPreDistrictsCandidateLabels,
         tileUrlPreDistrictsCandidate,
       };
 
@@ -60,7 +66,9 @@ export default function BoundaryLayers({ map, state }: BoundaryLayersProps) {
 
       for (const layerDefinition of getBoundaryLayerDefinitions(locale, state, {
         includeOffshoreIslands,
+        includePostWardCandidateLabels,
         includePostWardCandidates,
+        includePreDistrictCandidateLabels,
         includePreDistrictCandidates,
       })) {
         replaceLayer(map, layerDefinition.layer);
@@ -82,13 +90,17 @@ export default function BoundaryLayers({ map, state }: BoundaryLayersProps) {
     map,
     locale,
     includeOffshoreIslands,
+    includePostWardCandidateLabels,
     includePostWardCandidates,
+    includePreDistrictCandidateLabels,
     includePreDistrictCandidates,
     tileCacheBuster,
     tileUrlIslands,
     tileUrlPost,
+    tileUrlPostWardsCandidateLabels,
     tileUrlPostWardsCandidate,
     tileUrlPre,
+    tileUrlPreDistrictsCandidateLabels,
     tileUrlPreDistrictsCandidate,
   ]);
 
@@ -97,12 +109,22 @@ export default function BoundaryLayers({ map, state }: BoundaryLayersProps) {
 
     for (const group of getBoundaryLayerGroups({
       includeOffshoreIslands,
+      includePostWardCandidateLabels,
       includePostWardCandidates,
+      includePreDistrictCandidateLabels,
       includePreDistrictCandidates,
     })) {
       setLayerGroupVisibility(map, group.layerIds, group.isVisible(state));
     }
-  }, [includeOffshoreIslands, includePostWardCandidates, includePreDistrictCandidates, map, state]);
+  }, [
+    includeOffshoreIslands,
+    includePostWardCandidateLabels,
+    includePostWardCandidates,
+    includePreDistrictCandidateLabels,
+    includePreDistrictCandidates,
+    map,
+    state,
+  ]);
 
   return null;
 }

@@ -136,7 +136,9 @@ NEXT_PUBLIC_TILE_URL_PRE=http://localhost:8080/tiles/vn_provinces_pre_2025
 NEXT_PUBLIC_TILE_URL_POST=http://localhost:8080/tiles/vn_provinces_post_2025
 NEXT_PUBLIC_TILE_URL_ISLANDS=http://localhost:8080/tiles/vn_offshore_islands
 NEXT_PUBLIC_TILE_URL_PRE_DISTRICTS_CANDIDATE=http://localhost:8080/tiles/vn_districts_pre_2025_candidate
+NEXT_PUBLIC_TILE_URL_PRE_DISTRICTS_CANDIDATE_LABELS=http://localhost:8080/tiles/vn_districts_pre_2025_candidate_labels
 NEXT_PUBLIC_TILE_URL_POST_WARDS_CANDIDATE=http://localhost:8080/tiles/vn_wards_post_2025_candidate
+NEXT_PUBLIC_TILE_URL_POST_WARDS_CANDIDATE_LABELS=http://localhost:8080/tiles/vn_wards_post_2025_candidate_labels
 NEXT_PUBLIC_MAP_STYLE=https://basemaps.cartocdn.com/gl/positron-gl-style/style.json
 NEXT_PUBLIC_TILE_CACHE_BUSTER=
 NEXT_PUBLIC_SITE_URL=http://localhost:3000
@@ -156,6 +158,7 @@ Rules:
 - Never hardcode tile URLs in source code.
 - Use `process.env.NEXT_PUBLIC_*` for browser-visible configuration.
 - Treat candidate nested-boundary URLs as local/QA-only; leave them unset in production unless Phase 4 explicitly promotes them.
+- Candidate nested-boundary labels should use the `_candidate_labels` point tile endpoints, not polygon candidate tile sources.
 - Bump `NEXT_PUBLIC_TILE_CACHE_BUSTER` after tile data changes when browser/CDN caches may still hold stale MVTs.
 - `.env.local` is gitignored; do not commit secrets or private env values.
 - Docker builds need `NEXT_PUBLIC_*` args at build time because client public env values are inlined.
@@ -180,7 +183,9 @@ Rules:
 | Post-2025 | `vn-provinces-post` | `vn_provinces_post_2025` | `#3388ff` opacity `0.1` | `#3388ff` width `1.5` |
 | Offshore islands | `vn-offshore-islands` | `vn_offshore_islands` | teal reference fill/outline | optional toggle layer |
 | Pre-2025 district candidates | `vn-districts-pre-2025-candidate` | `vn_districts_pre_2025_candidate` | amber QA overlay | local/QA toggle only |
+| Pre-2025 district candidate labels | `vn-districts-pre-2025-candidate-labels` | `vn_districts_pre_2025_candidate_labels` | one point label per feature | local/QA toggle only |
 | Post-2025 ward candidates | `vn-wards-post-2025-candidate` | `vn_wards_post_2025_candidate` | violet QA overlay | local/QA toggle only |
+| Post-2025 ward candidate labels | `vn-wards-post-2025-candidate-labels` | `vn_wards_post_2025_candidate_labels` | one point label per feature | local/QA toggle only |
 
 ---
 

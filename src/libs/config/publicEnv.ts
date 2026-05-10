@@ -2,8 +2,10 @@ export interface PublicEnv {
   mapStyle: string;
   tileCacheBuster?: string;
   tileUrlIslands?: string;
+  tileUrlPostWardsCandidateLabels?: string;
   tileUrlPostWardsCandidate?: string;
   tileUrlPost: string;
+  tileUrlPreDistrictsCandidateLabels?: string;
   tileUrlPreDistrictsCandidate?: string;
   tileUrlPre: string;
 }
@@ -15,7 +17,11 @@ const browserPublicEnv: PublicEnvSource = {
   NEXT_PUBLIC_MAP_STYLE: process.env.NEXT_PUBLIC_MAP_STYLE,
   NEXT_PUBLIC_TILE_CACHE_BUSTER: process.env.NEXT_PUBLIC_TILE_CACHE_BUSTER,
   NEXT_PUBLIC_TILE_URL_ISLANDS: process.env.NEXT_PUBLIC_TILE_URL_ISLANDS,
+  NEXT_PUBLIC_TILE_URL_POST_WARDS_CANDIDATE_LABELS:
+    process.env.NEXT_PUBLIC_TILE_URL_POST_WARDS_CANDIDATE_LABELS,
   NEXT_PUBLIC_TILE_URL_POST_WARDS_CANDIDATE: process.env.NEXT_PUBLIC_TILE_URL_POST_WARDS_CANDIDATE,
+  NEXT_PUBLIC_TILE_URL_PRE_DISTRICTS_CANDIDATE_LABELS:
+    process.env.NEXT_PUBLIC_TILE_URL_PRE_DISTRICTS_CANDIDATE_LABELS,
   NEXT_PUBLIC_TILE_URL_PRE_DISTRICTS_CANDIDATE:
     process.env.NEXT_PUBLIC_TILE_URL_PRE_DISTRICTS_CANDIDATE,
   NEXT_PUBLIC_TILE_URL_POST: process.env.NEXT_PUBLIC_TILE_URL_POST,
@@ -37,8 +43,12 @@ export function readPublicEnv(env: PublicEnvSource = browserPublicEnv): PublicEn
     mapStyle: env.NEXT_PUBLIC_MAP_STYLE || DEFAULT_MAP_STYLE,
     tileCacheBuster: env.NEXT_PUBLIC_TILE_CACHE_BUSTER || undefined,
     tileUrlIslands: env.NEXT_PUBLIC_TILE_URL_ISLANDS || undefined,
+    tileUrlPostWardsCandidateLabels:
+      env.NEXT_PUBLIC_TILE_URL_POST_WARDS_CANDIDATE_LABELS || undefined,
     tileUrlPostWardsCandidate: env.NEXT_PUBLIC_TILE_URL_POST_WARDS_CANDIDATE || undefined,
     tileUrlPost: readRequiredEnv(env, 'NEXT_PUBLIC_TILE_URL_POST'),
+    tileUrlPreDistrictsCandidateLabels:
+      env.NEXT_PUBLIC_TILE_URL_PRE_DISTRICTS_CANDIDATE_LABELS || undefined,
     tileUrlPreDistrictsCandidate: env.NEXT_PUBLIC_TILE_URL_PRE_DISTRICTS_CANDIDATE || undefined,
     tileUrlPre: readRequiredEnv(env, 'NEXT_PUBLIC_TILE_URL_PRE'),
   };

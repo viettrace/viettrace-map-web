@@ -125,7 +125,10 @@ export default function MapShell() {
       <MapControlPanel
         canToggleIslands={Boolean(publicEnv.tileUrlIslands)}
         canToggleNestedCandidates={Boolean(
-          publicEnv.tileUrlPreDistrictsCandidate || publicEnv.tileUrlPostWardsCandidate,
+          publicEnv.tileUrlPreDistrictsCandidate ||
+            publicEnv.tileUrlPreDistrictsCandidateLabels ||
+            publicEnv.tileUrlPostWardsCandidate ||
+            publicEnv.tileUrlPostWardsCandidateLabels,
         )}
         mode={state.mode}
         onToggle={mode => dispatch({ mode, type: 'setMode' })}
