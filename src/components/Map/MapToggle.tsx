@@ -4,16 +4,22 @@ import { useTranslations } from 'next-intl';
 
 interface MapToggleProps {
   canToggleIslands?: boolean;
+  canToggleNestedCandidates?: boolean;
   mode: 'pre' | 'post';
   onToggle: (mode: 'pre' | 'post') => void;
+  showNestedCandidates: boolean;
+  onToggleNestedCandidates: (show: boolean) => void;
   showIslands: boolean;
   onToggleIslands: (show: boolean) => void;
 }
 
 export default function MapToggle({
   canToggleIslands = true,
+  canToggleNestedCandidates,
   mode,
   onToggle,
+  showNestedCandidates,
+  onToggleNestedCandidates,
   showIslands,
   onToggleIslands,
 }: MapToggleProps) {
@@ -55,6 +61,25 @@ export default function MapToggle({
           aria-label={showIslands ? t('toggleIslandsHide') : t('toggleIslandsShow')}
         >
           {showIslands ? t('toggleIslandsOn') : t('toggleIslandsOff')}
+        </button>
+      )}
+
+      {canToggleNestedCandidates && (
+        <button
+          type="button"
+          onClick={() => onToggleNestedCandidates(!showNestedCandidates)}
+          className={`shrink-0 rounded-full px-3 py-1 text-sm font-medium transition-colors focus:ring-2 focus:ring-amber-400 focus:ring-offset-2 focus:outline-none ${
+            showNestedCandidates ? 'bg-amber-600 text-white' : 'bg-gray-100 text-gray-600'
+          }`}
+          aria-label={
+            showNestedCandidates
+              ? t('toggleNestedCandidatesHide')
+              : t('toggleNestedCandidatesShow')
+          }
+        >
+          {showNestedCandidates
+            ? t('toggleNestedCandidatesOn')
+            : t('toggleNestedCandidatesOff')}
         </button>
       )}
 

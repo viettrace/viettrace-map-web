@@ -24,8 +24,17 @@ interface BoundaryLayersProps {
 export default function BoundaryLayers({ map, state }: BoundaryLayersProps) {
   const locale = useLocale();
   const publicEnv = readPublicEnv();
-  const { tileCacheBuster, tileUrlIslands, tileUrlPost, tileUrlPre } = publicEnv;
+  const {
+    tileCacheBuster,
+    tileUrlIslands,
+    tileUrlPost,
+    tileUrlPostWardsCandidate,
+    tileUrlPre,
+    tileUrlPreDistrictsCandidate,
+  } = publicEnv;
   const includeOffshoreIslands = Boolean(tileUrlIslands);
+  const includePostWardCandidates = Boolean(tileUrlPostWardsCandidate);
+  const includePreDistrictCandidates = Boolean(tileUrlPreDistrictsCandidate);
 
   useEffect(() => {
     if (!map) return;
@@ -33,7 +42,15 @@ export default function BoundaryLayers({ map, state }: BoundaryLayersProps) {
     function registerBoundaryLayers() {
       if (!map) return;
 
-      const env = { ...publicEnv, tileCacheBuster, tileUrlIslands, tileUrlPost, tileUrlPre };
+      const env = {
+        ...publicEnv,
+        tileCacheBuster,
+        tileUrlIslands,
+        tileUrlPost,
+        tileUrlPostWardsCandidate,
+        tileUrlPre,
+        tileUrlPreDistrictsCandidate,
+      };
 
       ensureNationalCapitalIcon(map);
 
@@ -43,6 +60,8 @@ export default function BoundaryLayers({ map, state }: BoundaryLayersProps) {
 
       for (const layerDefinition of getBoundaryLayerDefinitions(locale, state, {
         includeOffshoreIslands,
+        includePostWardCandidates,
+        includePreDistrictCandidates,
       })) {
         replaceLayer(map, layerDefinition.layer);
       }
@@ -59,15 +78,31 @@ export default function BoundaryLayers({ map, state }: BoundaryLayersProps) {
     };
     // Visibility changes are applied in a separate effect so toggles do not recreate layers.
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [map, locale, includeOffshoreIslands, tileCacheBuster, tileUrlIslands, tileUrlPost, tileUrlPre]);
+  }, [
+    map,
+    locale,
+    includeOffshoreIslands,
+    includePostWardCandidates,
+    includePreDistrictCandidates,
+    tileCacheBuster,
+    tileUrlIslands,
+    tileUrlPost,
+    tileUrlPostWardsCandidate,
+    tileUrlPre,
+    tileUrlPreDistrictsCandidate,
+  ]);
 
   useEffect(() => {
     if (!map) return;
 
-    for (const group of getBoundaryLayerGroups(includeOffshoreIslands)) {
+    for (const group of getBoundaryLayerGroups({
+      includeOffshoreIslands,
+      includePostWardCandidates,
+      includePreDistrictCandidates,
+    })) {
       setLayerGroupVisibility(map, group.layerIds, group.isVisible(state));
     }
-  }, [includeOffshoreIslands, map, state]);
+  }, [includeOffshoreIslands, includePostWardCandidates, includePreDistrictCandidates, map, state]);
 
   return null;
 }

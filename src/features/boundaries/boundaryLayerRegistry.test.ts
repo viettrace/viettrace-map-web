@@ -15,7 +15,9 @@ const env: PublicEnv = {
   mapStyle: 'style',
   tileCacheBuster: '20260509-display',
   tileUrlIslands: 'https://tiles.example.test/islands',
+  tileUrlPostWardsCandidate: 'https://tiles.example.test/post-wards',
   tileUrlPost: 'https://tiles.example.test/post',
+  tileUrlPreDistrictsCandidate: 'https://tiles.example.test/pre-districts',
   tileUrlPre: 'https://tiles.example.test/pre',
 };
 
@@ -34,7 +36,7 @@ describe('boundaryLayerRegistry', () => {
   it('uses current map state for layer visibility', () => {
     const state = {
       ...initialMapViewState,
-      layers: { offshoreIslands: false },
+      layers: { ...initialMapViewState.layers, offshoreIslands: false },
       mode: 'post' as const,
     };
     const layers = getBoundaryLayerDefinitions('vi', state);
@@ -197,6 +199,52 @@ describe('boundaryLayerRegistry', () => {
     ]);
   });
 
+  it('adds local candidate sources and layers only when configured', () => {
+    const sources = getBoundarySourceDefinitions(env);
+    const preCandidateSource = sources.find(
+      source => source.id === boundarySourceIds.preDistrictsCandidate,
+    )?.source as { tiles: string[] } | undefined;
+    const postCandidateSource = sources.find(
+      source => source.id === boundarySourceIds.postWardsCandidate,
+    )?.source as { tiles: string[] } | undefined;
+    const state = {
+      ...initialMapViewState,
+      layers: { ...initialMapViewState.layers, nestedCandidates: true },
+      mode: 'post' as const,
+    };
+    const layers = getBoundaryLayerDefinitions('vi', state, {
+      includePostWardCandidates: true,
+      includePreDistrictCandidates: true,
+    });
+
+    expect(preCandidateSource?.tiles[0]).toBe(
+      'https://tiles.example.test/pre-districts/{z}/{x}/{y}?v=20260509-display',
+    );
+    expect(postCandidateSource?.tiles[0]).toBe(
+      'https://tiles.example.test/post-wards/{z}/{x}/{y}?v=20260509-display',
+    );
+    expect(
+      layers.find(definition => definition.layer.id === 'wards-post-2025-candidate-outline')?.layer
+        .layout,
+    ).toMatchObject({ visibility: 'visible' });
+    expect(
+      layers.find(definition => definition.layer.id === 'districts-pre-2025-candidate-outline')
+        ?.layer.layout,
+    ).toMatchObject({ visibility: 'none' });
+    expect(
+      getBoundaryLayerGroups({
+        includePostWardCandidates: true,
+        includePreDistrictCandidates: true,
+      }).map(group => group.id),
+    ).toEqual([
+      'pre-provinces',
+      'post-provinces',
+      'offshore-islands',
+      'pre-districts-candidate',
+      'post-wards-candidate',
+    ]);
+  });
+
   it('omits offshore island sources and layers when the tile URL is not configured', () => {
     const envWithoutIslands = {
       mapStyle: 'style',
@@ -206,6 +254,9 @@ describe('boundaryLayerRegistry', () => {
 
     expect(getBoundarySourceDefinitions(envWithoutIslands).map(source => source.id)).not.toContain(
       boundarySourceIds.islands,
+    );
+    expect(getBoundarySourceDefinitions(envWithoutIslands).map(source => source.id)).not.toContain(
+      boundarySourceIds.preDistrictsCandidate,
     );
     expect(
       getBoundaryLayerDefinitions('vi', initialMapViewState, {

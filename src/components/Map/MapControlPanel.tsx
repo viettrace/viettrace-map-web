@@ -8,16 +8,22 @@ import { SlidersIcon } from '@src/components/Map/MapChromeIcons';
 
 interface MapControlPanelProps {
   canToggleIslands?: boolean;
+  canToggleNestedCandidates?: boolean;
   mode: 'pre' | 'post';
   onToggle: (mode: 'pre' | 'post') => void;
+  showNestedCandidates: boolean;
+  onToggleNestedCandidates: (show: boolean) => void;
   showIslands: boolean;
   onToggleIslands: (show: boolean) => void;
 }
 
 export default function MapControlPanel({
   canToggleIslands,
+  canToggleNestedCandidates,
   mode,
   onToggle,
+  showNestedCandidates,
+  onToggleNestedCandidates,
   showIslands,
   onToggleIslands,
 }: MapControlPanelProps) {
@@ -79,6 +85,23 @@ export default function MapControlPanel({
             {t('toggleIslandsShort')}
           </button>
         )}
+        {canToggleNestedCandidates && (
+          <button
+            type="button"
+            onClick={() => onToggleNestedCandidates(!showNestedCandidates)}
+            aria-label={
+              showNestedCandidates
+                ? t('toggleNestedCandidatesHide')
+                : t('toggleNestedCandidatesShow')
+            }
+            aria-pressed={showNestedCandidates}
+            className={`flex h-9 w-9 items-center justify-center rounded-full text-[9px] transition-colors focus:ring-2 focus:ring-amber-400 focus:ring-offset-1 focus:outline-none ${
+              showNestedCandidates ? 'bg-amber-600 text-white' : 'text-slate-600 hover:bg-slate-100'
+            }`}
+          >
+            {t('toggleNestedCandidatesShort')}
+          </button>
+        )}
         <div className="mx-1 my-0.5 h-px bg-slate-200" />
         <MapLanguageSwitch variant="toolbar" />
       </div>
@@ -86,8 +109,11 @@ export default function MapControlPanel({
       <div className="hidden flex-col items-start gap-2 lg:flex">
         <MapToggle
           canToggleIslands={canToggleIslands}
+          canToggleNestedCandidates={canToggleNestedCandidates}
           mode={mode}
           onToggle={onToggle}
+          showNestedCandidates={showNestedCandidates}
+          onToggleNestedCandidates={onToggleNestedCandidates}
           showIslands={showIslands}
           onToggleIslands={onToggleIslands}
         />

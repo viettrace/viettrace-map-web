@@ -10,6 +10,7 @@ export interface MapViewState {
   mode: MapMode;
   selectedFeature: SelectedMapFeature | null;
   layers: {
+    nestedCandidates: boolean;
     offshoreIslands: boolean;
   };
   panels: {
@@ -20,6 +21,7 @@ export interface MapViewState {
 
 export type MapViewAction =
   | { type: 'setMode'; mode: MapMode }
+  | { type: 'setNestedCandidatesVisible'; visible: boolean }
   | { type: 'setOffshoreIslandsVisible'; visible: boolean }
   | { type: 'setDataNoticeOpen'; open: boolean }
   | { type: 'toggleDataNotice' }
