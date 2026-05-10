@@ -1,5 +1,9 @@
 # Changelog
 
+## <small>0.1.4 (2026-05-10)</small>
+
+* feat: enhance province boundary layers with city and national capital labels (#70) ([7edfaea](https://github.com/viettrace/viettrace-map-web/commit/7edfaea)), closes [#70](https://github.com/viettrace/viettrace-map-web/issues/70)
+
 ## <small>0.1.3 (2026-05-09)</small>
 
 * feat: enhance map functionality with province search and detail panel (#69) ([c9570df](https://github.com/viettrace/viettrace-map-web/commit/c9570df)), closes [#69](https://github.com/viettrace/viettrace-map-web/issues/69)
