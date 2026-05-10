@@ -42,7 +42,7 @@
       "id": "pre:ba-ria-vung-tau",
       "mode": "pre",
       "name": "Tỉnh Bà Rịa - Vũng Tàu",
-      "name_en": "Bà Rịa - Vũng Tàu Province",
+      "name_en": "Ba Ria - Vung Tau Province",
       "slug": "ba-ria-vung-tau",
       "merger": {
         "mergeDate": "2025-07-01",
@@ -63,7 +63,7 @@
       "id": "pre:bac-giang",
       "mode": "pre",
       "name": "Tỉnh Bắc Giang",
-      "name_en": "Bắc Giang Province",
+      "name_en": "Bac Giang Province",
       "slug": "bac-giang",
       "merger": {
         "mergeDate": "2025-07-01",
@@ -84,7 +84,7 @@
       "id": "pre:bac-kan",
       "mode": "pre",
       "name": "Tỉnh Bắc Kạn",
-      "name_en": "Bắc Kạn Province",
+      "name_en": "Bac Kan Province",
       "slug": "bac-kan",
       "merger": {
         "mergeDate": "2025-07-01",
@@ -105,7 +105,7 @@
       "id": "pre:bac-lieu",
       "mode": "pre",
       "name": "Tỉnh Bạc Liêu",
-      "name_en": "Bạc Liêu Province",
+      "name_en": "Bac Lieu Province",
       "slug": "bac-lieu",
       "merger": {
         "mergeDate": "2025-07-01",
@@ -126,7 +126,7 @@
       "id": "pre:bac-ninh",
       "mode": "pre",
       "name": "Tỉnh Bắc Ninh",
-      "name_en": "Bắc Ninh Province",
+      "name_en": "Bac Ninh Province",
       "slug": "bac-ninh"
     },
     {
@@ -143,7 +143,7 @@
       "id": "pre:ben-tre",
       "mode": "pre",
       "name": "Tỉnh Bến Tre",
-      "name_en": "Bến Tre Province",
+      "name_en": "Ben Tre Province",
       "slug": "ben-tre",
       "merger": {
         "mergeDate": "2025-07-01",
@@ -164,7 +164,7 @@
       "id": "pre:binh-dinh",
       "mode": "pre",
       "name": "Tỉnh Bình Định",
-      "name_en": "Bình Định Province",
+      "name_en": "Binh Dinh Province",
       "slug": "binh-dinh",
       "merger": {
         "mergeDate": "2025-07-01",
@@ -185,7 +185,7 @@
       "id": "pre:binh-duong",
       "mode": "pre",
       "name": "Tỉnh Bình Dương",
-      "name_en": "Bình Dương Province",
+      "name_en": "Binh Duong Province",
       "slug": "binh-duong",
       "merger": {
         "mergeDate": "2025-07-01",
@@ -206,7 +206,7 @@
       "id": "pre:binh-phuoc",
       "mode": "pre",
       "name": "Tỉnh Bình Phước",
-      "name_en": "Bình Phước Province",
+      "name_en": "Binh Phuoc Province",
       "slug": "binh-phuoc",
       "merger": {
         "mergeDate": "2025-07-01",
@@ -227,7 +227,7 @@
       "id": "pre:binh-thuan",
       "mode": "pre",
       "name": "Tỉnh Bình Thuận",
-      "name_en": "Bình Thuận Province",
+      "name_en": "Binh Thuan Province",
       "slug": "binh-thuan",
       "merger": {
         "mergeDate": "2025-07-01",
@@ -248,7 +248,7 @@
       "id": "pre:ca-mau",
       "mode": "pre",
       "name": "Tỉnh Cà Mau",
-      "name_en": "Cà Mau Province",
+      "name_en": "Ca Mau Province",
       "slug": "ca-mau"
     },
     {
@@ -265,7 +265,7 @@
       "id": "pre:can-tho",
       "mode": "pre",
       "name": "Thành phố Cần Thơ",
-      "name_en": "Cần Thơ",
+      "name_en": "Can Tho City",
       "slug": "can-tho"
     },
     {
@@ -282,7 +282,7 @@
       "id": "pre:cao-bang",
       "mode": "pre",
       "name": "Tỉnh Cao Bằng",
-      "name_en": "Cao Bằng Province",
+      "name_en": "Cao Bang Province",
       "slug": "cao-bang"
     },
     {
@@ -299,7 +299,7 @@
       "id": "pre:da-nang",
       "mode": "pre",
       "name": "Thành phố Đà Nẵng",
-      "name_en": "Đà Nẵng",
+      "name_en": "Da Nang City",
       "slug": "da-nang"
     },
     {
@@ -316,7 +316,7 @@
       "id": "pre:dak-lak",
       "mode": "pre",
       "name": "Tỉnh Đắk Lắk",
-      "name_en": "Đắk Lắk Province",
+      "name_en": "Dak Lak Province",
       "slug": "dak-lak"
     },
     {
@@ -333,7 +333,7 @@
       "id": "pre:dak-nong",
       "mode": "pre",
       "name": "Tỉnh Đắk Nông",
-      "name_en": "Đắk Nông Province",
+      "name_en": "Dak Nong Province",
       "slug": "dak-nong",
       "merger": {
         "mergeDate": "2025-07-01",
@@ -354,7 +354,7 @@
       "id": "pre:dien-bien",
       "mode": "pre",
       "name": "Tỉnh Điện Biên",
-      "name_en": "Điện Biên Province",
+      "name_en": "Dien Bien Province",
       "slug": "dien-bien"
     },
     {
@@ -371,7 +371,7 @@
       "id": "pre:dong-nai",
       "mode": "pre",
       "name": "Tỉnh Đồng Nai",
-      "name_en": "Đồng Nai Province",
+      "name_en": "Dong Nai Province",
       "slug": "dong-nai"
     },
     {
@@ -388,7 +388,7 @@
       "id": "pre:dong-thap",
       "mode": "pre",
       "name": "Tỉnh Đồng Tháp",
-      "name_en": "Đồng Tháp Province",
+      "name_en": "Dong Thap Province",
       "slug": "dong-thap"
     },
     {
@@ -422,7 +422,7 @@
       "id": "pre:ha-giang",
       "mode": "pre",
       "name": "Tỉnh Hà Giang",
-      "name_en": "Hà Giang Province",
+      "name_en": "Ha Giang Province",
       "slug": "ha-giang",
       "merger": {
         "mergeDate": "2025-07-01",
@@ -443,7 +443,7 @@
       "id": "pre:ha-nam",
       "mode": "pre",
       "name": "Tỉnh Hà Nam",
-      "name_en": "Hà Nam Province",
+      "name_en": "Ha Nam Province",
       "slug": "ha-nam",
       "merger": {
         "mergeDate": "2025-07-01",
@@ -464,7 +464,7 @@
       "id": "pre:ha-noi",
       "mode": "pre",
       "name": "Thành phố Hà Nội",
-      "name_en": "Hà Nội",
+      "name_en": "Ha Noi City",
       "slug": "ha-noi"
     },
     {
@@ -481,7 +481,7 @@
       "id": "pre:ha-tinh",
       "mode": "pre",
       "name": "Tỉnh Hà Tĩnh",
-      "name_en": "Hà Tĩnh Province",
+      "name_en": "Ha Tinh Province",
       "slug": "ha-tinh"
     },
     {
@@ -498,7 +498,7 @@
       "id": "pre:hai-duong",
       "mode": "pre",
       "name": "Tỉnh Hải Dương",
-      "name_en": "Hải Dương Province",
+      "name_en": "Hai Duong Province",
       "slug": "hai-duong",
       "merger": {
         "mergeDate": "2025-07-01",
@@ -519,7 +519,7 @@
       "id": "pre:hai-phong",
       "mode": "pre",
       "name": "Thành phố Hải Phòng",
-      "name_en": "Hải Phòng",
+      "name_en": "Hai Phong City",
       "slug": "hai-phong"
     },
     {
@@ -536,7 +536,7 @@
       "id": "pre:hau-giang",
       "mode": "pre",
       "name": "Tỉnh Hậu Giang",
-      "name_en": "Hậu Giang Province",
+      "name_en": "Hau Giang Province",
       "slug": "hau-giang",
       "merger": {
         "mergeDate": "2025-07-01",
@@ -574,7 +574,7 @@
       "id": "pre:hoa-binh",
       "mode": "pre",
       "name": "Tỉnh Hòa Bình",
-      "name_en": "Hòa Bình Province",
+      "name_en": "Hoa Binh Province",
       "slug": "hoa-binh",
       "merger": {
         "mergeDate": "2025-07-01",
@@ -595,7 +595,7 @@
       "id": "pre:hue",
       "mode": "pre",
       "name": "Thành phố Huế",
-      "name_en": "Huế",
+      "name_en": "Hue City",
       "slug": "hue"
     },
     {
@@ -612,7 +612,7 @@
       "id": "pre:hung-yen",
       "mode": "pre",
       "name": "Tỉnh Hưng Yên",
-      "name_en": "Hưng Yên Province",
+      "name_en": "Hung Yen Province",
       "slug": "hung-yen"
     },
     {
@@ -629,7 +629,7 @@
       "id": "pre:khanh-hoa",
       "mode": "pre",
       "name": "Tỉnh Khánh Hòa",
-      "name_en": "Khánh Hòa Province",
+      "name_en": "Khanh Hoa Province",
       "slug": "khanh-hoa"
     },
     {
@@ -646,7 +646,7 @@
       "id": "pre:kien-giang",
       "mode": "pre",
       "name": "Tỉnh Kiên Giang",
-      "name_en": "Kiên Giang Province",
+      "name_en": "Kien Giang Province",
       "slug": "kien-giang",
       "merger": {
         "mergeDate": "2025-07-01",
@@ -688,7 +688,7 @@
       "id": "pre:lai-chau",
       "mode": "pre",
       "name": "Tỉnh Lai Châu",
-      "name_en": "Lai Châu Province",
+      "name_en": "Lai Chau Province",
       "slug": "lai-chau"
     },
     {
@@ -705,7 +705,7 @@
       "id": "pre:lam-dong",
       "mode": "pre",
       "name": "Tỉnh Lâm Đồng",
-      "name_en": "Lâm Đồng Province",
+      "name_en": "Lam Dong Province",
       "slug": "lam-dong"
     },
     {
@@ -722,7 +722,7 @@
       "id": "pre:lang-son",
       "mode": "pre",
       "name": "Tỉnh Lạng Sơn",
-      "name_en": "Lạng Sơn Province",
+      "name_en": "Lang Son Province",
       "slug": "lang-son"
     },
     {
@@ -739,7 +739,7 @@
       "id": "pre:lao-cai",
       "mode": "pre",
       "name": "Tỉnh Lào Cai",
-      "name_en": "Lào Cai Province",
+      "name_en": "Lao Cai Province",
       "slug": "lao-cai"
     },
     {
@@ -777,7 +777,7 @@
       "id": "pre:nam-dinh",
       "mode": "pre",
       "name": "Tỉnh Nam Định",
-      "name_en": "Nam Định Province",
+      "name_en": "Nam Dinh Province",
       "slug": "nam-dinh",
       "merger": {
         "mergeDate": "2025-07-01",
@@ -798,7 +798,7 @@
       "id": "pre:nghe-an",
       "mode": "pre",
       "name": "Tỉnh Nghệ An",
-      "name_en": "Nghệ An Province",
+      "name_en": "Nghe An Province",
       "slug": "nghe-an"
     },
     {
@@ -815,7 +815,7 @@
       "id": "pre:ninh-binh",
       "mode": "pre",
       "name": "Tỉnh Ninh Bình",
-      "name_en": "Ninh Bình Province",
+      "name_en": "Ninh Binh Province",
       "slug": "ninh-binh"
     },
     {
@@ -832,7 +832,7 @@
       "id": "pre:ninh-thuan",
       "mode": "pre",
       "name": "Tỉnh Ninh Thuận",
-      "name_en": "Ninh Thuận Province",
+      "name_en": "Ninh Thuan Province",
       "slug": "ninh-thuan",
       "merger": {
         "mergeDate": "2025-07-01",
@@ -853,7 +853,7 @@
       "id": "pre:phu-tho",
       "mode": "pre",
       "name": "Tỉnh Phú Thọ",
-      "name_en": "Phú Thọ Province",
+      "name_en": "Phu Tho Province",
       "slug": "phu-tho"
     },
     {
@@ -870,7 +870,7 @@
       "id": "pre:phu-yen",
       "mode": "pre",
       "name": "Tỉnh Phú Yên",
-      "name_en": "Phú Yên Province",
+      "name_en": "Phu Yen Province",
       "slug": "phu-yen",
       "merger": {
         "mergeDate": "2025-07-01",
@@ -891,7 +891,7 @@
       "id": "pre:quang-binh",
       "mode": "pre",
       "name": "Tỉnh Quảng Bình",
-      "name_en": "Quảng Bình Province",
+      "name_en": "Quang Binh Province",
       "slug": "quang-binh",
       "merger": {
         "mergeDate": "2025-07-01",
@@ -912,7 +912,7 @@
       "id": "pre:quang-nam",
       "mode": "pre",
       "name": "Tỉnh Quảng Nam",
-      "name_en": "Quảng Nam Province",
+      "name_en": "Quang Nam Province",
       "slug": "quang-nam",
       "merger": {
         "mergeDate": "2025-07-01",
@@ -933,7 +933,7 @@
       "id": "pre:quang-ngai",
       "mode": "pre",
       "name": "Tỉnh Quảng Ngãi",
-      "name_en": "Quảng Ngãi Province",
+      "name_en": "Quang Ngai Province",
       "slug": "quang-ngai"
     },
     {
@@ -950,7 +950,7 @@
       "id": "pre:quang-ninh",
       "mode": "pre",
       "name": "Tỉnh Quảng Ninh",
-      "name_en": "Quảng Ninh Province",
+      "name_en": "Quang Ninh Province",
       "slug": "quang-ninh"
     },
     {
@@ -967,7 +967,7 @@
       "id": "pre:quang-tri",
       "mode": "pre",
       "name": "Tỉnh Quảng Trị",
-      "name_en": "Quảng Trị Province",
+      "name_en": "Quang Tri Province",
       "slug": "quang-tri"
     },
     {
@@ -984,7 +984,7 @@
       "id": "pre:soc-trang",
       "mode": "pre",
       "name": "Tỉnh Sóc Trăng",
-      "name_en": "Sóc Trăng Province",
+      "name_en": "Soc Trang Province",
       "slug": "soc-trang",
       "merger": {
         "mergeDate": "2025-07-01",
@@ -1005,7 +1005,7 @@
       "id": "pre:son-la",
       "mode": "pre",
       "name": "Tỉnh Sơn La",
-      "name_en": "Sơn La Province",
+      "name_en": "Son La Province",
       "slug": "son-la"
     },
     {
@@ -1022,7 +1022,7 @@
       "id": "pre:tay-ninh",
       "mode": "pre",
       "name": "Tỉnh Tây Ninh",
-      "name_en": "Tây Ninh Province",
+      "name_en": "Tay Ninh Province",
       "slug": "tay-ninh"
     },
     {
@@ -1039,7 +1039,7 @@
       "id": "pre:thai-binh",
       "mode": "pre",
       "name": "Tỉnh Thái Bình",
-      "name_en": "Thái Bình Province",
+      "name_en": "Thai Binh Province",
       "slug": "thai-binh",
       "merger": {
         "mergeDate": "2025-07-01",
@@ -1060,7 +1060,7 @@
       "id": "pre:thai-nguyen",
       "mode": "pre",
       "name": "Tỉnh Thái Nguyên",
-      "name_en": "Thái Nguyên Province",
+      "name_en": "Thai Nguyen Province",
       "slug": "thai-nguyen"
     },
     {
@@ -1077,7 +1077,7 @@
       "id": "pre:thanh-hoa",
       "mode": "pre",
       "name": "Tỉnh Thanh Hóa",
-      "name_en": "Thanh Hóa Province",
+      "name_en": "Thanh Hoa Province",
       "slug": "thanh-hoa"
     },
     {
@@ -1094,7 +1094,7 @@
       "id": "pre:tien-giang",
       "mode": "pre",
       "name": "Tỉnh Tiền Giang",
-      "name_en": "Tiền Giang Province",
+      "name_en": "Tien Giang Province",
       "slug": "tien-giang",
       "merger": {
         "mergeDate": "2025-07-01",
@@ -1115,7 +1115,7 @@
       "id": "pre:tra-vinh",
       "mode": "pre",
       "name": "Tỉnh Trà Vinh",
-      "name_en": "Trà Vinh Province",
+      "name_en": "Tra Vinh Province",
       "slug": "tra-vinh",
       "merger": {
         "mergeDate": "2025-07-01",
@@ -1136,7 +1136,7 @@
       "id": "pre:tuyen-quang",
       "mode": "pre",
       "name": "Tỉnh Tuyên Quang",
-      "name_en": "Tuyên Quang Province",
+      "name_en": "Tuyen Quang Province",
       "slug": "tuyen-quang"
     },
     {
@@ -1153,7 +1153,7 @@
       "id": "pre:vinh-long",
       "mode": "pre",
       "name": "Tỉnh Vĩnh Long",
-      "name_en": "Vĩnh Long Province",
+      "name_en": "Vinh Long Province",
       "slug": "vinh-long"
     },
     {
@@ -1170,7 +1170,7 @@
       "id": "pre:vinh-phuc",
       "mode": "pre",
       "name": "Tỉnh Vĩnh Phúc",
-      "name_en": "Vĩnh Phúc Province",
+      "name_en": "Vinh Phuc Province",
       "slug": "vinh-phuc",
       "merger": {
         "mergeDate": "2025-07-01",
@@ -1191,7 +1191,7 @@
       "id": "pre:yen-bai",
       "mode": "pre",
       "name": "Tỉnh Yên Bái",
-      "name_en": "Yên Bái Province",
+      "name_en": "Yen Bai Province",
       "slug": "yen-bai",
       "merger": {
         "mergeDate": "2025-07-01",
@@ -1235,7 +1235,7 @@
       "id": "post:bac-ninh",
       "mode": "post",
       "name": "Tỉnh Bắc Ninh",
-      "name_en": "Bắc Ninh Province",
+      "name_en": "Bac Ninh Province",
       "slug": "bac-ninh",
       "merger": {
         "mergeDate": "2025-07-01",
@@ -1258,7 +1258,7 @@
       "id": "post:ca-mau",
       "mode": "post",
       "name": "Tỉnh Cà Mau",
-      "name_en": "Cà Mau Province",
+      "name_en": "Ca Mau Province",
       "slug": "ca-mau",
       "merger": {
         "mergeDate": "2025-07-01",
@@ -1281,7 +1281,7 @@
       "id": "post:can-tho",
       "mode": "post",
       "name": "Thành phố Cần Thơ",
-      "name_en": "Cần Thơ",
+      "name_en": "Can Tho City",
       "slug": "can-tho",
       "merger": {
         "mergeDate": "2025-07-01",
@@ -1305,7 +1305,7 @@
       "id": "post:cao-bang",
       "mode": "post",
       "name": "Tỉnh Cao Bằng",
-      "name_en": "Cao Bằng Province",
+      "name_en": "Cao Bang Province",
       "slug": "cao-bang"
     },
     {
@@ -1322,7 +1322,7 @@
       "id": "post:da-nang",
       "mode": "post",
       "name": "Thành phố Đà Nẵng",
-      "name_en": "Đà Nẵng",
+      "name_en": "Da Nang City",
       "slug": "da-nang",
       "merger": {
         "mergeDate": "2025-07-01",
@@ -1345,7 +1345,7 @@
       "id": "post:dak-lak",
       "mode": "post",
       "name": "Tỉnh Đắk Lắk",
-      "name_en": "Đắk Lắk Province",
+      "name_en": "Dak Lak Province",
       "slug": "dak-lak",
       "merger": {
         "mergeDate": "2025-07-01",
@@ -1368,7 +1368,7 @@
       "id": "post:dien-bien",
       "mode": "post",
       "name": "Tỉnh Điện Biên",
-      "name_en": "Điện Biên Province",
+      "name_en": "Dien Bien Province",
       "slug": "dien-bien"
     },
     {
@@ -1385,7 +1385,7 @@
       "id": "post:dong-nai",
       "mode": "post",
       "name": "Tỉnh Đồng Nai",
-      "name_en": "Đồng Nai Province",
+      "name_en": "Dong Nai Province",
       "slug": "dong-nai",
       "merger": {
         "mergeDate": "2025-07-01",
@@ -1408,7 +1408,7 @@
       "id": "post:dong-thap",
       "mode": "post",
       "name": "Tỉnh Đồng Tháp",
-      "name_en": "Đồng Tháp Province",
+      "name_en": "Dong Thap Province",
       "slug": "dong-thap",
       "merger": {
         "mergeDate": "2025-07-01",
@@ -1454,7 +1454,7 @@
       "id": "post:ha-noi",
       "mode": "post",
       "name": "Thành phố Hà Nội",
-      "name_en": "Hà Nội",
+      "name_en": "Ha Noi City",
       "slug": "ha-noi"
     },
     {
@@ -1471,7 +1471,7 @@
       "id": "post:ha-tinh",
       "mode": "post",
       "name": "Tỉnh Hà Tĩnh",
-      "name_en": "Hà Tĩnh Province",
+      "name_en": "Ha Tinh Province",
       "slug": "ha-tinh"
     },
     {
@@ -1488,7 +1488,7 @@
       "id": "post:hai-phong",
       "mode": "post",
       "name": "Thành phố Hải Phòng",
-      "name_en": "Hải Phòng",
+      "name_en": "Hai Phong City",
       "slug": "hai-phong",
       "merger": {
         "mergeDate": "2025-07-01",
@@ -1535,7 +1535,7 @@
       "id": "post:hue",
       "mode": "post",
       "name": "Thành phố Huế",
-      "name_en": "Huế",
+      "name_en": "Hue City",
       "slug": "hue"
     },
     {
@@ -1552,7 +1552,7 @@
       "id": "post:hung-yen",
       "mode": "post",
       "name": "Tỉnh Hưng Yên",
-      "name_en": "Hưng Yên Province",
+      "name_en": "Hung Yen Province",
       "slug": "hung-yen",
       "merger": {
         "mergeDate": "2025-07-01",
@@ -1575,7 +1575,7 @@
       "id": "post:khanh-hoa",
       "mode": "post",
       "name": "Tỉnh Khánh Hòa",
-      "name_en": "Khánh Hòa Province",
+      "name_en": "Khanh Hoa Province",
       "slug": "khanh-hoa",
       "merger": {
         "mergeDate": "2025-07-01",
@@ -1598,7 +1598,7 @@
       "id": "post:lai-chau",
       "mode": "post",
       "name": "Tỉnh Lai Châu",
-      "name_en": "Lai Châu Province",
+      "name_en": "Lai Chau Province",
       "slug": "lai-chau"
     },
     {
@@ -1615,7 +1615,7 @@
       "id": "post:lam-dong",
       "mode": "post",
       "name": "Tỉnh Lâm Đồng",
-      "name_en": "Lâm Đồng Province",
+      "name_en": "Lam Dong Province",
       "slug": "lam-dong",
       "merger": {
         "mergeDate": "2025-07-01",
@@ -1639,7 +1639,7 @@
       "id": "post:lang-son",
       "mode": "post",
       "name": "Tỉnh Lạng Sơn",
-      "name_en": "Lạng Sơn Province",
+      "name_en": "Lang Son Province",
       "slug": "lang-son"
     },
     {
@@ -1656,7 +1656,7 @@
       "id": "post:lao-cai",
       "mode": "post",
       "name": "Tỉnh Lào Cai",
-      "name_en": "Lào Cai Province",
+      "name_en": "Lao Cai Province",
       "slug": "lao-cai",
       "merger": {
         "mergeDate": "2025-07-01",
@@ -1679,7 +1679,7 @@
       "id": "post:nghe-an",
       "mode": "post",
       "name": "Tỉnh Nghệ An",
-      "name_en": "Nghệ An Province",
+      "name_en": "Nghe An Province",
       "slug": "nghe-an"
     },
     {
@@ -1696,7 +1696,7 @@
       "id": "post:ninh-binh",
       "mode": "post",
       "name": "Tỉnh Ninh Bình",
-      "name_en": "Ninh Bình Province",
+      "name_en": "Ninh Binh Province",
       "slug": "ninh-binh",
       "merger": {
         "mergeDate": "2025-07-01",
@@ -1720,7 +1720,7 @@
       "id": "post:phu-tho",
       "mode": "post",
       "name": "Tỉnh Phú Thọ",
-      "name_en": "Phú Thọ Province",
+      "name_en": "Phu Tho Province",
       "slug": "phu-tho",
       "merger": {
         "mergeDate": "2025-07-01",
@@ -1744,7 +1744,7 @@
       "id": "post:quang-ngai",
       "mode": "post",
       "name": "Tỉnh Quảng Ngãi",
-      "name_en": "Quảng Ngãi Province",
+      "name_en": "Quang Ngai Province",
       "slug": "quang-ngai",
       "merger": {
         "mergeDate": "2025-07-01",
@@ -1767,7 +1767,7 @@
       "id": "post:quang-ninh",
       "mode": "post",
       "name": "Tỉnh Quảng Ninh",
-      "name_en": "Quảng Ninh Province",
+      "name_en": "Quang Ninh Province",
       "slug": "quang-ninh"
     },
     {
@@ -1784,7 +1784,7 @@
       "id": "post:quang-tri",
       "mode": "post",
       "name": "Tỉnh Quảng Trị",
-      "name_en": "Quảng Trị Province",
+      "name_en": "Quang Tri Province",
       "slug": "quang-tri",
       "merger": {
         "mergeDate": "2025-07-01",
@@ -1807,7 +1807,7 @@
       "id": "post:son-la",
       "mode": "post",
       "name": "Tỉnh Sơn La",
-      "name_en": "Sơn La Province",
+      "name_en": "Son La Province",
       "slug": "son-la"
     },
     {
@@ -1824,7 +1824,7 @@
       "id": "post:tay-ninh",
       "mode": "post",
       "name": "Tỉnh Tây Ninh",
-      "name_en": "Tây Ninh Province",
+      "name_en": "Tay Ninh Province",
       "slug": "tay-ninh",
       "merger": {
         "mergeDate": "2025-07-01",
@@ -1847,7 +1847,7 @@
       "id": "post:thai-nguyen",
       "mode": "post",
       "name": "Tỉnh Thái Nguyên",
-      "name_en": "Thái Nguyên Province",
+      "name_en": "Thai Nguyen Province",
       "slug": "thai-nguyen",
       "merger": {
         "mergeDate": "2025-07-01",
@@ -1870,7 +1870,7 @@
       "id": "post:thanh-hoa",
       "mode": "post",
       "name": "Tỉnh Thanh Hóa",
-      "name_en": "Thanh Hóa Province",
+      "name_en": "Thanh Hoa Province",
       "slug": "thanh-hoa"
     },
     {
@@ -1887,7 +1887,7 @@
       "id": "post:tuyen-quang",
       "mode": "post",
       "name": "Tỉnh Tuyên Quang",
-      "name_en": "Tuyên Quang Province",
+      "name_en": "Tuyen Quang Province",
       "slug": "tuyen-quang",
       "merger": {
         "mergeDate": "2025-07-01",
@@ -1910,7 +1910,7 @@
       "id": "post:vinh-long",
       "mode": "post",
       "name": "Tỉnh Vĩnh Long",
-      "name_en": "Vĩnh Long Province",
+      "name_en": "Vinh Long Province",
       "slug": "vinh-long",
       "merger": {
         "mergeDate": "2025-07-01",

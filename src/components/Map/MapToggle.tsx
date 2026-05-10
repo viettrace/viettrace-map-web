@@ -20,20 +20,20 @@ export default function MapToggle({
   const t = useTranslations('Map');
 
   return (
-    <div className="absolute top-4 left-4 z-10 flex flex-wrap items-center gap-2 rounded-full bg-white/95 px-3 py-2 shadow-lg backdrop-blur-sm sm:gap-3 sm:px-4">
+    <div className="flex max-w-full flex-nowrap items-center gap-3 overflow-x-auto rounded-full bg-white/95 px-4 py-2 shadow-lg backdrop-blur-sm">
       <span
-        className={`shrink-0 whitespace-nowrap text-xs font-medium transition-colors sm:text-sm ${
+        className={`shrink-0 text-sm font-medium whitespace-nowrap transition-colors ${
           mode === 'pre' ? 'text-red-600' : 'text-gray-400'
         }`}
       >
         <span>{t('togglePre')}</span>
-        <span className="ml-1 hidden text-xs opacity-70 sm:inline">{t('togglePreLabel')}</span>
+        <span className="ml-1 text-xs opacity-70">{t('togglePreLabel')}</span>
       </span>
 
       <button
         type="button"
         onClick={() => onToggle(mode === 'pre' ? 'post' : 'pre')}
-        className="relative h-6 w-12 shrink-0 cursor-pointer rounded-full transition-colors focus:outline-none focus:ring-2 focus:ring-red-400 focus:ring-offset-2"
+        className="relative h-6 w-12 shrink-0 cursor-pointer rounded-full transition-colors focus:ring-2 focus:ring-red-400 focus:ring-offset-2 focus:outline-none"
         style={{ backgroundColor: mode === 'pre' ? '#dc2626' : '#2563eb' }}
         aria-label={mode === 'pre' ? t('togglePost') : t('togglePre')}
       >
@@ -49,7 +49,7 @@ export default function MapToggle({
         <button
           type="button"
           onClick={() => onToggleIslands(!showIslands)}
-          className={`shrink-0 rounded-full px-3 py-1 text-xs font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-teal-400 focus:ring-offset-2 sm:text-sm ${
+          className={`shrink-0 rounded-full px-3 py-1 text-sm font-medium transition-colors focus:ring-2 focus:ring-teal-400 focus:ring-offset-2 focus:outline-none ${
             showIslands ? 'bg-teal-600 text-white' : 'bg-gray-100 text-gray-600'
           }`}
           aria-label={showIslands ? t('toggleIslandsHide') : t('toggleIslandsShow')}
@@ -59,12 +59,12 @@ export default function MapToggle({
       )}
 
       <span
-        className={`shrink-0 whitespace-nowrap text-xs font-medium transition-colors sm:text-sm ${
+        className={`shrink-0 text-sm font-medium whitespace-nowrap transition-colors ${
           mode === 'post' ? 'text-blue-600' : 'text-gray-400'
         }`}
       >
         <span>{t('togglePost')}</span>
-        <span className="ml-1 hidden text-xs opacity-70 sm:inline">{t('togglePostLabel')}</span>
+        <span className="ml-1 text-xs opacity-70">{t('togglePostLabel')}</span>
       </span>
     </div>
   );

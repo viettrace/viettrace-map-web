@@ -1,4 +1,5 @@
 import { describe, expect, it } from 'vitest';
+import type maplibregl from 'maplibre-gl';
 import { initialMapViewState } from '@src/features/map-state/mapViewReducer';
 import type { PublicEnv } from '@src/libs/config/publicEnv';
 import {
@@ -47,6 +48,143 @@ describe('boundaryLayerRegistry', () => {
     expect(
       layers.find(definition => definition.layer.id === 'offshore-islands-fill')?.layer.layout,
     ).toMatchObject({ visibility: 'none' });
+  });
+
+  it('uses localized province label fields', () => {
+    const viLabel = getBoundaryLayerDefinitions('vi', initialMapViewState).find(
+      definition => definition.layer.id === 'provinces-pre-label',
+    )?.layer as maplibregl.SymbolLayerSpecification | undefined;
+    const enLabel = getBoundaryLayerDefinitions('en', initialMapViewState).find(
+      definition => definition.layer.id === 'provinces-pre-label',
+    )?.layer as maplibregl.SymbolLayerSpecification | undefined;
+
+    expect(viLabel?.layout?.['text-field']).toEqual(['get', 'name']);
+    expect(enLabel?.layout?.['text-field']).toEqual(['get', 'name_en']);
+  });
+
+  it('adds a national capital marker for province labels', () => {
+    const capitalMarker = getBoundaryLayerDefinitions('en', initialMapViewState).find(
+      definition => definition.layer.id === 'provinces-pre-national-capital-marker',
+    )?.layer as maplibregl.SymbolLayerSpecification | undefined;
+
+    expect(capitalMarker?.filter).toEqual(['==', ['get', 'is_capital'], true]);
+    expect(capitalMarker?.minzoom).toBe(4.35);
+    expect(capitalMarker?.layout?.['icon-image']).toBe('national-capital-star');
+    expect(capitalMarker?.layout?.['icon-offset']).toEqual([0, -13]);
+    expect(capitalMarker?.layout?.['icon-size']).toEqual([
+      'interpolate',
+      ['linear'],
+      ['zoom'],
+      4.35,
+      1.1,
+      7,
+      1.3,
+    ]);
+    expect(capitalMarker?.paint?.['icon-opacity']).toEqual([
+      'interpolate',
+      ['linear'],
+      ['zoom'],
+      4.35,
+      0,
+      4.75,
+      1,
+    ]);
+
+    const capitalLabel = getBoundaryLayerDefinitions('en', initialMapViewState).find(
+      definition => definition.layer.id === 'provinces-pre-national-capital-label',
+    )?.layer as maplibregl.SymbolLayerSpecification | undefined;
+
+    expect(capitalLabel?.filter).toEqual(['==', ['get', 'is_capital'], true]);
+    expect(capitalLabel?.minzoom).toBe(4.35);
+    expect(capitalLabel?.layout?.['text-allow-overlap']).toBe(true);
+    expect(capitalLabel?.layout?.['text-field']).toEqual(['get', 'name_en']);
+  });
+
+  it('uses zoom gates so default zoom shows national capital and city labels first', () => {
+    const layers = getBoundaryLayerDefinitions('en', initialMapViewState);
+    const preLabel = layers.find(definition => definition.layer.id === 'provinces-pre-label')
+      ?.layer as maplibregl.SymbolLayerSpecification | undefined;
+    const preCityLabel = layers.find(
+      definition => definition.layer.id === 'provinces-pre-city-label',
+    )?.layer as maplibregl.SymbolLayerSpecification | undefined;
+    const postLabel = layers.find(definition => definition.layer.id === 'provinces-post-label')
+      ?.layer as maplibregl.SymbolLayerSpecification | undefined;
+    const postCityLabel = layers.find(
+      definition => definition.layer.id === 'provinces-post-city-label',
+    )?.layer as maplibregl.SymbolLayerSpecification | undefined;
+    const islandLabel = layers.find(definition => definition.layer.id === 'offshore-islands-label')
+      ?.layer as maplibregl.SymbolLayerSpecification | undefined;
+
+    expect(preLabel?.filter).toEqual([
+      'all',
+      ['!=', ['get', 'is_capital'], true],
+      ['!=', ['get', 'is_city'], true],
+    ]);
+    expect(preLabel?.minzoom).toBe(5.25);
+    expect(preLabel?.paint?.['text-opacity']).toEqual([
+      'interpolate',
+      ['linear'],
+      ['zoom'],
+      5.25,
+      0,
+      6.05,
+      1,
+    ]);
+    expect(preCityLabel?.filter).toEqual([
+      'all',
+      ['==', ['get', 'is_city'], true],
+      ['!=', ['get', 'is_capital'], true],
+    ]);
+    expect(preCityLabel?.minzoom).toBe(4.35);
+    expect(preCityLabel?.paint?.['text-opacity']).toEqual([
+      'interpolate',
+      ['linear'],
+      ['zoom'],
+      4.35,
+      0,
+      5,
+      1,
+    ]);
+    expect(postLabel?.filter).toEqual([
+      'all',
+      ['!=', ['get', 'is_capital'], true],
+      ['!=', ['get', 'is_city'], true],
+    ]);
+    expect(postLabel?.minzoom).toBe(5.05);
+    expect(postLabel?.paint?.['text-opacity']).toEqual([
+      'interpolate',
+      ['linear'],
+      ['zoom'],
+      5.05,
+      0,
+      5.8,
+      1,
+    ]);
+    expect(postCityLabel?.filter).toEqual([
+      'all',
+      ['==', ['get', 'is_city'], true],
+      ['!=', ['get', 'is_capital'], true],
+    ]);
+    expect(postCityLabel?.minzoom).toBe(4.35);
+    expect(postCityLabel?.paint?.['text-opacity']).toEqual([
+      'interpolate',
+      ['linear'],
+      ['zoom'],
+      4.35,
+      0,
+      5,
+      1,
+    ]);
+    expect(islandLabel?.minzoom).toBe(5.25);
+    expect(islandLabel?.paint?.['text-opacity']).toEqual([
+      'interpolate',
+      ['linear'],
+      ['zoom'],
+      5.25,
+      0,
+      5.95,
+      1,
+    ]);
   });
 
   it('keeps hit layers and group visibility centralized', () => {

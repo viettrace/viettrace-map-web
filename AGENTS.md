@@ -49,7 +49,9 @@ pnpm test:unit
 pnpm build
 pnpm start
 pnpm data:generate-index
+pnpm data:generate-labels
 pnpm data:verify-index
+pnpm data:verify-labels
 pnpm knip
 ```
 
@@ -113,6 +115,7 @@ Notes:
 | `public/data/province-labels-pre.json` | Static pre-2025 label points |
 | `public/data/province-labels-post.json` | Static post-2025 label points |
 | `public/data/offshore-island-labels.json` | Static offshore island label points |
+| `scripts/province-label-overrides.json` | Structured overrides for known province label placement issues |
 | `Dockerfile` | Multi-stage standalone production build |
 | `.env.sample` | Documented public env vars |
 

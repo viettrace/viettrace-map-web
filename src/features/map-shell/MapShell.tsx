@@ -4,8 +4,8 @@ import { useCallback, useReducer } from 'react';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import { useTranslations } from 'next-intl';
 import MapAttribution from '@src/components/Map/MapAttribution';
+import MapControlPanel from '@src/components/Map/MapControlPanel';
 import MapDataNotice from '@src/components/Map/MapDataNotice';
-import MapToggle from '@src/components/Map/MapToggle';
 import BoundaryLayers from '@src/features/boundaries/BoundaryLayers';
 import ProvinceBoundaryInteractions from '@src/features/boundaries/ProvinceBoundaryInteractions';
 import { initialMapViewState, mapViewReducer } from '@src/features/map-state/mapViewReducer';
@@ -73,7 +73,7 @@ export default function MapShell() {
         <div className="max-w-md rounded-2xl border border-red-100 bg-white p-6 text-center shadow-sm">
           <p className="text-lg font-semibold text-slate-950">{t('errorTitle')}</p>
           <p className="mt-2 text-sm text-slate-600">{t('errorTileServer')}</p>
-          <p className="mt-3 break-words text-xs text-slate-400">{error}</p>
+          <p className="mt-3 text-xs break-words text-slate-400">{error}</p>
         </div>
       </div>
     );
@@ -122,12 +122,12 @@ export default function MapShell() {
         />
       )}
 
-      <MapToggle
+      <MapControlPanel
         canToggleIslands={Boolean(publicEnv.tileUrlIslands)}
         mode={state.mode}
-        onToggle={(mode) => dispatch({ mode, type: 'setMode' })}
+        onToggle={mode => dispatch({ mode, type: 'setMode' })}
         showIslands={state.layers.offshoreIslands}
-        onToggleIslands={(visible) => dispatch({ type: 'setOffshoreIslandsVisible', visible })}
+        onToggleIslands={visible => dispatch({ type: 'setOffshoreIslandsVisible', visible })}
       />
       {state.panels.dataNotice && (
         <MapDataNotice onClose={() => dispatch({ open: false, type: 'setDataNoticeOpen' })} />

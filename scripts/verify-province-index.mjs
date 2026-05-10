@@ -47,6 +47,16 @@ function assertBbox(value, label) {
   assert(value[0] <= value[2] && value[1] <= value[3], `${label} has invalid min/max values.`);
 }
 
+function assertAsciiText(value, label) {
+  assert(/^[\x00-\x7F]+$/.test(value), `${label} must be ASCII-only English text.`);
+}
+
+function assertEnglishCitySuffix(entry) {
+  if (entry.name.startsWith('Thành phố')) {
+    assert(/\bCity$/.test(entry.name_en), `${entry.id}.name_en must end with City.`);
+  }
+}
+
 const index = readJson(provinceIndexPath);
 const mergerInfo = readJson(mergerInfoPath);
 const preNames = readProvinceNames(preDisplayPath);
@@ -72,6 +82,8 @@ for (const entry of index.provinces) {
     typeof entry.name_en === 'string' && entry.name_en.length > 0,
     `${entry.id} missing name_en.`,
   );
+  assertAsciiText(entry.name_en, `${entry.id}.name_en`);
+  assertEnglishCitySuffix(entry);
   assert(entry.slug === createSlug(entry.name), `${entry.id} slug does not match normalized name.`);
   assert(entry.id === `${entry.mode}:${entry.slug}`, `${entry.id} does not match mode:slug.`);
   assert(!ids.has(entry.id), `Duplicate id: ${entry.id}.`);

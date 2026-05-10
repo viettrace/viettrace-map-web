@@ -1,6 +1,7 @@
 import { readFileSync, writeFileSync } from 'node:fs';
 
 const ADMIN_PREFIX_PATTERN = /^(tinh|thanh pho|tp)\s+/;
+const CITY_PREFIX_PATTERN = /^thanh pho\s+/;
 
 export function readJson(path) {
   return JSON.parse(readFileSync(path, 'utf8'));
@@ -11,15 +12,32 @@ export function writeJson(path, data) {
 }
 
 export function normalizeSearchText(value) {
-  return String(value)
-    .normalize('NFD')
-    .replace(/[\u0300-\u036f]/g, '')
-    .replace(/đ/g, 'd')
-    .replace(/Đ/g, 'D')
+  return latinizeVietnamese(value)
     .toLowerCase()
     .replace(/[^a-z0-9\s]/g, ' ')
     .replace(/\s+/g, ' ')
     .trim();
+}
+
+export function latinizeVietnamese(value) {
+  return String(value)
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/đ/g, 'd')
+    .replace(/Đ/g, 'D');
+}
+
+export function formatEnglishProvinceName(vietnameseName, englishName) {
+  const displayName = latinizeVietnamese(englishName).trim();
+
+  if (
+    CITY_PREFIX_PATTERN.test(normalizeSearchText(vietnameseName)) &&
+    !/\bcity$/i.test(displayName)
+  ) {
+    return `${displayName} City`;
+  }
+
+  return displayName;
 }
 
 export function normalizeAdministrativeName(value) {

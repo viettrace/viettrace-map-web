@@ -86,6 +86,8 @@ public/data/
 
 `province-index.json` is generated from display-safe pre/post GeoJSON plus merger metadata. Search, detail, and URL restore read generated JSON, not rendered vector tiles.
 
+Province label JSON is generated from display-safe province GeoJSON. The generator prefers OSM `label_node` / `admin_centre` metadata before falling back to polylabel, Latinizes `name_en` for English labels, appends `City` for `Thành phố` entries, marks Hà Nội with `is_capital`, and `scripts/province-label-overrides.json` records known placement exceptions.
+
 ## Verification
 
 Use these checks for architecture and map utility changes:

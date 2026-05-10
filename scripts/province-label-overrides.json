@@ -1,0 +1,43 @@
+{
+  "pre:Tỉnh Bà Rịa - Vũng Tàu": {
+    "strategy": "reference",
+    "reason": "Avoid maritime polygon label placement in the pre-2025 coastal boundary."
+  },
+  "pre:Tỉnh Bình Thuận": {
+    "strategy": "reference",
+    "reason": "Avoid maritime polygon label placement in the pre-2025 coastal boundary."
+  },
+  "pre:Thành phố Cần Thơ": {
+    "strategy": "coordinates",
+    "coordinates": [105.58, 10.12],
+    "reason": "Pre-2025 Can Tho's OSM label node sits close to the eastern urban core; place the label nearer the visual centre of the city footprint."
+  },
+  "post:Tỉnh An Giang": {
+    "strategy": "coordinates",
+    "coordinates": [104.95, 10.35],
+    "reason": "Post-2025 An Giang merges An Giang and Kien Giang; place the label farther west inside the merged province body instead of near the Long Xuyen/Cao Lanh edge."
+  },
+  "post:Thành phố Cần Thơ": {
+    "strategy": "coordinates",
+    "coordinates": [105.7916442, 9.7999355],
+    "reason": "Post-2025 Can Tho merges Can Tho, Hau Giang, and Soc Trang; place the label closer to the merged city/province body instead of old Can Tho city centre."
+  },
+  "post:Thành phố Đà Nẵng": {
+    "strategy": "coordinates",
+    "coordinates": [108.1323566, 15.8220848],
+    "reason": "Post-2025 Da Nang merges Da Nang and Quang Nam; place the label between the old city and province label nodes instead of near the old Da Nang urban core."
+  },
+  "post:Tỉnh Quảng Trị": {
+    "strategy": "coordinates",
+    "coordinates": [106.6900942, 17.1496898],
+    "reason": "Post-2025 Quang Tri merges Quang Binh and Quang Tri; place the label between the old province label nodes instead of near Dong Ha on the southern edge."
+  },
+  "post:Thành phố Hồ Chí Minh": {
+    "strategy": "reference",
+    "reason": "Post-2025 merged geometry includes offshore extent; keep label near the city centre."
+  },
+  "post:Tỉnh Lâm Đồng": {
+    "strategy": "reference",
+    "reason": "Post-2025 merged geometry includes coastal/maritime extent; keep label on the inland province body."
+  }
+}
