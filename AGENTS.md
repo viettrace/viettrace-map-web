@@ -22,7 +22,7 @@ If changing deployment behavior, also read `../viettrace-plans/03-runbooks/front
 
 ## Current State
 
-M2 frontend map MVP is complete. The app currently supports:
+M2 frontend map MVP and Immediate Post-MVP Phase 3 UX utility are complete. The app currently supports:
 
 - `/vi/map` and `/en/map` map pages.
 - MapLibre map centered on Vietnam.
@@ -30,8 +30,10 @@ M2 frontend map MVP is complete. The app currently supports:
 - Province search/fly-to from a generated static province index.
 - Shared selected-province detail panel opened from search or map click.
 - Shareable URL state with `mode` and province slug query params.
-- Province labels from static GeoJSON label files.
-- OSM/Viettrace attribution.
+- Responsive map chrome with compact settings/search toggles below desktop widths.
+- Map language switching between Vietnamese and English routes.
+- Localized province labels from static GeoJSON label files, including city and capital marker flags.
+- App-owned attribution/data-note disclosure with required OSM, CARTO, geoBoundaries, and Viettrace credits.
 - SEO metadata and dynamic Open Graph image.
 - Docker standalone deployment config.
 
@@ -52,6 +54,7 @@ pnpm data:generate-index
 pnpm data:generate-labels
 pnpm data:verify-index
 pnpm data:verify-labels
+pnpm data:verify-mergers
 pnpm knip
 ```
 
@@ -90,6 +93,9 @@ Notes:
 | `src/app/global-error.tsx` | App-level global error fallback |
 | `src/app/opengraph-image.tsx` | Dynamic Open Graph image |
 | `src/components/Map/Map.tsx` | Compatibility entrypoint that mounts the feature map shell |
+| `src/components/Map/MapControlPanel.tsx` | Responsive mode/islands/language control panel |
+| `src/components/Map/MapLanguageSwitch.tsx` | Map locale switcher that preserves route query state |
+| `src/components/Map/MapChromeIcons.tsx` | Shared lightweight map chrome icons |
 | `src/features/map-shell/MapShell.tsx` | Map shell, feature composition, and map chrome wiring |
 | `src/features/map-shell/useMapLibre.ts` | MapLibre initialization, readiness, and error lifecycle |
 | `src/features/map-state/mapViewReducer.ts` | Shared map view state reducer |
@@ -102,7 +108,7 @@ Notes:
 | `src/features/map-state/urlState.ts` | URL state parse/serialize helpers for shareable map state |
 | `src/components/Map/MapToggle.tsx` | Before/after toggle UI |
 | `src/components/Map/MapDataNotice.tsx` | Public data note, data-source page link, and data issue entry point |
-| `src/components/Map/MapAttribution.tsx` | OSM and Viettrace attribution |
+| `src/components/Map/MapAttribution.tsx` | App-owned attribution disclosure and data-note toggle |
 | `src/libs/config/publicEnv.ts` | Public env validation for map config |
 | `src/libs/maplibre/` | Small MapLibre helpers for camera, sources, layers, visibility, and tile URLs |
 | `src/libs/i18n/routing.ts` | next-intl routing config, locales `en` and `vi` |

@@ -2,7 +2,7 @@
 
 Interactive web map for Viettrace, built with Next.js and MapLibre GL.
 
-Viettrace compares Vietnam province/city administrative boundaries before and after the July 2025 merger from 63 provinces to 34 provinces. This frontend renders the map UI, before/after toggle, province search/fly-to, selected-province detail panel, shareable URL state, labels, attribution, SEO metadata, and production Docker build.
+Viettrace compares Vietnam province/city administrative boundaries before and after the July 2025 merger from 63 provinces to 34 provinces. This frontend renders the map UI, before/after toggle, province search/fly-to, selected-province detail panel, shareable URL state, localized labels, attribution/data-note disclosure, SEO metadata, and production Docker build.
 
 ## Current Status
 
@@ -15,6 +15,8 @@ The frontend MVP is complete. Immediate Post-MVP Phase 3 UX utility is also comp
 | Province search/fly-to | Complete |
 | Province detail panel | Complete |
 | Shareable URL state | Complete |
+| Responsive map controls/search | Complete |
+| Localized/city-aware province labels | Complete |
 | Static merger metadata | Complete |
 | i18n `vi`/`en` | Complete |
 | SEO/Open Graph | Complete |
@@ -119,7 +121,7 @@ Then use local tile URLs from `.env.sample`.
 | `pnpm data:generate-index` | Regenerate `public/data/province-index.json` from display-safe GeoJSON and merger metadata |
 | `pnpm data:generate-labels` | Regenerate province label points from display-safe GeoJSON in `../viettrace-data` |
 | `pnpm data:verify-index` | Verify province index counts, slugs, camera data, and merger metadata references |
-| `pnpm data:verify-labels` | Verify province label counts, localized names, and known maritime label override points |
+| `pnpm data:verify-labels` | Verify province label counts, localized names, capital/city flags, and known maritime label override points |
 | `pnpm data:verify-mergers` | Verify merger metadata names against tile province names |
 | `pnpm knip` | Run dead-code detection |
 
@@ -140,9 +142,12 @@ src/
 │   └── opengraph-image.tsx
 ├── components/Map/
 │   ├── Map.tsx
+│   ├── MapControlPanel.tsx
 │   ├── MapToggle.tsx
+│   ├── MapLanguageSwitch.tsx
 │   ├── MapDataNotice.tsx
-│   └── MapAttribution.tsx
+│   ├── MapAttribution.tsx
+│   └── MapChromeIcons.tsx
 ├── features/
 │   ├── map-shell/
 │   ├── map-state/
@@ -180,12 +185,15 @@ Static frontend metadata lives in `public/data/`:
 
 - `merger-info.json`: old province to new province mappings.
 - `province-index.json`: generated search/detail/camera index from display-safe province GeoJSON.
-- `province-labels-pre.json`: label points for pre-2025 provinces.
-- `province-labels-post.json`: label points for post-2025 provinces.
+- `province-labels-pre.json`: label points for pre-2025 provinces, including `is_capital` and `is_city` flags for progressive label rendering.
+- `province-labels-post.json`: label points for post-2025 provinces, including `is_capital` and `is_city` flags for progressive label rendering.
 - `offshore-island-labels.json`: label points for Hoàng Sa and Trường Sa reference layer.
 
 OSM attribution is required: `© OpenStreetMap contributors`.
+The CARTO basemap credit is kept available in the app-owned attribution disclosure.
 geoBoundaries attribution is required for offshore islands: `© geoBoundaries www.geoboundaries.org`.
+
+Province labels use localized fields (`name` for Vietnamese, `name_en` for English). Hà Nội is rendered as the national capital with a marker; city labels are allowed at default zoom, while province labels and offshore-island labels fade in at closer zoom levels.
 
 ## Docker
 
@@ -272,7 +280,9 @@ For map behavior changes, manually verify:
 - Data-source note links to the public localized data-sources page.
 - Data-source note can be closed and reopened from the attribution bar.
 - Report-data link opens the GitHub data issue template.
-- OSM/Viettrace attribution is visible.
+- Required OSM, CARTO, geoBoundaries, and Viettrace credits remain available through the attribution/data-note disclosure.
+- Mobile and tablet map chrome use compact settings/search icon toggles; desktop keeps expanded controls.
+- Default zoom shows Hà Nội and city labels first, then province and offshore-island labels progressively appear when zooming in.
 
 ## Releases
 
@@ -312,7 +322,7 @@ Important rules:
 - Keep tile URLs environment-driven.
 - Preserve MapLibre source-layer names unless tile server config changes too.
 - Keep copy in both `src/locales/en.json` and `src/locales/vi.json`.
-- Keep OSM attribution visible.
+- Keep required map and data credits visible.
 - Run `pnpm lint` before submitting meaningful changes.
 - Check the Vercel preview for UI/map behavior changes when available.
 
