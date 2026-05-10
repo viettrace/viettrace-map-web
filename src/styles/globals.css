@@ -26,16 +26,24 @@ body {
 }
 
 .viettrace-map-shell {
-  --map-control-bottom-offset: 0.75rem;
+  --map-attribution-bottom: calc(env(safe-area-inset-bottom, 0px) + 0.5rem);
+  --map-control-bottom-offset: calc(env(safe-area-inset-bottom, 0px) + 0.75rem);
+  --map-panel-bottom: calc(env(safe-area-inset-bottom, 0px) + 4rem);
+  height: 100vh;
+  height: 100svh;
+  height: 100dvh;
+  min-height: 100svh;
 }
 
 @media (min-width: 640px) {
   .viettrace-map-shell {
-    --map-control-bottom-offset: 2.5rem;
+    --map-attribution-bottom: env(safe-area-inset-bottom, 0px);
+    --map-control-bottom-offset: calc(env(safe-area-inset-bottom, 0px) + 2.5rem);
+    --map-panel-bottom: calc(env(safe-area-inset-bottom, 0px) + 2.5rem);
   }
 }
 
 .viettrace-map-shell .maplibregl-ctrl-bottom-right,
 .viettrace-map-shell .maplibregl-ctrl-bottom-left {
-  bottom: max(var(--map-control-bottom-offset), env(safe-area-inset-bottom));
+  bottom: var(--map-control-bottom-offset);
 }

@@ -15,7 +15,7 @@ export default function MapDataNotice({ onClose }: MapDataNoticeProps) {
   const locale = useLocale();
 
   return (
-    <aside className="absolute right-3 bottom-16 left-3 z-20 max-h-[30dvh] overflow-y-auto overscroll-contain rounded-lg border border-slate-200 bg-white/95 px-3 py-2 text-[11px] leading-5 text-slate-700 shadow-lg backdrop-blur-sm sm:right-auto sm:bottom-10 sm:max-h-none sm:w-[min(24rem,calc(100vw-1.5rem))] sm:text-xs">
+    <aside className="absolute right-3 bottom-[var(--map-panel-bottom)] left-3 z-20 max-h-[30dvh] overflow-y-auto overscroll-contain rounded-lg border border-slate-200 bg-white/95 px-3 py-2 text-[11px] leading-5 text-slate-700 shadow-lg backdrop-blur-sm sm:right-auto sm:max-h-none sm:w-[min(24rem,calc(100vw-1.5rem))] sm:text-xs">
       <div className="flex items-start justify-between gap-3">
         <div className="font-semibold text-slate-950">{t('dataNoticeTitle')}</div>
         <button

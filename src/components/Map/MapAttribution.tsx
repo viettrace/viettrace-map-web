@@ -15,7 +15,7 @@ export default function MapAttribution({
   const t = useTranslations('Map');
 
   return (
-    <div className="absolute bottom-2 left-2 z-30 flex max-w-[calc(100vw-4.5rem)] items-center justify-start text-left text-[10px] leading-3 text-gray-600 sm:right-0 sm:bottom-0 sm:left-0 sm:max-w-none sm:flex-wrap sm:justify-center sm:gap-x-2 sm:gap-y-1 sm:bg-white/85 sm:px-2 sm:py-1 sm:text-center sm:text-xs sm:leading-normal sm:shadow-none sm:backdrop-blur-sm">
+    <div className="absolute bottom-[var(--map-attribution-bottom)] left-2 z-30 flex max-w-[calc(100vw-4.5rem)] items-center justify-start text-left text-[10px] leading-3 text-gray-600 sm:right-0 sm:left-0 sm:max-w-none sm:flex-wrap sm:justify-center sm:gap-x-2 sm:gap-y-1 sm:bg-white/85 sm:px-2 sm:py-1 sm:text-center sm:text-xs sm:leading-normal sm:shadow-none sm:backdrop-blur-sm">
       <button
         type="button"
         onClick={onToggleDataNotice}

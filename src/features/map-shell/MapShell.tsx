@@ -80,7 +80,7 @@ export default function MapShell() {
   }
 
   return (
-    <div className="viettrace-map-shell relative h-screen w-full md:h-dvh">
+    <div className="viettrace-map-shell relative w-full overflow-hidden">
       {!isReady && (
         <div className="absolute inset-0 z-20 flex items-center justify-center bg-white">
           <div className="text-center">

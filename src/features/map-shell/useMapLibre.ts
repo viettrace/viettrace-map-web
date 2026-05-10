@@ -55,6 +55,39 @@ export function useMapLibre({ center, style, zoom }: UseMapLibreOptions) {
     };
   }, [center, style, zoom]);
 
+  useEffect(() => {
+    if (!map) return;
+
+    let animationFrame: number | null = null;
+    const visualViewport = window.visualViewport;
+
+    const resizeMap = () => {
+      if (animationFrame !== null) {
+        cancelAnimationFrame(animationFrame);
+      }
+
+      animationFrame = requestAnimationFrame(() => {
+        map.resize();
+        animationFrame = null;
+      });
+    };
+
+    window.addEventListener('resize', resizeMap);
+    visualViewport?.addEventListener('resize', resizeMap);
+    visualViewport?.addEventListener('scroll', resizeMap);
+    resizeMap();
+
+    return () => {
+      window.removeEventListener('resize', resizeMap);
+      visualViewport?.removeEventListener('resize', resizeMap);
+      visualViewport?.removeEventListener('scroll', resizeMap);
+
+      if (animationFrame !== null) {
+        cancelAnimationFrame(animationFrame);
+      }
+    };
+  }, [map]);
+
   return {
     containerRef,
     error,

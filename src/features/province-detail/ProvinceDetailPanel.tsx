@@ -29,7 +29,7 @@ export default function ProvinceDetailPanel({ entry, onClose }: ProvinceDetailPa
   const reportIssueUrl = buildReportIssueUrl(entry);
 
   return (
-    <aside className="absolute right-3 bottom-16 left-3 z-20 max-h-[42dvh] overflow-y-auto rounded-lg border border-slate-200 bg-white/95 text-sm text-slate-700 shadow-xl backdrop-blur-sm md:top-24 md:right-4 md:bottom-auto md:left-auto md:max-h-[calc(100dvh-8rem)] md:w-96">
+    <aside className="absolute right-3 bottom-[var(--map-panel-bottom)] left-3 z-20 max-h-[42dvh] overflow-y-auto rounded-lg border border-slate-200 bg-white/95 text-sm text-slate-700 shadow-xl backdrop-blur-sm md:top-24 md:right-4 md:bottom-auto md:left-auto md:max-h-[calc(100dvh-8rem)] md:w-96">
       <div className="flex items-start justify-between gap-4 border-b border-slate-200 px-4 py-3">
         <div className="min-w-0">
           <div

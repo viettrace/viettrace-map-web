@@ -281,7 +281,7 @@ For map behavior changes, manually verify:
 - Data-source note can be closed and reopened from the attribution bar.
 - Report-data link opens the GitHub data issue template.
 - Required OSM, CARTO, geoBoundaries, and Viettrace credits remain available through the attribution/data-note disclosure.
-- Mobile and tablet map chrome use compact settings/search icon toggles; desktop keeps expanded controls.
+- Mobile and tablet map chrome use compact settings/search icon toggles; Chrome Android dynamic viewport does not cut off bottom attribution or zoom controls.
 - Default zoom shows Hà Nội and city labels first, then province and offshore-island labels progressively appear when zooming in.
 
 ## Releases
