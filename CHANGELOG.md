@@ -1,5 +1,10 @@
 # Changelog
 
+## <small>0.1.5 (2026-05-10)</small>
+
+* fix: adjust bottom offsets for map attribution and control elements ([3f25f43](https://github.com/viettrace/viettrace-map-web/commit/3f25f43))
+* docs: update documentation for M2 frontend map MVP and Post-MVP features ([a219c8b](https://github.com/viettrace/viettrace-map-web/commit/a219c8b))
+
 ## <small>0.1.4 (2026-05-10)</small>
 
 * feat: enhance province boundary layers with city and national capital labels (#70) ([7edfaea](https://github.com/viettrace/viettrace-map-web/commit/7edfaea)), closes [#70](https://github.com/viettrace/viettrace-map-web/issues/70)
