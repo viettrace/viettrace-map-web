@@ -2,6 +2,7 @@ import { readFileSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import pointOnFeature from '@turf/point-on-feature';
+import { formatEnglishProvinceName } from './province-index-utils.mjs';
 
 const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const workspaceRoot = path.resolve(repoRoot, '..');
@@ -9,6 +10,7 @@ const dataRoot = process.env.VIETTRACE_DATA_DIR
   ? path.resolve(process.env.VIETTRACE_DATA_DIR)
   : path.join(workspaceRoot, 'viettrace-data');
 const publicDataRoot = path.join(repoRoot, 'public', 'data');
+const labelOverrides = readLabelOverrides();
 
 function resolveInputPath(relativePath) {
   return path.join(dataRoot, relativePath);
@@ -30,14 +32,17 @@ function generateLabels(inputPath, outputPath, options = {}) {
   });
 
   const points = features.map(feature => {
-    const point = getProvinceLabelPoint(feature);
+    const point =
+      getProvinceLabelOverridePoint(feature, options.mode) || getProvinceLabelPoint(feature);
 
     return {
       type: 'Feature',
       geometry: point.geometry,
       properties: {
+        is_capital: isNationalCapital(feature),
+        is_city: isCity(feature),
         name: feature.properties.name,
-        name_en: feature.properties.name_en,
+        name_en: formatEnglishProvinceName(feature.properties.name, feature.properties.name_en),
       },
     };
   });
@@ -47,11 +52,33 @@ function generateLabels(inputPath, outputPath, options = {}) {
   console.log(`Wrote ${points.length}/${data.features.length} labels -> ${outputPath}`);
 }
 
+function isNationalCapital(feature) {
+  return feature.properties.name === 'Thành phố Hà Nội';
+}
+
+function isCity(feature) {
+  return feature.properties.name.startsWith('Thành phố ');
+}
+
 function getProvinceLabelPoint(feature) {
+  const referencePoint = getReferencePoints(feature.properties)[0];
+
+  if (referencePoint) {
+    return {
+      type: 'Feature',
+      geometry: {
+        coordinates: referencePoint,
+        type: 'Point',
+      },
+      properties: {},
+    };
+  }
+
   const labelPolygon = getLabelPolygon(feature);
 
   if (labelPolygon) {
     const coordinates = polylabel(labelPolygon, 0.01);
+
     return {
       type: 'Feature',
       geometry: {
@@ -63,6 +90,36 @@ function getProvinceLabelPoint(feature) {
   }
 
   return pointOnFeature(feature);
+}
+
+function getProvinceLabelOverridePoint(feature, mode) {
+  if (!mode) {
+    return null;
+  }
+
+  const override = labelOverrides[`${mode}:${feature.properties.name}`];
+
+  if (!override) {
+    return null;
+  }
+
+  const coordinates =
+    override.strategy === 'reference'
+      ? getReferencePoints(feature.properties)[0]
+      : override.coordinates;
+
+  if (!coordinates) {
+    throw new Error(`Label override for ${mode}:${feature.properties.name} has no usable point.`);
+  }
+
+  return {
+    type: 'Feature',
+    geometry: {
+      coordinates,
+      type: 'Point',
+    },
+    properties: {},
+  };
 }
 
 function getLabelPolygon(feature) {
@@ -269,13 +326,23 @@ function ringArea(ring) {
 }
 
 generateLabels(
-  resolveInputPath('processed/provinces/vn_pre_2025.geojson'),
+  resolveInputPath('processed/provinces/vn_pre_2025_display.geojson'),
   resolveOutputPath('province-labels-pre.json'),
+  {
+    mode: 'pre',
+  },
 );
 generateLabels(
-  resolveInputPath('processed/provinces/vn_post_2025.geojson'),
+  resolveInputPath('processed/provinces/vn_post_2025_display.geojson'),
   resolveOutputPath('province-labels-post.json'),
   {
     boundary: 'administrative',
+    mode: 'post',
   },
 );
+
+function readLabelOverrides() {
+  const overridesPath = path.join(repoRoot, 'scripts', 'province-label-overrides.json');
+
+  return JSON.parse(readFileSync(overridesPath, 'utf8'));
+}

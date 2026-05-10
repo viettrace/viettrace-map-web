@@ -17,7 +17,7 @@ const entries: ProvinceIndexEntry[] = [
     },
     mode: 'pre',
     name: 'Tỉnh Hà Giang',
-    name_en: 'Hà Giang Province',
+    name_en: 'Ha Giang Province',
     slug: 'ha-giang',
   },
   {
@@ -30,7 +30,7 @@ const entries: ProvinceIndexEntry[] = [
     },
     mode: 'post',
     name: 'Tỉnh Tuyên Quang',
-    name_en: 'Tuyên Quang Province',
+    name_en: 'Tuyen Quang Province',
     slug: 'tuyen-quang',
   },
   {
@@ -55,9 +55,15 @@ describe('searchProvinceIndex', () => {
   });
 
   it('matches English names and city abbreviations through normalized text', () => {
-    expect(searchProvinceIndex(entries, 'ho chi minh').map(entry => entry.id)).toEqual([
-      'post:ho-chi-minh',
-    ]);
+    expect(
+      searchProvinceIndex(entries, 'ho chi minh', { locale: 'en' }).map(entry => entry.id),
+    ).toEqual(['post:ho-chi-minh']);
+  });
+
+  it('keeps Vietnamese aliases available in English search as a fallback', () => {
+    expect(
+      searchProvinceIndex(entries, 'thanh pho', { locale: 'en' }).map(entry => entry.id),
+    ).toEqual(['post:ho-chi-minh']);
   });
 });
 

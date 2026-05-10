@@ -14,6 +14,8 @@ import {
   getBoundarySourceDefinitions,
 } from './boundaryLayerRegistry';
 
+const NATIONAL_CAPITAL_ICON_ID = 'national-capital-star';
+
 interface BoundaryLayersProps {
   map: maplibregl.Map | null;
   state: MapViewState;
@@ -32,6 +34,8 @@ export default function BoundaryLayers({ map, state }: BoundaryLayersProps) {
       if (!map) return;
 
       const env = { ...publicEnv, tileCacheBuster, tileUrlIslands, tileUrlPost, tileUrlPre };
+
+      ensureNationalCapitalIcon(map);
 
       for (const sourceDefinition of getBoundarySourceDefinitions(env)) {
         ensureSource(map, sourceDefinition.id, sourceDefinition.source);
@@ -66,4 +70,66 @@ export default function BoundaryLayers({ map, state }: BoundaryLayersProps) {
   }, [includeOffshoreIslands, map, state]);
 
   return null;
+}
+
+function ensureNationalCapitalIcon(map: maplibregl.Map) {
+  if (map.hasImage(NATIONAL_CAPITAL_ICON_ID)) {
+    return;
+  }
+
+  const pixelRatio = 2;
+  const logicalSize = 40;
+  const size = logicalSize * pixelRatio;
+  const canvas = document.createElement('canvas');
+  canvas.width = size;
+  canvas.height = size;
+
+  const context = canvas.getContext('2d');
+
+  if (!context) {
+    return;
+  }
+
+  context.scale(pixelRatio, pixelRatio);
+  traceStarPath(context, logicalSize / 2, 16, 6.4);
+
+  context.lineJoin = 'round';
+  context.strokeStyle = 'rgba(255, 255, 255, 0.95)';
+  context.lineWidth = 5;
+  context.stroke();
+
+  context.fillStyle = '#facc15';
+  context.fill();
+
+  context.strokeStyle = '#92400e';
+  context.lineWidth = 1.3;
+  context.stroke();
+
+  map.addImage(NATIONAL_CAPITAL_ICON_ID, context.getImageData(0, 0, size, size), {
+    pixelRatio,
+  });
+}
+
+function traceStarPath(
+  context: CanvasRenderingContext2D,
+  center: number,
+  outerRadius: number,
+  innerRadius: number,
+) {
+  context.beginPath();
+
+  for (let index = 0; index < 10; index += 1) {
+    const radius = index % 2 === 0 ? outerRadius : innerRadius;
+    const angle = -Math.PI / 2 + (index * Math.PI) / 5;
+    const x = center + Math.cos(angle) * radius;
+    const y = center + Math.sin(angle) * radius;
+
+    if (index === 0) {
+      context.moveTo(x, y);
+    } else {
+      context.lineTo(x, y);
+    }
+  }
+
+  context.closePath();
 }

@@ -21,9 +21,7 @@ export function useMapLibre({ center, style, zoom }: UseMapLibreOptions) {
 
     try {
       const mapInstance = new maplibregl.Map({
-        attributionControl: {
-          compact: true,
-        },
+        attributionControl: false,
         center,
         container: containerRef.current,
         style,

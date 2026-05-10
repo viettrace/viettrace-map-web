@@ -25,12 +25,17 @@ body {
   font-family: var(--font-sans);
 }
 
-/* Lift MapLibre controls above the custom attribution strip in Map.tsx */
 .viettrace-map-shell {
-  --map-attribution-bar-height: 2.5rem;
+  --map-control-bottom-offset: 0.75rem;
+}
+
+@media (min-width: 640px) {
+  .viettrace-map-shell {
+    --map-control-bottom-offset: 2.5rem;
+  }
 }
 
 .viettrace-map-shell .maplibregl-ctrl-bottom-right,
 .viettrace-map-shell .maplibregl-ctrl-bottom-left {
-  bottom: var(--map-attribution-bar-height);
+  bottom: max(var(--map-control-bottom-offset), env(safe-area-inset-bottom));
 }

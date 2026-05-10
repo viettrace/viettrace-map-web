@@ -5,6 +5,7 @@ import {
   computeBbox,
   computeDisplayCenter,
   createSlug,
+  formatEnglishProvinceName,
   readJson,
   roundBbox,
   writeJson,
@@ -62,7 +63,7 @@ function buildMergerMaps(mergerInfo) {
 
 function createProvinceEntry(feature, mode, mergerMaps) {
   const name = getFeatureName(feature, 'name');
-  const nameEn = getFeatureName(feature, 'name_en');
+  const nameEn = formatEnglishProvinceName(name, getFeatureName(feature, 'name_en'));
   const slug = createSlug(name);
   const bbox = roundBbox(computeBbox(feature.geometry));
   const entry = {

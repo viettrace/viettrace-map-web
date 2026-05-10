@@ -117,8 +117,9 @@ Then use local tile URLs from `.env.sample`.
 | `pnpm build` | Build production app with standalone output |
 | `pnpm start` | Start production Next.js server |
 | `pnpm data:generate-index` | Regenerate `public/data/province-index.json` from display-safe GeoJSON and merger metadata |
-| `pnpm data:generate-labels` | Regenerate province label points from `../viettrace-data` |
+| `pnpm data:generate-labels` | Regenerate province label points from display-safe GeoJSON in `../viettrace-data` |
 | `pnpm data:verify-index` | Verify province index counts, slugs, camera data, and merger metadata references |
+| `pnpm data:verify-labels` | Verify province label counts, localized names, and known maritime label override points |
 | `pnpm data:verify-mergers` | Verify merger metadata names against tile province names |
 | `pnpm knip` | Run dead-code detection |
 
@@ -247,6 +248,7 @@ Before finishing meaningful frontend changes:
 pnpm lint
 pnpm test:unit
 pnpm data:verify-index
+pnpm data:verify-labels
 pnpm data:verify-mergers
 ```
 

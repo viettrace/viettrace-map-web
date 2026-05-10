@@ -4,6 +4,13 @@ import type { ProvinceIndexEntry } from './provinceIndexTypes';
 
 const DEFAULT_SEARCH_LIMIT = 8;
 
+type ProvinceSearchLocale = 'en' | 'vi';
+
+interface ProvinceSearchOptions {
+  limit?: number;
+  locale?: ProvinceSearchLocale | string;
+}
+
 interface ScoredProvince {
   entry: ProvinceIndexEntry;
   score: number;
@@ -17,7 +24,7 @@ interface ProvinceFeatureProperties {
 export function searchProvinceIndex(
   entries: ProvinceIndexEntry[],
   query: string,
-  limit = DEFAULT_SEARCH_LIMIT,
+  options: ProvinceSearchOptions | number = {},
 ) {
   const normalizedQuery = normalizeSearchText(query);
 
@@ -25,13 +32,15 @@ export function searchProvinceIndex(
     return [];
   }
 
+  const limit = typeof options === 'number' ? options : (options.limit ?? DEFAULT_SEARCH_LIMIT);
+  const locale = typeof options === 'number' ? 'vi' : normalizeSearchLocale(options.locale);
   const normalizedAdministrativeQuery = normalizeAdministrativeName(query);
   const queryVariants = uniqueValues([normalizedQuery, normalizedAdministrativeQuery]).filter(
     Boolean,
   );
 
   return entries
-    .map(entry => ({ entry, score: getProvinceSearchScore(entry, queryVariants) }))
+    .map(entry => ({ entry, score: getProvinceSearchScore(entry, queryVariants, locale) }))
     .filter((result): result is ScoredProvince => result.score > 0)
     .sort((a, b) => {
       if (b.score !== a.score) {
@@ -90,25 +99,35 @@ export function findProvinceByMapFeature(
         return false;
       }
 
-      const aliases = getProvinceSearchAliases(entry);
-      return normalizedNames.some(normalizedName => aliases.includes(normalizedName));
+      const aliases = getProvinceSearchAliases(entry, 'vi');
+      return normalizedNames.some(normalizedName =>
+        aliases.some(alias => alias.value === normalizedName),
+      );
     }) || null
   );
 }
 
-function getProvinceSearchScore(entry: ProvinceIndexEntry, queryVariants: string[]) {
-  const aliases = getProvinceSearchAliases(entry);
-  const haystack = aliases.join(' ');
+function getProvinceSearchScore(
+  entry: ProvinceIndexEntry,
+  queryVariants: string[],
+  locale: ProvinceSearchLocale,
+) {
+  const aliases = getProvinceSearchAliases(entry, locale);
+  const haystack = aliases.map(alias => alias.value).join(' ');
   let bestScore = 0;
 
   for (const query of queryVariants) {
-    if (aliases.includes(query)) {
-      bestScore = Math.max(bestScore, 100);
+    const exactMatch = aliases.find(alias => alias.value === query);
+
+    if (exactMatch) {
+      bestScore = Math.max(bestScore, 100 + exactMatch.priority);
       continue;
     }
 
-    if (aliases.some(alias => alias.startsWith(query))) {
-      bestScore = Math.max(bestScore, 80);
+    const prefixMatch = aliases.find(alias => alias.value.startsWith(query));
+
+    if (prefixMatch) {
+      bestScore = Math.max(bestScore, 80 + prefixMatch.priority);
       continue;
     }
 
@@ -127,16 +146,41 @@ function getProvinceSearchScore(entry: ProvinceIndexEntry, queryVariants: string
   return bestScore;
 }
 
-function getProvinceSearchAliases(entry: ProvinceIndexEntry) {
-  return uniqueValues([
-    normalizeSearchText(entry.name),
-    normalizeAdministrativeName(entry.name),
-    normalizeSearchText(entry.name_en),
-    normalizeAdministrativeName(entry.name_en),
-    normalizeSearchText(entry.slug.replaceAll('-', ' ')),
-  ]).filter(Boolean);
+function getProvinceSearchAliases(entry: ProvinceIndexEntry, locale: ProvinceSearchLocale) {
+  const preferredName = locale === 'en' ? entry.name_en : entry.name;
+  const fallbackName = locale === 'en' ? entry.name : entry.name_en;
+
+  return uniqueAliases([
+    { priority: 8, value: normalizeSearchText(preferredName) },
+    { priority: 8, value: normalizeAdministrativeName(preferredName) },
+    { priority: 2, value: normalizeSearchText(fallbackName) },
+    { priority: 2, value: normalizeAdministrativeName(fallbackName) },
+    { priority: 0, value: normalizeSearchText(entry.slug.replaceAll('-', ' ')) },
+  ]);
 }
 
 function uniqueValues(values: string[]) {
   return [...new Set(values)];
+}
+
+function uniqueAliases(aliases: Array<{ priority: number; value: string }>) {
+  const byValue = new Map<string, { priority: number; value: string }>();
+
+  for (const alias of aliases) {
+    if (!alias.value) {
+      continue;
+    }
+
+    const existingAlias = byValue.get(alias.value);
+
+    if (!existingAlias || alias.priority > existingAlias.priority) {
+      byValue.set(alias.value, alias);
+    }
+  }
+
+  return [...byValue.values()];
+}
+
+function normalizeSearchLocale(locale: ProvinceSearchOptions['locale']): ProvinceSearchLocale {
+  return locale === 'en' ? 'en' : 'vi';
 }

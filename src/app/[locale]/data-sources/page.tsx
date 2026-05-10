@@ -1,5 +1,6 @@
 import { notFound } from 'next/navigation';
 import { hasLocale } from 'next-intl';
+import MapLanguageSwitch from '@src/components/Map/MapLanguageSwitch';
 import { Link } from '@src/libs/i18n/navigation';
 import { routing } from '@src/libs/i18n/routing';
 
@@ -144,13 +145,16 @@ export default async function DataSourcesPage({ params }: PageProps) {
     <main className="min-h-dvh bg-slate-50 text-slate-950">
       <div className="mx-auto flex w-full max-w-5xl flex-col gap-10 px-4 py-8 sm:px-6 lg:px-8">
         <header className="flex flex-col gap-5 border-b border-slate-200 pb-8">
-          <Link
-            href="/map"
-            locale={locale}
-            className="w-fit rounded-md border border-slate-300 bg-white px-3 py-2 text-sm font-medium text-slate-700 transition-colors hover:border-slate-400 hover:bg-slate-100"
-          >
-            {t.backToMap}
-          </Link>
+          <div className="flex flex-wrap items-center justify-between gap-3">
+            <Link
+              href="/map"
+              locale={locale}
+              className="w-fit rounded-md border border-slate-300 bg-white px-3 py-2 text-sm font-medium text-slate-700 transition-colors hover:border-slate-400 hover:bg-slate-100"
+            >
+              {t.backToMap}
+            </Link>
+            <MapLanguageSwitch fallbackPathname="/data-sources" />
+          </div>
           <div className="max-w-3xl">
             <h1 className="text-3xl font-semibold tracking-normal text-slate-950 sm:text-4xl">{t.title}</h1>
             <p className="mt-3 text-base leading-7 text-slate-700">{t.description}</p>
