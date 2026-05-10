@@ -25,16 +25,23 @@ export default function BoundaryLayers({ map, state }: BoundaryLayersProps) {
   const locale = useLocale();
   const publicEnv = readPublicEnv();
   const {
+    enableQaLayers,
     tileCacheBuster,
     tileUrlIslands,
     tileUrlPost,
+    tileUrlPostWardsCandidateLabels,
     tileUrlPostWardsCandidate,
     tileUrlPre,
+    tileUrlPreDistrictsCandidateLabels,
     tileUrlPreDistrictsCandidate,
   } = publicEnv;
   const includeOffshoreIslands = Boolean(tileUrlIslands);
-  const includePostWardCandidates = Boolean(tileUrlPostWardsCandidate);
-  const includePreDistrictCandidates = Boolean(tileUrlPreDistrictsCandidate);
+  const includePostWardCandidateLabels =
+    enableQaLayers && Boolean(tileUrlPostWardsCandidateLabels);
+  const includePostWardCandidates = enableQaLayers && Boolean(tileUrlPostWardsCandidate);
+  const includePreDistrictCandidateLabels =
+    enableQaLayers && Boolean(tileUrlPreDistrictsCandidateLabels);
+  const includePreDistrictCandidates = enableQaLayers && Boolean(tileUrlPreDistrictsCandidate);
 
   useEffect(() => {
     if (!map) return;
@@ -47,9 +54,19 @@ export default function BoundaryLayers({ map, state }: BoundaryLayersProps) {
         tileCacheBuster,
         tileUrlIslands,
         tileUrlPost,
-        tileUrlPostWardsCandidate,
+        tileUrlPostWardsCandidateLabels: includePostWardCandidateLabels
+          ? tileUrlPostWardsCandidateLabels
+          : undefined,
+        tileUrlPostWardsCandidate: includePostWardCandidates
+          ? tileUrlPostWardsCandidate
+          : undefined,
         tileUrlPre,
-        tileUrlPreDistrictsCandidate,
+        tileUrlPreDistrictsCandidateLabels: includePreDistrictCandidateLabels
+          ? tileUrlPreDistrictsCandidateLabels
+          : undefined,
+        tileUrlPreDistrictsCandidate: includePreDistrictCandidates
+          ? tileUrlPreDistrictsCandidate
+          : undefined,
       };
 
       ensureNationalCapitalIcon(map);
@@ -60,7 +77,9 @@ export default function BoundaryLayers({ map, state }: BoundaryLayersProps) {
 
       for (const layerDefinition of getBoundaryLayerDefinitions(locale, state, {
         includeOffshoreIslands,
+        includePostWardCandidateLabels,
         includePostWardCandidates,
+        includePreDistrictCandidateLabels,
         includePreDistrictCandidates,
       })) {
         replaceLayer(map, layerDefinition.layer);
@@ -82,13 +101,17 @@ export default function BoundaryLayers({ map, state }: BoundaryLayersProps) {
     map,
     locale,
     includeOffshoreIslands,
+    includePostWardCandidateLabels,
     includePostWardCandidates,
+    includePreDistrictCandidateLabels,
     includePreDistrictCandidates,
     tileCacheBuster,
     tileUrlIslands,
     tileUrlPost,
+    tileUrlPostWardsCandidateLabels,
     tileUrlPostWardsCandidate,
     tileUrlPre,
+    tileUrlPreDistrictsCandidateLabels,
     tileUrlPreDistrictsCandidate,
   ]);
 
@@ -97,12 +120,22 @@ export default function BoundaryLayers({ map, state }: BoundaryLayersProps) {
 
     for (const group of getBoundaryLayerGroups({
       includeOffshoreIslands,
+      includePostWardCandidateLabels,
       includePostWardCandidates,
+      includePreDistrictCandidateLabels,
       includePreDistrictCandidates,
     })) {
       setLayerGroupVisibility(map, group.layerIds, group.isVisible(state));
     }
-  }, [includeOffshoreIslands, includePostWardCandidates, includePreDistrictCandidates, map, state]);
+  }, [
+    includeOffshoreIslands,
+    includePostWardCandidateLabels,
+    includePostWardCandidates,
+    includePreDistrictCandidateLabels,
+    includePreDistrictCandidates,
+    map,
+    state,
+  ]);
 
   return null;
 }

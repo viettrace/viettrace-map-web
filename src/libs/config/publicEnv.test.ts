@@ -12,11 +12,14 @@ const requiredEnv = {
 describe('readPublicEnv', () => {
   it('reads required tile URLs and default map style', () => {
     expect(readPublicEnv(requiredEnv)).toEqual({
+      enableQaLayers: false,
       mapStyle: 'https://basemaps.cartocdn.com/gl/positron-gl-style/style.json',
       tileCacheBuster: undefined,
       tileUrlIslands: 'https://tiles.example.test/islands',
+      tileUrlPostWardsCandidateLabels: undefined,
       tileUrlPostWardsCandidate: 'https://tiles.example.test/post-wards',
       tileUrlPost: 'https://tiles.example.test/post',
+      tileUrlPreDistrictsCandidateLabels: undefined,
       tileUrlPreDistrictsCandidate: 'https://tiles.example.test/pre-districts',
       tileUrlPre: 'https://tiles.example.test/pre',
     });
@@ -29,6 +32,7 @@ describe('readPublicEnv', () => {
         NEXT_PUBLIC_TILE_URL_PRE: 'https://tiles.example.test/pre',
       }),
     ).toMatchObject({
+      enableQaLayers: false,
       tileUrlIslands: undefined,
       tileUrlPostWardsCandidate: undefined,
       tileUrlPost: 'https://tiles.example.test/post',
@@ -47,6 +51,26 @@ describe('readPublicEnv', () => {
     ).toMatchObject({
       mapStyle: 'https://styles.example.test/style.json',
       tileCacheBuster: '20260509-display',
+    });
+  });
+
+  it('enables QA layers only when explicitly set to true', () => {
+    expect(
+      readPublicEnv({
+        ...requiredEnv,
+        NEXT_PUBLIC_ENABLE_QA_LAYERS: 'true',
+      }),
+    ).toMatchObject({
+      enableQaLayers: true,
+    });
+
+    expect(
+      readPublicEnv({
+        ...requiredEnv,
+        NEXT_PUBLIC_ENABLE_QA_LAYERS: '1',
+      }),
+    ).toMatchObject({
+      enableQaLayers: false,
     });
   });
 

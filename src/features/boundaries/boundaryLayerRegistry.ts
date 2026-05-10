@@ -7,9 +7,11 @@ export const boundarySourceIds = {
   islands: 'vn-offshore-islands',
   islandLabels: 'offshore-island-labels',
   post: 'vn-provinces-post',
+  postWardsCandidateLabels: 'vn-wards-post-2025-candidate-labels',
   postWardsCandidate: 'vn-wards-post-2025-candidate',
   postLabels: 'province-labels-post',
   pre: 'vn-provinces-pre',
+  preDistrictsCandidateLabels: 'vn-districts-pre-2025-candidate-labels',
   preDistrictsCandidate: 'vn-districts-pre-2025-candidate',
   preLabels: 'province-labels-pre',
 } as const;
@@ -42,8 +44,10 @@ const boundaryLayerIds = {
 const boundarySourceLayers = {
   islands: 'vn_offshore_islands',
   post: 'vn_provinces_post_2025',
+  postWardsCandidateLabels: 'vn_wards_post_2025_candidate_labels',
   postWardsCandidate: 'vn_wards_post_2025_candidate',
   pre: 'vn_provinces_pre_2025',
+  preDistrictsCandidateLabels: 'vn_districts_pre_2025_candidate_labels',
   preDistrictsCandidate: 'vn_districts_pre_2025_candidate',
 } as const;
 
@@ -61,16 +65,16 @@ const labelZoomStops = {
     min: 5.25,
   },
   postWardCandidates: {
-    full: 9.1,
-    min: 8.15,
+    full: 11.35,
+    min: 10.75,
   },
   postProvinces: {
     full: 5.8,
     min: 5.05,
   },
   preDistrictCandidates: {
-    full: 8.25,
-    min: 7.25,
+    full: 9.35,
+    min: 8.75,
   },
   preProvinces: {
     full: 6.05,
@@ -98,7 +102,9 @@ interface BoundaryLayerGroup {
 
 interface BoundaryLayerOptions {
   includeOffshoreIslands?: boolean;
+  includePostWardCandidateLabels?: boolean;
   includePostWardCandidates?: boolean;
+  includePreDistrictCandidateLabels?: boolean;
   includePreDistrictCandidates?: boolean;
 }
 
@@ -180,7 +186,21 @@ export function getBoundaryLayerGroups(
     groups.push(preDistrictCandidateLayerGroup);
   }
 
+  if (
+    normalizedOptions.includePreDistrictCandidateLabels &&
+    !normalizedOptions.includePreDistrictCandidates
+  ) {
+    groups.push(preDistrictCandidateLayerGroup);
+  }
+
   if (normalizedOptions.includePostWardCandidates) {
+    groups.push(postWardCandidateLayerGroup);
+  }
+
+  if (
+    normalizedOptions.includePostWardCandidateLabels &&
+    !normalizedOptions.includePostWardCandidates
+  ) {
     groups.push(postWardCandidateLayerGroup);
   }
 
@@ -267,6 +287,10 @@ function getNestedCandidateSourceDefinitions(
   env: PublicEnv,
   sourceDefinitions: BoundarySourceDefinition[],
 ): BoundarySourceDefinition[] {
+  if (!env.enableQaLayers) {
+    return sourceDefinitions;
+  }
+
   const nestedSourceDefinitions = [...sourceDefinitions];
 
   if (env.tileUrlPreDistrictsCandidate) {
@@ -281,6 +305,18 @@ function getNestedCandidateSourceDefinitions(
     });
   }
 
+  if (env.tileUrlPreDistrictsCandidateLabels) {
+    nestedSourceDefinitions.push({
+      id: boundarySourceIds.preDistrictsCandidateLabels,
+      source: {
+        maxzoom: 12,
+        minzoom: 0,
+        tiles: [buildTileTemplate(env.tileUrlPreDistrictsCandidateLabels, env.tileCacheBuster)],
+        type: 'vector',
+      },
+    });
+  }
+
   if (env.tileUrlPostWardsCandidate) {
     nestedSourceDefinitions.push({
       id: boundarySourceIds.postWardsCandidate,
@@ -288,6 +324,18 @@ function getNestedCandidateSourceDefinitions(
         maxzoom: 12,
         minzoom: 0,
         tiles: [buildTileTemplate(env.tileUrlPostWardsCandidate, env.tileCacheBuster)],
+        type: 'vector',
+      },
+    });
+  }
+
+  if (env.tileUrlPostWardsCandidateLabels) {
+    nestedSourceDefinitions.push({
+      id: boundarySourceIds.postWardsCandidateLabels,
+      source: {
+        maxzoom: 12,
+        minzoom: 0,
+        tiles: [buildTileTemplate(env.tileUrlPostWardsCandidateLabels, env.tileCacheBuster)],
         type: 'vector',
       },
     });
@@ -321,7 +369,11 @@ function getProvinceLayerDefinitions(
       layer: {
         id: boundaryLayerIds.preOutline,
         layout: { visibility: preVisible ? 'visible' : 'none' },
-        paint: { 'line-color': '#d44', 'line-width': 1.5 },
+        paint: {
+          'line-color': '#d44',
+          'line-opacity': 0.96,
+          'line-width': zoomRamp(4.75, 1.45, 8.5, 2.25),
+        },
         source: boundarySourceIds.pre,
         'source-layer': boundarySourceLayers.pre,
         type: 'line',
@@ -343,7 +395,11 @@ function getProvinceLayerDefinitions(
       layer: {
         id: boundaryLayerIds.postOutline,
         layout: { visibility: postVisible ? 'visible' : 'none' },
-        paint: { 'line-color': '#3388ff', 'line-width': 1.5 },
+        paint: {
+          'line-color': '#3388ff',
+          'line-opacity': 0.96,
+          'line-width': zoomRamp(4.75, 1.45, 8.5, 2.25),
+        },
         source: boundarySourceIds.post,
         'source-layer': boundarySourceLayers.post,
         type: 'line',
@@ -667,11 +723,11 @@ function getNestedCandidateLayerDefinitions(
   options: BoundaryLayerOptions,
 ): BoundaryLayerDefinition[] {
   const preVisible =
-    Boolean(options.includePreDistrictCandidates) &&
+    Boolean(options.includePreDistrictCandidates || options.includePreDistrictCandidateLabels) &&
     state.mode === 'pre' &&
     state.layers.nestedCandidates;
   const postVisible =
-    Boolean(options.includePostWardCandidates) &&
+    Boolean(options.includePostWardCandidates || options.includePostWardCandidateLabels) &&
     state.mode === 'post' &&
     state.layers.nestedCandidates;
   const labelField: maplibregl.ExpressionSpecification =
@@ -686,8 +742,8 @@ function getNestedCandidateLayerDefinitions(
           id: boundaryLayerIds.preDistrictsCandidateFill,
           layout: { visibility: preVisible ? 'visible' : 'none' },
           maxzoom: 12,
-          minzoom: 5.35,
-          paint: { 'fill-color': '#f59e0b', 'fill-opacity': 0.035 },
+          minzoom: 7,
+          paint: { 'fill-color': '#f59e0b', 'fill-opacity': 0.018 },
           source: boundarySourceIds.preDistrictsCandidate,
           'source-layer': boundarySourceLayers.preDistrictsCandidate,
           type: 'fill',
@@ -699,49 +755,54 @@ function getNestedCandidateLayerDefinitions(
           id: boundaryLayerIds.preDistrictsCandidateOutline,
           layout: { visibility: preVisible ? 'visible' : 'none' },
           maxzoom: 12,
-          minzoom: 5.35,
+          minzoom: 7,
           paint: {
             'line-color': '#b45309',
-            'line-opacity': zoomRamp(5.35, 0.65, 7.25, 1),
-            'line-width': zoomRamp(5.35, 0.45, 9, 1.15),
+            'line-opacity': zoomRamp(7, 0.35, 8.75, 0.72),
+            'line-width': zoomRamp(7, 0.28, 10, 0.78),
           },
           source: boundarySourceIds.preDistrictsCandidate,
           'source-layer': boundarySourceLayers.preDistrictsCandidate,
           type: 'line',
         },
       },
-      {
-        groupId: 'pre-districts-candidate',
-        layer: {
-          filter: ['has', 'name'],
-          id: boundaryLayerIds.preDistrictsCandidateLabel,
-          layout: {
-            'text-allow-overlap': false,
-            'text-anchor': 'center',
-            'text-field': labelField,
-            'text-ignore-placement': false,
-            'text-size': zoomRamp(labelZoomStops.preDistrictCandidates.min, 10, 10, 11.5),
-            visibility: preVisible ? 'visible' : 'none',
-          },
-          maxzoom: 12,
-          minzoom: labelZoomStops.preDistrictCandidates.min,
-          paint: {
-            'text-color': '#92400e',
-            'text-halo-color': '#fff',
-            'text-halo-width': 1.6,
-            'text-opacity': zoomRamp(
-              labelZoomStops.preDistrictCandidates.min,
-              0,
-              labelZoomStops.preDistrictCandidates.full,
-              1,
-            ),
-          },
-          source: boundarySourceIds.preDistrictsCandidate,
-          'source-layer': boundarySourceLayers.preDistrictsCandidate,
-          type: 'symbol',
-        },
-      },
     );
+  }
+
+  if (options.includePreDistrictCandidateLabels) {
+    layers.push({
+      groupId: 'pre-districts-candidate',
+      layer: {
+        filter: ['has', 'name'],
+        id: boundaryLayerIds.preDistrictsCandidateLabel,
+        layout: {
+          'text-allow-overlap': false,
+          'text-anchor': 'center',
+          'text-field': labelField,
+          'text-ignore-placement': false,
+          'text-max-width': 8,
+          'text-padding': 4,
+          'text-size': zoomRamp(labelZoomStops.preDistrictCandidates.min, 9.75, 11, 11.25),
+          visibility: preVisible ? 'visible' : 'none',
+        },
+        maxzoom: 12,
+        minzoom: labelZoomStops.preDistrictCandidates.min,
+        paint: {
+          'text-color': '#92400e',
+          'text-halo-color': '#fff',
+          'text-halo-width': 1.45,
+          'text-opacity': zoomRamp(
+            labelZoomStops.preDistrictCandidates.min,
+            0,
+            labelZoomStops.preDistrictCandidates.full,
+            1,
+          ),
+        },
+        source: boundarySourceIds.preDistrictsCandidateLabels,
+        'source-layer': boundarySourceLayers.preDistrictsCandidateLabels,
+        type: 'symbol',
+      },
+    });
   }
 
   if (options.includePostWardCandidates) {
@@ -752,8 +813,8 @@ function getNestedCandidateLayerDefinitions(
           id: boundaryLayerIds.postWardsCandidateFill,
           layout: { visibility: postVisible ? 'visible' : 'none' },
           maxzoom: 12,
-          minzoom: 6,
-          paint: { 'fill-color': '#8b5cf6', 'fill-opacity': 0.035 },
+          minzoom: 8,
+          paint: { 'fill-color': '#8b5cf6', 'fill-opacity': 0.012 },
           source: boundarySourceIds.postWardsCandidate,
           'source-layer': boundarySourceLayers.postWardsCandidate,
           type: 'fill',
@@ -765,52 +826,67 @@ function getNestedCandidateLayerDefinitions(
           id: boundaryLayerIds.postWardsCandidateOutline,
           layout: { visibility: postVisible ? 'visible' : 'none' },
           maxzoom: 12,
-          minzoom: 6,
+          minzoom: 8,
           paint: {
             'line-color': '#6d28d9',
-            'line-opacity': zoomRamp(6, 0.62, 8, 1),
-            'line-width': zoomRamp(6, 0.35, 10, 0.95),
+            'line-opacity': zoomRamp(8, 0.28, 10, 0.68),
+            'line-width': zoomRamp(8, 0.22, 11, 0.62),
           },
           source: boundarySourceIds.postWardsCandidate,
           'source-layer': boundarySourceLayers.postWardsCandidate,
           type: 'line',
         },
       },
-      {
-        groupId: 'post-wards-candidate',
-        layer: {
-          filter: ['has', 'name'],
-          id: boundaryLayerIds.postWardsCandidateLabel,
-          layout: {
-            'text-allow-overlap': false,
-            'text-anchor': 'center',
-            'text-field': labelField,
-            'text-ignore-placement': false,
-            'text-size': zoomRamp(labelZoomStops.postWardCandidates.min, 9.5, 11, 11),
-            visibility: postVisible ? 'visible' : 'none',
-          },
-          maxzoom: 12,
-          minzoom: labelZoomStops.postWardCandidates.min,
-          paint: {
-            'text-color': '#5b21b6',
-            'text-halo-color': '#fff',
-            'text-halo-width': 1.5,
-            'text-opacity': zoomRamp(
-              labelZoomStops.postWardCandidates.min,
-              0,
-              labelZoomStops.postWardCandidates.full,
-              1,
-            ),
-          },
-          source: boundarySourceIds.postWardsCandidate,
-          'source-layer': boundarySourceLayers.postWardsCandidate,
-          type: 'symbol',
-        },
-      },
     );
   }
 
+  if (options.includePostWardCandidateLabels) {
+    layers.push({
+      groupId: 'post-wards-candidate',
+      layer: {
+        filter: ['has', 'name'],
+        id: boundaryLayerIds.postWardsCandidateLabel,
+        layout: {
+          'text-allow-overlap': false,
+          'text-anchor': 'center',
+          'text-field': labelField,
+          'text-ignore-placement': false,
+          'text-max-width': 7,
+          'text-padding': 3,
+          'text-size': zoomRamp(labelZoomStops.postWardCandidates.min, 9, 12, 10.75),
+          visibility: postVisible ? 'visible' : 'none',
+        },
+        maxzoom: 12,
+        minzoom: labelZoomStops.postWardCandidates.min,
+        paint: {
+          'text-color': '#5b21b6',
+          'text-halo-color': '#fff',
+          'text-halo-width': 1.35,
+          'text-opacity': zoomRamp(
+            labelZoomStops.postWardCandidates.min,
+            0,
+            labelZoomStops.postWardCandidates.full,
+            1,
+          ),
+        },
+        source: boundarySourceIds.postWardsCandidateLabels,
+        'source-layer': boundarySourceLayers.postWardsCandidateLabels,
+        type: 'symbol',
+      },
+    });
+  }
+
   return layers;
+}
+
+const provinceFillLayerIds = new Set<string>([boundaryLayerIds.preFill, boundaryLayerIds.postFill]);
+const nestedCandidateLabelLayerIds = new Set<string>([
+  boundaryLayerIds.preDistrictsCandidateLabel,
+  boundaryLayerIds.postWardsCandidateLabel,
+]);
+
+function hasLayerId(definition: BoundaryLayerDefinition, layerIds: Set<string>) {
+  return layerIds.has(definition.layer.id);
 }
 
 export function getBoundaryLayerDefinitions(
@@ -819,15 +895,35 @@ export function getBoundaryLayerDefinitions(
   options: BoundaryLayerOptions = {},
 ): BoundaryLayerDefinition[] {
   const provinceLayers = getProvinceLayerDefinitions(locale, state);
+  const provinceFillLayers = provinceLayers.filter(definition =>
+    hasLayerId(definition, provinceFillLayerIds),
+  );
+  const provincePriorityLayers = provinceLayers.filter(
+    definition => !hasLayerId(definition, provinceFillLayerIds),
+  );
   const nestedCandidateLayers = getNestedCandidateLayerDefinitions(locale, state, options);
+  const nestedCandidateGeometryLayers = nestedCandidateLayers.filter(
+    definition => !hasLayerId(definition, nestedCandidateLabelLayerIds),
+  );
+  const nestedCandidateLabelLayers = nestedCandidateLayers.filter(definition =>
+    hasLayerId(definition, nestedCandidateLabelLayerIds),
+  );
+  const orderedLayers = [
+    ...provinceFillLayers,
+    ...nestedCandidateGeometryLayers,
+    ...provincePriorityLayers,
+    ...nestedCandidateLabelLayers,
+  ];
 
   if (options.includeOffshoreIslands === false) {
-    return [...provinceLayers, ...nestedCandidateLayers];
+    return orderedLayers;
   }
 
   return [
-    ...provinceLayers,
+    ...provinceFillLayers,
     ...getOffshoreIslandLayerDefinitions(locale, state),
-    ...nestedCandidateLayers,
+    ...nestedCandidateGeometryLayers,
+    ...provincePriorityLayers,
+    ...nestedCandidateLabelLayers,
   ];
 }
