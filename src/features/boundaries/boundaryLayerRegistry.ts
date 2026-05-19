@@ -82,6 +82,13 @@ const labelZoomStops = {
   },
 } as const;
 
+const nestedCandidateBasemapPlaceLayerIds = [
+  'place_hamlet',
+  'place_suburbs',
+  'place_villages',
+  'place_town',
+] as const;
+
 type ZoomRampExpression = ['interpolate', ['linear'], ['zoom'], number, number, number, number];
 
 interface BoundarySourceDefinition {
@@ -211,6 +218,10 @@ export const boundaryLayerGroups = getBoundaryLayerGroups(true);
 
 export function getProvinceHitLayerId(mode: MapMode) {
   return mode === 'pre' ? boundaryLayerIds.preFill : boundaryLayerIds.postFill;
+}
+
+export function getNestedCandidateBasemapPlaceLayerIds(): string[] {
+  return [...nestedCandidateBasemapPlaceLayerIds];
 }
 
 function zoomRamp(

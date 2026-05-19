@@ -8,6 +8,7 @@ import {
   getBoundaryLayerDefinitions,
   getBoundaryLayerGroups,
   getBoundarySourceDefinitions,
+  getNestedCandidateBasemapPlaceLayerIds,
   getProvinceHitLayerId,
 } from './boundaryLayerRegistry';
 
@@ -282,6 +283,15 @@ describe('boundaryLayerRegistry', () => {
     expect(sourceIds).not.toContain(boundarySourceIds.preDistrictsCandidateLabels);
     expect(sourceIds).not.toContain(boundarySourceIds.postWardsCandidate);
     expect(sourceIds).not.toContain(boundarySourceIds.postWardsCandidateLabels);
+  });
+
+  it('tracks basemap place labels hidden during nested candidate QA', () => {
+    expect(getNestedCandidateBasemapPlaceLayerIds()).toEqual([
+      'place_hamlet',
+      'place_suburbs',
+      'place_villages',
+      'place_town',
+    ]);
   });
 
   it('omits offshore island sources and layers when the tile URL is not configured', () => {

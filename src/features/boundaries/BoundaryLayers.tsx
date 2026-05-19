@@ -12,6 +12,7 @@ import {
   getBoundaryLayerDefinitions,
   getBoundaryLayerGroups,
   getBoundarySourceDefinitions,
+  getNestedCandidateBasemapPlaceLayerIds,
 } from './boundaryLayerRegistry';
 
 const NATIONAL_CAPITAL_ICON_ID = 'national-capital-star';
@@ -136,6 +137,32 @@ export default function BoundaryLayers({ map, state }: BoundaryLayersProps) {
     map,
     state,
   ]);
+
+  useEffect(() => {
+    if (!map) return;
+
+    function syncBasemapPlaceLabels() {
+      if (!map) return;
+
+      const basemapPlaceLayerVisibility = state.layers.nestedCandidates ? 'none' : 'visible';
+
+      for (const layerId of getNestedCandidateBasemapPlaceLayerIds()) {
+        if (map.getLayer(layerId)) {
+          map.setLayoutProperty(layerId, 'visibility', basemapPlaceLayerVisibility);
+        }
+      }
+    }
+
+    if (map.isStyleLoaded()) {
+      syncBasemapPlaceLabels();
+    } else {
+      map.once('load', syncBasemapPlaceLabels);
+    }
+
+    return () => {
+      map.off('load', syncBasemapPlaceLabels);
+    };
+  }, [map, state.layers.nestedCandidates]);
 
   return null;
 }
