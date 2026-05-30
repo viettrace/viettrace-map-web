@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from 'react';
 import maplibregl from 'maplibre-gl';
+import { Protocol } from 'pmtiles';
 
 interface UseMapLibreOptions {
   center: [number, number];
@@ -12,12 +13,19 @@ interface UseMapLibreOptions {
 export function useMapLibre({ center, style, zoom }: UseMapLibreOptions) {
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<maplibregl.Map | null>(null);
+  const protocolRef = useRef<Protocol | null>(null);
   const [map, setMap] = useState<maplibregl.Map | null>(null);
   const [isReady, setIsReady] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     if (!containerRef.current || mapRef.current) return;
+
+    // Register pmtiles protocol for static vector tile sources
+    if (!protocolRef.current) {
+      protocolRef.current = new Protocol();
+      maplibregl.addProtocol('pmtiles', protocolRef.current.tile);
+    }
 
     try {
       const mapInstance = new maplibregl.Map({
@@ -48,6 +56,11 @@ export function useMapLibre({ center, style, zoom }: UseMapLibreOptions) {
       if (mapRef.current) {
         mapRef.current.remove();
         mapRef.current = null;
+      }
+
+      if (protocolRef.current) {
+        maplibregl.removeProtocol('pmtiles');
+        protocolRef.current = null;
       }
 
       setMap(null);

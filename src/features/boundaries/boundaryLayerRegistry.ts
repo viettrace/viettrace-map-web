@@ -82,6 +82,13 @@ const labelZoomStops = {
   },
 } as const;
 
+const nestedCandidateBasemapPlaceLayerIds = [
+  'place_hamlet',
+  'place_suburbs',
+  'place_villages',
+  'place_town',
+] as const;
+
 type ZoomRampExpression = ['interpolate', ['linear'], ['zoom'], number, number, number, number];
 
 interface BoundarySourceDefinition {
@@ -213,6 +220,10 @@ export function getProvinceHitLayerId(mode: MapMode) {
   return mode === 'pre' ? boundaryLayerIds.preFill : boundaryLayerIds.postFill;
 }
 
+export function getNestedCandidateBasemapPlaceLayerIds(): string[] {
+  return [...nestedCandidateBasemapPlaceLayerIds];
+}
+
 function zoomRamp(
   minZoom: number,
   minValue: number,
@@ -293,7 +304,17 @@ function getNestedCandidateSourceDefinitions(
 
   const nestedSourceDefinitions = [...sourceDefinitions];
 
-  if (env.tileUrlPreDistrictsCandidate) {
+  if (env.pmtilesUrlPreDistrictsCandidate) {
+    nestedSourceDefinitions.push({
+      id: boundarySourceIds.preDistrictsCandidate,
+      source: {
+        maxzoom: 12,
+        minzoom: 0,
+        type: 'vector',
+        url: `pmtiles://${env.pmtilesUrlPreDistrictsCandidate}`,
+      },
+    });
+  } else if (env.tileUrlPreDistrictsCandidate) {
     nestedSourceDefinitions.push({
       id: boundarySourceIds.preDistrictsCandidate,
       source: {
@@ -317,7 +338,17 @@ function getNestedCandidateSourceDefinitions(
     });
   }
 
-  if (env.tileUrlPostWardsCandidate) {
+  if (env.pmtilesUrlPostWardsCandidate) {
+    nestedSourceDefinitions.push({
+      id: boundarySourceIds.postWardsCandidate,
+      source: {
+        maxzoom: 12,
+        minzoom: 0,
+        type: 'vector',
+        url: `pmtiles://${env.pmtilesUrlPostWardsCandidate}`,
+      },
+    });
+  } else if (env.tileUrlPostWardsCandidate) {
     nestedSourceDefinitions.push({
       id: boundarySourceIds.postWardsCandidate,
       source: {

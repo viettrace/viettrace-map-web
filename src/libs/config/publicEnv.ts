@@ -1,6 +1,8 @@
 export interface PublicEnv {
   enableQaLayers: boolean;
   mapStyle: string;
+  pmtilesUrlPostWardsCandidate?: string;
+  pmtilesUrlPreDistrictsCandidate?: string;
   tileCacheBuster?: string;
   tileUrlIslands?: string;
   tileUrlPostWardsCandidateLabels?: string;
@@ -17,6 +19,10 @@ type PublicEnvSource = Record<string, string | undefined>;
 const browserPublicEnv: PublicEnvSource = {
   NEXT_PUBLIC_ENABLE_QA_LAYERS: process.env.NEXT_PUBLIC_ENABLE_QA_LAYERS,
   NEXT_PUBLIC_MAP_STYLE: process.env.NEXT_PUBLIC_MAP_STYLE,
+  NEXT_PUBLIC_PMTILES_URL_POST_WARDS_CANDIDATE:
+    process.env.NEXT_PUBLIC_PMTILES_URL_POST_WARDS_CANDIDATE,
+  NEXT_PUBLIC_PMTILES_URL_PRE_DISTRICTS_CANDIDATE:
+    process.env.NEXT_PUBLIC_PMTILES_URL_PRE_DISTRICTS_CANDIDATE,
   NEXT_PUBLIC_TILE_CACHE_BUSTER: process.env.NEXT_PUBLIC_TILE_CACHE_BUSTER,
   NEXT_PUBLIC_TILE_URL_ISLANDS: process.env.NEXT_PUBLIC_TILE_URL_ISLANDS,
   NEXT_PUBLIC_TILE_URL_POST_WARDS_CANDIDATE_LABELS:
@@ -48,6 +54,9 @@ export function readPublicEnv(env: PublicEnvSource = browserPublicEnv): PublicEn
   return {
     enableQaLayers: readBooleanEnv(env, 'NEXT_PUBLIC_ENABLE_QA_LAYERS'),
     mapStyle: env.NEXT_PUBLIC_MAP_STYLE || DEFAULT_MAP_STYLE,
+    pmtilesUrlPostWardsCandidate: env.NEXT_PUBLIC_PMTILES_URL_POST_WARDS_CANDIDATE || undefined,
+    pmtilesUrlPreDistrictsCandidate:
+      env.NEXT_PUBLIC_PMTILES_URL_PRE_DISTRICTS_CANDIDATE || undefined,
     tileCacheBuster: env.NEXT_PUBLIC_TILE_CACHE_BUSTER || undefined,
     tileUrlIslands: env.NEXT_PUBLIC_TILE_URL_ISLANDS || undefined,
     tileUrlPostWardsCandidateLabels:
