@@ -1,5 +1,12 @@
 # Changelog
 
+## <small>0.1.6 (2026-05-30)</small>
+
+* Feat/add level 6 boundries layer candidate (#72) ([52d6f19](https://github.com/viettrace/viettrace-map-web/commit/52d6f19)), closes [#72](https://github.com/viettrace/viettrace-map-web/issues/72)
+* Feat/add level 6 boundries layer candidate (#74) ([d9a2798](https://github.com/viettrace/viettrace-map-web/commit/d9a2798)), closes [#74](https://github.com/viettrace/viettrace-map-web/issues/74)
+* Update copyright year in LICENSE file ([ea93930](https://github.com/viettrace/viettrace-map-web/commit/ea93930))
+* feat: add candidate boundary layers and toggle functionality for districts and wards (#71) ([c3ae261](https://github.com/viettrace/viettrace-map-web/commit/c3ae261)), closes [#71](https://github.com/viettrace/viettrace-map-web/issues/71)
+
 ## <small>0.1.5 (2026-05-10)</small>
 
 * fix: adjust bottom offsets for map attribution and control elements ([3f25f43](https://github.com/viettrace/viettrace-map-web/commit/3f25f43))
