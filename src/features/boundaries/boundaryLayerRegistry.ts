@@ -304,7 +304,17 @@ function getNestedCandidateSourceDefinitions(
 
   const nestedSourceDefinitions = [...sourceDefinitions];
 
-  if (env.tileUrlPreDistrictsCandidate) {
+  if (env.pmtilesUrlPreDistrictsCandidate) {
+    nestedSourceDefinitions.push({
+      id: boundarySourceIds.preDistrictsCandidate,
+      source: {
+        maxzoom: 12,
+        minzoom: 0,
+        type: 'vector',
+        url: `pmtiles://${env.pmtilesUrlPreDistrictsCandidate}`,
+      },
+    });
+  } else if (env.tileUrlPreDistrictsCandidate) {
     nestedSourceDefinitions.push({
       id: boundarySourceIds.preDistrictsCandidate,
       source: {
@@ -328,7 +338,17 @@ function getNestedCandidateSourceDefinitions(
     });
   }
 
-  if (env.tileUrlPostWardsCandidate) {
+  if (env.pmtilesUrlPostWardsCandidate) {
+    nestedSourceDefinitions.push({
+      id: boundarySourceIds.postWardsCandidate,
+      source: {
+        maxzoom: 12,
+        minzoom: 0,
+        type: 'vector',
+        url: `pmtiles://${env.pmtilesUrlPostWardsCandidate}`,
+      },
+    });
+  } else if (env.tileUrlPostWardsCandidate) {
     nestedSourceDefinitions.push({
       id: boundarySourceIds.postWardsCandidate,
       source: {
