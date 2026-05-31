@@ -1,5 +1,9 @@
 # Changelog
 
+## <small>0.1.11 (2026-05-31)</small>
+
+* feat: improve the slider in mobile view (#80) ([a127649](https://github.com/viettrace/viettrace-map-web/commit/a127649)), closes [#80](https://github.com/viettrace/viettrace-map-web/issues/80)
+
 ## <small>0.1.10 (2026-05-31)</small>
 
 * feat: implement compare mode (#79) ([5d8e464](https://github.com/viettrace/viettrace-map-web/commit/5d8e464)), closes [#79](https://github.com/viettrace/viettrace-map-web/issues/79)
