@@ -13,6 +13,9 @@ import {
   getBoundaryLayerGroups,
   getBoundarySourceDefinitions,
   getNestedCandidateBasemapPlaceLayerIds,
+  getOffshoreIslandLabelTextField,
+  getOffshoreIslandModeStyle,
+  offshoreIslandLayerIds,
 } from './boundaryLayerRegistry';
 
 const NATIONAL_CAPITAL_ICON_ID = 'national-capital-star';
@@ -157,12 +160,39 @@ export default function BoundaryLayers({ map, state }: BoundaryLayersProps) {
     })) {
       setLayerGroupVisibility(map, group.layerIds, group.isVisible(state));
     }
+
+    // Ensure offshore island styling tracks the active mode even when the
+    // registration effect skipped a re-run (for example when the style was
+    // not flagged as loaded at the moment URL state restore dispatched a mode
+    // change). Without this sync, reopening the app with `?mode=post` can
+    // leave Hoang Sa and Truong Sa rendered with the pre-mode (red) palette.
+    if (includeOffshoreIslands && state.layers.offshoreIslands) {
+      const { fillColor, labelColor, outlineColor } = getOffshoreIslandModeStyle(state.mode);
+
+      if (map.getLayer(offshoreIslandLayerIds.fill)) {
+        map.setPaintProperty(offshoreIslandLayerIds.fill, 'fill-color', fillColor);
+      }
+
+      if (map.getLayer(offshoreIslandLayerIds.outline)) {
+        map.setPaintProperty(offshoreIslandLayerIds.outline, 'line-color', outlineColor);
+      }
+
+      if (map.getLayer(offshoreIslandLayerIds.label)) {
+        map.setPaintProperty(offshoreIslandLayerIds.label, 'text-color', labelColor);
+        map.setLayoutProperty(
+          offshoreIslandLayerIds.label,
+          'text-field',
+          getOffshoreIslandLabelTextField(state.mode, locale),
+        );
+      }
+    }
   }, [
     includeOffshoreIslands,
     includePostWardCandidateLabels,
     includePostWardCandidates,
     includePreDistrictCandidateLabels,
     includePreDistrictCandidates,
+    locale,
     map,
     state,
   ]);
