@@ -1,5 +1,10 @@
 # Changelog
 
+## <small>0.1.9 (2026-05-31)</small>
+
+* Feat/improve nested ux (#78) ([d688506](https://github.com/viettrace/viettrace-map-web/commit/d688506)), closes [#78](https://github.com/viettrace/viettrace-map-web/issues/78)
+* feat: enhance offshore island styling and label handling based on active mode (#77) ([bc8797e](https://github.com/viettrace/viettrace-map-web/commit/bc8797e)), closes [#77](https://github.com/viettrace/viettrace-map-web/issues/77)
+
 ## <small>0.1.8 (2026-05-31)</small>
 
 * feat: add PMTiles label sources for nested boundaries and update boundary layer handling (#76) ([6004c12](https://github.com/viettrace/viettrace-map-web/commit/6004c12)), closes [#76](https://github.com/viettrace/viettrace-map-web/issues/76)
