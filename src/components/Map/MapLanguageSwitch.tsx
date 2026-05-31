@@ -23,7 +23,8 @@ const languageOptions: Array<{
 
 interface MapLanguageSwitchProps {
   fallbackPathname?: string;
-  variant?: 'segmented' | 'toolbar';
+  // 'panel' = desktop unified control panel row, no own background/border.
+  variant?: 'segmented' | 'toolbar' | 'panel';
 }
 
 export default function MapLanguageSwitch({
@@ -59,14 +60,20 @@ export default function MapLanguageSwitch({
     router.push(nextHref);
   }
 
+  const navClassName = (() => {
+    if (variant === 'toolbar') {
+      return 'flex flex-col items-stretch gap-1';
+    }
+    if (variant === 'panel') {
+      return 'flex items-center gap-1 px-2 py-1.5';
+    }
+    return 'flex w-14 flex-col items-stretch rounded-xl border border-slate-200 bg-white/95 p-0.5 shadow-md backdrop-blur-sm sm:w-fit sm:flex-row sm:items-center sm:rounded-full sm:p-1 sm:shadow-lg';
+  })();
+
   return (
     <nav
       aria-label={t('languageSwitchLabel')}
-      className={
-        variant === 'toolbar'
-          ? 'flex flex-col items-stretch gap-1'
-          : 'flex w-14 flex-col items-stretch rounded-xl border border-slate-200 bg-white/95 p-0.5 shadow-md backdrop-blur-sm sm:w-fit sm:flex-row sm:items-center sm:rounded-full sm:p-1 sm:shadow-lg'
-      }
+      className={navClassName}
     >
       {languageOptions.map(option => {
         const isActive = option.locale === currentLocale;
@@ -84,19 +91,18 @@ export default function MapLanguageSwitch({
                 : t('languageSwitchTo', { language: languageName })
             }
             onClick={event => handleLocaleClick(event, option.locale)}
-            className={
-              variant === 'toolbar'
-                ? `flex h-9 w-9 items-center justify-center rounded-full text-[10px] font-bold transition-colors focus:ring-2 focus:ring-slate-400 focus:ring-offset-1 focus:outline-none ${
-                    isActive
-                      ? 'bg-slate-900 text-white'
-                      : 'text-slate-600 hover:bg-slate-100 hover:text-slate-950'
-                  }`
-                : `w-full rounded-lg px-2 py-1 text-center text-[11px] font-semibold transition-colors focus:ring-2 focus:ring-slate-400 focus:ring-offset-1 focus:outline-none sm:min-w-10 sm:rounded-full sm:px-2.5 sm:text-xs ${
-                    isActive
-                      ? 'bg-slate-900 text-white'
-                      : 'text-slate-600 hover:bg-slate-100 hover:text-slate-950'
-                  }`
-            }
+            className={(() => {
+              const stateClasses = isActive
+                ? 'bg-slate-900 text-white'
+                : 'text-slate-600 hover:bg-slate-100 hover:text-slate-950';
+              if (variant === 'toolbar') {
+                return `flex h-9 w-9 items-center justify-center rounded-full text-[10px] font-bold transition-colors focus:ring-2 focus:ring-slate-400 focus:ring-offset-1 focus:outline-none ${stateClasses}`;
+              }
+              if (variant === 'panel') {
+                return `flex h-7 min-w-9 items-center justify-center rounded-full px-2 text-[11px] font-semibold transition-colors focus:ring-2 focus:ring-slate-400 focus:ring-offset-1 focus:outline-none ${stateClasses}`;
+              }
+              return `w-full rounded-lg px-2 py-1 text-center text-[11px] font-semibold transition-colors focus:ring-2 focus:ring-slate-400 focus:ring-offset-1 focus:outline-none sm:min-w-10 sm:rounded-full sm:px-2.5 sm:text-xs ${stateClasses}`;
+            })()}
           >
             {option.label}
           </a>

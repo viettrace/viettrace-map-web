@@ -22,7 +22,7 @@ If changing deployment behavior, also read `../viettrace-plans/03-runbooks/front
 
 ## Current State
 
-M2 frontend map MVP, Phase 3 UX utility, Phase 4B nested-boundaries production, and Phase 5A nested UX are complete. The app currently supports:
+M2 frontend map MVP, Phase 3 UX utility, Phase 4B nested-boundaries production, Phase 5A nested UX, and Phase 5B compare UX are complete. The app currently supports:
 
 - `/vi/map` and `/en/map` map pages.
 - MapLibre map centered on Vietnam.
@@ -30,7 +30,7 @@ M2 frontend map MVP, Phase 3 UX utility, Phase 4B nested-boundaries production, 
 - Province search/fly-to from a generated static province index.
 - Shared selected-province detail panel opened from search or map click.
 - Shareable URL state with `mode` and province slug query params.
-- Single mode toggle (pre/post). Offshore islands and nested boundaries are always visible, no per-layer toggle.
+- Single mode toggle (pre/post) and a swipe-slider compare mode that splits the viewport into pre and post halves with a synced camera. Offshore islands and nested boundaries are always visible, no per-layer toggle.
 - Map language switching between Vietnamese and English routes.
 - Localized province labels from static GeoJSON label files, including city and capital marker flags.
 - Public nested district (pre-2025) and ward (post-2025) boundary layers served as PMTiles from Cloudflare R2.
@@ -40,6 +40,7 @@ M2 frontend map MVP, Phase 3 UX utility, Phase 4B nested-boundaries production, 
 - Shareable URL state for nested selection via `nested` and `nestedType` query params.
 - Pre-2025 `Huyện Hoàng Sa` is included in the nested index via a research gap-fill (geometry copied from the geoBoundaries Paracel reference) so the district is searchable and clickable in pre mode for parity with the post-2025 `Đặc khu Hoàng Sa`.
 - Search results expose only administrative units; offshore archipelago entries (`Quần đảo Hoàng Sa`, `Quần đảo Trường Sa`) are no longer search results because both modes already expose admin-level entries with the same names. The on-map labels for those archipelagos still render via `BoundaryLayers` reading `/data/offshore-island-labels.json`.
+- Compare swipe mode: a draggable vertical divider splits the viewport into pre (left) and post (right) halves with a synced camera. Activated via the compare-mode toggle in the control panel or `?compare=swipe` in the URL. Optional `divider=0.NN` URL param (a 0–1 fraction) restores divider position; the default 0.5 is omitted from the URL. Selection and detail panels are suppressed in swipe mode; search surfaces both eras.
 - App-owned attribution/data-note disclosure with required OSM, CARTO, geoBoundaries, and Viettrace credits.
 - SEO metadata and dynamic Open Graph image.
 - Docker standalone deployment config.
@@ -105,8 +106,13 @@ Notes:
 | `src/components/Map/MapControlPanel.tsx` | Responsive mode/islands/language control panel |
 | `src/components/Map/MapLanguageSwitch.tsx` | Map locale switcher that preserves route query state |
 | `src/components/Map/MapChromeIcons.tsx` | Shared lightweight map chrome icons |
-| `src/features/map-shell/MapShell.tsx` | Map shell, feature composition, and map chrome wiring |
+| `src/features/map-shell/MapShell.tsx` | Map shell parent: lifts state, owns indexes, picks single vs swipe view, renders shared chrome |
+| `src/features/map-shell/SingleMapShell.tsx` | Single-map experience: one MapLibre, boundary interactions, detail panel, URL restore |
 | `src/features/map-shell/useMapLibre.ts` | MapLibre initialization, readiness, and error lifecycle |
+| `src/features/compare/CompareMapShell.tsx` | Two-map swipe view with dual `BoundaryLayers` and per-side state |
+| `src/features/compare/SwipeDivider.tsx` | Pointer + keyboard divider handle (`role="slider"`) |
+| `src/features/compare/useSyncedMaps.ts` | Camera mirroring between the two compare maps with feedback-loop guard |
+| `src/components/Map/CompareModeToggle.tsx` | Compare-mode toggle button (toolbar + default variants) |
 | `src/features/map-state/mapViewReducer.ts` | Shared map view state reducer |
 | `src/features/boundaries/boundaryLayerRegistry.ts` | Vector/GeoJSON source and layer registry |
 | `src/features/boundaries/BoundaryLayers.tsx` | Boundary source/layer registration and visibility sync |

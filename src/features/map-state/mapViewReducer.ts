@@ -1,7 +1,15 @@
-import type { MapViewAction, MapViewState } from './mapViewTypes';
+import {
+  clampCompareDivider,
+  COMPARE_DIVIDER_DEFAULT,
+  COMPARE_MODE_DEFAULT,
+  type MapViewAction,
+  type MapViewState,
+} from './mapViewTypes';
 
 export const initialMapViewState: MapViewState = {
   mode: 'pre',
+  compareMode: COMPARE_MODE_DEFAULT,
+  compareDividerX: COMPARE_DIVIDER_DEFAULT,
   selectedFeature: null,
   layers: {
     // Nested boundaries (districts/wards) are visible by default in production.
@@ -26,6 +34,26 @@ export function mapViewReducer(state: MapViewState, action: MapViewAction): MapV
           ...state.panels,
           detail: state.selectedFeature?.mode === action.mode ? state.panels.detail : false,
         },
+      };
+    case 'setCompareMode':
+      // Switching to swipe mode keeps the current single-map mode as the user's
+      // last toggle choice, so flipping back to toggle restores it.
+      // Selection is cleared when leaving toggle mode because the detail panel
+      // is intentionally suppressed in swipe mode and a stale selection would
+      // re-open it on return.
+      return {
+        ...state,
+        compareMode: action.compareMode,
+        selectedFeature: action.compareMode === 'toggle' ? state.selectedFeature : null,
+        panels: {
+          ...state.panels,
+          detail: action.compareMode === 'toggle' ? state.panels.detail : false,
+        },
+      };
+    case 'setCompareDividerX':
+      return {
+        ...state,
+        compareDividerX: clampCompareDivider(action.dividerX),
       };
     case 'setNestedCandidatesVisible':
       return {

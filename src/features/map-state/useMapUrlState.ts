@@ -47,6 +47,27 @@ export function useMapUrlState({
         ? findProvinceBySlug(entries, urlMode, parsedState.provinceSlug)
         : null;
 
+    if (parsedState.compareMode) {
+      dispatch({ compareMode: parsedState.compareMode, type: 'setCompareMode' });
+    }
+
+    if (parsedState.compareDividerX !== null) {
+      dispatch({ dividerX: parsedState.compareDividerX, type: 'setCompareDividerX' });
+    }
+
+    // In swipe mode the user's selection-on-load is intentionally cleared by
+    // the reducer; skip reapplying province/nested URL params so we don't
+    // reopen the detail panel that swipe suppresses.
+    if (parsedState.compareMode === 'swipe') {
+      if (urlMode) {
+        dispatch({ mode: urlMode, type: 'setMode' });
+      }
+
+      restoredRef.current = true;
+      setIsRestored(true);
+      return;
+    }
+
     if (selectedNested) {
       dispatch({
         feature: {

@@ -47,3 +47,11 @@ body {
 .viettrace-map-shell .maplibregl-ctrl-bottom-left {
   bottom: var(--map-control-bottom-offset);
 }
+
+/* On phones the navigation control (zoom/compass) crowds the small viewport;
+   pinch-zoom replaces the buttons. Keep it for tablet and up. */
+@media (max-width: 639px) {
+  .viettrace-map-shell .maplibregl-ctrl-bottom-right .maplibregl-ctrl-group {
+    display: none;
+  }
+}
