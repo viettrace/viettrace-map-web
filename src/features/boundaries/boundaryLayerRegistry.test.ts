@@ -74,14 +74,14 @@ describe('boundaryLayerRegistry', () => {
     )?.layer as maplibregl.SymbolLayerSpecification | undefined;
 
     expect(capitalMarker?.filter).toEqual(['==', ['get', 'is_capital'], true]);
-    expect(capitalMarker?.minzoom).toBe(4.35);
+    expect(capitalMarker?.minzoom).toBe(4.0);
     expect(capitalMarker?.layout?.['icon-image']).toBe('national-capital-star');
     expect(capitalMarker?.layout?.['icon-offset']).toEqual([0, -13]);
     expect(capitalMarker?.layout?.['icon-size']).toEqual([
       'interpolate',
       ['linear'],
       ['zoom'],
-      4.35,
+      4.0,
       1.1,
       7,
       1.3,
@@ -90,9 +90,9 @@ describe('boundaryLayerRegistry', () => {
       'interpolate',
       ['linear'],
       ['zoom'],
-      4.35,
+      4.0,
       0,
-      4.75,
+      4.5,
       1,
     ]);
 
@@ -101,7 +101,7 @@ describe('boundaryLayerRegistry', () => {
     )?.layer as maplibregl.SymbolLayerSpecification | undefined;
 
     expect(capitalLabel?.filter).toEqual(['==', ['get', 'is_capital'], true]);
-    expect(capitalLabel?.minzoom).toBe(4.35);
+    expect(capitalLabel?.minzoom).toBe(4.0);
     expect(capitalLabel?.layout?.['text-allow-overlap']).toBe(true);
     expect(capitalLabel?.layout?.['text-field']).toEqual(['get', 'name_en']);
   });
@@ -126,14 +126,14 @@ describe('boundaryLayerRegistry', () => {
       ['!=', ['get', 'is_capital'], true],
       ['!=', ['get', 'is_city'], true],
     ]);
-    expect(preLabel?.minzoom).toBe(5.25);
+    expect(preLabel?.minzoom).toBe(4.75);
     expect(preLabel?.paint?.['text-opacity']).toEqual([
       'interpolate',
       ['linear'],
       ['zoom'],
-      5.25,
+      4.75,
       0,
-      6.05,
+      5.75,
       1,
     ]);
     expect(preCityLabel?.filter).toEqual([
@@ -141,14 +141,14 @@ describe('boundaryLayerRegistry', () => {
       ['==', ['get', 'is_city'], true],
       ['!=', ['get', 'is_capital'], true],
     ]);
-    expect(preCityLabel?.minzoom).toBe(4.35);
+    expect(preCityLabel?.minzoom).toBe(4.0);
     expect(preCityLabel?.paint?.['text-opacity']).toEqual([
       'interpolate',
       ['linear'],
       ['zoom'],
-      4.35,
+      4.0,
       0,
-      5,
+      4.75,
       1,
     ]);
     expect(postLabel?.filter).toEqual([
@@ -156,14 +156,14 @@ describe('boundaryLayerRegistry', () => {
       ['!=', ['get', 'is_capital'], true],
       ['!=', ['get', 'is_city'], true],
     ]);
-    expect(postLabel?.minzoom).toBe(5.05);
+    expect(postLabel?.minzoom).toBe(4.5);
     expect(postLabel?.paint?.['text-opacity']).toEqual([
       'interpolate',
       ['linear'],
       ['zoom'],
-      5.05,
+      4.5,
       0,
-      5.8,
+      5.5,
       1,
     ]);
     expect(postCityLabel?.filter).toEqual([
@@ -171,14 +171,14 @@ describe('boundaryLayerRegistry', () => {
       ['==', ['get', 'is_city'], true],
       ['!=', ['get', 'is_capital'], true],
     ]);
-    expect(postCityLabel?.minzoom).toBe(4.35);
+    expect(postCityLabel?.minzoom).toBe(4.0);
     expect(postCityLabel?.paint?.['text-opacity']).toEqual([
       'interpolate',
       ['linear'],
       ['zoom'],
-      4.35,
+      4.0,
       0,
-      5,
+      4.75,
       1,
     ]);
     expect(islandLabel?.minzoom).toBe(5.25);
@@ -255,7 +255,7 @@ describe('boundaryLayerRegistry', () => {
 
     expect(postCandidateLabel?.source).toBe(boundarySourceIds.postWardsCandidateLabels);
     expect(postCandidateLabel?.['source-layer']).toBe('vn_wards_post_2025_candidate_labels');
-    expect(postCandidateLabel?.minzoom).toBe(9.75);
+    expect(postCandidateLabel?.minzoom).toBe(9.0);
     expect(
       getBoundaryLayerGroups({
         includePostWardCandidates: true,
