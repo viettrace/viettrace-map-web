@@ -151,6 +151,8 @@ Production tile URL bases:
 NEXT_PUBLIC_TILE_URL_PRE=https://tiles.viettrace.org/tiles/vn_provinces_pre_2025
 NEXT_PUBLIC_TILE_URL_POST=https://tiles.viettrace.org/tiles/vn_provinces_post_2025
 NEXT_PUBLIC_TILE_URL_ISLANDS=https://tiles.viettrace.org/tiles/vn_offshore_islands
+NEXT_PUBLIC_PMTILES_URL_PRE_DISTRICTS_CANDIDATE=https://nested-tiles.viettrace.org/nested/vn_districts_pre_2025_candidate.pmtiles
+NEXT_PUBLIC_PMTILES_URL_POST_WARDS_CANDIDATE=https://nested-tiles.viettrace.org/nested/vn_wards_post_2025_candidate.pmtiles
 NEXT_PUBLIC_TILE_CACHE_BUSTER=20260509-display
 ```
 
@@ -158,7 +160,8 @@ Rules:
 
 - Never hardcode tile URLs in source code.
 - Use `process.env.NEXT_PUBLIC_*` for browser-visible configuration.
-- Treat candidate nested-boundary URLs as local/QA-only; leave them unset in production unless Phase 4 explicitly promotes them.
+- `NEXT_PUBLIC_PMTILES_URL_*_CANDIDATE` are public production sources for nested district/ward layers, served from Cloudflare R2. They take priority over Martin candidate URLs for polygon sources.
+- `NEXT_PUBLIC_TILE_URL_*_CANDIDATE` (Martin dynamic) and `_CANDIDATE_LABELS` remain local/QA-only behind `NEXT_PUBLIC_ENABLE_QA_LAYERS`.
 - `NEXT_PUBLIC_ENABLE_QA_LAYERS` defaults to disabled behavior; set it to `true` only for local QA sessions. Leave it unset or `false` in production.
 - Candidate nested-boundary labels should use the `_candidate_labels` point tile endpoints, not polygon candidate tile sources.
 - Bump `NEXT_PUBLIC_TILE_CACHE_BUSTER` after tile data changes when browser/CDN caches may still hold stale MVTs.
@@ -184,9 +187,9 @@ Rules:
 | Pre-2025 | `vn-provinces-pre` | `vn_provinces_pre_2025` | `#d44` opacity `0.1` | `#d44` width `1.5` |
 | Post-2025 | `vn-provinces-post` | `vn_provinces_post_2025` | `#3388ff` opacity `0.1` | `#3388ff` width `1.5` |
 | Offshore islands | `vn-offshore-islands` | `vn_offshore_islands` | teal reference fill/outline | optional toggle layer |
-| Pre-2025 district candidates | `vn-districts-pre-2025-candidate` | `vn_districts_pre_2025_candidate` | amber QA overlay | local/QA toggle only |
+| Pre-2025 districts (production) | `vn-districts-pre-2025-candidate` | `vn_districts_pre_2025_candidate` | red `#d44` opacity `0.04` | red `#b91c1c`, served as PMTiles, visible from zoom 7 |
 | Pre-2025 district candidate labels | `vn-districts-pre-2025-candidate-labels` | `vn_districts_pre_2025_candidate_labels` | one point label per feature | local/QA toggle only |
-| Post-2025 ward candidates | `vn-wards-post-2025-candidate` | `vn_wards_post_2025_candidate` | violet QA overlay | local/QA toggle only |
+| Post-2025 wards (production) | `vn-wards-post-2025-candidate` | `vn_wards_post_2025_candidate` | blue `#3388ff` opacity `0.03` | blue `#1d4ed8`, served as PMTiles, visible from zoom 8 |
 | Post-2025 ward candidate labels | `vn-wards-post-2025-candidate-labels` | `vn_wards_post_2025_candidate_labels` | one point label per feature | local/QA toggle only |
 
 ---

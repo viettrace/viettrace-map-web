@@ -255,7 +255,7 @@ describe('boundaryLayerRegistry', () => {
 
     expect(postCandidateLabel?.source).toBe(boundarySourceIds.postWardsCandidateLabels);
     expect(postCandidateLabel?.['source-layer']).toBe('vn_wards_post_2025_candidate_labels');
-    expect(postCandidateLabel?.minzoom).toBe(10.75);
+    expect(postCandidateLabel?.minzoom).toBe(9.75);
     expect(
       getBoundaryLayerGroups({
         includePostWardCandidates: true,

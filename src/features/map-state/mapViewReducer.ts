@@ -4,7 +4,9 @@ export const initialMapViewState: MapViewState = {
   mode: 'pre',
   selectedFeature: null,
   layers: {
-    nestedCandidates: false,
+    // Nested boundaries (districts/wards) are visible by default in production.
+    // Layer-level minzoom keeps them hidden at low zoom levels automatically.
+    nestedCandidates: true,
     offshoreIslands: true,
   },
   panels: {

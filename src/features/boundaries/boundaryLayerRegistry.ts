@@ -65,16 +65,16 @@ const labelZoomStops = {
     min: 5.25,
   },
   postWardCandidates: {
-    full: 11.35,
-    min: 10.75,
+    full: 10.75,
+    min: 9.75,
   },
   postProvinces: {
     full: 5.8,
     min: 5.05,
   },
   preDistrictCandidates: {
-    full: 9.35,
-    min: 8.75,
+    full: 8.75,
+    min: 7.75,
   },
   preProvinces: {
     full: 6.05,
@@ -449,6 +449,7 @@ function getProvinceLayerDefinitions(
           'text-size': zoomRamp(labelZoomStops.preProvinces.min, 11.5, 7, 13),
           visibility: preVisible ? 'visible' : 'none',
         },
+        maxzoom: 12,
         minzoom: labelZoomStops.preProvinces.min,
         paint: {
           'text-color': '#d44',
@@ -478,6 +479,7 @@ function getProvinceLayerDefinitions(
           'text-size': zoomRamp(labelZoomStops.cityLabels.min, 11.5, 7, 13.5),
           visibility: preVisible ? 'visible' : 'none',
         },
+        maxzoom: 12,
         minzoom: labelZoomStops.cityLabels.min,
         paint: {
           'text-color': '#dc2626',
@@ -508,6 +510,7 @@ function getProvinceLayerDefinitions(
           'icon-size': zoomRamp(labelZoomStops.nationalCapital.min, 1.1, 7, 1.3),
           visibility: preVisible ? 'visible' : 'none',
         },
+        maxzoom: 12,
         minzoom: labelZoomStops.nationalCapital.min,
         paint: {
           'icon-opacity': zoomRamp(
@@ -535,6 +538,7 @@ function getProvinceLayerDefinitions(
           'text-size': zoomRamp(labelZoomStops.nationalCapital.min, 13, 7, 15),
           visibility: preVisible ? 'visible' : 'none',
         },
+        maxzoom: 12,
         minzoom: labelZoomStops.nationalCapital.min,
         paint: {
           'text-color': '#b45309',
@@ -564,6 +568,7 @@ function getProvinceLayerDefinitions(
           'text-size': zoomRamp(labelZoomStops.postProvinces.min, 11.5, 7, 13),
           visibility: postVisible ? 'visible' : 'none',
         },
+        maxzoom: 12,
         minzoom: labelZoomStops.postProvinces.min,
         paint: {
           'text-color': '#2563eb',
@@ -593,6 +598,7 @@ function getProvinceLayerDefinitions(
           'text-size': zoomRamp(labelZoomStops.cityLabels.min, 11.5, 7, 13.5),
           visibility: postVisible ? 'visible' : 'none',
         },
+        maxzoom: 12,
         minzoom: labelZoomStops.cityLabels.min,
         paint: {
           'text-color': '#2563eb',
@@ -623,6 +629,7 @@ function getProvinceLayerDefinitions(
           'icon-size': zoomRamp(labelZoomStops.nationalCapital.min, 1.1, 7, 1.3),
           visibility: postVisible ? 'visible' : 'none',
         },
+        maxzoom: 12,
         minzoom: labelZoomStops.nationalCapital.min,
         paint: {
           'icon-opacity': zoomRamp(
@@ -650,6 +657,7 @@ function getProvinceLayerDefinitions(
           'text-size': zoomRamp(labelZoomStops.nationalCapital.min, 13, 7, 15),
           visibility: postVisible ? 'visible' : 'none',
         },
+        maxzoom: 12,
         minzoom: labelZoomStops.nationalCapital.min,
         paint: {
           'text-color': '#b45309',
@@ -674,6 +682,19 @@ function getOffshoreIslandLayerDefinitions(
   state: MapViewState,
 ): BoundaryLayerDefinition[] {
   const islandsVisible = state.layers.offshoreIslands;
+  // Match offshore islands styling and labels with the active mode.
+  const fillColor = state.mode === 'pre' ? '#d44' : '#3388ff';
+  const outlineColor = state.mode === 'pre' ? '#b91c1c' : '#1d4ed8';
+  const labelColor = state.mode === 'pre' ? '#991b1b' : '#1e3a8a';
+  // In post-2025 mode, Hoang Sa and Truong Sa are special administrative zones (Đặc khu).
+  const labelExpression: maplibregl.ExpressionSpecification =
+    state.mode === 'post'
+      ? locale === 'en'
+        ? ['concat', 'Special Zone ', ['get', 'name_short_en']]
+        : ['concat', 'Đặc khu ', ['get', 'name_short_vi']]
+      : locale === 'en'
+        ? ['get', 'name_en']
+        : ['get', 'name_vi'];
 
   return [
     {
@@ -681,7 +702,7 @@ function getOffshoreIslandLayerDefinitions(
       layer: {
         id: boundaryLayerIds.islandsFill,
         layout: { visibility: islandsVisible ? 'visible' : 'none' },
-        paint: { 'fill-color': '#0f766e', 'fill-opacity': 0.16 },
+        paint: { 'fill-color': fillColor, 'fill-opacity': 0.1 },
         source: boundarySourceIds.islands,
         'source-layer': boundarySourceLayers.islands,
         type: 'fill',
@@ -708,7 +729,7 @@ function getOffshoreIslandLayerDefinitions(
         id: boundaryLayerIds.islandsOutline,
         layout: { visibility: islandsVisible ? 'visible' : 'none' },
         paint: {
-          'line-color': '#0f766e',
+          'line-color': outlineColor,
           'line-width': ['interpolate', ['linear'], ['zoom'], 4, 1.5, 7, 2.25],
         },
         source: boundarySourceIds.islands,
@@ -723,14 +744,14 @@ function getOffshoreIslandLayerDefinitions(
         layout: {
           'text-allow-overlap': true,
           'text-anchor': 'center',
-          'text-field': locale === 'en' ? ['get', 'name_en'] : ['get', 'name_vi'],
+          'text-field': labelExpression,
           'text-ignore-placement': true,
           'text-size': zoomRamp(labelZoomStops.offshoreIslands.min, 12, 7, 15),
           visibility: islandsVisible ? 'visible' : 'none',
         },
         minzoom: labelZoomStops.offshoreIslands.min,
         paint: {
-          'text-color': '#0f766e',
+          'text-color': labelColor,
           'text-halo-blur': 0.5,
           'text-halo-color': '#fff',
           'text-halo-width': 2.5,
@@ -772,9 +793,8 @@ function getNestedCandidateLayerDefinitions(
         layer: {
           id: boundaryLayerIds.preDistrictsCandidateFill,
           layout: { visibility: preVisible ? 'visible' : 'none' },
-          maxzoom: 12,
           minzoom: 7,
-          paint: { 'fill-color': '#f59e0b', 'fill-opacity': 0.018 },
+          paint: { 'fill-color': '#d44', 'fill-opacity': 0.04 },
           source: boundarySourceIds.preDistrictsCandidate,
           'source-layer': boundarySourceLayers.preDistrictsCandidate,
           type: 'fill',
@@ -785,10 +805,9 @@ function getNestedCandidateLayerDefinitions(
         layer: {
           id: boundaryLayerIds.preDistrictsCandidateOutline,
           layout: { visibility: preVisible ? 'visible' : 'none' },
-          maxzoom: 12,
           minzoom: 7,
           paint: {
-            'line-color': '#b45309',
+            'line-color': '#b91c1c',
             'line-opacity': zoomRamp(7, 0.35, 8.75, 0.72),
             'line-width': zoomRamp(7, 0.28, 10, 0.78),
           },
@@ -813,15 +832,14 @@ function getNestedCandidateLayerDefinitions(
           'text-ignore-placement': false,
           'text-max-width': 8,
           'text-padding': 4,
-          'text-size': zoomRamp(labelZoomStops.preDistrictCandidates.min, 9.75, 11, 11.25),
+          'text-size': zoomRamp(labelZoomStops.preDistrictCandidates.min, 11, 11, 13),
           visibility: preVisible ? 'visible' : 'none',
         },
-        maxzoom: 12,
         minzoom: labelZoomStops.preDistrictCandidates.min,
         paint: {
-          'text-color': '#92400e',
+          'text-color': '#991b1b',
           'text-halo-color': '#fff',
-          'text-halo-width': 1.45,
+          'text-halo-width': 2,
           'text-opacity': zoomRamp(
             labelZoomStops.preDistrictCandidates.min,
             0,
@@ -843,9 +861,8 @@ function getNestedCandidateLayerDefinitions(
         layer: {
           id: boundaryLayerIds.postWardsCandidateFill,
           layout: { visibility: postVisible ? 'visible' : 'none' },
-          maxzoom: 12,
           minzoom: 8,
-          paint: { 'fill-color': '#8b5cf6', 'fill-opacity': 0.012 },
+          paint: { 'fill-color': '#3388ff', 'fill-opacity': 0.03 },
           source: boundarySourceIds.postWardsCandidate,
           'source-layer': boundarySourceLayers.postWardsCandidate,
           type: 'fill',
@@ -856,10 +873,9 @@ function getNestedCandidateLayerDefinitions(
         layer: {
           id: boundaryLayerIds.postWardsCandidateOutline,
           layout: { visibility: postVisible ? 'visible' : 'none' },
-          maxzoom: 12,
           minzoom: 8,
           paint: {
-            'line-color': '#6d28d9',
+            'line-color': '#1d4ed8',
             'line-opacity': zoomRamp(8, 0.28, 10, 0.68),
             'line-width': zoomRamp(8, 0.22, 11, 0.62),
           },
@@ -884,15 +900,14 @@ function getNestedCandidateLayerDefinitions(
           'text-ignore-placement': false,
           'text-max-width': 7,
           'text-padding': 3,
-          'text-size': zoomRamp(labelZoomStops.postWardCandidates.min, 9, 12, 10.75),
+          'text-size': zoomRamp(labelZoomStops.postWardCandidates.min, 10.5, 12, 12.5),
           visibility: postVisible ? 'visible' : 'none',
         },
-        maxzoom: 12,
         minzoom: labelZoomStops.postWardCandidates.min,
         paint: {
-          'text-color': '#5b21b6',
+          'text-color': '#1e3a8a',
           'text-halo-color': '#fff',
-          'text-halo-width': 1.35,
+          'text-halo-width': 2,
           'text-opacity': zoomRamp(
             labelZoomStops.postWardCandidates.min,
             0,
