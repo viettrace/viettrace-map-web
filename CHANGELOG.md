@@ -1,5 +1,9 @@
 # Changelog
 
+## <small>0.1.7 (2026-05-31)</small>
+
+* Feat/add level 6 boundries layer candidate (#75) ([a6e1184](https://github.com/viettrace/viettrace-map-web/commit/a6e1184)), closes [#75](https://github.com/viettrace/viettrace-map-web/issues/75)
+
 ## <small>0.1.6 (2026-05-30)</small>
 
 * Feat/add level 6 boundries layer candidate (#72) ([52d6f19](https://github.com/viettrace/viettrace-map-web/commit/52d6f19)), closes [#72](https://github.com/viettrace/viettrace-map-web/issues/72)
