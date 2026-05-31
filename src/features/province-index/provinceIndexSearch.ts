@@ -63,7 +63,7 @@ export function findProvinceBySelection(
   entries: ProvinceIndexEntry[],
   selectedFeature: SelectedMapFeature | null,
 ) {
-  if (!selectedFeature) {
+  if (!selectedFeature || selectedFeature.type !== 'province') {
     return null;
   }
 

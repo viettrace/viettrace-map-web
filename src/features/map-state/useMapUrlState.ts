@@ -5,6 +5,8 @@ import { useEffect, useRef, useState } from 'react';
 import type maplibregl from 'maplibre-gl';
 import { findProvinceBySlug } from '@src/features/province-index/provinceIndexSearch';
 import type { ProvinceIndexEntry } from '@src/features/province-index/provinceIndexTypes';
+import { findNestedBySlug } from '@src/features/nested-index/nestedIndexSearch';
+import type { NestedIndexEntry } from '@src/features/nested-index/nestedIndexTypes';
 import { fitBbox } from '@src/libs/maplibre/camera';
 import type { MapViewAction, MapViewState } from './mapViewTypes';
 import { readMapUrlState, writeMapUrlState } from './urlState';
@@ -12,6 +14,7 @@ import { readMapUrlState, writeMapUrlState } from './urlState';
 interface UseMapUrlStateOptions {
   dispatch: Dispatch<MapViewAction>;
   entries: ProvinceIndexEntry[];
+  nestedEntries: NestedIndexEntry[];
   isMapReady: boolean;
   map: maplibregl.Map | null;
   state: MapViewState;
@@ -20,6 +23,7 @@ interface UseMapUrlStateOptions {
 export function useMapUrlState({
   dispatch,
   entries,
+  nestedEntries,
   isMapReady,
   map,
   state,
@@ -34,12 +38,27 @@ export function useMapUrlState({
 
     const parsedState = readMapUrlState(new URLSearchParams(window.location.search));
     const urlMode = parsedState.mode;
+    const selectedNested =
+      urlMode && parsedState.nestedSlug && parsedState.nestedType && nestedEntries.length > 0
+        ? findNestedBySlug(nestedEntries, urlMode, parsedState.nestedType, parsedState.nestedSlug)
+        : null;
     const selectedEntry =
-      urlMode && parsedState.provinceSlug
+      !selectedNested && urlMode && parsedState.provinceSlug
         ? findProvinceBySlug(entries, urlMode, parsedState.provinceSlug)
         : null;
 
-    if (selectedEntry) {
+    if (selectedNested) {
+      dispatch({
+        feature: {
+          featureType: selectedNested.type,
+          mode: selectedNested.mode,
+          slug: selectedNested.slug,
+          type: 'nested',
+        },
+        type: 'selectFeature',
+      });
+      fitBbox(map, selectedNested.bbox, { duration: 0 });
+    } else if (selectedEntry) {
       dispatch({
         feature: {
           mode: selectedEntry.mode,
@@ -55,7 +74,7 @@ export function useMapUrlState({
 
     restoredRef.current = true;
     setIsRestored(true);
-  }, [dispatch, entries, isMapReady, map]);
+  }, [dispatch, entries, isMapReady, map, nestedEntries]);
 
   useEffect(() => {
     if (!isRestored) {

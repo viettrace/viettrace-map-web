@@ -22,7 +22,7 @@ If changing deployment behavior, also read `../viettrace-plans/03-runbooks/front
 
 ## Current State
 
-M2 frontend map MVP, Phase 3 UX utility, and Phase 4B nested-boundaries production are complete. The app currently supports:
+M2 frontend map MVP, Phase 3 UX utility, Phase 4B nested-boundaries production, and Phase 5A nested UX are complete. The app currently supports:
 
 - `/vi/map` and `/en/map` map pages.
 - MapLibre map centered on Vietnam.
@@ -35,6 +35,11 @@ M2 frontend map MVP, Phase 3 UX utility, and Phase 4B nested-boundaries producti
 - Localized province labels from static GeoJSON label files, including city and capital marker flags.
 - Public nested district (pre-2025) and ward (post-2025) boundary layers served as PMTiles from Cloudflare R2.
 - Mode-aligned offshore islands (red in pre, blue in post) with "Đặc khu" prefix labels in post mode.
+- District/ward click popup showing feature name, English name, and parent province.
+- District/ward search/fly-to from a generated static nested index (`public/data/nested-index.json`).
+- Shareable URL state for nested selection via `nested` and `nestedType` query params.
+- Pre-2025 `Huyện Hoàng Sa` is included in the nested index via a research gap-fill (geometry copied from the geoBoundaries Paracel reference) so the district is searchable and clickable in pre mode for parity with the post-2025 `Đặc khu Hoàng Sa`.
+- Search results expose only administrative units; offshore archipelago entries (`Quần đảo Hoàng Sa`, `Quần đảo Trường Sa`) are no longer search results because both modes already expose admin-level entries with the same names. The on-map labels for those archipelagos still render via `BoundaryLayers` reading `/data/offshore-island-labels.json`.
 - App-owned attribution/data-note disclosure with required OSM, CARTO, geoBoundaries, and Viettrace credits.
 - SEO metadata and dynamic Open Graph image.
 - Docker standalone deployment config.
@@ -54,9 +59,11 @@ pnpm build
 pnpm start
 pnpm data:generate-index
 pnpm data:generate-labels
+pnpm data:generate-nested-index
 pnpm data:verify-index
 pnpm data:verify-labels
 pnpm data:verify-mergers
+pnpm data:verify-nested-index
 pnpm knip
 ```
 

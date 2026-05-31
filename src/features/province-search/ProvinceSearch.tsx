@@ -5,19 +5,32 @@ import { useLocale, useTranslations } from 'next-intl';
 import { SearchIcon } from '@src/components/Map/MapChromeIcons';
 import { searchProvinceIndex } from '@src/features/province-index/provinceIndexSearch';
 import type { ProvinceIndexEntry } from '@src/features/province-index/provinceIndexTypes';
+import { searchNestedIndex } from '@src/features/nested-index/nestedIndexSearch';
+import type { NestedIndexEntry } from '@src/features/nested-index/nestedIndexTypes';
+import type { MapMode } from '@src/features/map-state/mapViewTypes';
 
 interface ProvinceSearchProps {
   entries: ProvinceIndexEntry[];
   hasError: boolean;
   isLoading: boolean;
+  mode: MapMode;
   onSelect: (entry: ProvinceIndexEntry) => void;
+  nestedEntries?: NestedIndexEntry[];
+  onSelectNested?: (entry: NestedIndexEntry) => void;
 }
+
+type SearchResult =
+  | { kind: 'province'; entry: ProvinceIndexEntry }
+  | { kind: 'nested'; entry: NestedIndexEntry };
 
 export default function ProvinceSearch({
   entries,
   hasError,
   isLoading,
+  mode,
   onSelect,
+  nestedEntries = [],
+  onSelectNested,
 }: ProvinceSearchProps) {
   const t = useTranslations('Map');
   const locale = useLocale();
@@ -27,7 +40,22 @@ export default function ProvinceSearch({
   const [isExpanded, setIsExpanded] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
   const [query, setQuery] = useState('');
-  const results = searchProvinceIndex(entries, query, { locale });
+  const scopedProvinceEntries = entries.filter(entry => entry.mode === mode);
+  const scopedNestedEntries = nestedEntries.filter(entry => entry.mode === mode);
+  const provinceResults = searchProvinceIndex(scopedProvinceEntries, query, { locale });
+  const nestedResults =
+    onSelectNested && scopedNestedEntries.length > 0
+      ? searchNestedIndex(scopedNestedEntries, query, { locale })
+      : [];
+  const results: SearchResult[] = [
+    ...provinceResults.map(entry => ({ kind: 'province' as const, entry })),
+    ...nestedResults.map(entry => ({ kind: 'nested' as const, entry })),
+  ];
+
+  // Reset highlight when mode flips so the first item is selected.
+  useEffect(() => {
+    setActiveIndex(0);
+  }, [mode]);
   const showResults = isOpen && query.trim().length > 0;
 
   useEffect(() => {
@@ -36,12 +64,17 @@ export default function ProvinceSearch({
     }
   }, [isExpanded]);
 
-  function selectEntry(entry: ProvinceIndexEntry) {
-    setQuery(getProvinceResultName(entry, locale));
+  function selectResult(result: SearchResult) {
+    setQuery(getResultPrimaryName(result, locale));
     setIsExpanded(false);
     setIsOpen(false);
     setActiveIndex(0);
-    onSelect(entry);
+
+    if (result.kind === 'province') {
+      onSelect(result.entry);
+    } else if (result.kind === 'nested' && onSelectNested) {
+      onSelectNested(result.entry);
+    }
   }
 
   function handleKeyDown(event: React.KeyboardEvent<HTMLInputElement>) {
@@ -74,10 +107,10 @@ export default function ProvinceSearch({
 
     if (event.key === 'Enter') {
       event.preventDefault();
-      const entry = results[activeIndex];
+      const result = results[activeIndex];
 
-      if (entry) {
-        selectEntry(entry);
+      if (result) {
+        selectResult(result);
       }
 
       return;
@@ -108,7 +141,7 @@ export default function ProvinceSearch({
           <label className="sr-only" htmlFor="province-search">
             {t('searchLabel')}
           </label>
-          <SearchIcon className="pointer-events-none absolute top-1/2 left-3 h-4 w-4 -translate-y-1/2 text-slate-400" />
+          <SearchIcon className="pointer-events-none absolute top-1/2 left-3 z-10 h-4 w-4 -translate-y-1/2 text-slate-500" />
           <input
             ref={inputRef}
             id="province-search"
@@ -133,7 +166,7 @@ export default function ProvinceSearch({
             aria-autocomplete="list"
             aria-controls={listboxId}
             aria-expanded={showResults}
-            className="h-11 w-full rounded-lg border border-slate-200 bg-white/95 px-10 text-sm text-slate-950 shadow-lg backdrop-blur-sm transition-colors outline-none placeholder:text-slate-400 focus:border-slate-400 focus:ring-2 focus:ring-slate-300 disabled:cursor-not-allowed disabled:bg-slate-100 disabled:text-slate-500 sm:h-11"
+            className="h-11 w-full rounded-lg border border-slate-200 bg-white/95 px-10 text-sm text-slate-950 shadow-lg backdrop-blur-sm transition-colors outline-none placeholder:text-slate-400 focus:border-slate-400 focus:ring-2 focus:ring-slate-300 disabled:cursor-not-allowed disabled:bg-slate-100 disabled:text-slate-500 sm:h-11 [&::-webkit-search-cancel-button]:appearance-none [&::-webkit-search-decoration]:appearance-none"
           />
 
           {(query || isExpanded) && (
@@ -168,14 +201,14 @@ export default function ProvinceSearch({
               className="absolute mt-2 max-h-[45dvh] w-full overflow-y-auto rounded-lg border border-slate-200 bg-white/95 py-1 text-sm shadow-xl backdrop-blur sm:max-h-80"
             >
               {results.length > 0 ? (
-                results.map((entry, index) => (
+                results.map((result, index) => (
                   <button
-                    key={entry.id}
+                    key={result.entry.id}
                     type="button"
                     role="option"
                     aria-selected={index === activeIndex}
                     onMouseDown={event => event.preventDefault()}
-                    onClick={() => selectEntry(entry)}
+                    onClick={() => selectResult(result)}
                     onMouseEnter={() => setActiveIndex(index)}
                     className={`flex w-full items-center justify-between gap-3 px-3 py-2 text-left transition-colors ${
                       index === activeIndex ? 'bg-slate-100' : 'hover:bg-slate-50'
@@ -183,18 +216,16 @@ export default function ProvinceSearch({
                   >
                     <span className="min-w-0">
                       <span className="block truncate font-medium text-slate-950">
-                        {getProvinceResultName(entry, locale)}
+                        {getResultPrimaryName(result, locale)}
                       </span>
                       <span className="block truncate text-xs text-slate-500">
-                        {getProvinceSecondaryName(entry, locale)}
+                        {getResultSecondaryName(result, locale, t)}
                       </span>
                     </span>
                     <span
-                      className={`shrink-0 rounded-full px-2 py-0.5 text-xs font-medium ${
-                        entry.mode === 'pre' ? 'bg-red-50 text-red-700' : 'bg-blue-50 text-blue-700'
-                      }`}
+                      className={`shrink-0 rounded-full px-2 py-0.5 text-xs font-medium ${getResultBadgeClass(result)}`}
                     >
-                      {entry.mode === 'pre' ? t('searchResultPre') : t('searchResultPost')}
+                      {getResultBadge(result, t)}
                     </span>
                   </button>
                 ))
@@ -221,4 +252,50 @@ function getProvinceResultName(entry: ProvinceIndexEntry, locale: string) {
 
 function getProvinceSecondaryName(entry: ProvinceIndexEntry, locale: string) {
   return locale === 'en' ? entry.name : entry.name_en;
+}
+
+function getNestedResultName(entry: NestedIndexEntry, locale: string) {
+  return locale === 'en' && entry.name_en ? entry.name_en : entry.name;
+}
+
+function getResultPrimaryName(result: SearchResult, locale: string) {
+  if (result.kind === 'province') return getProvinceResultName(result.entry, locale);
+  return getNestedResultName(result.entry, locale);
+}
+
+function getResultSecondaryName(
+  result: SearchResult,
+  locale: string,
+  t: ReturnType<typeof useTranslations<'Map'>>,
+) {
+  if (result.kind === 'province') return getProvinceSecondaryName(result.entry, locale);
+  return getNestedSecondaryName(result.entry, t);
+}
+
+function getResultBadgeClass(result: SearchResult) {
+  return result.entry.mode === 'pre' ? 'bg-red-50 text-red-700' : 'bg-blue-50 text-blue-700';
+}
+
+function getNestedSecondaryName(
+  entry: NestedIndexEntry,
+  t: ReturnType<typeof useTranslations<'Map'>>,
+) {
+  const typeLabel = entry.type === 'district' ? t('nestedTypeDistrict') : t('nestedTypeWard');
+
+  if (entry.parentProvinceName) {
+    return `${typeLabel} · ${entry.parentProvinceName}`;
+  }
+
+  return typeLabel;
+}
+
+function getResultBadge(
+  result: SearchResult,
+  t: ReturnType<typeof useTranslations<'Map'>>,
+) {
+  if (result.kind === 'nested') {
+    return result.entry.type === 'district' ? t('nestedTypeDistrict') : t('nestedTypeWard');
+  }
+
+  return result.entry.mode === 'pre' ? t('searchResultPre') : t('searchResultPost');
 }

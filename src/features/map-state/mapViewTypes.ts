@@ -1,10 +1,19 @@
 export type MapMode = 'pre' | 'post';
 
-export interface SelectedMapFeature {
+interface SelectedProvinceFeature {
   type: 'province';
   mode: MapMode;
   slug: string;
 }
+
+interface SelectedNestedFeature {
+  type: 'nested';
+  featureType: 'district' | 'ward';
+  mode: MapMode;
+  slug: string;
+}
+
+export type SelectedMapFeature = SelectedProvinceFeature | SelectedNestedFeature;
 
 export interface MapViewState {
   mode: MapMode;

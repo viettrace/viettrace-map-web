@@ -51,7 +51,7 @@ const copy = {
       {
         dataset: 'Ranh giới quận/huyện trước 7/2025',
         source: 'OSM-Boundaries, admin level 6, đã chuẩn hóa và gán tỉnh/thành cha',
-        use: 'Lớp 694 quận/huyện hiện qua zoom 7+. Tile dạng PMTiles tĩnh trên CDN.',
+        use: 'Lớp 695 quận/huyện hiện qua zoom 7+ (694 từ OSM-Boundaries và 1 đơn vị bổ sung Huyện Hoàng Sa lấy hình học từ tham chiếu Hoàng Sa của geoBoundaries để đồng bộ với Đặc khu Hoàng Sa sau 7/2025). Tile dạng PMTiles tĩnh trên CDN.',
       },
       {
         dataset: 'Ranh giới phường/xã/đặc khu sau 7/2025',
@@ -74,6 +74,7 @@ const copy = {
       'Hoàng Sa không có geometry admin-level-4 phù hợp trong export OSM-Boundaries hiện tại, nên đang dùng lớp tham chiếu riêng từ geoBoundaries ADM2.',
       'Ranh giới Trường Sa trong dữ liệu OSM-derived của Khánh Hòa được loại khỏi lớp hiển thị để tránh chồng lấn, nhưng dữ liệu gốc vẫn được giữ để audit.',
       'Phiên bản phường/xã sau 7/2025 đã đối chiếu với danh sách 3.321 đơn vị chính thức; 3 đơn vị (Đặc khu Hoàng Sa, Phường Quảng Trị, Xã Lục Hồn) được xây bổ sung từ nguồn nghiên cứu để đạt đủ số đơn vị.',
+      'Huyện Hoàng Sa không có geometry admin-level-6 trong export OSM-Boundaries hiện tại, nên được bổ sung từ tham chiếu Hoàng Sa của geoBoundaries để có thể tìm kiếm và xem chi tiết ở chế độ trước 7/2025; đây là dữ liệu nghiên cứu, không phải đính chính ranh giới.',
       'Nguồn ranh giới phường/xã trước 7/2025 đầy đủ chưa khả dụng. Khi có dữ liệu hoặc đóng góp cộng đồng phù hợp, lớp này sẽ được bổ sung.',
     ],
     updatePolicy:
@@ -115,7 +116,7 @@ const copy = {
       {
         dataset: 'Pre-July-2025 district boundaries',
         source: 'OSM-Boundaries, admin level 6, normalized with parent-province assignment',
-        use: '694 districts visible from zoom 7+. Served as static PMTiles on CDN.',
+        use: '695 districts visible from zoom 7+ (694 from OSM-Boundaries plus 1 research gap-fill, Hoang Sa District, with geometry copied from the geoBoundaries Hoang Sa reference for parity with the post-2025 Hoang Sa Special Zone). Served as static PMTiles on CDN.',
       },
       {
         dataset: 'Post-July-2025 ward/commune/special-zone boundaries',
@@ -138,6 +139,7 @@ const copy = {
       'Hoang Sa does not have suitable admin-level-4 geometry in the current OSM-Boundaries export, so Viettrace uses a separate geoBoundaries ADM2 reference layer.',
       'Truong Sa geometry from the OSM-derived Khanh Hoa province feature is removed from the display layer to avoid overlap, while the original source data is preserved for audit.',
       'The post-2025 ward dataset is reconciled against the official 3,321-unit list; 3 units (Hoang Sa Special Zone, Quang Tri Ward, Luc Hong Commune) are research gap-fills constructed from related source geometries to reach the official count.',
+      'Pre-2025 Hoang Sa District has no admin-level-6 geometry in the current OSM-Boundaries export, so a research gap-fill copies the geoBoundaries Hoang Sa reference geometry to make the district searchable and selectable in pre mode. This is a UX parity decision, not a boundary correction.',
       'A complete pre-2025 commune/ward source is not yet available. The layer will be added when a suitable source or community contribution becomes available.',
     ],
     updatePolicy:
