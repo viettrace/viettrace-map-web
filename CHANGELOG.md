@@ -1,5 +1,9 @@
 # Changelog
 
+## <small>0.1.10 (2026-05-31)</small>
+
+* feat: implement compare mode (#79) ([5d8e464](https://github.com/viettrace/viettrace-map-web/commit/5d8e464)), closes [#79](https://github.com/viettrace/viettrace-map-web/issues/79)
+
 ## <small>0.1.9 (2026-05-31)</small>
 
 * Feat/improve nested ux (#78) ([d688506](https://github.com/viettrace/viettrace-map-web/commit/d688506)), closes [#78](https://github.com/viettrace/viettrace-map-web/issues/78)
