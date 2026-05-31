@@ -6,6 +6,7 @@ import type maplibregl from 'maplibre-gl';
 import MapAttribution from '@src/components/Map/MapAttribution';
 import MapSettingsPanel from '@src/components/Map/MapSettingsPanel';
 import MapDataNotice from '@src/components/Map/MapDataNotice';
+import { clearHighlight, highlightFeature } from '@src/features/boundaries/featureHighlight';
 import CompareMapShell from '@src/features/compare/CompareMapShell';
 import { initialMapViewState, mapViewReducer } from '@src/features/map-state/mapViewReducer';
 import type { CompareMode } from '@src/features/map-state/mapViewTypes';
@@ -21,6 +22,29 @@ import SingleMapShell from './SingleMapShell';
 
 const DEFAULT_CENTER: [number, number] = [105.8, 21.0];
 const DEFAULT_ZOOM = 5;
+
+/**
+ * On mobile the detail panel covers ~42dvh from the bottom, so a fly-to that
+ * lands the feature in the middle of the viewport hides the highlight behind
+ * the panel. We push the bottom padding up so the highlight stays in the
+ * visible top half of the map. Desktop layout keeps the panel on the right
+ * side and uses the default symmetric padding.
+ */
+function getDetailPanelFitPadding() {
+  if (typeof window === 'undefined') {
+    return {};
+  }
+
+  const isMobile = window.matchMedia('(max-width: 767px)').matches;
+
+  if (!isMobile) {
+    return {};
+  }
+
+  const panelHeight = Math.round(window.innerHeight * 0.42);
+
+  return { bottomPadding: panelHeight + 32, topPadding: 64 };
+}
 
 export default function MapShell() {
   const [state, dispatch] = useReducer(mapViewReducer, initialMapViewState);
@@ -73,7 +97,21 @@ export default function MapShell() {
       // CompareMapShell drives fly-to from its own `selectedFeature` effect, so
       // we only fit here when a single map is active.
       if (singleMap && options.fit !== false) {
-        fitBbox(singleMap, entry.bbox);
+        fitBbox(singleMap, entry.bbox, getDetailPanelFitPadding());
+
+        // Search-driven selection also gets a temporary highlight (centered
+        // dot + bold label) so the user can see exactly which province was
+        // chosen even at modest zoom levels where the basemap label has not
+        // faded in yet.
+        highlightFeature({
+          map: singleMap,
+          center: [entry.center[0], entry.center[1]],
+          label: entry.name,
+          color: entry.mode === 'pre' ? '#dc2626' : '#1d4ed8',
+          mode: entry.mode,
+          featureName: entry.name,
+          featureType: 'province',
+        });
       }
     },
     [singleMap],
@@ -99,7 +137,17 @@ export default function MapShell() {
       });
 
       if (singleMap && options.fit !== false) {
-        fitBbox(singleMap, entry.bbox);
+        fitBbox(singleMap, entry.bbox, getDetailPanelFitPadding());
+
+        highlightFeature({
+          map: singleMap,
+          center: [entry.center[0], entry.center[1]],
+          label: entry.name,
+          color: entry.mode === 'pre' ? '#dc2626' : '#1d4ed8',
+          mode: entry.mode,
+          featureName: entry.name,
+          featureType: entry.type,
+        });
       }
     },
     [singleMap],
@@ -111,6 +159,20 @@ export default function MapShell() {
     },
     [selectNested],
   );
+
+  // Clear the search highlight when the detail panel closes (or selection is
+  // cleared by switching mode/compare). The highlight is purely a wayfinding
+  // aid for the search flow; once the user dismisses the detail panel we
+  // expect the map to look normal again.
+  useEffect(() => {
+    if (!singleMap) {
+      return;
+    }
+
+    if (!state.panels.detail || !state.selectedFeature) {
+      clearHighlight(singleMap);
+    }
+  }, [singleMap, state.panels.detail, state.selectedFeature]);
 
   // Mirror compareMode/dividerX changes to the URL. Province/nested selection
   // is mirrored separately by useMapUrlState inside SingleMapShell, but that

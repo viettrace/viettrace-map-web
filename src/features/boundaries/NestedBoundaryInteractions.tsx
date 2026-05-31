@@ -5,6 +5,7 @@ import type maplibregl from 'maplibre-gl';
 import type { MapMode } from '@src/features/map-state/mapViewTypes';
 import { findNestedByMapFeature } from '@src/features/nested-index/nestedIndexSearch';
 import type { NestedIndexEntry } from '@src/features/nested-index/nestedIndexTypes';
+import { attachLongPressSelection } from './longPressSelection';
 
 const NESTED_HIT_LAYER_BY_MODE: Record<MapMode, { layerId: string; type: 'district' | 'ward' }> = {
   pre: { layerId: 'districts-pre-2025-candidate-fill', type: 'district' },
@@ -31,13 +32,13 @@ export default function NestedBoundaryInteractions({
 
     const { layerId, type } = NESTED_HIT_LAYER_BY_MODE[mode];
 
-    const clickHandler = (event: maplibregl.MapMouseEvent) => {
+    const handlePoint = (point: maplibregl.Point) => {
       if (!map.getLayer(layerId)) {
         return;
       }
 
       try {
-        const features = map.queryRenderedFeatures(event.point, { layers: [layerId] });
+        const features = map.queryRenderedFeatures(point, { layers: [layerId] });
         const feature = features[0];
 
         if (!feature?.properties) {
@@ -47,8 +48,9 @@ export default function NestedBoundaryInteractions({
         const entry = findNestedByMapFeature(entries, mode, type, feature.properties);
 
         if (entry) {
-          // Stop event from also triggering province selection in the same click cycle.
-          event.originalEvent?.stopPropagation();
+          // Province selection runs through the same long-press helper and
+          // already defers to nested via `priorityHitLayerIds`, so we no
+          // longer need to stop propagation on the original event.
           onSelect(entry);
         }
       } catch {
@@ -64,7 +66,7 @@ export default function NestedBoundaryInteractions({
       map.getCanvas().style.cursor = '';
     };
 
-    map.on('click', layerId, clickHandler);
+    const detachLongPress = attachLongPressSelection({ map, onSelect: handlePoint });
 
     if (map.getLayer(layerId)) {
       map.on('mouseenter', layerId, mouseEnterHandler);
@@ -73,7 +75,7 @@ export default function NestedBoundaryInteractions({
 
     return () => {
       try {
-        map.off('click', layerId, clickHandler);
+        detachLongPress();
 
         if (map.getLayer(layerId)) {
           map.off('mouseenter', layerId, mouseEnterHandler);

@@ -6,6 +6,7 @@ import { findProvinceByMapFeature } from '@src/features/province-index/provinceI
 import type { ProvinceIndexEntry } from '@src/features/province-index/provinceIndexTypes';
 import type { MapMode } from '@src/features/map-state/mapViewTypes';
 import { getProvinceHitLayerId } from './boundaryLayerRegistry';
+import { attachLongPressSelection } from './longPressSelection';
 
 interface ProvinceBoundaryInteractionsProps {
   entries: ProvinceIndexEntry[];
@@ -29,7 +30,7 @@ export default function ProvinceBoundaryInteractions({
 
     const layerId = getProvinceHitLayerId(mode);
 
-    const clickHandler = (event: maplibregl.MapMouseEvent) => {
+    const handlePoint = (point: maplibregl.Point) => {
       if (!map.getLayer(layerId)) {
         return;
       }
@@ -39,14 +40,14 @@ export default function ProvinceBoundaryInteractions({
         const priorityLayers = (priorityHitLayerIds ?? []).filter(id => map.getLayer(id));
 
         if (priorityLayers.length > 0) {
-          const priorityHits = map.queryRenderedFeatures(event.point, { layers: priorityLayers });
+          const priorityHits = map.queryRenderedFeatures(point, { layers: priorityLayers });
 
           if (priorityHits.length > 0) {
             return;
           }
         }
 
-        const features = map.queryRenderedFeatures(event.point, { layers: [layerId] });
+        const features = map.queryRenderedFeatures(point, { layers: [layerId] });
         const feature = features[0];
 
         if (!feature?.properties) {
@@ -71,7 +72,7 @@ export default function ProvinceBoundaryInteractions({
       map.getCanvas().style.cursor = '';
     };
 
-    map.on('click', clickHandler);
+    const detachLongPress = attachLongPressSelection({ map, onSelect: handlePoint });
 
     if (map.getLayer(layerId)) {
       map.on('mouseenter', layerId, mouseEnterHandler);
@@ -80,7 +81,7 @@ export default function ProvinceBoundaryInteractions({
 
     return () => {
       try {
-        map.off('click', clickHandler);
+        detachLongPress();
 
         if (map.getLayer(layerId)) {
           map.off('mouseenter', layerId, mouseEnterHandler);

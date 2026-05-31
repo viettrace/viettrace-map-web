@@ -16,7 +16,7 @@ export const boundarySourceIds = {
   preLabels: 'province-labels-pre',
 } as const;
 
-const boundaryLayerIds = {
+export const boundaryLayerIds = {
   islandsFill: 'offshore-islands-fill',
   islandsLabel: 'offshore-islands-label',
   islandsOutline: 'offshore-islands-outline',
@@ -41,7 +41,7 @@ const boundaryLayerIds = {
   preOutline: 'provinces-pre-outline',
 } as const;
 
-const boundarySourceLayers = {
+export const boundarySourceLayers = {
   islands: 'vn_offshore_islands',
   post: 'vn_provinces_post_2025',
   postWardsCandidateLabels: 'vn_wards_post_2025_candidate_labels',
@@ -51,34 +51,34 @@ const boundarySourceLayers = {
   preDistrictsCandidate: 'vn_districts_pre_2025_candidate',
 } as const;
 
-const labelZoomStops = {
+export const labelZoomStops = {
   cityLabels: {
-    full: 5,
-    min: 4.35,
+    full: 4.75,
+    min: 4.0,
   },
   nationalCapital: {
-    full: 4.75,
-    min: 4.35,
+    full: 4.5,
+    min: 4.0,
   },
   offshoreIslands: {
     full: 5.95,
     min: 5.25,
   },
   postWardCandidates: {
-    full: 10.75,
-    min: 9.75,
+    full: 10.0,
+    min: 9.0,
   },
   postProvinces: {
-    full: 5.8,
-    min: 5.05,
+    full: 5.5,
+    min: 4.5,
   },
   preDistrictCandidates: {
-    full: 8.75,
-    min: 7.75,
+    full: 8.0,
+    min: 7.0,
   },
   preProvinces: {
-    full: 6.05,
-    min: 5.25,
+    full: 5.75,
+    min: 4.75,
   },
 } as const;
 
@@ -494,7 +494,7 @@ function getProvinceLayerDefinitions(
           'text-anchor': 'center',
           'text-field': ['get', labelField],
           'text-ignore-placement': false,
-          'text-size': zoomRamp(labelZoomStops.preProvinces.min, 11.5, 7, 13),
+          'text-size': zoomRamp(labelZoomStops.preProvinces.min, 12.5, 7, 14),
           visibility: preVisible ? 'visible' : 'none',
         },
         maxzoom: 12,
@@ -524,7 +524,7 @@ function getProvinceLayerDefinitions(
           'text-anchor': 'center',
           'text-field': ['get', labelField],
           'text-ignore-placement': true,
-          'text-size': zoomRamp(labelZoomStops.cityLabels.min, 11.5, 7, 13.5),
+          'text-size': zoomRamp(labelZoomStops.cityLabels.min, 12.5, 7, 14.5),
           visibility: preVisible ? 'visible' : 'none',
         },
         maxzoom: 12,
@@ -583,7 +583,7 @@ function getProvinceLayerDefinitions(
           'text-field': ['get', labelField],
           'text-ignore-placement': true,
           'text-offset': [0, 1.1],
-          'text-size': zoomRamp(labelZoomStops.nationalCapital.min, 13, 7, 15),
+          'text-size': zoomRamp(labelZoomStops.nationalCapital.min, 14, 7, 16),
           visibility: preVisible ? 'visible' : 'none',
         },
         maxzoom: 12,
@@ -613,7 +613,7 @@ function getProvinceLayerDefinitions(
           'text-anchor': 'center',
           'text-field': ['get', labelField],
           'text-ignore-placement': false,
-          'text-size': zoomRamp(labelZoomStops.postProvinces.min, 11.5, 7, 13),
+          'text-size': zoomRamp(labelZoomStops.postProvinces.min, 12.5, 7, 14),
           visibility: postVisible ? 'visible' : 'none',
         },
         maxzoom: 12,
@@ -643,7 +643,7 @@ function getProvinceLayerDefinitions(
           'text-anchor': 'center',
           'text-field': ['get', labelField],
           'text-ignore-placement': true,
-          'text-size': zoomRamp(labelZoomStops.cityLabels.min, 11.5, 7, 13.5),
+          'text-size': zoomRamp(labelZoomStops.cityLabels.min, 12.5, 7, 14.5),
           visibility: postVisible ? 'visible' : 'none',
         },
         maxzoom: 12,
@@ -702,7 +702,7 @@ function getProvinceLayerDefinitions(
           'text-field': ['get', labelField],
           'text-ignore-placement': true,
           'text-offset': [0, 1.1],
-          'text-size': zoomRamp(labelZoomStops.nationalCapital.min, 13, 7, 15),
+          'text-size': zoomRamp(labelZoomStops.nationalCapital.min, 14, 7, 16),
           visibility: postVisible ? 'visible' : 'none',
         },
         maxzoom: 12,
