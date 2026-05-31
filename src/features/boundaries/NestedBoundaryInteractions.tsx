@@ -2,32 +2,34 @@
 
 import { useEffect } from 'react';
 import type maplibregl from 'maplibre-gl';
-import { findProvinceByMapFeature } from '@src/features/province-index/provinceIndexSearch';
-import type { ProvinceIndexEntry } from '@src/features/province-index/provinceIndexTypes';
 import type { MapMode } from '@src/features/map-state/mapViewTypes';
-import { getProvinceHitLayerId } from './boundaryLayerRegistry';
+import { findNestedByMapFeature } from '@src/features/nested-index/nestedIndexSearch';
+import type { NestedIndexEntry } from '@src/features/nested-index/nestedIndexTypes';
 
-interface ProvinceBoundaryInteractionsProps {
-  entries: ProvinceIndexEntry[];
+const NESTED_HIT_LAYER_BY_MODE: Record<MapMode, { layerId: string; type: 'district' | 'ward' }> = {
+  pre: { layerId: 'districts-pre-2025-candidate-fill', type: 'district' },
+  post: { layerId: 'wards-post-2025-candidate-fill', type: 'ward' },
+};
+
+interface NestedBoundaryInteractionsProps {
+  entries: NestedIndexEntry[];
   map: maplibregl.Map | null;
   mode: MapMode;
-  onSelect: (entry: ProvinceIndexEntry) => void;
-  priorityHitLayerIds?: string[];
+  onSelect: (entry: NestedIndexEntry) => void;
 }
 
-export default function ProvinceBoundaryInteractions({
+export default function NestedBoundaryInteractions({
   entries,
   map,
   mode,
   onSelect,
-  priorityHitLayerIds,
-}: ProvinceBoundaryInteractionsProps) {
+}: NestedBoundaryInteractionsProps) {
   useEffect(() => {
     if (!map || entries.length === 0) {
       return;
     }
 
-    const layerId = getProvinceHitLayerId(mode);
+    const { layerId, type } = NESTED_HIT_LAYER_BY_MODE[mode];
 
     const clickHandler = (event: maplibregl.MapMouseEvent) => {
       if (!map.getLayer(layerId)) {
@@ -35,17 +37,6 @@ export default function ProvinceBoundaryInteractions({
       }
 
       try {
-        // Defer to nested district/ward selection when a nested feature is rendered at the click point.
-        const priorityLayers = (priorityHitLayerIds ?? []).filter(id => map.getLayer(id));
-
-        if (priorityLayers.length > 0) {
-          const priorityHits = map.queryRenderedFeatures(event.point, { layers: priorityLayers });
-
-          if (priorityHits.length > 0) {
-            return;
-          }
-        }
-
         const features = map.queryRenderedFeatures(event.point, { layers: [layerId] });
         const feature = features[0];
 
@@ -53,13 +44,15 @@ export default function ProvinceBoundaryInteractions({
           return;
         }
 
-        const entry = findProvinceByMapFeature(entries, mode, feature.properties);
+        const entry = findNestedByMapFeature(entries, mode, type, feature.properties);
 
         if (entry) {
+          // Stop event from also triggering province selection in the same click cycle.
+          event.originalEvent?.stopPropagation();
           onSelect(entry);
         }
       } catch {
-        // Boundary selection is non-critical; keep the map responsive if a tile feature is malformed.
+        // Nested selection is non-critical; keep the map responsive if a tile feature is malformed.
       }
     };
 
@@ -71,7 +64,7 @@ export default function ProvinceBoundaryInteractions({
       map.getCanvas().style.cursor = '';
     };
 
-    map.on('click', clickHandler);
+    map.on('click', layerId, clickHandler);
 
     if (map.getLayer(layerId)) {
       map.on('mouseenter', layerId, mouseEnterHandler);
@@ -80,7 +73,7 @@ export default function ProvinceBoundaryInteractions({
 
     return () => {
       try {
-        map.off('click', clickHandler);
+        map.off('click', layerId, clickHandler);
 
         if (map.getLayer(layerId)) {
           map.off('mouseenter', layerId, mouseEnterHandler);
@@ -90,7 +83,7 @@ export default function ProvinceBoundaryInteractions({
         // Ignore cleanup errors from MapLibre teardown.
       }
     };
-  }, [entries, map, mode, onSelect, priorityHitLayerIds]);
+  }, [entries, map, mode, onSelect]);
 
   return null;
 }

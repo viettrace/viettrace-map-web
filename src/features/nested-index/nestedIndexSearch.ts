@@ -1,30 +1,32 @@
 import type { MapMode, SelectedMapFeature } from '@src/features/map-state/mapViewTypes';
 import { normalizeAdministrativeName, normalizeSearchText } from '@src/libs/geo/normalize';
-import type { ProvinceIndexEntry } from './provinceIndexTypes';
+import type { NestedFeatureType, NestedIndexEntry } from './nestedIndexTypes';
 
-const DEFAULT_SEARCH_LIMIT = 8;
+const DEFAULT_NESTED_SEARCH_LIMIT = 6;
 
-type ProvinceSearchLocale = 'en' | 'vi';
+type NestedSearchLocale = 'en' | 'vi';
 
-interface ProvinceSearchOptions {
+interface NestedSearchOptions {
   limit?: number;
-  locale?: ProvinceSearchLocale | string;
+  locale?: NestedSearchLocale | string;
+  mode?: MapMode;
 }
 
-interface ScoredProvince {
-  entry: ProvinceIndexEntry;
+interface ScoredNested {
+  entry: NestedIndexEntry;
   score: number;
 }
 
-interface ProvinceFeatureProperties {
+interface NestedFeatureProperties {
   name?: unknown;
   name_en?: unknown;
+  parent_province_name?: unknown;
 }
 
-export function searchProvinceIndex(
-  entries: ProvinceIndexEntry[],
+export function searchNestedIndex(
+  entries: NestedIndexEntry[],
   query: string,
-  options: ProvinceSearchOptions | number = {},
+  options: NestedSearchOptions = {},
 ) {
   const normalizedQuery = normalizeSearchText(query);
 
@@ -32,16 +34,18 @@ export function searchProvinceIndex(
     return [];
   }
 
-  const limit = typeof options === 'number' ? options : (options.limit ?? DEFAULT_SEARCH_LIMIT);
-  const locale = typeof options === 'number' ? 'vi' : normalizeSearchLocale(options.locale);
+  const limit = options.limit ?? DEFAULT_NESTED_SEARCH_LIMIT;
+  const locale = normalizeSearchLocale(options.locale);
+  const modeFilter = options.mode;
   const normalizedAdministrativeQuery = normalizeAdministrativeName(query);
   const queryVariants = uniqueValues([normalizedQuery, normalizedAdministrativeQuery]).filter(
     Boolean,
   );
 
   return entries
-    .map(entry => ({ entry, score: getProvinceSearchScore(entry, queryVariants, locale) }))
-    .filter((result): result is ScoredProvince => result.score > 0)
+    .filter(entry => (modeFilter ? entry.mode === modeFilter : true))
+    .map(entry => ({ entry, score: getNestedSearchScore(entry, queryVariants, locale) }))
+    .filter((result): result is ScoredNested => result.score > 0)
     .sort((a, b) => {
       if (b.score !== a.score) {
         return b.score - a.score;
@@ -59,28 +63,43 @@ export function searchProvinceIndex(
     .map(result => result.entry);
 }
 
-export function findProvinceBySelection(
-  entries: ProvinceIndexEntry[],
+export function findNestedBySlug(
+  entries: NestedIndexEntry[],
+  mode: MapMode,
+  type: NestedFeatureType,
+  slug: string,
+) {
+  return (
+    entries.find(entry => entry.mode === mode && entry.type === type && entry.slug === slug) || null
+  );
+}
+
+export function findNestedBySelection(
+  entries: NestedIndexEntry[],
   selectedFeature: SelectedMapFeature | null,
 ) {
-  if (!selectedFeature || selectedFeature.type !== 'province') {
+  if (!selectedFeature || selectedFeature.type !== 'nested') {
     return null;
   }
 
-  return findProvinceBySlug(entries, selectedFeature.mode, selectedFeature.slug);
+  return findNestedBySlug(
+    entries,
+    selectedFeature.mode,
+    selectedFeature.featureType,
+    selectedFeature.slug,
+  );
 }
 
-export function findProvinceBySlug(entries: ProvinceIndexEntry[], mode: MapMode, slug: string) {
-  return entries.find(entry => entry.mode === mode && entry.slug === slug) || null;
-}
-
-export function findProvinceByMapFeature(
-  entries: ProvinceIndexEntry[],
+export function findNestedByMapFeature(
+  entries: NestedIndexEntry[],
   mode: MapMode,
-  properties: ProvinceFeatureProperties,
+  type: NestedFeatureType,
+  properties: NestedFeatureProperties,
 ) {
   const name = typeof properties.name === 'string' ? properties.name : null;
   const nameEn = typeof properties.name_en === 'string' ? properties.name_en : null;
+  const parent =
+    typeof properties.parent_province_name === 'string' ? properties.parent_province_name : null;
 
   if (!name && !nameEn) {
     return null;
@@ -93,26 +112,42 @@ export function findProvinceByMapFeature(
     nameEn ? normalizeAdministrativeName(nameEn) : '',
   ]).filter(Boolean);
 
-  return (
-    entries.find(entry => {
-      if (entry.mode !== mode) {
-        return false;
-      }
+  const normalizedParent = parent ? normalizeAdministrativeName(parent) : null;
 
-      const aliases = getProvinceSearchAliases(entry, 'vi');
-      return normalizedNames.some(normalizedName =>
-        aliases.some(alias => alias.value === normalizedName),
-      );
-    }) || null
-  );
+  let fallback: NestedIndexEntry | null = null;
+
+  for (const entry of entries) {
+    if (entry.mode !== mode || entry.type !== type) {
+      continue;
+    }
+
+    const aliases = getNestedSearchAliases(entry, 'vi').map(alias => alias.value);
+
+    if (!normalizedNames.some(value => aliases.includes(value))) {
+      continue;
+    }
+
+    if (!fallback) {
+      fallback = entry;
+    }
+
+    if (
+      normalizedParent &&
+      normalizeAdministrativeName(entry.parentProvinceName) === normalizedParent
+    ) {
+      return entry;
+    }
+  }
+
+  return fallback;
 }
 
-function getProvinceSearchScore(
-  entry: ProvinceIndexEntry,
+function getNestedSearchScore(
+  entry: NestedIndexEntry,
   queryVariants: string[],
-  locale: ProvinceSearchLocale,
+  locale: NestedSearchLocale,
 ) {
-  const aliases = getProvinceSearchAliases(entry, locale);
+  const aliases = getNestedSearchAliases(entry, locale);
   const haystack = aliases.map(alias => alias.value).join(' ');
   let bestScore = 0;
 
@@ -146,15 +181,15 @@ function getProvinceSearchScore(
   return bestScore;
 }
 
-function getProvinceSearchAliases(entry: ProvinceIndexEntry, locale: ProvinceSearchLocale) {
-  const preferredName = locale === 'en' ? entry.name_en : entry.name;
+function getNestedSearchAliases(entry: NestedIndexEntry, locale: NestedSearchLocale) {
+  const preferredName = locale === 'en' && entry.name_en ? entry.name_en : entry.name;
   const fallbackName = locale === 'en' ? entry.name : entry.name_en;
 
   return uniqueAliases([
     { priority: 8, value: normalizeSearchText(preferredName) },
     { priority: 8, value: normalizeAdministrativeName(preferredName) },
-    { priority: 2, value: normalizeSearchText(fallbackName) },
-    { priority: 2, value: normalizeAdministrativeName(fallbackName) },
+    { priority: 2, value: fallbackName ? normalizeSearchText(fallbackName) : '' },
+    { priority: 2, value: fallbackName ? normalizeAdministrativeName(fallbackName) : '' },
     { priority: 0, value: normalizeSearchText(entry.slug.replaceAll('-', ' ')) },
   ]);
 }
@@ -181,6 +216,6 @@ function uniqueAliases(aliases: Array<{ priority: number; value: string }>) {
   return [...byValue.values()];
 }
 
-function normalizeSearchLocale(locale: ProvinceSearchOptions['locale']): ProvinceSearchLocale {
+function normalizeSearchLocale(locale: NestedSearchOptions['locale']): NestedSearchLocale {
   return locale === 'en' ? 'en' : 'vi';
 }
