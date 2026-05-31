@@ -22,7 +22,7 @@ If changing deployment behavior, also read `../viettrace-plans/03-runbooks/front
 
 ## Current State
 
-M2 frontend map MVP and Immediate Post-MVP Phase 3 UX utility are complete. The app currently supports:
+M2 frontend map MVP, Phase 3 UX utility, and Phase 4B nested-boundaries production are complete. The app currently supports:
 
 - `/vi/map` and `/en/map` map pages.
 - MapLibre map centered on Vietnam.
@@ -30,9 +30,11 @@ M2 frontend map MVP and Immediate Post-MVP Phase 3 UX utility are complete. The 
 - Province search/fly-to from a generated static province index.
 - Shared selected-province detail panel opened from search or map click.
 - Shareable URL state with `mode` and province slug query params.
-- Responsive map chrome with compact settings/search toggles below desktop widths.
+- Single mode toggle (pre/post). Offshore islands and nested boundaries are always visible, no per-layer toggle.
 - Map language switching between Vietnamese and English routes.
 - Localized province labels from static GeoJSON label files, including city and capital marker flags.
+- Public nested district (pre-2025) and ward (post-2025) boundary layers served as PMTiles from Cloudflare R2.
+- Mode-aligned offshore islands (red in pre, blue in post) with "Đặc khu" prefix labels in post mode.
 - App-owned attribution/data-note disclosure with required OSM, CARTO, geoBoundaries, and Viettrace credits.
 - SEO metadata and dynamic Open Graph image.
 - Docker standalone deployment config.
@@ -153,6 +155,8 @@ NEXT_PUBLIC_TILE_URL_POST=https://tiles.viettrace.org/tiles/vn_provinces_post_20
 NEXT_PUBLIC_TILE_URL_ISLANDS=https://tiles.viettrace.org/tiles/vn_offshore_islands
 NEXT_PUBLIC_PMTILES_URL_PRE_DISTRICTS_CANDIDATE=https://nested-tiles.viettrace.org/nested/vn_districts_pre_2025_candidate.pmtiles
 NEXT_PUBLIC_PMTILES_URL_POST_WARDS_CANDIDATE=https://nested-tiles.viettrace.org/nested/vn_wards_post_2025_candidate.pmtiles
+NEXT_PUBLIC_PMTILES_URL_PRE_DISTRICTS_CANDIDATE_LABELS=https://nested-tiles.viettrace.org/nested/vn_districts_pre_2025_candidate_labels.pmtiles
+NEXT_PUBLIC_PMTILES_URL_POST_WARDS_CANDIDATE_LABELS=https://nested-tiles.viettrace.org/nested/vn_wards_post_2025_candidate_labels.pmtiles
 NEXT_PUBLIC_TILE_CACHE_BUSTER=20260509-display
 ```
 

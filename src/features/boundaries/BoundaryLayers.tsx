@@ -27,7 +27,9 @@ export default function BoundaryLayers({ map, state }: BoundaryLayersProps) {
   const publicEnv = readPublicEnv();
   const {
     enableQaLayers,
+    pmtilesUrlPostWardsCandidateLabels,
     pmtilesUrlPostWardsCandidate,
+    pmtilesUrlPreDistrictsCandidateLabels,
     pmtilesUrlPreDistrictsCandidate,
     tileCacheBuster,
     tileUrlIslands,
@@ -46,11 +48,13 @@ export default function BoundaryLayers({ map, state }: BoundaryLayersProps) {
   const includePostWardCandidates =
     Boolean(pmtilesUrlPostWardsCandidate) ||
     (enableQaLayers && Boolean(tileUrlPostWardsCandidate));
-  // Label candidate sources remain QA-only; no production PMTiles label endpoint yet.
+  // Label sources are public when PMTiles label URLs are set; otherwise gated to QA.
   const includePostWardCandidateLabels =
-    enableQaLayers && Boolean(tileUrlPostWardsCandidateLabels);
+    Boolean(pmtilesUrlPostWardsCandidateLabels) ||
+    (enableQaLayers && Boolean(tileUrlPostWardsCandidateLabels));
   const includePreDistrictCandidateLabels =
-    enableQaLayers && Boolean(tileUrlPreDistrictsCandidateLabels);
+    Boolean(pmtilesUrlPreDistrictsCandidateLabels) ||
+    (enableQaLayers && Boolean(tileUrlPreDistrictsCandidateLabels));
 
   useEffect(() => {
     if (!map) return;
@@ -60,8 +64,14 @@ export default function BoundaryLayers({ map, state }: BoundaryLayersProps) {
 
       const env = {
         ...publicEnv,
+        pmtilesUrlPostWardsCandidateLabels: includePostWardCandidateLabels
+          ? pmtilesUrlPostWardsCandidateLabels
+          : undefined,
         pmtilesUrlPostWardsCandidate: includePostWardCandidates
           ? pmtilesUrlPostWardsCandidate
+          : undefined,
+        pmtilesUrlPreDistrictsCandidateLabels: includePreDistrictCandidateLabels
+          ? pmtilesUrlPreDistrictsCandidateLabels
           : undefined,
         pmtilesUrlPreDistrictsCandidate: includePreDistrictCandidates
           ? pmtilesUrlPreDistrictsCandidate
@@ -116,7 +126,9 @@ export default function BoundaryLayers({ map, state }: BoundaryLayersProps) {
     map,
     locale,
     state.mode,
+    pmtilesUrlPostWardsCandidateLabels,
     pmtilesUrlPostWardsCandidate,
+    pmtilesUrlPreDistrictsCandidateLabels,
     pmtilesUrlPreDistrictsCandidate,
     includeOffshoreIslands,
     includePostWardCandidateLabels,

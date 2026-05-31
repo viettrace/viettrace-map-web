@@ -298,10 +298,6 @@ function getNestedCandidateSourceDefinitions(
   env: PublicEnv,
   sourceDefinitions: BoundarySourceDefinition[],
 ): BoundarySourceDefinition[] {
-  if (!env.enableQaLayers) {
-    return sourceDefinitions;
-  }
-
   const nestedSourceDefinitions = [...sourceDefinitions];
 
   if (env.pmtilesUrlPreDistrictsCandidate) {
@@ -314,7 +310,7 @@ function getNestedCandidateSourceDefinitions(
         url: `pmtiles://${env.pmtilesUrlPreDistrictsCandidate}`,
       },
     });
-  } else if (env.tileUrlPreDistrictsCandidate) {
+  } else if (env.enableQaLayers && env.tileUrlPreDistrictsCandidate) {
     nestedSourceDefinitions.push({
       id: boundarySourceIds.preDistrictsCandidate,
       source: {
@@ -326,7 +322,17 @@ function getNestedCandidateSourceDefinitions(
     });
   }
 
-  if (env.tileUrlPreDistrictsCandidateLabels) {
+  if (env.pmtilesUrlPreDistrictsCandidateLabels) {
+    nestedSourceDefinitions.push({
+      id: boundarySourceIds.preDistrictsCandidateLabels,
+      source: {
+        maxzoom: 12,
+        minzoom: 0,
+        type: 'vector',
+        url: `pmtiles://${env.pmtilesUrlPreDistrictsCandidateLabels}`,
+      },
+    });
+  } else if (env.enableQaLayers && env.tileUrlPreDistrictsCandidateLabels) {
     nestedSourceDefinitions.push({
       id: boundarySourceIds.preDistrictsCandidateLabels,
       source: {
@@ -348,7 +354,7 @@ function getNestedCandidateSourceDefinitions(
         url: `pmtiles://${env.pmtilesUrlPostWardsCandidate}`,
       },
     });
-  } else if (env.tileUrlPostWardsCandidate) {
+  } else if (env.enableQaLayers && env.tileUrlPostWardsCandidate) {
     nestedSourceDefinitions.push({
       id: boundarySourceIds.postWardsCandidate,
       source: {
@@ -360,7 +366,17 @@ function getNestedCandidateSourceDefinitions(
     });
   }
 
-  if (env.tileUrlPostWardsCandidateLabels) {
+  if (env.pmtilesUrlPostWardsCandidateLabels) {
+    nestedSourceDefinitions.push({
+      id: boundarySourceIds.postWardsCandidateLabels,
+      source: {
+        maxzoom: 12,
+        minzoom: 0,
+        type: 'vector',
+        url: `pmtiles://${env.pmtilesUrlPostWardsCandidateLabels}`,
+      },
+    });
+  } else if (env.enableQaLayers && env.tileUrlPostWardsCandidateLabels) {
     nestedSourceDefinitions.push({
       id: boundarySourceIds.postWardsCandidateLabels,
       source: {
