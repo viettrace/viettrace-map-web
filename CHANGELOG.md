@@ -1,5 +1,9 @@
 # Changelog
 
+## <small>0.1.8 (2026-05-31)</small>
+
+* feat: add PMTiles label sources for nested boundaries and update boundary layer handling (#76) ([6004c12](https://github.com/viettrace/viettrace-map-web/commit/6004c12)), closes [#76](https://github.com/viettrace/viettrace-map-web/issues/76)
+
 ## <small>0.1.7 (2026-05-31)</small>
 
 * Feat/add level 6 boundries layer candidate (#75) ([a6e1184](https://github.com/viettrace/viettrace-map-web/commit/a6e1184)), closes [#75](https://github.com/viettrace/viettrace-map-web/issues/75)
