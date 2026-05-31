@@ -27,6 +27,8 @@ export default function BoundaryLayers({ map, state }: BoundaryLayersProps) {
   const publicEnv = readPublicEnv();
   const {
     enableQaLayers,
+    pmtilesUrlPostWardsCandidate,
+    pmtilesUrlPreDistrictsCandidate,
     tileCacheBuster,
     tileUrlIslands,
     tileUrlPost,
@@ -37,12 +39,18 @@ export default function BoundaryLayers({ map, state }: BoundaryLayersProps) {
     tileUrlPreDistrictsCandidate,
   } = publicEnv;
   const includeOffshoreIslands = Boolean(tileUrlIslands);
+  // Polygon candidate sources are public when PMTiles URLs are set; otherwise gated to QA.
+  const includePreDistrictCandidates =
+    Boolean(pmtilesUrlPreDistrictsCandidate) ||
+    (enableQaLayers && Boolean(tileUrlPreDistrictsCandidate));
+  const includePostWardCandidates =
+    Boolean(pmtilesUrlPostWardsCandidate) ||
+    (enableQaLayers && Boolean(tileUrlPostWardsCandidate));
+  // Label candidate sources remain QA-only; no production PMTiles label endpoint yet.
   const includePostWardCandidateLabels =
     enableQaLayers && Boolean(tileUrlPostWardsCandidateLabels);
-  const includePostWardCandidates = enableQaLayers && Boolean(tileUrlPostWardsCandidate);
   const includePreDistrictCandidateLabels =
     enableQaLayers && Boolean(tileUrlPreDistrictsCandidateLabels);
-  const includePreDistrictCandidates = enableQaLayers && Boolean(tileUrlPreDistrictsCandidate);
 
   useEffect(() => {
     if (!map) return;
@@ -52,6 +60,12 @@ export default function BoundaryLayers({ map, state }: BoundaryLayersProps) {
 
       const env = {
         ...publicEnv,
+        pmtilesUrlPostWardsCandidate: includePostWardCandidates
+          ? pmtilesUrlPostWardsCandidate
+          : undefined,
+        pmtilesUrlPreDistrictsCandidate: includePreDistrictCandidates
+          ? pmtilesUrlPreDistrictsCandidate
+          : undefined,
         tileCacheBuster,
         tileUrlIslands,
         tileUrlPost,
@@ -101,6 +115,8 @@ export default function BoundaryLayers({ map, state }: BoundaryLayersProps) {
   }, [
     map,
     locale,
+    pmtilesUrlPostWardsCandidate,
+    pmtilesUrlPreDistrictsCandidate,
     includeOffshoreIslands,
     includePostWardCandidateLabels,
     includePostWardCandidates,

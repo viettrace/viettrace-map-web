@@ -774,7 +774,7 @@ function getNestedCandidateLayerDefinitions(
           layout: { visibility: preVisible ? 'visible' : 'none' },
           maxzoom: 12,
           minzoom: 7,
-          paint: { 'fill-color': '#f59e0b', 'fill-opacity': 0.018 },
+          paint: { 'fill-color': '#d44', 'fill-opacity': 0.04 },
           source: boundarySourceIds.preDistrictsCandidate,
           'source-layer': boundarySourceLayers.preDistrictsCandidate,
           type: 'fill',
@@ -788,7 +788,7 @@ function getNestedCandidateLayerDefinitions(
           maxzoom: 12,
           minzoom: 7,
           paint: {
-            'line-color': '#b45309',
+            'line-color': '#b91c1c',
             'line-opacity': zoomRamp(7, 0.35, 8.75, 0.72),
             'line-width': zoomRamp(7, 0.28, 10, 0.78),
           },
@@ -819,7 +819,7 @@ function getNestedCandidateLayerDefinitions(
         maxzoom: 12,
         minzoom: labelZoomStops.preDistrictCandidates.min,
         paint: {
-          'text-color': '#92400e',
+          'text-color': '#991b1b',
           'text-halo-color': '#fff',
           'text-halo-width': 1.45,
           'text-opacity': zoomRamp(
@@ -845,7 +845,7 @@ function getNestedCandidateLayerDefinitions(
           layout: { visibility: postVisible ? 'visible' : 'none' },
           maxzoom: 12,
           minzoom: 8,
-          paint: { 'fill-color': '#8b5cf6', 'fill-opacity': 0.012 },
+          paint: { 'fill-color': '#3388ff', 'fill-opacity': 0.03 },
           source: boundarySourceIds.postWardsCandidate,
           'source-layer': boundarySourceLayers.postWardsCandidate,
           type: 'fill',
@@ -859,7 +859,7 @@ function getNestedCandidateLayerDefinitions(
           maxzoom: 12,
           minzoom: 8,
           paint: {
-            'line-color': '#6d28d9',
+            'line-color': '#1d4ed8',
             'line-opacity': zoomRamp(8, 0.28, 10, 0.68),
             'line-width': zoomRamp(8, 0.22, 11, 0.62),
           },
@@ -890,7 +890,7 @@ function getNestedCandidateLayerDefinitions(
         maxzoom: 12,
         minzoom: labelZoomStops.postWardCandidates.min,
         paint: {
-          'text-color': '#5b21b6',
+          'text-color': '#1e3a8a',
           'text-halo-color': '#fff',
           'text-halo-width': 1.35,
           'text-opacity': zoomRamp(
