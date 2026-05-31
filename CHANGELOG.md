@@ -1,5 +1,9 @@
 # Changelog
 
+## <small>0.1.12 (2026-05-31)</small>
+
+* feat: improve highlight search and mobile UX navigation (#81) ([bcd0f8a](https://github.com/viettrace/viettrace-map-web/commit/bcd0f8a)), closes [#81](https://github.com/viettrace/viettrace-map-web/issues/81)
+
 ## <small>0.1.11 (2026-05-31)</small>
 
 * feat: improve the slider in mobile view (#80) ([a127649](https://github.com/viettrace/viettrace-map-web/commit/a127649)), closes [#80](https://github.com/viettrace/viettrace-map-web/issues/80)
