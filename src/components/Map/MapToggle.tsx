@@ -5,23 +5,33 @@ import { useTranslations } from 'next-intl';
 interface MapToggleProps {
   mode: 'pre' | 'post';
   onToggle: (mode: 'pre' | 'post') => void;
+  // 'panel' drops the outer pill so the toggle can sit inside the unified
+  // desktop control panel as one row among siblings.
+  variant?: 'default' | 'panel';
 }
 
 export default function MapToggle({
   mode,
   onToggle,
+  variant = 'default',
 }: MapToggleProps) {
   const t = useTranslations('Map');
+  const isPanel = variant === 'panel';
+  const wrapperClass = isPanel
+    ? 'flex items-center justify-between gap-3 px-3 py-2'
+    : 'flex max-w-full flex-nowrap items-center gap-3 overflow-x-auto rounded-full bg-white/95 px-4 py-2 shadow-lg backdrop-blur-sm';
 
   return (
-    <div className="flex max-w-full flex-nowrap items-center gap-3 overflow-x-auto rounded-full bg-white/95 px-4 py-2 shadow-lg backdrop-blur-sm">
+    <div className={wrapperClass}>
       <span
         className={`shrink-0 text-sm font-medium whitespace-nowrap transition-colors ${
           mode === 'pre' ? 'text-red-600' : 'text-gray-400'
         }`}
       >
         <span>{t('togglePre')}</span>
-        <span className="ml-1 text-xs opacity-70">{t('togglePreLabel')}</span>
+        {!isPanel && (
+          <span className="ml-1 text-xs opacity-70">{t('togglePreLabel')}</span>
+        )}
       </span>
 
       <button
@@ -45,7 +55,9 @@ export default function MapToggle({
         }`}
       >
         <span>{t('togglePost')}</span>
-        <span className="ml-1 text-xs opacity-70">{t('togglePostLabel')}</span>
+        {!isPanel && (
+          <span className="ml-1 text-xs opacity-70">{t('togglePostLabel')}</span>
+        )}
       </span>
     </div>
   );

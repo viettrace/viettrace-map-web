@@ -7,13 +7,14 @@ import { searchProvinceIndex } from '@src/features/province-index/provinceIndexS
 import type { ProvinceIndexEntry } from '@src/features/province-index/provinceIndexTypes';
 import { searchNestedIndex } from '@src/features/nested-index/nestedIndexSearch';
 import type { NestedIndexEntry } from '@src/features/nested-index/nestedIndexTypes';
-import type { MapMode } from '@src/features/map-state/mapViewTypes';
+import type { CompareMode, MapMode } from '@src/features/map-state/mapViewTypes';
 
 interface ProvinceSearchProps {
   entries: ProvinceIndexEntry[];
   hasError: boolean;
   isLoading: boolean;
   mode: MapMode;
+  compareMode?: CompareMode;
   onSelect: (entry: ProvinceIndexEntry) => void;
   nestedEntries?: NestedIndexEntry[];
   onSelectNested?: (entry: NestedIndexEntry) => void;
@@ -28,6 +29,7 @@ export default function ProvinceSearch({
   hasError,
   isLoading,
   mode,
+  compareMode = 'toggle',
   onSelect,
   nestedEntries = [],
   onSelectNested,
@@ -40,8 +42,15 @@ export default function ProvinceSearch({
   const [isExpanded, setIsExpanded] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
   const [query, setQuery] = useState('');
-  const scopedProvinceEntries = entries.filter(entry => entry.mode === mode);
-  const scopedNestedEntries = nestedEntries.filter(entry => entry.mode === mode);
+  // In swipe mode, both pre and post layers are visible at the same time, so
+  // results from either era should be searchable. In toggle mode, results are
+  // scoped to the active era like before.
+  const scopedProvinceEntries =
+    compareMode === 'swipe' ? entries : entries.filter(entry => entry.mode === mode);
+  const scopedNestedEntries =
+    compareMode === 'swipe'
+      ? nestedEntries
+      : nestedEntries.filter(entry => entry.mode === mode);
   const provinceResults = searchProvinceIndex(scopedProvinceEntries, query, { locale });
   const nestedResults =
     onSelectNested && scopedNestedEntries.length > 0

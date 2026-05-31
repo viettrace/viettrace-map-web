@@ -1,9 +1,17 @@
-import type { MapMode, MapViewState } from './mapViewTypes';
+import {
+  clampCompareDivider,
+  COMPARE_DIVIDER_DEFAULT,
+  type CompareMode,
+  type MapMode,
+  type MapViewState,
+} from './mapViewTypes';
 
 const MODE_PARAM = 'mode';
 const PROVINCE_PARAM = 'province';
 const NESTED_PARAM = 'nested';
 const NESTED_TYPE_PARAM = 'nestedType';
+const COMPARE_PARAM = 'compare';
+const DIVIDER_PARAM = 'divider';
 
 type NestedFeatureType = 'district' | 'ward';
 
@@ -12,6 +20,8 @@ interface ParsedMapUrlState {
   provinceSlug: string | null;
   nestedSlug: string | null;
   nestedType: NestedFeatureType | null;
+  compareMode: CompareMode | null;
+  compareDividerX: number | null;
 }
 
 export function parseMapMode(value: string | null): MapMode | null {
@@ -30,12 +40,36 @@ function parseNestedType(value: string | null): NestedFeatureType | null {
   return null;
 }
 
+function parseCompareMode(value: string | null): CompareMode | null {
+  if (value === 'toggle' || value === 'swipe') {
+    return value;
+  }
+
+  return null;
+}
+
+function parseCompareDividerX(value: string | null): number | null {
+  if (value === null) {
+    return null;
+  }
+
+  const parsed = Number(value);
+
+  if (!Number.isFinite(parsed)) {
+    return null;
+  }
+
+  return clampCompareDivider(parsed);
+}
+
 export function readMapUrlState(searchParams: URLSearchParams): ParsedMapUrlState {
   return {
     mode: parseMapMode(searchParams.get(MODE_PARAM)),
     provinceSlug: searchParams.get(PROVINCE_PARAM),
     nestedSlug: searchParams.get(NESTED_PARAM),
     nestedType: parseNestedType(searchParams.get(NESTED_TYPE_PARAM)),
+    compareMode: parseCompareMode(searchParams.get(COMPARE_PARAM)),
+    compareDividerX: parseCompareDividerX(searchParams.get(DIVIDER_PARAM)),
   };
 }
 
@@ -59,6 +93,21 @@ export function writeMapUrlState(searchParams: URLSearchParams, state: MapViewSt
   } else {
     nextSearchParams.delete(NESTED_PARAM);
     nextSearchParams.delete(NESTED_TYPE_PARAM);
+  }
+
+  if (state.compareMode === 'swipe') {
+    nextSearchParams.set(COMPARE_PARAM, 'swipe');
+
+    // Only persist the divider when it is meaningfully off-center; default 0.5
+    // stays implicit so the URL remains short.
+    if (Math.abs(state.compareDividerX - COMPARE_DIVIDER_DEFAULT) > 0.005) {
+      nextSearchParams.set(DIVIDER_PARAM, state.compareDividerX.toFixed(2));
+    } else {
+      nextSearchParams.delete(DIVIDER_PARAM);
+    }
+  } else {
+    nextSearchParams.delete(COMPARE_PARAM);
+    nextSearchParams.delete(DIVIDER_PARAM);
   }
 
   return nextSearchParams;

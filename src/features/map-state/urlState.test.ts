@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { initialMapViewState } from './mapViewReducer';
 import { parseMapMode, readMapUrlState, writeMapUrlState } from './urlState';
+import { COMPARE_DIVIDER_MAX } from './mapViewTypes';
 
 describe('parseMapMode', () => {
   it('accepts only stable map mode values', () => {
@@ -17,6 +18,8 @@ describe('readMapUrlState', () => {
       nestedSlug: null,
       nestedType: null,
       provinceSlug: 'ha-giang',
+      compareMode: null,
+      compareDividerX: null,
     });
   });
 
@@ -28,11 +31,31 @@ describe('readMapUrlState', () => {
       nestedSlug: 'ha-noi--hoan-kiem',
       nestedType: 'district',
       provinceSlug: null,
+      compareMode: null,
+      compareDividerX: null,
     });
   });
 
   it('rejects unknown nested types', () => {
     expect(readMapUrlState(new URLSearchParams('nestedType=street')).nestedType).toBeNull();
+  });
+
+  it('reads compare mode and divider position', () => {
+    expect(readMapUrlState(new URLSearchParams('compare=swipe&divider=0.4'))).toEqual({
+      mode: null,
+      provinceSlug: null,
+      nestedSlug: null,
+      nestedType: null,
+      compareMode: 'swipe',
+      compareDividerX: 0.4,
+    });
+  });
+
+  it('clamps divider values that are out of range', () => {
+    expect(readMapUrlState(new URLSearchParams('divider=2')).compareDividerX).toBe(
+      COMPARE_DIVIDER_MAX,
+    );
+    expect(readMapUrlState(new URLSearchParams('divider=oops')).compareDividerX).toBeNull();
   });
 });
 
@@ -80,5 +103,37 @@ describe('writeMapUrlState', () => {
 
     expect(searchParams.has('nested')).toBe(false);
     expect(searchParams.has('nestedType')).toBe(false);
+  });
+
+  it('writes compare=swipe and a non-default divider position', () => {
+    const searchParams = writeMapUrlState(new URLSearchParams(), {
+      ...initialMapViewState,
+      compareMode: 'swipe',
+      compareDividerX: 0.4,
+    });
+
+    const text = searchParams.toString();
+    expect(text).toContain('compare=swipe');
+    expect(text).toContain('divider=0.40');
+  });
+
+  it('omits divider when divider position is the default', () => {
+    const searchParams = writeMapUrlState(new URLSearchParams('divider=0.4'), {
+      ...initialMapViewState,
+      compareMode: 'swipe',
+    });
+
+    expect(searchParams.has('compare')).toBe(true);
+    expect(searchParams.has('divider')).toBe(false);
+  });
+
+  it('clears compare and divider params when leaving swipe mode', () => {
+    const searchParams = writeMapUrlState(
+      new URLSearchParams('compare=swipe&divider=0.4'),
+      initialMapViewState,
+    );
+
+    expect(searchParams.has('compare')).toBe(false);
+    expect(searchParams.has('divider')).toBe(false);
   });
 });
