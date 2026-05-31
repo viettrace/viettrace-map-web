@@ -115,6 +115,7 @@ export default function BoundaryLayers({ map, state }: BoundaryLayersProps) {
   }, [
     map,
     locale,
+    state.mode,
     pmtilesUrlPostWardsCandidate,
     pmtilesUrlPreDistrictsCandidate,
     includeOffshoreIslands,

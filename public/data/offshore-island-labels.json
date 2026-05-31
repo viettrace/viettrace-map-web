@@ -6,7 +6,9 @@
       "properties": {
         "name": "Hoang Sa",
         "name_vi": "Quần đảo Hoàng Sa",
-        "name_en": "Paracel Islands"
+        "name_en": "Paracel Islands",
+        "name_short_vi": "Hoàng Sa",
+        "name_short_en": "Hoang Sa"
       },
       "geometry": {
         "type": "Point",
@@ -18,7 +20,9 @@
       "properties": {
         "name": "Truong Sa",
         "name_vi": "Quần đảo Trường Sa",
-        "name_en": "Spratly Islands"
+        "name_en": "Spratly Islands",
+        "name_short_vi": "Trường Sa",
+        "name_short_en": "Truong Sa"
       },
       "geometry": {
         "type": "Point",
