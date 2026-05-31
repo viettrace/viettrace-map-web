@@ -89,6 +89,38 @@ const nestedCandidateBasemapPlaceLayerIds = [
   'place_town',
 ] as const;
 
+export interface OffshoreIslandModeStyle {
+  fillColor: string;
+  labelColor: string;
+  outlineColor: string;
+}
+
+export function getOffshoreIslandModeStyle(mode: MapMode): OffshoreIslandModeStyle {
+  return mode === 'pre'
+    ? { fillColor: '#d44', labelColor: '#991b1b', outlineColor: '#b91c1c' }
+    : { fillColor: '#3388ff', labelColor: '#1e3a8a', outlineColor: '#1d4ed8' };
+}
+
+export const offshoreIslandLayerIds = {
+  fill: 'offshore-islands-fill',
+  label: 'offshore-islands-label',
+  outline: 'offshore-islands-outline',
+} as const;
+
+export function getOffshoreIslandLabelTextField(
+  mode: MapMode,
+  locale: string,
+): maplibregl.ExpressionSpecification {
+  // In post-2025 mode, Hoang Sa and Truong Sa are special administrative zones (Đặc khu).
+  if (mode === 'post') {
+    return locale === 'en'
+      ? ['concat', 'Special Zone ', ['get', 'name_short_en']]
+      : ['concat', 'Đặc khu ', ['get', 'name_short_vi']];
+  }
+
+  return locale === 'en' ? ['get', 'name_en'] : ['get', 'name_vi'];
+}
+
 type ZoomRampExpression = ['interpolate', ['linear'], ['zoom'], number, number, number, number];
 
 interface BoundarySourceDefinition {
@@ -699,18 +731,8 @@ function getOffshoreIslandLayerDefinitions(
 ): BoundaryLayerDefinition[] {
   const islandsVisible = state.layers.offshoreIslands;
   // Match offshore islands styling and labels with the active mode.
-  const fillColor = state.mode === 'pre' ? '#d44' : '#3388ff';
-  const outlineColor = state.mode === 'pre' ? '#b91c1c' : '#1d4ed8';
-  const labelColor = state.mode === 'pre' ? '#991b1b' : '#1e3a8a';
-  // In post-2025 mode, Hoang Sa and Truong Sa are special administrative zones (Đặc khu).
-  const labelExpression: maplibregl.ExpressionSpecification =
-    state.mode === 'post'
-      ? locale === 'en'
-        ? ['concat', 'Special Zone ', ['get', 'name_short_en']]
-        : ['concat', 'Đặc khu ', ['get', 'name_short_vi']]
-      : locale === 'en'
-        ? ['get', 'name_en']
-        : ['get', 'name_vi'];
+  const { fillColor, labelColor, outlineColor } = getOffshoreIslandModeStyle(state.mode);
+  const labelExpression = getOffshoreIslandLabelTextField(state.mode, locale);
 
   return [
     {
