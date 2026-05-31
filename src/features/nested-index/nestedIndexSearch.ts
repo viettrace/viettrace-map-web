@@ -1,5 +1,9 @@
 import type { MapMode, SelectedMapFeature } from '@src/features/map-state/mapViewTypes';
-import { normalizeAdministrativeName, normalizeSearchText } from '@src/libs/geo/normalize';
+import {
+  normalizeAdministrativeName,
+  normalizeSearchText,
+  stripAdministrativePrefix,
+} from '@src/libs/geo/normalize';
 import type { NestedFeatureType, NestedIndexEntry } from './nestedIndexTypes';
 
 const DEFAULT_NESTED_SEARCH_LIMIT = 6;
@@ -38,9 +42,12 @@ export function searchNestedIndex(
   const locale = normalizeSearchLocale(options.locale);
   const modeFilter = options.mode;
   const normalizedAdministrativeQuery = normalizeAdministrativeName(query);
-  const queryVariants = uniqueValues([normalizedQuery, normalizedAdministrativeQuery]).filter(
-    Boolean,
-  );
+  const strippedAdministrativeQuery = stripAdministrativePrefix(query);
+  const queryVariants = uniqueValues([
+    normalizedQuery,
+    normalizedAdministrativeQuery,
+    strippedAdministrativeQuery,
+  ]).filter(Boolean);
 
   return entries
     .filter(entry => (modeFilter ? entry.mode === modeFilter : true))
@@ -188,8 +195,10 @@ function getNestedSearchAliases(entry: NestedIndexEntry, locale: NestedSearchLoc
   return uniqueAliases([
     { priority: 8, value: normalizeSearchText(preferredName) },
     { priority: 8, value: normalizeAdministrativeName(preferredName) },
+    { priority: 6, value: stripAdministrativePrefix(preferredName) },
     { priority: 2, value: fallbackName ? normalizeSearchText(fallbackName) : '' },
     { priority: 2, value: fallbackName ? normalizeAdministrativeName(fallbackName) : '' },
+    { priority: 1, value: fallbackName ? stripAdministrativePrefix(fallbackName) : '' },
     { priority: 0, value: normalizeSearchText(entry.slug.replaceAll('-', ' ')) },
   ]);
 }

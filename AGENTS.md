@@ -38,6 +38,8 @@ M2 frontend map MVP, Phase 3 UX utility, Phase 4B nested-boundaries production, 
 - District/ward click popup showing feature name, English name, and parent province.
 - District/ward search/fly-to from a generated static nested index (`public/data/nested-index.json`).
 - Shareable URL state for nested selection via `nested` and `nestedType` query params.
+- Pre-2025 `Huyện Hoàng Sa` is included in the nested index via a research gap-fill (geometry copied from the geoBoundaries Paracel reference) so the district is searchable and clickable in pre mode for parity with the post-2025 `Đặc khu Hoàng Sa`.
+- Search results expose only administrative units; offshore archipelago entries (`Quần đảo Hoàng Sa`, `Quần đảo Trường Sa`) are no longer search results because both modes already expose admin-level entries with the same names. The on-map labels for those archipelagos still render via `BoundaryLayers` reading `/data/offshore-island-labels.json`.
 - App-owned attribution/data-note disclosure with required OSM, CARTO, geoBoundaries, and Viettrace credits.
 - SEO metadata and dynamic Open Graph image.
 - Docker standalone deployment config.

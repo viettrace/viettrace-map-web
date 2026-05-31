@@ -157,6 +157,7 @@ export default function MapShell() {
         entries={provinceEntries}
         hasError={Boolean(provinceIndex.error)}
         isLoading={provinceIndex.isLoading}
+        mode={state.mode}
         onSelect={selectProvince}
         nestedEntries={nestedEntries}
         onSelectNested={selectNested}

@@ -5,9 +5,9 @@
     "postWards": ".data/processed/import/vn_post_2025_wards_candidate.geojson"
   },
   "counts": {
-    "districts": 694,
+    "districts": 695,
     "wards": 3321,
-    "total": 4015
+    "total": 4016
   },
   "features": [
     {
@@ -2588,6 +2588,26 @@
       "parentProvinceName": "Thành phố Đà Nẵng",
       "parentProvinceSlug": "da-nang",
       "slug": "da-nang--huyen-hoa-vang",
+      "type": "district"
+    },
+    {
+      "bbox": [
+        111.165802,
+        15.694781,
+        112.716634,
+        17.121968
+      ],
+      "center": [
+        111.941218,
+        16.408375
+      ],
+      "id": "pre:district:da-nang--huyen-hoang-sa:gapfill:pre_2025:huyen_hoang_sa",
+      "mode": "pre",
+      "name": "Huyện Hoàng Sa",
+      "name_en": "Hoang Sa District",
+      "parentProvinceName": "Thành phố Đà Nẵng",
+      "parentProvinceSlug": "da-nang",
+      "slug": "da-nang--huyen-hoang-sa",
       "type": "district"
     },
     {

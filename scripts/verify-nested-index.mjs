@@ -80,9 +80,11 @@ for (const entry of index.features) {
   }
 }
 
+// 694 OSM-derived pre-2025 districts plus 1 research gap-fill (Huyện Hoàng Sa,
+// geometry copied from the geoBoundaries Paracel reference).
 assert(
-  index.counts.districts === 694,
-  `Expected 694 pre-2025 districts, got ${index.counts.districts}.`,
+  index.counts.districts === 695,
+  `Expected 695 pre-2025 districts, got ${index.counts.districts}.`,
 );
 assert(index.counts.wards === 3321, `Expected 3,321 post-2025 wards, got ${index.counts.wards}.`);
 
