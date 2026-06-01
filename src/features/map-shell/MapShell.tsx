@@ -96,7 +96,11 @@ export default function MapShell() {
       // passes `{ fit: false }` so the user keeps their current camera.
       // CompareMapShell drives fly-to from its own `selectedFeature` effect, so
       // we only fit here when a single map is active.
-      if (singleMap && options.fit !== false) {
+      if (!singleMap) {
+        return;
+      }
+
+      if (options.fit !== false) {
         fitBbox(singleMap, entry.bbox, getDetailPanelFitPadding());
 
         // Search-driven selection also gets a temporary highlight (centered
@@ -112,6 +116,10 @@ export default function MapShell() {
           featureName: entry.name,
           featureType: 'province',
         });
+      } else {
+        // Map-click selection: drop any lingering search highlight so the
+        // detail panel and the highlighted feature stay in sync.
+        clearHighlight(singleMap);
       }
     },
     [singleMap],
@@ -136,7 +144,11 @@ export default function MapShell() {
         type: 'selectFeature',
       });
 
-      if (singleMap && options.fit !== false) {
+      if (!singleMap) {
+        return;
+      }
+
+      if (options.fit !== false) {
         fitBbox(singleMap, entry.bbox, getDetailPanelFitPadding());
 
         highlightFeature({
@@ -148,6 +160,8 @@ export default function MapShell() {
           featureName: entry.name,
           featureType: entry.type,
         });
+      } else {
+        clearHighlight(singleMap);
       }
     },
     [singleMap],
