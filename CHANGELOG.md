@@ -1,5 +1,9 @@
 # Changelog
 
+## <small>0.1.13 (2026-06-01)</small>
+
+* feat: enhance single map handling in compare mode by preventing unnecessary highlights (#82) ([6371446](https://github.com/viettrace/viettrace-map-web/commit/6371446)), closes [#82](https://github.com/viettrace/viettrace-map-web/issues/82)
+
 ## <small>0.1.12 (2026-05-31)</small>
 
 * feat: improve highlight search and mobile UX navigation (#81) ([bcd0f8a](https://github.com/viettrace/viettrace-map-web/commit/bcd0f8a)), closes [#81](https://github.com/viettrace/viettrace-map-web/issues/81)
