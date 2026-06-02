@@ -36,8 +36,6 @@ export function useMapLibre({ center, style, zoom }: UseMapLibreOptions) {
         zoom,
       });
 
-      mapInstance.addControl(new maplibregl.NavigationControl(), 'bottom-right');
-
       mapInstance.on('load', () => {
         setIsReady(true);
       });

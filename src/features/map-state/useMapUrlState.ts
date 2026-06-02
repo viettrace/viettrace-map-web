@@ -1,6 +1,6 @@
 'use client';
 
-import type { Dispatch } from 'react';
+import type { Dispatch, MutableRefObject } from 'react';
 import { useEffect, useRef, useState } from 'react';
 import type maplibregl from 'maplibre-gl';
 import { findProvinceBySlug } from '@src/features/province-index/provinceIndexSearch';
@@ -30,6 +30,7 @@ export function useMapUrlState({
 }: UseMapUrlStateOptions) {
   const restoredRef = useRef(false);
   const [isRestored, setIsRestored] = useState(false);
+  const cameraRef = useRef<{ lat: number; lng: number; zoom: number } | null>(null);
 
   useEffect(() => {
     if (restoredRef.current || !isMapReady || !map || entries.length === 0) {
@@ -55,12 +56,23 @@ export function useMapUrlState({
       dispatch({ dividerX: parsedState.compareDividerX, type: 'setCompareDividerX' });
     }
 
+    // Restore camera position from URL if present and no feature is selected
+    // (feature selection takes priority with fitBbox).
+    const hasUrlCamera = parsedState.lat !== null && parsedState.lng !== null;
+
     // In swipe mode the user's selection-on-load is intentionally cleared by
     // the reducer; skip reapplying province/nested URL params so we don't
     // reopen the detail panel that swipe suppresses.
     if (parsedState.compareMode === 'swipe') {
       if (urlMode) {
         dispatch({ mode: urlMode, type: 'setMode' });
+      }
+
+      if (hasUrlCamera) {
+        map.jumpTo({
+          center: [parsedState.lng!, parsedState.lat!],
+          zoom: parsedState.zoom ?? undefined,
+        });
       }
 
       restoredRef.current = true;
@@ -89,6 +101,15 @@ export function useMapUrlState({
         type: 'selectFeature',
       });
       fitBbox(map, selectedEntry.bbox, { duration: 0 });
+    } else if (hasUrlCamera) {
+      if (urlMode) {
+        dispatch({ mode: urlMode, type: 'setMode' });
+      }
+
+      map.jumpTo({
+        center: [parsedState.lng!, parsedState.lat!],
+        zoom: parsedState.zoom ?? undefined,
+      });
     } else if (urlMode) {
       dispatch({ mode: urlMode, type: 'setMode' });
     }
@@ -97,19 +118,45 @@ export function useMapUrlState({
     setIsRestored(true);
   }, [dispatch, entries, isMapReady, map, nestedEntries]);
 
+  // Persist camera position on map moveend
+  useEffect(() => {
+    if (!map || !isRestored) {
+      return;
+    }
+
+    const onMoveEnd = () => {
+      const center = map.getCenter();
+      cameraRef.current = { lat: center.lat, lng: center.lng, zoom: map.getZoom() };
+      syncUrl(state, cameraRef);
+    };
+
+    map.on('moveend', onMoveEnd);
+
+    return () => {
+      map.off('moveend', onMoveEnd);
+    };
+  }, [map, isRestored, state]);
+
   useEffect(() => {
     if (!isRestored) {
       return;
     }
 
-    const url = new URL(window.location.href);
-    const nextSearchParams = writeMapUrlState(url.searchParams, state);
-    const nextSearch = nextSearchParams.toString();
-    const nextUrl = `${url.pathname}${nextSearch ? `?${nextSearch}` : ''}${url.hash}`;
-    const currentUrl = `${url.pathname}${url.search}${url.hash}`;
-
-    if (nextUrl !== currentUrl) {
-      window.history.replaceState(window.history.state, '', nextUrl);
-    }
+    syncUrl(state, cameraRef);
   }, [isRestored, state]);
+}
+
+function syncUrl(
+  state: MapViewState,
+  cameraRef: MutableRefObject<{ lat: number; lng: number; zoom: number } | null>,
+) {
+  const url = new URL(window.location.href);
+  const nextSearchParams = writeMapUrlState(url.searchParams, state, cameraRef.current);
+  const nextSearch = nextSearchParams.toString();
+  const nextUrl = `${url.pathname}${nextSearch ? `?${nextSearch}` : ''}${url.hash}`;
+  const currentUrl = `${url.pathname}${url.search}${url.hash}`;
+
+  if (nextUrl !== currentUrl) {
+    window.history.replaceState(window.history.state, '', nextUrl);
+  }
 }

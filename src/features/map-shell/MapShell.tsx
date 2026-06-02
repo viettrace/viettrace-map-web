@@ -19,6 +19,7 @@ import ProvinceSearch from '@src/features/province-search/ProvinceSearch';
 import { readPublicEnv } from '@src/libs/config/publicEnv';
 import { fitBbox } from '@src/libs/maplibre/camera';
 import SingleMapShell from './SingleMapShell';
+import MapNavigator from './MapNavigator';
 
 const DEFAULT_CENTER: [number, number] = [105.8, 21.0];
 const DEFAULT_ZOOM = 5;
@@ -271,6 +272,8 @@ export default function MapShell() {
         isDataNoticeOpen={state.panels.dataNotice}
         onToggleDataNotice={() => dispatch({ type: 'toggleDataNotice' })}
       />
+
+      <MapNavigator map={singleMap} />
     </div>
   );
 }

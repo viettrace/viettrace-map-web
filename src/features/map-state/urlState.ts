@@ -12,6 +12,9 @@ const NESTED_PARAM = 'nested';
 const NESTED_TYPE_PARAM = 'nestedType';
 const COMPARE_PARAM = 'compare';
 const DIVIDER_PARAM = 'divider';
+const LAT_PARAM = 'lat';
+const LNG_PARAM = 'lng';
+const ZOOM_PARAM = 'z';
 
 type NestedFeatureType = 'district' | 'ward';
 
@@ -22,6 +25,9 @@ interface ParsedMapUrlState {
   nestedType: NestedFeatureType | null;
   compareMode: CompareMode | null;
   compareDividerX: number | null;
+  lat: number | null;
+  lng: number | null;
+  zoom: number | null;
 }
 
 export function parseMapMode(value: string | null): MapMode | null {
@@ -62,6 +68,20 @@ function parseCompareDividerX(value: string | null): number | null {
   return clampCompareDivider(parsed);
 }
 
+function parseCoord(value: string | null, min: number, max: number): number | null {
+  if (value === null) {
+    return null;
+  }
+
+  const parsed = Number(value);
+
+  if (!Number.isFinite(parsed) || parsed < min || parsed > max) {
+    return null;
+  }
+
+  return parsed;
+}
+
 export function readMapUrlState(searchParams: URLSearchParams): ParsedMapUrlState {
   return {
     mode: parseMapMode(searchParams.get(MODE_PARAM)),
@@ -70,10 +90,17 @@ export function readMapUrlState(searchParams: URLSearchParams): ParsedMapUrlStat
     nestedType: parseNestedType(searchParams.get(NESTED_TYPE_PARAM)),
     compareMode: parseCompareMode(searchParams.get(COMPARE_PARAM)),
     compareDividerX: parseCompareDividerX(searchParams.get(DIVIDER_PARAM)),
+    lat: parseCoord(searchParams.get(LAT_PARAM), -90, 90),
+    lng: parseCoord(searchParams.get(LNG_PARAM), -180, 180),
+    zoom: parseCoord(searchParams.get(ZOOM_PARAM), 0, 22),
   };
 }
 
-export function writeMapUrlState(searchParams: URLSearchParams, state: MapViewState) {
+export function writeMapUrlState(
+  searchParams: URLSearchParams,
+  state: MapViewState,
+  camera?: { lat: number; lng: number; zoom: number } | null,
+) {
   const nextSearchParams = new URLSearchParams(searchParams);
   const selectedProvince =
     state.selectedFeature?.type === 'province' ? state.selectedFeature : null;
@@ -108,6 +135,16 @@ export function writeMapUrlState(searchParams: URLSearchParams, state: MapViewSt
   } else {
     nextSearchParams.delete(COMPARE_PARAM);
     nextSearchParams.delete(DIVIDER_PARAM);
+  }
+
+  if (camera) {
+    nextSearchParams.set(LAT_PARAM, camera.lat.toFixed(5));
+    nextSearchParams.set(LNG_PARAM, camera.lng.toFixed(5));
+    nextSearchParams.set(ZOOM_PARAM, camera.zoom.toFixed(2));
+  } else {
+    nextSearchParams.delete(LAT_PARAM);
+    nextSearchParams.delete(LNG_PARAM);
+    nextSearchParams.delete(ZOOM_PARAM);
   }
 
   return nextSearchParams;

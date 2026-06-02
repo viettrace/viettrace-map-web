@@ -74,6 +74,19 @@
     "attributionGeoBoundaries": "© geoBoundaries www.geoboundaries.org",
     "attributionViettrace": "© Viettrace"
   },
+  "geolocation": {
+    "locateMe": "Locate me",
+    "locating": "Getting your location...",
+    "stopTracking": "Stop tracking",
+    "recenter": "Re-center on my location",
+    "denied": "Location access denied. Please enable location in your browser settings.",
+    "unavailable": "Location unavailable. Please check your device settings.",
+    "youAreIn": "You are in: {province}",
+    "districtLabel": "District",
+    "wardLabel": "Ward / commune",
+    "outsideVietnam": "Outside Vietnam",
+    "dismiss": "Dismiss"
+  },
   "HomePage": {
     "title": "Viettrace",
     "description": "Compare Vietnam administrative boundaries before and after the July 2025 merger",

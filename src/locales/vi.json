@@ -74,6 +74,19 @@
     "attributionGeoBoundaries": "© geoBoundaries www.geoboundaries.org",
     "attributionViettrace": "© Viettrace"
   },
+  "geolocation": {
+    "locateMe": "Xác định vị trí",
+    "locating": "Đang xác định vị trí...",
+    "stopTracking": "Dừng theo dõi",
+    "recenter": "Quay lại vị trí của tôi",
+    "denied": "Quyền truy cập vị trí bị từ chối. Vui lòng bật vị trí trong cài đặt trình duyệt.",
+    "unavailable": "Không thể xác định vị trí. Vui lòng kiểm tra cài đặt thiết bị.",
+    "youAreIn": "Bạn đang ở: {province}",
+    "districtLabel": "Quận/Huyện",
+    "wardLabel": "Phường/Xã",
+    "outsideVietnam": "Ngoài lãnh thổ Việt Nam",
+    "dismiss": "Đóng"
+  },
   "HomePage": {
     "title": "Viettrace",
     "description": "So sánh bản đồ hành chính Việt Nam trước và sau sáp nhập 7/2025",
