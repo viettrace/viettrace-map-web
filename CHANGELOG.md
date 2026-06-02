@@ -1,5 +1,9 @@
 # Changelog
 
+## <small>0.1.14 (2026-06-02)</small>
+
+* feat: add geolocation feature with LocateButton and GeolocationControl (#84) ([3df933b](https://github.com/viettrace/viettrace-map-web/commit/3df933b)), closes [#84](https://github.com/viettrace/viettrace-map-web/issues/84)
+
 ## <small>0.1.13 (2026-06-01)</small>
 
 * feat: enhance single map handling in compare mode by preventing unnecessary highlights (#82) ([6371446](https://github.com/viettrace/viettrace-map-web/commit/6371446)), closes [#82](https://github.com/viettrace/viettrace-map-web/issues/82)
