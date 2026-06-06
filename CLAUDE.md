@@ -276,7 +276,7 @@ Load from `.agents/skills/` before editing:
 - Rename MapLibre source-layer names without coordinated updates
 - Remove OSM or geoBoundaries attribution
 - Commit `.env.local` or secret files
-- Delete `public/data/` files without updating `../viettrace-plans/04-data/`
+- Delete `public/data/` files without updating `../viettrace-plans/04-data/` or `../viettrace-scraping/` if data came from external scraping
 - Add `useMemo`/`useCallback` without measured benefit
 - Skip `pnpm lint` before PR
 

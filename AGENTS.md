@@ -312,4 +312,4 @@ docker compose -f compose.full.yml --env-file viettrace-infra/.env up -d --build
 - Do not remove OSM attribution.
 - Do not remove geoBoundaries attribution when offshore islands layer is enabled.
 - Do not commit `.env.local` or other secret-bearing env files.
-- Do not delete static data files under `public/data/` without updating `../viettrace-plans/04-data/`.
+- Do not delete static data files under `public/data/` without updating `../viettrace-plans/04-data/` or `../viettrace-scraping/` if data came from external scraping.
