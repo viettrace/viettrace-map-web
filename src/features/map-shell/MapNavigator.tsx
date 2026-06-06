@@ -104,7 +104,13 @@ export default function MapNavigator({ map }: MapNavigatorProps) {
       };
 
       map.once('idle', onIdle);
-      map.flyTo({ center: [position.lng, position.lat], zoom: Math.max(map.getZoom(), 13) });
+      map.flyTo({
+        center: [position.lng, position.lat],
+        zoom: Math.max(map.getZoom(), 13),
+        speed: 1.2,
+        curve: 1.2,
+        essential: true
+      });
       return () => { map.off('idle', onIdle); };
     }
 
@@ -134,7 +140,13 @@ export default function MapNavigator({ map }: MapNavigatorProps) {
     if (position) {
       setIsContextReady(false);
       startTracking();
-      map.flyTo({ center: [position.lng, position.lat], zoom: Math.max(map.getZoom(), 13) });
+      map.flyTo({
+        center: [position.lng, position.lat],
+        zoom: Math.max(map.getZoom(), 13),
+        speed: 1.2,
+        curve: 1.2,
+        essential: true
+      });
     } else {
       locate();
     }
@@ -143,7 +155,13 @@ export default function MapNavigator({ map }: MapNavigatorProps) {
   const flyToPosition = useCallback(() => {
     if (!map || !position) return;
     setIsContextReady(false);
-    map.flyTo({ center: [position.lng, position.lat], zoom: Math.max(map.getZoom(), 13) });
+    map.flyTo({
+      center: [position.lng, position.lat],
+      zoom: Math.max(map.getZoom(), 13),
+      speed: 1.2,
+      curve: 1.2,
+      essential: true
+    });
     map.once('idle', () => setIsContextReady(true));
     setIsPannedAway(false);
   }, [map, position]);
