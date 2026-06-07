@@ -1,5 +1,10 @@
 # Changelog
 
+## <small>0.1.16 (2026-06-07)</small>
+
+* feat: update data source descriptions and improve accuracy notes in localization files ([1db4560](https://github.com/viettrace/viettrace-map-web/commit/1db4560))
+* feat: update province coordinates and improve center calculation ([cd81034](https://github.com/viettrace/viettrace-map-web/commit/cd81034))
+
 ## <small>0.1.15 (2026-06-07)</small>
 
 * Feat/phase 8 statistics foundation (#86) ([2ed5d8f](https://github.com/viettrace/viettrace-map-web/commit/2ed5d8f)), closes [#86](https://github.com/viettrace/viettrace-map-web/issues/86)
