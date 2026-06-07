@@ -189,12 +189,16 @@ export default function MapShell() {
     }
   }, [singleMap, state.panels.detail, state.selectedFeature]);
 
-  // Mirror compareMode/dividerX changes to the URL. Province/nested selection
-  // is mirrored separately by useMapUrlState inside SingleMapShell, but that
-  // hook only runs in single-map mode. This effect is the dedicated writer
-  // for compare-related params so swipe state survives reloads even when
-  // SingleMapShell is unmounted.
+  // Write URL params for swipe compare mode.  In every other mode,
+  // useMapUrlState (inside SingleMapShell) is the authoritative URL writer.
+  // Running this effect unconditionally would clobber incoming params such as
+  // ?province= on every mount — including React StrictMode's simulated
+  // remount — before the URL-state restore in useMapUrlState has read them.
   useEffect(() => {
+    if (state.compareMode !== 'swipe') {
+      return;
+    }
+
     if (typeof window === 'undefined') {
       return;
     }

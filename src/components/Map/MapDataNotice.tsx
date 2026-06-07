@@ -39,6 +39,12 @@ export default function MapDataNotice({ onClose }: MapDataNoticeProps) {
       </div>
       <div className="mt-2 flex flex-wrap gap-1.5 sm:gap-2">
         <Link
+          href={`/${locale}/stats`}
+          className="rounded-md border border-blue-200 bg-blue-50 px-2 py-1 font-medium text-blue-700 transition-colors hover:border-blue-300 hover:bg-blue-100"
+        >
+          {t('dataNoticeStatsLink')}
+        </Link>
+        <Link
           href={`/${locale}/data-sources`}
           className="rounded-md border border-slate-200 bg-white px-2 py-1 font-medium text-slate-700 transition-colors hover:border-slate-300 hover:bg-slate-50"
         >

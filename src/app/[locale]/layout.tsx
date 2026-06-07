@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { hasLocale, NextIntlClientProvider } from 'next-intl';
+import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '../../libs/i18n/routing';
 import '../../styles/globals.css';
@@ -37,10 +38,17 @@ export default async function RootLayout({
     notFound();
   }
 
+  // Load messages for the active locale so client components receive the
+  // correct language (without this, the provider falls back to the default
+  // locale's messages and client text leaks the wrong language).
+  const messages = await getMessages({ locale });
+
   return (
     <html lang={locale}>
       <body className="antialiased">
-        <NextIntlClientProvider>{children}</NextIntlClientProvider>
+        <NextIntlClientProvider locale={locale} messages={messages}>
+          {children}
+        </NextIntlClientProvider>
       </body>
     </html>
   );

@@ -71,7 +71,7 @@ export async function loadRegionalClassification(): Promise<RegionalClassificati
     throw new Error(`Failed to load regional classification: ${response.statusText}`);
   }
 
-  cachedClassification = await response.json();
+  cachedClassification = (await response.json()) as RegionalClassification;
   return cachedClassification;
 }
 
