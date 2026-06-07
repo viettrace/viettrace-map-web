@@ -10,6 +10,7 @@ export const initialMapViewState: MapViewState = {
   mode: 'pre',
   compareMode: COMPARE_MODE_DEFAULT,
   colorMode: 'default',
+  colorModeBeforeCompare: null,
   compareDividerX: COMPARE_DIVIDER_DEFAULT,
   selectedFeature: null,
   layers: {
@@ -38,21 +39,27 @@ export function mapViewReducer(state: MapViewState, action: MapViewAction): MapV
       };
     case 'setColorMode':
       return { ...state, colorMode: action.colorMode };
-    case 'setCompareMode':
+    case 'setCompareMode': {
       // Switching to swipe mode keeps the current single-map mode as the user's
       // last toggle choice, so flipping back to toggle restores it.
       // Selection is cleared when leaving toggle mode because the detail panel
       // is intentionally suppressed in swipe mode and a stale selection would
       // re-open it on return.
+      // Region colors are forced to default in swipe mode (region fill colors
+      // don't distinguish the two maps visually) and restored on exit.
+      const enteringSwipe = action.compareMode === 'swipe';
       return {
         ...state,
         compareMode: action.compareMode,
-        selectedFeature: action.compareMode === 'toggle' ? state.selectedFeature : null,
+        colorMode: enteringSwipe ? 'default' : (state.colorModeBeforeCompare ?? state.colorMode),
+        colorModeBeforeCompare: enteringSwipe ? state.colorMode : null,
+        selectedFeature: enteringSwipe ? null : state.selectedFeature,
         panels: {
           ...state.panels,
-          detail: action.compareMode === 'toggle' ? state.panels.detail : false,
+          detail: enteringSwipe ? false : state.panels.detail,
         },
       };
+    }
     case 'setCompareDividerX':
       return {
         ...state,

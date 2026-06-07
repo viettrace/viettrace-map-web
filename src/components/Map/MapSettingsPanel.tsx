@@ -112,13 +112,17 @@ export default function MapSettingsPanel({
             />
           </Section>
 
-          <Section title={t('settingsSectionColorMode')}>
-            <div className="flex">
+          <Section
+            title={t('settingsSectionColorMode')}
+            hint={isSwipe ? t('colorModeDisabledInCompare') : undefined}
+          >
+            <div className={`flex ${isSwipe ? 'opacity-40' : ''}`}>
               <button
                 type="button"
+                disabled={isSwipe}
                 onClick={() => onColorModeChange('default')}
-                className={`flex-1 px-3 py-2.5 text-sm font-medium transition-colors first:rounded-l-xl last:rounded-r-xl ${
-                  colorMode === 'default'
+                className={`flex-1 px-3 py-2.5 text-sm font-medium transition-colors first:rounded-l-xl last:rounded-r-xl disabled:cursor-not-allowed ${
+                  !isSwipe && colorMode === 'default'
                     ? 'bg-slate-900 text-white'
                     : 'text-slate-700 hover:bg-slate-50'
                 }`}
@@ -127,9 +131,10 @@ export default function MapSettingsPanel({
               </button>
               <button
                 type="button"
+                disabled={isSwipe}
                 onClick={() => onColorModeChange('region')}
-                className={`flex-1 border-l border-slate-200 px-3 py-2.5 text-sm font-medium transition-colors first:rounded-l-xl last:rounded-r-xl ${
-                  colorMode === 'region'
+                className={`flex-1 border-l border-slate-200 px-3 py-2.5 text-sm font-medium transition-colors first:rounded-l-xl last:rounded-r-xl disabled:cursor-not-allowed ${
+                  !isSwipe && colorMode === 'region'
                     ? 'bg-slate-900 text-white'
                     : 'text-slate-700 hover:bg-slate-50'
                 }`}
@@ -150,9 +155,11 @@ export default function MapSettingsPanel({
 
 function Section({
   children,
+  hint,
   title,
 }: {
   children: React.ReactNode;
+  hint?: string;
   title: string;
 }) {
   return (
@@ -160,6 +167,9 @@ function Section({
       <h3 className="mb-1.5 px-1 text-[11px] font-semibold tracking-wide text-slate-500 uppercase">
         {title}
       </h3>
+      {hint && (
+        <p className="mb-1.5 px-1 text-[11px] text-slate-400">{hint}</p>
+      )}
       <div className="overflow-hidden rounded-xl border border-slate-200 bg-white">
         {children}
       </div>

@@ -42,6 +42,7 @@ export interface MapViewState {
   mode: MapMode;
   compareMode: CompareMode;
   colorMode: ColorMode;
+  colorModeBeforeCompare: ColorMode | null;
   compareDividerX: number;
   selectedFeature: SelectedMapFeature | null;
   layers: {

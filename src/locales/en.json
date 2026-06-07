@@ -77,6 +77,7 @@
     "settingsSectionColorMode": "Map Colors",
     "colorModeDefault": "Default",
     "colorModeRegion": "By Region",
+    "colorModeDisabledInCompare": "Not available in compare mode",
     "settingsSectionLanguage": "Language",
     "searchRegionFilter": "Filter by economic region",
     "detailRegionLabel": "Economic Region",

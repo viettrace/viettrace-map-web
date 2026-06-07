@@ -77,6 +77,7 @@
     "settingsSectionColorMode": "Màu sắc bản đồ",
     "colorModeDefault": "Mặc định",
     "colorModeRegion": "Theo vùng",
+    "colorModeDisabledInCompare": "Không khả dụng ở chế độ so sánh",
     "settingsSectionLanguage": "Ngôn ngữ",
     "searchRegionFilter": "Lọc theo vùng kinh tế",
     "detailRegionLabel": "Vùng kinh tế",
