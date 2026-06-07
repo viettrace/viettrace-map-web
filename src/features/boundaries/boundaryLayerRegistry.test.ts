@@ -287,10 +287,16 @@ describe('boundaryLayerRegistry', () => {
 
   it('tracks basemap place labels hidden during nested candidate QA', () => {
     expect(getNestedCandidateBasemapPlaceLayerIds()).toEqual([
-      'place_hamlet',
-      'place_suburbs',
-      'place_villages',
+      'place_city_dot_r4',
+      'place_city_dot_r7',
+      'place_city_dot_z7',
+      'place_capital_dot_z7',
+      'place_city_r5',
+      'place_city_r6',
       'place_town',
+      'place_villages',
+      'place_suburbs',
+      'place_hamlet',
     ]);
   });
 

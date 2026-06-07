@@ -83,10 +83,19 @@ export const labelZoomStops = {
 } as const;
 
 const nestedCandidateBasemapPlaceLayerIds = [
-  'place_hamlet',
-  'place_suburbs',
-  'place_villages',
+  // City dots/labels (zoom 5-7): appear before district labels and compete for space
+  'place_city_dot_r4',
+  'place_city_dot_r7',
+  'place_city_dot_z7',
+  'place_capital_dot_z7',
+  // City name labels (zoom 8): overlap with dense urban district labels
+  'place_city_r5',
+  'place_city_r6',
+  // Settlement labels (zoom 8-12)
   'place_town',
+  'place_villages',
+  'place_suburbs',
+  'place_hamlet',
 ] as const;
 
 export interface OffshoreIslandModeStyle {
