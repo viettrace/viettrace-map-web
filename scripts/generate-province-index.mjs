@@ -11,6 +11,10 @@ import {
   writeJson,
 } from './province-index-utils.mjs';
 
+// Label files contain intentionally-placed label points (polylabel + manual overrides).
+// They are the highest-quality center source and are used as the primary lookup.
+// Run `pnpm data:generate-labels` before this script to ensure they are up to date.
+
 const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const workspaceRoot = path.resolve(repoRoot, '..');
 const dataRoot = process.env.VIETTRACE_DATA_DIR
@@ -66,9 +70,17 @@ function createProvinceEntry(feature, mode, mergerMaps) {
   const nameEn = formatEnglishProvinceName(name, getFeatureName(feature, 'name_en'));
   const slug = createSlug(name);
   const bbox = roundBbox(computeBbox(feature.geometry));
+
+  // Label files use polylabel + manual overrides — the highest-quality center source.
+  // Fall back to computeDisplayCenter (admin_centre_node → bbox) only if absent.
+  const labelCoords = labelLookup[mode]?.get(name);
+  const center = labelCoords
+    ? [Number(labelCoords[0].toFixed(6)), Number(labelCoords[1].toFixed(6))]
+    : computeDisplayCenter(feature.properties, bbox);
+
   const entry = {
     bbox,
-    center: computeDisplayCenter(feature.properties, bbox),
+    center,
     id: `${mode}:${slug}`,
     mode,
     name,
@@ -128,6 +140,28 @@ function assertUniqueSlugs(entries) {
     seen.set(key, entry);
   }
 }
+
+function buildLabelLookup(labelFilePath) {
+  try {
+    const data = readJson(labelFilePath);
+    const map = new Map();
+    for (const feature of data.features) {
+      const name = feature.properties?.name;
+      const coords = feature.geometry?.coordinates;
+      if (name && Array.isArray(coords) && coords.length === 2) {
+        map.set(name, coords);
+      }
+    }
+    return map;
+  } catch {
+    return new Map();
+  }
+}
+
+const labelLookup = {
+  pre: buildLabelLookup(path.join(publicDataRoot, 'province-labels-pre.json')),
+  post: buildLabelLookup(path.join(publicDataRoot, 'province-labels-post.json')),
+};
 
 const mergerInfo = readJson(resolvePublicDataPath(sources.mergerInfo));
 const mergerMaps = buildMergerMaps(mergerInfo);

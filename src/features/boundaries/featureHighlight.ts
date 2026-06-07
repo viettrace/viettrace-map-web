@@ -31,6 +31,19 @@ const ORIGINAL_LABEL_FILTERS = new WeakMap<
   Map<string, maplibregl.FilterSpecification | undefined>
 >();
 
+// Offshore island label positions mirror offshore-island-labels.json.
+// Used to position the highlight label where the normal island label was.
+const OFFSHORE_ISLAND_POSITIONS: Record<string, [number, number]> = {
+  'Hoang Sa': [111.95, 16.45],
+  'Truong Sa': [114.5, 10.2],
+};
+
+function getOffshoreIslandKey(featureName: string): string | null {
+  if (/hoàng\s*sa|hoang\s*sa/i.test(featureName)) return 'Hoang Sa';
+  if (/trường\s*sa|truong\s*sa/i.test(featureName)) return 'Truong Sa';
+  return null;
+}
+
 interface HighlightFeatureOptions {
   map: maplibregl.Map;
   center: [number, number];
@@ -58,6 +71,17 @@ export function highlightFeature({
   // Hide the regular label for this specific feature to avoid duplicate.
   // Cache the original filter first so clearHighlight can restore it.
   hideLabelForFeature(map, labelLayerIds, featureName);
+
+  // For Hoàng Sa / Trường Sa features the authoritative label comes from the
+  // offshore island label layer (name: "Hoang Sa" / "Truong Sa"), not from the
+  // province/district layers above. Hide it and position the dot there instead.
+  const offshoreKey = getOffshoreIslandKey(featureName);
+  const effectiveCenter: [number, number] = offshoreKey
+    ? (OFFSHORE_ISLAND_POSITIONS[offshoreKey] ?? center)
+    : center;
+  if (offshoreKey) {
+    hideLabelForFeature(map, [boundaryLayerIds.islandsLabel], offshoreKey);
+  }
 
   // Add boundary highlight (fill + outline) from the tile source
   const boundaryFilter: maplibregl.FilterSpecification = [
@@ -95,7 +119,7 @@ export function highlightFeature({
     type: 'geojson',
     data: {
       type: 'Feature',
-      geometry: { type: 'Point', coordinates: [center[0], center[1]] },
+      geometry: { type: 'Point', coordinates: [effectiveCenter[0], effectiveCenter[1]] },
       properties: { label },
     },
   };

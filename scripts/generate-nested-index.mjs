@@ -3,6 +3,7 @@ import { fileURLToPath } from 'node:url';
 import {
   compareAdministrativeName,
   computeBbox,
+  computeVisualCenter,
   createSlug,
   latinizeVietnamese,
   readJson,
@@ -36,13 +37,6 @@ function getStringProperty(properties, field) {
   return value;
 }
 
-function computeBboxCenter(bbox) {
-  return [
-    Number(((bbox[0] + bbox[2]) / 2).toFixed(6)),
-    Number(((bbox[1] + bbox[3]) / 2).toFixed(6)),
-  ];
-}
-
 function buildNestedEntry(feature, mode, type) {
   const properties = feature.properties || {};
   const name = getStringProperty(properties, 'name');
@@ -60,10 +54,13 @@ function buildNestedEntry(feature, mode, type) {
   const sourceId = getStringProperty(properties, 'source_id') ?? '';
   const id = `${mode}:${type}:${slug}${sourceId ? `:${sourceId}` : ''}`;
   const bbox = roundBbox(computeBbox(feature.geometry));
+  // Use polylabel (pole of inaccessibility) so island/coastal districts get a center
+  // that is inside the actual land polygon, not in the surrounding ocean.
+  const center = computeVisualCenter(feature.geometry, bbox);
 
   return {
     bbox,
-    center: computeBboxCenter(bbox),
+    center,
     id,
     mode,
     name,

@@ -29,6 +29,7 @@ export type MergerCase = {
   resultSlug: string; // Post province slug, for deep-linking to the map
   components: string[]; // All pre-2025 provinces that form it (survivor first, then absorbed)
   componentCount: number; // Total number of pre-2025 provinces combined
+  mergeDate?: string; // ISO date string from merger metadata (e.g. "2025-07-01")
 };
 
 /**
@@ -108,6 +109,7 @@ export async function getMergerStats(): Promise<MergerStats> {
         resultSlug: p.slug,
         components,
         componentCount: components.length,
+        mergeDate: p.merger?.mergeDate,
       };
     })
     .sort((a, b) => {

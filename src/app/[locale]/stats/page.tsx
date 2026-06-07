@@ -49,7 +49,7 @@ export default async function StatsPage({ params }: PageProps) {
           </h1>
           <p className="mt-3 text-lg text-slate-600 dark:text-slate-400">{t('subtitle')}</p>
           <div className="mt-4">
-            <StatsToolbar />
+            <StatsToolbar mergers={stats.mergers} />
           </div>
         </div>
 
@@ -162,6 +162,45 @@ export default async function StatsPage({ params }: PageProps) {
             )}
           </div>
         </section>
+
+        {/* Notable Mergers */}
+        {stats.biggestMergers.length > 0 && (
+          <section className="mb-12">
+            <h2 className="mb-2 text-2xl font-semibold text-slate-900 dark:text-slate-100">
+              {t('notableMergersTitle')}
+            </h2>
+            <p className="mb-6 text-slate-600 dark:text-slate-400">
+              {t('notableMergersDescription', {
+                n: stats.biggestMergers[0]?.componentCount ?? 0,
+              })}
+            </p>
+            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+              {stats.biggestMergers.map((m) => (
+                <div
+                  key={m.resultSlug}
+                  className="flex flex-col gap-3 rounded-xl border border-blue-100 bg-white p-5 shadow-sm transition-shadow hover:shadow-md dark:border-blue-900/30 dark:bg-slate-900"
+                >
+                  <span className="inline-flex w-fit items-center rounded-full bg-blue-50 px-2.5 py-0.5 text-xs font-semibold text-blue-700 dark:bg-blue-900/30 dark:text-blue-300">
+                    {t('componentCountBadge', { n: m.componentCount })}
+                  </span>
+                  <h3 className="text-lg font-semibold leading-snug text-slate-900 dark:text-slate-100">
+                    {m.resultName}
+                  </h3>
+                  <p className="text-sm text-slate-600 dark:text-slate-400">
+                    <span className="font-medium">{t('combinedFrom')}:</span>{' '}
+                    {m.components.join(' + ')}
+                  </p>
+                  <Link
+                    href={`/${locale}/map?mode=post&province=${m.resultSlug}`}
+                    className="mt-auto inline-flex items-center gap-1 text-sm font-medium text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300"
+                  >
+                    {t('viewOnMap')} →
+                  </Link>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
 
         {/* Detailed Merger Breakdown */}
         <section className="mb-12">
