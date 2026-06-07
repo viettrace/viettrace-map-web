@@ -4,9 +4,10 @@ import MapLanguageSwitch from '@src/components/Map/MapLanguageSwitch';
 import { Link } from '@src/libs/i18n/navigation';
 import { routing } from '@src/libs/i18n/routing';
 
-const OSM_BOUNDARIES_URL = 'https://osm-boundaries.com/';
+const OSM_URL = 'https://www.openstreetmap.org/';
 const GEOBOUNDARIES_URL = 'https://www.geoboundaries.org/';
-const REPORT_DATA_ISSUE_URL = 'https://github.com/viettrace/viettrace-map-web/issues/new?template=data_issue.md';
+const REPORT_DATA_ISSUE_URL =
+  'https://github.com/viettrace/viettrace-map-web/issues/new?template=data_issue.md';
 
 type Locale = (typeof routing.locales)[number];
 
@@ -14,149 +15,95 @@ interface PageProps {
   params: Promise<{ locale: string }>;
 }
 
+interface SourceEntry {
+  name: string;
+  description: string;
+  license: string;
+  url: string;
+}
+
 const copy = {
   vi: {
     title: 'Nguồn dữ liệu',
     description:
-      'Viettrace dùng dữ liệu hành chính có nguồn gốc mở để hiển thị ranh giới tỉnh/thành trước và sau đợt sáp nhập tháng 7/2025.',
+      'Ranh giới hành chính trên Viettrace được tổng hợp từ các nguồn dữ liệu mở và cập nhật theo đợt sáp nhập hành chính tháng 7/2025.',
     backToMap: 'Quay lại bản đồ',
+    sourcesTitle: 'Dữ liệu đến từ đâu?',
+    sources: [
+      {
+        name: 'OpenStreetMap',
+        description:
+          'Bản đồ cộng đồng do hàng triệu tình nguyện viên toàn cầu đóng góp và duy trì. Viettrace dùng dữ liệu ranh giới tỉnh/thành, quận/huyện và phường/xã từ nguồn này.',
+        license: 'ODbL',
+        url: OSM_URL,
+      },
+      {
+        name: 'geoBoundaries',
+        description:
+          'Dữ liệu ranh giới hành chính học thuật. Viettrace dùng làm tham chiếu riêng cho Hoàng Sa và Trường Sa.',
+        license: 'CC BY 4.0',
+        url: GEOBOUNDARIES_URL,
+      },
+    ] as SourceEntry[],
+    accuracyTitle: 'Về độ chính xác',
+    accuracy: [
+      'Ranh giới hiển thị mang tính tham khảo và không phải tài liệu pháp lý chính thức.',
+      'Thông tin quận/huyện và phường/xã có thể chưa đầy đủ ở một số khu vực.',
+      'Hoàng Sa và Trường Sa được hiển thị theo dữ liệu tham chiếu quốc tế.',
+    ],
+    reportTitle: 'Phát hiện lỗi?',
+    reportDescription:
+      'Nếu thấy ranh giới sai, tên không đúng hoặc thiếu thông tin, vui lòng báo cáo để chúng tôi cải thiện.',
     reportIssue: 'Báo lỗi dữ liệu',
-    sections: {
-      currentData: 'Dữ liệu đang dùng',
-      licenses: 'License và ghi công',
-      limitations: 'Giới hạn đã biết',
-      updatePolicy: 'Cách cập nhật',
-    },
-    rows: [
-      {
-        dataset: 'Ranh giới tỉnh/thành trước 7/2025',
-        source: 'OSM-Boundaries, admin level 4',
-        use: 'Lớp 63 tỉnh/thành.',
-      },
-      {
-        dataset: 'Ranh giới tỉnh/thành sau 7/2025',
-        source: 'OSM-Boundaries, admin level 4, đã lọc các bản ghi historic',
-        use: 'Lớp 34 tỉnh/thành.',
-      },
-      {
-        dataset: 'Lớp hiển thị tỉnh/thành',
-        source: 'Dữ liệu OSM-Boundaries đã xử lý bằng script của Viettrace',
-        use: 'Loại bỏ phần Trường Sa bị trùng trong geometry Khánh Hòa để tránh chồng lấn với lớp đảo ngoài khơi.',
-      },
-      {
-        dataset: 'Hoàng Sa và Trường Sa',
-        source: 'geoBoundaries ADM2',
-        use: 'Lớp tham chiếu đảo ngoài khơi, tách riêng khỏi dữ liệu tỉnh/thành.',
-      },
-      {
-        dataset: 'Ranh giới quận/huyện trước 7/2025',
-        source: 'OSM-Boundaries, admin level 6, đã chuẩn hóa và gán tỉnh/thành cha',
-        use: 'Lớp 695 quận/huyện hiện qua zoom 7+ (694 từ OSM-Boundaries và 1 đơn vị bổ sung Huyện Hoàng Sa lấy hình học từ tham chiếu Hoàng Sa của geoBoundaries để đồng bộ với Đặc khu Hoàng Sa sau 7/2025). Tile dạng PMTiles tĩnh trên CDN.',
-      },
-      {
-        dataset: 'Ranh giới phường/xã/đặc khu sau 7/2025',
-        source: 'OSM-Boundaries, admin level 6, đối chiếu với danh sách 3.321 đơn vị chính thức',
-        use: 'Lớp 3.321 phường/xã hiện qua zoom 8+. Tile dạng PMTiles tĩnh trên CDN.',
-      },
-    ],
-    tableHeaders: {
-      dataset: 'Bộ dữ liệu',
-      source: 'Nguồn',
-      use: 'Cách dùng trên Viettrace',
-    },
-    licenses: [
-      'Dữ liệu có nguồn gốc OpenStreetMap được ghi công bằng “© OpenStreetMap contributors” trong giao diện bản đồ.',
-      'Dữ liệu Hoàng Sa và Trường Sa từ geoBoundaries được ghi công bằng “© geoBoundaries www.geoboundaries.org”.',
-      'Viettrace giữ dữ liệu gốc và dữ liệu đã xử lý tách riêng để phục vụ kiểm tra và truy vết thay đổi.',
-    ],
-    limitations: [
-      'Dữ liệu OSM-Boundaries có thể chưa hoàn toàn chính xác ở mọi khu vực.',
-      'Hoàng Sa không có geometry admin-level-4 phù hợp trong export OSM-Boundaries hiện tại, nên đang dùng lớp tham chiếu riêng từ geoBoundaries ADM2.',
-      'Ranh giới Trường Sa trong dữ liệu OSM-derived của Khánh Hòa được loại khỏi lớp hiển thị để tránh chồng lấn, nhưng dữ liệu gốc vẫn được giữ để audit.',
-      'Phiên bản phường/xã sau 7/2025 đã đối chiếu với danh sách 3.321 đơn vị chính thức; 3 đơn vị (Đặc khu Hoàng Sa, Phường Quảng Trị, Xã Lục Hồn) được xây bổ sung từ nguồn nghiên cứu để đạt đủ số đơn vị.',
-      'Huyện Hoàng Sa không có geometry admin-level-6 trong export OSM-Boundaries hiện tại, nên được bổ sung từ tham chiếu Hoàng Sa của geoBoundaries để có thể tìm kiếm và xem chi tiết ở chế độ trước 7/2025; đây là dữ liệu nghiên cứu, không phải đính chính ranh giới.',
-      'Nguồn ranh giới phường/xã trước 7/2025 đầy đủ chưa khả dụng. Khi có dữ liệu hoặc đóng góp cộng đồng phù hợp, lớp này sẽ được bổ sung.',
-    ],
-    updatePolicy:
-      'Các lỗi về ranh giới, tên tỉnh/thành, metadata sáp nhập hoặc vị trí label nên được gửi qua issue template để có bằng chứng, vị trí và ngữ cảnh rõ ràng trước khi cập nhật dữ liệu.',
   },
   en: {
     title: 'Data Sources',
     description:
-      'Viettrace uses open administrative-boundary datasets to show Vietnam province/city boundaries before and after the July 2025 merger.',
+      'Administrative boundaries on Viettrace are compiled from open datasets and updated to reflect the July 2025 administrative merger.',
     backToMap: 'Back to map',
+    sourcesTitle: 'Where does the data come from?',
+    sources: [
+      {
+        name: 'OpenStreetMap',
+        description:
+          'A community-built map maintained by millions of volunteers worldwide. Viettrace uses province, district, and ward boundary data from this source.',
+        license: 'ODbL',
+        url: OSM_URL,
+      },
+      {
+        name: 'geoBoundaries',
+        description:
+          'Academic administrative boundary data from William & Mary University. Viettrace uses this as a reference layer for Hoang Sa and Truong Sa.',
+        license: 'CC BY 4.0',
+        url: GEOBOUNDARIES_URL,
+      },
+    ] as SourceEntry[],
+    accuracyTitle: 'About accuracy',
+    accuracy: [
+      'Displayed boundaries are approximate and not official legal documents.',
+      'District and ward data may be incomplete in some areas.',
+      'Hoang Sa and Truong Sa are displayed based on international reference data.',
+    ],
+    reportTitle: 'Found an issue?',
+    reportDescription:
+      'If you spot a boundary error, incorrect name, or missing information, please report it so we can improve.',
     reportIssue: 'Report data issue',
-    sections: {
-      currentData: 'Current Data',
-      licenses: 'Licenses And Attribution',
-      limitations: 'Known Limitations',
-      updatePolicy: 'Update Policy',
-    },
-    rows: [
-      {
-        dataset: 'Pre-July-2025 province/city boundaries',
-        source: 'OSM-Boundaries, admin level 4',
-        use: 'The 63-province layer.',
-      },
-      {
-        dataset: 'Post-July-2025 province/city boundaries',
-        source: 'OSM-Boundaries, admin level 4, with historic records filtered out',
-        use: 'The 34-province layer.',
-      },
-      {
-        dataset: 'Display province layers',
-        source: 'OSM-Boundaries data processed by Viettrace scripts',
-        use: 'Removes the Truong Sa overlap from the Khanh Hoa geometry so it does not collide with the offshore-islands layer.',
-      },
-      {
-        dataset: 'Hoang Sa and Truong Sa',
-        source: 'geoBoundaries ADM2',
-        use: 'Separate offshore-islands reference layer, not merged into the province/city datasets.',
-      },
-      {
-        dataset: 'Pre-July-2025 district boundaries',
-        source: 'OSM-Boundaries, admin level 6, normalized with parent-province assignment',
-        use: '695 districts visible from zoom 7+ (694 from OSM-Boundaries plus 1 research gap-fill, Hoang Sa District, with geometry copied from the geoBoundaries Hoang Sa reference for parity with the post-2025 Hoang Sa Special Zone). Served as static PMTiles on CDN.',
-      },
-      {
-        dataset: 'Post-July-2025 ward/commune/special-zone boundaries',
-        source: 'OSM-Boundaries, admin level 6, reconciled against the official 3,321-unit list',
-        use: '3,321 wards visible from zoom 8+. Served as static PMTiles on CDN.',
-      },
-    ],
-    tableHeaders: {
-      dataset: 'Dataset',
-      source: 'Source',
-      use: 'Use In Viettrace',
-    },
-    licenses: [
-      'OpenStreetMap-derived data is attributed as “© OpenStreetMap contributors” in the map UI.',
-      'Hoang Sa and Truong Sa data from geoBoundaries is attributed as “© geoBoundaries www.geoboundaries.org”.',
-      'Viettrace keeps raw and processed data separate so changes can be audited and traced.',
-    ],
-    limitations: [
-      'OSM-Boundaries data may not be perfectly accurate in every area.',
-      'Hoang Sa does not have suitable admin-level-4 geometry in the current OSM-Boundaries export, so Viettrace uses a separate geoBoundaries ADM2 reference layer.',
-      'Truong Sa geometry from the OSM-derived Khanh Hoa province feature is removed from the display layer to avoid overlap, while the original source data is preserved for audit.',
-      'The post-2025 ward dataset is reconciled against the official 3,321-unit list; 3 units (Hoang Sa Special Zone, Quang Tri Ward, Luc Hong Commune) are research gap-fills constructed from related source geometries to reach the official count.',
-      'Pre-2025 Hoang Sa District has no admin-level-6 geometry in the current OSM-Boundaries export, so a research gap-fill copies the geoBoundaries Hoang Sa reference geometry to make the district searchable and selectable in pre mode. This is a UX parity decision, not a boundary correction.',
-      'A complete pre-2025 commune/ward source is not yet available. The layer will be added when a suitable source or community contribution becomes available.',
-    ],
-    updatePolicy:
-      'Boundary, name, merger-metadata, and label-placement corrections should be reported through the issue template with clear evidence, location, and context before data is updated.',
   },
-} satisfies Record<Locale, {
-  title: string;
-  description: string;
-  backToMap: string;
-  reportIssue: string;
-  sections: Record<'currentData' | 'licenses' | 'limitations' | 'updatePolicy', string>;
-  rows: Array<{ dataset: string; source: string; use: string }>;
-  tableHeaders: Record<'dataset' | 'source' | 'use', string>;
-  licenses: string[];
-  limitations: string[];
-  updatePolicy: string;
-}>;
+} satisfies Record<
+  Locale,
+  {
+    title: string;
+    description: string;
+    backToMap: string;
+    sourcesTitle: string;
+    sources: SourceEntry[];
+    accuracyTitle: string;
+    accuracy: string[];
+    reportTitle: string;
+    reportDescription: string;
+    reportIssue: string;
+  }
+>;
 
 export default async function DataSourcesPage({ params }: PageProps) {
   const { locale } = await params;
@@ -169,7 +116,7 @@ export default async function DataSourcesPage({ params }: PageProps) {
 
   return (
     <main className="min-h-dvh bg-slate-50 text-slate-950">
-      <div className="mx-auto flex w-full max-w-5xl flex-col gap-10 px-4 py-8 sm:px-6 lg:px-8">
+      <div className="mx-auto flex w-full max-w-4xl flex-col gap-10 px-4 py-8 sm:px-6 lg:px-8">
         <header className="flex flex-col gap-5 border-b border-slate-200 pb-8">
           <div className="flex flex-wrap items-center justify-between gap-3">
             <Link
@@ -181,81 +128,54 @@ export default async function DataSourcesPage({ params }: PageProps) {
             </Link>
             <MapLanguageSwitch fallbackPathname="/data-sources" />
           </div>
-          <div className="max-w-3xl">
-            <h1 className="text-3xl font-semibold tracking-normal text-slate-950 sm:text-4xl">{t.title}</h1>
+          <div className="max-w-2xl">
+            <h1 className="text-3xl font-semibold tracking-normal text-slate-950 sm:text-4xl">
+              {t.title}
+            </h1>
             <p className="mt-3 text-base leading-7 text-slate-700">{t.description}</p>
           </div>
         </header>
 
-        <section className="overflow-hidden">
-          <h2 className="text-xl font-semibold text-slate-950">{t.sections.currentData}</h2>
-          <div className="mt-4 overflow-x-auto rounded-lg border border-slate-200 bg-white">
-            <table className="min-w-full divide-y divide-slate-200 text-left text-sm">
-              <thead className="bg-slate-100 text-slate-700">
-                <tr>
-                  <th scope="col" className="px-4 py-3 font-semibold">
-                    {t.tableHeaders.dataset}
-                  </th>
-                  <th scope="col" className="px-4 py-3 font-semibold">
-                    {t.tableHeaders.source}
-                  </th>
-                  <th scope="col" className="px-4 py-3 font-semibold">
-                    {t.tableHeaders.use}
-                  </th>
-                </tr>
-              </thead>
-              <tbody className="divide-y divide-slate-200">
-                {t.rows.map((row) => (
-                  <tr key={row.dataset}>
-                    <td className="px-4 py-3 align-top font-medium text-slate-950">{row.dataset}</td>
-                    <td className="px-4 py-3 align-top text-slate-700">{row.source}</td>
-                    <td className="px-4 py-3 align-top text-slate-700">{row.use}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        </section>
-
         <section>
-          <h2 className="text-xl font-semibold text-slate-950">{t.sections.licenses}</h2>
-          <ul className="mt-4 space-y-3 text-sm leading-6 text-slate-700">
-            {t.licenses.map((item) => (
-              <li key={item}>{item}</li>
+          <h2 className="text-xl font-semibold text-slate-950">{t.sourcesTitle}</h2>
+          <div className="mt-4 grid gap-4 sm:grid-cols-2">
+            {t.sources.map(source => (
+              <a
+                key={source.name}
+                href={source.url}
+                target="_blank"
+                rel="noreferrer"
+                className="group flex flex-col gap-3 rounded-xl border border-slate-200 bg-white p-5 shadow-sm transition-shadow hover:shadow-md"
+              >
+                <div className="flex items-start justify-between gap-2">
+                  <span className="text-base font-semibold text-slate-950 group-hover:text-blue-700 transition-colors">
+                    {source.name}
+                  </span>
+                  <span className="shrink-0 rounded-full bg-slate-100 px-2 py-0.5 text-xs font-medium text-slate-600">
+                    {source.license}
+                  </span>
+                </div>
+                <p className="text-sm leading-6 text-slate-700">{source.description}</p>
+              </a>
             ))}
-          </ul>
-          <div className="mt-4 flex flex-wrap gap-2 text-sm">
-            <a
-              href={OSM_BOUNDARIES_URL}
-              target="_blank"
-              rel="noreferrer"
-              className="rounded-md border border-slate-300 bg-white px-3 py-2 font-medium text-slate-700 transition-colors hover:border-slate-400 hover:bg-slate-100"
-            >
-              OSM-Boundaries
-            </a>
-            <a
-              href={GEOBOUNDARIES_URL}
-              target="_blank"
-              rel="noreferrer"
-              className="rounded-md border border-slate-300 bg-white px-3 py-2 font-medium text-slate-700 transition-colors hover:border-slate-400 hover:bg-slate-100"
-            >
-              geoBoundaries
-            </a>
           </div>
         </section>
 
         <section>
-          <h2 className="text-xl font-semibold text-slate-950">{t.sections.limitations}</h2>
-          <ul className="mt-4 space-y-3 text-sm leading-6 text-slate-700">
-            {t.limitations.map((item) => (
-              <li key={item}>{item}</li>
+          <h2 className="text-xl font-semibold text-slate-950">{t.accuracyTitle}</h2>
+          <ul className="mt-4 space-y-2">
+            {t.accuracy.map(item => (
+              <li key={item} className="flex items-start gap-2.5 text-sm leading-6 text-slate-700">
+                <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-slate-400" />
+                {item}
+              </li>
             ))}
           </ul>
         </section>
 
         <section className="border-t border-slate-200 pt-8">
-          <h2 className="text-xl font-semibold text-slate-950">{t.sections.updatePolicy}</h2>
-          <p className="mt-4 max-w-3xl text-sm leading-6 text-slate-700">{t.updatePolicy}</p>
+          <h2 className="text-xl font-semibold text-slate-950">{t.reportTitle}</h2>
+          <p className="mt-3 max-w-2xl text-sm leading-6 text-slate-700">{t.reportDescription}</p>
           <a
             href={REPORT_DATA_ISSUE_URL}
             target="_blank"

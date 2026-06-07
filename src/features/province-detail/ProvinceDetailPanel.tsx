@@ -94,13 +94,6 @@ export default function ProvinceDetailPanel({ entry, onClose }: ProvinceDetailPa
           )}
         </section>
 
-        <section className="border-t border-slate-200 pt-4">
-          <h3 className="text-xs font-semibold uppercase tracking-normal text-slate-500">
-            {t('detailDataTitle')}
-          </h3>
-          <p className="mt-2 leading-6">{t('detailDataBody')}</p>
-        </section>
-
         <div className="flex flex-wrap gap-2 border-t border-slate-200 pt-4">
           {statsHref && (
             <Link
