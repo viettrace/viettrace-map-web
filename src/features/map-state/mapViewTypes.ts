@@ -1,5 +1,6 @@
 export type MapMode = 'pre' | 'post';
 export type CompareMode = 'toggle' | 'swipe';
+export type ColorMode = 'default' | 'region';
 
 export const COMPARE_MODE_DEFAULT: CompareMode = 'toggle';
 export const COMPARE_DIVIDER_DEFAULT = 0.5;
@@ -40,6 +41,7 @@ export type SelectedMapFeature = SelectedProvinceFeature | SelectedNestedFeature
 export interface MapViewState {
   mode: MapMode;
   compareMode: CompareMode;
+  colorMode: ColorMode;
   compareDividerX: number;
   selectedFeature: SelectedMapFeature | null;
   layers: {
@@ -55,6 +57,7 @@ export interface MapViewState {
 export type MapViewAction =
   | { type: 'setMode'; mode: MapMode }
   | { type: 'setCompareMode'; compareMode: CompareMode }
+  | { type: 'setColorMode'; colorMode: ColorMode }
   | { type: 'setCompareDividerX'; dividerX: number }
   | { type: 'setNestedCandidatesVisible'; visible: boolean }
   | { type: 'setOffshoreIslandsVisible'; visible: boolean }

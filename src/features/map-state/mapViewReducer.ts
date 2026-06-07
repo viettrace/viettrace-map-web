@@ -9,6 +9,7 @@ import {
 export const initialMapViewState: MapViewState = {
   mode: 'pre',
   compareMode: COMPARE_MODE_DEFAULT,
+  colorMode: 'default',
   compareDividerX: COMPARE_DIVIDER_DEFAULT,
   selectedFeature: null,
   layers: {
@@ -35,6 +36,8 @@ export function mapViewReducer(state: MapViewState, action: MapViewAction): MapV
           detail: state.selectedFeature?.mode === action.mode ? state.panels.detail : false,
         },
       };
+    case 'setColorMode':
+      return { ...state, colorMode: action.colorMode };
     case 'setCompareMode':
       // Switching to swipe mode keeps the current single-map mode as the user's
       // last toggle choice, so flipping back to toggle restores it.

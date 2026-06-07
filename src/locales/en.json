@@ -44,7 +44,8 @@
     "print": "Print",
     "dataSourceTitle": "Data Source",
     "dataSourceContent": "Figures are based on National Assembly Resolution No. 202/2025/QH15 (June 12, 2025) on the reorganisation of provincial administrative units (new units operating from July 1, 2025). Administrative boundary data from OSM-Boundaries (© OpenStreetMap contributors).",
-    "backToMap": "← Back to Map"
+    "backToMap": "← Back to Map",
+    "regionFilterLabel": "Economic Region"
   },
   "Map": {
     "title": "Viettrace — Vietnam Historical Map",
@@ -69,7 +70,12 @@
     "settingsTitle": "Map settings",
     "settingsSectionView": "View",
     "settingsSectionCompare": "Compare",
+    "settingsSectionColorMode": "Map Colors",
+    "colorModeDefault": "Default",
+    "colorModeRegion": "By Region",
     "settingsSectionLanguage": "Language",
+    "searchRegionFilter": "Filter by economic region",
+    "detailRegionLabel": "Economic Region",
     "languageSwitchLabel": "Language",
     "languageEnglish": "English",
     "languageVietnamese": "Vietnamese",
@@ -135,6 +141,15 @@
     "wardLabel": "Ward / commune",
     "outsideVietnam": "Outside Vietnam",
     "dismiss": "Dismiss"
+  },
+  "Regions": {
+    "all": "All",
+    "Northern_Midlands_Mountains": "Northern Midlands & Mountains",
+    "Red_River_Delta": "Red River Delta",
+    "North_Central_Coast": "North Central & Central Coast",
+    "South_Central_Coast_Highlands": "South Central & Central Highlands",
+    "Southeast": "Southeast",
+    "Mekong_River_Delta": "Mekong River Delta"
   },
   "HomePage": {
     "title": "Viettrace",

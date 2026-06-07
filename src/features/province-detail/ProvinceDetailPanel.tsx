@@ -1,8 +1,13 @@
 'use client';
 
+import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { useLocale, useTranslations } from 'next-intl';
 import type { ProvinceIndexEntry } from '@src/features/province-index/provinceIndexTypes';
+import {
+  loadRegionalClassification,
+  type RegionMetadata,
+} from '@src/types/regional-classification';
 
 const REPORT_DATA_ISSUE_URL =
   'https://github.com/viettrace/viettrace-map-web/issues/new?template=data_issue.md';
@@ -28,6 +33,23 @@ export default function ProvinceDetailPanel({ entry, onClose }: ProvinceDetailPa
   const secondaryName = getSecondaryName(entry, locale);
   const reportIssueUrl = buildReportIssueUrl(entry);
   const statsHref = buildStatsHref(entry, locale);
+  const [region, setRegion] = useState<RegionMetadata | null>(null);
+
+  useEffect(() => {
+    loadRegionalClassification()
+      .then(data => {
+        const regionKey = data.provinceToRegion[entry.slug];
+        if (!regionKey) return;
+        const def = data.regions[regionKey];
+        setRegion({
+          key: regionKey,
+          name_vi: def.name_vi,
+          name_en: def.name_en,
+          provinceCount: data.stats.regions[regionKey],
+        });
+      })
+      .catch(() => {});
+  }, [entry.slug]);
 
   return (
     <aside className="absolute right-3 bottom-[var(--map-panel-bottom)] left-3 z-20 max-h-[42dvh] overflow-y-auto rounded-lg border border-slate-200 bg-white/95 text-sm text-slate-700 shadow-xl backdrop-blur-sm md:top-24 md:right-4 md:bottom-auto md:left-auto md:max-h-[calc(100dvh-8rem)] md:w-96">
@@ -60,6 +82,16 @@ export default function ProvinceDetailPanel({ entry, onClose }: ProvinceDetailPa
             {t('detailMergerTitle')}
           </h3>
           <div className="mt-2">{renderMergerInfo(entry, t)}</div>
+          {region && (
+            <dl className="mt-3 space-y-1">
+              <div>
+                <dt className="text-xs text-slate-500">{t('detailRegionLabel')}</dt>
+                <dd className="font-medium text-slate-950">
+                  {locale === 'en' ? region.name_en : region.name_vi}
+                </dd>
+              </div>
+            </dl>
+          )}
         </section>
 
         <section className="border-t border-slate-200 pt-4">

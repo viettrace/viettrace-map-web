@@ -9,7 +9,7 @@ import MapDataNotice from '@src/components/Map/MapDataNotice';
 import { clearHighlight, highlightFeature } from '@src/features/boundaries/featureHighlight';
 import CompareMapShell from '@src/features/compare/CompareMapShell';
 import { initialMapViewState, mapViewReducer } from '@src/features/map-state/mapViewReducer';
-import type { CompareMode } from '@src/features/map-state/mapViewTypes';
+import type { ColorMode, CompareMode } from '@src/features/map-state/mapViewTypes';
 import { readMapUrlState, writeMapUrlState } from '@src/features/map-state/urlState';
 import { useNestedIndex } from '@src/features/nested-index/useNestedIndex';
 import type { NestedIndexEntry } from '@src/features/nested-index/nestedIndexTypes';
@@ -214,6 +214,10 @@ export default function MapShell() {
     }
   }, [state]);
 
+  function handleColorModeChange(colorMode: ColorMode) {
+    dispatch({ colorMode, type: 'setColorMode' });
+  }
+
   function handleCompareModeChange(compareMode: CompareMode) {
     dispatch({ compareMode, type: 'setCompareMode' });
   }
@@ -262,8 +266,10 @@ export default function MapShell() {
       />
 
       <MapSettingsPanel
+        colorMode={state.colorMode}
         compareMode={state.compareMode}
         mode={state.mode}
+        onColorModeChange={handleColorModeChange}
         onCompareModeChange={handleCompareModeChange}
         onToggle={mode => dispatch({ mode, type: 'setMode' })}
       />

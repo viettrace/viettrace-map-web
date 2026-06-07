@@ -3,12 +3,15 @@
 import { useEffect } from 'react';
 import type maplibregl from 'maplibre-gl';
 import { useLocale } from 'next-intl';
-import type { MapViewState } from '@src/features/map-state/mapViewTypes';
+import type { ColorMode, MapViewState } from '@src/features/map-state/mapViewTypes';
+import type { ProvinceIndexEntry } from '@src/features/province-index/provinceIndexTypes';
 import { readPublicEnv } from '@src/libs/config/publicEnv';
 import { replaceLayer } from '@src/libs/maplibre/layers';
 import { ensureSource } from '@src/libs/maplibre/sources';
 import { setLayerGroupVisibility } from '@src/libs/maplibre/visibility';
+import { loadRegionalClassification, type Region } from '@src/types/regional-classification';
 import {
+  boundaryLayerIds,
   getBoundaryLayerDefinitions,
   getBoundaryLayerGroups,
   getBoundarySourceDefinitions,
@@ -20,12 +23,94 @@ import {
 
 const NATIONAL_CAPITAL_ICON_ID = 'national-capital-star';
 
+// Hues evenly spread across the color wheel so regions stay visually distinct even at
+// reduced opacity. Opacity is raised to 0.3 in region mode (vs the default 0.1) to
+// compensate for the lighter appearance of the basemap bleed-through.
+const REGION_FILL_COLORS: Record<Region, string> = {
+  Northern_Midlands_Mountains: '#7c3aed', // violet
+  Red_River_Delta: '#dc2626',             // red
+  North_Central_Coast: '#0891b2',         // cyan-teal
+  South_Central_Coast_Highlands: '#d97706', // amber
+  Southeast: '#15803d',                   // forest green
+  Mekong_River_Delta: '#1d4ed8',          // blue
+};
+
+const REGION_LABELS_SOURCE_ID = 'region-labels-source';
+const REGION_LABELS_LAYER_ID = 'region-labels-layer';
+
+// Approximate geographic centroids for each region's name label.
+// Positioned to avoid dense province-label clusters (e.g. Red River Delta).
+const REGION_LABEL_POSITIONS: Record<Region, [number, number]> = {
+  Northern_Midlands_Mountains: [105.4, 21.9],  // between Tuyên Quang and Thái Nguyên
+  Red_River_Delta: [106.3, 20.4],
+  North_Central_Coast: [105.9, 17.9],           // between Hà Tĩnh and Quảng Bình
+  South_Central_Coast_Highlands: [108.1, 13.8],
+  Southeast: [107.0, 11.3],
+  Mekong_River_Delta: [105.3, 10.0],
+};
+
+// Extracted to module level so the registration effect can call it synchronously after
+// recreating layers (replaceLayer resets paint to defaults). Effect A also calls this
+// on colorMode/provinceEntries changes, but no longer needs state.mode in its deps.
+function applyRegionFillColors(
+  map: maplibregl.Map,
+  colorMode: ColorMode,
+  provinceEntries: ProvinceIndexEntry[],
+): void {
+  const preFillId = boundaryLayerIds.preFill;
+  const postFillId = boundaryLayerIds.postFill;
+
+  if (colorMode === 'default') {
+    if (map.getLayer(preFillId)) {
+      map.setPaintProperty(preFillId, 'fill-color', '#d44');
+      map.setPaintProperty(preFillId, 'fill-opacity', 0.1);
+    }
+    if (map.getLayer(postFillId)) {
+      map.setPaintProperty(postFillId, 'fill-color', '#3388ff');
+      map.setPaintProperty(postFillId, 'fill-opacity', 0.1);
+    }
+    return;
+  }
+
+  if (provinceEntries.length === 0) return;
+
+  loadRegionalClassification()
+    .then(data => {
+      const regionNames = new Map<Region, string[]>();
+      for (const entry of provinceEntries) {
+        const region = data.provinceToRegion[entry.slug] as Region | undefined;
+        if (!region) continue;
+        if (!regionNames.has(region)) regionNames.set(region, []);
+        const names = regionNames.get(region)!;
+        for (const variant of [entry.name, `Thành phố ${entry.name}`, `Tỉnh ${entry.name}`]) {
+          if (!names.includes(variant)) names.push(variant);
+        }
+      }
+      const arms: unknown[] = [];
+      for (const [region, names] of regionNames) {
+        arms.push(names, REGION_FILL_COLORS[region as Region] ?? '#aaaaaa');
+      }
+      const matchExpr = ['match', ['get', 'name'], ...arms, '#aaaaaa'] as unknown;
+      const fillColorExpr = matchExpr as maplibregl.DataDrivenPropertyValueSpecification<maplibregl.ColorSpecification>;
+      if (map.getLayer(preFillId)) {
+        map.setPaintProperty(preFillId, 'fill-color', fillColorExpr);
+        map.setPaintProperty(preFillId, 'fill-opacity', 0.3);
+      }
+      if (map.getLayer(postFillId)) {
+        map.setPaintProperty(postFillId, 'fill-color', fillColorExpr);
+        map.setPaintProperty(postFillId, 'fill-opacity', 0.3);
+      }
+    })
+    .catch(() => {});
+}
+
 interface BoundaryLayersProps {
   map: maplibregl.Map | null;
   state: MapViewState;
+  provinceEntries?: ProvinceIndexEntry[];
 }
 
-export default function BoundaryLayers({ map, state }: BoundaryLayersProps) {
+export default function BoundaryLayers({ map, state, provinceEntries = [] }: BoundaryLayersProps) {
   const locale = useLocale();
   const publicEnv = readPublicEnv();
   const {
@@ -112,6 +197,16 @@ export default function BoundaryLayers({ map, state }: BoundaryLayersProps) {
       })) {
         replaceLayer(map, layerDefinition.layer);
       }
+
+      // Re-apply region colors after layer recreation so switching pre/post mode while in
+      // region color mode doesn't reset fill-color back to the layer defaults.
+      applyRegionFillColors(map, state.colorMode, provinceEntries);
+
+      // Province label layers are re-added above the region label layer by replaceLayer.
+      // Move region labels back to the top so they aren't buried under province labels.
+      if (state.colorMode === 'region' && map.getLayer(REGION_LABELS_LAYER_ID)) {
+        map.moveLayer(REGION_LABELS_LAYER_ID);
+      }
     }
 
     if (map.isStyleLoaded()) {
@@ -196,6 +291,119 @@ export default function BoundaryLayers({ map, state }: BoundaryLayersProps) {
     map,
     state,
   ]);
+
+  // Effect A: apply region fill-color and fill-opacity.
+  // state.mode is intentionally absent from deps — the registration effect handles
+  // re-applying colors after layer recreation, so this effect only needs to fire when
+  // colorMode or provinceEntries change.
+  useEffect(() => {
+    if (!map) return;
+
+    function applyFillColors() {
+      if (!map) return;
+      applyRegionFillColors(map, state.colorMode, provinceEntries);
+    }
+
+    if (map.isStyleLoaded()) {
+      applyFillColors();
+    } else {
+      map.once('load', applyFillColors);
+    }
+
+    return () => {
+      map.off('load', applyFillColors);
+    };
+  }, [map, state.colorMode, provinceEntries]);
+
+  // Effect B: manage region label layer (independent of mode so labels don't flicker
+  // when the user toggles pre/post — only colorMode and locale affect the labels).
+  useEffect(() => {
+    if (!map) return;
+
+    let cancelled = false;
+
+    function removeRegionLabels() {
+      if (!map) return;
+      try {
+        if (map.getLayer(REGION_LABELS_LAYER_ID)) map.removeLayer(REGION_LABELS_LAYER_ID);
+        if (map.getSource(REGION_LABELS_SOURCE_ID)) map.removeSource(REGION_LABELS_SOURCE_ID);
+      } catch {
+        // layer/source may not exist yet — safe to ignore
+      }
+    }
+
+    function applyRegionLabels() {
+      if (!map || cancelled) return;
+
+      removeRegionLabels();
+
+      if (state.colorMode !== 'region') return;
+
+      loadRegionalClassification()
+        .then(data => {
+          if (!map || cancelled) return;
+
+          const features = (Object.entries(REGION_LABEL_POSITIONS) as [Region, [number, number]][]).map(
+            ([region, [lng, lat]]) => {
+              const def = data.regions[region];
+              return {
+                type: 'Feature' as const,
+                geometry: { type: 'Point' as const, coordinates: [lng, lat] },
+                properties: {
+                  name_vi: def?.name_vi ?? region,
+                  name_en: def?.name_en ?? region,
+                  color: REGION_FILL_COLORS[region] ?? '#555555',
+                },
+              };
+            },
+          );
+
+          try {
+            map.addSource(REGION_LABELS_SOURCE_ID, {
+              type: 'geojson',
+              data: { type: 'FeatureCollection', features },
+            });
+            map.addLayer({
+              id: REGION_LABELS_LAYER_ID,
+              type: 'symbol',
+              source: REGION_LABELS_SOURCE_ID,
+              minzoom: 4,
+              maxzoom: 7.5,
+              layout: {
+                'text-field': locale === 'en' ? ['get', 'name_en'] : ['get', 'name_vi'],
+                'text-size': 14,
+                'text-font': ['Noto Sans Bold', 'Noto Sans Regular'],
+                'text-anchor': 'center',
+                'text-max-width': 8,
+                'text-allow-overlap': true,
+                'text-transform': 'uppercase',
+                'text-letter-spacing': 0.08,
+              },
+              paint: {
+                'text-color': ['get', 'color'],
+                'text-halo-color': 'rgba(255,255,255,0.95)',
+                'text-halo-width': 2.5,
+              },
+            });
+          } catch {
+            // addSource/addLayer can throw if the map was destroyed mid-flight
+          }
+        })
+        .catch(() => {});
+    }
+
+    if (map.isStyleLoaded()) {
+      applyRegionLabels();
+    } else {
+      map.once('load', applyRegionLabels);
+    }
+
+    return () => {
+      cancelled = true;
+      map.off('load', applyRegionLabels);
+      removeRegionLabels();
+    };
+  }, [map, state.colorMode, locale]);
 
   useEffect(() => {
     if (!map) return;

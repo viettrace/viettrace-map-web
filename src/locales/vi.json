@@ -44,7 +44,8 @@
     "print": "In trang",
     "dataSourceTitle": "Nguồn dữ liệu",
     "dataSourceContent": "Số liệu dựa trên Nghị quyết số 202/2025/QH15 ngày 12/6/2025 của Quốc hội về sắp xếp đơn vị hành chính cấp tỉnh (bộ máy mới vận hành từ 1/7/2025). Dữ liệu ranh giới hành chính lấy từ OSM-Boundaries (© OpenStreetMap contributors).",
-    "backToMap": "← Về Bản đồ"
+    "backToMap": "← Về Bản đồ",
+    "regionFilterLabel": "Vùng kinh tế"
   },
   "Map": {
     "title": "Viettrace — Bản đồ lịch sử Việt Nam",
@@ -69,7 +70,12 @@
     "settingsTitle": "Tuỳ chọn bản đồ",
     "settingsSectionView": "Chế độ xem",
     "settingsSectionCompare": "So sánh",
+    "settingsSectionColorMode": "Màu sắc bản đồ",
+    "colorModeDefault": "Mặc định",
+    "colorModeRegion": "Theo vùng",
     "settingsSectionLanguage": "Ngôn ngữ",
+    "searchRegionFilter": "Lọc theo vùng kinh tế",
+    "detailRegionLabel": "Vùng kinh tế",
     "languageSwitchLabel": "Ngôn ngữ",
     "languageEnglish": "tiếng Anh",
     "languageVietnamese": "tiếng Việt",
@@ -135,6 +141,15 @@
     "wardLabel": "Phường/Xã",
     "outsideVietnam": "Ngoài lãnh thổ Việt Nam",
     "dismiss": "Đóng"
+  },
+  "Regions": {
+    "all": "Tất cả",
+    "Northern_Midlands_Mountains": "Trung du & Miền núi Bắc Bộ",
+    "Red_River_Delta": "Đồng bằng sông Hồng",
+    "North_Central_Coast": "Bắc Trung Bộ & DHMT",
+    "South_Central_Coast_Highlands": "Nam Trung Bộ & Tây Nguyên",
+    "Southeast": "Đông Nam Bộ",
+    "Mekong_River_Delta": "Đồng bằng sông Cửu Long"
   },
   "HomePage": {
     "title": "Viettrace",

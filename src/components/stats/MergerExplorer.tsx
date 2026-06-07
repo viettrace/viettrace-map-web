@@ -4,6 +4,11 @@ import { useEffect, useMemo, useState } from 'react';
 import { useLocale, useTranslations } from 'next-intl';
 import Link from 'next/link';
 import type { MergerCase } from '@src/libs/data/stats';
+import {
+  loadRegionalClassification,
+  type Region,
+  type RegionMetadata,
+} from '@src/types/regional-classification';
 
 type MergerExplorerProps = {
   mergers: MergerCase[];
@@ -26,6 +31,7 @@ function sortName(s: string): string {
 
 export function MergerExplorer({ mergers }: MergerExplorerProps) {
   const t = useTranslations('Stats');
+  const tRegions = useTranslations('Regions');
   const locale = useLocale();
 
   const sizes = useMemo(
@@ -36,6 +42,25 @@ export function MergerExplorer({ mergers }: MergerExplorerProps) {
   const [query, setQuery] = useState('');
   const [sizeFilter, setSizeFilter] = useState<number | 'all'>('all');
   const [sort, setSort] = useState<SortKey>('size');
+  const [regionFilter, setRegionFilter] = useState<Region | 'all'>('all');
+  const [allRegions, setAllRegions] = useState<RegionMetadata[]>([]);
+  // Maps merger resultSlug → region key (derived via first absorbed pre-2025 province slug)
+  const [slugToRegion, setSlugToRegion] = useState<Record<string, Region>>({});
+
+  useEffect(() => {
+    loadRegionalClassification()
+      .then(data => {
+        const metadata: RegionMetadata[] = Object.entries(data.regions).map(([key, def]) => ({
+          key: key as Region,
+          name_vi: def.name_vi,
+          name_en: def.name_en,
+          provinceCount: data.stats.regions[key as Region],
+        }));
+        setAllRegions(metadata);
+        setSlugToRegion(data.provinceToRegion as Record<string, Region>);
+      })
+      .catch(() => {});
+  }, []);
 
   // Restore filter state from the URL once on mount.
   useEffect(() => {
@@ -43,9 +68,11 @@ export function MergerExplorer({ mergers }: MergerExplorerProps) {
     const q = sp.get('q');
     const size = sp.get('size');
     const s = sp.get('sort');
+    const r = sp.get('region');
     if (q) setQuery(q);
     if (size && size !== 'all' && Number.isFinite(Number(size))) setSizeFilter(Number(size));
     if (s === 'name' || s === 'size') setSort(s);
+    if (r && r !== 'all') setRegionFilter(r as Region);
   }, []);
 
   // Persist filter state to the URL (replace, no scroll/navigation).
@@ -57,13 +84,19 @@ export function MergerExplorer({ mergers }: MergerExplorerProps) {
     else sp.delete('size');
     if (sort !== 'size') sp.set('sort', sort);
     else sp.delete('sort');
+    if (regionFilter !== 'all') sp.set('region', regionFilter);
+    else sp.delete('region');
     const qs = sp.toString();
     window.history.replaceState(window.history.state, '', qs ? `?${qs}` : window.location.pathname);
-  }, [query, sizeFilter, sort]);
+  }, [query, sizeFilter, sort, regionFilter]);
 
   const filtered = useMemo(() => {
     const nq = normalize(query.trim());
     let list = mergers.filter((m) => {
+      if (regionFilter !== 'all') {
+        const region = slugToRegion[m.resultSlug];
+        if (region !== regionFilter) return false;
+      }
       if (sizeFilter !== 'all' && m.componentCount !== sizeFilter) return false;
       if (!nq) return true;
       return (
@@ -77,7 +110,7 @@ export function MergerExplorer({ mergers }: MergerExplorerProps) {
       return a.resultName.localeCompare(b.resultName, 'vi');
     });
     return list;
-  }, [mergers, query, sizeFilter, sort]);
+  }, [mergers, query, sizeFilter, sort, regionFilter, slugToRegion]);
 
   const chipBase =
     'rounded-full px-3 py-1 text-sm font-medium transition-colors border';
@@ -98,6 +131,28 @@ export function MergerExplorer({ mergers }: MergerExplorerProps) {
           aria-label={t('searchPlaceholder')}
           className="w-full rounded-lg border border-slate-200 bg-white px-4 py-2.5 text-sm text-slate-900 placeholder:text-slate-400 focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500/30 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100"
         />
+        {allRegions.length > 0 && (
+          <div className="flex flex-wrap items-center gap-2">
+            <span className="text-xs text-slate-500 dark:text-slate-400">{t('regionFilterLabel')}:</span>
+            <button
+              type="button"
+              onClick={() => setRegionFilter('all')}
+              className={`${chipBase} ${regionFilter === 'all' ? chipActive : chipIdle}`}
+            >
+              {tRegions('all')}
+            </button>
+            {allRegions.map((r) => (
+              <button
+                key={r.key}
+                type="button"
+                onClick={() => setRegionFilter(r.key)}
+                className={`${chipBase} ${regionFilter === r.key ? chipActive : chipIdle}`}
+              >
+                {tRegions(r.key)}
+              </button>
+            ))}
+          </div>
+        )}
         <div className="flex flex-wrap items-center gap-2">
           <button
             type="button"
