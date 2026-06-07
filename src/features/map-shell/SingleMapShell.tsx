@@ -107,7 +107,7 @@ export default function SingleMapShell({
 
       {isReady && map && (
         <>
-          <BoundaryLayers map={map} state={state} />
+          <BoundaryLayers map={map} state={state} provinceEntries={provinceEntries} />
           <ProvinceBoundaryInteractions
             entries={provinceEntries}
             map={map}

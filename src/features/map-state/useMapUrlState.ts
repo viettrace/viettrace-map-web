@@ -2,11 +2,13 @@
 
 import type { Dispatch, MutableRefObject } from 'react';
 import { useEffect, useRef, useState } from 'react';
+import { useSearchParams } from 'next/navigation';
 import type maplibregl from 'maplibre-gl';
 import { findProvinceBySlug } from '@src/features/province-index/provinceIndexSearch';
 import type { ProvinceIndexEntry } from '@src/features/province-index/provinceIndexTypes';
 import { findNestedBySlug } from '@src/features/nested-index/nestedIndexSearch';
 import type { NestedIndexEntry } from '@src/features/nested-index/nestedIndexTypes';
+import { highlightFeature } from '@src/features/boundaries/featureHighlight';
 import { fitBbox } from '@src/libs/maplibre/camera';
 import type { MapViewAction, MapViewState } from './mapViewTypes';
 import { readMapUrlState, writeMapUrlState } from './urlState';
@@ -32,12 +34,26 @@ export function useMapUrlState({
   const [isRestored, setIsRestored] = useState(false);
   const cameraRef = useRef<{ lat: number; lng: number; zoom: number } | null>(null);
 
+  // Capture the route's search params via Next.js's useSearchParams() rather
+  // than window.location.search.  In React 18 concurrent mode, Next.js may
+  // start a tentative render of this page BEFORE history.pushState updates
+  // the browser URL — so window.location.search would reflect the *previous*
+  // page's URL (e.g. /vi/stats, no params), causing the province restore to
+  // read empty params and eventually overwrite the URL with ?mode=pre.
+  // useSearchParams() reads from React's routing context, which always carries
+  // the params for the route being rendered, regardless of pushState timing.
+  const routerSearchParams = useSearchParams();
+  const initialSearchRef = useRef<string | null>(null);
+  if (initialSearchRef.current === null) {
+    initialSearchRef.current = routerSearchParams.toString();
+  }
+
   useEffect(() => {
     if (restoredRef.current || !isMapReady || !map || entries.length === 0) {
       return;
     }
 
-    const parsedState = readMapUrlState(new URLSearchParams(window.location.search));
+    const parsedState = readMapUrlState(new URLSearchParams(initialSearchRef.current ?? ''));
     const urlMode = parsedState.mode;
     const selectedNested =
       urlMode && parsedState.nestedSlug && parsedState.nestedType && nestedEntries.length > 0
@@ -91,6 +107,15 @@ export function useMapUrlState({
         type: 'selectFeature',
       });
       fitBbox(map, selectedNested.bbox, { duration: 0 });
+      highlightFeature({
+        map,
+        center: [selectedNested.center[0], selectedNested.center[1]],
+        label: selectedNested.name,
+        color: selectedNested.mode === 'pre' ? '#dc2626' : '#1d4ed8',
+        mode: selectedNested.mode,
+        featureName: selectedNested.name,
+        featureType: selectedNested.type === 'district' ? 'district' : 'ward',
+      });
     } else if (selectedEntry) {
       dispatch({
         feature: {
@@ -101,6 +126,15 @@ export function useMapUrlState({
         type: 'selectFeature',
       });
       fitBbox(map, selectedEntry.bbox, { duration: 0 });
+      highlightFeature({
+        map,
+        center: [selectedEntry.center[0], selectedEntry.center[1]],
+        label: selectedEntry.name,
+        color: selectedEntry.mode === 'pre' ? '#dc2626' : '#1d4ed8',
+        mode: selectedEntry.mode,
+        featureName: selectedEntry.name,
+        featureType: 'province',
+      });
     } else if (hasUrlCamera) {
       if (urlMode) {
         dispatch({ mode: urlMode, type: 'setMode' });
@@ -116,6 +150,16 @@ export function useMapUrlState({
 
     restoredRef.current = true;
     setIsRestored(true);
+
+    return () => {
+      // Reset the guard so a subsequent map mount (React StrictMode remount,
+      // or switching swipe→single) re-runs the restore and calls fitBbox on
+      // the new instance.  We intentionally do NOT reset isRestored here:
+      // calling setIsRestored(false) can race with the new restore's
+      // setIsRestored(true) and briefly leave isRestored=false, which causes
+      // syncUrl to run with stale state.
+      restoredRef.current = false;
+    };
   }, [dispatch, entries, isMapReady, map, nestedEntries]);
 
   // Persist camera position on map moveend

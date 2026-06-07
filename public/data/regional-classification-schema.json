@@ -1,0 +1,93 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Regional Classification Schema",
+  "description": "Schema for Vietnam regional classification based on Resolution 60-NQ/TW 6 economic regions",
+  "type": "object",
+  "required": ["version", "source", "lastUpdated", "regions", "provinceToRegion", "stats"],
+  "properties": {
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$",
+      "description": "Semantic version (e.g., '1.0.0')"
+    },
+    "source": {
+      "type": "string",
+      "description": "Authoritative source for regional classification"
+    },
+    "lastUpdated": {
+      "type": "string",
+      "format": "date",
+      "description": "Last update date (ISO 8601 format)"
+    },
+    "description": {
+      "type": "string",
+      "description": "Human-readable description of the classification system"
+    },
+    "regions": {
+      "type": "object",
+      "description": "Regional definitions with province lists",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["name_vi", "name_en", "provinces"],
+        "properties": {
+          "name_vi": {
+            "type": "string",
+            "description": "Vietnamese name"
+          },
+          "name_en": {
+            "type": "string",
+            "description": "English name"
+          },
+          "provinces": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "description": "Province slug (matches province-index.json IDs)"
+            },
+            "minItems": 1
+          }
+        }
+      }
+    },
+    "provinceToRegion": {
+      "type": "object",
+      "description": "Direct mapping from province slug to region key",
+      "additionalProperties": {
+        "type": "string",
+        "enum": [
+          "Northern_Midlands_Mountains",
+          "Red_River_Delta",
+          "North_Central_Coast",
+          "South_Central_Coast_Highlands",
+          "Southeast",
+          "Mekong_River_Delta"
+        ]
+      }
+    },
+    "stats": {
+      "type": "object",
+      "required": ["total_provinces", "regions"],
+      "properties": {
+        "total_provinces": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "regions": {
+          "type": "object",
+          "description": "Province count per region",
+          "additionalProperties": {
+            "type": "integer",
+            "minimum": 0
+          }
+        }
+      }
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Documentation and attribution notes"
+    }
+  }
+}

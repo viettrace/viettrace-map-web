@@ -6,18 +6,22 @@ import MapLanguageSwitch from '@src/components/Map/MapLanguageSwitch';
 import MapToggle from '@src/components/Map/MapToggle';
 import CompareModeToggle from '@src/components/Map/CompareModeToggle';
 import { CloseIcon, MenuIcon } from '@src/components/Map/MapChromeIcons';
-import type { CompareMode } from '@src/features/map-state/mapViewTypes';
+import type { ColorMode, CompareMode } from '@src/features/map-state/mapViewTypes';
 
 interface MapSettingsPanelProps {
+  colorMode: ColorMode;
   compareMode: CompareMode;
   mode: 'pre' | 'post';
+  onColorModeChange: (colorMode: ColorMode) => void;
   onCompareModeChange: (compareMode: CompareMode) => void;
   onToggle: (mode: 'pre' | 'post') => void;
 }
 
 export default function MapSettingsPanel({
+  colorMode,
   compareMode,
   mode,
+  onColorModeChange,
   onCompareModeChange,
   onToggle,
 }: MapSettingsPanelProps) {
@@ -106,6 +110,33 @@ export default function MapSettingsPanel({
               onChange={onCompareModeChange}
               variant="panel"
             />
+          </Section>
+
+          <Section title={t('settingsSectionColorMode')}>
+            <div className="flex">
+              <button
+                type="button"
+                onClick={() => onColorModeChange('default')}
+                className={`flex-1 px-3 py-2.5 text-sm font-medium transition-colors first:rounded-l-xl last:rounded-r-xl ${
+                  colorMode === 'default'
+                    ? 'bg-slate-900 text-white'
+                    : 'text-slate-700 hover:bg-slate-50'
+                }`}
+              >
+                {t('colorModeDefault')}
+              </button>
+              <button
+                type="button"
+                onClick={() => onColorModeChange('region')}
+                className={`flex-1 border-l border-slate-200 px-3 py-2.5 text-sm font-medium transition-colors first:rounded-l-xl last:rounded-r-xl ${
+                  colorMode === 'region'
+                    ? 'bg-slate-900 text-white'
+                    : 'text-slate-700 hover:bg-slate-50'
+                }`}
+              >
+                {t('colorModeRegion')}
+              </button>
+            </div>
           </Section>
 
           <Section title={t('settingsSectionLanguage')}>

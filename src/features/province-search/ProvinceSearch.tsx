@@ -8,6 +8,11 @@ import type { ProvinceIndexEntry } from '@src/features/province-index/provinceIn
 import { searchNestedIndex } from '@src/features/nested-index/nestedIndexSearch';
 import type { NestedIndexEntry } from '@src/features/nested-index/nestedIndexTypes';
 import type { CompareMode, MapMode } from '@src/features/map-state/mapViewTypes';
+import {
+  loadRegionalClassification,
+  type Region,
+  type RegionMetadata,
+} from '@src/types/regional-classification';
 
 interface ProvinceSearchProps {
   entries: ProvinceIndexEntry[];
@@ -35,6 +40,7 @@ export default function ProvinceSearch({
   onSelectNested,
 }: ProvinceSearchProps) {
   const t = useTranslations('Map');
+  const tRegions = useTranslations('Regions');
   const locale = useLocale();
   const inputRef = useRef<HTMLInputElement>(null);
   const listboxId = useId();
@@ -42,16 +48,43 @@ export default function ProvinceSearch({
   const [isExpanded, setIsExpanded] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
   const [query, setQuery] = useState('');
+  const [regionFilter, setRegionFilter] = useState<Region | 'all'>('all');
+  const [allRegions, setAllRegions] = useState<RegionMetadata[]>([]);
+  const [regionSlugs, setRegionSlugs] = useState<Map<string, Set<string>>>(new Map());
+
+  useEffect(() => {
+    loadRegionalClassification()
+      .then(data => {
+        const metadata: RegionMetadata[] = Object.entries(data.regions).map(([key, def]) => ({
+          key: key as Region,
+          name_vi: def.name_vi,
+          name_en: def.name_en,
+          provinceCount: data.stats.regions[key as Region],
+        }));
+        setAllRegions(metadata);
+        const slugMap = new Map<string, Set<string>>();
+        for (const [key, def] of Object.entries(data.regions)) {
+          slugMap.set(key, new Set(def.provinces));
+        }
+        setRegionSlugs(slugMap);
+      })
+      .catch(() => {});
+  }, []);
+
   // In swipe mode, both pre and post layers are visible at the same time, so
   // results from either era should be searchable. In toggle mode, results are
   // scoped to the active era like before.
   const scopedProvinceEntries =
     compareMode === 'swipe' ? entries : entries.filter(entry => entry.mode === mode);
+  const regionFilteredEntries =
+    regionFilter === 'all'
+      ? scopedProvinceEntries
+      : scopedProvinceEntries.filter(e => regionSlugs.get(regionFilter)?.has(e.slug));
   const scopedNestedEntries =
     compareMode === 'swipe'
       ? nestedEntries
       : nestedEntries.filter(entry => entry.mode === mode);
-  const provinceResults = searchProvinceIndex(scopedProvinceEntries, query, { locale });
+  const provinceResults = searchProvinceIndex(regionFilteredEntries, query, { locale });
   const nestedResults =
     onSelectNested && scopedNestedEntries.length > 0
       ? searchNestedIndex(scopedNestedEntries, query, { locale })
@@ -201,6 +234,41 @@ export default function ProvinceSearch({
             >
               ×
             </button>
+          )}
+
+          {isOpen && !query.trim() && allRegions.length > 0 && (
+            <div className="absolute mt-2 w-full overflow-hidden rounded-lg border border-slate-200 bg-white/95 py-2 text-sm shadow-xl backdrop-blur">
+              <p className="px-3 pb-1.5 text-[11px] text-slate-400">{t('searchRegionFilter')}</p>
+              <div className="flex flex-wrap gap-1.5 px-3 pb-1">
+                <button
+                  type="button"
+                  onMouseDown={e => e.preventDefault()}
+                  onClick={() => setRegionFilter('all')}
+                  className={`rounded-full border px-2.5 py-1 text-xs font-medium transition-colors ${
+                    regionFilter === 'all'
+                      ? 'border-blue-600 bg-blue-600 text-white'
+                      : 'border-slate-200 bg-white text-slate-600 hover:bg-slate-50'
+                  }`}
+                >
+                  {tRegions('all')}
+                </button>
+                {allRegions.map(r => (
+                  <button
+                    key={r.key}
+                    type="button"
+                    onMouseDown={e => e.preventDefault()}
+                    onClick={() => setRegionFilter(r.key)}
+                    className={`rounded-full border px-2.5 py-1 text-xs font-medium transition-colors ${
+                      regionFilter === r.key
+                        ? 'border-blue-600 bg-blue-600 text-white'
+                        : 'border-slate-200 bg-white text-slate-600 hover:bg-slate-50'
+                    }`}
+                  >
+                    {tRegions(r.key)}
+                  </button>
+                ))}
+              </div>
+            </div>
           )}
 
           {showResults && (

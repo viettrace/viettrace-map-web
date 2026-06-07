@@ -1,0 +1,193 @@
+{
+  "$schema": "./regional-classification-schema.json",
+  "version": "1.0.0",
+  "source": "Resolution 60-NQ/TW (April 12, 2025) - 6 Key Economic Regions",
+  "lastUpdated": "2026-06-07",
+  "description": "Classification of 63 pre-2025 provinces into 6 economic regions per national planning framework (2021-2030)",
+  "regions": {
+    "Northern_Midlands_Mountains": {
+      "name_vi": "Trung du và Miền núi phía Bắc",
+      "name_en": "Northern Midlands and Mountains",
+      "provinces": [
+        "bac-kan",
+        "cao-bang",
+        "dien-bien",
+        "ha-giang",
+        "hoa-binh",
+        "lai-chau",
+        "lang-son",
+        "lao-cai",
+        "son-la",
+        "tuyen-quang",
+        "yen-bai",
+        "bac-giang",
+        "phu-tho",
+        "quang-ninh",
+        "thai-nguyen"
+      ]
+    },
+    "Red_River_Delta": {
+      "name_vi": "Đồng bằng Sông Hồng",
+      "name_en": "Red River Delta",
+      "provinces": [
+        "ha-noi",
+        "hai-phong",
+        "bac-ninh",
+        "ha-nam",
+        "hai-duong",
+        "hung-yen",
+        "nam-dinh",
+        "ninh-binh",
+        "thai-binh",
+        "vinh-phuc"
+      ]
+    },
+    "North_Central_Coast": {
+      "name_vi": "Bắc Trung Bộ",
+      "name_en": "North Central Coast",
+      "provinces": [
+        "thanh-hoa",
+        "nghe-an",
+        "ha-tinh",
+        "quang-binh",
+        "quang-tri",
+        "hue"
+      ]
+    },
+    "South_Central_Coast_Highlands": {
+      "name_vi": "Duyên hải Nam Trung Bộ và Tây Nguyên",
+      "name_en": "South Central Coast and Central Highlands",
+      "provinces": [
+        "da-nang",
+        "quang-nam",
+        "quang-ngai",
+        "binh-dinh",
+        "phu-yen",
+        "khanh-hoa",
+        "ninh-thuan",
+        "binh-thuan",
+        "dak-lak",
+        "dak-nong",
+        "gia-lai",
+        "kon-tum",
+        "lam-dong"
+      ]
+    },
+    "Southeast": {
+      "name_vi": "Đông Nam Bộ",
+      "name_en": "Southeast",
+      "provinces": [
+        "ho-chi-minh",
+        "ba-ria-vung-tau",
+        "binh-duong",
+        "binh-phuoc",
+        "dong-nai",
+        "tay-ninh"
+      ]
+    },
+    "Mekong_River_Delta": {
+      "name_vi": "Đồng bằng Sông Cửu Long",
+      "name_en": "Mekong River Delta",
+      "provinces": [
+        "an-giang",
+        "bac-lieu",
+        "ben-tre",
+        "ca-mau",
+        "can-tho",
+        "dong-thap",
+        "hau-giang",
+        "kien-giang",
+        "long-an",
+        "soc-trang",
+        "tien-giang",
+        "tra-vinh",
+        "vinh-long"
+      ]
+    }
+  },
+  "provinceToRegion": {
+    "an-giang": "Mekong_River_Delta",
+    "ba-ria-vung-tau": "Southeast",
+    "bac-giang": "Northern_Midlands_Mountains",
+    "bac-kan": "Northern_Midlands_Mountains",
+    "bac-lieu": "Mekong_River_Delta",
+    "bac-ninh": "Red_River_Delta",
+    "ben-tre": "Mekong_River_Delta",
+    "binh-dinh": "South_Central_Coast_Highlands",
+    "binh-duong": "Southeast",
+    "binh-phuoc": "Southeast",
+    "binh-thuan": "South_Central_Coast_Highlands",
+    "ca-mau": "Mekong_River_Delta",
+    "can-tho": "Mekong_River_Delta",
+    "cao-bang": "Northern_Midlands_Mountains",
+    "da-nang": "South_Central_Coast_Highlands",
+    "dak-lak": "South_Central_Coast_Highlands",
+    "dak-nong": "South_Central_Coast_Highlands",
+    "dien-bien": "Northern_Midlands_Mountains",
+    "dong-nai": "Southeast",
+    "dong-thap": "Mekong_River_Delta",
+    "gia-lai": "South_Central_Coast_Highlands",
+    "ha-giang": "Northern_Midlands_Mountains",
+    "ha-nam": "Red_River_Delta",
+    "ha-noi": "Red_River_Delta",
+    "ha-tinh": "North_Central_Coast",
+    "hai-duong": "Red_River_Delta",
+    "hai-phong": "Red_River_Delta",
+    "hau-giang": "Mekong_River_Delta",
+    "ho-chi-minh": "Southeast",
+    "hoa-binh": "Northern_Midlands_Mountains",
+    "hue": "North_Central_Coast",
+    "hung-yen": "Red_River_Delta",
+    "khanh-hoa": "South_Central_Coast_Highlands",
+    "kien-giang": "Mekong_River_Delta",
+    "kon-tum": "South_Central_Coast_Highlands",
+    "lai-chau": "Northern_Midlands_Mountains",
+    "lam-dong": "South_Central_Coast_Highlands",
+    "lang-son": "Northern_Midlands_Mountains",
+    "lao-cai": "Northern_Midlands_Mountains",
+    "long-an": "Mekong_River_Delta",
+    "nam-dinh": "Red_River_Delta",
+    "nghe-an": "North_Central_Coast",
+    "ninh-binh": "Red_River_Delta",
+    "ninh-thuan": "South_Central_Coast_Highlands",
+    "phu-tho": "Northern_Midlands_Mountains",
+    "phu-yen": "South_Central_Coast_Highlands",
+    "quang-binh": "North_Central_Coast",
+    "quang-nam": "South_Central_Coast_Highlands",
+    "quang-ngai": "South_Central_Coast_Highlands",
+    "quang-ninh": "Northern_Midlands_Mountains",
+    "quang-tri": "North_Central_Coast",
+    "soc-trang": "Mekong_River_Delta",
+    "son-la": "Northern_Midlands_Mountains",
+    "tay-ninh": "Southeast",
+    "thai-binh": "Red_River_Delta",
+    "thai-nguyen": "Northern_Midlands_Mountains",
+    "thanh-hoa": "North_Central_Coast",
+    "tien-giang": "Mekong_River_Delta",
+    "tra-vinh": "Mekong_River_Delta",
+    "tuyen-quang": "Northern_Midlands_Mountains",
+    "vinh-long": "Mekong_River_Delta",
+    "vinh-phuc": "Red_River_Delta",
+    "yen-bai": "Northern_Midlands_Mountains"
+  },
+  "stats": {
+    "total_provinces": 63,
+    "regions": {
+      "Northern_Midlands_Mountains": 15,
+      "Red_River_Delta": 10,
+      "North_Central_Coast": 6,
+      "South_Central_Coast_Highlands": 13,
+      "Southeast": 6,
+      "Mekong_River_Delta": 13
+    }
+  },
+  "notes": [
+    "Based on Resolution 60-NQ/TW (April 12, 2025) defining 6 key economic regions for national planning 2021-2030",
+    "Government planning approval: April 4, 2026 (Thủ tướng decision)",
+    "Mapping consolidates traditional 8 geographic regions into 6 economic regions:",
+    "  - Northwest + Northeast → Northern Midlands and Mountains",
+    "  - South Central Coast + Central Highlands → South Central Coast and Central Highlands",
+    "Province slugs match province-index.json IDs (e.g., 'pre:an-giang' → 'an-giang')",
+    "Hòa Bình added to Northern_Midlands_Mountains (was missing from initial rentapartment.vn data)"
+  ]
+}
