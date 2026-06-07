@@ -1,5 +1,16 @@
 # Changelog
 
+## <small>0.1.15 (2026-06-07)</small>
+
+* Feat/phase 8 statistics foundation (#86) ([2ed5d8f](https://github.com/viettrace/viettrace-map-web/commit/2ed5d8f)), closes [#86](https://github.com/viettrace/viettrace-map-web/issues/86)
+* fix: update instructions for handling static data files in AGENTS.md and CLAUDE.md ([d5f30f5](https://github.com/viettrace/viettrace-map-web/commit/d5f30f5))
+* feat: add brainstorming server and client-side functionality ([701ad54](https://github.com/viettrace/viettrace-map-web/commit/701ad54))
+* feat: add React composition patterns for scalable component architecture ([dcdd64d](https://github.com/viettrace/viettrace-map-web/commit/dcdd64d))
+* feat: enhance flyTo functionality with speed and curve options (#85) ([4df8aee](https://github.com/viettrace/viettrace-map-web/commit/4df8aee)), closes [#85](https://github.com/viettrace/viettrace-map-web/issues/85)
+* feat(agent-browser): add agent-browser skill documentation and update skills-lock.json ([0af2e0f](https://github.com/viettrace/viettrace-map-web/commit/0af2e0f))
+* feat(skill-creator): Add packaging, validation, and evaluation scripts ([2ac6829](https://github.com/viettrace/viettrace-map-web/commit/2ac6829))
+* docs: add CLAUDE.md for project overview and development guidelines ([0b87074](https://github.com/viettrace/viettrace-map-web/commit/0b87074))
+
 ## <small>0.1.14 (2026-06-02)</small>
 
 * feat: add geolocation feature with LocateButton and GeolocationControl (#84) ([3df933b](https://github.com/viettrace/viettrace-map-web/commit/3df933b)), closes [#84](https://github.com/viettrace/viettrace-map-web/issues/84)
