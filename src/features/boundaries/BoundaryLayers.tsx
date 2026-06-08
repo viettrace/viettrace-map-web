@@ -38,6 +38,77 @@ const REGION_FILL_COLORS: Record<Region, string> = {
 const REGION_LABELS_SOURCE_ID = 'region-labels-source';
 const REGION_LABELS_LAYER_ID = 'region-labels-layer';
 
+function removeRegionLabelsFromMap(map: maplibregl.Map): void {
+  try {
+    if (map.getLayer(REGION_LABELS_LAYER_ID)) map.removeLayer(REGION_LABELS_LAYER_ID);
+    if (map.getSource(REGION_LABELS_SOURCE_ID)) map.removeSource(REGION_LABELS_SOURCE_ID);
+  } catch {
+    // layer/source may not exist — safe to ignore
+  }
+}
+
+// Idempotent: moves labels to top if already present, otherwise adds them.
+async function ensureRegionLabels(map: maplibregl.Map, locale: string): Promise<void> {
+  if (map.getSource(REGION_LABELS_SOURCE_ID)) {
+    if (map.getLayer(REGION_LABELS_LAYER_ID)) map.moveLayer(REGION_LABELS_LAYER_ID);
+    return;
+  }
+
+  const data = await loadRegionalClassification();
+
+  // Check again after the async gap — another caller may have added the source.
+  if (map.getSource(REGION_LABELS_SOURCE_ID)) {
+    if (map.getLayer(REGION_LABELS_LAYER_ID)) map.moveLayer(REGION_LABELS_LAYER_ID);
+    return;
+  }
+
+  const features = (Object.entries(REGION_LABEL_POSITIONS) as [Region, [number, number]][]).map(
+    ([region, [lng, lat]]) => {
+      const def = data.regions[region];
+      return {
+        type: 'Feature' as const,
+        geometry: { type: 'Point' as const, coordinates: [lng, lat] },
+        properties: {
+          name_vi: def?.name_vi ?? region,
+          name_en: def?.name_en ?? region,
+          color: REGION_FILL_COLORS[region] ?? '#555555',
+        },
+      };
+    },
+  );
+
+  try {
+    map.addSource(REGION_LABELS_SOURCE_ID, {
+      type: 'geojson',
+      data: { type: 'FeatureCollection', features },
+    });
+    map.addLayer({
+      id: REGION_LABELS_LAYER_ID,
+      type: 'symbol',
+      source: REGION_LABELS_SOURCE_ID,
+      minzoom: 4,
+      maxzoom: 7.5,
+      layout: {
+        'text-field': locale === 'en' ? ['get', 'name_en'] : ['get', 'name_vi'],
+        'text-size': 14,
+        'text-font': ['Noto Sans Bold', 'Noto Sans Regular'],
+        'text-anchor': 'center',
+        'text-max-width': 8,
+        'text-allow-overlap': true,
+        'text-transform': 'uppercase',
+        'text-letter-spacing': 0.08,
+      },
+      paint: {
+        'text-color': ['get', 'color'],
+        'text-halo-color': 'rgba(255,255,255,0.95)',
+        'text-halo-width': 2.5,
+      },
+    });
+  } catch {
+    // map destroyed mid-flight or concurrent call already added the source/layer
+  }
+}
+
 // Approximate geographic centroids for each region's name label.
 // Positioned to avoid dense province-label clusters (e.g. Red River Delta).
 const REGION_LABEL_POSITIONS: Record<Region, [number, number]> = {
@@ -203,9 +274,10 @@ export default function BoundaryLayers({ map, state, provinceEntries = [] }: Bou
       applyRegionFillColors(map, state.colorMode, provinceEntries);
 
       // Province label layers are re-added above the region label layer by replaceLayer.
-      // Move region labels back to the top so they aren't buried under province labels.
-      if (state.colorMode === 'region' && map.getLayer(REGION_LABELS_LAYER_ID)) {
-        map.moveLayer(REGION_LABELS_LAYER_ID);
+      // ensureRegionLabels moves them back to the top when already present, or adds them
+      // from scratch on fresh mounts where Effect B hasn't had a chance to run yet.
+      if (state.colorMode === 'region') {
+        ensureRegionLabels(map, locale).catch(() => {});
       }
     }
 
@@ -315,93 +387,40 @@ export default function BoundaryLayers({ map, state, provinceEntries = [] }: Bou
     };
   }, [map, state.colorMode, provinceEntries]);
 
-  // Effect B: manage region label layer (independent of mode so labels don't flicker
-  // when the user toggles pre/post — only colorMode and locale affect the labels).
+  // Effect B: authoritative manager for the region label layer.
+  // Removes labels when colorMode leaves 'region', adds/restores them when it returns.
+  // Independent of state.mode so labels don't flicker on pre/post toggle.
   useEffect(() => {
     if (!map) return;
-
+    const mapInstance = map;
     let cancelled = false;
 
-    function removeRegionLabels() {
-      if (!map) return;
-      try {
-        if (map.getLayer(REGION_LABELS_LAYER_ID)) map.removeLayer(REGION_LABELS_LAYER_ID);
-        if (map.getSource(REGION_LABELS_SOURCE_ID)) map.removeSource(REGION_LABELS_SOURCE_ID);
-      } catch {
-        // layer/source may not exist yet — safe to ignore
-      }
-    }
-
     function applyRegionLabels() {
-      if (!map || cancelled) return;
+      if (cancelled) return;
 
-      removeRegionLabels();
+      removeRegionLabelsFromMap(mapInstance);
 
       if (state.colorMode !== 'region') return;
 
-      loadRegionalClassification()
-        .then(data => {
-          if (!map || cancelled) return;
-
-          const features = (Object.entries(REGION_LABEL_POSITIONS) as [Region, [number, number]][]).map(
-            ([region, [lng, lat]]) => {
-              const def = data.regions[region];
-              return {
-                type: 'Feature' as const,
-                geometry: { type: 'Point' as const, coordinates: [lng, lat] },
-                properties: {
-                  name_vi: def?.name_vi ?? region,
-                  name_en: def?.name_en ?? region,
-                  color: REGION_FILL_COLORS[region] ?? '#555555',
-                },
-              };
-            },
-          );
-
-          try {
-            map.addSource(REGION_LABELS_SOURCE_ID, {
-              type: 'geojson',
-              data: { type: 'FeatureCollection', features },
-            });
-            map.addLayer({
-              id: REGION_LABELS_LAYER_ID,
-              type: 'symbol',
-              source: REGION_LABELS_SOURCE_ID,
-              minzoom: 4,
-              maxzoom: 7.5,
-              layout: {
-                'text-field': locale === 'en' ? ['get', 'name_en'] : ['get', 'name_vi'],
-                'text-size': 14,
-                'text-font': ['Noto Sans Bold', 'Noto Sans Regular'],
-                'text-anchor': 'center',
-                'text-max-width': 8,
-                'text-allow-overlap': true,
-                'text-transform': 'uppercase',
-                'text-letter-spacing': 0.08,
-              },
-              paint: {
-                'text-color': ['get', 'color'],
-                'text-halo-color': 'rgba(255,255,255,0.95)',
-                'text-halo-width': 2.5,
-              },
-            });
-          } catch {
-            // addSource/addLayer can throw if the map was destroyed mid-flight
-          }
+      ensureRegionLabels(mapInstance, locale)
+        .then(() => {
+          // If the effect was cleaned up while the async was in-flight, remove
+          // any labels that were just added so the map isn't left in a dirty state.
+          if (cancelled) removeRegionLabelsFromMap(mapInstance);
         })
         .catch(() => {});
     }
 
-    if (map.isStyleLoaded()) {
+    if (mapInstance.isStyleLoaded()) {
       applyRegionLabels();
     } else {
-      map.once('load', applyRegionLabels);
+      mapInstance.once('load', applyRegionLabels);
     }
 
     return () => {
       cancelled = true;
-      map.off('load', applyRegionLabels);
-      removeRegionLabels();
+      mapInstance.off('load', applyRegionLabels);
+      removeRegionLabelsFromMap(mapInstance);
     };
   }, [map, state.colorMode, locale]);
 
