@@ -3,6 +3,7 @@
 import type { Dispatch, MutableRefObject } from 'react';
 import { useEffect, useRef, useState } from 'react';
 import { useSearchParams } from 'next/navigation';
+import { useLocale } from 'next-intl';
 import type maplibregl from 'maplibre-gl';
 import { findProvinceBySlug } from '@src/features/province-index/provinceIndexSearch';
 import type { ProvinceIndexEntry } from '@src/features/province-index/provinceIndexTypes';
@@ -30,6 +31,7 @@ export function useMapUrlState({
   map,
   state,
 }: UseMapUrlStateOptions) {
+  const locale = useLocale();
   const restoredRef = useRef(false);
   const [isRestored, setIsRestored] = useState(false);
   const cameraRef = useRef<{ lat: number; lng: number; zoom: number } | null>(null);
@@ -110,7 +112,8 @@ export function useMapUrlState({
       highlightFeature({
         map,
         center: [selectedNested.center[0], selectedNested.center[1]],
-        label: selectedNested.name,
+        label:
+          locale === 'en' && selectedNested.name_en ? selectedNested.name_en : selectedNested.name,
         color: selectedNested.mode === 'pre' ? '#dc2626' : '#1d4ed8',
         mode: selectedNested.mode,
         featureName: selectedNested.name,
@@ -129,7 +132,7 @@ export function useMapUrlState({
       highlightFeature({
         map,
         center: [selectedEntry.center[0], selectedEntry.center[1]],
-        label: selectedEntry.name,
+        label: locale === 'en' ? selectedEntry.name_en : selectedEntry.name,
         color: selectedEntry.mode === 'pre' ? '#dc2626' : '#1d4ed8',
         mode: selectedEntry.mode,
         featureName: selectedEntry.name,
@@ -160,7 +163,7 @@ export function useMapUrlState({
       // syncUrl to run with stale state.
       restoredRef.current = false;
     };
-  }, [dispatch, entries, isMapReady, map, nestedEntries]);
+  }, [dispatch, entries, isMapReady, map, nestedEntries, locale]);
 
   // Persist camera position on map moveend
   useEffect(() => {

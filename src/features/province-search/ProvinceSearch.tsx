@@ -89,6 +89,7 @@ export default function ProvinceSearch({
     onSelectNested && scopedNestedEntries.length > 0
       ? searchNestedIndex(scopedNestedEntries, query, { locale })
       : [];
+  const provinceNameEnBySlug = new Map(entries.map(e => [e.slug, e.name_en]));
   const results: SearchResult[] = [
     ...provinceResults.map(entry => ({ kind: 'province' as const, entry })),
     ...nestedResults.map(entry => ({ kind: 'nested' as const, entry })),
@@ -301,7 +302,7 @@ export default function ProvinceSearch({
                         {getResultPrimaryName(result, locale)}
                       </span>
                       <span className="block truncate text-xs text-slate-500">
-                        {getResultSecondaryName(result, locale, t)}
+                        {getResultSecondaryName(result, locale, provinceNameEnBySlug, t)}
                       </span>
                     </span>
                     <span
@@ -348,10 +349,11 @@ function getResultPrimaryName(result: SearchResult, locale: string) {
 function getResultSecondaryName(
   result: SearchResult,
   locale: string,
+  provinceNameEnBySlug: Map<string, string>,
   t: ReturnType<typeof useTranslations<'Map'>>,
 ) {
   if (result.kind === 'province') return getProvinceSecondaryName(result.entry, locale);
-  return getNestedSecondaryName(result.entry, t);
+  return getNestedSecondaryName(result.entry, locale, provinceNameEnBySlug, t);
 }
 
 function getResultBadgeClass(result: SearchResult) {
@@ -360,12 +362,18 @@ function getResultBadgeClass(result: SearchResult) {
 
 function getNestedSecondaryName(
   entry: NestedIndexEntry,
+  locale: string,
+  provinceNameEnBySlug: Map<string, string>,
   t: ReturnType<typeof useTranslations<'Map'>>,
 ) {
   const typeLabel = entry.type === 'district' ? t('nestedTypeDistrict') : t('nestedTypeWard');
 
   if (entry.parentProvinceName) {
-    return `${typeLabel} · ${entry.parentProvinceName}`;
+    const parentName =
+      locale === 'en' && entry.parentProvinceSlug
+        ? (provinceNameEnBySlug.get(entry.parentProvinceSlug) ?? entry.parentProvinceName)
+        : entry.parentProvinceName;
+    return `${typeLabel} · ${parentName}`;
   }
 
   return typeLabel;

@@ -25,7 +25,7 @@ type PageProps = {
 export default async function StatsPage({ params }: PageProps) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'Stats' });
-  const stats = await getMergerStats();
+  const stats = await getMergerStats(locale);
 
   // Scale rows sorted by component count (1, 2, 3...).
   const scaleRows = Object.entries(stats.scale)

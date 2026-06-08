@@ -74,28 +74,47 @@ async function loadProvinceIndex(): Promise<ProvinceIndex> {
   return JSON.parse(raw);
 }
 
-export async function getMergerStats(): Promise<MergerStats> {
+export async function getMergerStats(locale: string = 'vi'): Promise<MergerStats> {
   const { provinces } = await loadProvinceIndex();
   const pre = provinces.filter((p) => p.mode === 'pre');
   const post = provinces.filter((p) => p.mode === 'post');
 
+  const useEn = locale === 'en';
+  const sortLocale = useEn ? 'en' : 'vi';
+
+  // Build lookup: Vietnamese name → English name (needed because merger.oldProvinces
+  // stores Vietnamese names and we need to resolve them to the right locale).
+  const viNameToEn = new Map<string, string>();
+  for (const p of provinces) {
+    viNameToEn.set(p.name, p.name_en);
+  }
+
+  function entryDisplayName(p: ProvinceEntry): string {
+    return useEn ? p.name_en : p.name;
+  }
+
+  function resolveDisplayName(viName: string): string {
+    if (!useEn) return viName;
+    return viNameToEn.get(viName) ?? viName;
+  }
+
   // Pre provinces absorbed away = those with a merger field pointing elsewhere.
   const absorbedList = pre
     .filter((p) => p.merger)
-    .map((p) => p.name)
-    .sort((a, b) => a.localeCompare(b, 'vi'));
+    .map(entryDisplayName)
+    .sort((a, b) => a.localeCompare(b, sortLocale));
 
   // Post provinces that absorbed others = have merger.oldProvinces.
   const expandedList = post
     .filter((p) => p.merger?.oldProvinces && p.merger.oldProvinces.length > 0)
-    .map((p) => p.name)
-    .sort((a, b) => a.localeCompare(b, 'vi'));
+    .map(entryDisplayName)
+    .sort((a, b) => a.localeCompare(b, sortLocale));
 
   // Post provinces with no merger = truly unchanged.
   const unchangedList = post
     .filter((p) => !p.merger?.oldProvinces || p.merger.oldProvinces.length === 0)
-    .map((p) => p.name)
-    .sort((a, b) => a.localeCompare(b, 'vi'));
+    .map(entryDisplayName)
+    .sort((a, b) => a.localeCompare(b, sortLocale));
 
   // Build merger cases (only post provinces that actually combined >1 province).
   const mergers: MergerCase[] = post
@@ -103,9 +122,9 @@ export async function getMergerStats(): Promise<MergerStats> {
     .map((p) => {
       const absorbed = p.merger?.oldProvinces ?? [];
       // Survivor name first, then the provinces it absorbed.
-      const components = [p.name, ...absorbed];
+      const components = [entryDisplayName(p), ...absorbed.map(resolveDisplayName)];
       return {
-        resultName: p.name,
+        resultName: entryDisplayName(p),
         resultSlug: p.slug,
         components,
         componentCount: components.length,
@@ -114,7 +133,7 @@ export async function getMergerStats(): Promise<MergerStats> {
     })
     .sort((a, b) => {
       if (b.componentCount !== a.componentCount) return b.componentCount - a.componentCount;
-      return a.resultName.localeCompare(b.resultName, 'vi');
+      return a.resultName.localeCompare(b.resultName, sortLocale);
     });
 
   // Distribution by total component count across ALL post provinces.
@@ -128,8 +147,8 @@ export async function getMergerStats(): Promise<MergerStats> {
   const maxComponents = Math.max(...mergers.map((m) => m.componentCount), 0);
   const biggestMergers = mergers.filter((m) => m.componentCount === maxComponents);
 
-  const beforeList = pre.map((p) => p.name).sort((a, b) => a.localeCompare(b, 'vi'));
-  const afterList = post.map((p) => p.name).sort((a, b) => a.localeCompare(b, 'vi'));
+  const beforeList = pre.map(entryDisplayName).sort((a, b) => a.localeCompare(b, sortLocale));
+  const afterList = post.map(entryDisplayName).sort((a, b) => a.localeCompare(b, sortLocale));
 
   return {
     preCount: pre.length,

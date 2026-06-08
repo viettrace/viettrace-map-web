@@ -24,8 +24,10 @@ function normalize(s: string): string {
     .replace(/đ/g, 'd');
 }
 
-// Strip "Tỉnh" / "Thành phố" prefix so A→Z sort compares the place name only.
-function sortName(s: string): string {
+// Strip "Tỉnh" / "Thành phố" prefix (Vietnamese) so A→Z sort compares the place name only.
+// English names use " Province" / " City" suffix; no stripping needed there.
+function sortName(s: string, locale: string): string {
+  if (locale === 'en') return s;
   return s.replace(/^(Thành phố|Tỉnh)\s+/u, '');
 }
 
@@ -105,12 +107,12 @@ export function MergerExplorer({ mergers }: MergerExplorerProps) {
       );
     });
     list = [...list].sort((a, b) => {
-      if (sort === 'name') return sortName(a.resultName).localeCompare(sortName(b.resultName), 'vi');
+      if (sort === 'name') return sortName(a.resultName, locale).localeCompare(sortName(b.resultName, locale), locale);
       if (b.componentCount !== a.componentCount) return b.componentCount - a.componentCount;
-      return a.resultName.localeCompare(b.resultName, 'vi');
+      return a.resultName.localeCompare(b.resultName, locale);
     });
     return list;
-  }, [mergers, query, sizeFilter, sort, regionFilter, slugToRegion]);
+  }, [mergers, query, sizeFilter, sort, regionFilter, slugToRegion, locale]);
 
   const chipBase =
     'rounded-full px-3 py-1 text-sm font-medium transition-colors border';

@@ -9,6 +9,8 @@ import {
   type RegionMetadata,
 } from '@src/types/regional-classification';
 
+type NameEnMap = Map<string, string>;
+
 const REPORT_DATA_ISSUE_URL =
   'https://github.com/viettrace/viettrace-map-web/issues/new?template=data_issue.md';
 
@@ -24,15 +26,17 @@ type MapTranslator = (key: MapTranslationKey) => string;
 interface ProvinceDetailPanelProps {
   entry: ProvinceIndexEntry;
   onClose: () => void;
+  allEntries?: ProvinceIndexEntry[];
 }
 
-export default function ProvinceDetailPanel({ entry, onClose }: ProvinceDetailPanelProps) {
+export default function ProvinceDetailPanel({ entry, onClose, allEntries = [] }: ProvinceDetailPanelProps) {
   const t = useTranslations('Map');
   const locale = useLocale();
   const primaryName = getPrimaryName(entry, locale);
   const secondaryName = getSecondaryName(entry, locale);
+  const nameEnMap: NameEnMap = new Map(allEntries.map(e => [e.name, e.name_en]));
   const reportIssueUrl = buildReportIssueUrl(entry);
-  const statsHref = buildStatsHref(entry, locale);
+  const statsHref = buildStatsHref(entry, locale, nameEnMap);
   const [region, setRegion] = useState<RegionMetadata | null>(null);
 
   useEffect(() => {
@@ -81,7 +85,7 @@ export default function ProvinceDetailPanel({ entry, onClose }: ProvinceDetailPa
           <h3 className="text-xs font-semibold uppercase tracking-normal text-slate-500">
             {t('detailMergerTitle')}
           </h3>
-          <div className="mt-2">{renderMergerInfo(entry, t)}</div>
+          <div className="mt-2">{renderMergerInfo(entry, locale, nameEnMap, t)}</div>
           {region && (
             <dl className="mt-3 space-y-1">
               <div>
@@ -123,7 +127,12 @@ export default function ProvinceDetailPanel({ entry, onClose }: ProvinceDetailPa
   );
 }
 
-function renderMergerInfo(entry: ProvinceIndexEntry, t: MapTranslator) {
+function renderMergerInfo(entry: ProvinceIndexEntry, locale: string, nameEnMap: NameEnMap, t: MapTranslator) {
+  function resolveProvinceName(viName: string): string {
+    if (locale !== 'en') return viName;
+    return nameEnMap.get(viName) ?? viName;
+  }
+
   if (entry.mode === 'pre') {
     if (!entry.merger?.newProvince) {
       return <p className="leading-6 text-slate-600">{t('detailNoMergerPre')}</p>;
@@ -133,7 +142,7 @@ function renderMergerInfo(entry: ProvinceIndexEntry, t: MapTranslator) {
       <dl className="space-y-2">
         <div>
           <dt className="text-xs text-slate-500">{t('detailMergedInto')}</dt>
-          <dd className="font-medium text-slate-950">{entry.merger.newProvince}</dd>
+          <dd className="font-medium text-slate-950">{resolveProvinceName(entry.merger.newProvince)}</dd>
         </div>
         <div>
           <dt className="text-xs text-slate-500">{t('detailMergedDate')}</dt>
@@ -156,7 +165,7 @@ function renderMergerInfo(entry: ProvinceIndexEntry, t: MapTranslator) {
             key={province}
             className="rounded-full border border-slate-200 bg-slate-50 px-2 py-1 text-xs font-medium text-slate-700"
           >
-            {province}
+            {resolveProvinceName(province)}
           </li>
         ))}
       </ul>
@@ -177,14 +186,18 @@ function getSecondaryName(entry: ProvinceIndexEntry, locale: string) {
   return secondaryName === getPrimaryName(entry, locale) ? null : secondaryName;
 }
 
-function buildStatsHref(entry: ProvinceIndexEntry, locale: string): string | null {
+function buildStatsHref(entry: ProvinceIndexEntry, locale: string, nameEnMap: NameEnMap): string | null {
+  const resolveQ = (viName: string) =>
+    locale === 'en' ? (nameEnMap.get(viName) ?? viName) : viName;
+
   // Post-2025 province that absorbed others → link to its own merger card.
   if (entry.mode === 'post' && entry.merger?.oldProvinces?.length) {
-    return `/${locale}/stats?q=${encodeURIComponent(entry.name)}`;
+    const q = locale === 'en' ? entry.name_en : entry.name;
+    return `/${locale}/stats?q=${encodeURIComponent(q)}`;
   }
   // Pre-2025 province that was absorbed → link to the absorbing province's card.
   if (entry.mode === 'pre' && entry.merger?.newProvince) {
-    return `/${locale}/stats?q=${encodeURIComponent(entry.merger.newProvince)}`;
+    return `/${locale}/stats?q=${encodeURIComponent(resolveQ(entry.merger.newProvince))}`;
   }
   return null;
 }

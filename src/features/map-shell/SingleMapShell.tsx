@@ -128,6 +128,7 @@ export default function SingleMapShell({
         <ProvinceDetailPanel
           entry={selectedProvince}
           onClose={() => dispatch({ feature: null, type: 'selectFeature' })}
+          allEntries={provinceEntries}
         />
       )}
 
@@ -135,6 +136,7 @@ export default function SingleMapShell({
         <NestedDetailPanel
           entry={selectedNested}
           onClose={() => dispatch({ feature: null, type: 'selectFeature' })}
+          provinceEntries={provinceEntries}
         />
       )}
     </div>

@@ -3,17 +3,20 @@
 import Link from 'next/link';
 import { useLocale, useTranslations } from 'next-intl';
 import type { NestedIndexEntry } from '@src/features/nested-index/nestedIndexTypes';
+import type { ProvinceIndexEntry } from '@src/features/province-index/provinceIndexTypes';
 
 interface NestedDetailPanelProps {
   entry: NestedIndexEntry;
   onClose: () => void;
+  provinceEntries?: ProvinceIndexEntry[];
 }
 
-export default function NestedDetailPanel({ entry, onClose }: NestedDetailPanelProps) {
+export default function NestedDetailPanel({ entry, onClose, provinceEntries = [] }: NestedDetailPanelProps) {
   const t = useTranslations('Map');
   const locale = useLocale();
   const primaryName = locale === 'en' && entry.name_en ? entry.name_en : entry.name;
   const secondaryName = getSecondaryName(entry, locale, primaryName);
+  const provinceNameEnBySlug = new Map(provinceEntries.map(p => [p.slug, p.name_en]));
   const typeLabel = entry.type === 'district' ? t('nestedTypeDistrict') : t('nestedTypeWard');
   const modeBadgeClass =
     entry.mode === 'pre' ? 'bg-red-50 text-red-700' : 'bg-blue-50 text-blue-700';
@@ -49,7 +52,11 @@ export default function NestedDetailPanel({ entry, onClose }: NestedDetailPanelP
             <h3 className="text-xs font-semibold uppercase tracking-normal text-slate-500">
               {t('nestedParentProvince')}
             </h3>
-            <p className="mt-2 font-medium text-slate-950">{entry.parentProvinceName}</p>
+            <p className="mt-2 font-medium text-slate-950">
+              {locale === 'en' && entry.parentProvinceSlug
+                ? (provinceNameEnBySlug.get(entry.parentProvinceSlug) ?? entry.parentProvinceName)
+                : entry.parentProvinceName}
+            </p>
           </section>
         )}
 

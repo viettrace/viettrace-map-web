@@ -1,6 +1,7 @@
 'use client';
 
 import { useCallback, useEffect, useReducer, useRef, useState } from 'react';
+import { useLocale } from 'next-intl';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import type maplibregl from 'maplibre-gl';
 import MapAttribution from '@src/components/Map/MapAttribution';
@@ -48,6 +49,7 @@ function getDetailPanelFitPadding() {
 }
 
 export default function MapShell() {
+  const locale = useLocale();
   const [state, dispatch] = useReducer(mapViewReducer, initialMapViewState);
   const compareRestoredRef = useRef(false);
   // The active single-map instance, populated by SingleMapShell once MapLibre
@@ -111,7 +113,7 @@ export default function MapShell() {
         highlightFeature({
           map: singleMap,
           center: [entry.center[0], entry.center[1]],
-          label: entry.name,
+          label: locale === 'en' ? entry.name_en : entry.name,
           color: entry.mode === 'pre' ? '#dc2626' : '#1d4ed8',
           mode: entry.mode,
           featureName: entry.name,
@@ -123,7 +125,7 @@ export default function MapShell() {
         clearHighlight(singleMap);
       }
     },
-    [singleMap],
+    [singleMap, locale],
   );
 
   const selectProvinceFromMap = useCallback(
@@ -155,7 +157,7 @@ export default function MapShell() {
         highlightFeature({
           map: singleMap,
           center: [entry.center[0], entry.center[1]],
-          label: entry.name,
+          label: locale === 'en' && entry.name_en ? entry.name_en : entry.name,
           color: entry.mode === 'pre' ? '#dc2626' : '#1d4ed8',
           mode: entry.mode,
           featureName: entry.name,
@@ -165,7 +167,7 @@ export default function MapShell() {
         clearHighlight(singleMap);
       }
     },
-    [singleMap],
+    [singleMap, locale],
   );
 
   const selectNestedFromMap = useCallback(
