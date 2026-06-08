@@ -1,5 +1,14 @@
 # Changelog
 
+## <small>0.1.17 (2026-06-08)</small>
+
+* feat: add onBlur handler to close search dropdown when focus is lost ([2b3dc87](https://github.com/viettrace/viettrace-map-web/commit/2b3dc87))
+* feat: conditionally render MapNavigator based on compare mode state ([a43df08](https://github.com/viettrace/viettrace-map-web/commit/a43df08))
+* feat: enhance color mode settings with disabled state in compare mode and update localization ([fcea386](https://github.com/viettrace/viettrace-map-web/commit/fcea386))
+* feat: enhance localization support in stats and map components with improved name resolution ([af3b0a8](https://github.com/viettrace/viettrace-map-web/commit/af3b0a8))
+* feat: implement region label management with improved async handling and cleanup ([3c03cec](https://github.com/viettrace/viettrace-map-web/commit/3c03cec))
+* feat: update nested candidate basemap place layer IDs for improved label visibility ([735070d](https://github.com/viettrace/viettrace-map-web/commit/735070d))
+
 ## <small>0.1.16 (2026-06-07)</small>
 
 * feat: update data source descriptions and improve accuracy notes in localization files ([1db4560](https://github.com/viettrace/viettrace-map-web/commit/1db4560))
