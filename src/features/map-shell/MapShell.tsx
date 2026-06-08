@@ -285,7 +285,7 @@ export default function MapShell() {
         onToggleDataNotice={() => dispatch({ type: 'toggleDataNotice' })}
       />
 
-      <MapNavigator map={singleMap} />
+      {state.compareMode !== 'swipe' && <MapNavigator map={singleMap} />}
     </div>
   );
 }
