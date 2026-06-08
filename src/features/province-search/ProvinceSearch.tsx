@@ -178,6 +178,11 @@ export default function ProvinceSearch({
         className={`top-3 right-3 left-16 z-40 sm:absolute sm:right-3 sm:left-16 sm:w-auto md:left-auto md:w-[22rem] lg:top-4 lg:right-4 lg:left-auto lg:z-20 lg:block lg:w-[21rem] ${
           isExpanded ? 'absolute' : 'hidden'
         }`}
+        onBlur={e => {
+          if (!e.currentTarget.contains(e.relatedTarget as Node)) {
+            setIsOpen(false);
+          }
+        }}
       >
         <div className="relative">
           <label className="sr-only" htmlFor="province-search">
