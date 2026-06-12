@@ -50,6 +50,7 @@
     "@eslint/eslintrc": "3.3.1",
     "@next/bundle-analyzer": "15.4.3",
     "@next/eslint-plugin-next": "15.4.5",
+    "@protomaps/basemaps": "5.7.2",
     "@release-it/bumper": "7.0.5",
     "@release-it/conventional-changelog": "10.0.1",
     "@tailwindcss/postcss": "4.1.11",

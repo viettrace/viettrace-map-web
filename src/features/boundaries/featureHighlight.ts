@@ -164,7 +164,7 @@ export function highlightFeature({
       'text-offset': [0, 1.0],
       'text-allow-overlap': true,
       'text-ignore-placement': true,
-      'text-font': ['Noto Sans Bold', 'Noto Sans Regular'],
+      'text-font': ['Noto Sans Medium'],
       'text-max-width': 9,
     },
     paint: {

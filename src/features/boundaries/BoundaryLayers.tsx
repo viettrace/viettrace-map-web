@@ -91,7 +91,7 @@ async function ensureRegionLabels(map: maplibregl.Map, locale: string): Promise<
       layout: {
         'text-field': locale === 'en' ? ['get', 'name_en'] : ['get', 'name_vi'],
         'text-size': 14,
-        'text-font': ['Noto Sans Bold', 'Noto Sans Regular'],
+        'text-font': ['Noto Sans Medium'],
         'text-anchor': 'center',
         'text-max-width': 8,
         'text-allow-overlap': true,
