@@ -17,7 +17,7 @@ import type { NestedIndexEntry } from '@src/features/nested-index/nestedIndexTyp
 import { useProvinceIndex } from '@src/features/province-index/useProvinceIndex';
 import type { ProvinceIndexEntry } from '@src/features/province-index/provinceIndexTypes';
 import ProvinceSearch from '@src/features/province-search/ProvinceSearch';
-import { readPublicEnv } from '@src/libs/config/publicEnv';
+import { localizeBasemapStyle, readPublicEnv } from '@src/libs/config/publicEnv';
 import { fitBbox } from '@src/libs/maplibre/camera';
 import SingleMapShell from './SingleMapShell';
 import MapNavigator from './MapNavigator';
@@ -58,6 +58,10 @@ export default function MapShell() {
   // its own fly-to internally via its `selectedFeature` effect.
   const [singleMap, setSingleMap] = useState<maplibregl.Map | null>(null);
   const publicEnv = readPublicEnv();
+  // Match the basemap's label language to the active locale so its place names
+  // stay consistent with the Viettrace boundary labels. Changing this prop makes
+  // useMapLibre re-init the map with the locale's style file.
+  const mapStyle = localizeBasemapStyle(publicEnv.mapStyle, locale);
   const provinceIndex = useProvinceIndex();
   const nestedIndex = useNestedIndex();
   const provinceEntries = provinceIndex.data?.provinces ?? [];
@@ -235,7 +239,7 @@ export default function MapShell() {
           defaultCenter={DEFAULT_CENTER}
           defaultZoom={DEFAULT_ZOOM}
           dividerX={state.compareDividerX}
-          mapStyle={publicEnv.mapStyle}
+          mapStyle={mapStyle}
           nestedEntries={nestedEntries}
           onDividerChange={handleDividerChange}
           provinceEntries={provinceEntries}
@@ -246,7 +250,7 @@ export default function MapShell() {
           defaultCenter={DEFAULT_CENTER}
           defaultZoom={DEFAULT_ZOOM}
           dispatch={dispatch}
-          mapStyle={publicEnv.mapStyle}
+          mapStyle={mapStyle}
           nestedEntries={nestedEntries}
           onMapChange={setSingleMap}
           onSelectNestedFromMap={selectNestedFromMap}

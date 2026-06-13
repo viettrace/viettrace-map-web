@@ -446,7 +446,10 @@ function getProvinceLayerDefinitions(
       layer: {
         id: boundaryLayerIds.preFill,
         layout: { visibility: preVisible ? 'visible' : 'none' },
-        paint: { 'fill-color': '#d44', 'fill-opacity': 0.1 },
+        // Tint the province at overview zoom (which-province read), then fade the
+        // fill out by z12 so it stops washing over the basemap at street zoom —
+        // the red outline still marks the boundary. See zoomRamp.
+        paint: { 'fill-color': '#d44', 'fill-opacity': zoomRamp(9, 0.1, 12, 0) },
         source: boundarySourceIds.pre,
         'source-layer': boundarySourceLayers.pre,
         type: 'fill',
@@ -472,7 +475,8 @@ function getProvinceLayerDefinitions(
       layer: {
         id: boundaryLayerIds.postFill,
         layout: { visibility: postVisible ? 'visible' : 'none' },
-        paint: { 'fill-color': '#3388ff', 'fill-opacity': 0.1 },
+        // Same overview-tint-then-fade behaviour as the pre fill (see preFill).
+        paint: { 'fill-color': '#3388ff', 'fill-opacity': zoomRamp(9, 0.1, 12, 0) },
         source: boundarySourceIds.post,
         'source-layer': boundarySourceLayers.post,
         type: 'fill',

@@ -25,6 +25,7 @@
     "data:generate-index": "node scripts/generate-province-index.mjs",
     "data:generate-labels": "node scripts/generate-labels.mjs",
     "data:generate-nested-index": "node scripts/generate-nested-index.mjs",
+    "basemap:generate-style": "node scripts/generate-basemap-style.mjs",
     "data:verify-index": "node scripts/verify-province-index.mjs",
     "data:verify-labels": "node scripts/verify-province-labels.mjs",
     "data:verify-mergers": "node scripts/verify-merger-info.mjs",
