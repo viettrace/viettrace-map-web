@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.0 (2026-06-13)
+
+* Feat/custom basemap (#87) ([3242b8f](https://github.com/viettrace/viettrace-map-web/commit/3242b8f)), closes [#87](https://github.com/viettrace/viettrace-map-web/issues/87)
+
 ## <small>0.1.17 (2026-06-08)</small>
 
 * feat: add onBlur handler to close search dropdown when focus is lost ([2b3dc87](https://github.com/viettrace/viettrace-map-web/commit/2b3dc87))
