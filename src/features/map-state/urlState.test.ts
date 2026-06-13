@@ -20,6 +20,9 @@ describe('readMapUrlState', () => {
       provinceSlug: 'ha-giang',
       compareMode: null,
       compareDividerX: null,
+      lat: null,
+      lng: null,
+      zoom: null,
     });
   });
 
@@ -33,6 +36,9 @@ describe('readMapUrlState', () => {
       provinceSlug: null,
       compareMode: null,
       compareDividerX: null,
+      lat: null,
+      lng: null,
+      zoom: null,
     });
   });
 
@@ -48,6 +54,9 @@ describe('readMapUrlState', () => {
       nestedType: null,
       compareMode: 'swipe',
       compareDividerX: 0.4,
+      lat: null,
+      lng: null,
+      zoom: null,
     });
   });
 

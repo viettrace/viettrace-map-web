@@ -63,3 +63,6 @@ report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 next-env.d.ts
 .next
 analyze
+
+# Local-only basemap style (regenerated on demand; points at localhost assets)
+public/poc-basemap-style.json

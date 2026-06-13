@@ -91,7 +91,7 @@ async function ensureRegionLabels(map: maplibregl.Map, locale: string): Promise<
       layout: {
         'text-field': locale === 'en' ? ['get', 'name_en'] : ['get', 'name_vi'],
         'text-size': 14,
-        'text-font': ['Noto Sans Bold', 'Noto Sans Regular'],
+        'text-font': ['Noto Sans Medium'],
         'text-anchor': 'center',
         'text-max-width': 8,
         'text-allow-overlap': true,
@@ -120,6 +120,16 @@ const REGION_LABEL_POSITIONS: Record<Region, [number, number]> = {
   Mekong_River_Delta: [105.3, 10.0],
 };
 
+// Province fill fades from its full tint at overview zoom to transparent by z12,
+// so it stops washing over the (deliberately muted) basemap at street zoom — the
+// red/blue outline still marks the boundary. The full tint is kept for the
+// which-province read when zoomed out. This must live here (not just in
+// boundaryLayerRegistry) because this effect runtime-overrides fill-opacity for
+// the color-mode feature and would otherwise clobber the registry's ramp.
+function provinceFillOpacityRamp(full: number): maplibregl.DataDrivenPropertyValueSpecification<number> {
+  return ['interpolate', ['linear'], ['zoom'], 9, full, 12, 0] as unknown as maplibregl.DataDrivenPropertyValueSpecification<number>;
+}
+
 // Extracted to module level so the registration effect can call it synchronously after
 // recreating layers (replaceLayer resets paint to defaults). Effect A also calls this
 // on colorMode/provinceEntries changes, but no longer needs state.mode in its deps.
@@ -134,11 +144,11 @@ function applyRegionFillColors(
   if (colorMode === 'default') {
     if (map.getLayer(preFillId)) {
       map.setPaintProperty(preFillId, 'fill-color', '#d44');
-      map.setPaintProperty(preFillId, 'fill-opacity', 0.1);
+      map.setPaintProperty(preFillId, 'fill-opacity', provinceFillOpacityRamp(0.1));
     }
     if (map.getLayer(postFillId)) {
       map.setPaintProperty(postFillId, 'fill-color', '#3388ff');
-      map.setPaintProperty(postFillId, 'fill-opacity', 0.1);
+      map.setPaintProperty(postFillId, 'fill-opacity', provinceFillOpacityRamp(0.1));
     }
     return;
   }
@@ -165,11 +175,11 @@ function applyRegionFillColors(
       const fillColorExpr = matchExpr as maplibregl.DataDrivenPropertyValueSpecification<maplibregl.ColorSpecification>;
       if (map.getLayer(preFillId)) {
         map.setPaintProperty(preFillId, 'fill-color', fillColorExpr);
-        map.setPaintProperty(preFillId, 'fill-opacity', 0.3);
+        map.setPaintProperty(preFillId, 'fill-opacity', provinceFillOpacityRamp(0.3));
       }
       if (map.getLayer(postFillId)) {
         map.setPaintProperty(postFillId, 'fill-color', fillColorExpr);
-        map.setPaintProperty(postFillId, 'fill-opacity', 0.3);
+        map.setPaintProperty(postFillId, 'fill-opacity', provinceFillOpacityRamp(0.3));
       }
     })
     .catch(() => {});

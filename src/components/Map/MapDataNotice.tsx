@@ -33,7 +33,8 @@ export default function MapDataNotice({ onClose }: MapDataNoticeProps) {
       </p>
       <div className="mt-2 space-y-0.5 border-t border-slate-200 pt-2 text-[10px] leading-4 text-slate-500 sm:hidden">
         <div>{t('attributionOSM')}</div>
-        <div>{t('attributionCarto')}</div>
+        <div>{t('attributionProtomaps')}</div>
+        <div>{t('attributionNaturalEarth')}</div>
         <div>{t('attributionGeoBoundaries')}</div>
         <div>{t('attributionViettrace')}</div>
       </div>

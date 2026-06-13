@@ -48,6 +48,9 @@ importers:
       '@next/eslint-plugin-next':
         specifier: 15.4.5
         version: 15.4.5
+      '@protomaps/basemaps':
+        specifier: 5.7.2
+        version: 5.7.2
       '@release-it/bumper':
         specifier: 7.0.5
         version: 7.0.5(release-it@19.0.3(@types/node@24.0.15))
@@ -1437,6 +1440,10 @@ packages:
     resolution: {integrity: sha512-mrZOev24EDhnefmnZX7WVVT7v+r9LttPRqf54ONvj6re4XMF7wFTpK2tLJi4XHB7fFp/6xhYbgRel8YV7gQiyA==}
     peerDependencies:
       '@opentelemetry/api': ^1.8
+
+  '@protomaps/basemaps@5.7.2':
+    resolution: {integrity: sha512-K1Yk6bWdULulYg+R2QRVXx4NzJZan5YQhpejEG0c1/sXruJrfPIPZuakpf3jwAgVmjIRVQwAv+yRafDeN0aaUQ==}
+    hasBin: true
 
   '@release-it/bumper@7.0.5':
     resolution: {integrity: sha512-HCFMqDHreLYg4jjTWL//pW1GzZZMn3p7HDbwS2y7y5m0L6p8hEaOEixC3tEzwyVV7VP1VGjqxMvxfa360q8+Tg==}
@@ -6666,6 +6673,8 @@ snapshots:
       '@opentelemetry/instrumentation': 0.57.2(@opentelemetry/api@1.9.0)
     transitivePeerDependencies:
       - supports-color
+
+  '@protomaps/basemaps@5.7.2': {}
 
   '@release-it/bumper@7.0.5(release-it@19.0.3(@types/node@24.0.15))':
     dependencies:

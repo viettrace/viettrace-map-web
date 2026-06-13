@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { readPublicEnv } from './publicEnv';
+import { localizeBasemapStyle, readPublicEnv } from './publicEnv';
 
 const requiredEnv = {
   NEXT_PUBLIC_TILE_URL_ISLANDS: 'https://tiles.example.test/islands',
@@ -13,7 +13,7 @@ describe('readPublicEnv', () => {
   it('reads required tile URLs and default map style', () => {
     expect(readPublicEnv(requiredEnv)).toEqual({
       enableQaLayers: false,
-      mapStyle: 'https://basemaps.cartocdn.com/gl/positron-gl-style/style.json',
+      mapStyle: '/basemap-style.json',
       tileCacheBuster: undefined,
       tileUrlIslands: 'https://tiles.example.test/islands',
       tileUrlPostWardsCandidateLabels: undefined,
@@ -80,5 +80,23 @@ describe('readPublicEnv', () => {
         NEXT_PUBLIC_TILE_URL_POST: 'https://tiles.example.test/post',
       }),
     ).toThrow('NEXT_PUBLIC_TILE_URL_PRE');
+  });
+});
+
+describe('localizeBasemapStyle', () => {
+  it('keeps the base file for the default (vi) locale', () => {
+    expect(localizeBasemapStyle('/basemap-style.json', 'vi')).toBe('/basemap-style.json');
+  });
+
+  it('rewrites a self-hosted style to the -en variant for en', () => {
+    expect(localizeBasemapStyle('/basemap-style.json', 'en')).toBe('/basemap-style-en.json');
+    expect(localizeBasemapStyle('/poc-basemap-style.json', 'en')).toBe(
+      '/poc-basemap-style-en.json',
+    );
+  });
+
+  it('leaves external style URLs (e.g. CARTO fallback) unchanged for en', () => {
+    const carto = 'https://basemaps.cartocdn.com/gl/positron-gl-style/style.json';
+    expect(localizeBasemapStyle(carto, 'en')).toBe(carto);
   });
 });
