@@ -40,7 +40,7 @@
     "@spotlightjs/spotlight": "3.0.1",
     "maplibre-gl": "5.6.1",
     "next": "15.4.8",
-    "next-intl": "4.3.4",
+    "next-intl": "4.13.0",
     "pmtiles": "4.4.1",
     "react": "19.1.0",
     "react-dom": "19.1.0"
