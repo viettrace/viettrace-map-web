@@ -31,7 +31,7 @@ export default function MapAttribution({
       </button>
       <span className="hidden min-w-0 sm:inline sm:basis-auto">
         <span>{t('attributionOSM')}</span>
-        <span> | {t('attributionProtomaps')}</span>
+        <span> | {t('attributionOpenMapTiles')}</span>
         <span> | {t('attributionNaturalEarth')}</span>
         <span>
           {' '}
