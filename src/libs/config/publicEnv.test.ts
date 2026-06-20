@@ -74,12 +74,26 @@ describe('readPublicEnv', () => {
     });
   });
 
-  it('fails early when a required province tile URL is missing', () => {
+  it('fails early when a province layer has neither a Martin nor a PMTiles source', () => {
     expect(() =>
       readPublicEnv({
         NEXT_PUBLIC_TILE_URL_POST: 'https://tiles.example.test/post',
       }),
     ).toThrow('NEXT_PUBLIC_TILE_URL_PRE');
+  });
+
+  it('accepts a PMTiles-only config without the Martin province tile URLs (ADR-0016)', () => {
+    expect(
+      readPublicEnv({
+        NEXT_PUBLIC_PMTILES_URL_PRE: 'https://tiles.example.test/pre.pmtiles',
+        NEXT_PUBLIC_PMTILES_URL_POST: 'https://tiles.example.test/post.pmtiles',
+      }),
+    ).toMatchObject({
+      pmtilesUrlPre: 'https://tiles.example.test/pre.pmtiles',
+      pmtilesUrlPost: 'https://tiles.example.test/post.pmtiles',
+      tileUrlPre: undefined,
+      tileUrlPost: undefined,
+    });
   });
 });
 
