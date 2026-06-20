@@ -18,7 +18,7 @@
   "scripts": {
     "prepare": "lefthook install || true",
     "dev": "next dev --turbopack",
-    "build": "next build",
+    "build": "node scripts/generate-omt-basemap-style.mjs && next build",
     "start": "next start",
     "lint": "next lint",
     "test:unit": "vitest run",
@@ -26,6 +26,8 @@
     "data:generate-labels": "node scripts/generate-labels.mjs",
     "data:generate-nested-index": "node scripts/generate-nested-index.mjs",
     "basemap:generate-style": "node scripts/generate-basemap-style.mjs",
+    "basemap:generate-omt-style": "node scripts/generate-omt-basemap-style.mjs",
+    "basemap:generate-omt-style:local": "node scripts/generate-omt-basemap-style.mjs --local",
     "data:verify-index": "node scripts/verify-province-index.mjs",
     "data:verify-labels": "node scripts/verify-province-labels.mjs",
     "data:verify-mergers": "node scripts/verify-merger-info.mjs",

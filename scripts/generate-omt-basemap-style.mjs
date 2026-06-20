@@ -29,8 +29,13 @@ const SRC = JSON.parse(fs.readFileSync(new URL('../osmbright_src.json', import.m
 const VN_OUTLINE = JSON.parse(fs.readFileSync(new URL('./vn-outline.geojson', import.meta.url)))
   .features[0].geometry;
 
-const LOCAL = process.env.OMT_LOCAL === '1' || process.env.OMT_LOCAL === 'true';
-const ASSET_BASE = process.env.OMT_ASSET_BASE || 'https://nested-tiles.viettrace.org/basemap';
+const LOCAL =
+  process.env.OMT_LOCAL === '1' ||
+  process.env.OMT_LOCAL === 'true' ||
+  process.argv.includes('--local'); // cross-platform alternative to setting OMT_LOCAL=1
+// One-domain layout (ADR-0016): basemap assets live under tiles.viettrace.org/basemap on the
+// shared R2 bucket. Override with OMT_ASSET_BASE; OMT_LOCAL=1 uses the local :8600 preview instead.
+const ASSET_BASE = process.env.OMT_ASSET_BASE || 'https://tiles.viettrace.org/basemap';
 
 // Regional-detail PMTiles (VN + neighbours + the surrounding sea, z0–14 — a bbox extract,
 // like Protomaps' old vietnam.pmtiles). Covering the near-sea at full zoom is what keeps the
