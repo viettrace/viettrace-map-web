@@ -5,6 +5,8 @@ import { buildTileTemplate } from '@src/libs/maplibre/tileUrl';
 
 export const boundarySourceIds = {
   islands: 'vn-offshore-islands',
+  islandsReef: 'vn-offshore-reefs',
+  islandsLand: 'vn-islands-land',
   islandLabels: 'offshore-island-labels',
   post: 'vn-provinces-post',
   postWardsCandidateLabels: 'vn-wards-post-2025-candidate-labels',
@@ -17,6 +19,7 @@ export const boundarySourceIds = {
 } as const;
 
 export const boundaryLayerIds = {
+  islandsLandFill: 'islands-land-fill',
   islandsFill: 'offshore-islands-fill',
   islandsLabel: 'offshore-islands-label',
   islandsOutline: 'offshore-islands-outline',
@@ -43,6 +46,8 @@ export const boundaryLayerIds = {
 
 export const boundarySourceLayers = {
   islands: 'vn_offshore_islands',
+  islandsReef: 'vn_offshore_reefs',
+  islandsLand: 'vn_islands_fill',
   post: 'vn_provinces_post_2025',
   postWardsCandidateLabels: 'vn_wards_post_2025_candidate_labels',
   postWardsCandidate: 'vn_wards_post_2025_candidate',
@@ -64,17 +69,21 @@ export const labelZoomStops = {
     full: 5.95,
     min: 5.25,
   },
+  // Ward labels defer to z10.5+ so province (z5–9) → district (z8.5–11) → ward (z10.5+) hand off
+  // cleanly instead of all competing for the same collision slots in the dense Red River Delta.
   postWardCandidates: {
-    full: 10.0,
-    min: 9.0,
+    full: 11.5,
+    min: 10.5,
   },
   postProvinces: {
     full: 5.5,
     min: 4.5,
   },
+  // District labels defer to z8.5+ so provinces own the z5–9 overview (otherwise the ~700 district
+  // labels flood in at z7 and out-collide the province labels — see image-120 regression).
   preDistrictCandidates: {
-    full: 8.0,
-    min: 7.0,
+    full: 9.5,
+    min: 8.5,
   },
   preProvinces: {
     full: 5.75,
@@ -109,6 +118,27 @@ export function getOffshoreIslandModeStyle(mode: MapMode): OffshoreIslandModeSty
     ? { fillColor: '#d44', labelColor: '#991b1b', outlineColor: '#b91c1c' }
     : { fillColor: '#3388ff', labelColor: '#1e3a8a', outlineColor: '#1d4ed8' };
 }
+
+// Reef/shallows fill for the OSM-derived Hoàng Sa / Trường Sa reef polygons. A pale turquoise
+// clearly lighter+greener than the basemap's teal sea (#a9cdd0), so each reef/atoll reads as
+// shallows instead of open water. Mode-independent (a reef isn't political) — the red/blue
+// OUTLINE + label carry the pre/post territorial signal. Eased off at close zoom so the
+// basemap's own reef detail shows through.
+const REEF_SHALLOWS_FILL = '#86d6c6';
+
+// The offshore-islands overlay is the canonical Hoàng Sa / Trường Sa boundary (accurate OSM reef
+// geometry). Exclude the archipelago special-zone/district gap-fills from the nested candidate
+// layers — their coarser land-clipped geometry otherwise draws a second, offset boundary inside the
+// offshore reef outline. Filter on the ASCII `name_en` (not the Vietnamese `name`, which fails on
+// NFC/NFD normalization mismatches, nor `within`, which is unreliable for polygon features). These
+// four name_en values are unique to the archipelago; mainland nested candidates are untouched.
+const EXCLUDE_ARCHIPELAGO_FILTER = [
+  'all',
+  ['!=', ['get', 'name_en'], 'Hoang Sa District'],
+  ['!=', ['get', 'name_en'], 'Truong Sa District'],
+  ['!=', ['get', 'name_en'], 'Hoang Sa Special Zone'],
+  ['!=', ['get', 'name_en'], 'Truong Sa Special Zone'],
+] as maplibregl.ExpressionSpecification;
 
 export const offshoreIslandLayerIds = {
   fill: 'offshore-islands-fill',
@@ -149,6 +179,8 @@ interface BoundaryLayerGroup {
 }
 
 interface BoundaryLayerOptions {
+  includeIslandsLand?: boolean;
+  includeIslandsReef?: boolean;
   includeOffshoreIslands?: boolean;
   includePostWardCandidateLabels?: boolean;
   includePostWardCandidates?: boolean;
@@ -275,25 +307,26 @@ function zoomRamp(
 }
 
 export function getBoundarySourceDefinitions(env: PublicEnv): BoundarySourceDefinition[] {
+  // A polygon vector source: static PMTiles when a `pmtiles://` URL is configured (min/max zoom come
+  // from the PMTiles header), else Martin dynamic tiles. Lets provinces/islands move to PMTiles by
+  // env alone, mirroring the nested-candidate pattern. `pmtilesMaxzoom` matches the generated tiles.
+  const vec = (
+    pmtilesUrl: string | undefined,
+    martinUrl: string | undefined,
+    pmtilesMaxzoom: number,
+  ): maplibregl.SourceSpecification =>
+    pmtilesUrl
+      ? { type: 'vector', minzoom: 0, maxzoom: pmtilesMaxzoom, url: `pmtiles://${pmtilesUrl}` }
+      : {
+          type: 'vector',
+          minzoom: 0,
+          maxzoom: 10,
+          tiles: [buildTileTemplate(martinUrl ?? '', env.tileCacheBuster)],
+        };
+
   const sourceDefinitions: BoundarySourceDefinition[] = [
-    {
-      id: boundarySourceIds.pre,
-      source: {
-        maxzoom: 10,
-        minzoom: 0,
-        tiles: [buildTileTemplate(env.tileUrlPre, env.tileCacheBuster)],
-        type: 'vector',
-      },
-    },
-    {
-      id: boundarySourceIds.post,
-      source: {
-        maxzoom: 10,
-        minzoom: 0,
-        tiles: [buildTileTemplate(env.tileUrlPost, env.tileCacheBuster)],
-        type: 'vector',
-      },
-    },
+    { id: boundarySourceIds.pre, source: vec(env.pmtilesUrlPre, env.tileUrlPre, 12) },
+    { id: boundarySourceIds.post, source: vec(env.pmtilesUrlPost, env.tileUrlPost, 12) },
     {
       id: boundarySourceIds.preLabels,
       source: {
@@ -310,11 +343,25 @@ export function getBoundarySourceDefinitions(env: PublicEnv): BoundarySourceDefi
     },
   ];
 
-  if (!env.tileUrlIslands) {
+  // Track A — islands the Protomaps basemap lacks (Hoàng Sa/Trường Sa, bay islands),
+  // rendered as an earth-coloured land fill beneath the boundaries.
+  if (env.tileUrlIslandsFill) {
+    sourceDefinitions.push({
+      id: boundarySourceIds.islandsLand,
+      source: {
+        maxzoom: 12,
+        minzoom: 0,
+        tiles: [buildTileTemplate(env.tileUrlIslandsFill, env.tileCacheBuster)],
+        type: 'vector',
+      },
+    });
+  }
+
+  if (!env.tileUrlIslands && !env.pmtilesUrlIslands) {
     return getNestedCandidateSourceDefinitions(env, sourceDefinitions);
   }
 
-  return getNestedCandidateSourceDefinitions(env, [
+  const islandSourceDefinitions: BoundarySourceDefinition[] = [
     ...sourceDefinitions,
     {
       id: boundarySourceIds.islandLabels,
@@ -323,16 +370,20 @@ export function getBoundarySourceDefinitions(env: PublicEnv): BoundarySourceDefi
         type: 'geojson',
       },
     },
-    {
-      id: boundarySourceIds.islands,
-      source: {
-        maxzoom: 10,
-        minzoom: 0,
-        tiles: [buildTileTemplate(env.tileUrlIslands, env.tileCacheBuster)],
-        type: 'vector',
-      },
-    },
-  ]);
+    { id: boundarySourceIds.islands, source: vec(env.pmtilesUrlIslands, env.tileUrlIslands, 14) },
+  ];
+
+  // Reef-shallows source (reef ∩ basemap-water) for the turquoise fill — separate from the
+  // full-extent islands source so the fill excludes the islands while the outline stays a single
+  // clean perimeter. Falls back to the islands source when unset (older deployments).
+  if (env.tileUrlIslandsReef || env.pmtilesUrlIslandsReef) {
+    islandSourceDefinitions.push({
+      id: boundarySourceIds.islandsReef,
+      source: vec(env.pmtilesUrlIslandsReef, env.tileUrlIslandsReef, 14),
+    });
+  }
+
+  return getNestedCandidateSourceDefinitions(env, islandSourceDefinitions);
 }
 
 function getNestedCandidateSourceDefinitions(
@@ -503,6 +554,12 @@ function getProvinceLayerDefinitions(
         filter: ['all', ['!=', ['get', 'is_capital'], true], ['!=', ['get', 'is_city'], true]],
         id: boundaryLayerIds.preLabel,
         layout: {
+          // Collision ON (no pile, and no overdraw — district labels respect the same collision
+          // index so they no longer paint over province labels). Visible to maxzoom 12 so dense-delta
+          // provinces (Nam Định/Thái Bình/…) appear once you zoom in enough for their labels to fit —
+          // NO early fade-out (that previously hid them at z9+ before they could ever show). The
+          // basemap's own VN place labels are hidden while boundaries are on (see BoundaryLayers), so
+          // province labels win their band instead of losing the global collision to a basemap city.
           'text-allow-overlap': false,
           'text-anchor': 'center',
           'text-field': ['get', labelField],
@@ -517,12 +574,22 @@ function getProvinceLayerDefinitions(
           'text-color': '#d44',
           'text-halo-color': '#fff',
           'text-halo-width': 2,
-          'text-opacity': zoomRamp(
+          // Fade in z4.75→5.75; FULL through z9.5 (so dense-delta provinces have a wide window to
+          // appear as they spread, with no basemap labels competing); fade out z9.5→11 to hand off
+          // to the district labels (which fade in z8.5→9.5). Gone by z11, before the ward tier.
+          'text-opacity': [
+            'interpolate',
+            ['linear'],
+            ['zoom'],
             labelZoomStops.preProvinces.min,
             0,
             labelZoomStops.preProvinces.full,
             1,
-          ),
+            9.5,
+            1,
+            11,
+            0,
+          ],
         },
         source: boundarySourceIds.preLabels,
         type: 'symbol',
@@ -625,6 +692,7 @@ function getProvinceLayerDefinitions(
         filter: ['all', ['!=', ['get', 'is_capital'], true], ['!=', ['get', 'is_city'], true]],
         id: boundaryLayerIds.postLabel,
         layout: {
+          // Collision ON (no pile); own z5–8 then fade out z8→9.5 to hand off to ward labels.
           'text-allow-overlap': false,
           'text-anchor': 'center',
           'text-field': ['get', labelField],
@@ -639,12 +707,20 @@ function getProvinceLayerDefinitions(
           'text-color': '#2563eb',
           'text-halo-color': '#fff',
           'text-halo-width': 2,
-          'text-opacity': zoomRamp(
+          // Mirror of preLabel: full through z9.5, fade out z9.5→11 to hand off to the ward labels.
+          'text-opacity': [
+            'interpolate',
+            ['linear'],
+            ['zoom'],
             labelZoomStops.postProvinces.min,
             0,
             labelZoomStops.postProvinces.full,
             1,
-          ),
+            9.5,
+            1,
+            11,
+            0,
+          ],
         },
         source: boundarySourceIds.postLabels,
         type: 'symbol',
@@ -747,11 +823,22 @@ function getProvinceLayerDefinitions(
 function getOffshoreIslandLayerDefinitions(
   locale: string,
   state: MapViewState,
+  reefTilesAvailable: boolean,
 ): BoundaryLayerDefinition[] {
   const islandsVisible = state.layers.offshoreIslands;
-  // Match offshore islands styling and labels with the active mode.
-  const { fillColor, labelColor, outlineColor } = getOffshoreIslandModeStyle(state.mode);
+  // Outline + label track the active mode (territorial signal); the reef fill is mode-independent.
+  const { labelColor, outlineColor } = getOffshoreIslandModeStyle(state.mode);
   const labelExpression = getOffshoreIslandLabelTextField(state.mode, locale);
+  // The turquoise fill uses the reef-minus-land source (islands punched out as holes) when
+  // available, so the islands show the basemap land colour; the OUTLINE/label use the full-extent
+  // islands source so only the reef perimeter is outlined (no inner island rings). Fall back to
+  // the islands source for the fill if the reef tiles aren't configured.
+  const reefFillSource = reefTilesAvailable
+    ? boundarySourceIds.islandsReef
+    : boundarySourceIds.islands;
+  const reefFillSourceLayer = reefTilesAvailable
+    ? boundarySourceLayers.islandsReef
+    : boundarySourceLayers.islands;
 
   return [
     {
@@ -759,9 +846,9 @@ function getOffshoreIslandLayerDefinitions(
       layer: {
         id: boundaryLayerIds.islandsFill,
         layout: { visibility: islandsVisible ? 'visible' : 'none' },
-        paint: { 'fill-color': fillColor, 'fill-opacity': 0.1 },
-        source: boundarySourceIds.islands,
-        'source-layer': boundarySourceLayers.islands,
+        paint: { 'fill-color': REEF_SHALLOWS_FILL, 'fill-opacity': zoomRamp(4, 0.82, 13, 0.72) },
+        source: reefFillSource,
+        'source-layer': reefFillSourceLayer,
         type: 'fill',
       },
     },
@@ -849,6 +936,7 @@ function getNestedCandidateLayerDefinitions(
       {
         groupId: 'pre-districts-candidate',
         layer: {
+          filter: EXCLUDE_ARCHIPELAGO_FILTER,
           id: boundaryLayerIds.preDistrictsCandidateFill,
           layout: { visibility: preVisible ? 'visible' : 'none' },
           minzoom: 7,
@@ -861,6 +949,7 @@ function getNestedCandidateLayerDefinitions(
       {
         groupId: 'pre-districts-candidate',
         layer: {
+          filter: EXCLUDE_ARCHIPELAGO_FILTER,
           id: boundaryLayerIds.preDistrictsCandidateOutline,
           layout: { visibility: preVisible ? 'visible' : 'none' },
           minzoom: 7,
@@ -881,7 +970,7 @@ function getNestedCandidateLayerDefinitions(
     layers.push({
       groupId: 'pre-districts-candidate',
       layer: {
-        filter: ['has', 'name'],
+        filter: ['all', ['has', 'name'], EXCLUDE_ARCHIPELAGO_FILTER],
         id: boundaryLayerIds.preDistrictsCandidateLabel,
         layout: {
           'text-allow-overlap': false,
@@ -918,6 +1007,7 @@ function getNestedCandidateLayerDefinitions(
       {
         groupId: 'post-wards-candidate',
         layer: {
+          filter: EXCLUDE_ARCHIPELAGO_FILTER,
           id: boundaryLayerIds.postWardsCandidateFill,
           layout: { visibility: postVisible ? 'visible' : 'none' },
           minzoom: 8,
@@ -930,6 +1020,7 @@ function getNestedCandidateLayerDefinitions(
       {
         groupId: 'post-wards-candidate',
         layer: {
+          filter: EXCLUDE_ARCHIPELAGO_FILTER,
           id: boundaryLayerIds.postWardsCandidateOutline,
           layout: { visibility: postVisible ? 'visible' : 'none' },
           minzoom: 8,
@@ -950,7 +1041,7 @@ function getNestedCandidateLayerDefinitions(
     layers.push({
       groupId: 'post-wards-candidate',
       layer: {
-        filter: ['has', 'name'],
+        filter: ['all', ['has', 'name'], EXCLUDE_ARCHIPELAGO_FILTER],
         id: boundaryLayerIds.postWardsCandidateLabel,
         layout: {
           'text-allow-overlap': false,
@@ -1014,7 +1105,27 @@ export function getBoundaryLayerDefinitions(
   const nestedCandidateLabelLayers = nestedCandidateLayers.filter(definition =>
     hasLayerId(definition, nestedCandidateLabelLayerIds),
   );
+  // Track A — islands missing from the Protomaps basemap (Hoàng Sa/Trường Sa, bay
+  // islands) rendered as an earth-coloured land fill. Bottom-most so the boundary
+  // fills/outlines draw on top; matches the basemap earth colour so islands read as land.
+  const islandsLandLayers: BoundaryLayerDefinition[] = options.includeIslandsLand
+    ? [
+        {
+          groupId: 'islands-land',
+          layer: {
+            id: boundaryLayerIds.islandsLandFill,
+            type: 'fill',
+            source: boundarySourceIds.islandsLand,
+            'source-layer': boundarySourceLayers.islandsLand,
+            layout: { visibility: 'visible' },
+            paint: { 'fill-color': '#f4f1ea', 'fill-opacity': 1 },
+          },
+        },
+      ]
+    : [];
+
   const orderedLayers = [
+    ...islandsLandLayers,
     ...provinceFillLayers,
     ...nestedCandidateGeometryLayers,
     ...provincePriorityLayers,
@@ -1026,8 +1137,9 @@ export function getBoundaryLayerDefinitions(
   }
 
   return [
+    ...islandsLandLayers,
     ...provinceFillLayers,
-    ...getOffshoreIslandLayerDefinitions(locale, state),
+    ...getOffshoreIslandLayerDefinitions(locale, state, Boolean(options.includeIslandsReef)),
     ...nestedCandidateGeometryLayers,
     ...provincePriorityLayers,
     ...nestedCandidateLabelLayers,

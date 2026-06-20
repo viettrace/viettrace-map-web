@@ -5,14 +5,22 @@ export interface PublicEnv {
   pmtilesUrlPostWardsCandidate?: string;
   pmtilesUrlPreDistrictsCandidateLabels?: string;
   pmtilesUrlPreDistrictsCandidate?: string;
+  pmtilesUrlPre?: string;
+  pmtilesUrlPost?: string;
+  pmtilesUrlIslands?: string;
+  pmtilesUrlIslandsReef?: string;
   tileCacheBuster?: string;
   tileUrlIslands?: string;
+  tileUrlIslandsFill?: string;
+  tileUrlIslandsReef?: string;
   tileUrlPostWardsCandidateLabels?: string;
   tileUrlPostWardsCandidate?: string;
-  tileUrlPost: string;
+  // Optional: the Martin tile URL is only the fallback when the matching PMTiles URL is unset.
+  // readPublicEnv requires that each province layer has at least one source (PMTiles or Martin).
+  tileUrlPost?: string;
   tileUrlPreDistrictsCandidateLabels?: string;
   tileUrlPreDistrictsCandidate?: string;
-  tileUrlPre: string;
+  tileUrlPre?: string;
 }
 
 // Self-hosted Protomaps "Heritage paper" basemap (Track A). Served from public/
@@ -31,8 +39,14 @@ const browserPublicEnv: PublicEnvSource = {
     process.env.NEXT_PUBLIC_PMTILES_URL_PRE_DISTRICTS_CANDIDATE_LABELS,
   NEXT_PUBLIC_PMTILES_URL_PRE_DISTRICTS_CANDIDATE:
     process.env.NEXT_PUBLIC_PMTILES_URL_PRE_DISTRICTS_CANDIDATE,
+  NEXT_PUBLIC_PMTILES_URL_PRE: process.env.NEXT_PUBLIC_PMTILES_URL_PRE,
+  NEXT_PUBLIC_PMTILES_URL_POST: process.env.NEXT_PUBLIC_PMTILES_URL_POST,
+  NEXT_PUBLIC_PMTILES_URL_ISLANDS: process.env.NEXT_PUBLIC_PMTILES_URL_ISLANDS,
+  NEXT_PUBLIC_PMTILES_URL_ISLANDS_REEF: process.env.NEXT_PUBLIC_PMTILES_URL_ISLANDS_REEF,
   NEXT_PUBLIC_TILE_CACHE_BUSTER: process.env.NEXT_PUBLIC_TILE_CACHE_BUSTER,
   NEXT_PUBLIC_TILE_URL_ISLANDS: process.env.NEXT_PUBLIC_TILE_URL_ISLANDS,
+  NEXT_PUBLIC_TILE_URL_ISLANDS_FILL: process.env.NEXT_PUBLIC_TILE_URL_ISLANDS_FILL,
+  NEXT_PUBLIC_TILE_URL_ISLANDS_REEF: process.env.NEXT_PUBLIC_TILE_URL_ISLANDS_REEF,
   NEXT_PUBLIC_TILE_URL_POST_WARDS_CANDIDATE_LABELS:
     process.env.NEXT_PUBLIC_TILE_URL_POST_WARDS_CANDIDATE_LABELS,
   NEXT_PUBLIC_TILE_URL_POST_WARDS_CANDIDATE: process.env.NEXT_PUBLIC_TILE_URL_POST_WARDS_CANDIDATE,
@@ -44,21 +58,30 @@ const browserPublicEnv: PublicEnvSource = {
   NEXT_PUBLIC_TILE_URL_PRE: process.env.NEXT_PUBLIC_TILE_URL_PRE,
 };
 
-function readRequiredEnv(env: PublicEnvSource, key: string): string {
-  const value = env[key];
-
-  if (!value) {
-    throw new Error(`Missing required public environment variable: ${key}`);
-  }
-
-  return value;
-}
-
 function readBooleanEnv(env: PublicEnvSource, key: string): boolean {
   return env[key]?.trim().toLowerCase() === 'true';
 }
 
 export function readPublicEnv(env: PublicEnvSource = browserPublicEnv): PublicEnv {
+  const pmtilesUrlPre = env.NEXT_PUBLIC_PMTILES_URL_PRE || undefined;
+  const pmtilesUrlPost = env.NEXT_PUBLIC_PMTILES_URL_POST || undefined;
+  const tileUrlPre = env.NEXT_PUBLIC_TILE_URL_PRE || undefined;
+  const tileUrlPost = env.NEXT_PUBLIC_TILE_URL_POST || undefined;
+
+  // Each province layer needs a source: a PMTiles URL (preferred) OR a Martin tile URL.
+  // Fail fast only when a layer has neither configured (a real misconfiguration). This lets the
+  // all-PMTiles production setup (ADR-0016) omit the Martin NEXT_PUBLIC_TILE_URL_PRE/POST entirely.
+  if (!pmtilesUrlPre && !tileUrlPre) {
+    throw new Error(
+      'Missing pre-2025 province tile source: set NEXT_PUBLIC_PMTILES_URL_PRE or NEXT_PUBLIC_TILE_URL_PRE',
+    );
+  }
+  if (!pmtilesUrlPost && !tileUrlPost) {
+    throw new Error(
+      'Missing post-2025 province tile source: set NEXT_PUBLIC_PMTILES_URL_POST or NEXT_PUBLIC_TILE_URL_POST',
+    );
+  }
+
   return {
     enableQaLayers: readBooleanEnv(env, 'NEXT_PUBLIC_ENABLE_QA_LAYERS'),
     mapStyle: env.NEXT_PUBLIC_MAP_STYLE || DEFAULT_MAP_STYLE,
@@ -69,16 +92,22 @@ export function readPublicEnv(env: PublicEnvSource = browserPublicEnv): PublicEn
       env.NEXT_PUBLIC_PMTILES_URL_PRE_DISTRICTS_CANDIDATE_LABELS || undefined,
     pmtilesUrlPreDistrictsCandidate:
       env.NEXT_PUBLIC_PMTILES_URL_PRE_DISTRICTS_CANDIDATE || undefined,
+    pmtilesUrlPre,
+    pmtilesUrlPost,
+    pmtilesUrlIslands: env.NEXT_PUBLIC_PMTILES_URL_ISLANDS || undefined,
+    pmtilesUrlIslandsReef: env.NEXT_PUBLIC_PMTILES_URL_ISLANDS_REEF || undefined,
     tileCacheBuster: env.NEXT_PUBLIC_TILE_CACHE_BUSTER || undefined,
     tileUrlIslands: env.NEXT_PUBLIC_TILE_URL_ISLANDS || undefined,
+    tileUrlIslandsFill: env.NEXT_PUBLIC_TILE_URL_ISLANDS_FILL || undefined,
+    tileUrlIslandsReef: env.NEXT_PUBLIC_TILE_URL_ISLANDS_REEF || undefined,
     tileUrlPostWardsCandidateLabels:
       env.NEXT_PUBLIC_TILE_URL_POST_WARDS_CANDIDATE_LABELS || undefined,
     tileUrlPostWardsCandidate: env.NEXT_PUBLIC_TILE_URL_POST_WARDS_CANDIDATE || undefined,
-    tileUrlPost: readRequiredEnv(env, 'NEXT_PUBLIC_TILE_URL_POST'),
+    tileUrlPost,
     tileUrlPreDistrictsCandidateLabels:
       env.NEXT_PUBLIC_TILE_URL_PRE_DISTRICTS_CANDIDATE_LABELS || undefined,
     tileUrlPreDistrictsCandidate: env.NEXT_PUBLIC_TILE_URL_PRE_DISTRICTS_CANDIDATE || undefined,
-    tileUrlPre: readRequiredEnv(env, 'NEXT_PUBLIC_TILE_URL_PRE'),
+    tileUrlPre,
   };
 }
 

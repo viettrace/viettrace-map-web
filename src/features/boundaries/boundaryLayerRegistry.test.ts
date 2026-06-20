@@ -127,6 +127,7 @@ describe('boundaryLayerRegistry', () => {
       ['!=', ['get', 'is_city'], true],
     ]);
     expect(preLabel?.minzoom).toBe(4.75);
+    // Fade in z4.75→5.75, full through z9.5, fade out z9.5→11 (hand off to district labels).
     expect(preLabel?.paint?.['text-opacity']).toEqual([
       'interpolate',
       ['linear'],
@@ -135,6 +136,10 @@ describe('boundaryLayerRegistry', () => {
       0,
       5.75,
       1,
+      9.5,
+      1,
+      11,
+      0,
     ]);
     expect(preCityLabel?.filter).toEqual([
       'all',
@@ -157,6 +162,7 @@ describe('boundaryLayerRegistry', () => {
       ['!=', ['get', 'is_city'], true],
     ]);
     expect(postLabel?.minzoom).toBe(4.5);
+    // Fade in z4.5→5.5, full through z9.5, fade out z9.5→11 (hand off to ward labels).
     expect(postLabel?.paint?.['text-opacity']).toEqual([
       'interpolate',
       ['linear'],
@@ -165,6 +171,10 @@ describe('boundaryLayerRegistry', () => {
       0,
       5.5,
       1,
+      9.5,
+      1,
+      11,
+      0,
     ]);
     expect(postCityLabel?.filter).toEqual([
       'all',
@@ -255,7 +265,7 @@ describe('boundaryLayerRegistry', () => {
 
     expect(postCandidateLabel?.source).toBe(boundarySourceIds.postWardsCandidateLabels);
     expect(postCandidateLabel?.['source-layer']).toBe('vn_wards_post_2025_candidate_labels');
-    expect(postCandidateLabel?.minzoom).toBe(9.0);
+    expect(postCandidateLabel?.minzoom).toBe(10.5);
     expect(
       getBoundaryLayerGroups({
         includePostWardCandidates: true,

@@ -38,6 +38,12 @@ const REGION_FILL_COLORS: Record<Region, string> = {
 const REGION_LABELS_SOURCE_ID = 'region-labels-source';
 const REGION_LABELS_LAYER_ID = 'region-labels-layer';
 
+// NOTE: hiding Vietnam's basemap settlement labels (so the boundary overlay owns VN admin labels)
+// is done in the STYLE itself — the generator filters each settlement layer to features OUTSIDE
+// Vietnam via a `within` expression (see scripts/generate-omt-basemap-style.mjs). Baking it into the
+// style avoids the runtime-timing races that made an earlier setLayoutProperty approach unreliable,
+// and it keeps neighbour (non-VN) city/town/province labels visible for context.
+
 function removeRegionLabelsFromMap(map: maplibregl.Map): void {
   try {
     if (map.getLayer(REGION_LABELS_LAYER_ID)) map.removeLayer(REGION_LABELS_LAYER_ID);
@@ -209,7 +215,7 @@ export default function BoundaryLayers({ map, state, provinceEntries = [] }: Bou
     tileUrlPreDistrictsCandidateLabels,
     tileUrlPreDistrictsCandidate,
   } = publicEnv;
-  const includeOffshoreIslands = Boolean(tileUrlIslands);
+  const includeOffshoreIslands = Boolean(tileUrlIslands || publicEnv.pmtilesUrlIslands);
   // Polygon candidate sources are public when PMTiles URLs are set; otherwise gated to QA.
   const includePreDistrictCandidates =
     Boolean(pmtilesUrlPreDistrictsCandidate) ||
@@ -269,14 +275,21 @@ export default function BoundaryLayers({ map, state, provinceEntries = [] }: Bou
         ensureSource(map, sourceDefinition.id, sourceDefinition.source);
       }
 
+      // Keep boundary geometry (fills/outlines) BELOW the basemap's first label layer so the
+      // red/blue outlines never paint over place names; boundary labels (symbols) stay on top.
+      const firstBasemapLabelId = (map.getStyle().layers ?? []).find(l => l.type === 'symbol')?.id;
+
       for (const layerDefinition of getBoundaryLayerDefinitions(locale, state, {
+        includeIslandsLand: Boolean(publicEnv.tileUrlIslandsFill),
+        includeIslandsReef: Boolean(publicEnv.tileUrlIslandsReef || publicEnv.pmtilesUrlIslandsReef),
         includeOffshoreIslands,
         includePostWardCandidateLabels,
         includePostWardCandidates,
         includePreDistrictCandidateLabels,
         includePreDistrictCandidates,
       })) {
-        replaceLayer(map, layerDefinition.layer);
+        const isLabel = layerDefinition.layer.type === 'symbol';
+        replaceLayer(map, layerDefinition.layer, isLabel ? undefined : firstBasemapLabelId);
       }
 
       // Re-apply region colors after layer recreation so switching pre/post mode while in
@@ -344,11 +357,9 @@ export default function BoundaryLayers({ map, state, provinceEntries = [] }: Bou
     // change). Without this sync, reopening the app with `?mode=post` can
     // leave Hoang Sa and Truong Sa rendered with the pre-mode (red) palette.
     if (includeOffshoreIslands && state.layers.offshoreIslands) {
-      const { fillColor, labelColor, outlineColor } = getOffshoreIslandModeStyle(state.mode);
-
-      if (map.getLayer(offshoreIslandLayerIds.fill)) {
-        map.setPaintProperty(offshoreIslandLayerIds.fill, 'fill-color', fillColor);
-      }
+      // Reef fill is mode-independent (set once in the layer def); only the outline + label
+      // track the active mode here.
+      const { labelColor, outlineColor } = getOffshoreIslandModeStyle(state.mode);
 
       if (map.getLayer(offshoreIslandLayerIds.outline)) {
         map.setPaintProperty(offshoreIslandLayerIds.outline, 'line-color', outlineColor);
