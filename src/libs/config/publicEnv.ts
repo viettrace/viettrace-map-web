@@ -5,8 +5,14 @@ export interface PublicEnv {
   pmtilesUrlPostWardsCandidate?: string;
   pmtilesUrlPreDistrictsCandidateLabels?: string;
   pmtilesUrlPreDistrictsCandidate?: string;
+  pmtilesUrlPre?: string;
+  pmtilesUrlPost?: string;
+  pmtilesUrlIslands?: string;
+  pmtilesUrlIslandsReef?: string;
   tileCacheBuster?: string;
   tileUrlIslands?: string;
+  tileUrlIslandsFill?: string;
+  tileUrlIslandsReef?: string;
   tileUrlPostWardsCandidateLabels?: string;
   tileUrlPostWardsCandidate?: string;
   tileUrlPost: string;
@@ -31,8 +37,14 @@ const browserPublicEnv: PublicEnvSource = {
     process.env.NEXT_PUBLIC_PMTILES_URL_PRE_DISTRICTS_CANDIDATE_LABELS,
   NEXT_PUBLIC_PMTILES_URL_PRE_DISTRICTS_CANDIDATE:
     process.env.NEXT_PUBLIC_PMTILES_URL_PRE_DISTRICTS_CANDIDATE,
+  NEXT_PUBLIC_PMTILES_URL_PRE: process.env.NEXT_PUBLIC_PMTILES_URL_PRE,
+  NEXT_PUBLIC_PMTILES_URL_POST: process.env.NEXT_PUBLIC_PMTILES_URL_POST,
+  NEXT_PUBLIC_PMTILES_URL_ISLANDS: process.env.NEXT_PUBLIC_PMTILES_URL_ISLANDS,
+  NEXT_PUBLIC_PMTILES_URL_ISLANDS_REEF: process.env.NEXT_PUBLIC_PMTILES_URL_ISLANDS_REEF,
   NEXT_PUBLIC_TILE_CACHE_BUSTER: process.env.NEXT_PUBLIC_TILE_CACHE_BUSTER,
   NEXT_PUBLIC_TILE_URL_ISLANDS: process.env.NEXT_PUBLIC_TILE_URL_ISLANDS,
+  NEXT_PUBLIC_TILE_URL_ISLANDS_FILL: process.env.NEXT_PUBLIC_TILE_URL_ISLANDS_FILL,
+  NEXT_PUBLIC_TILE_URL_ISLANDS_REEF: process.env.NEXT_PUBLIC_TILE_URL_ISLANDS_REEF,
   NEXT_PUBLIC_TILE_URL_POST_WARDS_CANDIDATE_LABELS:
     process.env.NEXT_PUBLIC_TILE_URL_POST_WARDS_CANDIDATE_LABELS,
   NEXT_PUBLIC_TILE_URL_POST_WARDS_CANDIDATE: process.env.NEXT_PUBLIC_TILE_URL_POST_WARDS_CANDIDATE,
@@ -69,8 +81,14 @@ export function readPublicEnv(env: PublicEnvSource = browserPublicEnv): PublicEn
       env.NEXT_PUBLIC_PMTILES_URL_PRE_DISTRICTS_CANDIDATE_LABELS || undefined,
     pmtilesUrlPreDistrictsCandidate:
       env.NEXT_PUBLIC_PMTILES_URL_PRE_DISTRICTS_CANDIDATE || undefined,
+    pmtilesUrlPre: env.NEXT_PUBLIC_PMTILES_URL_PRE || undefined,
+    pmtilesUrlPost: env.NEXT_PUBLIC_PMTILES_URL_POST || undefined,
+    pmtilesUrlIslands: env.NEXT_PUBLIC_PMTILES_URL_ISLANDS || undefined,
+    pmtilesUrlIslandsReef: env.NEXT_PUBLIC_PMTILES_URL_ISLANDS_REEF || undefined,
     tileCacheBuster: env.NEXT_PUBLIC_TILE_CACHE_BUSTER || undefined,
     tileUrlIslands: env.NEXT_PUBLIC_TILE_URL_ISLANDS || undefined,
+    tileUrlIslandsFill: env.NEXT_PUBLIC_TILE_URL_ISLANDS_FILL || undefined,
+    tileUrlIslandsReef: env.NEXT_PUBLIC_TILE_URL_ISLANDS_REEF || undefined,
     tileUrlPostWardsCandidateLabels:
       env.NEXT_PUBLIC_TILE_URL_POST_WARDS_CANDIDATE_LABELS || undefined,
     tileUrlPostWardsCandidate: env.NEXT_PUBLIC_TILE_URL_POST_WARDS_CANDIDATE || undefined,
