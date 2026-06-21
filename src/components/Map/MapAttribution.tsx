@@ -33,10 +33,7 @@ export default function MapAttribution({
         <span>{t('attributionOSM')}</span>
         <span> | {t('attributionOpenMapTiles')}</span>
         <span> | {t('attributionNaturalEarth')}</span>
-        <span>
-          {' '}
-          | {t('attributionGeoBoundaries')} | {t('attributionViettrace')}
-        </span>
+        <span> | {t('attributionViettrace')}</span>
       </span>
     </div>
   );
