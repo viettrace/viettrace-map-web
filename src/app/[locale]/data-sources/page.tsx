@@ -5,7 +5,6 @@ import { Link } from '@src/libs/i18n/navigation';
 import { routing } from '@src/libs/i18n/routing';
 
 const OSM_URL = 'https://www.openstreetmap.org/';
-const GEOBOUNDARIES_URL = 'https://www.geoboundaries.org/';
 const REPORT_DATA_ISSUE_URL =
   'https://github.com/viettrace/viettrace-map-web/issues/new?template=data_issue.md';
 
@@ -37,19 +36,12 @@ const copy = {
         license: 'ODbL',
         url: OSM_URL,
       },
-      {
-        name: 'geoBoundaries',
-        description:
-          'Dữ liệu ranh giới hành chính học thuật. Viettrace dùng làm tham chiếu riêng cho Hoàng Sa và Trường Sa.',
-        license: 'CC BY 4.0',
-        url: GEOBOUNDARIES_URL,
-      },
     ] as SourceEntry[],
     accuracyTitle: 'Về độ chính xác',
     accuracy: [
       'Ranh giới hiển thị mang tính tham khảo và không phải tài liệu pháp lý chính thức.',
       'Thông tin quận/huyện và phường/xã có thể chưa đầy đủ ở một số khu vực.',
-      'Hoàng Sa và Trường Sa được hiển thị theo dữ liệu tham chiếu quốc tế.',
+      'Hoàng Sa và Trường Sa được hiển thị theo dữ liệu OpenStreetMap.',
     ],
     reportTitle: 'Phát hiện lỗi?',
     reportDescription:
@@ -70,19 +62,12 @@ const copy = {
         license: 'ODbL',
         url: OSM_URL,
       },
-      {
-        name: 'geoBoundaries',
-        description:
-          'Academic administrative boundary data from William & Mary University. Viettrace uses this as a reference layer for Hoang Sa and Truong Sa.',
-        license: 'CC BY 4.0',
-        url: GEOBOUNDARIES_URL,
-      },
     ] as SourceEntry[],
     accuracyTitle: 'About accuracy',
     accuracy: [
       'Displayed boundaries are approximate and not official legal documents.',
       'District and ward data may be incomplete in some areas.',
-      'Hoang Sa and Truong Sa are displayed based on international reference data.',
+      'Hoang Sa and Truong Sa are displayed based on OpenStreetMap data.',
     ],
     reportTitle: 'Found an issue?',
     reportDescription:

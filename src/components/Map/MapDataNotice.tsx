@@ -35,7 +35,6 @@ export default function MapDataNotice({ onClose }: MapDataNoticeProps) {
         <div>{t('attributionOSM')}</div>
         <div>{t('attributionOpenMapTiles')}</div>
         <div>{t('attributionNaturalEarth')}</div>
-        <div>{t('attributionGeoBoundaries')}</div>
         <div>{t('attributionViettrace')}</div>
       </div>
       <div className="mt-2 flex flex-wrap gap-1.5 sm:gap-2">

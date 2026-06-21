@@ -23,6 +23,38 @@ const sources = {
   postWards: '.data/processed/import/vn_post_2025_wards_candidate.geojson',
 };
 
+// The Hoàng Sa / Trường Sa archipelago entries are administrative gap-fills whose polygon is excluded
+// from the rendered nested layer (the OSM offshore-islands layer draws the territory). Source their
+// search fly-to extent from that SAME OSM island geometry (ODbL) so the index carries no
+// geoBoundaries-derived coordinates. Matched by the unique "Hoàng Sa" / "Trường Sa" in the name.
+const OFFSHORE_ISLANDS_PATH = 'processed/islands/vn_offshore_islands.geojson';
+
+function applyOffshoreIslandOverrides(features) {
+  const islands = readJson(resolveDataPath(OFFSHORE_ISLANDS_PATH));
+  const byName = new Map();
+  for (const feature of islands.features ?? []) {
+    const key = feature.properties?.name_vi;
+    if (!key || !feature.geometry) continue;
+    const bbox = roundBbox(computeBbox(feature.geometry));
+    byName.set(key, { bbox, center: computeVisualCenter(feature.geometry, bbox) });
+  }
+
+  let overridden = 0;
+  for (const entry of features) {
+    const island = entry.name.includes('Hoàng Sa')
+      ? byName.get('Hoàng Sa')
+      : entry.name.includes('Trường Sa')
+        ? byName.get('Trường Sa')
+        : null;
+    if (island) {
+      entry.bbox = island.bbox;
+      entry.center = island.center;
+      overridden += 1;
+    }
+  }
+  return overridden;
+}
+
 function resolveDataPath(relativePath) {
   return path.join(dataRoot, relativePath);
 }
@@ -117,6 +149,8 @@ const districts = getNestedEntries('pre', 'district', resolveDataPath(sources.pr
 const wards = getNestedEntries('post', 'ward', resolveDataPath(sources.postWards));
 const features = [...districts, ...wards];
 
+const offshoreOverrides = applyOffshoreIslandOverrides(features);
+
 assertUniqueIds(features);
 
 const index = {
@@ -134,5 +168,5 @@ const outputPath = path.join(publicDataRoot, 'nested-index.json');
 writeJson(outputPath, index);
 
 console.log(
-  `Wrote ${index.counts.total} nested index entries (${index.counts.districts} districts, ${index.counts.wards} wards) -> ${outputPath}`,
+  `Wrote ${index.counts.total} nested index entries (${index.counts.districts} districts, ${index.counts.wards} wards; ${offshoreOverrides} archipelago entries re-sourced from OSM islands) -> ${outputPath}`,
 );
