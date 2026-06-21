@@ -33,6 +33,10 @@ export default function MapSettingsPanel({
   const t = useTranslations('Map');
   const titleId = useId();
   const isSwipe = compareMode === 'swipe';
+  // View (pre/post) and color mode only affect the boundary overlay, so they're inert while it's
+  // hidden — grey them out. Compare stays enabled (entering swipe re-shows boundaries on both sides).
+  const overlayHidden = !boundariesVisible && !isSwipe;
+  const colorModeDisabled = isSwipe || overlayHidden;
 
   // ESC closes the drawer. Mounted only while open to avoid a stray listener.
   useEffect(() => {
@@ -103,8 +107,16 @@ export default function MapSettingsPanel({
 
         <div className="flex-1 overflow-y-auto px-4 py-4">
           {!isSwipe && (
-            <Section title={t('settingsSectionView')}>
-              <MapToggle mode={mode} onToggle={onToggle} variant="panel" />
+            <Section
+              title={t('settingsSectionView')}
+              hint={overlayHidden ? t('controlsNeedBoundaries') : undefined}
+            >
+              <MapToggle
+                mode={mode}
+                onToggle={onToggle}
+                variant="panel"
+                disabled={overlayHidden}
+              />
             </Section>
           )}
 
@@ -147,15 +159,21 @@ export default function MapSettingsPanel({
 
           <Section
             title={t('settingsSectionColorMode')}
-            hint={isSwipe ? t('colorModeDisabledInCompare') : undefined}
+            hint={
+              isSwipe
+                ? t('colorModeDisabledInCompare')
+                : overlayHidden
+                  ? t('controlsNeedBoundaries')
+                  : undefined
+            }
           >
-            <div className={`flex ${isSwipe ? 'opacity-40' : ''}`}>
+            <div className={`flex ${colorModeDisabled ? 'opacity-40' : ''}`}>
               <button
                 type="button"
-                disabled={isSwipe}
+                disabled={colorModeDisabled}
                 onClick={() => onColorModeChange('default')}
                 className={`flex-1 px-3 py-2.5 text-sm font-medium transition-colors first:rounded-l-xl last:rounded-r-xl disabled:cursor-not-allowed ${
-                  !isSwipe && colorMode === 'default'
+                  !colorModeDisabled && colorMode === 'default'
                     ? 'bg-slate-900 text-white'
                     : 'text-slate-700 hover:bg-slate-50'
                 }`}
@@ -164,10 +182,10 @@ export default function MapSettingsPanel({
               </button>
               <button
                 type="button"
-                disabled={isSwipe}
+                disabled={colorModeDisabled}
                 onClick={() => onColorModeChange('region')}
                 className={`flex-1 border-l border-slate-200 px-3 py-2.5 text-sm font-medium transition-colors first:rounded-l-xl last:rounded-r-xl disabled:cursor-not-allowed ${
-                  !isSwipe && colorMode === 'region'
+                  !colorModeDisabled && colorMode === 'region'
                     ? 'bg-slate-900 text-white'
                     : 'text-slate-700 hover:bg-slate-50'
                 }`}

@@ -76,6 +76,7 @@
     "settingsSectionBoundaries": "Ranh giới OSM",
     "boundariesShow": "Hiện",
     "boundariesHide": "Ẩn",
+    "controlsNeedBoundaries": "Bật ranh giới OSM để sử dụng",
     "settingsSectionCompare": "So sánh",
     "settingsSectionColorMode": "Màu sắc bản đồ",
     "colorModeDefault": "Mặc định",

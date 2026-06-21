@@ -518,11 +518,19 @@ export default function BoundaryLayers({ map, state, provinceEntries = [] }: Bou
       applyBoundaryLabelMode();
     }
 
-    if (mapInstance.isStyleLoaded()) applyBoundaryLabelMode();
+    // Apply immediately rather than gating on `isStyleLoaded()`. On a toggle no `setStyle` happens,
+    // so `style.load` does NOT re-fire — and `isStyleLoaded()` transiently returns false while the
+    // overlay PMTiles sources load/unload (exactly when boundaries are toggled), which would silently
+    // skip the strip forever. The style is already parsed by then, so `getFilter`/`setFilter` work;
+    // before the first parse `getLayer` returns undefined and this no-ops, with `style.load` re-applying
+    // once the layers exist. The `idle` net re-applies after the map settles if it ran mid-load.
+    applyBoundaryLabelMode();
+    if (!mapInstance.isStyleLoaded()) mapInstance.once('idle', applyBoundaryLabelMode);
     mapInstance.on('style.load', handleStyleReload);
 
     return () => {
       mapInstance.off('style.load', handleStyleReload);
+      mapInstance.off('idle', applyBoundaryLabelMode);
     };
   }, [map, state.layers.boundaries]);
 

@@ -3,6 +3,9 @@
 import { useTranslations } from 'next-intl';
 
 interface MapToggleProps {
+  // Greys the control out and blocks interaction — used when the boundary overlay is hidden,
+  // since pre/post has nothing to switch then.
+  disabled?: boolean;
   mode: 'pre' | 'post';
   onToggle: (mode: 'pre' | 'post') => void;
   // 'panel' drops the outer pill so the toggle can sit inside the unified
@@ -11,6 +14,7 @@ interface MapToggleProps {
 }
 
 export default function MapToggle({
+  disabled = false,
   mode,
   onToggle,
   variant = 'default',
@@ -22,7 +26,7 @@ export default function MapToggle({
     : 'flex max-w-full flex-nowrap items-center gap-3 overflow-x-auto rounded-full bg-white/95 px-4 py-2 shadow-lg backdrop-blur-sm';
 
   return (
-    <div className={wrapperClass}>
+    <div className={`${wrapperClass}${disabled ? ' opacity-40' : ''}`}>
       <span
         className={`shrink-0 text-sm font-medium whitespace-nowrap transition-colors ${
           mode === 'pre' ? 'text-red-600' : 'text-gray-400'
@@ -36,8 +40,9 @@ export default function MapToggle({
 
       <button
         type="button"
+        disabled={disabled}
         onClick={() => onToggle(mode === 'pre' ? 'post' : 'pre')}
-        className="relative h-6 w-12 shrink-0 cursor-pointer rounded-full transition-colors focus:ring-2 focus:ring-red-400 focus:ring-offset-2 focus:outline-none"
+        className="relative h-6 w-12 shrink-0 cursor-pointer rounded-full transition-colors focus:ring-2 focus:ring-red-400 focus:ring-offset-2 focus:outline-none disabled:cursor-not-allowed"
         style={{ backgroundColor: mode === 'pre' ? '#dc2626' : '#2563eb' }}
         aria-label={mode === 'pre' ? t('togglePost') : t('togglePre')}
       >

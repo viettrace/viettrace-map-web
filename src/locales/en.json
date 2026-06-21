@@ -76,6 +76,7 @@
     "settingsSectionBoundaries": "OSM boundaries",
     "boundariesShow": "Show",
     "boundariesHide": "Hide",
+    "controlsNeedBoundaries": "Turn on OSM boundaries to use this",
     "settingsSectionCompare": "Compare",
     "settingsSectionColorMode": "Map Colors",
     "colorModeDefault": "Default",
