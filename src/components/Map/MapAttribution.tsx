@@ -32,7 +32,6 @@ export default function MapAttribution({
       <span className="hidden min-w-0 sm:inline sm:basis-auto">
         <span>{t('attributionOSM')}</span>
         <span> | {t('attributionOpenMapTiles')}</span>
-        <span> | {t('attributionNaturalEarth')}</span>
         <span> | {t('attributionViettrace')}</span>
       </span>
     </div>
