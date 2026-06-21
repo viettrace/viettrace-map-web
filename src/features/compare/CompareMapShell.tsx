@@ -43,8 +43,17 @@ export default function CompareMapShell({
 
   useSyncedMaps({ primary: preMap.map, secondary: postMap.map });
 
-  const preState = useMemo<MapViewState>(() => ({ ...state, mode: 'pre' }), [state]);
-  const postState = useMemo<MapViewState>(() => ({ ...state, mode: 'post' }), [state]);
+  // Compare mode is about comparing boundaries, so force the overlay ON here regardless of the
+  // single-map "OSM boundaries" toggle. The user's toggle state stays in `state` and is restored
+  // when they exit swipe back to the single map.
+  const preState = useMemo<MapViewState>(
+    () => ({ ...state, mode: 'pre', layers: { ...state.layers, boundaries: true } }),
+    [state],
+  );
+  const postState = useMemo<MapViewState>(
+    () => ({ ...state, mode: 'post', layers: { ...state.layers, boundaries: true } }),
+    [state],
+  );
 
   // Fly-to for search-driven selections in compare mode. The single-map shell
   // intentionally keeps the user's current zoom for search, but in swipe mode

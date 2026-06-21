@@ -9,18 +9,22 @@ import { CloseIcon, MenuIcon } from '@src/components/Map/MapChromeIcons';
 import type { ColorMode, CompareMode } from '@src/features/map-state/mapViewTypes';
 
 interface MapSettingsPanelProps {
+  boundariesVisible: boolean;
   colorMode: ColorMode;
   compareMode: CompareMode;
   mode: 'pre' | 'post';
+  onBoundariesChange: (visible: boolean) => void;
   onColorModeChange: (colorMode: ColorMode) => void;
   onCompareModeChange: (compareMode: CompareMode) => void;
   onToggle: (mode: 'pre' | 'post') => void;
 }
 
 export default function MapSettingsPanel({
+  boundariesVisible,
   colorMode,
   compareMode,
   mode,
+  onBoundariesChange,
   onColorModeChange,
   onCompareModeChange,
   onToggle,
@@ -101,6 +105,35 @@ export default function MapSettingsPanel({
           {!isSwipe && (
             <Section title={t('settingsSectionView')}>
               <MapToggle mode={mode} onToggle={onToggle} variant="panel" />
+            </Section>
+          )}
+
+          {!isSwipe && (
+            <Section title={t('settingsSectionBoundaries')}>
+              <div className="flex">
+                <button
+                  type="button"
+                  onClick={() => onBoundariesChange(true)}
+                  className={`flex-1 px-3 py-2.5 text-sm font-medium transition-colors first:rounded-l-xl last:rounded-r-xl ${
+                    boundariesVisible
+                      ? 'bg-slate-900 text-white'
+                      : 'text-slate-700 hover:bg-slate-50'
+                  }`}
+                >
+                  {t('boundariesShow')}
+                </button>
+                <button
+                  type="button"
+                  onClick={() => onBoundariesChange(false)}
+                  className={`flex-1 border-l border-slate-200 px-3 py-2.5 text-sm font-medium transition-colors first:rounded-l-xl last:rounded-r-xl ${
+                    !boundariesVisible
+                      ? 'bg-slate-900 text-white'
+                      : 'text-slate-700 hover:bg-slate-50'
+                  }`}
+                >
+                  {t('boundariesHide')}
+                </button>
+              </div>
             </Section>
           )}
 

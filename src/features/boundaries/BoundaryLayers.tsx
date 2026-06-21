@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
 import type maplibregl from 'maplibre-gl';
 import { useLocale } from 'next-intl';
 import type { ColorMode, MapViewState } from '@src/features/map-state/mapViewTypes';
@@ -11,7 +11,10 @@ import { ensureSource } from '@src/libs/maplibre/sources';
 import { setLayerGroupVisibility } from '@src/libs/maplibre/visibility';
 import { loadRegionalClassification, type Region } from '@src/types/regional-classification';
 import {
+  BASEMAP_COMMUNE_LAYER,
+  BASEMAP_SETTLEMENT_LABEL_LAYERS,
   boundaryLayerIds,
+  dropWithinClause,
   getBoundaryLayerDefinitions,
   getBoundaryLayerGroups,
   getBoundarySourceDefinitions,
@@ -200,6 +203,9 @@ interface BoundaryLayersProps {
 export default function BoundaryLayers({ map, state, provinceEntries = [] }: BoundaryLayersProps) {
   const locale = useLocale();
   const publicEnv = readPublicEnv();
+  // Caches each basemap settlement layer's style-default filter (OUTSIDE_VN present) so the
+  // OSM-boundaries toggle can strip/restore the clause without re-reading a possibly-stripped filter.
+  const basemapSettlementFiltersRef = useRef<Map<string, maplibregl.FilterSpecification>>(new Map());
   const {
     enableQaLayers,
     pmtilesUrlPostWardsCandidateLabels,
@@ -421,7 +427,8 @@ export default function BoundaryLayers({ map, state, provinceEntries = [] }: Bou
 
       removeRegionLabelsFromMap(mapInstance);
 
-      if (state.colorMode !== 'region') return;
+      // Region labels are part of the boundary overlay — hide them when boundaries are toggled off.
+      if (state.colorMode !== 'region' || !state.layers.boundaries) return;
 
       ensureRegionLabels(mapInstance, locale)
         .then(() => {
@@ -443,7 +450,7 @@ export default function BoundaryLayers({ map, state, provinceEntries = [] }: Bou
       mapInstance.off('load', applyRegionLabels);
       removeRegionLabelsFromMap(mapInstance);
     };
-  }, [map, state.colorMode, locale]);
+  }, [map, state.colorMode, state.layers.boundaries, locale]);
 
   useEffect(() => {
     if (!map) return;
@@ -470,6 +477,54 @@ export default function BoundaryLayers({ map, state, provinceEntries = [] }: Bou
       map.off('load', syncBasemapPlaceLabels);
     };
   }, [map, state.layers.nestedCandidates]);
+
+  // OSM-boundaries toggle → reveal/hide the basemap's own VN settlement labels.
+  // OFF: strip the OUTSIDE_VN clause from the settlement layers (VN labels show too) + reveal
+  // place-commune. ON: restore the style-default (VN labels hidden so the overlay owns them).
+  // Caches the style-default filter per layer; re-caches on `style.load` (a locale switch reloads
+  // the style and resets the filters). No-op on the CARTO/Protomaps fallback styles (getLayer guard).
+  useEffect(() => {
+    if (!map) return;
+    const mapInstance = map;
+    const cache = basemapSettlementFiltersRef.current;
+    const showVnLabels = !state.layers.boundaries;
+
+    function applyBoundaryLabelMode() {
+      for (const layerId of BASEMAP_SETTLEMENT_LABEL_LAYERS) {
+        if (!mapInstance.getLayer(layerId)) continue;
+        if (!cache.has(layerId)) {
+          const original = mapInstance.getFilter(layerId) as
+            | maplibregl.FilterSpecification
+            | undefined;
+          if (original) cache.set(layerId, original);
+        }
+        const original = cache.get(layerId);
+        if (original) {
+          mapInstance.setFilter(layerId, showVnLabels ? dropWithinClause(original) : original);
+        }
+      }
+      if (mapInstance.getLayer(BASEMAP_COMMUNE_LAYER)) {
+        mapInstance.setLayoutProperty(
+          BASEMAP_COMMUNE_LAYER,
+          'visibility',
+          showVnLabels ? 'visible' : 'none',
+        );
+      }
+    }
+
+    function handleStyleReload() {
+      // A reloaded style resets the settlement filters to their default → re-cache, then re-apply.
+      cache.clear();
+      applyBoundaryLabelMode();
+    }
+
+    if (mapInstance.isStyleLoaded()) applyBoundaryLabelMode();
+    mapInstance.on('style.load', handleStyleReload);
+
+    return () => {
+      mapInstance.off('style.load', handleStyleReload);
+    };
+  }, [map, state.layers.boundaries]);
 
   return null;
 }

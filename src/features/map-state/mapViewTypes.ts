@@ -48,6 +48,9 @@ export interface MapViewState {
   layers: {
     nestedCandidates: boolean;
     offshoreIslands: boolean;
+    // The OSM boundary overlay (provinces + nested districts/wards + their labels). When false the
+    // overlay hides (offshore islands stay) and the basemap's full VN labels are revealed.
+    boundaries: boolean;
   };
   panels: {
     dataNotice: boolean;
@@ -62,6 +65,7 @@ export type MapViewAction =
   | { type: 'setCompareDividerX'; dividerX: number }
   | { type: 'setNestedCandidatesVisible'; visible: boolean }
   | { type: 'setOffshoreIslandsVisible'; visible: boolean }
+  | { type: 'setBoundariesVisible'; visible: boolean }
   | { type: 'setDataNoticeOpen'; open: boolean }
   | { type: 'toggleDataNotice' }
   | { type: 'selectFeature'; feature: SelectedMapFeature | null };
