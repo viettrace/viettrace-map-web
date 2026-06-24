@@ -38,15 +38,24 @@ export default function CompareModeToggle({
   }
 
   if (variant === 'panel') {
+    // Compact right-aligned pill that sits in a settings row (label on the left). The long
+    // descriptive label stays as the accessible name; the pill shows a short on/off word.
+    const shortLabel = isSwipe ? t('compareDisableShort') : t('compareEnableShort');
     return (
       <button
         type="button"
         onClick={() => onChange(next)}
         aria-pressed={isSwipe}
-        className="flex w-full items-center gap-2 px-3 py-2 text-left text-sm font-medium text-slate-700 transition-colors hover:bg-slate-50 focus:ring-2 focus:ring-slate-400 focus:ring-offset-1 focus:outline-none focus:ring-inset"
+        aria-label={label}
+        title={label}
+        className={`inline-flex shrink-0 items-center gap-1.5 rounded-full border px-3 py-1.5 text-xs font-semibold transition-colors focus:ring-2 focus:ring-slate-400 focus:outline-none ${
+          isSwipe
+            ? 'border-slate-300 text-slate-700 hover:bg-slate-100'
+            : 'border-slate-900 bg-slate-900 text-white hover:bg-slate-800'
+        }`}
       >
-        <SwipeIcon className="h-4 w-4 shrink-0" />
-        <span>{label}</span>
+        <SwipeIcon className="h-3.5 w-3.5 shrink-0" />
+        <span>{shortLabel}</span>
       </button>
     );
   }

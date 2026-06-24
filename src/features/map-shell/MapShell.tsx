@@ -86,6 +86,11 @@ export default function MapShell() {
     if (parsed.compareDividerX !== null) {
       dispatch({ dividerX: parsed.compareDividerX, type: 'setCompareDividerX' });
     }
+
+    // Restore an explicit `?boundaries=off` share link (default ON needs no action).
+    if (parsed.boundaries === false) {
+      dispatch({ type: 'setBoundariesVisible', visible: false });
+    }
   }, []);
 
   const selectProvince = useCallback(
@@ -272,9 +277,11 @@ export default function MapShell() {
       />
 
       <MapSettingsPanel
+        boundariesVisible={state.layers.boundaries}
         colorMode={state.colorMode}
         compareMode={state.compareMode}
         mode={state.mode}
+        onBoundariesChange={visible => dispatch({ type: 'setBoundariesVisible', visible })}
         onColorModeChange={handleColorModeChange}
         onCompareModeChange={handleCompareModeChange}
         onToggle={mode => dispatch({ mode, type: 'setMode' })}

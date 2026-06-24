@@ -140,6 +140,39 @@ const EXCLUDE_ARCHIPELAGO_FILTER = [
   ['!=', ['get', 'name_en'], 'Truong Sa Special Zone'],
 ] as maplibregl.ExpressionSpecification;
 
+// Self-built OMT basemap settlement-label layers. The style generator bakes a spatial filter
+// `['all', <class…>, ['!', ['within', VN_OUTLINE]]]` (the OUTSIDE_VN clause) onto these so VN labels
+// are hidden while the boundary overlay owns them. When the OSM-boundaries toggle is OFF, the
+// OUTSIDE_VN clause is stripped at runtime (see BoundaryLayers) so VN labels show too. Absent on the
+// CARTO/Protomaps fallback styles (guarded by map.getLayer at the call site).
+export const BASEMAP_SETTLEMENT_LABEL_LAYERS = [
+  'place-city',
+  'place-town',
+  'place-village',
+  'place-state',
+  'world-place-city',
+  'world-place-city-dot',
+] as const;
+
+// place-commune (phường + small subdivisions) is `visibility: none` in the style; shown only when
+// the boundary overlay is toggled OFF.
+export const BASEMAP_COMMUNE_LAYER = 'place-commune';
+
+// Strip the trailing `['!', ['within', …]]` element (the OUTSIDE_VN clause) from an `['all', …]`
+// filter so the layer renders VN features too. Defensive: returns the filter unchanged if it doesn't
+// match that shape (the generator owns the shape; a change here degrades to a no-op, not a crash).
+export function dropWithinClause(
+  filter: maplibregl.FilterSpecification,
+): maplibregl.FilterSpecification {
+  if (!Array.isArray(filter) || filter[0] !== 'all' || filter.length < 2) {
+    return filter;
+  }
+  const last = filter[filter.length - 1];
+  const isOutsideVn =
+    Array.isArray(last) && last[0] === '!' && Array.isArray(last[1]) && last[1][0] === 'within';
+  return isOutsideVn ? (filter.slice(0, -1) as maplibregl.FilterSpecification) : filter;
+}
+
 export const offshoreIslandLayerIds = {
   fill: 'offshore-islands-fill',
   label: 'offshore-islands-label',
@@ -193,7 +226,7 @@ type BoundaryLayerGroupOptions = boolean | BoundaryLayerOptions;
 const provinceBoundaryLayerGroups: BoundaryLayerGroup[] = [
   {
     id: 'pre-provinces',
-    isVisible: state => state.mode === 'pre',
+    isVisible: state => state.mode === 'pre' && state.layers.boundaries,
     layerIds: [
       boundaryLayerIds.preFill,
       boundaryLayerIds.preOutline,
@@ -205,7 +238,7 @@ const provinceBoundaryLayerGroups: BoundaryLayerGroup[] = [
   },
   {
     id: 'post-provinces',
-    isVisible: state => state.mode === 'post',
+    isVisible: state => state.mode === 'post' && state.layers.boundaries,
     layerIds: [
       boundaryLayerIds.postFill,
       boundaryLayerIds.postOutline,
@@ -230,7 +263,8 @@ const offshoreIslandLayerGroup: BoundaryLayerGroup = {
 
 const preDistrictCandidateLayerGroup: BoundaryLayerGroup = {
   id: 'pre-districts-candidate',
-  isVisible: state => state.mode === 'pre' && state.layers.nestedCandidates,
+  isVisible: state =>
+    state.mode === 'pre' && state.layers.nestedCandidates && state.layers.boundaries,
   layerIds: [
     boundaryLayerIds.preDistrictsCandidateFill,
     boundaryLayerIds.preDistrictsCandidateOutline,
@@ -240,7 +274,8 @@ const preDistrictCandidateLayerGroup: BoundaryLayerGroup = {
 
 const postWardCandidateLayerGroup: BoundaryLayerGroup = {
   id: 'post-wards-candidate',
-  isVisible: state => state.mode === 'post' && state.layers.nestedCandidates,
+  isVisible: state =>
+    state.mode === 'post' && state.layers.nestedCandidates && state.layers.boundaries,
   layerIds: [
     boundaryLayerIds.postWardsCandidateFill,
     boundaryLayerIds.postWardsCandidateOutline,
@@ -487,8 +522,10 @@ function getProvinceLayerDefinitions(
   locale: string,
   state: MapViewState,
 ): BoundaryLayerDefinition[] {
-  const preVisible = state.mode === 'pre';
-  const postVisible = state.mode === 'post';
+  // Province + nested overlay hides entirely when the OSM-boundaries toggle is off (offshore
+  // islands are NOT gated on this — they stay visible, see offshoreIslandLayerGroup).
+  const preVisible = state.mode === 'pre' && state.layers.boundaries;
+  const postVisible = state.mode === 'post' && state.layers.boundaries;
   const labelField = locale === 'en' ? 'name_en' : 'name';
 
   return [

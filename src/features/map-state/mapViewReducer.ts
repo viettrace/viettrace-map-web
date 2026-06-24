@@ -18,6 +18,7 @@ export const initialMapViewState: MapViewState = {
     // Layer-level minzoom keeps them hidden at low zoom levels automatically.
     nestedCandidates: true,
     offshoreIslands: true,
+    boundaries: true,
   },
   panels: {
     dataNotice: true,
@@ -79,6 +80,14 @@ export function mapViewReducer(state: MapViewState, action: MapViewAction): MapV
         layers: {
           ...state.layers,
           offshoreIslands: action.visible,
+        },
+      };
+    case 'setBoundariesVisible':
+      return {
+        ...state,
+        layers: {
+          ...state.layers,
+          boundaries: action.visible,
         },
       };
     case 'setDataNoticeOpen':

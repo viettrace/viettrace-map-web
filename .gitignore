@@ -3,6 +3,9 @@
 /node_modules
 /build
 
+# brainstorming visual-companion scratch (not source)
+.superpowers/
+
 # Logs
 logs
 *.log

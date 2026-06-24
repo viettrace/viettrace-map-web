@@ -5,6 +5,7 @@ import type { PublicEnv } from '@src/libs/config/publicEnv';
 import {
   boundaryLayerGroups,
   boundarySourceIds,
+  dropWithinClause,
   getBoundaryLayerDefinitions,
   getBoundaryLayerGroups,
   getBoundarySourceDefinitions,
@@ -333,5 +334,31 @@ describe('boundaryLayerRegistry', () => {
       'pre-provinces',
       'post-provinces',
     ]);
+  });
+});
+
+describe('dropWithinClause', () => {
+  const within = ['!', ['within', { type: 'Polygon', coordinates: [] }]];
+
+  it('strips a trailing OUTSIDE_VN within clause, keeping the class conditions', () => {
+    const onFilter = [
+      'all',
+      ['==', ['get', 'class'], 'city'],
+      ['!=', ['get', 'capital'], 2],
+      within,
+    ] as unknown as maplibregl.FilterSpecification;
+    expect(dropWithinClause(onFilter)).toEqual([
+      'all',
+      ['==', ['get', 'class'], 'city'],
+      ['!=', ['get', 'capital'], 2],
+    ]);
+  });
+
+  it('returns the filter unchanged when there is no trailing within clause', () => {
+    const filter = [
+      'all',
+      ['==', ['get', 'class'], 'city'],
+    ] as unknown as maplibregl.FilterSpecification;
+    expect(dropWithinClause(filter)).toBe(filter);
   });
 });

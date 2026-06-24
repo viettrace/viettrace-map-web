@@ -12,6 +12,7 @@ const NESTED_PARAM = 'nested';
 const NESTED_TYPE_PARAM = 'nestedType';
 const COMPARE_PARAM = 'compare';
 const DIVIDER_PARAM = 'divider';
+const BOUNDARIES_PARAM = 'boundaries';
 const LAT_PARAM = 'lat';
 const LNG_PARAM = 'lng';
 const ZOOM_PARAM = 'z';
@@ -25,6 +26,8 @@ interface ParsedMapUrlState {
   nestedType: NestedFeatureType | null;
   compareMode: CompareMode | null;
   compareDividerX: number | null;
+  // null = default (boundaries ON / param absent); false = explicitly off (`?boundaries=off`).
+  boundaries: boolean | null;
   lat: number | null;
   lng: number | null;
   zoom: number | null;
@@ -90,6 +93,7 @@ export function readMapUrlState(searchParams: URLSearchParams): ParsedMapUrlStat
     nestedType: parseNestedType(searchParams.get(NESTED_TYPE_PARAM)),
     compareMode: parseCompareMode(searchParams.get(COMPARE_PARAM)),
     compareDividerX: parseCompareDividerX(searchParams.get(DIVIDER_PARAM)),
+    boundaries: searchParams.get(BOUNDARIES_PARAM) === 'off' ? false : null,
     lat: parseCoord(searchParams.get(LAT_PARAM), -90, 90),
     lng: parseCoord(searchParams.get(LNG_PARAM), -180, 180),
     zoom: parseCoord(searchParams.get(ZOOM_PARAM), 0, 22),
@@ -135,6 +139,14 @@ export function writeMapUrlState(
   } else {
     nextSearchParams.delete(COMPARE_PARAM);
     nextSearchParams.delete(DIVIDER_PARAM);
+  }
+
+  // Boundaries overlay: only persist when explicitly OFF (default ON stays implicit). Not in swipe
+  // compare, where the overlay is always on and the param does not apply.
+  if (state.layers.boundaries === false && state.compareMode !== 'swipe') {
+    nextSearchParams.set(BOUNDARIES_PARAM, 'off');
+  } else {
+    nextSearchParams.delete(BOUNDARIES_PARAM);
   }
 
   if (camera) {

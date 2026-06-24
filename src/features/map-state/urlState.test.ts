@@ -20,6 +20,7 @@ describe('readMapUrlState', () => {
       provinceSlug: 'ha-giang',
       compareMode: null,
       compareDividerX: null,
+      boundaries: null,
       lat: null,
       lng: null,
       zoom: null,
@@ -36,6 +37,7 @@ describe('readMapUrlState', () => {
       provinceSlug: null,
       compareMode: null,
       compareDividerX: null,
+      boundaries: null,
       lat: null,
       lng: null,
       zoom: null,
@@ -54,6 +56,7 @@ describe('readMapUrlState', () => {
       nestedType: null,
       compareMode: 'swipe',
       compareDividerX: 0.4,
+      boundaries: null,
       lat: null,
       lng: null,
       zoom: null,
@@ -65,6 +68,12 @@ describe('readMapUrlState', () => {
       COMPARE_DIVIDER_MAX,
     );
     expect(readMapUrlState(new URLSearchParams('divider=oops')).compareDividerX).toBeNull();
+  });
+
+  it('reads boundaries=off as false; absent or any other value as null (default ON)', () => {
+    expect(readMapUrlState(new URLSearchParams('boundaries=off')).boundaries).toBe(false);
+    expect(readMapUrlState(new URLSearchParams('')).boundaries).toBeNull();
+    expect(readMapUrlState(new URLSearchParams('boundaries=on')).boundaries).toBeNull();
   });
 });
 
@@ -124,6 +133,26 @@ describe('writeMapUrlState', () => {
     const text = searchParams.toString();
     expect(text).toContain('compare=swipe');
     expect(text).toContain('divider=0.40');
+  });
+
+  it('writes boundaries=off only when the overlay is hidden and not swiping', () => {
+    const offParams = writeMapUrlState(new URLSearchParams(), {
+      ...initialMapViewState,
+      layers: { ...initialMapViewState.layers, boundaries: false },
+    });
+    expect(offParams.get('boundaries')).toBe('off');
+
+    // Default ON clears any stale param.
+    const onParams = writeMapUrlState(new URLSearchParams('boundaries=off'), initialMapViewState);
+    expect(onParams.has('boundaries')).toBe(false);
+
+    // Swipe compare never persists the param (boundaries are forced on there).
+    const swipeParams = writeMapUrlState(new URLSearchParams(), {
+      ...initialMapViewState,
+      compareMode: 'swipe',
+      layers: { ...initialMapViewState.layers, boundaries: false },
+    });
+    expect(swipeParams.has('boundaries')).toBe(false);
   });
 
   it('omits divider when divider position is the default', () => {
