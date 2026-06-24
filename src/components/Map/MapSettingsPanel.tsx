@@ -3,7 +3,7 @@
 import { useEffect, useId, useState } from 'react';
 import { useTranslations } from 'next-intl';
 import MapLanguageSwitch from '@src/components/Map/MapLanguageSwitch';
-import MapToggle from '@src/components/Map/MapToggle';
+import SegmentedControl from '@src/components/Map/SegmentedControl';
 import CompareModeToggle from '@src/components/Map/CompareModeToggle';
 import { CloseIcon, MenuIcon } from '@src/components/Map/MapChromeIcons';
 import type { ColorMode, CompareMode } from '@src/features/map-state/mapViewTypes';
@@ -33,10 +33,9 @@ export default function MapSettingsPanel({
   const t = useTranslations('Map');
   const titleId = useId();
   const isSwipe = compareMode === 'swipe';
-  // View (pre/post) and color mode only affect the boundary overlay, so they're inert while it's
-  // hidden — grey them out. Compare stays enabled (entering swipe re-shows boundaries on both sides).
+  // View (pre/post) and color mode are children of the boundary overlay — they only do something
+  // while it's shown. When boundaries are hidden, grey the child group out (Compare stays usable).
   const overlayHidden = !boundariesVisible && !isSwipe;
-  const colorModeDisabled = isSwipe || overlayHidden;
 
   // ESC closes the drawer. Mounted only while open to avoid a stray listener.
   useEffect(() => {
@@ -105,125 +104,97 @@ export default function MapSettingsPanel({
           </button>
         </header>
 
-        <div className="flex-1 overflow-y-auto px-4 py-4">
+        <div className="flex-1 overflow-y-auto px-4 py-2">
+          {/* Boundary overlay group: the master row, with View + Colors as indented children that
+              dim + disable together when the overlay is off. Hidden entirely in swipe compare. */}
           {!isSwipe && (
-            <Section
-              title={t('settingsSectionView')}
-              hint={overlayHidden ? t('controlsNeedBoundaries') : undefined}
-            >
-              <MapToggle
-                mode={mode}
-                onToggle={onToggle}
-                variant="panel"
-                disabled={overlayHidden}
-              />
-            </Section>
-          )}
+            <>
+              <SettingRow label={t('settingsSectionBoundaries')}>
+                <SegmentedControl
+                  ariaLabel={t('settingsSectionBoundaries')}
+                  value={boundariesVisible ? 'show' : 'hide'}
+                  onChange={value => onBoundariesChange(value === 'show')}
+                  options={[
+                    { value: 'show', label: t('boundariesShow') },
+                    { value: 'hide', label: t('boundariesHide') },
+                  ]}
+                />
+              </SettingRow>
 
-          {!isSwipe && (
-            <Section title={t('settingsSectionBoundaries')}>
-              <div className="flex">
-                <button
-                  type="button"
-                  onClick={() => onBoundariesChange(true)}
-                  className={`flex-1 px-3 py-2.5 text-sm font-medium transition-colors first:rounded-l-xl last:rounded-r-xl ${
-                    boundariesVisible
-                      ? 'bg-slate-900 text-white'
-                      : 'text-slate-700 hover:bg-slate-50'
-                  }`}
-                >
-                  {t('boundariesShow')}
-                </button>
-                <button
-                  type="button"
-                  onClick={() => onBoundariesChange(false)}
-                  className={`flex-1 border-l border-slate-200 px-3 py-2.5 text-sm font-medium transition-colors first:rounded-l-xl last:rounded-r-xl ${
-                    !boundariesVisible
-                      ? 'bg-slate-900 text-white'
-                      : 'text-slate-700 hover:bg-slate-50'
-                  }`}
-                >
-                  {t('boundariesHide')}
-                </button>
+              <div
+                className={`ml-1 border-l-2 border-slate-200 pl-3 ${
+                  overlayHidden ? 'opacity-40' : ''
+                }`}
+              >
+                <SettingRow label={t('settingsSectionView')}>
+                  <SegmentedControl
+                    ariaLabel={t('settingsSectionView')}
+                    disabled={overlayHidden}
+                    value={mode}
+                    onChange={value => onToggle(value as 'pre' | 'post')}
+                    options={[
+                      { value: 'pre', label: t('togglePre'), activeClassName: 'bg-red-600' },
+                      { value: 'post', label: t('togglePost'), activeClassName: 'bg-blue-600' },
+                    ]}
+                  />
+                </SettingRow>
+                <SettingRow label={t('settingsSectionColorMode')}>
+                  <SegmentedControl
+                    ariaLabel={t('settingsSectionColorMode')}
+                    disabled={overlayHidden}
+                    value={colorMode}
+                    onChange={value => onColorModeChange(value as ColorMode)}
+                    options={[
+                      { value: 'default', label: t('colorModeDefault') },
+                      { value: 'region', label: t('colorModeRegion') },
+                    ]}
+                  />
+                </SettingRow>
               </div>
-            </Section>
+              {overlayHidden && (
+                <p className="mt-1 pl-4 text-[11px] text-slate-400">
+                  {t('controlsNeedBoundaries')}
+                </p>
+              )}
+
+              <div className="my-2.5 border-t border-slate-100" />
+            </>
           )}
 
-          <Section title={t('settingsSectionCompare')}>
+          <SettingRow label={t('settingsSectionCompare')}>
             <CompareModeToggle
               compareMode={compareMode}
               onChange={onCompareModeChange}
               variant="panel"
             />
-          </Section>
+          </SettingRow>
+        </div>
 
-          <Section
-            title={t('settingsSectionColorMode')}
-            hint={
-              isSwipe
-                ? t('colorModeDisabledInCompare')
-                : overlayHidden
-                  ? t('controlsNeedBoundaries')
-                  : undefined
-            }
-          >
-            <div className={`flex ${colorModeDisabled ? 'opacity-40' : ''}`}>
-              <button
-                type="button"
-                disabled={colorModeDisabled}
-                onClick={() => onColorModeChange('default')}
-                className={`flex-1 px-3 py-2.5 text-sm font-medium transition-colors first:rounded-l-xl last:rounded-r-xl disabled:cursor-not-allowed ${
-                  !colorModeDisabled && colorMode === 'default'
-                    ? 'bg-slate-900 text-white'
-                    : 'text-slate-700 hover:bg-slate-50'
-                }`}
-              >
-                {t('colorModeDefault')}
-              </button>
-              <button
-                type="button"
-                disabled={colorModeDisabled}
-                onClick={() => onColorModeChange('region')}
-                className={`flex-1 border-l border-slate-200 px-3 py-2.5 text-sm font-medium transition-colors first:rounded-l-xl last:rounded-r-xl disabled:cursor-not-allowed ${
-                  !colorModeDisabled && colorMode === 'region'
-                    ? 'bg-slate-900 text-white'
-                    : 'text-slate-700 hover:bg-slate-50'
-                }`}
-              >
-                {t('colorModeRegion')}
-              </button>
-            </div>
-          </Section>
-
-          <Section title={t('settingsSectionLanguage')}>
-            <MapLanguageSwitch variant="panel" />
-          </Section>
+        {/* Language is an app setting, not a map control — pin it to a separated footer. */}
+        <div className="flex items-center justify-between border-t border-slate-200 bg-slate-50 px-4 py-2.5">
+          <span className="text-[10px] font-semibold tracking-wide text-slate-400 uppercase">
+            {t('settingsSectionLanguage')}
+          </span>
+          <MapLanguageSwitch variant="panel" />
         </div>
       </aside>
     </>
   );
 }
 
-function Section({
+// One settings row: label on the left, control on the right. The row label names the control, so
+// the panel needs no separate uppercase section headers.
+function SettingRow({
   children,
-  hint,
-  title,
+  label,
 }: {
   children: React.ReactNode;
-  hint?: string;
-  title: string;
+  label: string;
 }) {
   return (
-    <section className="mb-4 last:mb-0">
-      <h3 className="mb-1.5 px-1 text-[11px] font-semibold tracking-wide text-slate-500 uppercase">
-        {title}
-      </h3>
-      {hint && (
-        <p className="mb-1.5 px-1 text-[11px] text-slate-400">{hint}</p>
-      )}
-      <div className="overflow-hidden rounded-xl border border-slate-200 bg-white">
-        {children}
-      </div>
-    </section>
+    <div className="flex items-center justify-between gap-3 py-2.5">
+      <span className="text-sm font-medium text-slate-800">{label}</span>
+      {children}
+    </div>
   );
 }
