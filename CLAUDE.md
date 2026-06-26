@@ -36,7 +36,7 @@ viettrace-map-web/
 │   ├── nested-index.json      # District/ward index
 │   ├── province-labels-*.json # Label data
 │   └── merger-info.json       # Merger metadata
-├── scripts/data-generation/   # Data generation scripts
+├── scripts/                   # Data generation and basemap-style scripts
 ├── .env.sample                # Environment variable template
 └── Dockerfile                 # Multi-stage standalone build
 ```
@@ -49,8 +49,8 @@ viettrace-map-web/
 - **i18n:** next-intl (routes: /vi/map, /en/map)
 - **Styling:** Tailwind CSS v4 (CSS-first, no config file)
 - **Package Manager:** pnpm
-- **Tile Data:** Vector tiles (MVT) from Martin or PMTiles from Cloudflare R2
-- **Basemap:** CARTO Positron
+- **Tile Data:** Static PMTiles from Cloudflare R2 (production); Martin MVT is local/legacy fallback
+- **Basemap:** Self-built OpenMapTiles basemap, served via `/omt-basemap-style.json` (CARTO Positron is only an emergency fallback)
 
 ## Development Workflow
 
@@ -168,25 +168,32 @@ docker compose -f compose.full.yml --env-file viettrace-infra/.env up -d --build
 
 ## Environment Variables
 
-### Tile URLs (Required)
+### PMTiles URLs (production source — ADR-0016)
+All production map tiles are static PMTiles on one domain, `tiles.viettrace.org` (Cloudflare R2; paths `/basemap`, `/boundaries`, `/nested`).
+```bash
+NEXT_PUBLIC_PMTILES_URL_PRE=https://tiles.viettrace.org/boundaries/vn_provinces_pre_2025.pmtiles
+NEXT_PUBLIC_PMTILES_URL_POST=https://tiles.viettrace.org/boundaries/vn_provinces_post_2025.pmtiles
+NEXT_PUBLIC_PMTILES_URL_ISLANDS=https://tiles.viettrace.org/boundaries/vn_offshore_islands.pmtiles
+NEXT_PUBLIC_PMTILES_URL_ISLANDS_REEF=https://tiles.viettrace.org/boundaries/vn_offshore_reefs.pmtiles
+# Nested boundaries (districts pre-2025, wards post-2025) — polygons + label points
+NEXT_PUBLIC_PMTILES_URL_PRE_DISTRICTS_CANDIDATE=https://tiles.viettrace.org/nested/vn_districts_pre_2025_candidate.pmtiles
+NEXT_PUBLIC_PMTILES_URL_POST_WARDS_CANDIDATE=https://tiles.viettrace.org/nested/vn_wards_post_2025_candidate.pmtiles
+NEXT_PUBLIC_PMTILES_URL_PRE_DISTRICTS_CANDIDATE_LABELS=https://tiles.viettrace.org/nested/vn_districts_pre_2025_candidate_labels.pmtiles
+NEXT_PUBLIC_PMTILES_URL_POST_WARDS_CANDIDATE_LABELS=https://tiles.viettrace.org/nested/vn_wards_post_2025_candidate_labels.pmtiles
+```
+
+### Tile URLs (legacy Martin — optional fallback)
+Per ADR-0016 these `/tiles/...` Martin endpoints are retired for serving. A province layer needs EITHER its PMTiles URL above OR the Martin URL below, not both — so with the PMTiles URLs set you can omit these entirely. Keep only if intentionally falling back to Martin.
 ```bash
 NEXT_PUBLIC_TILE_URL_PRE=https://tiles.viettrace.org/tiles/vn_provinces_pre_2025
 NEXT_PUBLIC_TILE_URL_POST=https://tiles.viettrace.org/tiles/vn_provinces_post_2025
 NEXT_PUBLIC_TILE_URL_ISLANDS=https://tiles.viettrace.org/tiles/vn_offshore_islands
 ```
 
-### PMTiles URLs (Priority over Martin for polygons)
-```bash
-NEXT_PUBLIC_PMTILES_URL_PRE_DISTRICTS_CANDIDATE=https://nested-tiles.viettrace.org/nested/vn_districts_pre_2025_candidate.pmtiles
-NEXT_PUBLIC_PMTILES_URL_POST_WARDS_CANDIDATE=https://nested-tiles.viettrace.org/nested/vn_wards_post_2025_candidate.pmtiles
-NEXT_PUBLIC_PMTILES_URL_PRE_DISTRICTS_CANDIDATE_LABELS=https://nested-tiles.viettrace.org/nested/vn_districts_pre_2025_candidate_labels.pmtiles
-NEXT_PUBLIC_PMTILES_URL_POST_WARDS_CANDIDATE_LABELS=https://nested-tiles.viettrace.org/nested/vn_wards_post_2025_candidate_labels.pmtiles
-```
-
 ### Optional Configuration
 ```bash
 NEXT_PUBLIC_ENABLE_QA_LAYERS=false  # QA layers toggle (default: false)
-NEXT_PUBLIC_MAP_STYLE=https://basemaps.cartocdn.com/gl/positron-gl-style/style.json
+NEXT_PUBLIC_MAP_STYLE=/omt-basemap-style.json  # Self-built OMT basemap (CARTO is emergency fallback only)
 NEXT_PUBLIC_TILE_CACHE_BUSTER=20260509-display  # Bump after tile data changes
 NEXT_PUBLIC_SITE_URL=https://viettrace.org
 ```
@@ -258,7 +265,7 @@ Must exactly match `'vn_provinces_pre_2025'` and `'vn_provinces_post_2025'`. Cha
 ### Attribution Requirements
 Always include:
 - OpenStreetMap contributors (required)
-- geoBoundaries www.geoboundaries.org (when offshore islands layer enabled)
+- OpenMapTiles (basemap)
 - Viettrace (app-owned)
 
 ### Skills for Non-Trivial Work
@@ -274,7 +281,7 @@ Load from `.agents/skills/` before editing:
 - Modify `viettrace-core` as part of frontend work
 - Hardcode localhost or production tile URLs in TypeScript/TSX
 - Rename MapLibre source-layer names without coordinated updates
-- Remove OSM or geoBoundaries attribution
+- Remove OSM, OpenMapTiles, or Viettrace attribution
 - Commit `.env.local` or secret files
 - Delete `public/data/` files without updating `../viettrace-plans/04-data/` or `../viettrace-scraping/` if data came from external scraping
 - Add `useMemo`/`useCallback` without measured benefit

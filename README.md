@@ -67,7 +67,7 @@ NEXT_PUBLIC_TILE_URL_POST=http://localhost:8080/tiles/vn_provinces_post_2025
 NEXT_PUBLIC_TILE_URL_ISLANDS=http://localhost:8080/tiles/vn_offshore_islands
 NEXT_PUBLIC_TILE_URL_PRE_DISTRICTS_CANDIDATE=http://localhost:8080/tiles/vn_districts_pre_2025_candidate
 NEXT_PUBLIC_TILE_URL_POST_WARDS_CANDIDATE=http://localhost:8080/tiles/vn_wards_post_2025_candidate
-NEXT_PUBLIC_MAP_STYLE=https://basemaps.cartocdn.com/gl/positron-gl-style/style.json
+NEXT_PUBLIC_MAP_STYLE=/omt-basemap-style.json
 NEXT_PUBLIC_TILE_CACHE_BUSTER=
 NEXT_PUBLIC_SITE_URL=http://localhost:3000
 ```
@@ -144,8 +144,9 @@ src/
 │   └── opengraph-image.tsx
 ├── components/Map/
 │   ├── Map.tsx
-│   ├── MapControlPanel.tsx
-│   ├── MapToggle.tsx
+│   ├── SegmentedControl.tsx
+│   ├── MapSettingsPanel.tsx
+│   ├── CompareModeToggle.tsx
 │   ├── MapLanguageSwitch.tsx
 │   ├── MapDataNotice.tsx
 │   ├── MapAttribution.tsx
@@ -175,7 +176,7 @@ public/data/
 
 ## Map Data
 
-Vector tiles are served by Martin from PostGIS through `https://tiles.viettrace.org` in production or `http://localhost:8080` locally.
+In production, all map tiles are static PMTiles on Cloudflare R2, served from one domain `https://tiles.viettrace.org` (paths `/basemap`, `/boundaries`, `/nested`; see ADR-0016). Locally, Martin serves vector tiles from PostGIS through `http://localhost:8080`; Martin is local/legacy only and retired for production serving. PMTiles are the production source for every layer below (`NEXT_PUBLIC_PMTILES_URL_*`); the Martin `NEXT_PUBLIC_TILE_URL_*` vars are an optional local/legacy fallback.
 
 | Mode | Tile source-layer | URL env var |
 |---|---|---|
@@ -194,8 +195,8 @@ Static frontend metadata lives in `public/data/`:
 - `offshore-island-labels.json`: label points for Hoàng Sa and Trường Sa reference layer.
 
 OSM attribution is required: `© OpenStreetMap contributors`.
-The CARTO basemap credit is kept available in the app-owned attribution disclosure.
-geoBoundaries attribution is required for offshore islands: `© geoBoundaries www.geoboundaries.org`.
+The OpenMapTiles basemap credit is required: `© OpenMapTiles`.
+The Viettrace app credit is included: `© Viettrace`.
 
 Province labels use localized fields (`name` for Vietnamese, `name_en` for English). Hà Nội is rendered as the national capital with a marker; city labels are allowed at default zoom, while province labels and offshore-island labels fade in at closer zoom levels. Candidate district/ward labels are rendered only at closer zooms behind the QA toggle.
 
@@ -222,7 +223,7 @@ Production environment variables:
 NEXT_PUBLIC_TILE_URL_PRE=https://tiles.viettrace.org/tiles/vn_provinces_pre_2025
 NEXT_PUBLIC_TILE_URL_POST=https://tiles.viettrace.org/tiles/vn_provinces_post_2025
 NEXT_PUBLIC_TILE_URL_ISLANDS=https://tiles.viettrace.org/tiles/vn_offshore_islands
-NEXT_PUBLIC_MAP_STYLE=https://basemaps.cartocdn.com/gl/positron-gl-style/style.json
+NEXT_PUBLIC_MAP_STYLE=/omt-basemap-style.json
 NEXT_PUBLIC_TILE_CACHE_BUSTER=20260509-display
 NEXT_PUBLIC_SITE_URL=https://viettrace.org
 NEXT_PUBLIC_SENTRY_ENABLED=false
@@ -245,7 +246,7 @@ docker run --rm -p 3002:3000 \
   -e NEXT_PUBLIC_TILE_URL_PRE=https://tiles.viettrace.org/tiles/vn_provinces_pre_2025 \
   -e NEXT_PUBLIC_TILE_URL_POST=https://tiles.viettrace.org/tiles/vn_provinces_post_2025 \
   -e NEXT_PUBLIC_TILE_URL_ISLANDS=https://tiles.viettrace.org/tiles/vn_offshore_islands \
-  -e NEXT_PUBLIC_MAP_STYLE=https://basemaps.cartocdn.com/gl/positron-gl-style/style.json \
+  -e NEXT_PUBLIC_MAP_STYLE=/omt-basemap-style.json \
   -e NEXT_PUBLIC_TILE_CACHE_BUSTER=20260509-display \
   viettrace-map-web:local
 ```
@@ -284,7 +285,7 @@ For map behavior changes, manually verify:
 - Data-source note links to the public localized data-sources page.
 - Data-source note can be closed and reopened from the attribution bar.
 - Report-data link opens the GitHub data issue template.
-- Required OSM, CARTO, geoBoundaries, and Viettrace credits remain available through the attribution/data-note disclosure.
+- Required OSM, OpenMapTiles, and Viettrace credits remain available through the attribution/data-note disclosure.
 - Mobile and tablet map chrome use compact settings/search icon toggles; Chrome Android dynamic viewport does not cut off bottom attribution or zoom controls.
 - Default zoom shows Hà Nội and city labels first, then province and offshore-island labels progressively appear when zooming in.
 
