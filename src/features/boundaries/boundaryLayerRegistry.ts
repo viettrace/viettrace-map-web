@@ -51,9 +51,13 @@ export const boundarySourceLayers = {
   post: 'vn_provinces_post_2025',
   postWardsCandidateLabels: 'vn_wards_post_2025_candidate_labels',
   postWardsCandidate: 'vn_wards_post_2025_candidate',
+  // Interior-only ward/district borders (province-shared edges erased) — drawn as the OUTLINE so it
+  // can't double-line the province border. A 2nd source-layer inside the same nested PMTiles.
+  postWardsCandidateInterior: 'vn_wards_post_2025_candidate_interior',
   pre: 'vn_provinces_pre_2025',
   preDistrictsCandidateLabels: 'vn_districts_pre_2025_candidate_labels',
   preDistrictsCandidate: 'vn_districts_pre_2025_candidate',
+  preDistrictsCandidateInterior: 'vn_districts_pre_2025_candidate_interior',
 } as const;
 
 export const labelZoomStops = {
@@ -996,7 +1000,7 @@ function getNestedCandidateLayerDefinitions(
             'line-width': zoomRamp(7, 0.28, 10, 0.78),
           },
           source: boundarySourceIds.preDistrictsCandidate,
-          'source-layer': boundarySourceLayers.preDistrictsCandidate,
+          'source-layer': boundarySourceLayers.preDistrictsCandidateInterior,
           type: 'line',
         },
       },
@@ -1067,7 +1071,7 @@ function getNestedCandidateLayerDefinitions(
             'line-width': zoomRamp(8, 0.22, 11, 0.62),
           },
           source: boundarySourceIds.postWardsCandidate,
-          'source-layer': boundarySourceLayers.postWardsCandidate,
+          'source-layer': boundarySourceLayers.postWardsCandidateInterior,
           type: 'line',
         },
       },
