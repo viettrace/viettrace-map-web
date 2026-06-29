@@ -36,11 +36,27 @@ export function useMapLibre({ center, style, zoom }: UseMapLibreOptions) {
         zoom,
       });
 
+      // Track load so we can tell a fatal init failure (style won't load → no map) apart from the
+      // transient tile/source fetch errors MapLibre fires during normal use.
+      let hasLoaded = false;
+
       mapInstance.on('load', () => {
+        hasLoaded = true;
         setIsReady(true);
       });
 
       mapInstance.on('error', event => {
+        // After the map has loaded, `error` events are almost always recoverable tile/source fetch
+        // blips — most commonly a range request aborted by rapid zoom/pan (surfaces as "Failed to
+        // fetch"). The map recovers on the next frame, so surfacing a full-screen fatal overlay here
+        // would blank a working map over a momentary network hiccup. Log and keep going; only treat
+        // pre-load errors (e.g. the style itself failing) as fatal.
+        if (hasLoaded) {
+          if (process.env.NODE_ENV !== 'production') {
+            console.warn('MapLibre non-fatal error:', event.error);
+          }
+          return;
+        }
         setError(String(event.error || 'Unknown map error'));
       });
 
