@@ -57,6 +57,29 @@ describe('boundaryLayerRegistry', () => {
     ).toMatchObject({ visibility: 'none' });
   });
 
+  it('hides offshore boundary visuals but keeps the archipelago label when boundaries are OFF', () => {
+    const state = {
+      ...initialMapViewState,
+      layers: { ...initialMapViewState.layers, boundaries: false, offshoreIslands: true },
+      mode: 'post' as const,
+    };
+    const layers = getBoundaryLayerDefinitions('vi', state);
+    const visibilityOf = (id: string) =>
+      layers.find(definition => definition.layer.id === id)?.layer.layout?.visibility;
+
+    // Boundary visuals follow the OSM-boundaries toggle → hidden when OFF.
+    expect(visibilityOf('offshore-islands-fill')).toBe('none');
+    // The Hoàng Sa/Trường Sa archipelago label stays on regardless of the toggle (sovereignty).
+    expect(visibilityOf('offshore-islands-label')).toBe('visible');
+
+    // The two groups encode the same split.
+    const groups = getBoundaryLayerGroups(true);
+    expect(groups.find(group => group.id === 'offshore-islands')?.isVisible(state)).toBe(false);
+    expect(groups.find(group => group.id === 'offshore-islands-label')?.isVisible(state)).toBe(
+      true,
+    );
+  });
+
   it('uses localized province label fields', () => {
     const viLabel = getBoundaryLayerDefinitions('vi', initialMapViewState).find(
       definition => definition.layer.id === 'provinces-pre-label',
@@ -87,15 +110,7 @@ describe('boundaryLayerRegistry', () => {
       7,
       1.3,
     ]);
-    expect(capitalMarker?.paint?.['icon-opacity']).toEqual([
-      'interpolate',
-      ['linear'],
-      ['zoom'],
-      4.0,
-      0,
-      4.5,
-      1,
-    ]);
+    expect(capitalMarker?.paint?.['icon-opacity']).toBe(1);
 
     const capitalLabel = getBoundaryLayerDefinitions('en', initialMapViewState).find(
       definition => definition.layer.id === 'provinces-pre-national-capital-label',
@@ -103,7 +118,10 @@ describe('boundaryLayerRegistry', () => {
 
     expect(capitalLabel?.filter).toEqual(['==', ['get', 'is_capital'], true]);
     expect(capitalLabel?.minzoom).toBe(4.0);
-    expect(capitalLabel?.layout?.['text-allow-overlap']).toBe(true);
+    // Capital label now reserves collision space (was ignore-placement) so wards don't paint over it.
+    expect(capitalLabel?.layout?.['text-allow-overlap']).toBe(false);
+    expect(capitalLabel?.layout?.['text-ignore-placement']).toBe(false);
+    expect(capitalLabel?.layout?.['symbol-sort-key']).toBe(1);
     expect(capitalLabel?.layout?.['text-field']).toEqual(['get', 'name_en']);
   });
 
@@ -128,80 +146,37 @@ describe('boundaryLayerRegistry', () => {
       ['!=', ['get', 'is_city'], true],
     ]);
     expect(preLabel?.minzoom).toBe(4.75);
-    // Fade in z4.75→5.75, full through z9.5, fade out z9.5→11 (hand off to district labels).
-    expect(preLabel?.paint?.['text-opacity']).toEqual([
-      'interpolate',
-      ['linear'],
-      ['zoom'],
-      4.75,
-      0,
-      5.75,
-      1,
-      9.5,
-      1,
-      11,
-      0,
-    ]);
+    // No fade — constant full opacity; hard show at minzoom, hard cut at maxzoom 12.
+    expect(preLabel?.paint?.['text-opacity']).toBe(1);
+    expect(preLabel?.layout?.['symbol-sort-key']).toBe(3);
     expect(preCityLabel?.filter).toEqual([
       'all',
       ['==', ['get', 'is_city'], true],
       ['!=', ['get', 'is_capital'], true],
     ]);
     expect(preCityLabel?.minzoom).toBe(4.0);
-    expect(preCityLabel?.paint?.['text-opacity']).toEqual([
-      'interpolate',
-      ['linear'],
-      ['zoom'],
-      4.0,
-      0,
-      4.75,
-      1,
-    ]);
+    expect(preCityLabel?.paint?.['text-opacity']).toBe(1);
+    expect(preCityLabel?.layout?.['text-allow-overlap']).toBe(false);
+    expect(preCityLabel?.layout?.['symbol-sort-key']).toBe(2);
     expect(postLabel?.filter).toEqual([
       'all',
       ['!=', ['get', 'is_capital'], true],
       ['!=', ['get', 'is_city'], true],
     ]);
     expect(postLabel?.minzoom).toBe(4.5);
-    // Fade in z4.5→5.5, full through z9.5, fade out z9.5→11 (hand off to ward labels).
-    expect(postLabel?.paint?.['text-opacity']).toEqual([
-      'interpolate',
-      ['linear'],
-      ['zoom'],
-      4.5,
-      0,
-      5.5,
-      1,
-      9.5,
-      1,
-      11,
-      0,
-    ]);
+    expect(postLabel?.paint?.['text-opacity']).toBe(1);
+    expect(postLabel?.layout?.['symbol-sort-key']).toBe(3);
     expect(postCityLabel?.filter).toEqual([
       'all',
       ['==', ['get', 'is_city'], true],
       ['!=', ['get', 'is_capital'], true],
     ]);
     expect(postCityLabel?.minzoom).toBe(4.0);
-    expect(postCityLabel?.paint?.['text-opacity']).toEqual([
-      'interpolate',
-      ['linear'],
-      ['zoom'],
-      4.0,
-      0,
-      4.75,
-      1,
-    ]);
-    expect(islandLabel?.minzoom).toBe(5.25);
-    expect(islandLabel?.paint?.['text-opacity']).toEqual([
-      'interpolate',
-      ['linear'],
-      ['zoom'],
-      5.25,
-      0,
-      5.95,
-      1,
-    ]);
+    expect(postCityLabel?.paint?.['text-opacity']).toBe(1);
+    expect(postCityLabel?.layout?.['text-allow-overlap']).toBe(false);
+    // Offshore (Hoàng Sa/Trường Sa) labels appear at overview zoom now (was 5.25); no fade.
+    expect(islandLabel?.minzoom).toBe(3.5);
+    expect(islandLabel?.paint?.['text-opacity']).toBe(1);
   });
 
   it('keeps hit layers and group visibility centralized', () => {
@@ -211,6 +186,7 @@ describe('boundaryLayerRegistry', () => {
       'pre-provinces',
       'post-provinces',
       'offshore-islands',
+      'offshore-islands-label',
     ]);
   });
 
@@ -278,6 +254,7 @@ describe('boundaryLayerRegistry', () => {
       'pre-provinces',
       'post-provinces',
       'offshore-islands',
+      'offshore-islands-label',
       'pre-districts-candidate',
       'post-wards-candidate',
     ]);

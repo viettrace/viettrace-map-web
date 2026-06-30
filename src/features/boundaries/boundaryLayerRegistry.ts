@@ -70,8 +70,8 @@ export const labelZoomStops = {
     min: 4.0,
   },
   offshoreIslands: {
-    full: 5.95,
-    min: 5.25,
+    full: 4.5,
+    min: 3.5,
   },
   // Ward labels defer to z10.5+ so province (z5–9) → district (z8.5–11) → ward (z10.5+) hand off
   // cleanly instead of all competing for the same collision slots in the dense Red River Delta.
@@ -254,15 +254,24 @@ const provinceBoundaryLayerGroups: BoundaryLayerGroup[] = [
   },
 ];
 
+// Offshore boundary VISUALS (fill + outline) follow the OSM-boundaries toggle — hidden when
+// boundaries are OFF (the basemap still renders the islands as land underneath).
 const offshoreIslandLayerGroup: BoundaryLayerGroup = {
   id: 'offshore-islands',
-  isVisible: state => state.layers.offshoreIslands,
+  isVisible: state => state.layers.offshoreIslands && state.layers.boundaries,
   layerIds: [
     boundaryLayerIds.islandsFill,
     boundaryLayerIds.islandsOutlineHalo,
     boundaryLayerIds.islandsOutline,
-    boundaryLayerIds.islandsLabel,
   ],
+};
+
+// The Hoàng Sa / Trường Sa archipelago LABEL stays visible regardless of the boundary toggle
+// (sovereignty context — the basemap carries no archipelago grouping name).
+const offshoreIslandLabelLayerGroup: BoundaryLayerGroup = {
+  id: 'offshore-islands-label',
+  isVisible: state => state.layers.offshoreIslands,
+  layerIds: [boundaryLayerIds.islandsLabel],
 };
 
 const preDistrictCandidateLayerGroup: BoundaryLayerGroup = {
@@ -298,7 +307,7 @@ export function getBoundaryLayerGroups(
   const groups = [...provinceBoundaryLayerGroups];
 
   if (normalizedOptions.includeOffshoreIslands !== false) {
-    groups.push(offshoreIslandLayerGroup);
+    groups.push(offshoreIslandLayerGroup, offshoreIslandLabelLayerGroup);
   }
 
   if (normalizedOptions.includePreDistrictCandidates) {
@@ -601,6 +610,9 @@ function getProvinceLayerDefinitions(
           // NO early fade-out (that previously hid them at z9+ before they could ever show). The
           // basemap's own VN place labels are hidden while boundaries are on (see BoundaryLayers), so
           // province labels win their band instead of losing the global collision to a basemap city.
+          // symbol-sort-key sets collision priority so a CHILD label never displaces its PARENT:
+          // capital(1) < city(2) < province(3) < district(6) < ward(9). Lower key = placed first = wins.
+          'symbol-sort-key': 3,
           'text-allow-overlap': false,
           'text-anchor': 'center',
           'text-field': ['get', labelField],
@@ -615,22 +627,9 @@ function getProvinceLayerDefinitions(
           'text-color': '#d44',
           'text-halo-color': '#fff',
           'text-halo-width': 2,
-          // Fade in z4.75→5.75; FULL through z9.5 (so dense-delta provinces have a wide window to
-          // appear as they spread, with no basemap labels competing); fade out z9.5→11 to hand off
-          // to the district labels (which fade in z8.5→9.5). Gone by z11, before the ward tier.
-          'text-opacity': [
-            'interpolate',
-            ['linear'],
-            ['zoom'],
-            labelZoomStops.preProvinces.min,
-            0,
-            labelZoomStops.preProvinces.full,
-            1,
-            9.5,
-            1,
-            11,
-            0,
-          ],
+          // No fade: full opacity from minzoom, hard cut at maxzoom 12. Province labels win their
+          // collision slot (placed before the nested district/ward labels) so they hand off cleanly.
+          'text-opacity': 1,
         },
         source: boundarySourceIds.preLabels,
         type: 'symbol',
@@ -642,11 +641,14 @@ function getProvinceLayerDefinitions(
         filter: ['all', ['==', ['get', 'is_city'], true], ['!=', ['get', 'is_capital'], true]],
         id: boundaryLayerIds.preCityLabel,
         layout: {
-          'text-allow-overlap': true,
+          // City labels now reserve collision space (was ignore-placement: true) so child ward/
+          // district labels no longer paint over them. Capital(1) outranks city(2); see preLabel.
+          'symbol-sort-key': 2,
+          'text-allow-overlap': false,
           'text-anchor': 'center',
           'text-field': ['get', labelField],
           'text-font': ['Noto Sans Medium'],
-          'text-ignore-placement': true,
+          'text-ignore-placement': false,
           'text-size': zoomRamp(labelZoomStops.cityLabels.min, 12.5, 7, 14.5),
           visibility: preVisible ? 'visible' : 'none',
         },
@@ -656,12 +658,7 @@ function getProvinceLayerDefinitions(
           'text-color': '#dc2626',
           'text-halo-color': '#fff',
           'text-halo-width': 2.15,
-          'text-opacity': zoomRamp(
-            labelZoomStops.cityLabels.min,
-            0,
-            labelZoomStops.cityLabels.full,
-            1,
-          ),
+          'text-opacity': 1,
         },
         source: boundarySourceIds.preLabels,
         type: 'symbol',
@@ -684,12 +681,7 @@ function getProvinceLayerDefinitions(
         maxzoom: 12,
         minzoom: labelZoomStops.nationalCapital.min,
         paint: {
-          'icon-opacity': zoomRamp(
-            labelZoomStops.nationalCapital.min,
-            0,
-            labelZoomStops.nationalCapital.full,
-            1,
-          ),
+          'icon-opacity': 1,
         },
         source: boundarySourceIds.preLabels,
         type: 'symbol',
@@ -701,11 +693,14 @@ function getProvinceLayerDefinitions(
         filter: ['==', ['get', 'is_capital'], true],
         id: boundaryLayerIds.preNationalCapitalLabel,
         layout: {
-          'text-allow-overlap': true,
+          // Capital label reserves collision space (was ignore-placement: true) so wards don't paint
+          // over "Thành phố Hà Nội"; sort-key 1 = top priority. The star MARKER stays always-on.
+          'symbol-sort-key': 1,
+          'text-allow-overlap': false,
           'text-anchor': 'center',
           'text-field': ['get', labelField],
           'text-font': ['Noto Sans Medium'],
-          'text-ignore-placement': true,
+          'text-ignore-placement': false,
           'text-offset': [0, 1.1],
           'text-size': zoomRamp(labelZoomStops.nationalCapital.min, 14, 7, 16),
           visibility: preVisible ? 'visible' : 'none',
@@ -716,12 +711,7 @@ function getProvinceLayerDefinitions(
           'text-color': '#b45309',
           'text-halo-color': '#fff',
           'text-halo-width': 2.25,
-          'text-opacity': zoomRamp(
-            labelZoomStops.nationalCapital.min,
-            0,
-            labelZoomStops.nationalCapital.full,
-            1,
-          ),
+          'text-opacity': 1,
         },
         source: boundarySourceIds.preLabels,
         type: 'symbol',
@@ -733,7 +723,8 @@ function getProvinceLayerDefinitions(
         filter: ['all', ['!=', ['get', 'is_capital'], true], ['!=', ['get', 'is_city'], true]],
         id: boundaryLayerIds.postLabel,
         layout: {
-          // Collision ON (no pile); own z5–8 then fade out z8→9.5 to hand off to ward labels.
+          // Collision ON; no fade. sort-key 3 keeps province above district/ward (see preLabel scheme).
+          'symbol-sort-key': 3,
           'text-allow-overlap': false,
           'text-anchor': 'center',
           'text-field': ['get', labelField],
@@ -748,20 +739,8 @@ function getProvinceLayerDefinitions(
           'text-color': '#2563eb',
           'text-halo-color': '#fff',
           'text-halo-width': 2,
-          // Mirror of preLabel: full through z9.5, fade out z9.5→11 to hand off to the ward labels.
-          'text-opacity': [
-            'interpolate',
-            ['linear'],
-            ['zoom'],
-            labelZoomStops.postProvinces.min,
-            0,
-            labelZoomStops.postProvinces.full,
-            1,
-            9.5,
-            1,
-            11,
-            0,
-          ],
+          // No fade: full opacity from minzoom, hard cut at maxzoom 12. Mirror of preLabel.
+          'text-opacity': 1,
         },
         source: boundarySourceIds.postLabels,
         type: 'symbol',
@@ -773,11 +752,14 @@ function getProvinceLayerDefinitions(
         filter: ['all', ['==', ['get', 'is_city'], true], ['!=', ['get', 'is_capital'], true]],
         id: boundaryLayerIds.postCityLabel,
         layout: {
-          'text-allow-overlap': true,
+          // City labels reserve collision space (was ignore-placement: true) so child ward/district
+          // labels no longer paint over them. Capital(1) outranks city(2); see preLabel scheme.
+          'symbol-sort-key': 2,
+          'text-allow-overlap': false,
           'text-anchor': 'center',
           'text-field': ['get', labelField],
           'text-font': ['Noto Sans Medium'],
-          'text-ignore-placement': true,
+          'text-ignore-placement': false,
           'text-size': zoomRamp(labelZoomStops.cityLabels.min, 12.5, 7, 14.5),
           visibility: postVisible ? 'visible' : 'none',
         },
@@ -787,12 +769,7 @@ function getProvinceLayerDefinitions(
           'text-color': '#2563eb',
           'text-halo-color': '#fff',
           'text-halo-width': 2.15,
-          'text-opacity': zoomRamp(
-            labelZoomStops.cityLabels.min,
-            0,
-            labelZoomStops.cityLabels.full,
-            1,
-          ),
+          'text-opacity': 1,
         },
         source: boundarySourceIds.postLabels,
         type: 'symbol',
@@ -815,12 +792,7 @@ function getProvinceLayerDefinitions(
         maxzoom: 12,
         minzoom: labelZoomStops.nationalCapital.min,
         paint: {
-          'icon-opacity': zoomRamp(
-            labelZoomStops.nationalCapital.min,
-            0,
-            labelZoomStops.nationalCapital.full,
-            1,
-          ),
+          'icon-opacity': 1,
         },
         source: boundarySourceIds.postLabels,
         type: 'symbol',
@@ -832,11 +804,14 @@ function getProvinceLayerDefinitions(
         filter: ['==', ['get', 'is_capital'], true],
         id: boundaryLayerIds.postNationalCapitalLabel,
         layout: {
-          'text-allow-overlap': true,
+          // Capital label reserves collision space (was ignore-placement: true) so wards don't paint
+          // over "Thành phố Hà Nội"; sort-key 1 = top priority. The star MARKER stays always-on.
+          'symbol-sort-key': 1,
+          'text-allow-overlap': false,
           'text-anchor': 'center',
           'text-field': ['get', labelField],
           'text-font': ['Noto Sans Medium'],
-          'text-ignore-placement': true,
+          'text-ignore-placement': false,
           'text-offset': [0, 1.1],
           'text-size': zoomRamp(labelZoomStops.nationalCapital.min, 14, 7, 16),
           visibility: postVisible ? 'visible' : 'none',
@@ -847,12 +822,7 @@ function getProvinceLayerDefinitions(
           'text-color': '#b45309',
           'text-halo-color': '#fff',
           'text-halo-width': 2.25,
-          'text-opacity': zoomRamp(
-            labelZoomStops.nationalCapital.min,
-            0,
-            labelZoomStops.nationalCapital.full,
-            1,
-          ),
+          'text-opacity': 1,
         },
         source: boundarySourceIds.postLabels,
         type: 'symbol',
@@ -867,6 +837,9 @@ function getOffshoreIslandLayerDefinitions(
   reefTilesAvailable: boolean,
 ): BoundaryLayerDefinition[] {
   const islandsVisible = state.layers.offshoreIslands;
+  // Boundary VISUALS (fill/halo/outline) follow the OSM-boundaries toggle so the disputed-archipelago
+  // outline hides when boundaries are OFF; the LABEL stays on (sovereignty) — see the two groups.
+  const islandsBoundaryVisible = islandsVisible && state.layers.boundaries;
   // Outline + label track the active mode (territorial signal); the reef fill is mode-independent.
   const { labelColor, outlineColor } = getOffshoreIslandModeStyle(state.mode);
   const labelExpression = getOffshoreIslandLabelTextField(state.mode, locale);
@@ -886,7 +859,7 @@ function getOffshoreIslandLayerDefinitions(
       groupId: 'offshore-islands',
       layer: {
         id: boundaryLayerIds.islandsFill,
-        layout: { visibility: islandsVisible ? 'visible' : 'none' },
+        layout: { visibility: islandsBoundaryVisible ? 'visible' : 'none' },
         paint: { 'fill-color': REEF_SHALLOWS_FILL, 'fill-opacity': zoomRamp(4, 0.82, 13, 0.72) },
         source: reefFillSource,
         'source-layer': reefFillSourceLayer,
@@ -897,7 +870,7 @@ function getOffshoreIslandLayerDefinitions(
       groupId: 'offshore-islands',
       layer: {
         id: boundaryLayerIds.islandsOutlineHalo,
-        layout: { visibility: islandsVisible ? 'visible' : 'none' },
+        layout: { visibility: islandsBoundaryVisible ? 'visible' : 'none' },
         paint: {
           'line-color': '#f8fafc',
           'line-opacity': 0.95,
@@ -912,7 +885,7 @@ function getOffshoreIslandLayerDefinitions(
       groupId: 'offshore-islands',
       layer: {
         id: boundaryLayerIds.islandsOutline,
-        layout: { visibility: islandsVisible ? 'visible' : 'none' },
+        layout: { visibility: islandsBoundaryVisible ? 'visible' : 'none' },
         paint: {
           'line-color': outlineColor,
           'line-width': ['interpolate', ['linear'], ['zoom'], 4, 1.5, 7, 2.25],
@@ -923,7 +896,7 @@ function getOffshoreIslandLayerDefinitions(
       },
     },
     {
-      groupId: 'offshore-islands',
+      groupId: 'offshore-islands-label',
       layer: {
         id: boundaryLayerIds.islandsLabel,
         layout: {
@@ -941,12 +914,8 @@ function getOffshoreIslandLayerDefinitions(
           'text-halo-blur': 0.5,
           'text-halo-color': '#fff',
           'text-halo-width': 2.5,
-          'text-opacity': zoomRamp(
-            labelZoomStops.offshoreIslands.min,
-            0,
-            labelZoomStops.offshoreIslands.full,
-            1,
-          ),
+          // No fade — hard appear at minzoom (offshoreIslands.min).
+          'text-opacity': 1,
         },
         source: boundarySourceIds.islandLabels,
         type: 'symbol',
@@ -1014,6 +983,8 @@ function getNestedCandidateLayerDefinitions(
         filter: ['all', ['has', 'name'], EXCLUDE_ARCHIPELAGO_FILTER],
         id: boundaryLayerIds.preDistrictsCandidateLabel,
         layout: {
+          // sort-key 6: districts yield to province/city/capital labels (see preLabel scheme).
+          'symbol-sort-key': 6,
           'text-allow-overlap': false,
           'text-anchor': 'center',
           'text-field': labelField,
@@ -1029,12 +1000,7 @@ function getNestedCandidateLayerDefinitions(
           'text-color': '#991b1b',
           'text-halo-color': '#fff',
           'text-halo-width': 2,
-          'text-opacity': zoomRamp(
-            labelZoomStops.preDistrictCandidates.min,
-            0,
-            labelZoomStops.preDistrictCandidates.full,
-            1,
-          ),
+          'text-opacity': 1,
         },
         source: boundarySourceIds.preDistrictsCandidateLabels,
         'source-layer': boundarySourceLayers.preDistrictsCandidateLabels,
@@ -1085,6 +1051,8 @@ function getNestedCandidateLayerDefinitions(
         filter: ['all', ['has', 'name'], EXCLUDE_ARCHIPELAGO_FILTER],
         id: boundaryLayerIds.postWardsCandidateLabel,
         layout: {
+          // sort-key 9 (lowest priority): wards yield to province/city/capital labels (see preLabel).
+          'symbol-sort-key': 9,
           'text-allow-overlap': false,
           'text-anchor': 'center',
           'text-field': labelField,
@@ -1100,12 +1068,7 @@ function getNestedCandidateLayerDefinitions(
           'text-color': '#1e3a8a',
           'text-halo-color': '#fff',
           'text-halo-width': 2,
-          'text-opacity': zoomRamp(
-            labelZoomStops.postWardCandidates.min,
-            0,
-            labelZoomStops.postWardCandidates.full,
-            1,
-          ),
+          'text-opacity': 1,
         },
         source: boundarySourceIds.postWardsCandidateLabels,
         'source-layer': boundarySourceLayers.postWardsCandidateLabels,
