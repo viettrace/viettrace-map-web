@@ -48,12 +48,12 @@
   "sources": {
     "openmaptiles": {
       "type": "vector",
-      "url": "pmtiles://http://localhost:8600/region-omt-v4.pmtiles?v=region4",
+      "url": "pmtiles://https://tiles.viettrace.org/basemap/region-omt.pmtiles",
       "attribution": "© OpenMapTiles © OpenStreetMap contributors © Viettrace"
     },
     "world": {
       "type": "vector",
-      "url": "pmtiles://http://localhost:8600/world-omt.pmtiles",
+      "url": "pmtiles://https://tiles.viettrace.org/basemap/world-omt.pmtiles",
       "attribution": "© OpenMapTiles © OpenStreetMap contributors © Viettrace"
     },
     "region-mask": {
@@ -91,8 +91,8 @@
       }
     }
   },
-  "sprite": "https://openmaptiles.github.io/osm-bright-gl-style/sprite",
-  "glyphs": "https://nested-tiles.viettrace.org/basemap/fonts/{fontstack}/{range}.pbf",
+  "sprite": "https://tiles.viettrace.org/basemap/sprites/osm-bright",
+  "glyphs": "https://tiles.viettrace.org/basemap/fonts/{fontstack}/{range}.pbf",
   "layers": [
     {
       "id": "background",

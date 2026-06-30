@@ -46,3 +46,14 @@ jobs:
           NEXT_PUBLIC_MAP_STYLE: https://basemaps.cartocdn.com/gl/positron-gl-style/style.json
           NEXT_PUBLIC_SITE_URL: https://viettrace.org
           NEXT_PUBLIC_SENTRY_ENABLED: "false"
+
+      # `pnpm build` regenerates the committed basemap style (generate-omt-basemap-style.mjs).
+      # If the result differs from what is committed, the style files are stale — fail here with a
+      # clear message instead of letting it surface later as a dirty-working-dir error in Release.
+      - name: Verify generated basemap style is up to date
+        run: |
+          if ! git diff --quiet -- public/omt-basemap-style.json public/omt-basemap-style-en.json; then
+            echo "::error::Generated basemap style is out of date. Run 'pnpm basemap:generate-omt-style' and commit public/omt-basemap-style*.json."
+            git --no-pager diff -- public/omt-basemap-style.json public/omt-basemap-style-en.json
+            exit 1
+          fi
