@@ -1,5 +1,28 @@
 # Changelog
 
+## 0.3.0 (2026-06-30)
+
+* feat(attribution): remove geoBoundaries attribution from map components and localization files ([e3b21b6](https://github.com/viettrace/viettrace-map-web/commit/e3b21b6))
+* feat(attribution): remove Natural Earth attribution from map components and localization files ([7154bc7](https://github.com/viettrace/viettrace-map-web/commit/7154bc7))
+* feat(attribution): update Protomaps attribution to OpenMapTiles ([a29c4a9](https://github.com/viettrace/viettrace-map-web/commit/a29c4a9))
+* feat(basemap): update OMT basemap style generation and configuration ([bf837d9](https://github.com/viettrace/viettrace-map-web/commit/bf837d9))
+* feat(basemap): update tile source URLs to use production links ([c532ef2](https://github.com/viettrace/viettrace-map-web/commit/c532ef2))
+* feat(boundaries): add OSM-boundaries on/off toggle ([96dc4b7](https://github.com/viettrace/viettrace-map-web/commit/96dc4b7))
+* feat(boundaries): enhance boundary layers and island rendering ([b35de0e](https://github.com/viettrace/viettrace-map-web/commit/b35de0e))
+* feat(boundaries): implement nested interior-only boundaries to avoid double-drawing ([76b7190](https://github.com/viettrace/viettrace-map-web/commit/76b7190))
+* feat(boundaries): update offshore island visibility logic and label handling ([6dd2e9f](https://github.com/viettrace/viettrace-map-web/commit/6dd2e9f))
+* feat(docs): update design status to implemented and add implementation notes ([1635f01](https://github.com/viettrace/viettrace-map-web/commit/1635f01))
+* feat(env): update public environment configuration for optional Martin tile URLs ([6037b79](https://github.com/viettrace/viettrace-map-web/commit/6037b79))
+* feat(map): enhance error handling for map loading and recovery ([138ae13](https://github.com/viettrace/viettrace-map-web/commit/138ae13))
+* docs: refresh for self-built basemap, R2 PMTiles, attribution, sidebar components ([12a0d98](https://github.com/viettrace/viettrace-map-web/commit/12a0d98))
+* docs(boundaries): add OSM-boundaries toggle design spec ([e264f10](https://github.com/viettrace/viettrace-map-web/commit/e264f10))
+* docs(boundaries): add OSM-boundaries toggle implementation plan ([e606444](https://github.com/viettrace/viettrace-map-web/commit/e606444))
+* docs(sidebar): add map settings sidebar redesign design spec ([540d4f8](https://github.com/viettrace/viettrace-map-web/commit/540d4f8))
+* docs(sidebar): add sidebar redesign implementation plan ([02de15d](https://github.com/viettrace/viettrace-map-web/commit/02de15d))
+* refactor(map-ui): redesign settings sidebar into a unified settings list ([0ea0792](https://github.com/viettrace/viettrace-map-web/commit/0ea0792))
+* chore: ignore .superpowers brainstorm scratch dir ([a67152d](https://github.com/viettrace/viettrace-map-web/commit/a67152d))
+* fix(boundaries): reveal basemap labels with boundaries off; disable inert controls ([fb07296](https://github.com/viettrace/viettrace-map-web/commit/fb07296))
+
 ## 0.2.0 (2026-06-13)
 
 * Feat/custom basemap (#87) ([3242b8f](https://github.com/viettrace/viettrace-map-web/commit/3242b8f)), closes [#87](https://github.com/viettrace/viettrace-map-web/issues/87)
