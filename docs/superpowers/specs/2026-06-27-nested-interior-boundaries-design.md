@@ -2,7 +2,7 @@
 
 - **Date:** 2026-06-27
 - **Repos:** `viettrace-data` (data-prep + tile build) + `viettrace-map-web` (rendering)
-- **Status:** approved (design); ready for implementation plan
+- **Status:** implemented + shipped (2026-06-30). See "Implementation notes" at the end — the keep-rule and a few details evolved during the build.
 - **Origin:** Follow-up to the boundary z14 rebuild. At a province border the **province** (admin_level 4) line and the **nested** (district pre / ward post, admin_level 6) line visibly diverge, worse on overzoom.
 
 ## Problem (diagnosed)
@@ -79,3 +79,15 @@ No env-var changes (A2 = same PMTiles URL). No `BoundaryLayers.tsx` logic change
 - `pnpm lint`, `pnpm test:unit`, `pnpm knip` in `viettrace-map-web`.
 - Manual `/vi/map` + `/en/map`: at the Bắc Giang–Lạng Sơn border only the province line shows at all zooms including z17+; interior district/ward divisions still render; fill + click-select still work; both pre and post modes.
 - Production: re-upload nested PMTiles, purge cache, re-check header (`maxzoom=14`, both source-layers present) + visual.
+
+## Implementation notes (as shipped, 2026-06-30)
+
+The approach held, but a few details changed during the build:
+
+1. **Keep rule changed from exact-erase to shared-count.** The original plan erased nested edges that *exactly* matched a province edge. That works inland (province L4 and district L6 share OSM ways → identical vertices), but **coastlines did not match** — province and nested are land-clipped independently (Track E), so their coast vertices differ by ~0–17 m, leaving stray lines hugging/crossing coastal islands. Final rule: **keep an edge iff it is traversed by ≥2 nested rings (a true border between two units) AND is not on a province border.** A `count==1` edge is an outer boundary (coastline, or an unmatched province edge) that only one unit traverses → dropped. This is robust to the coastal mismatch with no fuzzy tolerance.
+2. **Archipelago skip.** The Hoàng Sa/Trường Sa gap-fills (`name_en` ∈ {Hoang Sa District, Truong Sa District, Hoang Sa Special Zone, Truong Sa Special Zone}) are skipped — their non-province-matching edges were drawing spurious strokes on the islands; the offshore-islands overlay owns the archipelago.
+3. **Line-merge (required, not optional).** Un-merged 2-point segments were ~1.1M features / 148 MB for wards — too large. The script merges kept edges into polylines (chains between junctions): districts 1,257 lines, wards 8,221 lines.
+4. **No-simplify rebuild.** Province + nested were rebuilt **without `--simplification`** (default tolerance), not just at z14. tippecanoe simplifies even at maxzoom, independently per tileset; with `--simplification=10` the province line, nested outline, and nested fill edge drifted apart at deep/over-zoom (visible gaps + a faint fill edge). Dropping it keeps shared vertices close so the layers align. Runbook updated accordingly.
+5. **Related fix, same session:** `useMapLibre.ts` now treats only **pre-load** map errors as fatal — transient tile-fetch failures during rapid zoom (which fire a MapLibre `error` event) no longer blank the map with the error overlay.
+
+Reproduce: `pnpm data:build-nested-interior` (viettrace-data) → two-layer tippecanoe `-L` build (no `--simplification`) per the [pmtiles-r2-setup runbook](../../../../viettrace-plans/03-runbooks/pmtiles-r2-setup.md) → upload + cache purge. Manifest: `viettrace-data/manifests/nested-interior-boundaries-2026-06-27.json`.
