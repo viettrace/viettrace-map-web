@@ -2,7 +2,7 @@
 
 - **Date:** 2026-06-21
 - **Repo:** viettrace-map-web
-- **Status:** approved (design); ready for implementation plan
+- **Status:** **shipped to production 2026-07-01.** One scope decision (offshore visibility when OFF) was revised in a later follow-up — see the "Update (2026-07-01)" note below.
 - **Origin:** deferred follow-up from Track A-SB (self-built basemap). See `../../../../viettrace-plans/02-milestones/immediate-post-mvp/track-a-sb-self-built-basemap/plan.md` → "Deferred follow-ups".
 
 ## Goal
@@ -11,9 +11,21 @@ Let the user turn the OSM boundary overlay **off** to see a clean basemap with i
 
 ## Scope decisions (confirmed with user)
 
-1. **Coupling — when boundaries are OFF:** hide the whole admin overlay (provinces pre/post + nested districts/wards + their labels + region color labels) **EXCEPT the Hoàng Sa / Trường Sa offshore islands**, which stay visible (sovereignty marker persists; the basemap also still renders the islands as land with VN names). Simultaneously, reveal the basemap's full VN labels.
+1. **Coupling — when boundaries are OFF:** hide the whole admin overlay (provinces pre/post + nested districts/wards + their labels + region color labels) **EXCEPT the Hoàng Sa / Trường Sa offshore islands**, which stay visible (sovereignty marker persists; the basemap also still renders the islands as land with VN names). _(⚠ Revised 2026-07-01 — see Update note below: OFF now also hides the offshore **boundary visuals**; only the archipelago **label** stays.)_ Simultaneously, reveal the basemap's full VN labels.
 2. **Persistence:** the toggle state is **shareable via the URL** (`?boundaries=off`; the default ON omits the param).
 3. **Default:** ON — current behavior unchanged.
+
+> **Update (2026-07-01, shipped).** Two changes to the decisions above landed after the initial ship:
+>
+> - **Offshore visibility (revises decision 1).** When boundaries are OFF, the Hoàng Sa/Trường Sa
+>   **boundary visuals (fill + outline) now hide too** — only the archipelago **label** stays as the
+>   sovereignty marker. The offshore group was split into `offshore-islands` (fill/outline, gated on
+>   `state.layers.boundaries`) and `offshore-islands-label` (label, ungated). So "Always keep" in the
+>   Mechanism section below now applies to the **label only**, not the fill/reef/outline.
+> - **Labels (unrelated to the toggle, same session).** All overlay-label opacity fades were removed
+>   (hard show/hide at `minzoom`), a `symbol-sort-key` priority was added (capital < city < province <
+>   district < ward) with city/capital labels reserving collision space so children don't cover parents,
+>   and the offshore label `minzoom` dropped 5.25 → 3.5.
 
 ## Mechanism (chosen)
 

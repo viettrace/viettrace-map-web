@@ -51,7 +51,7 @@ Work the steps in order. Each step lists the files, the change, and how to verif
 ## Step 3 — Registry: gate overlay visibility + add basemap-label constants
 
 **`src/features/boundaries/boundaryLayerRegistry.ts`**
-- Gate the province + nested + region overlay on `state.layers.boundaries` (islands stay ungated):
+- Gate the province + nested + region overlay on `state.layers.boundaries` (islands stay ungated): _(⚠ revised 2026-07-01 — the offshore **fill/outline** group is now ALSO gated on `state.layers.boundaries`; only a separate archipelago-**label** group stays ungated. So "Do NOT touch the offshore-islands group predicate" below no longer holds. See the design spec's "Update (2026-07-01)" note.)_
   - Group predicates (~L196/208/233/243): change `state.mode === 'pre'` → `state.mode === 'pre' && state.layers.boundaries` (and the `post` one); the nested ones already AND `nestedCandidates`, also AND `state.layers.boundaries`. **Do NOT touch** the offshore-islands group predicate.
   - Layer-creation visibility (~L490): `const preVisible = state.mode === 'pre' && state.layers.boundaries;` and `postVisible = state.mode === 'post' && state.layers.boundaries;`. (Region-color labels live in `BoundaryLayers`/`ensureRegionLabels` — handle their hide in Step 4 since they're added imperatively.)
 - Re-introduce the basemap settlement-label list + a filter helper (exported):

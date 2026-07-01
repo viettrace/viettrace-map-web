@@ -198,7 +198,7 @@ OSM attribution is required: `© OpenStreetMap contributors`.
 The OpenMapTiles basemap credit is required: `© OpenMapTiles`.
 The Viettrace app credit is included: `© Viettrace`.
 
-Province labels use localized fields (`name` for Vietnamese, `name_en` for English). Hà Nội is rendered as the national capital with a marker; city labels are allowed at default zoom, while province labels and offshore-island labels fade in at closer zoom levels. Candidate district/ward labels are rendered only at closer zooms behind the QA toggle.
+Province labels use localized fields (`name` for Vietnamese, `name_en` for English). Hà Nội is rendered as the national capital with a marker; city labels are allowed at default zoom, while province and offshore-island labels appear at their zoom threshold (hard show/hide at `minzoom`, no opacity fade). A `symbol-sort-key` priority (capital < city < province < district < ward), with city/capital labels reserving collision space, keeps parent labels from being covered by child labels. Candidate district/ward labels are rendered only at closer zooms behind the QA toggle.
 
 ## Docker
 
@@ -287,7 +287,7 @@ For map behavior changes, manually verify:
 - Report-data link opens the GitHub data issue template.
 - Required OSM, OpenMapTiles, and Viettrace credits remain available through the attribution/data-note disclosure.
 - Mobile and tablet map chrome use compact settings/search icon toggles; Chrome Android dynamic viewport does not cut off bottom attribution or zoom controls.
-- Default zoom shows Hà Nội and city labels first, then province and offshore-island labels progressively appear when zooming in.
+- Default zoom shows Hà Nội and city labels first; province and offshore-island labels appear at their zoom threshold when zooming in (hard show/hide, no fade).
 
 ## Releases
 
