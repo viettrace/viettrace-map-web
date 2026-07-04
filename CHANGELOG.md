@@ -1,5 +1,13 @@
 # Changelog
 
+## <small>0.3.1 (2026-07-04)</small>
+
+* feat: add province statistics section and update related components for enhanced data visualization ([6181b46](https://github.com/viettrace/viettrace-map-web/commit/6181b46))
+* feat: add script to generate province statistics for pre- and post-2025 provinces ([2e633c0](https://github.com/viettrace/viettrace-map-web/commit/2e633c0))
+* feat: remove QA layers toggle and update related configurations for public production ([d396c72](https://github.com/viettrace/viettrace-map-web/commit/d396c72))
+* feat(data): add reconciliation script and update package.json with new command ([6471f99](https://github.com/viettrace/viettrace-map-web/commit/6471f99))
+* feat(docs): update OSM boundaries toggle design and implementation status ([07f2c92](https://github.com/viettrace/viettrace-map-web/commit/07f2c92))
+
 ## 0.3.0 (2026-06-30)
 
 * feat(attribution): remove geoBoundaries attribution from map components and localization files ([e3b21b6](https://github.com/viettrace/viettrace-map-web/commit/e3b21b6))
