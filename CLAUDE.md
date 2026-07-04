@@ -192,7 +192,6 @@ NEXT_PUBLIC_TILE_URL_ISLANDS=https://tiles.viettrace.org/tiles/vn_offshore_islan
 
 ### Optional Configuration
 ```bash
-NEXT_PUBLIC_ENABLE_QA_LAYERS=false  # QA layers toggle (default: false)
 NEXT_PUBLIC_MAP_STYLE=/omt-basemap-style.json  # Self-built OMT basemap (CARTO is emergency fallback only)
 NEXT_PUBLIC_TILE_CACHE_BUSTER=20260509-display  # Bump after tile data changes
 NEXT_PUBLIC_SITE_URL=https://viettrace.org

@@ -81,7 +81,7 @@ NEXT_PUBLIC_TILE_URL_ISLANDS=https://tiles.viettrace.org/tiles/vn_offshore_islan
 NEXT_PUBLIC_TILE_CACHE_BUSTER=20260509-display
 ```
 
-Do not hardcode tile URLs in source code. Public map config must come from `NEXT_PUBLIC_*` env vars. `NEXT_PUBLIC_TILE_URL_ISLANDS` is recommended for the full production layer set; if it is absent in an older local env file, the map still loads without the offshore-islands layer/toggle. Candidate nested-boundary URLs are local/QA-only and should stay unset in production.
+Do not hardcode tile URLs in source code. Public map config must come from `NEXT_PUBLIC_*` env vars. `NEXT_PUBLIC_TILE_URL_ISLANDS` is recommended for the full production layer set; if it is absent in an older local env file, the map still loads without the offshore-islands layer/toggle. Candidate nested-boundary PMTiles URLs are public production sources (Phase 4B); set them in production to show district/ward layers.
 
 ## Local Development
 

@@ -1,11 +1,12 @@
 import { getTranslations } from 'next-intl/server';
 import Link from 'next/link';
-import { getMergerStats } from '@src/libs/data/stats';
+import { getMergerStats, getProvinceStatistics } from '@src/libs/data/stats';
 import { ProvinceList } from '@src/components/stats/ProvinceList';
 import { StatsCountUp } from '@src/components/stats/StatsCountUp';
 import { MergerExplorer } from '@src/components/stats/MergerExplorer';
 import { CompareView } from '@src/components/stats/CompareView';
 import { StatsToolbar } from '@src/components/stats/StatsToolbar';
+import { ProvinceStatsSection } from '@src/components/stats/ProvinceStatsSection';
 
 export const dynamic = 'force-static';
 
@@ -26,6 +27,7 @@ export default async function StatsPage({ params }: PageProps) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'Stats' });
   const stats = await getMergerStats(locale);
+  const provinceStats = await getProvinceStatistics(locale);
 
   // Scale rows sorted by component count (1, 2, 3...).
   const scaleRows = Object.entries(stats.scale)
@@ -81,6 +83,22 @@ export default async function StatsPage({ params }: PageProps) {
               {t('headlineNote')}
             </p>
           </div>
+        </section>
+
+        {/* Population & Area (Track B) */}
+        <section className="mb-12">
+          <h2 className="mb-2 text-2xl font-semibold text-slate-900 dark:text-slate-100">
+            {t('popAreaTitle')}
+          </h2>
+          <p className="mb-6 text-slate-600 dark:text-slate-400">{t('popAreaDescription')}</p>
+          <ProvinceStatsSection
+            pre={provinceStats.pre}
+            post={provinceStats.post}
+            nationalPopulation={provinceStats.nationalPopulation}
+            nationalArea={provinceStats.nationalArea}
+            nationalDensity={provinceStats.nationalDensity}
+            populationYear={provinceStats.populationYear}
+          />
         </section>
 
         {/* Overview Stats Grid */}

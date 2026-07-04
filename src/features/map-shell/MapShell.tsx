@@ -186,6 +186,17 @@ export default function MapShell() {
     [selectNested],
   );
 
+  // Breadcrumb navigation up from a nested detail panel to its parent province.
+  // Unlike a map click (which keeps the camera), this behaves like a search
+  // selection — fly to the province and highlight it — since the user is
+  // deliberately navigating away from the district/ward they were viewing.
+  const selectParentProvince = useCallback(
+    (entry: ProvinceIndexEntry) => {
+      selectProvince(entry, { fit: true });
+    },
+    [selectProvince],
+  );
+
   // Clear the search highlight when the detail panel closes (or selection is
   // cleared by switching mode/compare). The highlight is purely a wayfinding
   // aid for the search flow; once the user dismisses the detail panel we
@@ -259,6 +270,7 @@ export default function MapShell() {
           nestedEntries={nestedEntries}
           onMapChange={setSingleMap}
           onSelectNestedFromMap={selectNestedFromMap}
+          onSelectParentProvince={selectParentProvince}
           onSelectProvinceFromMap={selectProvinceFromMap}
           provinceEntries={provinceEntries}
           state={state}
