@@ -6,13 +6,15 @@ type StatsCountUpProps = {
   to: number;
   durationMs?: number;
   className?: string;
+  /** Formats the (rounded) intermediate value for display, e.g. locale grouping. */
+  format?: (value: number) => string;
 };
 
 /**
  * Counts up from 0 to `to` once, when scrolled into view.
  * Respects prefers-reduced-motion (shows the final value immediately).
  */
-export function StatsCountUp({ to, durationMs = 900, className }: StatsCountUpProps) {
+export function StatsCountUp({ to, durationMs = 900, className, format }: StatsCountUpProps) {
   const [value, setValue] = useState(0);
   const ref = useRef<HTMLSpanElement>(null);
   const started = useRef(false);
@@ -62,7 +64,7 @@ export function StatsCountUp({ to, durationMs = 900, className }: StatsCountUpPr
 
   return (
     <span ref={ref} className={className}>
-      {value}
+      {format ? format(value) : value}
     </span>
   );
 }
