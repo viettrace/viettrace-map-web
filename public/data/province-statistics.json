@@ -1,0 +1,2584 @@
+{
+  "schemaVersion": 1,
+  "lastUpdated": "2026-07-04",
+  "sources": {
+    "hdx-cod-ps-2024": {
+      "indicator": "population",
+      "license": "CC BY-IGO",
+      "name": "UNFPA & General Statistics Office of Viet Nam",
+      "url": "https://data.humdata.org/dataset/cod-ps-vnm",
+      "via": "HDX / OCHA COD-PS",
+      "year": 2024
+    },
+    "gso-official-area": {
+      "indicator": "area_km2",
+      "license": "Official GSO cadastral figures (số liệu nhà nước — facts)",
+      "name": "General Statistics Office of Viet Nam — official province area (diện tích tự nhiên)",
+      "note": "63 pre-2025 provinces; values tabulated via en.wikipedia Provinces-of-Vietnam (rev 2025-04-21), spot-checked vs official. Post-2025 area = sum of pre-2025 components."
+    },
+    "viettrace-geometry": {
+      "indicator": "area_km2_computed",
+      "license": "ODbL (© OpenStreetMap contributors)",
+      "name": "Viettrace — geodesic area from OSM-derived land-clipped polygons (cross-check only)"
+    }
+  },
+  "indicators": {
+    "population": {
+      "label_vi": "Dân số",
+      "label_en": "Population",
+      "unit": "người",
+      "additive": true
+    },
+    "area_km2": {
+      "label_vi": "Diện tích",
+      "label_en": "Area",
+      "unit": "km²",
+      "additive": true,
+      "derivation": "official (GSO); post-2025 = sum of pre components. `area_km2_computed` = geodesic cross-check."
+    },
+    "density": {
+      "label_vi": "Mật độ dân số",
+      "label_en": "Population density",
+      "unit": "người/km²",
+      "additive": false,
+      "derivation": "population / area"
+    }
+  },
+  "counts": {
+    "pre": 63,
+    "post": 34
+  },
+  "nationalTotalPopulation": 100768914,
+  "nationalTotalArea": 331021.04,
+  "pre": {
+    "an-giang": {
+      "name": "Tỉnh An Giang",
+      "code": "89",
+      "population": {
+        "value": 1838587,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": false
+      },
+      "area_km2": {
+        "value": 3536.68,
+        "source": "gso-official-area",
+        "derived": false
+      },
+      "area_km2_computed": {
+        "value": 3550.84,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 519.9,
+        "derived": true
+      }
+    },
+    "ba-ria-vung-tau": {
+      "name": "Tỉnh Bà Rịa - Vũng Tàu",
+      "code": "77",
+      "population": {
+        "value": 1186511,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": false
+      },
+      "area_km2": {
+        "value": 1980.98,
+        "source": "gso-official-area",
+        "derived": false
+      },
+      "area_km2_computed": {
+        "value": 1980.28,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 599,
+        "derived": true
+      }
+    },
+    "bac-giang": {
+      "name": "Tỉnh Bắc Giang",
+      "code": "24",
+      "population": {
+        "value": 1890863,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": false
+      },
+      "area_km2": {
+        "value": 3895.59,
+        "source": "gso-official-area",
+        "derived": false
+      },
+      "area_km2_computed": {
+        "value": 3911.01,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 485.4,
+        "derived": true
+      }
+    },
+    "bac-kan": {
+      "name": "Tỉnh Bắc Kạn",
+      "code": "06",
+      "population": {
+        "value": 316216,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": false
+      },
+      "area_km2": {
+        "value": 4859.96,
+        "source": "gso-official-area",
+        "derived": false
+      },
+      "area_km2_computed": {
+        "value": 4883.34,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 65.1,
+        "derived": true
+      }
+    },
+    "bac-lieu": {
+      "name": "Tỉnh Bạc Liêu",
+      "code": "95",
+      "population": {
+        "value": 930383,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": false
+      },
+      "area_km2": {
+        "value": 2669.01,
+        "source": "gso-official-area",
+        "derived": false
+      },
+      "area_km2_computed": {
+        "value": 2479.9,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 348.6,
+        "derived": true
+      }
+    },
+    "bac-ninh": {
+      "name": "Tỉnh Bắc Ninh",
+      "code": "27",
+      "population": {
+        "value": 1555821,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": false
+      },
+      "area_km2": {
+        "value": 822.71,
+        "source": "gso-official-area",
+        "derived": false
+      },
+      "area_km2_computed": {
+        "value": 824.7,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 1891.1,
+        "derived": true
+      }
+    },
+    "ben-tre": {
+      "name": "Tỉnh Bến Tre",
+      "code": "83",
+      "population": {
+        "value": 1286013,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": false
+      },
+      "area_km2": {
+        "value": 2394.81,
+        "source": "gso-official-area",
+        "derived": false
+      },
+      "area_km2_computed": {
+        "value": 2333.86,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 537,
+        "derived": true
+      }
+    },
+    "binh-dinh": {
+      "name": "Tỉnh Bình Định",
+      "code": "52",
+      "population": {
+        "value": 1479533,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": false
+      },
+      "area_km2": {
+        "value": 6066.21,
+        "source": "gso-official-area",
+        "derived": false
+      },
+      "area_km2_computed": {
+        "value": 6090.64,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 243.9,
+        "derived": true
+      }
+    },
+    "binh-duong": {
+      "name": "Tỉnh Bình Dương",
+      "code": "74",
+      "population": {
+        "value": 3017213,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": false
+      },
+      "area_km2": {
+        "value": 2694.64,
+        "source": "gso-official-area",
+        "derived": false
+      },
+      "area_km2_computed": {
+        "value": 2709.22,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 1119.7,
+        "derived": true
+      }
+    },
+    "binh-phuoc": {
+      "name": "Tỉnh Bình Phước",
+      "code": "70",
+      "population": {
+        "value": 1028079,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": false
+      },
+      "area_km2": {
+        "value": 6876.76,
+        "source": "gso-official-area",
+        "derived": false
+      },
+      "area_km2_computed": {
+        "value": 6913.21,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 149.5,
+        "derived": true
+      }
+    },
+    "binh-thuan": {
+      "name": "Tỉnh Bình Thuận",
+      "code": "60",
+      "population": {
+        "value": 1259375,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": false
+      },
+      "area_km2": {
+        "value": 7943.93,
+        "source": "gso-official-area",
+        "derived": false
+      },
+      "area_km2_computed": {
+        "value": 7996.62,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 158.5,
+        "derived": true
+      }
+    },
+    "ca-mau": {
+      "name": "Tỉnh Cà Mau",
+      "code": "96",
+      "population": {
+        "value": 1176533,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": false
+      },
+      "area_km2": {
+        "value": 5221.19,
+        "source": "gso-official-area",
+        "derived": false
+      },
+      "area_km2_computed": {
+        "value": 5163.23,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 225.3,
+        "derived": true
+      }
+    },
+    "can-tho": {
+      "name": "Thành phố Cần Thơ",
+      "code": "92",
+      "population": {
+        "value": 1309084,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": false
+      },
+      "area_km2": {
+        "value": 1438.96,
+        "source": "gso-official-area",
+        "derived": false
+      },
+      "area_km2_computed": {
+        "value": 1450.8,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 909.7,
+        "derived": true
+      }
+    },
+    "cao-bang": {
+      "name": "Tỉnh Cao Bằng",
+      "code": "04",
+      "population": {
+        "value": 539618,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": false
+      },
+      "area_km2": {
+        "value": 6700.26,
+        "source": "gso-official-area",
+        "derived": false
+      },
+      "area_km2_computed": {
+        "value": 6725.76,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 80.5,
+        "derived": true
+      }
+    },
+    "da-nang": {
+      "name": "Thành phố Đà Nẵng",
+      "code": "48",
+      "population": {
+        "value": 1287282,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": false
+      },
+      "area_km2": {
+        "value": 1284.88,
+        "source": "gso-official-area",
+        "derived": false
+      },
+      "area_km2_computed": {
+        "value": 988.84,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 1001.9,
+        "derived": true
+      }
+    },
+    "dak-lak": {
+      "name": "Tỉnh Đắk Lắk",
+      "code": "66",
+      "population": {
+        "value": 1929518,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": false
+      },
+      "area_km2": {
+        "value": 13030.5,
+        "source": "gso-official-area",
+        "derived": false
+      },
+      "area_km2_computed": {
+        "value": 13133.09,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 148.1,
+        "derived": true
+      }
+    },
+    "dak-nong": {
+      "name": "Tỉnh Đắk Nông",
+      "code": "67",
+      "population": {
+        "value": 666123,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": false
+      },
+      "area_km2": {
+        "value": 6509.27,
+        "source": "gso-official-area",
+        "derived": false
+      },
+      "area_km2_computed": {
+        "value": 6548.43,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 102.3,
+        "derived": true
+      }
+    },
+    "dien-bien": {
+      "name": "Tỉnh Điện Biên",
+      "code": "11",
+      "population": {
+        "value": 643062,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": false
+      },
+      "area_km2": {
+        "value": 9541.25,
+        "source": "gso-official-area",
+        "derived": false
+      },
+      "area_km2_computed": {
+        "value": 9587.84,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 67.4,
+        "derived": true
+      }
+    },
+    "dong-nai": {
+      "name": "Tỉnh Đồng Nai",
+      "code": "75",
+      "population": {
+        "value": 3351930,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": false
+      },
+      "area_km2": {
+        "value": 5863.6,
+        "source": "gso-official-area",
+        "derived": false
+      },
+      "area_km2_computed": {
+        "value": 5900.91,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 571.7,
+        "derived": true
+      }
+    },
+    "dong-thap": {
+      "name": "Tỉnh Đồng Tháp",
+      "code": "87",
+      "population": {
+        "value": 1571774,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": false
+      },
+      "area_km2": {
+        "value": 3383.85,
+        "source": "gso-official-area",
+        "derived": false
+      },
+      "area_km2_computed": {
+        "value": 3407.12,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 464.5,
+        "derived": true
+      }
+    },
+    "gia-lai": {
+      "name": "Tỉnh Gia Lai",
+      "code": "64",
+      "population": {
+        "value": 1607778,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": false
+      },
+      "area_km2": {
+        "value": 15510.99,
+        "source": "gso-official-area",
+        "derived": false
+      },
+      "area_km2_computed": {
+        "value": 15604.56,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 103.7,
+        "derived": true
+      }
+    },
+    "ha-giang": {
+      "name": "Tỉnh Hà Giang",
+      "code": "02",
+      "population": {
+        "value": 901084,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": false
+      },
+      "area_km2": {
+        "value": 7929.48,
+        "source": "gso-official-area",
+        "derived": false
+      },
+      "area_km2_computed": {
+        "value": 7963.68,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 113.6,
+        "derived": true
+      }
+    },
+    "ha-nam": {
+      "name": "Tỉnh Hà Nam",
+      "code": "35",
+      "population": {
+        "value": 871248,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": false
+      },
+      "area_km2": {
+        "value": 861.93,
+        "source": "gso-official-area",
+        "derived": false
+      },
+      "area_km2_computed": {
+        "value": 867.95,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 1010.8,
+        "derived": true
+      }
+    },
+    "ha-noi": {
+      "name": "Thành phố Hà Nội",
+      "code": "01",
+      "population": {
+        "value": 8825932,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": false
+      },
+      "area_km2": {
+        "value": 3358.6,
+        "source": "gso-official-area",
+        "derived": false
+      },
+      "area_km2_computed": {
+        "value": 3370.5,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 2627.9,
+        "derived": true
+      }
+    },
+    "ha-tinh": {
+      "name": "Tỉnh Hà Tĩnh",
+      "code": "42",
+      "population": {
+        "value": 1302403,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": false
+      },
+      "area_km2": {
+        "value": 5990.67,
+        "source": "gso-official-area",
+        "derived": false
+      },
+      "area_km2_computed": {
+        "value": 6004.61,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 217.4,
+        "derived": true
+      }
+    },
+    "hai-duong": {
+      "name": "Tỉnh Hải Dương",
+      "code": "30",
+      "population": {
+        "value": 1955475,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": false
+      },
+      "area_km2": {
+        "value": 1668.24,
+        "source": "gso-official-area",
+        "derived": false
+      },
+      "area_km2_computed": {
+        "value": 1676.39,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 1172.2,
+        "derived": true
+      }
+    },
+    "hai-phong": {
+      "name": "Thành phố Hải Phòng",
+      "code": "31",
+      "population": {
+        "value": 2110738,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": false
+      },
+      "area_km2": {
+        "value": 1561.76,
+        "source": "gso-official-area",
+        "derived": false
+      },
+      "area_km2_computed": {
+        "value": 1416.4,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 1351.5,
+        "derived": true
+      }
+    },
+    "hau-giang": {
+      "name": "Tỉnh Hậu Giang",
+      "code": "93",
+      "population": {
+        "value": 719146,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": false
+      },
+      "area_km2": {
+        "value": 1621.7,
+        "source": "gso-official-area",
+        "derived": false
+      },
+      "area_km2_computed": {
+        "value": 1632.96,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 443.5,
+        "derived": true
+      }
+    },
+    "ho-chi-minh": {
+      "name": "Thành phố Hồ Chí Minh",
+      "code": "79",
+      "population": {
+        "value": 9888878,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": false
+      },
+      "area_km2": {
+        "value": 2061.41,
+        "source": "gso-official-area",
+        "derived": false
+      },
+      "area_km2_computed": {
+        "value": 2070.44,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 4797.1,
+        "derived": true
+      }
+    },
+    "hoa-binh": {
+      "name": "Tỉnh Hòa Bình",
+      "code": "17",
+      "population": {
+        "value": 881245,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": false
+      },
+      "area_km2": {
+        "value": 4590.57,
+        "source": "gso-official-area",
+        "derived": false
+      },
+      "area_km2_computed": {
+        "value": 4605.19,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 192,
+        "derived": true
+      }
+    },
+    "hue": {
+      "name": "Thành phố Huế",
+      "code": "46",
+      "population": {
+        "value": 1144969,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": false
+      },
+      "area_km2": {
+        "value": 4902.44,
+        "source": "gso-official-area",
+        "derived": false
+      },
+      "area_km2_computed": {
+        "value": 4966.6,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 233.6,
+        "derived": true
+      }
+    },
+    "hung-yen": {
+      "name": "Tỉnh Hưng Yên",
+      "code": "33",
+      "population": {
+        "value": 1304641,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": false
+      },
+      "area_km2": {
+        "value": 930.22,
+        "source": "gso-official-area",
+        "derived": false
+      },
+      "area_km2_computed": {
+        "value": 932.96,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 1402.5,
+        "derived": true
+      }
+    },
+    "khanh-hoa": {
+      "name": "Tỉnh Khánh Hòa",
+      "code": "56",
+      "population": {
+        "value": 1263845,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": false
+      },
+      "area_km2": {
+        "value": 5137.79,
+        "source": "gso-official-area",
+        "derived": false
+      },
+      "area_km2_computed": {
+        "value": 4737.18,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 246,
+        "derived": true
+      }
+    },
+    "kien-giang": {
+      "name": "Tỉnh Kiên Giang",
+      "code": "91",
+      "population": {
+        "value": 1744738,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": false
+      },
+      "area_km2": {
+        "value": 6348.78,
+        "source": "gso-official-area",
+        "derived": false
+      },
+      "area_km2_computed": {
+        "value": 6352.63,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 274.8,
+        "derived": true
+      }
+    },
+    "kon-tum": {
+      "name": "Tỉnh Kon Tum",
+      "code": "62",
+      "population": {
+        "value": 581304,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": false
+      },
+      "area_km2": {
+        "value": 9674.18,
+        "source": "gso-official-area",
+        "derived": false
+      },
+      "area_km2_computed": {
+        "value": 9708.47,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 60.1,
+        "derived": true
+      }
+    },
+    "lai-chau": {
+      "name": "Tỉnh Lai Châu",
+      "code": "12",
+      "population": {
+        "value": 498800,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": false
+      },
+      "area_km2": {
+        "value": 9068.79,
+        "source": "gso-official-area",
+        "derived": false
+      },
+      "area_km2_computed": {
+        "value": 9115.91,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 55,
+        "derived": true
+      }
+    },
+    "lam-dong": {
+      "name": "Tỉnh Lâm Đồng",
+      "code": "68",
+      "population": {
+        "value": 1347015,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": false
+      },
+      "area_km2": {
+        "value": 9783.34,
+        "source": "gso-official-area",
+        "derived": false
+      },
+      "area_km2_computed": {
+        "value": 9842.91,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 137.7,
+        "derived": true
+      }
+    },
+    "lang-son": {
+      "name": "Tỉnh Lạng Sơn",
+      "code": "20",
+      "population": {
+        "value": 800351,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": false
+      },
+      "area_km2": {
+        "value": 8310.09,
+        "source": "gso-official-area",
+        "derived": false
+      },
+      "area_km2_computed": {
+        "value": 8349.67,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 96.3,
+        "derived": true
+      }
+    },
+    "lao-cai": {
+      "name": "Tỉnh Lào Cai",
+      "code": "10",
+      "population": {
+        "value": 776058,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": false
+      },
+      "area_km2": {
+        "value": 6364.03,
+        "source": "gso-official-area",
+        "derived": false
+      },
+      "area_km2_computed": {
+        "value": 6397.09,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 121.9,
+        "derived": true
+      }
+    },
+    "long-an": {
+      "name": "Tỉnh Long An",
+      "code": "80",
+      "population": {
+        "value": 1786120,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": false
+      },
+      "area_km2": {
+        "value": 4494.94,
+        "source": "gso-official-area",
+        "derived": false
+      },
+      "area_km2_computed": {
+        "value": 4515.97,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 397.4,
+        "derived": true
+      }
+    },
+    "nam-dinh": {
+      "name": "Tỉnh Nam Định",
+      "code": "36",
+      "population": {
+        "value": 1770430,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": false
+      },
+      "area_km2": {
+        "value": 1668.57,
+        "source": "gso-official-area",
+        "derived": false
+      },
+      "area_km2_computed": {
+        "value": 1631.4,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 1061,
+        "derived": true
+      }
+    },
+    "nghe-an": {
+      "name": "Tỉnh Nghệ An",
+      "code": "40",
+      "population": {
+        "value": 3462324,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": false
+      },
+      "area_km2": {
+        "value": 16481.41,
+        "source": "gso-official-area",
+        "derived": false
+      },
+      "area_km2_computed": {
+        "value": 16593.88,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 210.1,
+        "derived": true
+      }
+    },
+    "ninh-binh": {
+      "name": "Tỉnh Ninh Bình",
+      "code": "37",
+      "population": {
+        "value": 1004097,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": false
+      },
+      "area_km2": {
+        "value": 1386.79,
+        "source": "gso-official-area",
+        "derived": false
+      },
+      "area_km2_computed": {
+        "value": 1373.32,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 724,
+        "derived": true
+      }
+    },
+    "ninh-thuan": {
+      "name": "Tỉnh Ninh Thuận",
+      "code": "58",
+      "population": {
+        "value": 598915,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": false
+      },
+      "area_km2": {
+        "value": 3355.34,
+        "source": "gso-official-area",
+        "derived": false
+      },
+      "area_km2_computed": {
+        "value": 3378,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 178.5,
+        "derived": true
+      }
+    },
+    "phu-tho": {
+      "name": "Tỉnh Phú Thọ",
+      "code": "25",
+      "population": {
+        "value": 1516169,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": false
+      },
+      "area_km2": {
+        "value": 3534.56,
+        "source": "gso-official-area",
+        "derived": false
+      },
+      "area_km2_computed": {
+        "value": 3560.04,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 429,
+        "derived": true
+      }
+    },
+    "phu-yen": {
+      "name": "Tỉnh Phú Yên",
+      "code": "54",
+      "population": {
+        "value": 871637,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": false
+      },
+      "area_km2": {
+        "value": 5023.42,
+        "source": "gso-official-area",
+        "derived": false
+      },
+      "area_km2_computed": {
+        "value": 5048.3,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 173.5,
+        "derived": true
+      }
+    },
+    "quang-binh": {
+      "name": "Tỉnh Quảng Bình",
+      "code": "44",
+      "population": {
+        "value": 910263,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": false
+      },
+      "area_km2": {
+        "value": 8065.3,
+        "source": "gso-official-area",
+        "derived": false
+      },
+      "area_km2_computed": {
+        "value": 8023.23,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 112.9,
+        "derived": true
+      }
+    },
+    "quang-nam": {
+      "name": "Tỉnh Quảng Nam",
+      "code": "49",
+      "population": {
+        "value": 1509236,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": false
+      },
+      "area_km2": {
+        "value": 10574.86,
+        "source": "gso-official-area",
+        "derived": false
+      },
+      "area_km2_computed": {
+        "value": 10636.72,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 142.7,
+        "derived": true
+      }
+    },
+    "quang-ngai": {
+      "name": "Tỉnh Quảng Ngãi",
+      "code": "51",
+      "population": {
+        "value": 1217859,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": false
+      },
+      "area_km2": {
+        "value": 5155.78,
+        "source": "gso-official-area",
+        "derived": false
+      },
+      "area_km2_computed": {
+        "value": 5181.18,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 236.2,
+        "derived": true
+      }
+    },
+    "quang-ninh": {
+      "name": "Tỉnh Quảng Ninh",
+      "code": "22",
+      "population": {
+        "value": 1368215,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": false
+      },
+      "area_km2": {
+        "value": 6178.21,
+        "source": "gso-official-area",
+        "derived": false
+      },
+      "area_km2_computed": {
+        "value": 5645.03,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 221.5,
+        "derived": true
+      }
+    },
+    "quang-tri": {
+      "name": "Tỉnh Quảng Trị",
+      "code": "45",
+      "population": {
+        "value": 627293,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": false
+      },
+      "area_km2": {
+        "value": 4621.72,
+        "source": "gso-official-area",
+        "derived": false
+      },
+      "area_km2_computed": {
+        "value": 4726.8,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 135.7,
+        "derived": true
+      }
+    },
+    "soc-trang": {
+      "name": "Tỉnh Sóc Trăng",
+      "code": "94",
+      "population": {
+        "value": 1173655,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": false
+      },
+      "area_km2": {
+        "value": 3311.88,
+        "source": "gso-official-area",
+        "derived": false
+      },
+      "area_km2_computed": {
+        "value": 3310.71,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 354.4,
+        "derived": true
+      }
+    },
+    "son-la": {
+      "name": "Tỉnh Sơn La",
+      "code": "14",
+      "population": {
+        "value": 1327415,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": false
+      },
+      "area_km2": {
+        "value": 14123.49,
+        "source": "gso-official-area",
+        "derived": false
+      },
+      "area_km2_computed": {
+        "value": 14207.28,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 94,
+        "derived": true
+      }
+    },
+    "tay-ninh": {
+      "name": "Tỉnh Tây Ninh",
+      "code": "72",
+      "population": {
+        "value": 1166124,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": false
+      },
+      "area_km2": {
+        "value": 4041.25,
+        "source": "gso-official-area",
+        "derived": false
+      },
+      "area_km2_computed": {
+        "value": 4059.77,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 288.6,
+        "derived": true
+      }
+    },
+    "thai-binh": {
+      "name": "Tỉnh Thái Bình",
+      "code": "34",
+      "population": {
+        "value": 1885543,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": false
+      },
+      "area_km2": {
+        "value": 1586.35,
+        "source": "gso-official-area",
+        "derived": false
+      },
+      "area_km2_computed": {
+        "value": 1586.44,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 1188.6,
+        "derived": true
+      }
+    },
+    "thai-nguyen": {
+      "name": "Tỉnh Thái Nguyên",
+      "code": "19",
+      "population": {
+        "value": 1367299,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": false
+      },
+      "area_km2": {
+        "value": 3526.64,
+        "source": "gso-official-area",
+        "derived": false
+      },
+      "area_km2_computed": {
+        "value": 3540.6,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 387.7,
+        "derived": true
+      }
+    },
+    "thanh-hoa": {
+      "name": "Tỉnh Thanh Hóa",
+      "code": "38",
+      "population": {
+        "value": 3725026,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": false
+      },
+      "area_km2": {
+        "value": 11114.65,
+        "source": "gso-official-area",
+        "derived": false
+      },
+      "area_km2_computed": {
+        "value": 11149.56,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 335.1,
+        "derived": true
+      }
+    },
+    "tien-giang": {
+      "name": "Tỉnh Tiền Giang",
+      "code": "82",
+      "population": {
+        "value": 1799456,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": false
+      },
+      "area_km2": {
+        "value": 2510.61,
+        "source": "gso-official-area",
+        "derived": false
+      },
+      "area_km2_computed": {
+        "value": 2409.21,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 716.7,
+        "derived": true
+      }
+    },
+    "tra-vinh": {
+      "name": "Tỉnh Trà Vinh",
+      "code": "84",
+      "population": {
+        "value": 1010836,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": false
+      },
+      "area_km2": {
+        "value": 2358.26,
+        "source": "gso-official-area",
+        "derived": false
+      },
+      "area_km2_computed": {
+        "value": 2254.51,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 428.6,
+        "derived": true
+      }
+    },
+    "tuyen-quang": {
+      "name": "Tỉnh Tuyên Quang",
+      "code": "08",
+      "population": {
+        "value": 803588,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": false
+      },
+      "area_km2": {
+        "value": 5867.9,
+        "source": "gso-official-area",
+        "derived": false
+      },
+      "area_km2_computed": {
+        "value": 5891.7,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 136.9,
+        "derived": true
+      }
+    },
+    "vinh-long": {
+      "name": "Tỉnh Vĩnh Long",
+      "code": "86",
+      "population": {
+        "value": 1018925,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": false
+      },
+      "area_km2": {
+        "value": 1525.73,
+        "source": "gso-official-area",
+        "derived": false
+      },
+      "area_km2_computed": {
+        "value": 1533.29,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 667.8,
+        "derived": true
+      }
+    },
+    "vinh-phuc": {
+      "name": "Tỉnh Vĩnh Phúc",
+      "code": "26",
+      "population": {
+        "value": 1196250,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": false
+      },
+      "area_km2": {
+        "value": 1235.87,
+        "source": "gso-official-area",
+        "derived": false
+      },
+      "area_km2_computed": {
+        "value": 1239.38,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 967.9,
+        "derived": true
+      }
+    },
+    "yen-bai": {
+      "name": "Tỉnh Yên Bái",
+      "code": "15",
+      "population": {
+        "value": 863073,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": false
+      },
+      "area_km2": {
+        "value": 6887.46,
+        "source": "gso-official-area",
+        "derived": false
+      },
+      "area_km2_computed": {
+        "value": 6923.93,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 125.3,
+        "derived": true
+      }
+    }
+  },
+  "post": {
+    "an-giang": {
+      "name": "Tỉnh An Giang",
+      "code": "91",
+      "population": {
+        "value": 3583325,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "area_km2": {
+        "value": 9885.46,
+        "source": "gso-official-area",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "area_km2_computed": {
+        "value": 9900.35,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 362.5,
+        "derived": true
+      },
+      "components": [
+        "an-giang",
+        "kien-giang"
+      ]
+    },
+    "bac-ninh": {
+      "name": "Tỉnh Bắc Ninh",
+      "code": "24",
+      "population": {
+        "value": 3446684,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "area_km2": {
+        "value": 4718.3,
+        "source": "gso-official-area",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "area_km2_computed": {
+        "value": 4735.7,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 730.5,
+        "derived": true
+      },
+      "components": [
+        "bac-giang",
+        "bac-ninh"
+      ]
+    },
+    "ca-mau": {
+      "name": "Tỉnh Cà Mau",
+      "code": "96",
+      "population": {
+        "value": 2106916,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "area_km2": {
+        "value": 7890.2,
+        "source": "gso-official-area",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "area_km2_computed": {
+        "value": 7643.13,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 267,
+        "derived": true
+      },
+      "components": [
+        "bac-lieu",
+        "ca-mau"
+      ]
+    },
+    "can-tho": {
+      "name": "Thành phố Cần Thơ",
+      "code": "92",
+      "population": {
+        "value": 3201885,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "area_km2": {
+        "value": 6372.54,
+        "source": "gso-official-area",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "area_km2_computed": {
+        "value": 6394.46,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 502.5,
+        "derived": true
+      },
+      "components": [
+        "can-tho",
+        "hau-giang",
+        "soc-trang"
+      ]
+    },
+    "cao-bang": {
+      "name": "Tỉnh Cao Bằng",
+      "code": "04",
+      "population": {
+        "value": 539618,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "area_km2": {
+        "value": 6700.26,
+        "source": "gso-official-area",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "area_km2_computed": {
+        "value": 6726.11,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 80.5,
+        "derived": true
+      },
+      "components": [
+        "cao-bang"
+      ]
+    },
+    "da-nang": {
+      "name": "Thành phố Đà Nẵng",
+      "code": "48",
+      "population": {
+        "value": 2796518,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "area_km2": {
+        "value": 11859.74,
+        "source": "gso-official-area",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "area_km2_computed": {
+        "value": 11625.56,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 235.8,
+        "derived": true
+      },
+      "components": [
+        "da-nang",
+        "quang-nam"
+      ]
+    },
+    "dak-lak": {
+      "name": "Tỉnh Đắk Lắk",
+      "code": "66",
+      "population": {
+        "value": 2801155,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "area_km2": {
+        "value": 18053.92,
+        "source": "gso-official-area",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "area_km2_computed": {
+        "value": 18177.33,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 155.2,
+        "derived": true
+      },
+      "components": [
+        "dak-lak",
+        "phu-yen"
+      ]
+    },
+    "dien-bien": {
+      "name": "Tỉnh Điện Biên",
+      "code": "11",
+      "population": {
+        "value": 643062,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "area_km2": {
+        "value": 9541.25,
+        "source": "gso-official-area",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "area_km2_computed": {
+        "value": 9587.93,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 67.4,
+        "derived": true
+      },
+      "components": [
+        "dien-bien"
+      ]
+    },
+    "dong-nai": {
+      "name": "Tỉnh Đồng Nai",
+      "code": "75",
+      "population": {
+        "value": 4380009,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "area_km2": {
+        "value": 12740.36,
+        "source": "gso-official-area",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "area_km2_computed": {
+        "value": 12813.89,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 343.8,
+        "derived": true
+      },
+      "components": [
+        "binh-phuoc",
+        "dong-nai"
+      ]
+    },
+    "dong-thap": {
+      "name": "Tỉnh Đồng Tháp",
+      "code": "82",
+      "population": {
+        "value": 3371230,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "area_km2": {
+        "value": 5894.46,
+        "source": "gso-official-area",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "area_km2_computed": {
+        "value": 5816.1,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 571.9,
+        "derived": true
+      },
+      "components": [
+        "dong-thap",
+        "tien-giang"
+      ]
+    },
+    "gia-lai": {
+      "name": "Tỉnh Gia Lai",
+      "code": "52",
+      "population": {
+        "value": 3087311,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "area_km2": {
+        "value": 21577.2,
+        "source": "gso-official-area",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "area_km2_computed": {
+        "value": 21695.78,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 143.1,
+        "derived": true
+      },
+      "components": [
+        "binh-dinh",
+        "gia-lai"
+      ]
+    },
+    "ha-noi": {
+      "name": "Thành phố Hà Nội",
+      "code": "01",
+      "population": {
+        "value": 8825932,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "area_km2": {
+        "value": 3358.6,
+        "source": "gso-official-area",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "area_km2_computed": {
+        "value": 3370.48,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 2627.9,
+        "derived": true
+      },
+      "components": [
+        "ha-noi"
+      ]
+    },
+    "ha-tinh": {
+      "name": "Tỉnh Hà Tĩnh",
+      "code": "42",
+      "population": {
+        "value": 1302403,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "area_km2": {
+        "value": 5990.67,
+        "source": "gso-official-area",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "area_km2_computed": {
+        "value": 6004.61,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 217.4,
+        "derived": true
+      },
+      "components": [
+        "ha-tinh"
+      ]
+    },
+    "hai-phong": {
+      "name": "Thành phố Hải Phòng",
+      "code": "31",
+      "population": {
+        "value": 4066213,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "area_km2": {
+        "value": 3230,
+        "source": "gso-official-area",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "area_km2_computed": {
+        "value": 3092.81,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 1258.9,
+        "derived": true
+      },
+      "components": [
+        "hai-duong",
+        "hai-phong"
+      ]
+    },
+    "ho-chi-minh": {
+      "name": "Thành phố Hồ Chí Minh",
+      "code": "79",
+      "population": {
+        "value": 14092602,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "area_km2": {
+        "value": 6737.03,
+        "source": "gso-official-area",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "area_km2_computed": {
+        "value": 6760.23,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 2091.8,
+        "derived": true
+      },
+      "components": [
+        "ba-ria-vung-tau",
+        "binh-duong",
+        "ho-chi-minh"
+      ]
+    },
+    "hue": {
+      "name": "Thành phố Huế",
+      "code": "46",
+      "population": {
+        "value": 1144969,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "area_km2": {
+        "value": 4902.44,
+        "source": "gso-official-area",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "area_km2_computed": {
+        "value": 4966.6,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 233.6,
+        "derived": true
+      },
+      "components": [
+        "hue"
+      ]
+    },
+    "hung-yen": {
+      "name": "Tỉnh Hưng Yên",
+      "code": "33",
+      "population": {
+        "value": 3190184,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "area_km2": {
+        "value": 2516.57,
+        "source": "gso-official-area",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "area_km2_computed": {
+        "value": 2519.39,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 1267.7,
+        "derived": true
+      },
+      "components": [
+        "hung-yen",
+        "thai-binh"
+      ]
+    },
+    "khanh-hoa": {
+      "name": "Tỉnh Khánh Hòa",
+      "code": "56",
+      "population": {
+        "value": 1862760,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "area_km2": {
+        "value": 8493.13,
+        "source": "gso-official-area",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "area_km2_computed": {
+        "value": 8118.66,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 219.3,
+        "derived": true
+      },
+      "components": [
+        "khanh-hoa",
+        "ninh-thuan"
+      ]
+    },
+    "lai-chau": {
+      "name": "Tỉnh Lai Châu",
+      "code": "12",
+      "population": {
+        "value": 498800,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "area_km2": {
+        "value": 9068.79,
+        "source": "gso-official-area",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "area_km2_computed": {
+        "value": 9109.74,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 55,
+        "derived": true
+      },
+      "components": [
+        "lai-chau"
+      ]
+    },
+    "lam-dong": {
+      "name": "Tỉnh Lâm Đồng",
+      "code": "68",
+      "population": {
+        "value": 3272513,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "area_km2": {
+        "value": 24236.54,
+        "source": "gso-official-area",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "area_km2_computed": {
+        "value": 24387.95,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 135,
+        "derived": true
+      },
+      "components": [
+        "binh-thuan",
+        "dak-nong",
+        "lam-dong"
+      ]
+    },
+    "lang-son": {
+      "name": "Tỉnh Lạng Sơn",
+      "code": "20",
+      "population": {
+        "value": 800351,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "area_km2": {
+        "value": 8310.09,
+        "source": "gso-official-area",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "area_km2_computed": {
+        "value": 8349.69,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 96.3,
+        "derived": true
+      },
+      "components": [
+        "lang-son"
+      ]
+    },
+    "lao-cai": {
+      "name": "Tỉnh Lào Cai",
+      "code": "15",
+      "population": {
+        "value": 1639131,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "area_km2": {
+        "value": 13251.49,
+        "source": "gso-official-area",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "area_km2_computed": {
+        "value": 13320.73,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 123.7,
+        "derived": true
+      },
+      "components": [
+        "lao-cai",
+        "yen-bai"
+      ]
+    },
+    "nghe-an": {
+      "name": "Tỉnh Nghệ An",
+      "code": "40",
+      "population": {
+        "value": 3462324,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "area_km2": {
+        "value": 16481.41,
+        "source": "gso-official-area",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "area_km2_computed": {
+        "value": 16593.88,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 210.1,
+        "derived": true
+      },
+      "components": [
+        "nghe-an"
+      ]
+    },
+    "ninh-binh": {
+      "name": "Tỉnh Ninh Bình",
+      "code": "37",
+      "population": {
+        "value": 3645775,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "area_km2": {
+        "value": 3917.29,
+        "source": "gso-official-area",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "area_km2_computed": {
+        "value": 3872.69,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 930.7,
+        "derived": true
+      },
+      "components": [
+        "ha-nam",
+        "nam-dinh",
+        "ninh-binh"
+      ]
+    },
+    "phu-tho": {
+      "name": "Tỉnh Phú Thọ",
+      "code": "25",
+      "population": {
+        "value": 3593664,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "area_km2": {
+        "value": 9361,
+        "source": "gso-official-area",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "area_km2_computed": {
+        "value": 9402.67,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 383.9,
+        "derived": true
+      },
+      "components": [
+        "hoa-binh",
+        "phu-tho",
+        "vinh-phuc"
+      ]
+    },
+    "quang-ngai": {
+      "name": "Tỉnh Quảng Ngãi",
+      "code": "51",
+      "population": {
+        "value": 1799163,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "area_km2": {
+        "value": 14829.96,
+        "source": "gso-official-area",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "area_km2_computed": {
+        "value": 14896.32,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 121.3,
+        "derived": true
+      },
+      "components": [
+        "kon-tum",
+        "quang-ngai"
+      ]
+    },
+    "quang-ninh": {
+      "name": "Tỉnh Quảng Ninh",
+      "code": "22",
+      "population": {
+        "value": 1368215,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "area_km2": {
+        "value": 6178.21,
+        "source": "gso-official-area",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "area_km2_computed": {
+        "value": 5645.04,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 221.5,
+        "derived": true
+      },
+      "components": [
+        "quang-ninh"
+      ]
+    },
+    "quang-tri": {
+      "name": "Tỉnh Quảng Trị",
+      "code": "44",
+      "population": {
+        "value": 1537556,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "area_km2": {
+        "value": 12687.02,
+        "source": "gso-official-area",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "area_km2_computed": {
+        "value": 12750.01,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 121.2,
+        "derived": true
+      },
+      "components": [
+        "quang-binh",
+        "quang-tri"
+      ]
+    },
+    "son-la": {
+      "name": "Tỉnh Sơn La",
+      "code": "14",
+      "population": {
+        "value": 1327415,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "area_km2": {
+        "value": 14123.49,
+        "source": "gso-official-area",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "area_km2_computed": {
+        "value": 14207.36,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 94,
+        "derived": true
+      },
+      "components": [
+        "son-la"
+      ]
+    },
+    "tay-ninh": {
+      "name": "Tỉnh Tây Ninh",
+      "code": "80",
+      "population": {
+        "value": 2952244,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "area_km2": {
+        "value": 8536.19,
+        "source": "gso-official-area",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "area_km2_computed": {
+        "value": 8575.54,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 345.9,
+        "derived": true
+      },
+      "components": [
+        "long-an",
+        "tay-ninh"
+      ]
+    },
+    "thai-nguyen": {
+      "name": "Tỉnh Thái Nguyên",
+      "code": "19",
+      "population": {
+        "value": 1683515,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "area_km2": {
+        "value": 8386.6,
+        "source": "gso-official-area",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "area_km2_computed": {
+        "value": 8423.89,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 200.7,
+        "derived": true
+      },
+      "components": [
+        "bac-kan",
+        "thai-nguyen"
+      ]
+    },
+    "thanh-hoa": {
+      "name": "Tỉnh Thanh Hóa",
+      "code": "38",
+      "population": {
+        "value": 3725026,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "area_km2": {
+        "value": 11114.65,
+        "source": "gso-official-area",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "area_km2_computed": {
+        "value": 11149.56,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 335.1,
+        "derived": true
+      },
+      "components": [
+        "thanh-hoa"
+      ]
+    },
+    "tuyen-quang": {
+      "name": "Tỉnh Tuyên Quang",
+      "code": "08",
+      "population": {
+        "value": 1704672,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "area_km2": {
+        "value": 13797.38,
+        "source": "gso-official-area",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "area_km2_computed": {
+        "value": 13857.24,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 123.6,
+        "derived": true
+      },
+      "components": [
+        "ha-giang",
+        "tuyen-quang"
+      ]
+    },
+    "vinh-long": {
+      "name": "Tỉnh Vĩnh Long",
+      "code": "86",
+      "population": {
+        "value": 3315774,
+        "year": 2024,
+        "source": "hdx-cod-ps-2024",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "area_km2": {
+        "value": 6278.8,
+        "source": "gso-official-area",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "area_km2_computed": {
+        "value": 6121.66,
+        "source": "viettrace-geometry",
+        "note": "geodesic cross-check"
+      },
+      "density": {
+        "value": 528.1,
+        "derived": true
+      },
+      "components": [
+        "ben-tre",
+        "tra-vinh",
+        "vinh-long"
+      ]
+    }
+  }
+}
