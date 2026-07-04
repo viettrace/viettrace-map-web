@@ -30,6 +30,7 @@ interface SingleMapShellProps {
   nestedEntries: NestedIndexEntry[];
   onMapChange?: (map: maplibregl.Map | null) => void;
   onSelectNestedFromMap: (entry: NestedIndexEntry) => void;
+  onSelectParentProvince: (entry: ProvinceIndexEntry) => void;
   onSelectProvinceFromMap: (entry: ProvinceIndexEntry) => void;
   provinceEntries: ProvinceIndexEntry[];
   state: MapViewState;
@@ -43,6 +44,7 @@ export default function SingleMapShell({
   nestedEntries,
   onMapChange,
   onSelectNestedFromMap,
+  onSelectParentProvince,
   onSelectProvinceFromMap,
   provinceEntries,
   state,
@@ -136,6 +138,7 @@ export default function SingleMapShell({
         <NestedDetailPanel
           entry={selectedNested}
           onClose={() => dispatch({ feature: null, type: 'selectFeature' })}
+          onSelectProvince={onSelectParentProvince}
           provinceEntries={provinceEntries}
         />
       )}

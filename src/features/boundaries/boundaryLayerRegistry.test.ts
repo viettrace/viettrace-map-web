@@ -14,7 +14,6 @@ import {
 } from './boundaryLayerRegistry';
 
 const env: PublicEnv = {
-  enableQaLayers: true,
   mapStyle: 'style',
   tileCacheBuster: '20260509-display',
   tileUrlIslands: 'https://tiles.example.test/islands',
@@ -260,10 +259,13 @@ describe('boundaryLayerRegistry', () => {
     ]);
   });
 
-  it('omits candidate sources when QA layers are disabled', () => {
+  it('omits candidate sources when no candidate tile/PMTiles URL is configured', () => {
     const sources = getBoundarySourceDefinitions({
       ...env,
-      enableQaLayers: false,
+      tileUrlPreDistrictsCandidate: undefined,
+      tileUrlPreDistrictsCandidateLabels: undefined,
+      tileUrlPostWardsCandidate: undefined,
+      tileUrlPostWardsCandidateLabels: undefined,
     });
     const sourceIds = sources.map(source => source.id);
 
@@ -273,7 +275,7 @@ describe('boundaryLayerRegistry', () => {
     expect(sourceIds).not.toContain(boundarySourceIds.postWardsCandidateLabels);
   });
 
-  it('tracks basemap place labels hidden during nested candidate QA', () => {
+  it('tracks basemap place labels hidden during nested candidate rendering', () => {
     expect(getNestedCandidateBasemapPlaceLayerIds()).toEqual([
       'place_city_dot_r4',
       'place_city_dot_r7',
@@ -290,7 +292,6 @@ describe('boundaryLayerRegistry', () => {
 
   it('omits offshore island sources and layers when the tile URL is not configured', () => {
     const envWithoutIslands = {
-      enableQaLayers: false,
       mapStyle: 'style',
       tileUrlPost: 'https://tiles.example.test/post',
       tileUrlPre: 'https://tiles.example.test/pre',

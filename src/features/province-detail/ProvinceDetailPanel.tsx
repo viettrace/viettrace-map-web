@@ -8,6 +8,11 @@ import {
   loadRegionalClassification,
   type RegionMetadata,
 } from '@src/types/regional-classification';
+import {
+  getProvinceStat,
+  loadProvinceStatistics,
+  type ProvinceStatEntry,
+} from './provinceStatistics';
 
 type NameEnMap = Map<string, string>;
 
@@ -32,12 +37,14 @@ interface ProvinceDetailPanelProps {
 export default function ProvinceDetailPanel({ entry, onClose, allEntries = [] }: ProvinceDetailPanelProps) {
   const t = useTranslations('Map');
   const locale = useLocale();
+  const numberFormat = new Intl.NumberFormat(locale === 'en' ? 'en-US' : 'vi-VN');
   const primaryName = getPrimaryName(entry, locale);
   const secondaryName = getSecondaryName(entry, locale);
   const nameEnMap: NameEnMap = new Map(allEntries.map(e => [e.name, e.name_en]));
   const reportIssueUrl = buildReportIssueUrl(entry);
   const statsHref = buildStatsHref(entry, locale, nameEnMap);
   const [region, setRegion] = useState<RegionMetadata | null>(null);
+  const [stats, setStats] = useState<ProvinceStatEntry | null>(null);
 
   useEffect(() => {
     loadRegionalClassification()
@@ -54,6 +61,12 @@ export default function ProvinceDetailPanel({ entry, onClose, allEntries = [] }:
       })
       .catch(() => {});
   }, [entry.slug]);
+
+  useEffect(() => {
+    loadProvinceStatistics()
+      .then(data => setStats(getProvinceStat(data, entry.mode, entry.slug)))
+      .catch(() => {});
+  }, [entry.mode, entry.slug]);
 
   return (
     <aside className="absolute right-3 bottom-[var(--map-panel-bottom)] left-3 z-20 max-h-[42dvh] overflow-y-auto rounded-lg border border-slate-200 bg-white/95 text-sm text-slate-700 shadow-xl backdrop-blur-sm md:top-24 md:right-4 md:bottom-auto md:left-auto md:max-h-[calc(100dvh-8rem)] md:w-96">
@@ -97,6 +110,38 @@ export default function ProvinceDetailPanel({ entry, onClose, allEntries = [] }:
             </dl>
           )}
         </section>
+
+        {stats && (
+          <section className="border-t border-slate-200 pt-4">
+            <h3 className="text-xs font-semibold uppercase tracking-normal text-slate-500">
+              {t('detailStatsTitle')}
+            </h3>
+            <dl className="mt-2 grid grid-cols-3 gap-3">
+              <div>
+                <dt className="text-xs text-slate-500">{t('detailStatPopulation')}</dt>
+                <dd className="font-medium text-slate-950">
+                  {numberFormat.format(stats.population.value)}
+                </dd>
+              </div>
+              <div>
+                <dt className="text-xs text-slate-500">{t('detailStatArea')}</dt>
+                <dd className="font-medium text-slate-950">
+                  {numberFormat.format(stats.area_km2.value)} km²
+                </dd>
+              </div>
+              <div>
+                <dt className="text-xs text-slate-500">{t('detailStatDensity')}</dt>
+                <dd className="font-medium text-slate-950">
+                  {numberFormat.format(stats.density.value)} {t('detailStatDensityUnit')}
+                </dd>
+              </div>
+            </dl>
+            {stats.population.derived && (
+              <p className="mt-2 text-xs text-slate-400">{t('detailStatDerived')}</p>
+            )}
+            <p className="mt-1 text-xs text-slate-400">{t('detailStatSource')}</p>
+          </section>
+        )}
 
         <div className="flex flex-wrap gap-2 border-t border-slate-200 pt-4">
           {statsHref && (

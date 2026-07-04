@@ -207,7 +207,6 @@ export default function BoundaryLayers({ map, state, provinceEntries = [] }: Bou
   // OSM-boundaries toggle can strip/restore the clause without re-reading a possibly-stripped filter.
   const basemapSettlementFiltersRef = useRef<Map<string, maplibregl.FilterSpecification>>(new Map());
   const {
-    enableQaLayers,
     pmtilesUrlPostWardsCandidateLabels,
     pmtilesUrlPostWardsCandidate,
     pmtilesUrlPreDistrictsCandidateLabels,
@@ -222,20 +221,16 @@ export default function BoundaryLayers({ map, state, provinceEntries = [] }: Bou
     tileUrlPreDistrictsCandidate,
   } = publicEnv;
   const includeOffshoreIslands = Boolean(tileUrlIslands || publicEnv.pmtilesUrlIslands);
-  // Polygon candidate sources are public when PMTiles URLs are set; otherwise gated to QA.
+  // Nested candidate sources: PMTiles URL preferred, retired-Martin tile URL as fallback (mirrors
+  // the province layers). Included whenever a source URL is set — no QA flag (removed post-cutover).
   const includePreDistrictCandidates =
-    Boolean(pmtilesUrlPreDistrictsCandidate) ||
-    (enableQaLayers && Boolean(tileUrlPreDistrictsCandidate));
+    Boolean(pmtilesUrlPreDistrictsCandidate) || Boolean(tileUrlPreDistrictsCandidate);
   const includePostWardCandidates =
-    Boolean(pmtilesUrlPostWardsCandidate) ||
-    (enableQaLayers && Boolean(tileUrlPostWardsCandidate));
-  // Label sources are public when PMTiles label URLs are set; otherwise gated to QA.
+    Boolean(pmtilesUrlPostWardsCandidate) || Boolean(tileUrlPostWardsCandidate);
   const includePostWardCandidateLabels =
-    Boolean(pmtilesUrlPostWardsCandidateLabels) ||
-    (enableQaLayers && Boolean(tileUrlPostWardsCandidateLabels));
+    Boolean(pmtilesUrlPostWardsCandidateLabels) || Boolean(tileUrlPostWardsCandidateLabels);
   const includePreDistrictCandidateLabels =
-    Boolean(pmtilesUrlPreDistrictsCandidateLabels) ||
-    (enableQaLayers && Boolean(tileUrlPreDistrictsCandidateLabels));
+    Boolean(pmtilesUrlPreDistrictsCandidateLabels) || Boolean(tileUrlPreDistrictsCandidateLabels);
 
   useEffect(() => {
     if (!map) return;

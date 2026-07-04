@@ -3,6 +3,9 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  a, button {
+    cursor: pointer;
+  }
 }
 
 @theme inline {
