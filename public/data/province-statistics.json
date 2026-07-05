@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdated": "2026-07-04",
+  "lastUpdated": "2026-07-05",
   "sources": {
     "hdx-cod-ps-2024": {
       "indicator": "population",
@@ -20,6 +20,14 @@
       "indicator": "area_km2_computed",
       "license": "ODbL (© OpenStreetMap contributors)",
       "name": "Viettrace — geodesic area from OSM-derived land-clipped polygons (cross-check only)"
+    },
+    "nso-grdp-2024": {
+      "indicator": "grdp",
+      "license": "Official NSO statistics (số liệu nhà nước — facts); attribution-only",
+      "name": "National Statistics Office of Viet Nam (NSO) — Socio-economic data of 63 provinces 2020-2024",
+      "url": "https://www.nso.gov.vn/en/default/2025/11/socio-economic-statistical-data-of-63-provinces-and-cities-2020-2024/",
+      "year": 2024,
+      "note": "GRDP at current prices (tỷ đồng). Post-2025 = sum of pre-2025 components. Per capita = GRDP / population (derived, triệu đồng)."
     }
   },
   "indicators": {
@@ -42,6 +50,20 @@
       "unit": "người/km²",
       "additive": false,
       "derivation": "population / area"
+    },
+    "grdp": {
+      "label_vi": "GRDP",
+      "label_en": "GRDP",
+      "unit": "tỷ đồng",
+      "additive": true,
+      "derivation": "NSO current-price GRDP 2024; post-2025 = sum of pre components."
+    },
+    "grdp_per_capita": {
+      "label_vi": "GRDP bình quân đầu người",
+      "label_en": "GRDP per capita",
+      "unit": "triệu đồng",
+      "additive": false,
+      "derivation": "GRDP / population"
     }
   },
   "counts": {
@@ -50,6 +72,7 @@
   },
   "nationalTotalPopulation": 100768914,
   "nationalTotalArea": 331021.04,
+  "nationalTotalGrdp": 11548428.6,
   "pre": {
     "an-giang": {
       "name": "Tỉnh An Giang",
@@ -73,6 +96,19 @@
       "density": {
         "value": 519.9,
         "derived": true
+      },
+      "grdp": {
+        "value": 126770.9,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": false
+      },
+      "grdp_per_capita": {
+        "value": 69,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       }
     },
     "ba-ria-vung-tau": {
@@ -97,6 +133,19 @@
       "density": {
         "value": 599,
         "derived": true
+      },
+      "grdp": {
+        "value": 417305.9,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": false
+      },
+      "grdp_per_capita": {
+        "value": 351.7,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       }
     },
     "bac-giang": {
@@ -121,6 +170,19 @@
       "density": {
         "value": 485.4,
         "derived": true
+      },
+      "grdp": {
+        "value": 207009.4,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": false
+      },
+      "grdp_per_capita": {
+        "value": 109.5,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       }
     },
     "bac-kan": {
@@ -145,6 +207,19 @@
       "density": {
         "value": 65.1,
         "derived": true
+      },
+      "grdp": {
+        "value": 18744,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": false
+      },
+      "grdp_per_capita": {
+        "value": 59.3,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       }
     },
     "bac-lieu": {
@@ -169,6 +244,19 @@
       "density": {
         "value": 348.6,
         "derived": true
+      },
+      "grdp": {
+        "value": 65625.2,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": false
+      },
+      "grdp_per_capita": {
+        "value": 70.5,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       }
     },
     "bac-ninh": {
@@ -193,6 +281,19 @@
       "density": {
         "value": 1891.1,
         "derived": true
+      },
+      "grdp": {
+        "value": 232767.1,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": false
+      },
+      "grdp_per_capita": {
+        "value": 149.6,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       }
     },
     "ben-tre": {
@@ -217,6 +318,19 @@
       "density": {
         "value": 537,
         "derived": true
+      },
+      "grdp": {
+        "value": 74178.2,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": false
+      },
+      "grdp_per_capita": {
+        "value": 57.7,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       }
     },
     "binh-dinh": {
@@ -241,6 +355,19 @@
       "density": {
         "value": 243.9,
         "derived": true
+      },
+      "grdp": {
+        "value": 130799.7,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": false
+      },
+      "grdp_per_capita": {
+        "value": 88.4,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       }
     },
     "binh-duong": {
@@ -265,6 +392,19 @@
       "density": {
         "value": 1119.7,
         "derived": true
+      },
+      "grdp": {
+        "value": 520205.2,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": false
+      },
+      "grdp_per_capita": {
+        "value": 172.4,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       }
     },
     "binh-phuoc": {
@@ -289,6 +429,19 @@
       "density": {
         "value": 149.5,
         "derived": true
+      },
+      "grdp": {
+        "value": 115357.4,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": false
+      },
+      "grdp_per_capita": {
+        "value": 112.2,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       }
     },
     "binh-thuan": {
@@ -313,6 +466,19 @@
       "density": {
         "value": 158.5,
         "derived": true
+      },
+      "grdp": {
+        "value": 128783.1,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": false
+      },
+      "grdp_per_capita": {
+        "value": 102.3,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       }
     },
     "ca-mau": {
@@ -337,6 +503,19 @@
       "density": {
         "value": 225.3,
         "derived": true
+      },
+      "grdp": {
+        "value": 87535.5,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": false
+      },
+      "grdp_per_capita": {
+        "value": 74.4,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       }
     },
     "can-tho": {
@@ -361,6 +540,19 @@
       "density": {
         "value": 909.7,
         "derived": true
+      },
+      "grdp": {
+        "value": 133064.7,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": false
+      },
+      "grdp_per_capita": {
+        "value": 101.6,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       }
     },
     "cao-bang": {
@@ -385,6 +577,19 @@
       "density": {
         "value": 80.5,
         "derived": true
+      },
+      "grdp": {
+        "value": 25203.8,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": false
+      },
+      "grdp_per_capita": {
+        "value": 46.7,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       }
     },
     "da-nang": {
@@ -409,6 +614,19 @@
       "density": {
         "value": 1001.9,
         "derived": true
+      },
+      "grdp": {
+        "value": 151307,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": false
+      },
+      "grdp_per_capita": {
+        "value": 117.5,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       }
     },
     "dak-lak": {
@@ -433,6 +651,19 @@
       "density": {
         "value": 148.1,
         "derived": true
+      },
+      "grdp": {
+        "value": 141326.5,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": false
+      },
+      "grdp_per_capita": {
+        "value": 73.2,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       }
     },
     "dak-nong": {
@@ -457,6 +688,19 @@
       "density": {
         "value": 102.3,
         "derived": true
+      },
+      "grdp": {
+        "value": 56806.5,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": false
+      },
+      "grdp_per_capita": {
+        "value": 85.3,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       }
     },
     "dien-bien": {
@@ -481,6 +725,19 @@
       "density": {
         "value": 67.4,
         "derived": true
+      },
+      "grdp": {
+        "value": 31663.4,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": false
+      },
+      "grdp_per_capita": {
+        "value": 49.2,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       }
     },
     "dong-nai": {
@@ -505,6 +762,19 @@
       "density": {
         "value": 571.7,
         "derived": true
+      },
+      "grdp": {
+        "value": 493819.2,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": false
+      },
+      "grdp_per_capita": {
+        "value": 147.3,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       }
     },
     "dong-thap": {
@@ -529,6 +799,19 @@
       "density": {
         "value": 464.5,
         "derived": true
+      },
+      "grdp": {
+        "value": 122763.6,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": false
+      },
+      "grdp_per_capita": {
+        "value": 78.1,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       }
     },
     "gia-lai": {
@@ -553,6 +836,19 @@
       "density": {
         "value": 103.7,
         "derived": true
+      },
+      "grdp": {
+        "value": 111207.9,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": false
+      },
+      "grdp_per_capita": {
+        "value": 69.2,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       }
     },
     "ha-giang": {
@@ -577,6 +873,19 @@
       "density": {
         "value": 113.6,
         "derived": true
+      },
+      "grdp": {
+        "value": 35822.8,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": false
+      },
+      "grdp_per_capita": {
+        "value": 39.8,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       }
     },
     "ha-nam": {
@@ -601,6 +910,19 @@
       "density": {
         "value": 1010.8,
         "derived": true
+      },
+      "grdp": {
+        "value": 98097.6,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": false
+      },
+      "grdp_per_capita": {
+        "value": 112.6,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       }
     },
     "ha-noi": {
@@ -625,6 +947,19 @@
       "density": {
         "value": 2627.9,
         "derived": true
+      },
+      "grdp": {
+        "value": 1425521,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": false
+      },
+      "grdp_per_capita": {
+        "value": 161.5,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       }
     },
     "ha-tinh": {
@@ -649,6 +984,19 @@
       "density": {
         "value": 217.4,
         "derived": true
+      },
+      "grdp": {
+        "value": 112855.1,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": false
+      },
+      "grdp_per_capita": {
+        "value": 86.7,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       }
     },
     "hai-duong": {
@@ -673,6 +1021,19 @@
       "density": {
         "value": 1172.2,
         "derived": true
+      },
+      "grdp": {
+        "value": 212386.3,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": false
+      },
+      "grdp_per_capita": {
+        "value": 108.6,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       }
     },
     "hai-phong": {
@@ -697,6 +1058,19 @@
       "density": {
         "value": 1351.5,
         "derived": true
+      },
+      "grdp": {
+        "value": 445994.8,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": false
+      },
+      "grdp_per_capita": {
+        "value": 211.3,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       }
     },
     "hau-giang": {
@@ -721,6 +1095,19 @@
       "density": {
         "value": 443.5,
         "derived": true
+      },
+      "grdp": {
+        "value": 68462.6,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": false
+      },
+      "grdp_per_capita": {
+        "value": 95.2,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       }
     },
     "ho-chi-minh": {
@@ -745,6 +1132,19 @@
       "density": {
         "value": 4797.1,
         "derived": true
+      },
+      "grdp": {
+        "value": 1778271.1,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": false
+      },
+      "grdp_per_capita": {
+        "value": 179.8,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       }
     },
     "hoa-binh": {
@@ -769,6 +1169,19 @@
       "density": {
         "value": 192,
         "derived": true
+      },
+      "grdp": {
+        "value": 72180.6,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": false
+      },
+      "grdp_per_capita": {
+        "value": 81.9,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       }
     },
     "hue": {
@@ -793,6 +1206,19 @@
       "density": {
         "value": 233.6,
         "derived": true
+      },
+      "grdp": {
+        "value": 80966.5,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": false
+      },
+      "grdp_per_capita": {
+        "value": 70.7,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       }
     },
     "hung-yen": {
@@ -817,6 +1243,19 @@
       "density": {
         "value": 1402.5,
         "derived": true
+      },
+      "grdp": {
+        "value": 159843.6,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": false
+      },
+      "grdp_per_capita": {
+        "value": 122.5,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       }
     },
     "khanh-hoa": {
@@ -841,6 +1280,19 @@
       "density": {
         "value": 246,
         "derived": true
+      },
+      "grdp": {
+        "value": 128759.8,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": false
+      },
+      "grdp_per_capita": {
+        "value": 101.9,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       }
     },
     "kien-giang": {
@@ -865,6 +1317,19 @@
       "density": {
         "value": 274.8,
         "derived": true
+      },
+      "grdp": {
+        "value": 144575,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": false
+      },
+      "grdp_per_capita": {
+        "value": 82.9,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       }
     },
     "kon-tum": {
@@ -889,6 +1354,19 @@
       "density": {
         "value": 60.1,
         "derived": true
+      },
+      "grdp": {
+        "value": 40945.5,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": false
+      },
+      "grdp_per_capita": {
+        "value": 70.4,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       }
     },
     "lai-chau": {
@@ -913,6 +1391,19 @@
       "density": {
         "value": 55,
         "derived": true
+      },
+      "grdp": {
+        "value": 31024.9,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": false
+      },
+      "grdp_per_capita": {
+        "value": 62.2,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       }
     },
     "lam-dong": {
@@ -937,6 +1428,19 @@
       "density": {
         "value": 137.7,
         "derived": true
+      },
+      "grdp": {
+        "value": 134289.3,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": false
+      },
+      "grdp_per_capita": {
+        "value": 99.7,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       }
     },
     "lang-son": {
@@ -961,6 +1465,19 @@
       "density": {
         "value": 96.3,
         "derived": true
+      },
+      "grdp": {
+        "value": 49735.6,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": false
+      },
+      "grdp_per_capita": {
+        "value": 62.1,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       }
     },
     "lao-cai": {
@@ -985,6 +1502,19 @@
       "density": {
         "value": 121.9,
         "derived": true
+      },
+      "grdp": {
+        "value": 77223.1,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": false
+      },
+      "grdp_per_capita": {
+        "value": 99.5,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       }
     },
     "long-an": {
@@ -1009,6 +1539,19 @@
       "density": {
         "value": 397.4,
         "derived": true
+      },
+      "grdp": {
+        "value": 188587.6,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": false
+      },
+      "grdp_per_capita": {
+        "value": 105.6,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       }
     },
     "nam-dinh": {
@@ -1033,6 +1576,19 @@
       "density": {
         "value": 1061,
         "derived": true
+      },
+      "grdp": {
+        "value": 113329.2,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": false
+      },
+      "grdp_per_capita": {
+        "value": 64,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       }
     },
     "nghe-an": {
@@ -1057,6 +1613,19 @@
       "density": {
         "value": 210.1,
         "derived": true
+      },
+      "grdp": {
+        "value": 216943.7,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": false
+      },
+      "grdp_per_capita": {
+        "value": 62.7,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       }
     },
     "ninh-binh": {
@@ -1081,6 +1650,19 @@
       "density": {
         "value": 724,
         "derived": true
+      },
+      "grdp": {
+        "value": 98855.2,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": false
+      },
+      "grdp_per_capita": {
+        "value": 98.5,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       }
     },
     "ninh-thuan": {
@@ -1105,6 +1687,19 @@
       "density": {
         "value": 178.5,
         "derived": true
+      },
+      "grdp": {
+        "value": 60161.4,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": false
+      },
+      "grdp_per_capita": {
+        "value": 100.5,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       }
     },
     "phu-tho": {
@@ -1129,6 +1724,19 @@
       "density": {
         "value": 429,
         "derived": true
+      },
+      "grdp": {
+        "value": 109262.5,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": false
+      },
+      "grdp_per_capita": {
+        "value": 72.1,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       }
     },
     "phu-yen": {
@@ -1153,6 +1761,19 @@
       "density": {
         "value": 173.5,
         "derived": true
+      },
+      "grdp": {
+        "value": 62597.4,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": false
+      },
+      "grdp_per_capita": {
+        "value": 71.8,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       }
     },
     "quang-binh": {
@@ -1177,6 +1798,19 @@
       "density": {
         "value": 112.9,
         "derived": true
+      },
+      "grdp": {
+        "value": 60179.5,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": false
+      },
+      "grdp_per_capita": {
+        "value": 66.1,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       }
     },
     "quang-nam": {
@@ -1201,6 +1835,19 @@
       "density": {
         "value": 142.7,
         "derived": true
+      },
+      "grdp": {
+        "value": 128619.3,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": false
+      },
+      "grdp_per_capita": {
+        "value": 85.2,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       }
     },
     "quang-ngai": {
@@ -1225,6 +1872,19 @@
       "density": {
         "value": 236.2,
         "derived": true
+      },
+      "grdp": {
+        "value": 132581,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": false
+      },
+      "grdp_per_capita": {
+        "value": 108.9,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       }
     },
     "quang-ninh": {
@@ -1249,6 +1909,19 @@
       "density": {
         "value": 221.5,
         "derived": true
+      },
+      "grdp": {
+        "value": 347534,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": false
+      },
+      "grdp_per_capita": {
+        "value": 254,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       }
     },
     "quang-tri": {
@@ -1273,6 +1946,19 @@
       "density": {
         "value": 135.7,
         "derived": true
+      },
+      "grdp": {
+        "value": 53508.1,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": false
+      },
+      "grdp_per_capita": {
+        "value": 85.3,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       }
     },
     "soc-trang": {
@@ -1297,6 +1983,19 @@
       "density": {
         "value": 354.4,
         "derived": true
+      },
+      "grdp": {
+        "value": 80147.3,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": false
+      },
+      "grdp_per_capita": {
+        "value": 68.3,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       }
     },
     "son-la": {
@@ -1321,6 +2020,19 @@
       "density": {
         "value": 94,
         "derived": true
+      },
+      "grdp": {
+        "value": 76626.4,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": false
+      },
+      "grdp_per_capita": {
+        "value": 57.7,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       }
     },
     "tay-ninh": {
@@ -1345,6 +2057,19 @@
       "density": {
         "value": 288.6,
         "derived": true
+      },
+      "grdp": {
+        "value": 123878,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": false
+      },
+      "grdp_per_capita": {
+        "value": 106.2,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       }
     },
     "thai-binh": {
@@ -1369,6 +2094,19 @@
       "density": {
         "value": 1188.6,
         "derived": true
+      },
+      "grdp": {
+        "value": 132758.9,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": false
+      },
+      "grdp_per_capita": {
+        "value": 70.4,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       }
     },
     "thai-nguyen": {
@@ -1393,6 +2131,19 @@
       "density": {
         "value": 387.7,
         "derived": true
+      },
+      "grdp": {
+        "value": 166869.9,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": false
+      },
+      "grdp_per_capita": {
+        "value": 122,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       }
     },
     "thanh-hoa": {
@@ -1417,6 +2168,19 @@
       "density": {
         "value": 335.1,
         "derived": true
+      },
+      "grdp": {
+        "value": 316994.5,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": false
+      },
+      "grdp_per_capita": {
+        "value": 85.1,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       }
     },
     "tien-giang": {
@@ -1441,6 +2205,19 @@
       "density": {
         "value": 716.7,
         "derived": true
+      },
+      "grdp": {
+        "value": 137271.7,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": false
+      },
+      "grdp_per_capita": {
+        "value": 76.3,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       }
     },
     "tra-vinh": {
@@ -1465,6 +2242,19 @@
       "density": {
         "value": 428.6,
         "derived": true
+      },
+      "grdp": {
+        "value": 96622.9,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": false
+      },
+      "grdp_per_capita": {
+        "value": 95.6,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       }
     },
     "tuyen-quang": {
@@ -1489,6 +2279,19 @@
       "density": {
         "value": 136.9,
         "derived": true
+      },
+      "grdp": {
+        "value": 50423.6,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": false
+      },
+      "grdp_per_capita": {
+        "value": 62.7,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       }
     },
     "vinh-long": {
@@ -1513,6 +2316,19 @@
       "density": {
         "value": 667.8,
         "derived": true
+      },
+      "grdp": {
+        "value": 83678.8,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": false
+      },
+      "grdp_per_capita": {
+        "value": 82.1,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       }
     },
     "vinh-phuc": {
@@ -1537,6 +2353,19 @@
       "density": {
         "value": 967.9,
         "derived": true
+      },
+      "grdp": {
+        "value": 173135.6,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": false
+      },
+      "grdp_per_capita": {
+        "value": 144.7,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       }
     },
     "yen-bai": {
@@ -1561,6 +2390,19 @@
       "density": {
         "value": 125.3,
         "derived": true
+      },
+      "grdp": {
+        "value": 48662.7,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": false
+      },
+      "grdp_per_capita": {
+        "value": 56.4,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       }
     }
   },
@@ -1589,6 +2431,20 @@
       "density": {
         "value": 362.5,
         "derived": true
+      },
+      "grdp": {
+        "value": 271345.9,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "grdp_per_capita": {
+        "value": 75.7,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       },
       "components": [
         "an-giang",
@@ -1620,6 +2476,20 @@
         "value": 730.5,
         "derived": true
       },
+      "grdp": {
+        "value": 439776.5,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "grdp_per_capita": {
+        "value": 127.6,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
+      },
       "components": [
         "bac-giang",
         "bac-ninh"
@@ -1650,6 +2520,20 @@
         "value": 267,
         "derived": true
       },
+      "grdp": {
+        "value": 153160.7,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "grdp_per_capita": {
+        "value": 72.7,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
+      },
       "components": [
         "bac-lieu",
         "ca-mau"
@@ -1679,6 +2563,20 @@
       "density": {
         "value": 502.5,
         "derived": true
+      },
+      "grdp": {
+        "value": 281674.6,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "grdp_per_capita": {
+        "value": 88,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       },
       "components": [
         "can-tho",
@@ -1711,6 +2609,20 @@
         "value": 80.5,
         "derived": true
       },
+      "grdp": {
+        "value": 25203.8,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "grdp_per_capita": {
+        "value": 46.7,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
+      },
       "components": [
         "cao-bang"
       ]
@@ -1739,6 +2651,20 @@
       "density": {
         "value": 235.8,
         "derived": true
+      },
+      "grdp": {
+        "value": 279926.3,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "grdp_per_capita": {
+        "value": 100.1,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       },
       "components": [
         "da-nang",
@@ -1770,6 +2696,20 @@
         "value": 155.2,
         "derived": true
       },
+      "grdp": {
+        "value": 203923.9,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "grdp_per_capita": {
+        "value": 72.8,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
+      },
       "components": [
         "dak-lak",
         "phu-yen"
@@ -1800,6 +2740,20 @@
         "value": 67.4,
         "derived": true
       },
+      "grdp": {
+        "value": 31663.4,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "grdp_per_capita": {
+        "value": 49.2,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
+      },
       "components": [
         "dien-bien"
       ]
@@ -1828,6 +2782,20 @@
       "density": {
         "value": 343.8,
         "derived": true
+      },
+      "grdp": {
+        "value": 609176.6,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "grdp_per_capita": {
+        "value": 139.1,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       },
       "components": [
         "binh-phuoc",
@@ -1859,6 +2827,20 @@
         "value": 571.9,
         "derived": true
       },
+      "grdp": {
+        "value": 260035.3,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "grdp_per_capita": {
+        "value": 77.1,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
+      },
       "components": [
         "dong-thap",
         "tien-giang"
@@ -1888,6 +2870,20 @@
       "density": {
         "value": 143.1,
         "derived": true
+      },
+      "grdp": {
+        "value": 242007.6,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "grdp_per_capita": {
+        "value": 78.4,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       },
       "components": [
         "binh-dinh",
@@ -1919,6 +2915,20 @@
         "value": 2627.9,
         "derived": true
       },
+      "grdp": {
+        "value": 1425521,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "grdp_per_capita": {
+        "value": 161.5,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
+      },
       "components": [
         "ha-noi"
       ]
@@ -1947,6 +2957,20 @@
       "density": {
         "value": 217.4,
         "derived": true
+      },
+      "grdp": {
+        "value": 112855.1,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "grdp_per_capita": {
+        "value": 86.7,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       },
       "components": [
         "ha-tinh"
@@ -1977,6 +3001,20 @@
         "value": 1258.9,
         "derived": true
       },
+      "grdp": {
+        "value": 658381.1,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "grdp_per_capita": {
+        "value": 161.9,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
+      },
       "components": [
         "hai-duong",
         "hai-phong"
@@ -2006,6 +3044,20 @@
       "density": {
         "value": 2091.8,
         "derived": true
+      },
+      "grdp": {
+        "value": 2715782.2,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "grdp_per_capita": {
+        "value": 192.7,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       },
       "components": [
         "ba-ria-vung-tau",
@@ -2038,6 +3090,20 @@
         "value": 233.6,
         "derived": true
       },
+      "grdp": {
+        "value": 80966.5,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "grdp_per_capita": {
+        "value": 70.7,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
+      },
       "components": [
         "hue"
       ]
@@ -2066,6 +3132,20 @@
       "density": {
         "value": 1267.7,
         "derived": true
+      },
+      "grdp": {
+        "value": 292602.5,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "grdp_per_capita": {
+        "value": 91.7,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       },
       "components": [
         "hung-yen",
@@ -2097,6 +3177,20 @@
         "value": 219.3,
         "derived": true
       },
+      "grdp": {
+        "value": 188921.2,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "grdp_per_capita": {
+        "value": 101.4,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
+      },
       "components": [
         "khanh-hoa",
         "ninh-thuan"
@@ -2127,6 +3221,20 @@
         "value": 55,
         "derived": true
       },
+      "grdp": {
+        "value": 31024.9,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "grdp_per_capita": {
+        "value": 62.2,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
+      },
       "components": [
         "lai-chau"
       ]
@@ -2155,6 +3263,20 @@
       "density": {
         "value": 135,
         "derived": true
+      },
+      "grdp": {
+        "value": 319878.9,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "grdp_per_capita": {
+        "value": 97.7,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       },
       "components": [
         "binh-thuan",
@@ -2187,6 +3309,20 @@
         "value": 96.3,
         "derived": true
       },
+      "grdp": {
+        "value": 49735.6,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "grdp_per_capita": {
+        "value": 62.1,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
+      },
       "components": [
         "lang-son"
       ]
@@ -2215,6 +3351,20 @@
       "density": {
         "value": 123.7,
         "derived": true
+      },
+      "grdp": {
+        "value": 125885.8,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "grdp_per_capita": {
+        "value": 76.8,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       },
       "components": [
         "lao-cai",
@@ -2246,6 +3396,20 @@
         "value": 210.1,
         "derived": true
       },
+      "grdp": {
+        "value": 216943.7,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "grdp_per_capita": {
+        "value": 62.7,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
+      },
       "components": [
         "nghe-an"
       ]
@@ -2274,6 +3438,20 @@
       "density": {
         "value": 930.7,
         "derived": true
+      },
+      "grdp": {
+        "value": 310282,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "grdp_per_capita": {
+        "value": 85.1,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       },
       "components": [
         "ha-nam",
@@ -2306,6 +3484,20 @@
         "value": 383.9,
         "derived": true
       },
+      "grdp": {
+        "value": 354578.7,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "grdp_per_capita": {
+        "value": 98.7,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
+      },
       "components": [
         "hoa-binh",
         "phu-tho",
@@ -2337,6 +3529,20 @@
         "value": 121.3,
         "derived": true
       },
+      "grdp": {
+        "value": 173526.5,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "grdp_per_capita": {
+        "value": 96.4,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
+      },
       "components": [
         "kon-tum",
         "quang-ngai"
@@ -2367,6 +3573,20 @@
         "value": 221.5,
         "derived": true
       },
+      "grdp": {
+        "value": 347534,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "grdp_per_capita": {
+        "value": 254,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
+      },
       "components": [
         "quang-ninh"
       ]
@@ -2395,6 +3615,20 @@
       "density": {
         "value": 121.2,
         "derived": true
+      },
+      "grdp": {
+        "value": 113687.6,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "grdp_per_capita": {
+        "value": 73.9,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       },
       "components": [
         "quang-binh",
@@ -2426,6 +3660,20 @@
         "value": 94,
         "derived": true
       },
+      "grdp": {
+        "value": 76626.4,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "grdp_per_capita": {
+        "value": 57.7,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
+      },
       "components": [
         "son-la"
       ]
@@ -2454,6 +3702,20 @@
       "density": {
         "value": 345.9,
         "derived": true
+      },
+      "grdp": {
+        "value": 312465.6,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "grdp_per_capita": {
+        "value": 105.8,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       },
       "components": [
         "long-an",
@@ -2485,6 +3747,20 @@
         "value": 200.7,
         "derived": true
       },
+      "grdp": {
+        "value": 185613.9,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "grdp_per_capita": {
+        "value": 110.3,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
+      },
       "components": [
         "bac-kan",
         "thai-nguyen"
@@ -2515,6 +3791,20 @@
         "value": 335.1,
         "derived": true
       },
+      "grdp": {
+        "value": 316994.5,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "grdp_per_capita": {
+        "value": 85.1,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
+      },
       "components": [
         "thanh-hoa"
       ]
@@ -2543,6 +3833,20 @@
       "density": {
         "value": 123.6,
         "derived": true
+      },
+      "grdp": {
+        "value": 86246.4,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "grdp_per_capita": {
+        "value": 50.6,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       },
       "components": [
         "ha-giang",
@@ -2573,6 +3877,20 @@
       "density": {
         "value": 528.1,
         "derived": true
+      },
+      "grdp": {
+        "value": 254479.9,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "sum of pre-2025 components"
+      },
+      "grdp_per_capita": {
+        "value": 76.7,
+        "year": 2024,
+        "source": "nso-grdp-2024",
+        "derived": true,
+        "method": "GRDP / population"
       },
       "components": [
         "ben-tre",
