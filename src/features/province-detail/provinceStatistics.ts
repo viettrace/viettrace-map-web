@@ -22,7 +22,7 @@ export interface ProvinceStatEntry {
   components?: string[];
 }
 
-interface ProvinceStatistics {
+export interface ProvinceStatistics {
   schemaVersion: number;
   pre: Record<string, ProvinceStatEntry>;
   post: Record<string, ProvinceStatEntry>;

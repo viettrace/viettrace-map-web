@@ -9,7 +9,9 @@ import { readPublicEnv } from '@src/libs/config/publicEnv';
 import { replaceLayer } from '@src/libs/maplibre/layers';
 import { ensureSource } from '@src/libs/maplibre/sources';
 import { setLayerGroupVisibility } from '@src/libs/maplibre/visibility';
+import { loadProvinceStatistics } from '@src/features/province-detail/provinceStatistics';
 import { loadRegionalClassification, type Region } from '@src/types/regional-classification';
+import { computeChoropleth, type ChoroplethMode } from './choropleth';
 import {
   BASEMAP_COMMUNE_LAYER,
   BASEMAP_SETTLEMENT_LABEL_LAYERS,
@@ -142,15 +144,26 @@ function provinceFillOpacityRamp(full: number): maplibregl.DataDrivenPropertyVal
 // Extracted to module level so the registration effect can call it synchronously after
 // recreating layers (replaceLayer resets paint to defaults). Effect A also calls this
 // on colorMode/provinceEntries changes, but no longer needs state.mode in its deps.
-function applyRegionFillColors(
+function applyProvinceFillColors(
   map: maplibregl.Map,
   colorMode: ColorMode,
   provinceEntries: ProvinceIndexEntry[],
 ): void {
   const preFillId = boundaryLayerIds.preFill;
   const postFillId = boundaryLayerIds.postFill;
+  // In a data choropleth the red/blue mode outline is meaningless and clashes with the graduated
+  // fills, so neutralize it to white; default/region restore the red/blue identity outline.
+  const setOutlineColors = (pre: string, post: string) => {
+    if (map.getLayer(boundaryLayerIds.preOutline)) {
+      map.setPaintProperty(boundaryLayerIds.preOutline, 'line-color', pre);
+    }
+    if (map.getLayer(boundaryLayerIds.postOutline)) {
+      map.setPaintProperty(boundaryLayerIds.postOutline, 'line-color', post);
+    }
+  };
 
   if (colorMode === 'default') {
+    setOutlineColors('#d44', '#3388ff');
     if (map.getLayer(preFillId)) {
       map.setPaintProperty(preFillId, 'fill-color', '#d44');
       map.setPaintProperty(preFillId, 'fill-opacity', provinceFillOpacityRamp(0.1));
@@ -164,31 +177,72 @@ function applyRegionFillColors(
 
   if (provinceEntries.length === 0) return;
 
-  loadRegionalClassification()
-    .then(data => {
-      const regionNames = new Map<Region, string[]>();
-      for (const entry of provinceEntries) {
-        const region = data.provinceToRegion[entry.slug] as Region | undefined;
-        if (!region) continue;
-        if (!regionNames.has(region)) regionNames.set(region, []);
-        const names = regionNames.get(region)!;
-        for (const variant of [entry.name, `Thành phố ${entry.name}`, `Tỉnh ${entry.name}`]) {
-          if (!names.includes(variant)) names.push(variant);
+  if (colorMode === 'region') {
+    setOutlineColors('#d44', '#3388ff');
+    loadRegionalClassification()
+      .then(data => {
+        const regionNames = new Map<Region, string[]>();
+        for (const entry of provinceEntries) {
+          const region = data.provinceToRegion[entry.slug] as Region | undefined;
+          if (!region) continue;
+          if (!regionNames.has(region)) regionNames.set(region, []);
+          const names = regionNames.get(region)!;
+          for (const variant of [entry.name, `Thành phố ${entry.name}`, `Tỉnh ${entry.name}`]) {
+            if (!names.includes(variant)) names.push(variant);
+          }
         }
-      }
-      const arms: unknown[] = [];
-      for (const [region, names] of regionNames) {
-        arms.push(names, REGION_FILL_COLORS[region as Region] ?? '#aaaaaa');
-      }
-      const matchExpr = ['match', ['get', 'name'], ...arms, '#aaaaaa'] as unknown;
-      const fillColorExpr = matchExpr as maplibregl.DataDrivenPropertyValueSpecification<maplibregl.ColorSpecification>;
-      if (map.getLayer(preFillId)) {
-        map.setPaintProperty(preFillId, 'fill-color', fillColorExpr);
-        map.setPaintProperty(preFillId, 'fill-opacity', provinceFillOpacityRamp(0.3));
-      }
-      if (map.getLayer(postFillId)) {
-        map.setPaintProperty(postFillId, 'fill-color', fillColorExpr);
-        map.setPaintProperty(postFillId, 'fill-opacity', provinceFillOpacityRamp(0.3));
+        const arms: unknown[] = [];
+        for (const [region, names] of regionNames) {
+          arms.push(names, REGION_FILL_COLORS[region as Region] ?? '#aaaaaa');
+        }
+        const matchExpr = ['match', ['get', 'name'], ...arms, '#aaaaaa'] as unknown;
+        const fillColorExpr = matchExpr as maplibregl.DataDrivenPropertyValueSpecification<maplibregl.ColorSpecification>;
+        if (map.getLayer(preFillId)) {
+          map.setPaintProperty(preFillId, 'fill-color', fillColorExpr);
+          map.setPaintProperty(preFillId, 'fill-opacity', provinceFillOpacityRamp(0.3));
+        }
+        if (map.getLayer(postFillId)) {
+          map.setPaintProperty(postFillId, 'fill-color', fillColorExpr);
+          map.setPaintProperty(postFillId, 'fill-opacity', provinceFillOpacityRamp(0.3));
+        }
+      })
+      .catch(() => {});
+    return;
+  }
+
+  // Data choropleth (population / density / area / grdp / grdp_per_capita). Each fill layer is
+  // shaded from its OWN mode's statistics, keyed by province name (same name-variant match region
+  // mode uses), so pre (63) and post (34) stay independently correct across the toggle.
+  const field = colorMode as ChoroplethMode;
+  setOutlineColors('#ffffff', '#ffffff');
+  loadProvinceStatistics()
+    .then(stats => {
+      if (!stats) return;
+      const layers: ['pre' | 'post', string][] = [
+        ['pre', preFillId],
+        ['post', postFillId],
+      ];
+      for (const [layerMode, fillId] of layers) {
+        if (!map.getLayer(fillId)) continue;
+        const cho = computeChoropleth(stats, layerMode, field);
+        if (!cho) continue;
+        const namesByColor = new Map<string, string[]>();
+        for (const entry of provinceEntries) {
+          if (entry.mode !== layerMode) continue;
+          const color = cho.colorBySlug.get(entry.slug);
+          if (!color) continue;
+          const names = namesByColor.get(color) ?? [];
+          for (const variant of [entry.name, `Thành phố ${entry.name}`, `Tỉnh ${entry.name}`]) {
+            if (!names.includes(variant)) names.push(variant);
+          }
+          namesByColor.set(color, names);
+        }
+        const arms: unknown[] = [];
+        for (const [color, names] of namesByColor) arms.push(names, color);
+        if (arms.length === 0) continue;
+        const expr = ['match', ['get', 'name'], ...arms, '#cbd5e1'] as unknown as maplibregl.DataDrivenPropertyValueSpecification<maplibregl.ColorSpecification>;
+        map.setPaintProperty(fillId, 'fill-color', expr);
+        map.setPaintProperty(fillId, 'fill-opacity', provinceFillOpacityRamp(0.72));
       }
     })
     .catch(() => {});
@@ -295,7 +349,7 @@ export default function BoundaryLayers({ map, state, provinceEntries = [] }: Bou
 
       // Re-apply region colors after layer recreation so switching pre/post mode while in
       // region color mode doesn't reset fill-color back to the layer defaults.
-      applyRegionFillColors(map, state.colorMode, provinceEntries);
+      applyProvinceFillColors(map, state.colorMode, provinceEntries);
 
       // Province label layers are re-added above the region label layer by replaceLayer.
       // ensureRegionLabels moves them back to the top when already present, or adds them
@@ -395,7 +449,7 @@ export default function BoundaryLayers({ map, state, provinceEntries = [] }: Bou
 
     function applyFillColors() {
       if (!map) return;
-      applyRegionFillColors(map, state.colorMode, provinceEntries);
+      applyProvinceFillColors(map, state.colorMode, provinceEntries);
     }
 
     if (map.isStyleLoaded()) {

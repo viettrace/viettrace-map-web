@@ -1,6 +1,13 @@
 export type MapMode = 'pre' | 'post';
 export type CompareMode = 'toggle' | 'swipe';
-export type ColorMode = 'default' | 'region';
+export type ColorMode =
+  | 'default'
+  | 'region'
+  | 'population'
+  | 'density'
+  | 'area'
+  | 'grdp'
+  | 'grdp_per_capita';
 
 export const COMPARE_MODE_DEFAULT: CompareMode = 'toggle';
 export const COMPARE_DIVIDER_DEFAULT = 0.5;

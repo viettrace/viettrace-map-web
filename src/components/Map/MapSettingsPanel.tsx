@@ -139,16 +139,25 @@ export default function MapSettingsPanel({
                   />
                 </SettingRow>
                 <SettingRow label={t('settingsSectionColorMode')}>
-                  <SegmentedControl
-                    ariaLabel={t('settingsSectionColorMode')}
+                  <select
+                    aria-label={t('settingsSectionColorMode')}
                     disabled={overlayHidden}
                     value={colorMode}
-                    onChange={value => onColorModeChange(value as ColorMode)}
-                    options={[
-                      { value: 'default', label: t('colorModeDefault') },
-                      { value: 'region', label: t('colorModeRegion') },
-                    ]}
-                  />
+                    onChange={event => onColorModeChange(event.target.value as ColorMode)}
+                    className="max-w-[10rem] rounded-md border border-slate-300 bg-white px-2 py-1.5 text-sm text-slate-800 focus:ring-2 focus:ring-slate-400 focus:outline-none disabled:cursor-not-allowed disabled:opacity-50"
+                  >
+                    <optgroup label={t('colorModeGroupBasic')}>
+                      <option value="default">{t('colorModeDefault')}</option>
+                      <option value="region">{t('colorModeRegion')}</option>
+                    </optgroup>
+                    <optgroup label={t('colorModeGroupData')}>
+                      <option value="population">{t('colorModePopulation')}</option>
+                      <option value="density">{t('colorModeDensity')}</option>
+                      <option value="area">{t('colorModeArea')}</option>
+                      <option value="grdp">{t('colorModeGrdp')}</option>
+                      <option value="grdp_per_capita">{t('colorModeGrdpPerCapita')}</option>
+                    </optgroup>
+                  </select>
                 </SettingRow>
               </div>
               {overlayHidden && (

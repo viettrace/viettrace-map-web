@@ -8,6 +8,8 @@ import MapAttribution from '@src/components/Map/MapAttribution';
 import MapSettingsPanel from '@src/components/Map/MapSettingsPanel';
 import MapDataNotice from '@src/components/Map/MapDataNotice';
 import { clearHighlight, highlightFeature } from '@src/features/boundaries/featureHighlight';
+import ChoroplethLegend from '@src/features/boundaries/ChoroplethLegend';
+import { isChoroplethMode } from '@src/features/boundaries/choropleth';
 import CompareMapShell from '@src/features/compare/CompareMapShell';
 import { initialMapViewState, mapViewReducer } from '@src/features/map-state/mapViewReducer';
 import type { ColorMode, CompareMode } from '@src/features/map-state/mapViewTypes';
@@ -307,6 +309,10 @@ export default function MapShell() {
         isDataNoticeOpen={state.panels.dataNotice}
         onToggleDataNotice={() => dispatch({ type: 'toggleDataNotice' })}
       />
+
+      {state.layers.boundaries && isChoroplethMode(state.colorMode) && (
+        <ChoroplethLegend colorMode={state.colorMode} mode={state.mode} />
+      )}
 
       {state.compareMode !== 'swipe' && <MapNavigator map={singleMap} />}
     </div>
