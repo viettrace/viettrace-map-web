@@ -16,7 +16,8 @@ export interface ProvinceBorder {
 export interface ProvinceGeographyEntry {
   neighbors: { slug: string; direction: Direction }[];
   hasCoastline: boolean;
-  coastlineKm: number;
+  coastlineKm: number; // official figure (post = curated; pre = geometry-proportioned split)
+  coastlineGeomKm?: number; // raw OSM-geometry length (mainland), cross-check only
   borders?: ProvinceBorder[];
 }
 

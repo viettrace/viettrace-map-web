@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "lastUpdated": "2026-07-05",
   "sources": {
     "neighbors": {
@@ -7,8 +7,8 @@
       "input": "viettrace-data/processed/provinces/vn_{pre,post}_2025_display.geojson (© OpenStreetMap contributors, ODbL)"
     },
     "coastline": {
-      "method": "province land-clipped boundary edges on the OSM land-mask boundary; length = haversine sum, rounded to 10 km (approximate)",
-      "input": "viettrace-data/.data/processed/land-clip/vn_{pre,post}_2025_display_land.geojson + vn_land_mask.geojson (© OpenStreetMap contributors, ODbL)"
+      "method": "official mainland coastline — post-2025 = curated figure; pre-2025 = post total split across coastal components in proportion to geometry coastline (P1). coastlineGeomKm = raw OSM-geometry length (mainland), cross-check only; it runs longer (coastline paradox)",
+      "input": "viettrace-data/raw/coastline/vn_coastline_post_2025.csv (official figures via Wikipedia) + province-reconciliation.json + land-clip geometry (© OpenStreetMap contributors, ODbL)"
     },
     "borders": {
       "method": "international land-border edges (province boundary edges neither shared with another VN province nor on the land-mask boundary) attributed to the nearest neighbour country; direction = centroid → mean border-edge bearing (8 compass directions)",
@@ -32,7 +32,8 @@
         }
       ],
       "hasCoastline": true,
-      "coastlineKm": 90,
+      "coastlineKm": 125,
+      "coastlineGeomKm": 90,
       "borders": []
     },
     "cao-bang": {
@@ -56,6 +57,7 @@
       ],
       "hasCoastline": false,
       "coastlineKm": 0,
+      "coastlineGeomKm": 0,
       "borders": [
         {
           "country": "CN",
@@ -76,7 +78,8 @@
         }
       ],
       "hasCoastline": true,
-      "coastlineKm": 270,
+      "coastlineKm": 262,
+      "coastlineGeomKm": 270,
       "borders": []
     },
     "bac-lieu": {
@@ -99,7 +102,8 @@
         }
       ],
       "hasCoastline": true,
-      "coastlineKm": 50,
+      "coastlineKm": 48,
+      "coastlineGeomKm": 50,
       "borders": []
     },
     "soc-trang": {
@@ -122,7 +126,8 @@
         }
       ],
       "hasCoastline": true,
-      "coastlineKm": 80,
+      "coastlineKm": 72,
+      "coastlineGeomKm": 80,
       "borders": []
     },
     "tra-vinh": {
@@ -141,7 +146,8 @@
         }
       ],
       "hasCoastline": true,
-      "coastlineKm": 90,
+      "coastlineKm": 69,
+      "coastlineGeomKm": 90,
       "borders": []
     },
     "hau-giang": {
@@ -169,6 +175,7 @@
       ],
       "hasCoastline": false,
       "coastlineKm": 0,
+      "coastlineGeomKm": 0,
       "borders": []
     },
     "can-tho": {
@@ -196,6 +203,7 @@
       ],
       "hasCoastline": false,
       "coastlineKm": 0,
+      "coastlineGeomKm": 0,
       "borders": []
     },
     "kien-giang": {
@@ -222,7 +230,8 @@
         }
       ],
       "hasCoastline": true,
-      "coastlineKm": 220,
+      "coastlineKm": 200,
+      "coastlineGeomKm": 220,
       "borders": [
         {
           "country": "KH",
@@ -248,6 +257,7 @@
       ],
       "hasCoastline": false,
       "coastlineKm": 0,
+      "coastlineGeomKm": 0,
       "borders": [
         {
           "country": "KH",
@@ -281,6 +291,7 @@
       ],
       "hasCoastline": false,
       "coastlineKm": 0,
+      "coastlineGeomKm": 0,
       "borders": [
         {
           "country": "KH",
@@ -322,6 +333,7 @@
       ],
       "hasCoastline": false,
       "coastlineKm": 0,
+      "coastlineGeomKm": 0,
       "borders": []
     },
     "ben-tre": {
@@ -340,7 +352,8 @@
         }
       ],
       "hasCoastline": true,
-      "coastlineKm": 80,
+      "coastlineKm": 61,
+      "coastlineGeomKm": 80,
       "borders": []
     },
     "tien-giang": {
@@ -367,7 +380,8 @@
         }
       ],
       "hasCoastline": true,
-      "coastlineKm": 30,
+      "coastlineKm": 32,
+      "coastlineGeomKm": 30,
       "borders": []
     },
     "long-an": {
@@ -391,6 +405,7 @@
       ],
       "hasCoastline": false,
       "coastlineKm": 0,
+      "coastlineGeomKm": 0,
       "borders": [
         {
           "country": "KH",
@@ -416,6 +431,7 @@
       ],
       "hasCoastline": false,
       "coastlineKm": 0,
+      "coastlineGeomKm": 0,
       "borders": [
         {
           "country": "LA",
@@ -454,6 +470,7 @@
       ],
       "hasCoastline": false,
       "coastlineKm": 0,
+      "coastlineGeomKm": 0,
       "borders": [
         {
           "country": "KH",
@@ -487,6 +504,7 @@
       ],
       "hasCoastline": false,
       "coastlineKm": 0,
+      "coastlineGeomKm": 0,
       "borders": [
         {
           "country": "KH",
@@ -512,6 +530,7 @@
       ],
       "hasCoastline": false,
       "coastlineKm": 0,
+      "coastlineGeomKm": 0,
       "borders": [
         {
           "country": "KH",
@@ -553,6 +572,7 @@
       ],
       "hasCoastline": false,
       "coastlineKm": 0,
+      "coastlineGeomKm": 0,
       "borders": []
     },
     "ninh-thuan": {
@@ -571,7 +591,8 @@
         }
       ],
       "hasCoastline": true,
-      "coastlineKm": 120,
+      "coastlineKm": 96,
+      "coastlineGeomKm": 120,
       "borders": []
     },
     "khanh-hoa": {
@@ -594,7 +615,8 @@
         }
       ],
       "hasCoastline": true,
-      "coastlineKm": 490,
+      "coastlineKm": 394,
+      "coastlineGeomKm": 490,
       "borders": []
     },
     "phu-yen": {
@@ -617,7 +639,8 @@
         }
       ],
       "hasCoastline": true,
-      "coastlineKm": 230,
+      "coastlineKm": 182,
+      "coastlineGeomKm": 230,
       "borders": []
     },
     "binh-dinh": {
@@ -636,7 +659,8 @@
         }
       ],
       "hasCoastline": true,
-      "coastlineKm": 170,
+      "coastlineKm": 134,
+      "coastlineGeomKm": 170,
       "borders": []
     },
     "quang-ngai": {
@@ -659,7 +683,8 @@
         }
       ],
       "hasCoastline": true,
-      "coastlineKm": 150,
+      "coastlineKm": 130,
+      "coastlineGeomKm": 150,
       "borders": []
     },
     "quang-nam": {
@@ -682,7 +707,8 @@
         }
       ],
       "hasCoastline": true,
-      "coastlineKm": 100,
+      "coastlineKm": 74,
+      "coastlineGeomKm": 100,
       "borders": [
         {
           "country": "LA",
@@ -703,7 +729,8 @@
         }
       ],
       "hasCoastline": true,
-      "coastlineKm": 110,
+      "coastlineKm": 81,
+      "coastlineGeomKm": 110,
       "borders": []
     },
     "hue": {
@@ -723,6 +750,7 @@
       ],
       "hasCoastline": true,
       "coastlineKm": 120,
+      "coastlineGeomKm": 120,
       "borders": [
         {
           "country": "LA",
@@ -743,7 +771,8 @@
         }
       ],
       "hasCoastline": true,
-      "coastlineKm": 70,
+      "coastlineKm": 67,
+      "coastlineGeomKm": 70,
       "borders": [
         {
           "country": "LA",
@@ -764,7 +793,8 @@
         }
       ],
       "hasCoastline": true,
-      "coastlineKm": 130,
+      "coastlineKm": 124,
+      "coastlineGeomKm": 130,
       "borders": [
         {
           "country": "LA",
@@ -785,7 +815,8 @@
         }
       ],
       "hasCoastline": true,
-      "coastlineKm": 160,
+      "coastlineKm": 137,
+      "coastlineGeomKm": 160,
       "borders": [
         {
           "country": "LA",
@@ -806,7 +837,8 @@
         }
       ],
       "hasCoastline": true,
-      "coastlineKm": 100,
+      "coastlineKm": 82,
+      "coastlineGeomKm": 100,
       "borders": [
         {
           "country": "LA",
@@ -835,7 +867,8 @@
         }
       ],
       "hasCoastline": true,
-      "coastlineKm": 110,
+      "coastlineKm": 102,
+      "coastlineGeomKm": 110,
       "borders": [
         {
           "country": "LA",
@@ -869,6 +902,7 @@
       ],
       "hasCoastline": false,
       "coastlineKm": 0,
+      "coastlineGeomKm": 0,
       "borders": [
         {
           "country": "KH",
@@ -898,6 +932,7 @@
       ],
       "hasCoastline": false,
       "coastlineKm": 0,
+      "coastlineGeomKm": 0,
       "borders": [
         {
           "country": "KH",
@@ -926,7 +961,8 @@
         }
       ],
       "hasCoastline": true,
-      "coastlineKm": 10,
+      "coastlineKm": 8,
+      "coastlineGeomKm": 10,
       "borders": []
     },
     "nam-dinh": {
@@ -945,7 +981,8 @@
         }
       ],
       "hasCoastline": true,
-      "coastlineKm": 100,
+      "coastlineKm": 80,
+      "coastlineGeomKm": 100,
       "borders": []
     },
     "ha-nam": {
@@ -977,6 +1014,7 @@
       ],
       "hasCoastline": false,
       "coastlineKm": 0,
+      "coastlineGeomKm": 0,
       "borders": []
     },
     "thai-binh": {
@@ -1003,7 +1041,8 @@
         }
       ],
       "hasCoastline": true,
-      "coastlineKm": 70,
+      "coastlineKm": 52,
+      "coastlineGeomKm": 70,
       "borders": []
     },
     "hung-yen": {
@@ -1031,6 +1070,7 @@
       ],
       "hasCoastline": false,
       "coastlineKm": 0,
+      "coastlineGeomKm": 0,
       "borders": []
     },
     "hai-duong": {
@@ -1062,6 +1102,7 @@
       ],
       "hasCoastline": false,
       "coastlineKm": 0,
+      "coastlineGeomKm": 0,
       "borders": []
     },
     "bac-ninh": {
@@ -1085,6 +1126,7 @@
       ],
       "hasCoastline": false,
       "coastlineKm": 0,
+      "coastlineGeomKm": 0,
       "borders": []
     },
     "vinh-phuc": {
@@ -1108,6 +1150,7 @@
       ],
       "hasCoastline": false,
       "coastlineKm": 0,
+      "coastlineGeomKm": 0,
       "borders": []
     },
     "phu-tho": {
@@ -1139,6 +1182,7 @@
       ],
       "hasCoastline": false,
       "coastlineKm": 0,
+      "coastlineGeomKm": 0,
       "borders": []
     },
     "bac-giang": {
@@ -1170,6 +1214,7 @@
       ],
       "hasCoastline": false,
       "coastlineKm": 0,
+      "coastlineGeomKm": 0,
       "borders": []
     },
     "quang-ninh": {
@@ -1192,7 +1237,8 @@
         }
       ],
       "hasCoastline": true,
-      "coastlineKm": 590,
+      "coastlineKm": 250,
+      "coastlineGeomKm": 590,
       "borders": [
         {
           "country": "CN",
@@ -1230,6 +1276,7 @@
       ],
       "hasCoastline": false,
       "coastlineKm": 0,
+      "coastlineGeomKm": 0,
       "borders": []
     },
     "hoa-binh": {
@@ -1261,6 +1308,7 @@
       ],
       "hasCoastline": false,
       "coastlineKm": 0,
+      "coastlineGeomKm": 0,
       "borders": []
     },
     "yen-bai": {
@@ -1292,6 +1340,7 @@
       ],
       "hasCoastline": false,
       "coastlineKm": 0,
+      "coastlineGeomKm": 0,
       "borders": []
     },
     "son-la": {
@@ -1323,6 +1372,7 @@
       ],
       "hasCoastline": false,
       "coastlineKm": 0,
+      "coastlineGeomKm": 0,
       "borders": [
         {
           "country": "LA",
@@ -1352,6 +1402,7 @@
       ],
       "hasCoastline": false,
       "coastlineKm": 0,
+      "coastlineGeomKm": 0,
       "borders": [
         {
           "country": "CN",
@@ -1373,6 +1424,7 @@
       ],
       "hasCoastline": false,
       "coastlineKm": 0,
+      "coastlineGeomKm": 0,
       "borders": [
         {
           "country": "CN",
@@ -1403,6 +1455,7 @@
       ],
       "hasCoastline": false,
       "coastlineKm": 0,
+      "coastlineGeomKm": 0,
       "borders": [
         {
           "country": "CN",
@@ -1444,6 +1497,7 @@
       ],
       "hasCoastline": false,
       "coastlineKm": 0,
+      "coastlineGeomKm": 0,
       "borders": []
     },
     "bac-kan": {
@@ -1467,6 +1521,7 @@
       ],
       "hasCoastline": false,
       "coastlineKm": 0,
+      "coastlineGeomKm": 0,
       "borders": []
     },
     "ha-giang": {
@@ -1490,6 +1545,7 @@
       ],
       "hasCoastline": false,
       "coastlineKm": 0,
+      "coastlineGeomKm": 0,
       "borders": [
         {
           "country": "CN",
@@ -1535,6 +1591,7 @@
       ],
       "hasCoastline": false,
       "coastlineKm": 0,
+      "coastlineGeomKm": 0,
       "borders": []
     },
     "binh-thuan": {
@@ -1557,7 +1614,8 @@
         }
       ],
       "hasCoastline": true,
-      "coastlineKm": 230,
+      "coastlineKm": 192,
+      "coastlineGeomKm": 230,
       "borders": []
     },
     "ba-ria-vung-tau": {
@@ -1576,7 +1634,8 @@
         }
       ],
       "hasCoastline": true,
-      "coastlineKm": 120,
+      "coastlineKm": 59,
+      "coastlineGeomKm": 120,
       "borders": []
     },
     "dong-nai": {
@@ -1608,6 +1667,7 @@
       ],
       "hasCoastline": false,
       "coastlineKm": 0,
+      "coastlineGeomKm": 0,
       "borders": []
     },
     "binh-duong": {
@@ -1631,6 +1691,7 @@
       ],
       "hasCoastline": false,
       "coastlineKm": 0,
+      "coastlineGeomKm": 0,
       "borders": []
     },
     "ho-chi-minh": {
@@ -1661,7 +1722,8 @@
         }
       ],
       "hasCoastline": true,
-      "coastlineKm": 60,
+      "coastlineKm": 30,
+      "coastlineGeomKm": 60,
       "borders": []
     },
     "lang-son": {
@@ -1689,6 +1751,7 @@
       ],
       "hasCoastline": false,
       "coastlineKm": 0,
+      "coastlineGeomKm": 0,
       "borders": [
         {
           "country": "CN",
@@ -1719,7 +1782,8 @@
         }
       ],
       "hasCoastline": true,
-      "coastlineKm": 80,
+      "coastlineKm": 72,
+      "coastlineGeomKm": 80,
       "borders": []
     },
     "an-giang": {
@@ -1738,7 +1802,8 @@
         }
       ],
       "hasCoastline": true,
-      "coastlineKm": 220,
+      "coastlineKm": 200,
+      "coastlineGeomKm": 220,
       "borders": [
         {
           "country": "KH",
@@ -1759,7 +1824,8 @@
         }
       ],
       "hasCoastline": true,
-      "coastlineKm": 200,
+      "coastlineKm": 191,
+      "coastlineGeomKm": 200,
       "borders": [
         {
           "country": "LA",
@@ -1793,6 +1859,7 @@
       ],
       "hasCoastline": false,
       "coastlineKm": 0,
+      "coastlineGeomKm": 0,
       "borders": []
     },
     "ho-chi-minh": {
@@ -1815,7 +1882,8 @@
         }
       ],
       "hasCoastline": true,
-      "coastlineKm": 180,
+      "coastlineKm": 89,
+      "coastlineGeomKm": 180,
       "borders": []
     },
     "cao-bang": {
@@ -1835,6 +1903,7 @@
       ],
       "hasCoastline": false,
       "coastlineKm": 0,
+      "coastlineGeomKm": 0,
       "borders": [
         {
           "country": "CN",
@@ -1855,7 +1924,8 @@
         }
       ],
       "hasCoastline": true,
-      "coastlineKm": 320,
+      "coastlineKm": 310,
+      "coastlineGeomKm": 320,
       "borders": []
     },
     "dong-thap": {
@@ -1882,7 +1952,8 @@
         }
       ],
       "hasCoastline": true,
-      "coastlineKm": 30,
+      "coastlineKm": 32,
+      "coastlineGeomKm": 30,
       "borders": [
         {
           "country": "KH",
@@ -1903,7 +1974,8 @@
         }
       ],
       "hasCoastline": true,
-      "coastlineKm": 170,
+      "coastlineKm": 130,
+      "coastlineGeomKm": 170,
       "borders": []
     },
     "gia-lai": {
@@ -1918,7 +1990,8 @@
         }
       ],
       "hasCoastline": true,
-      "coastlineKm": 170,
+      "coastlineKm": 134,
+      "coastlineGeomKm": 170,
       "borders": [
         {
           "country": "KH",
@@ -1943,7 +2016,8 @@
         }
       ],
       "hasCoastline": true,
-      "coastlineKm": 230,
+      "coastlineKm": 182,
+      "coastlineGeomKm": 230,
       "borders": [
         {
           "country": "KH",
@@ -1972,7 +2046,8 @@
         }
       ],
       "hasCoastline": true,
-      "coastlineKm": 230,
+      "coastlineKm": 192,
+      "coastlineGeomKm": 230,
       "borders": [
         {
           "country": "KH",
@@ -1993,7 +2068,8 @@
         }
       ],
       "hasCoastline": true,
-      "coastlineKm": 610,
+      "coastlineKm": 490,
+      "coastlineGeomKm": 610,
       "borders": []
     },
     "quang-ngai": {
@@ -2008,7 +2084,8 @@
         }
       ],
       "hasCoastline": true,
-      "coastlineKm": 150,
+      "coastlineKm": 130,
+      "coastlineGeomKm": 150,
       "borders": [
         {
           "country": "KH",
@@ -2034,7 +2111,8 @@
         }
       ],
       "hasCoastline": true,
-      "coastlineKm": 200,
+      "coastlineKm": 155,
+      "coastlineGeomKm": 200,
       "borders": [
         {
           "country": "LA",
@@ -2056,6 +2134,7 @@
       ],
       "hasCoastline": true,
       "coastlineKm": 120,
+      "coastlineGeomKm": 120,
       "borders": [
         {
           "country": "LA",
@@ -2076,7 +2155,8 @@
         }
       ],
       "hasCoastline": true,
-      "coastlineKm": 160,
+      "coastlineKm": 137,
+      "coastlineGeomKm": 160,
       "borders": [
         {
           "country": "LA",
@@ -2097,7 +2177,8 @@
         }
       ],
       "hasCoastline": true,
-      "coastlineKm": 100,
+      "coastlineKm": 82,
+      "coastlineGeomKm": 100,
       "borders": [
         {
           "country": "LA",
@@ -2126,7 +2207,8 @@
         }
       ],
       "hasCoastline": true,
-      "coastlineKm": 110,
+      "coastlineKm": 102,
+      "coastlineGeomKm": 110,
       "borders": [
         {
           "country": "LA",
@@ -2152,6 +2234,7 @@
       ],
       "hasCoastline": false,
       "coastlineKm": 0,
+      "coastlineGeomKm": 0,
       "borders": [
         {
           "country": "KH",
@@ -2180,7 +2263,8 @@
         }
       ],
       "hasCoastline": true,
-      "coastlineKm": 110,
+      "coastlineKm": 88,
+      "coastlineGeomKm": 110,
       "borders": []
     },
     "hung-yen": {
@@ -2203,7 +2287,8 @@
         }
       ],
       "hasCoastline": true,
-      "coastlineKm": 70,
+      "coastlineKm": 52,
+      "coastlineGeomKm": 70,
       "borders": []
     },
     "hai-phong": {
@@ -2222,7 +2307,8 @@
         }
       ],
       "hasCoastline": true,
-      "coastlineKm": 90,
+      "coastlineKm": 125,
+      "coastlineGeomKm": 90,
       "borders": []
     },
     "bac-ninh": {
@@ -2254,6 +2340,7 @@
       ],
       "hasCoastline": false,
       "coastlineKm": 0,
+      "coastlineGeomKm": 0,
       "borders": []
     },
     "phu-tho": {
@@ -2289,6 +2376,7 @@
       ],
       "hasCoastline": false,
       "coastlineKm": 0,
+      "coastlineGeomKm": 0,
       "borders": []
     },
     "quang-ninh": {
@@ -2307,7 +2395,8 @@
         }
       ],
       "hasCoastline": true,
-      "coastlineKm": 590,
+      "coastlineKm": 250,
+      "coastlineGeomKm": 590,
       "borders": [
         {
           "country": "CN",
@@ -2345,6 +2434,7 @@
       ],
       "hasCoastline": false,
       "coastlineKm": 0,
+      "coastlineGeomKm": 0,
       "borders": []
     },
     "son-la": {
@@ -2372,6 +2462,7 @@
       ],
       "hasCoastline": false,
       "coastlineKm": 0,
+      "coastlineGeomKm": 0,
       "borders": [
         {
           "country": "LA",
@@ -2397,6 +2488,7 @@
       ],
       "hasCoastline": false,
       "coastlineKm": 0,
+      "coastlineGeomKm": 0,
       "borders": [
         {
           "country": "CN",
@@ -2418,6 +2510,7 @@
       ],
       "hasCoastline": false,
       "coastlineKm": 0,
+      "coastlineGeomKm": 0,
       "borders": [
         {
           "country": "CN",
@@ -2452,6 +2545,7 @@
       ],
       "hasCoastline": false,
       "coastlineKm": 0,
+      "coastlineGeomKm": 0,
       "borders": [
         {
           "country": "CN",
@@ -2481,6 +2575,7 @@
       ],
       "hasCoastline": false,
       "coastlineKm": 0,
+      "coastlineGeomKm": 0,
       "borders": [
         {
           "country": "CN",
@@ -2506,6 +2601,7 @@
       ],
       "hasCoastline": false,
       "coastlineKm": 0,
+      "coastlineGeomKm": 0,
       "borders": [
         {
           "country": "KH",
@@ -2535,6 +2631,7 @@
       ],
       "hasCoastline": false,
       "coastlineKm": 0,
+      "coastlineGeomKm": 0,
       "borders": [
         {
           "country": "CN",

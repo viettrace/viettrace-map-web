@@ -1,3 +1,4 @@
+import { readFileSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createSlug, readJson, writeJson } from './province-index-utils.mjs';
@@ -7,10 +8,11 @@ import { createSlug, readJson, writeJson } from './province-index-utils.mjs';
 //   - Neighbors: two provinces are adjacent iff their DISPLAY polygons share ≥1 boundary edge
 //     (identical OSM vertices along shared borders). Direction = bearing from the province centroid
 //     to the midpoint of the shared border, bucketed N/E/S/W.
-//   - Coastline: a province boundary edge that lies on the OSM land-mask boundary is coast (land
-//     borders are interior to the mask, so they're excluded). Length = haversine sum over those
-//     edges, rounded (≈, generalization-dependent). Uses the same `.data` land-clip inputs as the
-//     area statistic (git-ignored, reproducible; must be present locally to regenerate).
+//   - Coastline: DISPLAYED length uses OFFICIAL figures (coastline is resolution-dependent — the
+//     coastline paradox — so a full-detail OSM sum runs far longer than published figures). Post-2025
+//     = curated official value; pre-2025 = that post total split across its coastal components in
+//     proportion to their geometry coastline (P1). The raw OSM-geometry length (mainland only, island
+//     shorelines excluded) is kept as coastlineGeomKm for cross-check. hasCoastline is geometry-based.
 // Deterministic output (hardcoded lastUpdated) so re-runs don't dirty the tree.
 
 const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -49,6 +51,12 @@ const LAND = {
   post: path.join(dataRoot, '.data', 'processed', 'land-clip', 'vn_post_2025_display_land.geojson'),
 };
 const MASK = path.join(dataRoot, '.data', 'processed', 'land-clip', 'vn_land_mask.geojson');
+
+// Curated OFFICIAL mainland coastline (km) for the 21 coastal post-2025 provinces (Vietnamese
+// Wikipedia; committed reference). Displayed coastline uses these — a full-detail geometry sum runs
+// far longer (coastline paradox). Pre-2025 provinces get the official post total split across their
+// coastal components in proportion to geometry (P1) — no consistent published pre-2025 table exists.
+const COASTLINE_CSV = path.join(dataRoot, 'raw', 'coastline', 'vn_coastline_post_2025.csv');
 
 // ---- geometry primitives (shared with build-nested-interior-boundaries.mjs) ----
 const ptKey = c => `${c[0].toFixed(6)},${c[1].toFixed(6)}`;
@@ -215,7 +223,13 @@ function buildMode(mode, centerBySlug, maskEdges, countries) {
         edges.add(edgeKey(ptKey(ring[i]), ptKey(ring[i + 1])));
     }
     edgesBySlug.set(slug, edges);
-    result[slug] = { neighbors: [], hasCoastline: false, coastlineKm: 0, borders: [] };
+    result[slug] = {
+      neighbors: [],
+      hasCoastline: false,
+      coastlineKm: 0,
+      coastlineGeomKm: 0,
+      borders: [],
+    };
   }
 
   const slugs = [...edgesBySlug.keys()];
@@ -284,7 +298,9 @@ function buildMode(mode, centerBySlug, maskEdges, countries) {
       }
     }
     result[slug].hasCoastline = coastKm >= COAST_MIN_KM;
-    result[slug].coastlineKm = result[slug].hasCoastline ? Math.round(coastKm / 10) * 10 : 0;
+    // Raw geometry length (mainland) — cross-check only; the displayed coastlineKm is set from the
+    // curated official figures + proportional pre split in the run step below (P1).
+    result[slug].coastlineGeomKm = result[slug].hasCoastline ? Math.round(coastKm / 10) * 10 : 0;
 
     const center = centerBySlug.get(slug);
     const borders = [];
@@ -316,6 +332,50 @@ function buildMode(mode, centerBySlug, maskEdges, countries) {
   return result;
 }
 
+// Curated official post-2025 coastline (km), keyed by post slug.
+function loadOfficialPostCoastline() {
+  const text = readFileSync(COASTLINE_CSV, 'utf8');
+  const map = {};
+  for (const line of text.split(/\r?\n/).slice(1)) {
+    if (!line.trim()) continue;
+    const parts = line.split(',');
+    const slug = parts[0].trim();
+    const km = Number(parts[parts.length - 1]);
+    if (slug && Number.isFinite(km)) map[slug] = km;
+  }
+  return map;
+}
+
+// Overwrite each province's displayed coastlineKm with the official figures (P1): post = the curated
+// value; pre = the post total split across its coastal pre-components in proportion to their
+// geometry coastline (so pre sums to the official post total and is anchored to real shape).
+function applyOfficialCoastline(output) {
+  const officialPost = loadOfficialPostCoastline();
+  const recon = readJson(path.join(publicDataRoot, 'province-reconciliation.json'));
+  const preComponentsByPost = {};
+  for (const [preSlug, info] of Object.entries(recon.pre)) {
+    (preComponentsByPost[info.newSlug] ??= []).push(preSlug);
+  }
+  for (const [slug, entry] of Object.entries(output.post)) {
+    const km = officialPost[slug] ?? 0;
+    entry.coastlineKm = km;
+    entry.hasCoastline = km > 0;
+  }
+  for (const [preSlug, entry] of Object.entries(output.pre)) {
+    const postSlug = recon.pre[preSlug]?.newSlug;
+    const official = postSlug ? officialPost[postSlug] : undefined;
+    if (!official || !entry.hasCoastline) {
+      entry.coastlineKm = 0;
+      continue;
+    }
+    const coastalComps = (preComponentsByPost[postSlug] ?? []).filter(
+      s => output.pre[s]?.hasCoastline,
+    );
+    const sumGeom = coastalComps.reduce((s, cs) => s + (output.pre[cs]?.coastlineGeomKm ?? 0), 0);
+    entry.coastlineKm = sumGeom > 0 ? Math.round((official * entry.coastlineGeomKm) / sumGeom) : 0;
+  }
+}
+
 // ---- run ----
 const index = readJson(path.join(publicDataRoot, 'province-index.json'));
 const centerBy = { pre: new Map(), post: new Map() };
@@ -325,7 +385,7 @@ const maskEdges = collectEdgeKeys(readJson(MASK));
 const countries = loadNeighborCountries();
 
 const output = {
-  schemaVersion: 2,
+  schemaVersion: 3,
   lastUpdated: LAST_UPDATED,
   sources: {
     neighbors: {
@@ -336,9 +396,9 @@ const output = {
     },
     coastline: {
       method:
-        'province land-clipped boundary edges on the OSM land-mask boundary; length = haversine sum, rounded to 10 km (approximate)',
+        'official mainland coastline — post-2025 = curated figure; pre-2025 = post total split across coastal components in proportion to geometry coastline (P1). coastlineGeomKm = raw OSM-geometry length (mainland), cross-check only; it runs longer (coastline paradox)',
       input:
-        'viettrace-data/.data/processed/land-clip/vn_{pre,post}_2025_display_land.geojson + vn_land_mask.geojson (© OpenStreetMap contributors, ODbL)',
+        'viettrace-data/raw/coastline/vn_coastline_post_2025.csv (official figures via Wikipedia) + province-reconciliation.json + land-clip geometry (© OpenStreetMap contributors, ODbL)',
     },
     borders: {
       method:
@@ -351,6 +411,8 @@ const output = {
   post: buildMode('post', centerBy.post, maskEdges, countries),
 };
 
+applyOfficialCoastline(output);
+
 const outputPath = path.join(publicDataRoot, 'province-geography.json');
 writeJson(outputPath, output);
 
@@ -358,8 +420,9 @@ const summarize = m => {
   const rows = Object.values(output[m]);
   const coast = rows.filter(r => r.hasCoastline).length;
   const intl = rows.filter(r => (r.borders?.length ?? 0) > 0).length;
+  const km = rows.reduce((s, r) => s + (r.coastlineKm ?? 0), 0);
   const avgN = (rows.reduce((s, r) => s + r.neighbors.length, 0) / rows.length).toFixed(1);
-  return `${m}: ${rows.length} provinces, ${coast} coastal, ${intl} with intl borders, avg ${avgN} neighbors`;
+  return `${m}: ${rows.length} provinces, ${coast} coastal (Σ ${km} km), ${intl} with intl borders, avg ${avgN} neighbors`;
 };
 console.log(`Wrote geography -> ${outputPath}`);
 console.log('  ' + summarize('pre'));
