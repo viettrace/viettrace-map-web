@@ -1,5 +1,15 @@
 # Changelog
 
+## <small>0.3.2 (2026-07-05)</small>
+
+* feat: add GRDP and GRDP per capita data to province statistics and update related components ([41ce009](https://github.com/viettrace/viettrace-map-web/commit/41ce009))
+* feat: add GRDP data for 2024 to province statistics generation ([3f5a6a0](https://github.com/viettrace/viettrace-map-web/commit/3f5a6a0))
+* feat: add ProvinceProfileView component and related data structures ([e8339ed](https://github.com/viettrace/viettrace-map-web/commit/e8339ed))
+* feat: enhance navigation in ProvinceProfileView and add map link in ProvinceMiniMap ([e146ad9](https://github.com/viettrace/viettrace-map-web/commit/e146ad9))
+* feat: implement choropleth visualization for province statistics and enhance color mode options ([7fe8671](https://github.com/viettrace/viettrace-map-web/commit/7fe8671))
+* feat: unify label colors and outlines for data choropleth visualization ([2c87ad7](https://github.com/viettrace/viettrace-map-web/commit/2c87ad7))
+* feat: update province geography data structure to include coastline geometry and official figures ([fb6cdbf](https://github.com/viettrace/viettrace-map-web/commit/fb6cdbf))
+
 ## <small>0.3.1 (2026-07-04)</small>
 
 * feat: add province statistics section and update related components for enhanced data visualization ([6181b46](https://github.com/viettrace/viettrace-map-web/commit/6181b46))
