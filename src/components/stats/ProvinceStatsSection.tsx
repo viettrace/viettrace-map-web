@@ -7,7 +7,7 @@ import type { ProvinceStatRow } from '@src/libs/data/stats';
 import { StatsCountUp } from './StatsCountUp';
 
 type Mode = 'pre' | 'post';
-type SortKey = 'population' | 'area' | 'density';
+type SortKey = 'population' | 'area' | 'density' | 'grdp' | 'grdpPerCapita';
 type SortDir = 'asc' | 'desc';
 
 type ProvinceStatsSectionProps = {
@@ -16,6 +16,7 @@ type ProvinceStatsSectionProps = {
   nationalPopulation: number;
   nationalArea: number;
   nationalDensity: number;
+  nationalGrdp: number;
   populationYear: number;
 };
 
@@ -25,6 +26,7 @@ export function ProvinceStatsSection({
   nationalPopulation,
   nationalArea,
   nationalDensity,
+  nationalGrdp,
   populationYear,
 }: ProvinceStatsSectionProps) {
   const t = useTranslations('Stats');
@@ -76,7 +78,7 @@ export function ProvinceStatsSection({
   return (
     <div className="space-y-8">
       {/* National totals */}
-      <div className="grid gap-6 md:grid-cols-3">
+      <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
         <TotalCard label={t('totalPopulation', { year: populationYear })} accent="blue">
           <StatsCountUp to={nationalPopulation} format={n => nf.format(n)} />
         </TotalCard>
@@ -90,6 +92,12 @@ export function ProvinceStatsSection({
           <StatsCountUp to={nationalDensity} format={n => nf.format(n)} />
           <span className="ml-1 text-xl font-medium text-slate-400 dark:text-slate-500">
             {t('densityUnit')}
+          </span>
+        </TotalCard>
+        <TotalCard label={t('totalGrdp', { year: populationYear })} accent="violet">
+          <StatsCountUp to={Math.round(nationalGrdp)} format={n => nf.format(n)} />
+          <span className="ml-1 text-xl font-medium text-slate-400 dark:text-slate-500">
+            {t('grdpUnit')}
           </span>
         </TotalCard>
       </div>
@@ -145,7 +153,7 @@ export function ProvinceStatsSection({
 
       {/* Sortable table */}
       <div className="overflow-x-auto rounded-xl border border-slate-200 bg-white shadow-sm dark:border-slate-800 dark:bg-slate-900">
-        <table className="w-full min-w-[34rem] text-sm">
+        <table className="w-full min-w-[46rem] text-sm">
           <thead>
             <tr className="border-b border-slate-200 text-left text-xs uppercase tracking-wide text-slate-500 dark:border-slate-700 dark:text-slate-400">
               <th scope="col" className="w-10 px-3 py-2.5 text-right font-medium">
@@ -171,6 +179,18 @@ export function ProvinceStatsSection({
                 active={sortKey === 'density'}
                 dir={sortDir}
                 onClick={() => toggleSort('density')}
+              />
+              <SortableHeader
+                label={t('colGrdp')}
+                active={sortKey === 'grdp'}
+                dir={sortDir}
+                onClick={() => toggleSort('grdp')}
+              />
+              <SortableHeader
+                label={t('colGrdpPerCapita')}
+                active={sortKey === 'grdpPerCapita'}
+                dir={sortDir}
+                onClick={() => toggleSort('grdpPerCapita')}
               />
             </tr>
           </thead>
@@ -200,6 +220,12 @@ export function ProvinceStatsSection({
                 <td className="px-3 py-2 text-right tabular-nums text-slate-700 dark:text-slate-300">
                   {nf1.format(row.density)}
                 </td>
+                <td className="px-3 py-2 text-right tabular-nums text-slate-700 dark:text-slate-300">
+                  {nf.format(Math.round(row.grdp))}
+                </td>
+                <td className="px-3 py-2 text-right tabular-nums text-slate-700 dark:text-slate-300">
+                  {nf1.format(row.grdpPerCapita)}
+                </td>
               </tr>
             ))}
           </tbody>
@@ -222,13 +248,14 @@ function TotalCard({
   children,
 }: {
   label: string;
-  accent: 'blue' | 'emerald' | 'amber';
+  accent: 'blue' | 'emerald' | 'amber' | 'violet';
   children: React.ReactNode;
 }) {
   const accentClasses = {
     blue: 'text-blue-600 dark:text-blue-400',
     emerald: 'text-emerald-600 dark:text-emerald-400',
     amber: 'text-amber-600 dark:text-amber-400',
+    violet: 'text-violet-600 dark:text-violet-400',
   };
 
   return (

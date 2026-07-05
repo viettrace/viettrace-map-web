@@ -95,6 +95,8 @@ type ProvinceStatEntryRaw = {
   population: StatValue;
   area_km2: StatValue;
   density: StatValue;
+  grdp?: StatValue;
+  grdp_per_capita?: StatValue;
   components?: string[];
 };
 
@@ -103,6 +105,7 @@ type ProvinceStatisticsRaw = {
   lastUpdated: string;
   nationalTotalPopulation: number;
   nationalTotalArea: number;
+  nationalTotalGrdp: number;
   indicators?: { population?: { year?: number } };
   pre: Record<string, ProvinceStatEntryRaw>;
   post: Record<string, ProvinceStatEntryRaw>;
@@ -115,13 +118,16 @@ export type ProvinceStatRow = {
   population: number;
   area: number; // official area, km²
   density: number; // people per km²
-  derived: boolean; // true when population/area are summed (post-2025 units)
+  grdp: number; // GRDP at current prices, tỷ đồng (billion VND)
+  grdpPerCapita: number; // GRDP per capita, triệu đồng (million VND)
+  derived: boolean; // true when population/area/GRDP are summed (post-2025 units)
 };
 
 export type ProvinceStatistics = {
   nationalPopulation: number;
   nationalArea: number;
   nationalDensity: number; // people per km² (population / area, rounded)
+  nationalGrdp: number; // total GRDP, tỷ đồng
   populationYear: number;
   lastUpdated: string;
   pre: ProvinceStatRow[]; // 63 rows, sorted by population desc
@@ -172,6 +178,8 @@ export async function getProvinceStatistics(
           population: entry.population.value,
           area: entry.area_km2.value,
           density: entry.density.value,
+          grdp: entry.grdp?.value ?? 0,
+          grdpPerCapita: entry.grdp_per_capita?.value ?? 0,
           derived: Boolean(entry.population.derived || entry.area_km2.derived),
         };
       })
@@ -184,6 +192,7 @@ export async function getProvinceStatistics(
     nationalPopulation,
     nationalArea,
     nationalDensity: Math.round(nationalPopulation / nationalArea),
+    nationalGrdp: statsRaw.nationalTotalGrdp,
     populationYear: statsRaw.indicators?.population?.year ?? 2024,
     lastUpdated: statsRaw.lastUpdated,
     pre: buildRows(statsRaw.pre, 'pre'),

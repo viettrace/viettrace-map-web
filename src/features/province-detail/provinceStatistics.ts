@@ -17,6 +17,8 @@ export interface ProvinceStatEntry {
   area_km2: ProvinceStatValue;
   area_km2_computed?: ProvinceStatValue;
   density: ProvinceStatValue;
+  grdp?: ProvinceStatValue;
+  grdp_per_capita?: ProvinceStatValue;
   components?: string[];
 }
 

@@ -116,25 +116,42 @@ export default function ProvinceDetailPanel({ entry, onClose, allEntries = [] }:
             <h3 className="text-xs font-semibold uppercase tracking-normal text-slate-500">
               {t('detailStatsTitle')}
             </h3>
-            <dl className="mt-2 grid grid-cols-3 gap-3">
-              <div>
-                <dt className="text-xs text-slate-500">{t('detailStatPopulation')}</dt>
-                <dd className="font-medium text-slate-950">
+            <dl className="mt-2 divide-y divide-slate-100">
+              <div className="flex items-baseline justify-between gap-4 py-1.5">
+                <dt className="text-slate-500">{t('detailStatPopulation')}</dt>
+                <dd className="text-right font-medium tabular-nums text-slate-950">
                   {numberFormat.format(stats.population.value)}
                 </dd>
               </div>
-              <div>
-                <dt className="text-xs text-slate-500">{t('detailStatArea')}</dt>
-                <dd className="font-medium text-slate-950">
+              <div className="flex items-baseline justify-between gap-4 py-1.5">
+                <dt className="text-slate-500">{t('detailStatArea')}</dt>
+                <dd className="text-right font-medium tabular-nums text-slate-950">
                   {numberFormat.format(stats.area_km2.value)} km²
                 </dd>
               </div>
-              <div>
-                <dt className="text-xs text-slate-500">{t('detailStatDensity')}</dt>
-                <dd className="font-medium text-slate-950">
+              <div className="flex items-baseline justify-between gap-4 py-1.5">
+                <dt className="text-slate-500">{t('detailStatDensity')}</dt>
+                <dd className="text-right font-medium tabular-nums text-slate-950">
                   {numberFormat.format(stats.density.value)} {t('detailStatDensityUnit')}
                 </dd>
               </div>
+              {stats.grdp && (
+                <div className="flex items-baseline justify-between gap-4 py-1.5">
+                  <dt className="text-slate-500">{t('detailStatGrdp')}</dt>
+                  <dd className="text-right font-medium tabular-nums text-slate-950">
+                    {numberFormat.format(stats.grdp.value)} {t('detailStatGrdpUnit')}
+                  </dd>
+                </div>
+              )}
+              {stats.grdp_per_capita && (
+                <div className="flex items-baseline justify-between gap-4 py-1.5">
+                  <dt className="text-slate-500">{t('detailStatGrdpPerCapita')}</dt>
+                  <dd className="text-right font-medium tabular-nums text-slate-950">
+                    {numberFormat.format(stats.grdp_per_capita.value)}{' '}
+                    {t('detailStatGrdpPerCapitaUnit')}
+                  </dd>
+                </div>
+              )}
             </dl>
             {stats.population.derived && (
               <p className="mt-2 text-xs text-slate-400">{t('detailStatDerived')}</p>
