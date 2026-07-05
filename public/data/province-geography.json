@@ -1,0 +1,2547 @@
+{
+  "schemaVersion": 2,
+  "lastUpdated": "2026-07-05",
+  "sources": {
+    "neighbors": {
+      "method": "shared boundary edge between province display polygons; direction = centroid → shared-border midpoint bearing (8 compass directions)",
+      "input": "viettrace-data/processed/provinces/vn_{pre,post}_2025_display.geojson (© OpenStreetMap contributors, ODbL)"
+    },
+    "coastline": {
+      "method": "province land-clipped boundary edges on the OSM land-mask boundary; length = haversine sum, rounded to 10 km (approximate)",
+      "input": "viettrace-data/.data/processed/land-clip/vn_{pre,post}_2025_display_land.geojson + vn_land_mask.geojson (© OpenStreetMap contributors, ODbL)"
+    },
+    "borders": {
+      "method": "international land-border edges (province boundary edges neither shared with another VN province nor on the land-mask boundary) attributed to the nearest neighbour country; direction = centroid → mean border-edge bearing (8 compass directions)",
+      "input": "Natural Earth 1:10m admin-0 countries (public domain, \"Made with Natural Earth\") — CN/LA/KH within the VN border window"
+    }
+  },
+  "pre": {
+    "hai-phong": {
+      "neighbors": [
+        {
+          "slug": "quang-ninh",
+          "direction": "NE"
+        },
+        {
+          "slug": "thai-binh",
+          "direction": "SW"
+        },
+        {
+          "slug": "hai-duong",
+          "direction": "W"
+        }
+      ],
+      "hasCoastline": true,
+      "coastlineKm": 90,
+      "borders": []
+    },
+    "cao-bang": {
+      "neighbors": [
+        {
+          "slug": "lang-son",
+          "direction": "SE"
+        },
+        {
+          "slug": "bac-kan",
+          "direction": "SW"
+        },
+        {
+          "slug": "ha-giang",
+          "direction": "W"
+        },
+        {
+          "slug": "tuyen-quang",
+          "direction": "W"
+        }
+      ],
+      "hasCoastline": false,
+      "coastlineKm": 0,
+      "borders": [
+        {
+          "country": "CN",
+          "direction": "E",
+          "km": 320
+        }
+      ]
+    },
+    "ca-mau": {
+      "neighbors": [
+        {
+          "slug": "kien-giang",
+          "direction": "N"
+        },
+        {
+          "slug": "bac-lieu",
+          "direction": "NE"
+        }
+      ],
+      "hasCoastline": true,
+      "coastlineKm": 270,
+      "borders": []
+    },
+    "bac-lieu": {
+      "neighbors": [
+        {
+          "slug": "soc-trang",
+          "direction": "E"
+        },
+        {
+          "slug": "hau-giang",
+          "direction": "N"
+        },
+        {
+          "slug": "kien-giang",
+          "direction": "NW"
+        },
+        {
+          "slug": "ca-mau",
+          "direction": "SW"
+        }
+      ],
+      "hasCoastline": true,
+      "coastlineKm": 50,
+      "borders": []
+    },
+    "soc-trang": {
+      "neighbors": [
+        {
+          "slug": "vinh-long",
+          "direction": "N"
+        },
+        {
+          "slug": "tra-vinh",
+          "direction": "NE"
+        },
+        {
+          "slug": "hau-giang",
+          "direction": "NW"
+        },
+        {
+          "slug": "bac-lieu",
+          "direction": "SW"
+        }
+      ],
+      "hasCoastline": true,
+      "coastlineKm": 80,
+      "borders": []
+    },
+    "tra-vinh": {
+      "neighbors": [
+        {
+          "slug": "ben-tre",
+          "direction": "NE"
+        },
+        {
+          "slug": "vinh-long",
+          "direction": "NW"
+        },
+        {
+          "slug": "soc-trang",
+          "direction": "SW"
+        }
+      ],
+      "hasCoastline": true,
+      "coastlineKm": 90,
+      "borders": []
+    },
+    "hau-giang": {
+      "neighbors": [
+        {
+          "slug": "can-tho",
+          "direction": "N"
+        },
+        {
+          "slug": "vinh-long",
+          "direction": "NE"
+        },
+        {
+          "slug": "soc-trang",
+          "direction": "SE"
+        },
+        {
+          "slug": "bac-lieu",
+          "direction": "SW"
+        },
+        {
+          "slug": "kien-giang",
+          "direction": "W"
+        }
+      ],
+      "hasCoastline": false,
+      "coastlineKm": 0,
+      "borders": []
+    },
+    "can-tho": {
+      "neighbors": [
+        {
+          "slug": "vinh-long",
+          "direction": "E"
+        },
+        {
+          "slug": "dong-thap",
+          "direction": "N"
+        },
+        {
+          "slug": "an-giang",
+          "direction": "NW"
+        },
+        {
+          "slug": "hau-giang",
+          "direction": "SE"
+        },
+        {
+          "slug": "kien-giang",
+          "direction": "W"
+        }
+      ],
+      "hasCoastline": false,
+      "coastlineKm": 0,
+      "borders": []
+    },
+    "kien-giang": {
+      "neighbors": [
+        {
+          "slug": "can-tho",
+          "direction": "NE"
+        },
+        {
+          "slug": "an-giang",
+          "direction": "NW"
+        },
+        {
+          "slug": "bac-lieu",
+          "direction": "S"
+        },
+        {
+          "slug": "hau-giang",
+          "direction": "SE"
+        },
+        {
+          "slug": "ca-mau",
+          "direction": "SW"
+        }
+      ],
+      "hasCoastline": true,
+      "coastlineKm": 220,
+      "borders": [
+        {
+          "country": "KH",
+          "direction": "NW",
+          "km": 50
+        }
+      ]
+    },
+    "an-giang": {
+      "neighbors": [
+        {
+          "slug": "dong-thap",
+          "direction": "E"
+        },
+        {
+          "slug": "can-tho",
+          "direction": "SE"
+        },
+        {
+          "slug": "kien-giang",
+          "direction": "SW"
+        }
+      ],
+      "hasCoastline": false,
+      "coastlineKm": 0,
+      "borders": [
+        {
+          "country": "KH",
+          "direction": "NW",
+          "km": 100
+        }
+      ]
+    },
+    "dong-thap": {
+      "neighbors": [
+        {
+          "slug": "long-an",
+          "direction": "N"
+        },
+        {
+          "slug": "can-tho",
+          "direction": "S"
+        },
+        {
+          "slug": "tien-giang",
+          "direction": "SE"
+        },
+        {
+          "slug": "vinh-long",
+          "direction": "SE"
+        },
+        {
+          "slug": "an-giang",
+          "direction": "W"
+        }
+      ],
+      "hasCoastline": false,
+      "coastlineKm": 0,
+      "borders": [
+        {
+          "country": "KH",
+          "direction": "NW",
+          "km": 50
+        }
+      ]
+    },
+    "vinh-long": {
+      "neighbors": [
+        {
+          "slug": "tien-giang",
+          "direction": "N"
+        },
+        {
+          "slug": "ben-tre",
+          "direction": "NE"
+        },
+        {
+          "slug": "dong-thap",
+          "direction": "NW"
+        },
+        {
+          "slug": "soc-trang",
+          "direction": "S"
+        },
+        {
+          "slug": "tra-vinh",
+          "direction": "SE"
+        },
+        {
+          "slug": "hau-giang",
+          "direction": "SW"
+        },
+        {
+          "slug": "can-tho",
+          "direction": "W"
+        }
+      ],
+      "hasCoastline": false,
+      "coastlineKm": 0,
+      "borders": []
+    },
+    "ben-tre": {
+      "neighbors": [
+        {
+          "slug": "tien-giang",
+          "direction": "NW"
+        },
+        {
+          "slug": "tra-vinh",
+          "direction": "S"
+        },
+        {
+          "slug": "vinh-long",
+          "direction": "W"
+        }
+      ],
+      "hasCoastline": true,
+      "coastlineKm": 80,
+      "borders": []
+    },
+    "tien-giang": {
+      "neighbors": [
+        {
+          "slug": "ho-chi-minh",
+          "direction": "E"
+        },
+        {
+          "slug": "long-an",
+          "direction": "NE"
+        },
+        {
+          "slug": "ben-tre",
+          "direction": "S"
+        },
+        {
+          "slug": "dong-thap",
+          "direction": "W"
+        },
+        {
+          "slug": "vinh-long",
+          "direction": "W"
+        }
+      ],
+      "hasCoastline": true,
+      "coastlineKm": 30,
+      "borders": []
+    },
+    "long-an": {
+      "neighbors": [
+        {
+          "slug": "ho-chi-minh",
+          "direction": "E"
+        },
+        {
+          "slug": "tay-ninh",
+          "direction": "N"
+        },
+        {
+          "slug": "tien-giang",
+          "direction": "SE"
+        },
+        {
+          "slug": "dong-thap",
+          "direction": "W"
+        }
+      ],
+      "hasCoastline": false,
+      "coastlineKm": 0,
+      "borders": [
+        {
+          "country": "KH",
+          "direction": "NW",
+          "km": 130
+        }
+      ]
+    },
+    "kon-tum": {
+      "neighbors": [
+        {
+          "slug": "quang-ngai",
+          "direction": "E"
+        },
+        {
+          "slug": "quang-nam",
+          "direction": "N"
+        },
+        {
+          "slug": "gia-lai",
+          "direction": "S"
+        }
+      ],
+      "hasCoastline": false,
+      "coastlineKm": 0,
+      "borders": [
+        {
+          "country": "LA",
+          "direction": "NW",
+          "km": 150
+        },
+        {
+          "country": "KH",
+          "direction": "SW",
+          "km": 130
+        }
+      ]
+    },
+    "gia-lai": {
+      "neighbors": [
+        {
+          "slug": "kon-tum",
+          "direction": "N"
+        },
+        {
+          "slug": "binh-dinh",
+          "direction": "NE"
+        },
+        {
+          "slug": "quang-ngai",
+          "direction": "NE"
+        },
+        {
+          "slug": "dak-lak",
+          "direction": "S"
+        },
+        {
+          "slug": "phu-yen",
+          "direction": "SE"
+        }
+      ],
+      "hasCoastline": false,
+      "coastlineKm": 0,
+      "borders": [
+        {
+          "country": "KH",
+          "direction": "W",
+          "km": 80
+        }
+      ]
+    },
+    "dak-lak": {
+      "neighbors": [
+        {
+          "slug": "phu-yen",
+          "direction": "E"
+        },
+        {
+          "slug": "gia-lai",
+          "direction": "N"
+        },
+        {
+          "slug": "lam-dong",
+          "direction": "S"
+        },
+        {
+          "slug": "khanh-hoa",
+          "direction": "SE"
+        },
+        {
+          "slug": "dak-nong",
+          "direction": "SW"
+        }
+      ],
+      "hasCoastline": false,
+      "coastlineKm": 0,
+      "borders": [
+        {
+          "country": "KH",
+          "direction": "W",
+          "km": 70
+        }
+      ]
+    },
+    "dak-nong": {
+      "neighbors": [
+        {
+          "slug": "dak-lak",
+          "direction": "NE"
+        },
+        {
+          "slug": "lam-dong",
+          "direction": "SE"
+        },
+        {
+          "slug": "binh-phuoc",
+          "direction": "SW"
+        }
+      ],
+      "hasCoastline": false,
+      "coastlineKm": 0,
+      "borders": [
+        {
+          "country": "KH",
+          "direction": "NW",
+          "km": 140
+        }
+      ]
+    },
+    "lam-dong": {
+      "neighbors": [
+        {
+          "slug": "ninh-thuan",
+          "direction": "E"
+        },
+        {
+          "slug": "dak-lak",
+          "direction": "NE"
+        },
+        {
+          "slug": "khanh-hoa",
+          "direction": "NE"
+        },
+        {
+          "slug": "dak-nong",
+          "direction": "NW"
+        },
+        {
+          "slug": "binh-thuan",
+          "direction": "S"
+        },
+        {
+          "slug": "binh-phuoc",
+          "direction": "W"
+        },
+        {
+          "slug": "dong-nai",
+          "direction": "W"
+        }
+      ],
+      "hasCoastline": false,
+      "coastlineKm": 0,
+      "borders": []
+    },
+    "ninh-thuan": {
+      "neighbors": [
+        {
+          "slug": "khanh-hoa",
+          "direction": "N"
+        },
+        {
+          "slug": "lam-dong",
+          "direction": "NW"
+        },
+        {
+          "slug": "binh-thuan",
+          "direction": "S"
+        }
+      ],
+      "hasCoastline": true,
+      "coastlineKm": 120,
+      "borders": []
+    },
+    "khanh-hoa": {
+      "neighbors": [
+        {
+          "slug": "phu-yen",
+          "direction": "N"
+        },
+        {
+          "slug": "dak-lak",
+          "direction": "NW"
+        },
+        {
+          "slug": "ninh-thuan",
+          "direction": "SW"
+        },
+        {
+          "slug": "lam-dong",
+          "direction": "W"
+        }
+      ],
+      "hasCoastline": true,
+      "coastlineKm": 490,
+      "borders": []
+    },
+    "phu-yen": {
+      "neighbors": [
+        {
+          "slug": "binh-dinh",
+          "direction": "N"
+        },
+        {
+          "slug": "gia-lai",
+          "direction": "NW"
+        },
+        {
+          "slug": "khanh-hoa",
+          "direction": "S"
+        },
+        {
+          "slug": "dak-lak",
+          "direction": "SW"
+        }
+      ],
+      "hasCoastline": true,
+      "coastlineKm": 230,
+      "borders": []
+    },
+    "binh-dinh": {
+      "neighbors": [
+        {
+          "slug": "quang-ngai",
+          "direction": "N"
+        },
+        {
+          "slug": "phu-yen",
+          "direction": "S"
+        },
+        {
+          "slug": "gia-lai",
+          "direction": "W"
+        }
+      ],
+      "hasCoastline": true,
+      "coastlineKm": 170,
+      "borders": []
+    },
+    "quang-ngai": {
+      "neighbors": [
+        {
+          "slug": "quang-nam",
+          "direction": "NW"
+        },
+        {
+          "slug": "gia-lai",
+          "direction": "S"
+        },
+        {
+          "slug": "binh-dinh",
+          "direction": "SE"
+        },
+        {
+          "slug": "kon-tum",
+          "direction": "SW"
+        }
+      ],
+      "hasCoastline": true,
+      "coastlineKm": 150,
+      "borders": []
+    },
+    "quang-nam": {
+      "neighbors": [
+        {
+          "slug": "da-nang",
+          "direction": "N"
+        },
+        {
+          "slug": "hue",
+          "direction": "NW"
+        },
+        {
+          "slug": "quang-ngai",
+          "direction": "SE"
+        },
+        {
+          "slug": "kon-tum",
+          "direction": "SW"
+        }
+      ],
+      "hasCoastline": true,
+      "coastlineKm": 100,
+      "borders": [
+        {
+          "country": "LA",
+          "direction": "W",
+          "km": 150
+        }
+      ]
+    },
+    "da-nang": {
+      "neighbors": [
+        {
+          "slug": "hue",
+          "direction": "NW"
+        },
+        {
+          "slug": "quang-nam",
+          "direction": "SW"
+        }
+      ],
+      "hasCoastline": true,
+      "coastlineKm": 110,
+      "borders": []
+    },
+    "hue": {
+      "neighbors": [
+        {
+          "slug": "quang-nam",
+          "direction": "S"
+        },
+        {
+          "slug": "da-nang",
+          "direction": "SE"
+        },
+        {
+          "slug": "quang-tri",
+          "direction": "W"
+        }
+      ],
+      "hasCoastline": true,
+      "coastlineKm": 120,
+      "borders": [
+        {
+          "country": "LA",
+          "direction": "SW",
+          "km": 80
+        }
+      ]
+    },
+    "quang-tri": {
+      "neighbors": [
+        {
+          "slug": "quang-binh",
+          "direction": "NW"
+        },
+        {
+          "slug": "hue",
+          "direction": "SE"
+        }
+      ],
+      "hasCoastline": true,
+      "coastlineKm": 70,
+      "borders": [
+        {
+          "country": "LA",
+          "direction": "SW",
+          "km": 180
+        }
+      ]
+    },
+    "quang-binh": {
+      "neighbors": [
+        {
+          "slug": "ha-tinh",
+          "direction": "NW"
+        },
+        {
+          "slug": "quang-tri",
+          "direction": "SE"
+        }
+      ],
+      "hasCoastline": true,
+      "coastlineKm": 130,
+      "borders": [
+        {
+          "country": "LA",
+          "direction": "W",
+          "km": 200
+        }
+      ]
+    },
+    "ha-tinh": {
+      "neighbors": [
+        {
+          "slug": "nghe-an",
+          "direction": "NW"
+        },
+        {
+          "slug": "quang-binh",
+          "direction": "SE"
+        }
+      ],
+      "hasCoastline": true,
+      "coastlineKm": 160,
+      "borders": [
+        {
+          "country": "LA",
+          "direction": "W",
+          "km": 160
+        }
+      ]
+    },
+    "nghe-an": {
+      "neighbors": [
+        {
+          "slug": "thanh-hoa",
+          "direction": "N"
+        },
+        {
+          "slug": "ha-tinh",
+          "direction": "SE"
+        }
+      ],
+      "hasCoastline": true,
+      "coastlineKm": 100,
+      "borders": [
+        {
+          "country": "LA",
+          "direction": "NW",
+          "km": 440
+        }
+      ]
+    },
+    "thanh-hoa": {
+      "neighbors": [
+        {
+          "slug": "ninh-binh",
+          "direction": "NE"
+        },
+        {
+          "slug": "hoa-binh",
+          "direction": "NW"
+        },
+        {
+          "slug": "son-la",
+          "direction": "NW"
+        },
+        {
+          "slug": "nghe-an",
+          "direction": "SW"
+        }
+      ],
+      "hasCoastline": true,
+      "coastlineKm": 110,
+      "borders": [
+        {
+          "country": "LA",
+          "direction": "NW",
+          "km": 210
+        }
+      ]
+    },
+    "binh-phuoc": {
+      "neighbors": [
+        {
+          "slug": "lam-dong",
+          "direction": "E"
+        },
+        {
+          "slug": "dak-nong",
+          "direction": "NE"
+        },
+        {
+          "slug": "dong-nai",
+          "direction": "S"
+        },
+        {
+          "slug": "binh-duong",
+          "direction": "SW"
+        },
+        {
+          "slug": "tay-ninh",
+          "direction": "W"
+        }
+      ],
+      "hasCoastline": false,
+      "coastlineKm": 0,
+      "borders": [
+        {
+          "country": "KH",
+          "direction": "NW",
+          "km": 260
+        }
+      ]
+    },
+    "tay-ninh": {
+      "neighbors": [
+        {
+          "slug": "binh-phuoc",
+          "direction": "NE"
+        },
+        {
+          "slug": "long-an",
+          "direction": "S"
+        },
+        {
+          "slug": "binh-duong",
+          "direction": "SE"
+        },
+        {
+          "slug": "ho-chi-minh",
+          "direction": "SE"
+        }
+      ],
+      "hasCoastline": false,
+      "coastlineKm": 0,
+      "borders": [
+        {
+          "country": "KH",
+          "direction": "W",
+          "km": 240
+        }
+      ]
+    },
+    "ninh-binh": {
+      "neighbors": [
+        {
+          "slug": "nam-dinh",
+          "direction": "E"
+        },
+        {
+          "slug": "ha-nam",
+          "direction": "N"
+        },
+        {
+          "slug": "hoa-binh",
+          "direction": "NW"
+        },
+        {
+          "slug": "thanh-hoa",
+          "direction": "SW"
+        }
+      ],
+      "hasCoastline": true,
+      "coastlineKm": 10,
+      "borders": []
+    },
+    "nam-dinh": {
+      "neighbors": [
+        {
+          "slug": "thai-binh",
+          "direction": "NE"
+        },
+        {
+          "slug": "ha-nam",
+          "direction": "NW"
+        },
+        {
+          "slug": "ninh-binh",
+          "direction": "SW"
+        }
+      ],
+      "hasCoastline": true,
+      "coastlineKm": 100,
+      "borders": []
+    },
+    "ha-nam": {
+      "neighbors": [
+        {
+          "slug": "thai-binh",
+          "direction": "E"
+        },
+        {
+          "slug": "hung-yen",
+          "direction": "NE"
+        },
+        {
+          "slug": "ha-noi",
+          "direction": "NW"
+        },
+        {
+          "slug": "nam-dinh",
+          "direction": "SE"
+        },
+        {
+          "slug": "ninh-binh",
+          "direction": "SW"
+        },
+        {
+          "slug": "hoa-binh",
+          "direction": "W"
+        }
+      ],
+      "hasCoastline": false,
+      "coastlineKm": 0,
+      "borders": []
+    },
+    "thai-binh": {
+      "neighbors": [
+        {
+          "slug": "hai-duong",
+          "direction": "N"
+        },
+        {
+          "slug": "hai-phong",
+          "direction": "NE"
+        },
+        {
+          "slug": "hung-yen",
+          "direction": "NW"
+        },
+        {
+          "slug": "nam-dinh",
+          "direction": "S"
+        },
+        {
+          "slug": "ha-nam",
+          "direction": "W"
+        }
+      ],
+      "hasCoastline": true,
+      "coastlineKm": 70,
+      "borders": []
+    },
+    "hung-yen": {
+      "neighbors": [
+        {
+          "slug": "hai-duong",
+          "direction": "E"
+        },
+        {
+          "slug": "bac-ninh",
+          "direction": "N"
+        },
+        {
+          "slug": "ha-noi",
+          "direction": "NW"
+        },
+        {
+          "slug": "ha-nam",
+          "direction": "S"
+        },
+        {
+          "slug": "thai-binh",
+          "direction": "SE"
+        }
+      ],
+      "hasCoastline": false,
+      "coastlineKm": 0,
+      "borders": []
+    },
+    "hai-duong": {
+      "neighbors": [
+        {
+          "slug": "hai-phong",
+          "direction": "E"
+        },
+        {
+          "slug": "bac-giang",
+          "direction": "N"
+        },
+        {
+          "slug": "quang-ninh",
+          "direction": "NE"
+        },
+        {
+          "slug": "bac-ninh",
+          "direction": "NW"
+        },
+        {
+          "slug": "thai-binh",
+          "direction": "S"
+        },
+        {
+          "slug": "hung-yen",
+          "direction": "W"
+        }
+      ],
+      "hasCoastline": false,
+      "coastlineKm": 0,
+      "borders": []
+    },
+    "bac-ninh": {
+      "neighbors": [
+        {
+          "slug": "bac-giang",
+          "direction": "N"
+        },
+        {
+          "slug": "hai-duong",
+          "direction": "SE"
+        },
+        {
+          "slug": "hung-yen",
+          "direction": "SW"
+        },
+        {
+          "slug": "ha-noi",
+          "direction": "W"
+        }
+      ],
+      "hasCoastline": false,
+      "coastlineKm": 0,
+      "borders": []
+    },
+    "vinh-phuc": {
+      "neighbors": [
+        {
+          "slug": "thai-nguyen",
+          "direction": "NE"
+        },
+        {
+          "slug": "tuyen-quang",
+          "direction": "NW"
+        },
+        {
+          "slug": "ha-noi",
+          "direction": "SE"
+        },
+        {
+          "slug": "phu-tho",
+          "direction": "W"
+        }
+      ],
+      "hasCoastline": false,
+      "coastlineKm": 0,
+      "borders": []
+    },
+    "phu-tho": {
+      "neighbors": [
+        {
+          "slug": "vinh-phuc",
+          "direction": "E"
+        },
+        {
+          "slug": "tuyen-quang",
+          "direction": "N"
+        },
+        {
+          "slug": "yen-bai",
+          "direction": "NW"
+        },
+        {
+          "slug": "hoa-binh",
+          "direction": "S"
+        },
+        {
+          "slug": "ha-noi",
+          "direction": "SE"
+        },
+        {
+          "slug": "son-la",
+          "direction": "SW"
+        }
+      ],
+      "hasCoastline": false,
+      "coastlineKm": 0,
+      "borders": []
+    },
+    "bac-giang": {
+      "neighbors": [
+        {
+          "slug": "quang-ninh",
+          "direction": "E"
+        },
+        {
+          "slug": "lang-son",
+          "direction": "NE"
+        },
+        {
+          "slug": "hai-duong",
+          "direction": "S"
+        },
+        {
+          "slug": "bac-ninh",
+          "direction": "W"
+        },
+        {
+          "slug": "ha-noi",
+          "direction": "W"
+        },
+        {
+          "slug": "thai-nguyen",
+          "direction": "W"
+        }
+      ],
+      "hasCoastline": false,
+      "coastlineKm": 0,
+      "borders": []
+    },
+    "quang-ninh": {
+      "neighbors": [
+        {
+          "slug": "lang-son",
+          "direction": "N"
+        },
+        {
+          "slug": "hai-phong",
+          "direction": "SW"
+        },
+        {
+          "slug": "bac-giang",
+          "direction": "W"
+        },
+        {
+          "slug": "hai-duong",
+          "direction": "W"
+        }
+      ],
+      "hasCoastline": true,
+      "coastlineKm": 590,
+      "borders": [
+        {
+          "country": "CN",
+          "direction": "NE",
+          "km": 110
+        }
+      ]
+    },
+    "thai-nguyen": {
+      "neighbors": [
+        {
+          "slug": "bac-kan",
+          "direction": "N"
+        },
+        {
+          "slug": "lang-son",
+          "direction": "NE"
+        },
+        {
+          "slug": "ha-noi",
+          "direction": "S"
+        },
+        {
+          "slug": "bac-giang",
+          "direction": "SE"
+        },
+        {
+          "slug": "vinh-phuc",
+          "direction": "SW"
+        },
+        {
+          "slug": "tuyen-quang",
+          "direction": "W"
+        }
+      ],
+      "hasCoastline": false,
+      "coastlineKm": 0,
+      "borders": []
+    },
+    "hoa-binh": {
+      "neighbors": [
+        {
+          "slug": "ha-noi",
+          "direction": "NE"
+        },
+        {
+          "slug": "phu-tho",
+          "direction": "NW"
+        },
+        {
+          "slug": "son-la",
+          "direction": "NW"
+        },
+        {
+          "slug": "ha-nam",
+          "direction": "SE"
+        },
+        {
+          "slug": "ninh-binh",
+          "direction": "SE"
+        },
+        {
+          "slug": "thanh-hoa",
+          "direction": "SW"
+        }
+      ],
+      "hasCoastline": false,
+      "coastlineKm": 0,
+      "borders": []
+    },
+    "yen-bai": {
+      "neighbors": [
+        {
+          "slug": "tuyen-quang",
+          "direction": "E"
+        },
+        {
+          "slug": "ha-giang",
+          "direction": "N"
+        },
+        {
+          "slug": "lao-cai",
+          "direction": "NW"
+        },
+        {
+          "slug": "phu-tho",
+          "direction": "SE"
+        },
+        {
+          "slug": "son-la",
+          "direction": "SW"
+        },
+        {
+          "slug": "lai-chau",
+          "direction": "W"
+        }
+      ],
+      "hasCoastline": false,
+      "coastlineKm": 0,
+      "borders": []
+    },
+    "son-la": {
+      "neighbors": [
+        {
+          "slug": "phu-tho",
+          "direction": "E"
+        },
+        {
+          "slug": "yen-bai",
+          "direction": "NE"
+        },
+        {
+          "slug": "lai-chau",
+          "direction": "NW"
+        },
+        {
+          "slug": "hoa-binh",
+          "direction": "SE"
+        },
+        {
+          "slug": "thanh-hoa",
+          "direction": "SE"
+        },
+        {
+          "slug": "dien-bien",
+          "direction": "W"
+        }
+      ],
+      "hasCoastline": false,
+      "coastlineKm": 0,
+      "borders": [
+        {
+          "country": "LA",
+          "direction": "SW",
+          "km": 250
+        }
+      ]
+    },
+    "lai-chau": {
+      "neighbors": [
+        {
+          "slug": "lao-cai",
+          "direction": "E"
+        },
+        {
+          "slug": "son-la",
+          "direction": "SE"
+        },
+        {
+          "slug": "yen-bai",
+          "direction": "SE"
+        },
+        {
+          "slug": "dien-bien",
+          "direction": "W"
+        }
+      ],
+      "hasCoastline": false,
+      "coastlineKm": 0,
+      "borders": [
+        {
+          "country": "CN",
+          "direction": "NW",
+          "km": 250
+        }
+      ]
+    },
+    "dien-bien": {
+      "neighbors": [
+        {
+          "slug": "lai-chau",
+          "direction": "NW"
+        },
+        {
+          "slug": "son-la",
+          "direction": "SE"
+        }
+      ],
+      "hasCoastline": false,
+      "coastlineKm": 0,
+      "borders": [
+        {
+          "country": "CN",
+          "direction": "NW",
+          "km": 40
+        },
+        {
+          "country": "LA",
+          "direction": "W",
+          "km": 400
+        }
+      ]
+    },
+    "lao-cai": {
+      "neighbors": [
+        {
+          "slug": "ha-giang",
+          "direction": "NE"
+        },
+        {
+          "slug": "yen-bai",
+          "direction": "SE"
+        },
+        {
+          "slug": "lai-chau",
+          "direction": "W"
+        }
+      ],
+      "hasCoastline": false,
+      "coastlineKm": 0,
+      "borders": [
+        {
+          "country": "CN",
+          "direction": "NW",
+          "km": 180
+        }
+      ]
+    },
+    "tuyen-quang": {
+      "neighbors": [
+        {
+          "slug": "ha-giang",
+          "direction": "N"
+        },
+        {
+          "slug": "bac-kan",
+          "direction": "NE"
+        },
+        {
+          "slug": "cao-bang",
+          "direction": "NE"
+        },
+        {
+          "slug": "phu-tho",
+          "direction": "S"
+        },
+        {
+          "slug": "vinh-phuc",
+          "direction": "S"
+        },
+        {
+          "slug": "thai-nguyen",
+          "direction": "SE"
+        },
+        {
+          "slug": "yen-bai",
+          "direction": "SW"
+        }
+      ],
+      "hasCoastline": false,
+      "coastlineKm": 0,
+      "borders": []
+    },
+    "bac-kan": {
+      "neighbors": [
+        {
+          "slug": "lang-son",
+          "direction": "E"
+        },
+        {
+          "slug": "cao-bang",
+          "direction": "N"
+        },
+        {
+          "slug": "thai-nguyen",
+          "direction": "S"
+        },
+        {
+          "slug": "tuyen-quang",
+          "direction": "W"
+        }
+      ],
+      "hasCoastline": false,
+      "coastlineKm": 0,
+      "borders": []
+    },
+    "ha-giang": {
+      "neighbors": [
+        {
+          "slug": "cao-bang",
+          "direction": "NE"
+        },
+        {
+          "slug": "tuyen-quang",
+          "direction": "S"
+        },
+        {
+          "slug": "lao-cai",
+          "direction": "SW"
+        },
+        {
+          "slug": "yen-bai",
+          "direction": "SW"
+        }
+      ],
+      "hasCoastline": false,
+      "coastlineKm": 0,
+      "borders": [
+        {
+          "country": "CN",
+          "direction": "N",
+          "km": 270
+        }
+      ]
+    },
+    "ha-noi": {
+      "neighbors": [
+        {
+          "slug": "bac-giang",
+          "direction": "N"
+        },
+        {
+          "slug": "thai-nguyen",
+          "direction": "N"
+        },
+        {
+          "slug": "bac-ninh",
+          "direction": "NE"
+        },
+        {
+          "slug": "vinh-phuc",
+          "direction": "NW"
+        },
+        {
+          "slug": "ha-nam",
+          "direction": "S"
+        },
+        {
+          "slug": "hung-yen",
+          "direction": "SE"
+        },
+        {
+          "slug": "hoa-binh",
+          "direction": "SW"
+        },
+        {
+          "slug": "phu-tho",
+          "direction": "W"
+        }
+      ],
+      "hasCoastline": false,
+      "coastlineKm": 0,
+      "borders": []
+    },
+    "binh-thuan": {
+      "neighbors": [
+        {
+          "slug": "ninh-thuan",
+          "direction": "E"
+        },
+        {
+          "slug": "lam-dong",
+          "direction": "N"
+        },
+        {
+          "slug": "ba-ria-vung-tau",
+          "direction": "SW"
+        },
+        {
+          "slug": "dong-nai",
+          "direction": "W"
+        }
+      ],
+      "hasCoastline": true,
+      "coastlineKm": 230,
+      "borders": []
+    },
+    "ba-ria-vung-tau": {
+      "neighbors": [
+        {
+          "slug": "dong-nai",
+          "direction": "N"
+        },
+        {
+          "slug": "binh-thuan",
+          "direction": "NE"
+        },
+        {
+          "slug": "ho-chi-minh",
+          "direction": "W"
+        }
+      ],
+      "hasCoastline": true,
+      "coastlineKm": 120,
+      "borders": []
+    },
+    "dong-nai": {
+      "neighbors": [
+        {
+          "slug": "binh-thuan",
+          "direction": "E"
+        },
+        {
+          "slug": "binh-phuoc",
+          "direction": "N"
+        },
+        {
+          "slug": "lam-dong",
+          "direction": "NE"
+        },
+        {
+          "slug": "ba-ria-vung-tau",
+          "direction": "S"
+        },
+        {
+          "slug": "ho-chi-minh",
+          "direction": "SW"
+        },
+        {
+          "slug": "binh-duong",
+          "direction": "W"
+        }
+      ],
+      "hasCoastline": false,
+      "coastlineKm": 0,
+      "borders": []
+    },
+    "binh-duong": {
+      "neighbors": [
+        {
+          "slug": "dong-nai",
+          "direction": "E"
+        },
+        {
+          "slug": "binh-phuoc",
+          "direction": "N"
+        },
+        {
+          "slug": "ho-chi-minh",
+          "direction": "S"
+        },
+        {
+          "slug": "tay-ninh",
+          "direction": "W"
+        }
+      ],
+      "hasCoastline": false,
+      "coastlineKm": 0,
+      "borders": []
+    },
+    "ho-chi-minh": {
+      "neighbors": [
+        {
+          "slug": "dong-nai",
+          "direction": "E"
+        },
+        {
+          "slug": "binh-duong",
+          "direction": "N"
+        },
+        {
+          "slug": "tay-ninh",
+          "direction": "NW"
+        },
+        {
+          "slug": "tien-giang",
+          "direction": "S"
+        },
+        {
+          "slug": "ba-ria-vung-tau",
+          "direction": "SE"
+        },
+        {
+          "slug": "long-an",
+          "direction": "SW"
+        }
+      ],
+      "hasCoastline": true,
+      "coastlineKm": 60,
+      "borders": []
+    },
+    "lang-son": {
+      "neighbors": [
+        {
+          "slug": "bac-kan",
+          "direction": "NW"
+        },
+        {
+          "slug": "cao-bang",
+          "direction": "NW"
+        },
+        {
+          "slug": "bac-giang",
+          "direction": "S"
+        },
+        {
+          "slug": "quang-ninh",
+          "direction": "SE"
+        },
+        {
+          "slug": "thai-nguyen",
+          "direction": "W"
+        }
+      ],
+      "hasCoastline": false,
+      "coastlineKm": 0,
+      "borders": [
+        {
+          "country": "CN",
+          "direction": "NE",
+          "km": 220
+        }
+      ]
+    }
+  },
+  "post": {
+    "can-tho": {
+      "neighbors": [
+        {
+          "slug": "vinh-long",
+          "direction": "E"
+        },
+        {
+          "slug": "dong-thap",
+          "direction": "NW"
+        },
+        {
+          "slug": "ca-mau",
+          "direction": "S"
+        },
+        {
+          "slug": "an-giang",
+          "direction": "W"
+        }
+      ],
+      "hasCoastline": true,
+      "coastlineKm": 80,
+      "borders": []
+    },
+    "an-giang": {
+      "neighbors": [
+        {
+          "slug": "dong-thap",
+          "direction": "E"
+        },
+        {
+          "slug": "ca-mau",
+          "direction": "S"
+        },
+        {
+          "slug": "can-tho",
+          "direction": "SE"
+        }
+      ],
+      "hasCoastline": true,
+      "coastlineKm": 220,
+      "borders": [
+        {
+          "country": "KH",
+          "direction": "N",
+          "km": 150
+        }
+      ]
+    },
+    "quang-tri": {
+      "neighbors": [
+        {
+          "slug": "ha-tinh",
+          "direction": "NW"
+        },
+        {
+          "slug": "hue",
+          "direction": "SE"
+        }
+      ],
+      "hasCoastline": true,
+      "coastlineKm": 200,
+      "borders": [
+        {
+          "country": "LA",
+          "direction": "S",
+          "km": 390
+        }
+      ]
+    },
+    "ha-noi": {
+      "neighbors": [
+        {
+          "slug": "thai-nguyen",
+          "direction": "N"
+        },
+        {
+          "slug": "bac-ninh",
+          "direction": "NE"
+        },
+        {
+          "slug": "ninh-binh",
+          "direction": "S"
+        },
+        {
+          "slug": "hung-yen",
+          "direction": "SE"
+        },
+        {
+          "slug": "phu-tho",
+          "direction": "W"
+        }
+      ],
+      "hasCoastline": false,
+      "coastlineKm": 0,
+      "borders": []
+    },
+    "ho-chi-minh": {
+      "neighbors": [
+        {
+          "slug": "lam-dong",
+          "direction": "E"
+        },
+        {
+          "slug": "dong-nai",
+          "direction": "NE"
+        },
+        {
+          "slug": "tay-ninh",
+          "direction": "NW"
+        },
+        {
+          "slug": "dong-thap",
+          "direction": "S"
+        }
+      ],
+      "hasCoastline": true,
+      "coastlineKm": 180,
+      "borders": []
+    },
+    "cao-bang": {
+      "neighbors": [
+        {
+          "slug": "lang-son",
+          "direction": "SE"
+        },
+        {
+          "slug": "thai-nguyen",
+          "direction": "SW"
+        },
+        {
+          "slug": "tuyen-quang",
+          "direction": "W"
+        }
+      ],
+      "hasCoastline": false,
+      "coastlineKm": 0,
+      "borders": [
+        {
+          "country": "CN",
+          "direction": "E",
+          "km": 320
+        }
+      ]
+    },
+    "ca-mau": {
+      "neighbors": [
+        {
+          "slug": "an-giang",
+          "direction": "N"
+        },
+        {
+          "slug": "can-tho",
+          "direction": "NE"
+        }
+      ],
+      "hasCoastline": true,
+      "coastlineKm": 320,
+      "borders": []
+    },
+    "dong-thap": {
+      "neighbors": [
+        {
+          "slug": "ho-chi-minh",
+          "direction": "E"
+        },
+        {
+          "slug": "tay-ninh",
+          "direction": "E"
+        },
+        {
+          "slug": "vinh-long",
+          "direction": "SE"
+        },
+        {
+          "slug": "can-tho",
+          "direction": "SW"
+        },
+        {
+          "slug": "an-giang",
+          "direction": "W"
+        }
+      ],
+      "hasCoastline": true,
+      "coastlineKm": 30,
+      "borders": [
+        {
+          "country": "KH",
+          "direction": "NW",
+          "km": 50
+        }
+      ]
+    },
+    "vinh-long": {
+      "neighbors": [
+        {
+          "slug": "dong-thap",
+          "direction": "NW"
+        },
+        {
+          "slug": "can-tho",
+          "direction": "SW"
+        }
+      ],
+      "hasCoastline": true,
+      "coastlineKm": 170,
+      "borders": []
+    },
+    "gia-lai": {
+      "neighbors": [
+        {
+          "slug": "quang-ngai",
+          "direction": "NW"
+        },
+        {
+          "slug": "dak-lak",
+          "direction": "S"
+        }
+      ],
+      "hasCoastline": true,
+      "coastlineKm": 170,
+      "borders": [
+        {
+          "country": "KH",
+          "direction": "W",
+          "km": 80
+        }
+      ]
+    },
+    "dak-lak": {
+      "neighbors": [
+        {
+          "slug": "gia-lai",
+          "direction": "NW"
+        },
+        {
+          "slug": "khanh-hoa",
+          "direction": "SE"
+        },
+        {
+          "slug": "lam-dong",
+          "direction": "SW"
+        }
+      ],
+      "hasCoastline": true,
+      "coastlineKm": 230,
+      "borders": [
+        {
+          "country": "KH",
+          "direction": "W",
+          "km": 70
+        }
+      ]
+    },
+    "lam-dong": {
+      "neighbors": [
+        {
+          "slug": "dak-lak",
+          "direction": "N"
+        },
+        {
+          "slug": "khanh-hoa",
+          "direction": "NE"
+        },
+        {
+          "slug": "ho-chi-minh",
+          "direction": "SW"
+        },
+        {
+          "slug": "dong-nai",
+          "direction": "W"
+        }
+      ],
+      "hasCoastline": true,
+      "coastlineKm": 230,
+      "borders": [
+        {
+          "country": "KH",
+          "direction": "NW",
+          "km": 140
+        }
+      ]
+    },
+    "khanh-hoa": {
+      "neighbors": [
+        {
+          "slug": "dak-lak",
+          "direction": "N"
+        },
+        {
+          "slug": "lam-dong",
+          "direction": "SW"
+        }
+      ],
+      "hasCoastline": true,
+      "coastlineKm": 610,
+      "borders": []
+    },
+    "quang-ngai": {
+      "neighbors": [
+        {
+          "slug": "gia-lai",
+          "direction": "SW"
+        },
+        {
+          "slug": "da-nang",
+          "direction": "W"
+        }
+      ],
+      "hasCoastline": true,
+      "coastlineKm": 150,
+      "borders": [
+        {
+          "country": "KH",
+          "direction": "SW",
+          "km": 130
+        },
+        {
+          "country": "LA",
+          "direction": "W",
+          "km": 150
+        }
+      ]
+    },
+    "da-nang": {
+      "neighbors": [
+        {
+          "slug": "hue",
+          "direction": "NW"
+        },
+        {
+          "slug": "quang-ngai",
+          "direction": "S"
+        }
+      ],
+      "hasCoastline": true,
+      "coastlineKm": 200,
+      "borders": [
+        {
+          "country": "LA",
+          "direction": "W",
+          "km": 150
+        }
+      ]
+    },
+    "hue": {
+      "neighbors": [
+        {
+          "slug": "da-nang",
+          "direction": "SE"
+        },
+        {
+          "slug": "quang-tri",
+          "direction": "W"
+        }
+      ],
+      "hasCoastline": true,
+      "coastlineKm": 120,
+      "borders": [
+        {
+          "country": "LA",
+          "direction": "SW",
+          "km": 80
+        }
+      ]
+    },
+    "ha-tinh": {
+      "neighbors": [
+        {
+          "slug": "nghe-an",
+          "direction": "NW"
+        },
+        {
+          "slug": "quang-tri",
+          "direction": "SE"
+        }
+      ],
+      "hasCoastline": true,
+      "coastlineKm": 160,
+      "borders": [
+        {
+          "country": "LA",
+          "direction": "W",
+          "km": 160
+        }
+      ]
+    },
+    "nghe-an": {
+      "neighbors": [
+        {
+          "slug": "thanh-hoa",
+          "direction": "N"
+        },
+        {
+          "slug": "ha-tinh",
+          "direction": "SE"
+        }
+      ],
+      "hasCoastline": true,
+      "coastlineKm": 100,
+      "borders": [
+        {
+          "country": "LA",
+          "direction": "NW",
+          "km": 440
+        }
+      ]
+    },
+    "thanh-hoa": {
+      "neighbors": [
+        {
+          "slug": "ninh-binh",
+          "direction": "NE"
+        },
+        {
+          "slug": "phu-tho",
+          "direction": "NW"
+        },
+        {
+          "slug": "son-la",
+          "direction": "NW"
+        },
+        {
+          "slug": "nghe-an",
+          "direction": "SW"
+        }
+      ],
+      "hasCoastline": true,
+      "coastlineKm": 110,
+      "borders": [
+        {
+          "country": "LA",
+          "direction": "NW",
+          "km": 210
+        }
+      ]
+    },
+    "tay-ninh": {
+      "neighbors": [
+        {
+          "slug": "dong-nai",
+          "direction": "N"
+        },
+        {
+          "slug": "dong-thap",
+          "direction": "S"
+        },
+        {
+          "slug": "ho-chi-minh",
+          "direction": "SE"
+        }
+      ],
+      "hasCoastline": false,
+      "coastlineKm": 0,
+      "borders": [
+        {
+          "country": "KH",
+          "direction": "NW",
+          "km": 370
+        }
+      ]
+    },
+    "ninh-binh": {
+      "neighbors": [
+        {
+          "slug": "hung-yen",
+          "direction": "NE"
+        },
+        {
+          "slug": "ha-noi",
+          "direction": "NW"
+        },
+        {
+          "slug": "thanh-hoa",
+          "direction": "SW"
+        },
+        {
+          "slug": "phu-tho",
+          "direction": "W"
+        }
+      ],
+      "hasCoastline": true,
+      "coastlineKm": 110,
+      "borders": []
+    },
+    "hung-yen": {
+      "neighbors": [
+        {
+          "slug": "hai-phong",
+          "direction": "N"
+        },
+        {
+          "slug": "bac-ninh",
+          "direction": "NW"
+        },
+        {
+          "slug": "ha-noi",
+          "direction": "NW"
+        },
+        {
+          "slug": "ninh-binh",
+          "direction": "S"
+        }
+      ],
+      "hasCoastline": true,
+      "coastlineKm": 70,
+      "borders": []
+    },
+    "hai-phong": {
+      "neighbors": [
+        {
+          "slug": "bac-ninh",
+          "direction": "NW"
+        },
+        {
+          "slug": "quang-ninh",
+          "direction": "NW"
+        },
+        {
+          "slug": "hung-yen",
+          "direction": "W"
+        }
+      ],
+      "hasCoastline": true,
+      "coastlineKm": 90,
+      "borders": []
+    },
+    "bac-ninh": {
+      "neighbors": [
+        {
+          "slug": "lang-son",
+          "direction": "NE"
+        },
+        {
+          "slug": "quang-ninh",
+          "direction": "SE"
+        },
+        {
+          "slug": "hai-phong",
+          "direction": "SW"
+        },
+        {
+          "slug": "hung-yen",
+          "direction": "SW"
+        },
+        {
+          "slug": "ha-noi",
+          "direction": "W"
+        },
+        {
+          "slug": "thai-nguyen",
+          "direction": "W"
+        }
+      ],
+      "hasCoastline": false,
+      "coastlineKm": 0,
+      "borders": []
+    },
+    "phu-tho": {
+      "neighbors": [
+        {
+          "slug": "thai-nguyen",
+          "direction": "E"
+        },
+        {
+          "slug": "tuyen-quang",
+          "direction": "NE"
+        },
+        {
+          "slug": "lao-cai",
+          "direction": "NW"
+        },
+        {
+          "slug": "thanh-hoa",
+          "direction": "S"
+        },
+        {
+          "slug": "ha-noi",
+          "direction": "SE"
+        },
+        {
+          "slug": "ninh-binh",
+          "direction": "SE"
+        },
+        {
+          "slug": "son-la",
+          "direction": "SW"
+        }
+      ],
+      "hasCoastline": false,
+      "coastlineKm": 0,
+      "borders": []
+    },
+    "quang-ninh": {
+      "neighbors": [
+        {
+          "slug": "lang-son",
+          "direction": "N"
+        },
+        {
+          "slug": "bac-ninh",
+          "direction": "W"
+        },
+        {
+          "slug": "hai-phong",
+          "direction": "W"
+        }
+      ],
+      "hasCoastline": true,
+      "coastlineKm": 590,
+      "borders": [
+        {
+          "country": "CN",
+          "direction": "NE",
+          "km": 110
+        }
+      ]
+    },
+    "thai-nguyen": {
+      "neighbors": [
+        {
+          "slug": "lang-son",
+          "direction": "E"
+        },
+        {
+          "slug": "cao-bang",
+          "direction": "N"
+        },
+        {
+          "slug": "bac-ninh",
+          "direction": "S"
+        },
+        {
+          "slug": "ha-noi",
+          "direction": "S"
+        },
+        {
+          "slug": "phu-tho",
+          "direction": "S"
+        },
+        {
+          "slug": "tuyen-quang",
+          "direction": "W"
+        }
+      ],
+      "hasCoastline": false,
+      "coastlineKm": 0,
+      "borders": []
+    },
+    "son-la": {
+      "neighbors": [
+        {
+          "slug": "lao-cai",
+          "direction": "NE"
+        },
+        {
+          "slug": "lai-chau",
+          "direction": "NW"
+        },
+        {
+          "slug": "phu-tho",
+          "direction": "SE"
+        },
+        {
+          "slug": "thanh-hoa",
+          "direction": "SE"
+        },
+        {
+          "slug": "dien-bien",
+          "direction": "W"
+        }
+      ],
+      "hasCoastline": false,
+      "coastlineKm": 0,
+      "borders": [
+        {
+          "country": "LA",
+          "direction": "SW",
+          "km": 250
+        }
+      ]
+    },
+    "lai-chau": {
+      "neighbors": [
+        {
+          "slug": "lao-cai",
+          "direction": "E"
+        },
+        {
+          "slug": "son-la",
+          "direction": "SE"
+        },
+        {
+          "slug": "dien-bien",
+          "direction": "W"
+        }
+      ],
+      "hasCoastline": false,
+      "coastlineKm": 0,
+      "borders": [
+        {
+          "country": "CN",
+          "direction": "NW",
+          "km": 250
+        }
+      ]
+    },
+    "dien-bien": {
+      "neighbors": [
+        {
+          "slug": "lai-chau",
+          "direction": "NW"
+        },
+        {
+          "slug": "son-la",
+          "direction": "SE"
+        }
+      ],
+      "hasCoastline": false,
+      "coastlineKm": 0,
+      "borders": [
+        {
+          "country": "CN",
+          "direction": "NW",
+          "km": 40
+        },
+        {
+          "country": "LA",
+          "direction": "W",
+          "km": 400
+        }
+      ]
+    },
+    "lao-cai": {
+      "neighbors": [
+        {
+          "slug": "tuyen-quang",
+          "direction": "E"
+        },
+        {
+          "slug": "son-la",
+          "direction": "S"
+        },
+        {
+          "slug": "phu-tho",
+          "direction": "SE"
+        },
+        {
+          "slug": "lai-chau",
+          "direction": "W"
+        }
+      ],
+      "hasCoastline": false,
+      "coastlineKm": 0,
+      "borders": [
+        {
+          "country": "CN",
+          "direction": "NW",
+          "km": 180
+        }
+      ]
+    },
+    "tuyen-quang": {
+      "neighbors": [
+        {
+          "slug": "cao-bang",
+          "direction": "NE"
+        },
+        {
+          "slug": "phu-tho",
+          "direction": "S"
+        },
+        {
+          "slug": "thai-nguyen",
+          "direction": "SE"
+        },
+        {
+          "slug": "lao-cai",
+          "direction": "SW"
+        }
+      ],
+      "hasCoastline": false,
+      "coastlineKm": 0,
+      "borders": [
+        {
+          "country": "CN",
+          "direction": "N",
+          "km": 270
+        }
+      ]
+    },
+    "dong-nai": {
+      "neighbors": [
+        {
+          "slug": "lam-dong",
+          "direction": "E"
+        },
+        {
+          "slug": "ho-chi-minh",
+          "direction": "SW"
+        },
+        {
+          "slug": "tay-ninh",
+          "direction": "W"
+        }
+      ],
+      "hasCoastline": false,
+      "coastlineKm": 0,
+      "borders": [
+        {
+          "country": "KH",
+          "direction": "NW",
+          "km": 260
+        }
+      ]
+    },
+    "lang-son": {
+      "neighbors": [
+        {
+          "slug": "cao-bang",
+          "direction": "NW"
+        },
+        {
+          "slug": "bac-ninh",
+          "direction": "S"
+        },
+        {
+          "slug": "quang-ninh",
+          "direction": "SE"
+        },
+        {
+          "slug": "thai-nguyen",
+          "direction": "W"
+        }
+      ],
+      "hasCoastline": false,
+      "coastlineKm": 0,
+      "borders": [
+        {
+          "country": "CN",
+          "direction": "NE",
+          "km": 220
+        }
+      ]
+    }
+  }
+}

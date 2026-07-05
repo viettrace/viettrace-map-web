@@ -161,6 +161,12 @@ export default function ProvinceDetailPanel({ entry, onClose, allEntries = [] }:
         )}
 
         <div className="flex flex-wrap gap-2 border-t border-slate-200 pt-4">
+          <Link
+            href={`/${locale}/province/${entry.mode}/${entry.slug}`}
+            className="rounded-md border border-blue-200 bg-blue-50 px-3 py-2 text-xs font-medium text-blue-700 transition-colors hover:border-blue-300 hover:bg-blue-100"
+          >
+            {t('viewProfile')}
+          </Link>
           {statsHref && (
             <Link
               href={statsHref}

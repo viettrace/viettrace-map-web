@@ -27,6 +27,7 @@
     "data:generate-nested-index": "node scripts/generate-nested-index.mjs",
     "data:generate-reconciliation": "node scripts/generate-province-reconciliation.mjs",
     "data:generate-statistics": "node scripts/generate-province-statistics.mjs",
+    "data:generate-geography": "node scripts/generate-province-geography.mjs",
     "basemap:generate-style": "node scripts/generate-basemap-style.mjs",
     "basemap:generate-omt-style": "node scripts/generate-omt-basemap-style.mjs",
     "basemap:generate-omt-style:local": "node scripts/generate-omt-basemap-style.mjs --local",

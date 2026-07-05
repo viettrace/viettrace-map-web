@@ -81,7 +81,7 @@ async function loadProvinceIndex(): Promise<ProvinceIndex> {
 // pre-2025 components; density is derived (population / area).
 // ---------------------------------------------------------------------------
 
-type StatValue = {
+export type StatValue = {
   value: number;
   year?: number;
   source?: string;
@@ -89,7 +89,7 @@ type StatValue = {
   method?: string;
 };
 
-type ProvinceStatEntryRaw = {
+export type ProvinceStatEntryRaw = {
   name: string;
   code: string | null;
   population: StatValue;
@@ -136,7 +136,7 @@ export type ProvinceStatistics = {
 
 // Drop the administrative-unit prefix/suffix so the table shows compact names
 // ("An Giang" not "Tỉnh An Giang" / "An Giang Province").
-function stripProvinceLabel(name: string, locale: string): string {
+export function stripProvinceLabel(name: string, locale: string): string {
   if (locale === 'en') {
     return name.replace(/\s+(Province|City)$/u, '').trim();
   }
@@ -147,6 +147,15 @@ async function loadProvinceStatisticsFile(): Promise<ProvinceStatisticsRaw> {
   const filePath = path.join(process.cwd(), 'public/data/province-statistics.json');
   const raw = await fs.readFile(filePath, 'utf-8');
   return JSON.parse(raw);
+}
+
+/** Raw statistics entry (with StatValue metadata + post `components`) for one province. */
+export async function getProvinceStatEntry(
+  mode: 'pre' | 'post',
+  slug: string,
+): Promise<ProvinceStatEntryRaw | null> {
+  const stats = await loadProvinceStatisticsFile();
+  return stats[mode]?.[slug] ?? null;
 }
 
 export async function getProvinceStatistics(

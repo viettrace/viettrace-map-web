@@ -205,7 +205,7 @@ export function ProvinceStatsSection({
                 </td>
                 <td className="px-3 py-2">
                   <Link
-                    href={`/${locale}/map?mode=${mode}&province=${row.slug}`}
+                    href={`/${locale}/province/${mode}/${row.slug}`}
                     className="font-medium text-slate-800 hover:text-blue-700 hover:underline dark:text-slate-200 dark:hover:text-blue-400"
                   >
                     {row.name}
@@ -294,7 +294,7 @@ function HighlightCard({
                 {index + 1}
               </span>
               <Link
-                href={`/${locale}/map?mode=${mode}&province=${row.slug}`}
+                href={`/${locale}/province/${mode}/${row.slug}`}
                 className="truncate text-sm font-medium text-slate-800 hover:text-blue-700 hover:underline dark:text-slate-200 dark:hover:text-blue-400"
               >
                 {row.name}
