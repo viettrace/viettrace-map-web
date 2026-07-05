@@ -4,6 +4,7 @@ import 'maplibre-gl/dist/maplibre-gl.css';
 import type maplibregl from 'maplibre-gl';
 import { useEffect, useMemo, useState } from 'react';
 import { useLocale, useTranslations } from 'next-intl';
+import Link from 'next/link';
 import {
   boundarySourceIds,
   boundarySourceLayers,
@@ -264,6 +265,24 @@ export default function ProvinceMiniMap({ entry }: ProvinceMiniMapProps) {
           </button>
         ))}
       </div>
+      <Link
+        href={`/${locale}/map?mode=${entry.mode}&province=${entry.slug}`}
+        className="absolute right-2 bottom-2 z-10 inline-flex items-center gap-1 rounded-md bg-blue-600 px-2.5 py-1.5 text-xs font-medium text-white shadow-sm transition-colors hover:bg-blue-700"
+      >
+        <svg
+          viewBox="0 0 24 24"
+          className="h-3.5 w-3.5"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          aria-hidden="true"
+        >
+          <path d="M7 17 17 7M9 7h8v8" />
+        </svg>
+        {t('viewOnMap')}
+      </Link>
     </div>
   );
 }

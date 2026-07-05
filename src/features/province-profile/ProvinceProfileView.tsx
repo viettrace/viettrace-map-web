@@ -66,14 +66,31 @@ export default async function ProvinceProfileView({ profile, locale }: ProvinceP
 
   return (
     <main className="min-h-dvh bg-slate-50 text-slate-950">
+      <div className="sticky top-0 z-20 border-b border-slate-200 bg-slate-50/85 backdrop-blur-sm">
+        <div className="mx-auto flex w-full max-w-3xl flex-wrap items-center justify-between gap-x-3 gap-y-2 px-4 py-2.5 sm:px-6">
+          <nav className="flex flex-wrap items-center gap-x-3 gap-y-1 text-sm font-medium text-slate-600">
+            <Link href={`/${locale}/stats`} className="transition-colors hover:text-slate-900">
+              {t('navStats')}
+            </Link>
+            <span aria-hidden className="text-slate-300">
+              ·
+            </span>
+            <Link href={`/${locale}/map`} className="transition-colors hover:text-slate-900">
+              {t('navMap')}
+            </Link>
+            <span aria-hidden className="text-slate-300">
+              ·
+            </span>
+            <Link
+              href={`/${locale}/data-sources`}
+              className="transition-colors hover:text-slate-900"
+            >
+              {m('dataSourcesLink')}
+            </Link>
+          </nav>
+        </div>
+      </div>
       <div className="mx-auto flex w-full max-w-3xl flex-col gap-8 px-4 py-8 sm:px-6">
-        <Link
-          href={`/${locale}/stats`}
-          className="w-fit text-sm font-medium text-slate-500 transition-colors hover:text-slate-800"
-        >
-          {t('backToStats')}
-        </Link>
-
         <header>
           <div
             className={`mb-2 inline-block rounded-full px-2.5 py-0.5 text-xs font-medium ${
@@ -278,26 +295,6 @@ export default async function ProvinceProfileView({ profile, locale }: ProvinceP
           </div>
         </section>
 
-        <div className="flex flex-wrap gap-2">
-          <Link
-            href={`/${locale}/map?mode=${entry.mode}&province=${entry.slug}`}
-            className="rounded-md border border-blue-200 bg-blue-50 px-4 py-2 text-sm font-medium text-blue-700 transition-colors hover:border-blue-300 hover:bg-blue-100"
-          >
-            {t('viewOnMap')}
-          </Link>
-          <Link
-            href={`/${locale}/stats`}
-            className="rounded-md border border-slate-300 bg-white px-4 py-2 text-sm font-medium text-slate-700 transition-colors hover:border-slate-400 hover:bg-slate-50"
-          >
-            {m('detailStatsLink')}
-          </Link>
-          <Link
-            href={`/${locale}/data-sources`}
-            className="rounded-md border border-slate-300 bg-white px-4 py-2 text-sm font-medium text-slate-700 transition-colors hover:border-slate-400 hover:bg-slate-50"
-          >
-            {m('dataSourcesLink')}
-          </Link>
-        </div>
       </div>
     </main>
   );
