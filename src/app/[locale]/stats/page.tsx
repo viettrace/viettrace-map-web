@@ -97,6 +97,7 @@ export default async function StatsPage({ params }: PageProps) {
             nationalPopulation={provinceStats.nationalPopulation}
             nationalArea={provinceStats.nationalArea}
             nationalDensity={provinceStats.nationalDensity}
+            nationalGrdp={provinceStats.nationalGrdp}
             populationYear={provinceStats.populationYear}
           />
         </section>

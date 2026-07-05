@@ -17,10 +17,12 @@ export interface ProvinceStatEntry {
   area_km2: ProvinceStatValue;
   area_km2_computed?: ProvinceStatValue;
   density: ProvinceStatValue;
+  grdp?: ProvinceStatValue;
+  grdp_per_capita?: ProvinceStatValue;
   components?: string[];
 }
 
-interface ProvinceStatistics {
+export interface ProvinceStatistics {
   schemaVersion: number;
   pre: Record<string, ProvinceStatEntry>;
   post: Record<string, ProvinceStatEntry>;

@@ -25,6 +25,10 @@ const publicDataRoot = path.join(repoRoot, 'public', 'data');
 const POP_CSV = path.join(dataRoot, 'raw', 'hdx-cod-ps', 'vnm_admpop_adm1_2024.csv');
 // Official GSO province area (63 pre-2025), keyed by our slug — see raw/gso-province-area/README.md.
 const AREA_CSV = path.join(dataRoot, 'raw', 'gso-province-area', 'pre-2025-province-area.csv');
+// Province GRDP 2024 (current prices, tỷ đồng), 63 pre-2025 provinces — extracted from the NSO
+// 2020-2024 volume to raw/nso-grdp/ (see that README + manifests/nso-grdp-63-provinces-2020-2024-*).
+// Post-2025 = sum of components (GRDP is additive); GRDP per capita = GRDP / population (derived).
+const GRDP_CSV = path.join(dataRoot, 'raw', 'nso-grdp', 'grdp-2024-63.csv');
 // Area is computed from the LAND-CLIPPED display polygons (the production-tile geometry). The plain
 // `_display` versions still include territorial sea (see Track E), which inflates coastal-province
 // area (~1.5x nationally). The land-clipped files live under `.data/` (git-ignored local artifacts of
@@ -36,7 +40,8 @@ const GEO = {
   pre: path.join(dataRoot, '.data', 'processed', 'land-clip', 'vn_pre_2025_display_land.geojson'),
 };
 const POP_YEAR = 2024;
-const LAST_UPDATED = '2026-07-04';
+const GRDP_YEAR = 2024;
+const LAST_UPDATED = '2026-07-05';
 const EXPECTED = { post: 34, pre: 63 };
 
 const SOURCES = {
@@ -58,6 +63,14 @@ const SOURCES = {
     indicator: 'area_km2_computed',
     license: 'ODbL (© OpenStreetMap contributors)',
     name: 'Viettrace — geodesic area from OSM-derived land-clipped polygons (cross-check only)',
+  },
+  'nso-grdp-2024': {
+    indicator: 'grdp',
+    license: 'Official NSO statistics (số liệu nhà nước — facts); attribution-only',
+    name: 'National Statistics Office of Viet Nam (NSO) — Socio-economic data of 63 provinces 2020-2024',
+    url: 'https://www.nso.gov.vn/en/default/2025/11/socio-economic-statistical-data-of-63-provinces-and-cities-2020-2024/',
+    year: 2024,
+    note: 'GRDP at current prices (tỷ đồng). Post-2025 = sum of pre-2025 components. Per capita = GRDP / population (derived, triệu đồng).',
   },
 };
 
@@ -150,7 +163,10 @@ function areaBySlug(geojsonPath, expected) {
 }
 
 const round2 = n => Math.round(n * 100) / 100;
+const round1 = n => Math.round(n * 10) / 10;
 const density = (pop, area) => (area > 0 ? Math.round((pop / area) * 10) / 10 : null);
+// GRDP per capita in triệu đồng (million VND): GRDP (tỷ đồng = billion VND) × 1000 / persons.
+const grdpPerCapita = (grdpTy, pop) => (pop > 0 ? round1((grdpTy * 1000) / pop) : null);
 
 // ---- load ----
 const recon = readJson(path.join(publicDataRoot, 'province-reconciliation.json'));
@@ -198,6 +214,21 @@ const officialPre = new Map();
   }
 }
 
+// ---- province GRDP (pre), current prices (tỷ đồng), keyed by slug ----
+const grdpPre = new Map();
+{
+  const { idx: gidx, rows: grows } = parseCsv(fs.readFileSync(GRDP_CSV, 'utf8'));
+  for (const col of ['slug', 'grdp_current_2024_ty_dong']) {
+    if (!(col in gidx)) throw new Error(`GRDP CSV missing column: ${col}`);
+  }
+  for (const cells of grows) {
+    grdpPre.set(cells[gidx.slug].trim(), Number.parseFloat(cells[gidx.grdp_current_2024_ty_dong]));
+  }
+  if (grdpPre.size !== EXPECTED.pre) {
+    throw new Error(`GRDP: ${grdpPre.size} rows, expected ${EXPECTED.pre}.`);
+  }
+}
+
 // ---- build pre (63) ----
 const pre = {};
 for (const [slug, name] of [...nameBySlug.pre].sort((a, b) =>
@@ -211,6 +242,8 @@ for (const [slug, name] of [...nameBySlug.pre].sort((a, b) =>
     throw new Error(`Missing computed area for pre province: ${name} (${slug}).`);
   if (officialArea == null)
     throw new Error(`Missing official area for pre province: ${name} (${slug}).`);
+  const grdpVal = grdpPre.get(slug);
+  if (grdpVal == null) throw new Error(`Missing GRDP for pre province: ${name} (${slug}).`);
   pre[slug] = {
     name,
     code: recon.pre[slug]?.code ?? null,
@@ -222,6 +255,14 @@ for (const [slug, name] of [...nameBySlug.pre].sort((a, b) =>
       note: 'geodesic cross-check',
     },
     density: { value: density(pop.value, officialArea), derived: true },
+    grdp: { value: round2(grdpVal), year: GRDP_YEAR, source: 'nso-grdp-2024', derived: false },
+    grdp_per_capita: {
+      value: grdpPerCapita(grdpVal, pop.value),
+      year: GRDP_YEAR,
+      source: 'nso-grdp-2024',
+      derived: true,
+      method: 'GRDP / population',
+    },
   };
 }
 
@@ -236,12 +277,14 @@ for (const [slug, group] of Object.entries(recon.post).sort((a, b) =>
     throw new Error(`Missing computed area for post province: ${name} (${slug}).`);
   let popSum = 0;
   let officialAreaSum = 0;
+  let grdpSum = 0;
   const missing = [];
   for (const comp of group.componentSlugs) {
     if (!pre[comp]) missing.push(comp);
     else {
       popSum += pre[comp].population.value;
       officialAreaSum += pre[comp].area_km2.value;
+      grdpSum += pre[comp].grdp.value;
     }
   }
   if (missing.length) {
@@ -269,6 +312,20 @@ for (const [slug, group] of Object.entries(recon.post).sort((a, b) =>
       note: 'geodesic cross-check',
     },
     density: { value: density(popSum, officialAreaSum), derived: true },
+    grdp: {
+      value: round2(grdpSum),
+      year: GRDP_YEAR,
+      source: 'nso-grdp-2024',
+      derived: true,
+      method: 'sum of pre-2025 components',
+    },
+    grdp_per_capita: {
+      value: grdpPerCapita(grdpSum, popSum),
+      year: GRDP_YEAR,
+      source: 'nso-grdp-2024',
+      derived: true,
+      method: 'GRDP / population',
+    },
     components: group.componentSlugs,
   };
 }
@@ -278,6 +335,11 @@ const preTotal = Object.values(pre).reduce((s, p) => s + p.population.value, 0);
 const postTotal = Object.values(post).reduce((s, p) => s + p.population.value, 0);
 if (preTotal !== postTotal) {
   throw new Error(`Pre total ${preTotal} != post total ${postTotal} (summation mismatch).`);
+}
+const preGrdp = Object.values(pre).reduce((s, p) => s + p.grdp.value, 0);
+const postGrdp = Object.values(post).reduce((s, p) => s + p.grdp.value, 0);
+if (Math.round(preGrdp) !== Math.round(postGrdp)) {
+  throw new Error(`Pre GRDP ${preGrdp} != post GRDP ${postGrdp} (summation mismatch).`);
 }
 if (Object.keys(pre).length !== EXPECTED.pre || Object.keys(post).length !== EXPECTED.post) {
   throw new Error(`Counts off: pre ${Object.keys(pre).length}, post ${Object.keys(post).length}.`);
@@ -304,11 +366,26 @@ const output = {
       additive: false,
       derivation: 'population / area',
     },
+    grdp: {
+      label_vi: 'GRDP',
+      label_en: 'GRDP',
+      unit: 'tỷ đồng',
+      additive: true,
+      derivation: 'NSO current-price GRDP 2024; post-2025 = sum of pre components.',
+    },
+    grdp_per_capita: {
+      label_vi: 'GRDP bình quân đầu người',
+      label_en: 'GRDP per capita',
+      unit: 'triệu đồng',
+      additive: false,
+      derivation: 'GRDP / population',
+    },
   },
   counts: { pre: Object.keys(pre).length, post: Object.keys(post).length },
   nationalTotalPopulation: preTotal,
   nationalTotalArea:
     Math.round(Object.values(pre).reduce((s, p) => s + p.area_km2.value, 0) * 100) / 100,
+  nationalTotalGrdp: round2(preGrdp),
   pre,
   post,
 };
@@ -317,5 +394,6 @@ const outputPath = path.join(publicDataRoot, 'province-statistics.json');
 writeJson(outputPath, output);
 console.log(
   `Wrote statistics: ${output.counts.pre} pre + ${output.counts.post} post, ` +
-    `national pop ${preTotal.toLocaleString('en-US')} (${POP_YEAR}) -> ${outputPath}`,
+    `national pop ${preTotal.toLocaleString('en-US')} (${POP_YEAR}), ` +
+    `national GRDP ${Math.round(preGrdp).toLocaleString('en-US')} tỷ đồng (${GRDP_YEAR}) -> ${outputPath}`,
 );
