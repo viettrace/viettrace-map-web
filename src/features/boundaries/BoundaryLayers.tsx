@@ -141,6 +141,27 @@ function provinceFillOpacityRamp(full: number): maplibregl.DataDrivenPropertyVal
   return ['interpolate', ['linear'], ['zoom'], 9, full, 12, 0] as unknown as maplibregl.DataDrivenPropertyValueSpecification<number>;
 }
 
+// Name labels (province, city, and the nested district/ward candidates) wear the mode identity
+// (pre red / post blue). A data choropleth unifies them all to one neutral warm-charcoal so they
+// don't clash with the graduated fills; default/region restore these identity colours. (Capital
+// labels are amber for both modes already — left as-is.)
+const CHOROPLETH_LABEL_COLOR = '#2b2723';
+const DATA_LABEL_IDENTITY: [string, string][] = [
+  [boundaryLayerIds.preLabel, '#d44'],
+  [boundaryLayerIds.preCityLabel, '#dc2626'],
+  [boundaryLayerIds.postLabel, '#2563eb'],
+  [boundaryLayerIds.postCityLabel, '#2563eb'],
+  [boundaryLayerIds.preDistrictsCandidateLabel, '#991b1b'],
+  [boundaryLayerIds.postWardsCandidateLabel, '#1e3a8a'],
+];
+// Nested district/ward interior lines: red/blue identity → neutral slate-grey in a data choropleth
+// (reads on both the teal fill at province zoom AND the plain basemap once the choropleth has faded
+// past z12 — white washed out when zoomed in); restored otherwise.
+const NESTED_OUTLINE_IDENTITY: [string, string][] = [
+  [boundaryLayerIds.preDistrictsCandidateOutline, '#b91c1c'],
+  [boundaryLayerIds.postWardsCandidateOutline, '#1d4ed8'],
+];
+
 // Extracted to module level so the registration effect can call it synchronously after
 // recreating layers (replaceLayer resets paint to defaults). Effect A also calls this
 // on colorMode/provinceEntries changes, but no longer needs state.mode in its deps.
@@ -162,8 +183,31 @@ function applyProvinceFillColors(
     }
   };
 
+  // In a data choropleth the red (pre) / blue (post) identity of the name labels (province, city, and
+  // nested district/ward) clashes with the graduated fills, so unify them to one neutral warm-charcoal
+  // (+ the existing white halo); default/region restore each label's identity colour. Capital labels
+  // stay amber (already the same for pre & post, and they intentionally mark the capital).
+  const setDataLabelColors = (neutral: boolean) => {
+    for (const [id, identity] of DATA_LABEL_IDENTITY) {
+      if (map.getLayer(id)) {
+        map.setPaintProperty(id, 'text-color', neutral ? CHOROPLETH_LABEL_COLOR : identity);
+      }
+    }
+  };
+  // Nested interior lines: neutral slate-grey in choropleth (legible on teal and on the basemap at
+  // deep zoom), identity red/blue otherwise.
+  const setNestedOutlineColors = (neutral: boolean) => {
+    for (const [id, identity] of NESTED_OUTLINE_IDENTITY) {
+      if (map.getLayer(id)) {
+        map.setPaintProperty(id, 'line-color', neutral ? '#475569' : identity);
+      }
+    }
+  };
+
   if (colorMode === 'default') {
     setOutlineColors('#d44', '#3388ff');
+    setDataLabelColors(false);
+    setNestedOutlineColors(false);
     if (map.getLayer(preFillId)) {
       map.setPaintProperty(preFillId, 'fill-color', '#d44');
       map.setPaintProperty(preFillId, 'fill-opacity', provinceFillOpacityRamp(0.1));
@@ -179,6 +223,8 @@ function applyProvinceFillColors(
 
   if (colorMode === 'region') {
     setOutlineColors('#d44', '#3388ff');
+    setDataLabelColors(false);
+    setNestedOutlineColors(false);
     loadRegionalClassification()
       .then(data => {
         const regionNames = new Map<Region, string[]>();
@@ -215,6 +261,8 @@ function applyProvinceFillColors(
   // mode uses), so pre (63) and post (34) stay independently correct across the toggle.
   const field = colorMode as ChoroplethMode;
   setOutlineColors('#ffffff', '#ffffff');
+  setDataLabelColors(true);
+  setNestedOutlineColors(true);
   loadProvinceStatistics()
     .then(stats => {
       if (!stats) return;

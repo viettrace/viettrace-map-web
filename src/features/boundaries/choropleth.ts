@@ -22,9 +22,10 @@ export function isChoroplethMode(mode: ColorMode): mode is ChoroplethMode {
   return (CHOROPLETH_MODES as string[]).includes(mode);
 }
 
-// dataviz blue sequential ramp (light → dark), 5 classes — the validated
-// choropleth palette. Lightest = near-zero, allowed to recede toward the basemap.
-export const CHOROPLETH_PALETTE = ['#cde2fb', '#86b6ef', '#3987e5', '#1c5cab', '#0d366b'];
+// Teal sequential ramp (light → dark), 5 classes — monotonic in lightness (CVD-safe for a
+// sequential scale; adjacent-step ΔE ≥ 12) and harmonises with the warm basemap + the teal island
+// layer. Lightest = near-zero, allowed to recede toward the basemap.
+export const CHOROPLETH_PALETTE = ['#d3efe8', '#8fd0c3', '#46b0a0', '#1d8676', '#0b564d'];
 
 function statValue(entry: ProvinceStatEntry, mode: ChoroplethMode): number | null {
   switch (mode) {
