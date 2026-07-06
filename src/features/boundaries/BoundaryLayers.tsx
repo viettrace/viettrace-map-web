@@ -11,7 +11,7 @@ import { ensureSource } from '@src/libs/maplibre/sources';
 import { setLayerGroupVisibility } from '@src/libs/maplibre/visibility';
 import { loadProvinceStatistics } from '@src/features/province-detail/provinceStatistics';
 import { loadRegionalClassification, type Region } from '@src/types/regional-classification';
-import { computeChoropleth, type ChoroplethMode } from './choropleth';
+import { computeChoropleth, isChoroplethMode, type ChoroplethMode } from './choropleth';
 import {
   BASEMAP_COMMUNE_LAYER,
   BASEMAP_SETTLEMENT_LABEL_LAYERS,
@@ -461,10 +461,12 @@ export default function BoundaryLayers({ map, state, provinceEntries = [] }: Bou
     // change). Without this sync, reopening the app with `?mode=post` can
     // leave Hoang Sa and Truong Sa rendered with the pre-mode (red) palette.
     if (includeOffshoreIslands && state.layers.offshoreIslands) {
-      // Reef fill is mode-independent (set once in the layer def); the outline tracks the active
-      // mode, and the label tracks the mode too but goes neutral when boundaries are OFF.
+      // Reef fill is mode-independent (set once in the layer def); the outline tracks the active mode,
+      // and the label tracks the mode too but goes neutral outside "territorial" state (boundaries OFF
+      // or a data/choropleth color mode). The visibility effect hides the outline/fill in those states.
+      const territorial = state.layers.boundaries && !isChoroplethMode(state.colorMode);
       const { outlineColor } = getOffshoreIslandModeStyle(state.mode);
-      const labelColor = getOffshoreIslandLabelColor(state.mode, state.layers.boundaries);
+      const labelColor = getOffshoreIslandLabelColor(state.mode, territorial);
 
       if (map.getLayer(offshoreIslandLayerIds.outline)) {
         map.setPaintProperty(offshoreIslandLayerIds.outline, 'line-color', outlineColor);

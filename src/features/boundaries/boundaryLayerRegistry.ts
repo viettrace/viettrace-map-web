@@ -2,6 +2,7 @@ import type maplibregl from 'maplibre-gl';
 import type { MapMode, MapViewState } from '@src/features/map-state/mapViewTypes';
 import type { PublicEnv } from '@src/libs/config/publicEnv';
 import { buildTileTemplate } from '@src/libs/maplibre/tileUrl';
+import { isChoroplethMode } from './choropleth';
 
 export const boundarySourceIds = {
   islands: 'vn-offshore-islands',
@@ -123,12 +124,13 @@ export function getOffshoreIslandModeStyle(mode: MapMode): OffshoreIslandModeSty
     : { fillColor: '#3388ff', labelColor: '#1e3a8a', outlineColor: '#1d4ed8' };
 }
 
-// The Hoàng Sa / Trường Sa label stays visible even when the OSM-boundaries overlay is OFF (it's the
-// sovereignty marker). With boundaries OFF it has no territorial (red/blue) role and the coloured
-// text is the only overlay left, so it should read as a neutral place label like the basemap's.
+// The Hoàng Sa / Trường Sa label always stays visible (sovereignty marker), but its colour is
+// territorial (red/blue) only when the overlay is in territorial mode — OSM-boundaries ON and NOT a
+// data (choropleth) color mode. Otherwise the coloured text would be the lone clashing overlay, so it
+// reads as a neutral place label like the basemap's.
 const OFFSHORE_LABEL_NEUTRAL = '#374151';
-export function getOffshoreIslandLabelColor(mode: MapMode, boundariesOn: boolean): string {
-  return boundariesOn ? getOffshoreIslandModeStyle(mode).labelColor : OFFSHORE_LABEL_NEUTRAL;
+export function getOffshoreIslandLabelColor(mode: MapMode, territorial: boolean): string {
+  return territorial ? getOffshoreIslandModeStyle(mode).labelColor : OFFSHORE_LABEL_NEUTRAL;
 }
 
 // Reef/shallows fill for the OSM-derived Hoàng Sa / Trường Sa reef polygons. A pale turquoise
@@ -262,11 +264,13 @@ const provinceBoundaryLayerGroups: BoundaryLayerGroup[] = [
   },
 ];
 
-// Offshore boundary VISUALS (fill + outline) follow the OSM-boundaries toggle — hidden when
-// boundaries are OFF (the basemap still renders the islands as land underneath).
+// Offshore boundary VISUALS (fill + outline) show only in the "territorial" state — OSM-boundaries ON
+// and NOT in a data (choropleth) color mode. Hidden when boundaries are OFF or a choropleth is active
+// (their red/blue clashes with the graduated fills); the basemap still renders the islands as land.
 const offshoreIslandLayerGroup: BoundaryLayerGroup = {
   id: 'offshore-islands',
-  isVisible: state => state.layers.offshoreIslands && state.layers.boundaries,
+  isVisible: state =>
+    state.layers.offshoreIslands && state.layers.boundaries && !isChoroplethMode(state.colorMode),
   layerIds: [
     boundaryLayerIds.islandsFill,
     boundaryLayerIds.islandsOutlineHalo,
@@ -845,13 +849,13 @@ function getOffshoreIslandLayerDefinitions(
   reefTilesAvailable: boolean,
 ): BoundaryLayerDefinition[] {
   const islandsVisible = state.layers.offshoreIslands;
-  // Boundary VISUALS (fill/halo/outline) follow the OSM-boundaries toggle so the disputed-archipelago
-  // outline hides when boundaries are OFF; the LABEL stays on (sovereignty) — see the two groups.
-  const islandsBoundaryVisible = islandsVisible && state.layers.boundaries;
-  // Outline tracks the active mode (territorial signal); the reef fill is mode-independent. The label
-  // tracks the mode too — but goes neutral when the OSM-boundaries overlay is OFF.
+  // "Territorial" = OSM-boundaries ON and not a data (choropleth) color mode. Boundary VISUALS
+  // (fill/halo/outline) show only then; the LABEL always stays on (sovereignty) but its colour goes
+  // neutral outside territorial mode — see the two groups + getOffshoreIslandLabelColor.
+  const territorial = state.layers.boundaries && !isChoroplethMode(state.colorMode);
+  const islandsBoundaryVisible = islandsVisible && territorial;
   const { outlineColor } = getOffshoreIslandModeStyle(state.mode);
-  const labelColor = getOffshoreIslandLabelColor(state.mode, state.layers.boundaries);
+  const labelColor = getOffshoreIslandLabelColor(state.mode, territorial);
   const labelExpression = getOffshoreIslandLabelTextField(state.mode, locale);
   // The turquoise fill uses the reef-minus-land source (islands punched out as holes) when
   // available, so the islands show the basemap land colour; the OUTLINE/label use the full-extent
