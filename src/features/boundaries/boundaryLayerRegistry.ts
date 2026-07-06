@@ -123,6 +123,14 @@ export function getOffshoreIslandModeStyle(mode: MapMode): OffshoreIslandModeSty
     : { fillColor: '#3388ff', labelColor: '#1e3a8a', outlineColor: '#1d4ed8' };
 }
 
+// The Hoàng Sa / Trường Sa label stays visible even when the OSM-boundaries overlay is OFF (it's the
+// sovereignty marker). With boundaries OFF it has no territorial (red/blue) role and the coloured
+// text is the only overlay left, so it should read as a neutral place label like the basemap's.
+const OFFSHORE_LABEL_NEUTRAL = '#374151';
+export function getOffshoreIslandLabelColor(mode: MapMode, boundariesOn: boolean): string {
+  return boundariesOn ? getOffshoreIslandModeStyle(mode).labelColor : OFFSHORE_LABEL_NEUTRAL;
+}
+
 // Reef/shallows fill for the OSM-derived Hoàng Sa / Trường Sa reef polygons. A pale turquoise
 // clearly lighter+greener than the basemap's teal sea (#a9cdd0), so each reef/atoll reads as
 // shallows instead of open water. Mode-independent (a reef isn't political) — the red/blue
@@ -840,8 +848,10 @@ function getOffshoreIslandLayerDefinitions(
   // Boundary VISUALS (fill/halo/outline) follow the OSM-boundaries toggle so the disputed-archipelago
   // outline hides when boundaries are OFF; the LABEL stays on (sovereignty) — see the two groups.
   const islandsBoundaryVisible = islandsVisible && state.layers.boundaries;
-  // Outline + label track the active mode (territorial signal); the reef fill is mode-independent.
-  const { labelColor, outlineColor } = getOffshoreIslandModeStyle(state.mode);
+  // Outline tracks the active mode (territorial signal); the reef fill is mode-independent. The label
+  // tracks the mode too — but goes neutral when the OSM-boundaries overlay is OFF.
+  const { outlineColor } = getOffshoreIslandModeStyle(state.mode);
+  const labelColor = getOffshoreIslandLabelColor(state.mode, state.layers.boundaries);
   const labelExpression = getOffshoreIslandLabelTextField(state.mode, locale);
   // The turquoise fill uses the reef-minus-land source (islands punched out as holes) when
   // available, so the islands show the basemap land colour; the OUTLINE/label use the full-extent

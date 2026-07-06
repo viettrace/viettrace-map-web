@@ -21,6 +21,7 @@ import {
   getBoundaryLayerGroups,
   getBoundarySourceDefinitions,
   getNestedCandidateBasemapPlaceLayerIds,
+  getOffshoreIslandLabelColor,
   getOffshoreIslandLabelTextField,
   getOffshoreIslandModeStyle,
   offshoreIslandLayerIds,
@@ -460,9 +461,10 @@ export default function BoundaryLayers({ map, state, provinceEntries = [] }: Bou
     // change). Without this sync, reopening the app with `?mode=post` can
     // leave Hoang Sa and Truong Sa rendered with the pre-mode (red) palette.
     if (includeOffshoreIslands && state.layers.offshoreIslands) {
-      // Reef fill is mode-independent (set once in the layer def); only the outline + label
-      // track the active mode here.
-      const { labelColor, outlineColor } = getOffshoreIslandModeStyle(state.mode);
+      // Reef fill is mode-independent (set once in the layer def); the outline tracks the active
+      // mode, and the label tracks the mode too but goes neutral when boundaries are OFF.
+      const { outlineColor } = getOffshoreIslandModeStyle(state.mode);
+      const labelColor = getOffshoreIslandLabelColor(state.mode, state.layers.boundaries);
 
       if (map.getLayer(offshoreIslandLayerIds.outline)) {
         map.setPaintProperty(offshoreIslandLayerIds.outline, 'line-color', outlineColor);

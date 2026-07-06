@@ -84,10 +84,17 @@ export default function ProvinceSearch({
     compareMode === 'swipe'
       ? nestedEntries
       : nestedEntries.filter(entry => entry.mode === mode);
+  // Region filter must also scope nested (district/ward) results — otherwise a query like "Phú Yên"
+  // still surfaces Phú Yên's districts (their slug contains the parent slug) even under a region that
+  // doesn't contain that province. A nested unit inherits its parent province's region.
+  const regionFilteredNestedEntries =
+    regionFilter === 'all'
+      ? scopedNestedEntries
+      : scopedNestedEntries.filter(e => regionSlugs.get(regionFilter)?.has(e.parentProvinceSlug));
   const provinceResults = searchProvinceIndex(regionFilteredEntries, query, { locale });
   const nestedResults =
-    onSelectNested && scopedNestedEntries.length > 0
-      ? searchNestedIndex(scopedNestedEntries, query, { locale })
+    onSelectNested && regionFilteredNestedEntries.length > 0
+      ? searchNestedIndex(regionFilteredNestedEntries, query, { locale })
       : [];
   const provinceNameEnBySlug = new Map(entries.map(e => [e.slug, e.name_en]));
   const results: SearchResult[] = [
