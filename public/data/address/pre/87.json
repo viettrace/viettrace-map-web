@@ -1,0 +1,2998 @@
+{
+  "schemaVersion": 1,
+  "mergeDate": "2025-07-01",
+  "code": "87",
+  "name": "Tỉnh Đồng Tháp",
+  "name_en": "Dong Thap Province",
+  "slug": "dong-thap",
+  "districts": [
+    {
+      "code": "866",
+      "name": "Thành phố Cao Lãnh",
+      "type": "Thành phố",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "29869",
+          "name": "Phường 1",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Phường Cao Lãnh",
+              "newWardShort": "Cao Lãnh",
+              "newWardCode": "29869",
+              "newWardType": "Phường",
+              "lat": 10.4399,
+              "lon": 105.624,
+              "areaKm2": 73.3
+            }
+          ]
+        },
+        {
+          "code": "29875",
+          "name": "Phường 3",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Phường Cao Lãnh",
+              "newWardShort": "Cao Lãnh",
+              "newWardCode": "29869",
+              "newWardType": "Phường",
+              "lat": 10.4399,
+              "lon": 105.624,
+              "areaKm2": 73.3
+            }
+          ]
+        },
+        {
+          "code": "29872",
+          "name": "Phường 4",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Phường Cao Lãnh",
+              "newWardShort": "Cao Lãnh",
+              "newWardCode": "29869",
+              "newWardType": "Phường",
+              "lat": 10.4399,
+              "lon": 105.624,
+              "areaKm2": 73.3
+            }
+          ]
+        },
+        {
+          "code": "29878",
+          "name": "Phường 6",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Phường Cao Lãnh",
+              "newWardShort": "Cao Lãnh",
+              "newWardCode": "29869",
+              "newWardType": "Phường",
+              "lat": 10.4399,
+              "lon": 105.624,
+              "areaKm2": 73.3
+            }
+          ]
+        },
+        {
+          "code": "29892",
+          "name": "Phường Hòa Thuận",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Phường Cao Lãnh",
+              "newWardShort": "Cao Lãnh",
+              "newWardCode": "29869",
+              "newWardType": "Phường",
+              "lat": 10.4399,
+              "lon": 105.624,
+              "areaKm2": 73.3
+            }
+          ]
+        },
+        {
+          "code": "29881",
+          "name": "Phường Mỹ Ngãi",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Phường Mỹ Ngãi",
+              "newWardShort": "Mỹ Ngãi",
+              "newWardCode": "29884",
+              "newWardType": "Phường",
+              "lat": 10.5092,
+              "lon": 105.611,
+              "areaKm2": 49.0509
+            }
+          ]
+        },
+        {
+          "code": "29888",
+          "name": "Phường Mỹ Phú",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Phường Mỹ Trà",
+              "newWardShort": "Mỹ Trà",
+              "newWardCode": "29888",
+              "newWardType": "Phường",
+              "lat": 10.4796,
+              "lon": 105.676,
+              "areaKm2": 46.3
+            }
+          ]
+        },
+        {
+          "code": "29893",
+          "name": "Xã Hòa An",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Phường Cao Lãnh",
+              "newWardShort": "Cao Lãnh",
+              "newWardCode": "29869",
+              "newWardType": "Phường",
+              "lat": 10.4399,
+              "lon": 105.624,
+              "areaKm2": 73.3
+            }
+          ]
+        },
+        {
+          "code": "29884",
+          "name": "Xã Mỹ Tân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Phường Mỹ Ngãi",
+              "newWardShort": "Mỹ Ngãi",
+              "newWardCode": "29884",
+              "newWardType": "Phường",
+              "lat": 10.5092,
+              "lon": 105.611,
+              "areaKm2": 49.0509
+            }
+          ]
+        },
+        {
+          "code": "29887",
+          "name": "Xã Mỹ Trà",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Phường Mỹ Trà",
+              "newWardShort": "Mỹ Trà",
+              "newWardCode": "29888",
+              "newWardType": "Phường",
+              "lat": 10.4796,
+              "lon": 105.676,
+              "areaKm2": 46.3
+            }
+          ]
+        },
+        {
+          "code": "29896",
+          "name": "Xã Tân Thuận Đông",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Phường Cao Lãnh",
+              "newWardShort": "Cao Lãnh",
+              "newWardCode": "29869",
+              "newWardType": "Phường",
+              "lat": 10.4399,
+              "lon": 105.624,
+              "areaKm2": 73.3
+            }
+          ]
+        },
+        {
+          "code": "29890",
+          "name": "Xã Tân Thuận Tây",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Phường Cao Lãnh",
+              "newWardShort": "Cao Lãnh",
+              "newWardCode": "29869",
+              "newWardType": "Phường",
+              "lat": 10.4399,
+              "lon": 105.624,
+              "areaKm2": 73.3
+            }
+          ]
+        },
+        {
+          "code": "29899",
+          "name": "Xã Tịnh Thới",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Phường Cao Lãnh",
+              "newWardShort": "Cao Lãnh",
+              "newWardCode": "29869",
+              "newWardType": "Phường",
+              "lat": 10.4399,
+              "lon": 105.624,
+              "areaKm2": 73.3
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "868",
+      "name": "Thành phố Hồng Ngự",
+      "type": "Thành phố",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "29989",
+          "name": "Phường An Bình A",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Phường An Bình",
+              "newWardShort": "An Bình",
+              "newWardCode": "29954",
+              "newWardType": "Phường",
+              "lat": 10.7881,
+              "lon": 105.39,
+              "areaKm2": 18.39
+            }
+          ]
+        },
+        {
+          "code": "29986",
+          "name": "Phường An Bình B",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Phường An Bình",
+              "newWardShort": "An Bình",
+              "newWardCode": "29954",
+              "newWardType": "Phường",
+              "lat": 10.7881,
+              "lon": 105.39,
+              "areaKm2": 18.39
+            }
+          ]
+        },
+        {
+          "code": "29978",
+          "name": "Phường An Lạc",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Phường Thường Lạc",
+              "newWardShort": "Thường Lạc",
+              "newWardCode": "29978",
+              "newWardType": "Phường",
+              "lat": 10.8453,
+              "lon": 105.319,
+              "areaKm2": 43.7
+            }
+          ]
+        },
+        {
+          "code": "29954",
+          "name": "Phường An Lộc",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Phường An Bình",
+              "newWardShort": "An Bình",
+              "newWardCode": "29954",
+              "newWardType": "Phường",
+              "lat": 10.7881,
+              "lon": 105.39,
+              "areaKm2": 18.39
+            }
+          ]
+        },
+        {
+          "code": "29955",
+          "name": "Phường An Thạnh",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Phường Hồng Ngự",
+              "newWardShort": "Hồng Ngự",
+              "newWardCode": "29955",
+              "newWardType": "Phường",
+              "lat": 10.8412,
+              "lon": 105.377,
+              "areaKm2": 64.2
+            }
+          ]
+        },
+        {
+          "code": "29959",
+          "name": "Xã Bình Thạnh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Phường Hồng Ngự",
+              "newWardShort": "Hồng Ngự",
+              "newWardCode": "29955",
+              "newWardType": "Phường",
+              "lat": 10.8412,
+              "lon": 105.377,
+              "areaKm2": 64.2
+            }
+          ]
+        },
+        {
+          "code": "29965",
+          "name": "Xã Tân Hội",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Phường Hồng Ngự",
+              "newWardShort": "Hồng Ngự",
+              "newWardCode": "29955",
+              "newWardType": "Phường",
+              "lat": 10.8412,
+              "lon": 105.377,
+              "areaKm2": 64.2
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "873",
+      "name": "Huyện Cao Lãnh",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "30076",
+          "name": "Thị trấn Mỹ Thọ",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Mỹ Thọ",
+              "newWardShort": "Mỹ Thọ",
+              "newWardCode": "30076",
+              "newWardType": "Xã",
+              "lat": 10.4458,
+              "lon": 105.718,
+              "areaKm2": 61.5
+            }
+          ]
+        },
+        {
+          "code": "30106",
+          "name": "Xã An Bình",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Phường Mỹ Trà",
+              "newWardShort": "Mỹ Trà",
+              "newWardCode": "29888",
+              "newWardType": "Phường",
+              "lat": 10.4796,
+              "lon": 105.676,
+              "areaKm2": 46.3
+            }
+          ]
+        },
+        {
+          "code": "30085",
+          "name": "Xã Ba Sao",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Ba Sao",
+              "newWardShort": "Ba Sao",
+              "newWardCode": "30085",
+              "newWardType": "Xã",
+              "lat": 10.5486,
+              "lon": 105.691,
+              "areaKm2": 81.1
+            }
+          ]
+        },
+        {
+          "code": "30124",
+          "name": "Xã Bình Hàng Tây",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Bình Hàng Trung",
+              "newWardShort": "Bình Hàng Trung",
+              "newWardCode": "30118",
+              "newWardType": "Xã",
+              "lat": 10.4245,
+              "lon": 105.775,
+              "areaKm2": 78.2
+            }
+          ]
+        },
+        {
+          "code": "30118",
+          "name": "Xã Bình Hàng Trung",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Bình Hàng Trung",
+              "newWardShort": "Bình Hàng Trung",
+              "newWardCode": "30118",
+              "newWardType": "Xã",
+              "lat": 10.4245,
+              "lon": 105.775,
+              "areaKm2": 78.2
+            }
+          ]
+        },
+        {
+          "code": "30127",
+          "name": "Xã Bình Thạnh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Mỹ Hiệp",
+              "newWardShort": "Mỹ Hiệp",
+              "newWardCode": "30112",
+              "newWardType": "Xã",
+              "lat": 10.3429,
+              "lon": 105.794,
+              "areaKm2": 79.4
+            }
+          ]
+        },
+        {
+          "code": "30079",
+          "name": "Xã Gáo Giồng",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Phong Mỹ",
+              "newWardShort": "Phong Mỹ",
+              "newWardCode": "30088",
+              "newWardType": "Xã",
+              "lat": 10.584,
+              "lon": 105.614,
+              "areaKm2": 78.6
+            },
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Phú Cường",
+              "newWardShort": "Phú Cường",
+              "newWardCode": "30025",
+              "newWardType": "Xã",
+              "lat": 10.7401,
+              "lon": 105.655,
+              "areaKm2": 89.9
+            }
+          ]
+        },
+        {
+          "code": "30112",
+          "name": "Xã Mỹ Hiệp",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Mỹ Hiệp",
+              "newWardShort": "Mỹ Hiệp",
+              "newWardCode": "30112",
+              "newWardType": "Xã",
+              "lat": 10.3429,
+              "lon": 105.794,
+              "areaKm2": 79.4
+            }
+          ]
+        },
+        {
+          "code": "30109",
+          "name": "Xã Mỹ Hội",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Mỹ Thọ",
+              "newWardShort": "Mỹ Thọ",
+              "newWardCode": "30076",
+              "newWardType": "Xã",
+              "lat": 10.4458,
+              "lon": 105.718,
+              "areaKm2": 61.5
+            }
+          ]
+        },
+        {
+          "code": "30115",
+          "name": "Xã Mỹ Long",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Mỹ Hiệp",
+              "newWardShort": "Mỹ Hiệp",
+              "newWardCode": "30112",
+              "newWardType": "Xã",
+              "lat": 10.3429,
+              "lon": 105.794,
+              "areaKm2": 79.4
+            }
+          ]
+        },
+        {
+          "code": "30100",
+          "name": "Xã Mỹ Thọ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Mỹ Thọ",
+              "newWardShort": "Mỹ Thọ",
+              "newWardCode": "30076",
+              "newWardType": "Xã",
+              "lat": 10.4458,
+              "lon": 105.718,
+              "areaKm2": 61.5
+            }
+          ]
+        },
+        {
+          "code": "30121",
+          "name": "Xã Mỹ Xương",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Mỹ Thọ",
+              "newWardShort": "Mỹ Thọ",
+              "newWardCode": "30076",
+              "newWardType": "Xã",
+              "lat": 10.4458,
+              "lon": 105.718,
+              "areaKm2": 61.5
+            }
+          ]
+        },
+        {
+          "code": "30097",
+          "name": "Xã Nhị Mỹ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Phường Mỹ Trà",
+              "newWardShort": "Mỹ Trà",
+              "newWardCode": "29888",
+              "newWardType": "Phường",
+              "lat": 10.4796,
+              "lon": 105.676,
+              "areaKm2": 46.3
+            }
+          ]
+        },
+        {
+          "code": "30088",
+          "name": "Xã Phong Mỹ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Phong Mỹ",
+              "newWardShort": "Phong Mỹ",
+              "newWardCode": "30088",
+              "newWardType": "Xã",
+              "lat": 10.584,
+              "lon": 105.614,
+              "areaKm2": 78.6
+            }
+          ]
+        },
+        {
+          "code": "30082",
+          "name": "Xã Phương Thịnh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Phương Thịnh",
+              "newWardShort": "Phương Thịnh",
+              "newWardCode": "30043",
+              "newWardType": "Xã",
+              "lat": 10.6551,
+              "lon": 105.7,
+              "areaKm2": 104.7
+            }
+          ]
+        },
+        {
+          "code": "30094",
+          "name": "Xã Phương Trà",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Ba Sao",
+              "newWardShort": "Ba Sao",
+              "newWardCode": "30085",
+              "newWardType": "Xã",
+              "lat": 10.5486,
+              "lon": 105.691,
+              "areaKm2": 81.1
+            }
+          ]
+        },
+        {
+          "code": "30103",
+          "name": "Xã Tân Hội Trung",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Bình Hàng Trung",
+              "newWardShort": "Bình Hàng Trung",
+              "newWardCode": "30118",
+              "newWardType": "Xã",
+              "lat": 10.4245,
+              "lon": 105.775,
+              "areaKm2": 78.2
+            }
+          ]
+        },
+        {
+          "code": "30091",
+          "name": "Xã Tân Nghĩa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Phường Mỹ Ngãi",
+              "newWardShort": "Mỹ Ngãi",
+              "newWardCode": "29884",
+              "newWardType": "Phường",
+              "lat": 10.5092,
+              "lon": 105.611,
+              "areaKm2": 49.0509
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "877",
+      "name": "Huyện Châu Thành",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "30244",
+          "name": "Thị trấn Cái Tàu Hạ",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Phú Hựu",
+              "newWardShort": "Phú Hựu",
+              "newWardCode": "30244",
+              "newWardType": "Xã",
+              "lat": 10.2512,
+              "lon": 105.864,
+              "areaKm2": 71.3
+            }
+          ]
+        },
+        {
+          "code": "30247",
+          "name": "Xã An Hiệp",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Phú Hựu",
+              "newWardShort": "Phú Hựu",
+              "newWardCode": "30244",
+              "newWardType": "Xã",
+              "lat": 10.2512,
+              "lon": 105.864,
+              "areaKm2": 71.3
+            }
+          ]
+        },
+        {
+          "code": "30271",
+          "name": "Xã An Khánh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Tân Nhuận Đông",
+              "newWardShort": "Tân Nhuận Đông",
+              "newWardCode": "30253",
+              "newWardType": "Xã",
+              "lat": 10.2025,
+              "lon": 105.833,
+              "areaKm2": 92
+            }
+          ]
+        },
+        {
+          "code": "30250",
+          "name": "Xã An Nhơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Phú Hựu",
+              "newWardShort": "Phú Hựu",
+              "newWardCode": "30244",
+              "newWardType": "Xã",
+              "lat": 10.2512,
+              "lon": 105.864,
+              "areaKm2": 71.3
+            }
+          ]
+        },
+        {
+          "code": "30265",
+          "name": "Xã An Phú Thuận",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Phú Hựu",
+              "newWardShort": "Phú Hựu",
+              "newWardCode": "30244",
+              "newWardType": "Xã",
+              "lat": 10.2512,
+              "lon": 105.864,
+              "areaKm2": 71.3
+            }
+          ]
+        },
+        {
+          "code": "30277",
+          "name": "Xã Hòa Tân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Tân Nhuận Đông",
+              "newWardShort": "Tân Nhuận Đông",
+              "newWardCode": "30253",
+              "newWardType": "Xã",
+              "lat": 10.2025,
+              "lon": 105.833,
+              "areaKm2": 92
+            }
+          ]
+        },
+        {
+          "code": "30268",
+          "name": "Xã Phú Hựu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Phú Hựu",
+              "newWardShort": "Phú Hựu",
+              "newWardCode": "30244",
+              "newWardType": "Xã",
+              "lat": 10.2512,
+              "lon": 105.864,
+              "areaKm2": 71.3
+            }
+          ]
+        },
+        {
+          "code": "30262",
+          "name": "Xã Phú Long",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Tân Phú Trung",
+              "newWardShort": "Tân Phú Trung",
+              "newWardCode": "30259",
+              "newWardType": "Xã",
+              "lat": 10.2325,
+              "lon": 105.764,
+              "areaKm2": 82.6
+            }
+          ]
+        },
+        {
+          "code": "30256",
+          "name": "Xã Tân Bình",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Tân Phú Trung",
+              "newWardShort": "Tân Phú Trung",
+              "newWardCode": "30259",
+              "newWardType": "Xã",
+              "lat": 10.2325,
+              "lon": 105.764,
+              "areaKm2": 82.6
+            }
+          ]
+        },
+        {
+          "code": "30253",
+          "name": "Xã Tân Nhuận Đông",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Tân Nhuận Đông",
+              "newWardShort": "Tân Nhuận Đông",
+              "newWardCode": "30253",
+              "newWardType": "Xã",
+              "lat": 10.2025,
+              "lon": 105.833,
+              "areaKm2": 92
+            }
+          ]
+        },
+        {
+          "code": "30274",
+          "name": "Xã Tân Phú",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Tân Phú Trung",
+              "newWardShort": "Tân Phú Trung",
+              "newWardCode": "30259",
+              "newWardType": "Xã",
+              "lat": 10.2325,
+              "lon": 105.764,
+              "areaKm2": 82.6
+            }
+          ]
+        },
+        {
+          "code": "30259",
+          "name": "Xã Tân Phú Trung",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Tân Phú Trung",
+              "newWardShort": "Tân Phú Trung",
+              "newWardCode": "30259",
+              "newWardType": "Xã",
+              "lat": 10.2325,
+              "lon": 105.764,
+              "areaKm2": 82.6
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "870",
+      "name": "Huyện Hồng Ngự",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "29971",
+          "name": "Thị trấn Thường Thới Tiền",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Thường Phước",
+              "newWardShort": "Thường Phước",
+              "newWardCode": "29971",
+              "newWardType": "Xã",
+              "lat": 10.8523,
+              "lon": 105.241,
+              "areaKm2": 80.7
+            }
+          ]
+        },
+        {
+          "code": "29980",
+          "name": "Xã Long Khánh A",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Long Khánh",
+              "newWardShort": "Long Khánh",
+              "newWardCode": "29983",
+              "newWardType": "Xã",
+              "lat": 10.3806,
+              "lon": 106.124,
+              "areaKm2": 21.3
+            }
+          ]
+        },
+        {
+          "code": "29983",
+          "name": "Xã Long Khánh B",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Long Khánh",
+              "newWardShort": "Long Khánh",
+              "newWardCode": "29983",
+              "newWardType": "Xã",
+              "lat": 10.3806,
+              "lon": 106.124,
+              "areaKm2": 21.3
+            }
+          ]
+        },
+        {
+          "code": "29992",
+          "name": "Xã Long Thuận",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Long Phú Thuận",
+              "newWardShort": "Long Phú Thuận",
+              "newWardCode": "29992",
+              "newWardType": "Xã",
+              "lat": 10.7489,
+              "lon": 105.318,
+              "areaKm2": 56.6
+            }
+          ]
+        },
+        {
+          "code": "29998",
+          "name": "Xã Phú Thuận A",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Long Phú Thuận",
+              "newWardShort": "Long Phú Thuận",
+              "newWardCode": "29992",
+              "newWardType": "Xã",
+              "lat": 10.7489,
+              "lon": 105.318,
+              "areaKm2": 56.6
+            }
+          ]
+        },
+        {
+          "code": "29995",
+          "name": "Xã Phú Thuận B",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Long Phú Thuận",
+              "newWardShort": "Long Phú Thuận",
+              "newWardCode": "29992",
+              "newWardType": "Xã",
+              "lat": 10.7489,
+              "lon": 105.318,
+              "areaKm2": 56.6
+            },
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Tân Long",
+              "newWardShort": "Tân Long",
+              "newWardCode": "30154",
+              "newWardType": "Xã",
+              "lat": 10.6221,
+              "lon": 105.381,
+              "areaKm2": 102.12
+            }
+          ]
+        },
+        {
+          "code": "29977",
+          "name": "Xã Thường Lạc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Phường Thường Lạc",
+              "newWardShort": "Thường Lạc",
+              "newWardCode": "29978",
+              "newWardType": "Phường",
+              "lat": 10.8453,
+              "lon": 105.319,
+              "areaKm2": 43.7
+            }
+          ]
+        },
+        {
+          "code": "29956",
+          "name": "Xã Thường Phước 1",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Thường Phước",
+              "newWardShort": "Thường Phước",
+              "newWardCode": "29971",
+              "newWardType": "Xã",
+              "lat": 10.8523,
+              "lon": 105.241,
+              "areaKm2": 80.7
+            }
+          ]
+        },
+        {
+          "code": "29974",
+          "name": "Xã Thường Phước 2",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Thường Phước",
+              "newWardShort": "Thường Phước",
+              "newWardCode": "29971",
+              "newWardType": "Xã",
+              "lat": 10.8523,
+              "lon": 105.241,
+              "areaKm2": 80.7
+            }
+          ]
+        },
+        {
+          "code": "29962",
+          "name": "Xã Thường Thới Hậu A",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Phường Thường Lạc",
+              "newWardShort": "Thường Lạc",
+              "newWardCode": "29978",
+              "newWardType": "Phường",
+              "lat": 10.8453,
+              "lon": 105.319,
+              "areaKm2": 43.7
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "876",
+      "name": "Huyện Lai Vung",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "30208",
+          "name": "Thị trấn Lai Vung",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Hòa Long",
+              "newWardShort": "Hòa Long",
+              "newWardCode": "30208",
+              "newWardType": "Xã",
+              "lat": 10.2433,
+              "lon": 105.692,
+              "areaKm2": 81.3
+            }
+          ]
+        },
+        {
+          "code": "30238",
+          "name": "Xã Định Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Phong Hòa",
+              "newWardShort": "Phong Hòa",
+              "newWardCode": "30235",
+              "newWardType": "Xã",
+              "lat": 10.185,
+              "lon": 105.664,
+              "areaKm2": 87.9
+            }
+          ]
+        },
+        {
+          "code": "30223",
+          "name": "Xã Hòa Long",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Hòa Long",
+              "newWardShort": "Hòa Long",
+              "newWardCode": "30208",
+              "newWardType": "Xã",
+              "lat": 10.2433,
+              "lon": 105.692,
+              "areaKm2": 81.3
+            }
+          ]
+        },
+        {
+          "code": "30214",
+          "name": "Xã Hòa Thành",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Tân Dương",
+              "newWardShort": "Tân Dương",
+              "newWardCode": "30214",
+              "newWardType": "Xã",
+              "lat": 10.2988,
+              "lon": 105.713,
+              "areaKm2": 46.7
+            }
+          ]
+        },
+        {
+          "code": "30217",
+          "name": "Xã Long Hậu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Hòa Long",
+              "newWardShort": "Hòa Long",
+              "newWardCode": "30208",
+              "newWardType": "Xã",
+              "lat": 10.2433,
+              "lon": 105.692,
+              "areaKm2": 81.3
+            }
+          ]
+        },
+        {
+          "code": "30229",
+          "name": "Xã Long Thắng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Hòa Long",
+              "newWardShort": "Hòa Long",
+              "newWardCode": "30208",
+              "newWardType": "Xã",
+              "lat": 10.2433,
+              "lon": 105.692,
+              "areaKm2": 81.3
+            }
+          ]
+        },
+        {
+          "code": "30241",
+          "name": "Xã Phong Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Phong Hòa",
+              "newWardShort": "Phong Hòa",
+              "newWardCode": "30235",
+              "newWardType": "Xã",
+              "lat": 10.185,
+              "lon": 105.664,
+              "areaKm2": 87.9
+            }
+          ]
+        },
+        {
+          "code": "30211",
+          "name": "Xã Tân Dương",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Tân Dương",
+              "newWardShort": "Tân Dương",
+              "newWardCode": "30214",
+              "newWardType": "Xã",
+              "lat": 10.2988,
+              "lon": 105.713,
+              "areaKm2": 46.7
+            }
+          ]
+        },
+        {
+          "code": "30235",
+          "name": "Xã Tân Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Phong Hòa",
+              "newWardShort": "Phong Hòa",
+              "newWardCode": "30235",
+              "newWardType": "Xã",
+              "lat": 10.185,
+              "lon": 105.664,
+              "areaKm2": 87.9
+            }
+          ]
+        },
+        {
+          "code": "30220",
+          "name": "Xã Tân Phước",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Lai Vung",
+              "newWardShort": "Lai Vung",
+              "newWardCode": "30226",
+              "newWardType": "Xã",
+              "lat": 10.2983,
+              "lon": 105.565,
+              "areaKm2": 71.2
+            }
+          ]
+        },
+        {
+          "code": "30226",
+          "name": "Xã Tân Thành",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Lai Vung",
+              "newWardShort": "Lai Vung",
+              "newWardCode": "30226",
+              "newWardType": "Xã",
+              "lat": 10.2983,
+              "lon": 105.565,
+              "areaKm2": 71.2
+            }
+          ]
+        },
+        {
+          "code": "30232",
+          "name": "Xã Vĩnh Thới",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Phong Hòa",
+              "newWardShort": "Phong Hòa",
+              "newWardCode": "30235",
+              "newWardType": "Xã",
+              "lat": 10.185,
+              "lon": 105.664,
+              "areaKm2": 87.9
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "875",
+      "name": "Huyện Lấp Vò",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "30169",
+          "name": "Thị trấn Lấp Vò",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Lấp Vò",
+              "newWardShort": "Lấp Vò",
+              "newWardCode": "30169",
+              "newWardType": "Xã",
+              "lat": 10.3521,
+              "lon": 105.578,
+              "areaKm2": 85.2
+            }
+          ]
+        },
+        {
+          "code": "30193",
+          "name": "Xã Bình Thành",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Lấp Vò",
+              "newWardShort": "Lấp Vò",
+              "newWardCode": "30169",
+              "newWardType": "Xã",
+              "lat": 10.3521,
+              "lon": 105.578,
+              "areaKm2": 85.2
+            }
+          ]
+        },
+        {
+          "code": "30205",
+          "name": "Xã Bình Thạnh Trung",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Lấp Vò",
+              "newWardShort": "Lấp Vò",
+              "newWardCode": "30169",
+              "newWardType": "Xã",
+              "lat": 10.3521,
+              "lon": 105.578,
+              "areaKm2": 85.2
+            }
+          ]
+        },
+        {
+          "code": "30196",
+          "name": "Xã Định An",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Lai Vung",
+              "newWardShort": "Lai Vung",
+              "newWardCode": "30226",
+              "newWardType": "Xã",
+              "lat": 10.2983,
+              "lon": 105.565,
+              "areaKm2": 71.2
+            }
+          ]
+        },
+        {
+          "code": "30199",
+          "name": "Xã Định Yên",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Lai Vung",
+              "newWardShort": "Lai Vung",
+              "newWardCode": "30226",
+              "newWardType": "Xã",
+              "lat": 10.2983,
+              "lon": 105.565,
+              "areaKm2": 71.2
+            }
+          ]
+        },
+        {
+          "code": "30202",
+          "name": "Xã Hội An Đông",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Mỹ An Hưng",
+              "newWardShort": "Mỹ An Hưng",
+              "newWardCode": "30178",
+              "newWardType": "Xã",
+              "lat": 10.3883,
+              "lon": 105.604,
+              "areaKm2": 65.3
+            }
+          ]
+        },
+        {
+          "code": "30184",
+          "name": "Xã Long Hưng A",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Tân Khánh Trung",
+              "newWardShort": "Tân Khánh Trung",
+              "newWardCode": "30184",
+              "newWardType": "Xã",
+              "lat": 10.3549,
+              "lon": 105.676,
+              "areaKm2": 60.1
+            }
+          ]
+        },
+        {
+          "code": "30190",
+          "name": "Xã Long Hưng B",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Tân Khánh Trung",
+              "newWardShort": "Tân Khánh Trung",
+              "newWardCode": "30184",
+              "newWardType": "Xã",
+              "lat": 10.3549,
+              "lon": 105.676,
+              "areaKm2": 60.1
+            }
+          ]
+        },
+        {
+          "code": "30172",
+          "name": "Xã Mỹ An Hưng A",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Mỹ An Hưng",
+              "newWardShort": "Mỹ An Hưng",
+              "newWardCode": "30178",
+              "newWardType": "Xã",
+              "lat": 10.3883,
+              "lon": 105.604,
+              "areaKm2": 65.3
+            }
+          ]
+        },
+        {
+          "code": "30178",
+          "name": "Xã Mỹ An Hưng B",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Mỹ An Hưng",
+              "newWardShort": "Mỹ An Hưng",
+              "newWardCode": "30178",
+              "newWardType": "Xã",
+              "lat": 10.3883,
+              "lon": 105.604,
+              "areaKm2": 65.3
+            }
+          ]
+        },
+        {
+          "code": "30181",
+          "name": "Xã Tân Khánh Trung",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Tân Khánh Trung",
+              "newWardShort": "Tân Khánh Trung",
+              "newWardCode": "30184",
+              "newWardType": "Xã",
+              "lat": 10.3549,
+              "lon": 105.676,
+              "areaKm2": 60.1
+            }
+          ]
+        },
+        {
+          "code": "30175",
+          "name": "Xã Tân Mỹ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Mỹ An Hưng",
+              "newWardShort": "Mỹ An Hưng",
+              "newWardCode": "30178",
+              "newWardType": "Xã",
+              "lat": 10.3883,
+              "lon": 105.604,
+              "areaKm2": 65.3
+            }
+          ]
+        },
+        {
+          "code": "30187",
+          "name": "Xã Vĩnh Thạnh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Lấp Vò",
+              "newWardShort": "Lấp Vò",
+              "newWardCode": "30169",
+              "newWardType": "Xã",
+              "lat": 10.3521,
+              "lon": 105.578,
+              "areaKm2": 85.2
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "871",
+      "name": "Huyện Tam Nông",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "30001",
+          "name": "Thị trấn Tràm Chim",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Tràm Chim",
+              "newWardShort": "Tràm Chim",
+              "newWardCode": "30001",
+              "newWardType": "Xã",
+              "lat": 10.7468,
+              "lon": 105.621,
+              "areaKm2": 90.2
+            }
+          ]
+        },
+        {
+          "code": "30019",
+          "name": "Xã An Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã An Hòa",
+              "newWardShort": "An Hòa",
+              "newWardCode": "30019",
+              "newWardType": "Xã",
+              "lat": 10.7532,
+              "lon": 105.462,
+              "areaKm2": 77.9
+            }
+          ]
+        },
+        {
+          "code": "30022",
+          "name": "Xã An Long",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã An Long",
+              "newWardShort": "An Long",
+              "newWardCode": "30028",
+              "newWardType": "Xã",
+              "lat": 10.6442,
+              "lon": 105.411,
+              "areaKm2": 72.2
+            }
+          ]
+        },
+        {
+          "code": "30004",
+          "name": "Xã Hòa Bình",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Phú Cường",
+              "newWardShort": "Phú Cường",
+              "newWardCode": "30025",
+              "newWardType": "Xã",
+              "lat": 10.7401,
+              "lon": 105.655,
+              "areaKm2": 89.9
+            }
+          ]
+        },
+        {
+          "code": "30025",
+          "name": "Xã Phú Cường",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Phú Cường",
+              "newWardShort": "Phú Cường",
+              "newWardCode": "30025",
+              "newWardType": "Xã",
+              "lat": 10.7401,
+              "lon": 105.655,
+              "areaKm2": 89.9
+            }
+          ]
+        },
+        {
+          "code": "30013",
+          "name": "Xã Phú Đức",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Tam Nông",
+              "newWardShort": "Tam Nông",
+              "newWardCode": "30010",
+              "newWardType": "Xã",
+              "lat": 10.7541,
+              "lon": 105.532,
+              "areaKm2": 102.7
+            }
+          ]
+        },
+        {
+          "code": "30010",
+          "name": "Xã Phú Hiệp",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Tam Nông",
+              "newWardShort": "Tam Nông",
+              "newWardCode": "30010",
+              "newWardType": "Xã",
+              "lat": 10.7541,
+              "lon": 105.532,
+              "areaKm2": 102.7
+            }
+          ]
+        },
+        {
+          "code": "30028",
+          "name": "Xã Phú Ninh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã An Long",
+              "newWardShort": "An Long",
+              "newWardCode": "30028",
+              "newWardType": "Xã",
+              "lat": 10.6442,
+              "lon": 105.411,
+              "areaKm2": 72.2
+            }
+          ]
+        },
+        {
+          "code": "30034",
+          "name": "Xã Phú Thành A",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Phú Thọ",
+              "newWardShort": "Phú Thọ",
+              "newWardCode": "30034",
+              "newWardType": "Xã",
+              "lat": 10.6933,
+              "lon": 105.483,
+              "areaKm2": 84.9
+            }
+          ]
+        },
+        {
+          "code": "30016",
+          "name": "Xã Phú Thành B",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã An Hòa",
+              "newWardShort": "An Hòa",
+              "newWardCode": "30019",
+              "newWardType": "Xã",
+              "lat": 10.7532,
+              "lon": 105.462,
+              "areaKm2": 77.9
+            }
+          ]
+        },
+        {
+          "code": "30031",
+          "name": "Xã Phú Thọ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Phú Thọ",
+              "newWardShort": "Phú Thọ",
+              "newWardCode": "30034",
+              "newWardType": "Xã",
+              "lat": 10.6933,
+              "lon": 105.483,
+              "areaKm2": 84.9
+            }
+          ]
+        },
+        {
+          "code": "30007",
+          "name": "Xã Tân Công Sính",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Tràm Chim",
+              "newWardShort": "Tràm Chim",
+              "newWardCode": "30001",
+              "newWardType": "Xã",
+              "lat": 10.7468,
+              "lon": 105.621,
+              "areaKm2": 90.2
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "869",
+      "name": "Huyện Tân Hồng",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "29926",
+          "name": "Thị trấn Sa Rài",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Tân Hồng",
+              "newWardShort": "Tân Hồng",
+              "newWardCode": "29926",
+              "newWardType": "Xã",
+              "lat": 10.8673,
+              "lon": 105.439,
+              "areaKm2": 102.8
+            }
+          ]
+        },
+        {
+          "code": "29950",
+          "name": "Xã An Phước",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã An Phước",
+              "newWardShort": "An Phước",
+              "newWardCode": "29944",
+              "newWardType": "Xã",
+              "lat": 10.8184,
+              "lon": 105.525,
+              "areaKm2": 64.9
+            }
+          ]
+        },
+        {
+          "code": "29935",
+          "name": "Xã Bình Phú",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Tân Hồng",
+              "newWardShort": "Tân Hồng",
+              "newWardCode": "29926",
+              "newWardType": "Xã",
+              "lat": 10.8673,
+              "lon": 105.439,
+              "areaKm2": 102.8
+            }
+          ]
+        },
+        {
+          "code": "29947",
+          "name": "Xã Tân Công Chí",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Tân Hồng",
+              "newWardShort": "Tân Hồng",
+              "newWardCode": "29926",
+              "newWardType": "Xã",
+              "lat": 10.8673,
+              "lon": 105.439,
+              "areaKm2": 102.8
+            }
+          ]
+        },
+        {
+          "code": "29929",
+          "name": "Xã Tân Hộ Cơ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Tân Hộ Cơ",
+              "newWardShort": "Tân Hộ Cơ",
+              "newWardCode": "29929",
+              "newWardType": "Xã",
+              "lat": 10.9046,
+              "lon": 105.473,
+              "areaKm2": 77.5
+            }
+          ]
+        },
+        {
+          "code": "29944",
+          "name": "Xã Tân Phước",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã An Phước",
+              "newWardShort": "An Phước",
+              "newWardCode": "29944",
+              "newWardType": "Xã",
+              "lat": 10.8184,
+              "lon": 105.525,
+              "areaKm2": 64.9
+            }
+          ]
+        },
+        {
+          "code": "29938",
+          "name": "Xã Tân Thành A",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Tân Thành",
+              "newWardShort": "Tân Thành",
+              "newWardCode": "29938",
+              "newWardType": "Xã",
+              "lat": 10.8964,
+              "lon": 105.529,
+              "areaKm2": 64.8
+            }
+          ]
+        },
+        {
+          "code": "29941",
+          "name": "Xã Tân Thành B",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Tân Hộ Cơ",
+              "newWardShort": "Tân Hộ Cơ",
+              "newWardCode": "29929",
+              "newWardType": "Xã",
+              "lat": 10.9046,
+              "lon": 105.473,
+              "areaKm2": 77.5
+            }
+          ]
+        },
+        {
+          "code": "29932",
+          "name": "Xã Thông Bình",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Tân Thành",
+              "newWardShort": "Tân Thành",
+              "newWardCode": "29938",
+              "newWardType": "Xã",
+              "lat": 10.8964,
+              "lon": 105.529,
+              "areaKm2": 64.8
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "874",
+      "name": "Huyện Thanh Bình",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "30130",
+          "name": "Thị trấn Thanh Bình",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Thanh Bình",
+              "newWardShort": "Thanh Bình",
+              "newWardCode": "30130",
+              "newWardType": "Xã",
+              "lat": 10.4123,
+              "lon": 106.386,
+              "areaKm2": 86
+            }
+          ]
+        },
+        {
+          "code": "30139",
+          "name": "Xã An Phong",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã An Long",
+              "newWardShort": "An Long",
+              "newWardCode": "30028",
+              "newWardType": "Xã",
+              "lat": 10.6442,
+              "lon": 105.411,
+              "areaKm2": 72.2
+            }
+          ]
+        },
+        {
+          "code": "30148",
+          "name": "Xã Bình Tấn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Bình Thành",
+              "newWardShort": "Bình Thành",
+              "newWardCode": "30163",
+              "newWardType": "Xã",
+              "lat": 10.5866,
+              "lon": 105.567,
+              "areaKm2": 72.1
+            }
+          ]
+        },
+        {
+          "code": "30163",
+          "name": "Xã Bình Thành",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Bình Thành",
+              "newWardShort": "Bình Thành",
+              "newWardCode": "30163",
+              "newWardType": "Xã",
+              "lat": 10.5866,
+              "lon": 105.567,
+              "areaKm2": 72.1
+            }
+          ]
+        },
+        {
+          "code": "30142",
+          "name": "Xã Phú Lợi",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Tân Thạnh",
+              "newWardShort": "Tân Thạnh",
+              "newWardCode": "30157",
+              "newWardType": "Xã",
+              "lat": 10.6051,
+              "lon": 105.468,
+              "areaKm2": 70.8
+            }
+          ]
+        },
+        {
+          "code": "30154",
+          "name": "Xã Tân Bình",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Tân Long",
+              "newWardShort": "Tân Long",
+              "newWardCode": "30154",
+              "newWardType": "Xã",
+              "lat": 10.6221,
+              "lon": 105.381,
+              "areaKm2": 102.12
+            }
+          ]
+        },
+        {
+          "code": "30136",
+          "name": "Xã Tân Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Tân Long",
+              "newWardShort": "Tân Long",
+              "newWardCode": "30154",
+              "newWardType": "Xã",
+              "lat": 10.6221,
+              "lon": 105.381,
+              "areaKm2": 102.12
+            }
+          ]
+        },
+        {
+          "code": "30151",
+          "name": "Xã Tân Huề",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Tân Long",
+              "newWardShort": "Tân Long",
+              "newWardCode": "30154",
+              "newWardType": "Xã",
+              "lat": 10.6221,
+              "lon": 105.381,
+              "areaKm2": 102.12
+            }
+          ]
+        },
+        {
+          "code": "30166",
+          "name": "Xã Tân Long",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Tân Long",
+              "newWardShort": "Tân Long",
+              "newWardCode": "30154",
+              "newWardType": "Xã",
+              "lat": 10.6221,
+              "lon": 105.381,
+              "areaKm2": 102.12
+            }
+          ]
+        },
+        {
+          "code": "30145",
+          "name": "Xã Tân Mỹ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Thanh Bình",
+              "newWardShort": "Thanh Bình",
+              "newWardCode": "30130",
+              "newWardType": "Xã",
+              "lat": 10.4123,
+              "lon": 106.386,
+              "areaKm2": 86
+            }
+          ]
+        },
+        {
+          "code": "30160",
+          "name": "Xã Tân Phú",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Thanh Bình",
+              "newWardShort": "Thanh Bình",
+              "newWardCode": "30130",
+              "newWardType": "Xã",
+              "lat": 10.4123,
+              "lon": 106.386,
+              "areaKm2": 86
+            }
+          ]
+        },
+        {
+          "code": "30133",
+          "name": "Xã Tân Quới",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Tân Long",
+              "newWardShort": "Tân Long",
+              "newWardCode": "30154",
+              "newWardType": "Xã",
+              "lat": 10.6221,
+              "lon": 105.381,
+              "areaKm2": 102.12
+            }
+          ]
+        },
+        {
+          "code": "30157",
+          "name": "Xã Tân Thạnh",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Tân Thạnh",
+              "newWardShort": "Tân Thạnh",
+              "newWardCode": "30157",
+              "newWardType": "Xã",
+              "lat": 10.6051,
+              "lon": 105.468,
+              "areaKm2": 70.8
+            },
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Thanh Bình",
+              "newWardShort": "Thanh Bình",
+              "newWardCode": "30130",
+              "newWardType": "Xã",
+              "lat": 10.4123,
+              "lon": 106.386,
+              "areaKm2": 86
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "872",
+      "name": "Huyện Tháp Mười",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "30037",
+          "name": "Thị trấn Mỹ An",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Tháp Mười",
+              "newWardShort": "Tháp Mười",
+              "newWardCode": "30037",
+              "newWardType": "Xã",
+              "lat": 10.5821,
+              "lon": 105.808,
+              "areaKm2": 70.4
+            }
+          ]
+        },
+        {
+          "code": "30061",
+          "name": "Xã Đốc Binh Kiều",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Đốc Binh Kiều",
+              "newWardShort": "Đốc Binh Kiều",
+              "newWardCode": "30061",
+              "newWardType": "Xã",
+              "lat": 10.5502,
+              "lon": 105.883,
+              "areaKm2": 77.8
+            }
+          ]
+        },
+        {
+          "code": "30043",
+          "name": "Xã Hưng Thạnh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Phương Thịnh",
+              "newWardShort": "Phương Thịnh",
+              "newWardCode": "30043",
+              "newWardType": "Xã",
+              "lat": 10.6551,
+              "lon": 105.7,
+              "areaKm2": 104.7
+            }
+          ]
+        },
+        {
+          "code": "30070",
+          "name": "Xã Láng Biển",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Mỹ Quí",
+              "newWardShort": "Mỹ Quí",
+              "newWardCode": "30055",
+              "newWardType": "Xã",
+              "lat": 10.5302,
+              "lon": 105.774,
+              "areaKm2": 119.9
+            }
+          ]
+        },
+        {
+          "code": "30064",
+          "name": "Xã Mỹ An",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Tháp Mười",
+              "newWardShort": "Tháp Mười",
+              "newWardCode": "30037",
+              "newWardType": "Xã",
+              "lat": 10.5821,
+              "lon": 105.808,
+              "areaKm2": 70.4
+            }
+          ]
+        },
+        {
+          "code": "30058",
+          "name": "Xã Mỹ Đông",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Mỹ Quí",
+              "newWardShort": "Mỹ Quí",
+              "newWardCode": "30055",
+              "newWardType": "Xã",
+              "lat": 10.5302,
+              "lon": 105.774,
+              "areaKm2": 119.9
+            }
+          ]
+        },
+        {
+          "code": "30052",
+          "name": "Xã Mỹ Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Tháp Mười",
+              "newWardShort": "Tháp Mười",
+              "newWardCode": "30037",
+              "newWardType": "Xã",
+              "lat": 10.5821,
+              "lon": 105.808,
+              "areaKm2": 70.4
+            }
+          ]
+        },
+        {
+          "code": "30055",
+          "name": "Xã Mỹ Quý",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Mỹ Quí",
+              "newWardShort": "Mỹ Quí",
+              "newWardCode": "30055",
+              "newWardType": "Xã",
+              "lat": 10.5302,
+              "lon": 105.774,
+              "areaKm2": 119.9
+            }
+          ]
+        },
+        {
+          "code": "30067",
+          "name": "Xã Phú Điền",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Thanh Mỹ",
+              "newWardShort": "Thanh Mỹ",
+              "newWardCode": "30073",
+              "newWardType": "Xã",
+              "lat": 10.4442,
+              "lon": 105.857,
+              "areaKm2": 93.1
+            }
+          ]
+        },
+        {
+          "code": "30049",
+          "name": "Xã Tân Kiều",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Đốc Binh Kiều",
+              "newWardShort": "Đốc Binh Kiều",
+              "newWardCode": "30061",
+              "newWardType": "Xã",
+              "lat": 10.5502,
+              "lon": 105.883,
+              "areaKm2": 77.8
+            }
+          ]
+        },
+        {
+          "code": "30040",
+          "name": "Xã Thạnh Lợi",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Trường Xuân",
+              "newWardShort": "Trường Xuân",
+              "newWardCode": "30046",
+              "newWardType": "Xã",
+              "lat": 10.6294,
+              "lon": 105.791,
+              "areaKm2": 67.94
+            }
+          ]
+        },
+        {
+          "code": "30073",
+          "name": "Xã Thanh Mỹ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Thanh Mỹ",
+              "newWardShort": "Thanh Mỹ",
+              "newWardCode": "30073",
+              "newWardType": "Xã",
+              "lat": 10.4442,
+              "lon": 105.857,
+              "areaKm2": 93.1
+            }
+          ]
+        },
+        {
+          "code": "30046",
+          "name": "Xã Trường Xuân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Trường Xuân",
+              "newWardShort": "Trường Xuân",
+              "newWardCode": "30046",
+              "newWardType": "Xã",
+              "lat": 10.6294,
+              "lon": 105.791,
+              "areaKm2": 67.94
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "867",
+      "name": "Thành phố Sa Đéc",
+      "type": "Thành phố",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "29905",
+          "name": "Phường 1",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Phường Sa Đéc",
+              "newWardShort": "Sa Đéc",
+              "newWardCode": "29905",
+              "newWardType": "Phường",
+              "lat": 10.329,
+              "lon": 105.739,
+              "areaKm2": 46.9
+            }
+          ]
+        },
+        {
+          "code": "29911",
+          "name": "Phường 2",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Phường Sa Đéc",
+              "newWardShort": "Sa Đéc",
+              "newWardCode": "29905",
+              "newWardType": "Phường",
+              "lat": 10.329,
+              "lon": 105.739,
+              "areaKm2": 46.9
+            }
+          ]
+        },
+        {
+          "code": "29902",
+          "name": "Phường 3",
+          "type": "Phường",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Phường Sa Đéc",
+              "newWardShort": "Sa Đéc",
+              "newWardCode": "29905",
+              "newWardType": "Phường",
+              "lat": 10.329,
+              "lon": 105.739,
+              "areaKm2": 46.9
+            },
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Phường Cao Lãnh",
+              "newWardShort": "Cao Lãnh",
+              "newWardCode": "29869",
+              "newWardType": "Phường",
+              "lat": 10.4399,
+              "lon": 105.624,
+              "areaKm2": 73.3
+            }
+          ]
+        },
+        {
+          "code": "29908",
+          "name": "Phường 4",
+          "type": "Phường",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Phường Sa Đéc",
+              "newWardShort": "Sa Đéc",
+              "newWardCode": "29905",
+              "newWardType": "Phường",
+              "lat": 10.329,
+              "lon": 105.739,
+              "areaKm2": 46.9
+            },
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Phường Cao Lãnh",
+              "newWardShort": "Cao Lãnh",
+              "newWardCode": "29869",
+              "newWardType": "Phường",
+              "lat": 10.4399,
+              "lon": 105.624,
+              "areaKm2": 73.3
+            }
+          ]
+        },
+        {
+          "code": "29919",
+          "name": "Phường An Hòa",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Phường Sa Đéc",
+              "newWardShort": "Sa Đéc",
+              "newWardCode": "29905",
+              "newWardType": "Phường",
+              "lat": 10.329,
+              "lon": 105.739,
+              "areaKm2": 46.9
+            }
+          ]
+        },
+        {
+          "code": "29917",
+          "name": "Phường Tân Quy Đông",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Phường Sa Đéc",
+              "newWardShort": "Sa Đéc",
+              "newWardCode": "29905",
+              "newWardType": "Phường",
+              "lat": 10.329,
+              "lon": 105.739,
+              "areaKm2": 46.9
+            }
+          ]
+        },
+        {
+          "code": "29914",
+          "name": "Xã Tân Khánh Đông",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Phường Sa Đéc",
+              "newWardShort": "Sa Đéc",
+              "newWardCode": "29905",
+              "newWardType": "Phường",
+              "lat": 10.329,
+              "lon": 105.739,
+              "areaKm2": 46.9
+            }
+          ]
+        },
+        {
+          "code": "29923",
+          "name": "Xã Tân Phú Đông",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Xã Tân Dương",
+              "newWardShort": "Tân Dương",
+              "newWardCode": "30214",
+              "newWardType": "Xã",
+              "lat": 10.2988,
+              "lon": 105.713,
+              "areaKm2": 46.7
+            }
+          ]
+        },
+        {
+          "code": "29920",
+          "name": "Xã Tân Quy Tây",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Tháp",
+              "newProvinceSlug": "dong-thap",
+              "newProvinceCode": "82",
+              "newWard": "Phường Sa Đéc",
+              "newWardShort": "Sa Đéc",
+              "newWardCode": "29905",
+              "newWardType": "Phường",
+              "lat": 10.329,
+              "lon": 105.739,
+              "areaKm2": 46.9
+            }
+          ]
+        }
+      ],
+      "results": []
+    }
+  ]
+}

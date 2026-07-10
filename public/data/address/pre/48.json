@@ -1,0 +1,1046 @@
+{
+  "schemaVersion": 1,
+  "mergeDate": "2025-07-01",
+  "code": "48",
+  "name": "Thành phố Đà Nẵng",
+  "name_en": "Da Nang City",
+  "slug": "da-nang",
+  "districts": [
+    {
+      "code": "497",
+      "name": "Huyện Hòa Vang",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "20293",
+          "name": "Xã Hòa Bắc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Đà Nẵng",
+              "newProvinceSlug": "da-nang",
+              "newProvinceCode": "48",
+              "newWard": "Phường Hải Vân",
+              "newWardShort": "Hải Vân",
+              "newWardCode": "20194",
+              "newWardType": "Phường",
+              "lat": 16.1315,
+              "lon": 107.972,
+              "areaKm2": 406.09
+            }
+          ]
+        },
+        {
+          "code": "20323",
+          "name": "Xã Hòa Châu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Đà Nẵng",
+              "newProvinceSlug": "da-nang",
+              "newProvinceCode": "48",
+              "newWard": "Phường Hòa Xuân",
+              "newWardShort": "Hòa Xuân",
+              "newWardCode": "20314",
+              "newWardType": "Phường",
+              "lat": 15.9865,
+              "lon": 108.21,
+              "areaKm2": 27.96
+            }
+          ]
+        },
+        {
+          "code": "20332",
+          "name": "Xã Hòa Khương",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Đà Nẵng",
+              "newProvinceSlug": "da-nang",
+              "newProvinceCode": "48",
+              "newWard": "Xã Hòa Tiến",
+              "newWardShort": "Hòa Tiến",
+              "newWardCode": "20332",
+              "newWardType": "Xã",
+              "lat": 15.9566,
+              "lon": 108.1,
+              "areaKm2": 65.9
+            }
+          ]
+        },
+        {
+          "code": "20296",
+          "name": "Xã Hòa Liên",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Đà Nẵng",
+              "newProvinceSlug": "da-nang",
+              "newProvinceCode": "48",
+              "newWard": "Phường Hải Vân",
+              "newWardShort": "Hải Vân",
+              "newWardCode": "20194",
+              "newWardType": "Phường",
+              "lat": 16.1315,
+              "lon": 107.972,
+              "areaKm2": 406.09
+            },
+            {
+              "newProvince": "Thành phố Đà Nẵng",
+              "newProvinceSlug": "da-nang",
+              "newProvinceCode": "48",
+              "newWard": "Phường Liên Chiểu",
+              "newWardShort": "Liên Chiểu",
+              "newWardCode": "20197",
+              "newWardType": "Phường",
+              "lat": 16.0933,
+              "lon": 108.092,
+              "areaKm2": 41.19
+            }
+          ]
+        },
+        {
+          "code": "20308",
+          "name": "Xã Hòa Nhơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Đà Nẵng",
+              "newProvinceSlug": "da-nang",
+              "newProvinceCode": "48",
+              "newWard": "Xã Bà Nà",
+              "newWardShort": "Bà Nà",
+              "newWardCode": "20308",
+              "newWardType": "Xã",
+              "lat": 16.0369,
+              "lon": 108.046,
+              "areaKm2": 136.41
+            }
+          ]
+        },
+        {
+          "code": "20299",
+          "name": "Xã Hòa Ninh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Đà Nẵng",
+              "newProvinceSlug": "da-nang",
+              "newProvinceCode": "48",
+              "newWard": "Xã Bà Nà",
+              "newWardShort": "Bà Nà",
+              "newWardCode": "20308",
+              "newWardType": "Xã",
+              "lat": 16.0369,
+              "lon": 108.046,
+              "areaKm2": 136.41
+            }
+          ]
+        },
+        {
+          "code": "20320",
+          "name": "Xã Hòa Phong",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Đà Nẵng",
+              "newProvinceSlug": "da-nang",
+              "newProvinceCode": "48",
+              "newWard": "Xã Hòa Vang",
+              "newWardShort": "Hòa Vang",
+              "newWardCode": "20320",
+              "newWardType": "Xã",
+              "lat": 15.9875,
+              "lon": 108.057,
+              "areaKm2": 107.61
+            }
+          ]
+        },
+        {
+          "code": "20317",
+          "name": "Xã Hòa Phú",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Đà Nẵng",
+              "newProvinceSlug": "da-nang",
+              "newProvinceCode": "48",
+              "newWard": "Xã Hòa Vang",
+              "newWardShort": "Hòa Vang",
+              "newWardCode": "20320",
+              "newWardType": "Xã",
+              "lat": 15.9875,
+              "lon": 108.057,
+              "areaKm2": 107.61
+            }
+          ]
+        },
+        {
+          "code": "20329",
+          "name": "Xã Hòa Phước",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Đà Nẵng",
+              "newProvinceSlug": "da-nang",
+              "newProvinceCode": "48",
+              "newWard": "Phường Hòa Xuân",
+              "newWardShort": "Hòa Xuân",
+              "newWardCode": "20314",
+              "newWardType": "Phường",
+              "lat": 15.9865,
+              "lon": 108.21,
+              "areaKm2": 27.96
+            }
+          ]
+        },
+        {
+          "code": "20302",
+          "name": "Xã Hòa Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Đà Nẵng",
+              "newProvinceSlug": "da-nang",
+              "newProvinceCode": "48",
+              "newWard": "Phường Hòa Khánh",
+              "newWardShort": "Hòa Khánh",
+              "newWardCode": "20200",
+              "newWardType": "Phường",
+              "lat": 16.0471,
+              "lon": 108.131,
+              "areaKm2": 40.93
+            }
+          ]
+        },
+        {
+          "code": "20326",
+          "name": "Xã Hòa Tiến",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Đà Nẵng",
+              "newProvinceSlug": "da-nang",
+              "newProvinceCode": "48",
+              "newWard": "Xã Hòa Tiến",
+              "newWardShort": "Hòa Tiến",
+              "newWardCode": "20332",
+              "newWardType": "Xã",
+              "lat": 15.9566,
+              "lon": 108.1,
+              "areaKm2": 65.9
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "498",
+      "name": "Huyện Hoàng Sa",
+      "type": "Huyện",
+      "isIsland": true,
+      "wards": [],
+      "results": [
+        {
+          "newProvince": "Thành phố Đà Nẵng",
+          "newProvinceSlug": "da-nang",
+          "newProvinceCode": "48",
+          "newWard": "Đặc khu Hoàng Sa",
+          "newWardShort": "Hoàng Sa",
+          "newWardCode": "20333",
+          "newWardType": "Đặc khu",
+          "lat": 16.568,
+          "lon": 112.135,
+          "areaKm2": 305
+        }
+      ]
+    },
+    {
+      "code": "495",
+      "name": "Quận Cẩm Lệ",
+      "type": "Quận",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "20306",
+          "name": "Phường Hòa An",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Đà Nẵng",
+              "newProvinceSlug": "da-nang",
+              "newProvinceCode": "48",
+              "newWard": "Phường An Khê",
+              "newWardShort": "An Khê",
+              "newWardCode": "20305",
+              "newWardType": "Phường",
+              "lat": 16.0367,
+              "lon": 108.179,
+              "areaKm2": 12.36
+            }
+          ]
+        },
+        {
+          "code": "20305",
+          "name": "Phường Hòa Phát",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Đà Nẵng",
+              "newProvinceSlug": "da-nang",
+              "newProvinceCode": "48",
+              "newWard": "Phường An Khê",
+              "newWardShort": "An Khê",
+              "newWardCode": "20305",
+              "newWardType": "Phường",
+              "lat": 16.0367,
+              "lon": 108.179,
+              "areaKm2": 12.36
+            }
+          ]
+        },
+        {
+          "code": "20312",
+          "name": "Phường Hòa Thọ Đông",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Đà Nẵng",
+              "newProvinceSlug": "da-nang",
+              "newProvinceCode": "48",
+              "newWard": "Phường Cẩm Lệ",
+              "newWardShort": "Cẩm Lệ",
+              "newWardCode": "20260",
+              "newWardType": "Phường",
+              "lat": 16.0054,
+              "lon": 108.173,
+              "areaKm2": 14.05
+            }
+          ]
+        },
+        {
+          "code": "20311",
+          "name": "Phường Hòa Thọ Tây",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Đà Nẵng",
+              "newProvinceSlug": "da-nang",
+              "newProvinceCode": "48",
+              "newWard": "Phường Cẩm Lệ",
+              "newWardShort": "Cẩm Lệ",
+              "newWardCode": "20260",
+              "newWardType": "Phường",
+              "lat": 16.0054,
+              "lon": 108.173,
+              "areaKm2": 14.05
+            }
+          ]
+        },
+        {
+          "code": "20314",
+          "name": "Phường Hòa Xuân",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Đà Nẵng",
+              "newProvinceSlug": "da-nang",
+              "newProvinceCode": "48",
+              "newWard": "Phường Hòa Xuân",
+              "newWardShort": "Hòa Xuân",
+              "newWardCode": "20314",
+              "newWardType": "Phường",
+              "lat": 15.9865,
+              "lon": 108.21,
+              "areaKm2": 27.96
+            }
+          ]
+        },
+        {
+          "code": "20260",
+          "name": "Phường Khuê Trung",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Đà Nẵng",
+              "newProvinceSlug": "da-nang",
+              "newProvinceCode": "48",
+              "newWard": "Phường Cẩm Lệ",
+              "newWardShort": "Cẩm Lệ",
+              "newWardCode": "20260",
+              "newWardType": "Phường",
+              "lat": 16.0054,
+              "lon": 108.173,
+              "areaKm2": 14.05
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "492",
+      "name": "Quận Hải Châu",
+      "type": "Quận",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "20254",
+          "name": "Phường Bình Thuận",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Đà Nẵng",
+              "newProvinceSlug": "da-nang",
+              "newProvinceCode": "48",
+              "newWard": "Phường Hòa Cường",
+              "newWardShort": "Hòa Cường",
+              "newWardCode": "20257",
+              "newWardType": "Phường",
+              "lat": 16.0458,
+              "lon": 108.212,
+              "areaKm2": 15.72
+            }
+          ]
+        },
+        {
+          "code": "20236",
+          "name": "Phường Hải Châu",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Đà Nẵng",
+              "newProvinceSlug": "da-nang",
+              "newProvinceCode": "48",
+              "newWard": "Phường Hải Châu",
+              "newWardShort": "Hải Châu",
+              "newWardCode": "20242",
+              "newWardType": "Phường",
+              "lat": 16.0762,
+              "lon": 108.218,
+              "areaKm2": 7.58
+            }
+          ]
+        },
+        {
+          "code": "20257",
+          "name": "Phường Hòa Cường Bắc",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Đà Nẵng",
+              "newProvinceSlug": "da-nang",
+              "newProvinceCode": "48",
+              "newWard": "Phường Hòa Cường",
+              "newWardShort": "Hòa Cường",
+              "newWardCode": "20257",
+              "newWardType": "Phường",
+              "lat": 16.0458,
+              "lon": 108.212,
+              "areaKm2": 15.72
+            }
+          ]
+        },
+        {
+          "code": "20258",
+          "name": "Phường Hòa Cường Nam",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Đà Nẵng",
+              "newProvinceSlug": "da-nang",
+              "newProvinceCode": "48",
+              "newWard": "Phường Hòa Cường",
+              "newWardShort": "Hòa Cường",
+              "newWardCode": "20257",
+              "newWardType": "Phường",
+              "lat": 16.0458,
+              "lon": 108.212,
+              "areaKm2": 15.72
+            }
+          ]
+        },
+        {
+          "code": "20245",
+          "name": "Phường Hòa Thuận Tây",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Đà Nẵng",
+              "newProvinceSlug": "da-nang",
+              "newProvinceCode": "48",
+              "newWard": "Phường Hòa Cường",
+              "newWardShort": "Hòa Cường",
+              "newWardCode": "20257",
+              "newWardType": "Phường",
+              "lat": 16.0458,
+              "lon": 108.212,
+              "areaKm2": 15.72
+            }
+          ]
+        },
+        {
+          "code": "20242",
+          "name": "Phường Phước Ninh",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Đà Nẵng",
+              "newProvinceSlug": "da-nang",
+              "newProvinceCode": "48",
+              "newWard": "Phường Hải Châu",
+              "newWardShort": "Hải Châu",
+              "newWardCode": "20242",
+              "newWardType": "Phường",
+              "lat": 16.0762,
+              "lon": 108.218,
+              "areaKm2": 7.58
+            }
+          ]
+        },
+        {
+          "code": "20233",
+          "name": "Phường Thạch Thang",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Đà Nẵng",
+              "newProvinceSlug": "da-nang",
+              "newProvinceCode": "48",
+              "newWard": "Phường Hải Châu",
+              "newWardShort": "Hải Châu",
+              "newWardCode": "20242",
+              "newWardType": "Phường",
+              "lat": 16.0762,
+              "lon": 108.218,
+              "areaKm2": 7.58
+            }
+          ]
+        },
+        {
+          "code": "20227",
+          "name": "Phường Thanh Bình",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Đà Nẵng",
+              "newProvinceSlug": "da-nang",
+              "newProvinceCode": "48",
+              "newWard": "Phường Hải Châu",
+              "newWardShort": "Hải Châu",
+              "newWardCode": "20242",
+              "newWardType": "Phường",
+              "lat": 16.0762,
+              "lon": 108.218,
+              "areaKm2": 7.58
+            }
+          ]
+        },
+        {
+          "code": "20230",
+          "name": "Phường Thuận Phước",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Đà Nẵng",
+              "newProvinceSlug": "da-nang",
+              "newProvinceCode": "48",
+              "newWard": "Phường Hải Châu",
+              "newWardShort": "Hải Châu",
+              "newWardCode": "20242",
+              "newWardType": "Phường",
+              "lat": 16.0762,
+              "lon": 108.218,
+              "areaKm2": 7.58
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "490",
+      "name": "Quận Liên Chiểu",
+      "type": "Quận",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "20194",
+          "name": "Phường Hòa Hiệp Bắc",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Đà Nẵng",
+              "newProvinceSlug": "da-nang",
+              "newProvinceCode": "48",
+              "newWard": "Phường Hải Vân",
+              "newWardShort": "Hải Vân",
+              "newWardCode": "20194",
+              "newWardType": "Phường",
+              "lat": 16.1315,
+              "lon": 107.972,
+              "areaKm2": 406.09
+            }
+          ]
+        },
+        {
+          "code": "20195",
+          "name": "Phường Hòa Hiệp Nam",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Đà Nẵng",
+              "newProvinceSlug": "da-nang",
+              "newProvinceCode": "48",
+              "newWard": "Phường Hải Vân",
+              "newWardShort": "Hải Vân",
+              "newWardCode": "20194",
+              "newWardType": "Phường",
+              "lat": 16.1315,
+              "lon": 107.972,
+              "areaKm2": 406.09
+            }
+          ]
+        },
+        {
+          "code": "20197",
+          "name": "Phường Hòa Khánh Bắc",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Đà Nẵng",
+              "newProvinceSlug": "da-nang",
+              "newProvinceCode": "48",
+              "newWard": "Phường Liên Chiểu",
+              "newWardShort": "Liên Chiểu",
+              "newWardCode": "20197",
+              "newWardType": "Phường",
+              "lat": 16.0933,
+              "lon": 108.092,
+              "areaKm2": 41.19
+            }
+          ]
+        },
+        {
+          "code": "20198",
+          "name": "Phường Hòa Khánh Nam",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Đà Nẵng",
+              "newProvinceSlug": "da-nang",
+              "newProvinceCode": "48",
+              "newWard": "Phường Hòa Khánh",
+              "newWardShort": "Hòa Khánh",
+              "newWardCode": "20200",
+              "newWardType": "Phường",
+              "lat": 16.0471,
+              "lon": 108.131,
+              "areaKm2": 40.93
+            }
+          ]
+        },
+        {
+          "code": "20200",
+          "name": "Phường Hòa Minh",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Đà Nẵng",
+              "newProvinceSlug": "da-nang",
+              "newProvinceCode": "48",
+              "newWard": "Phường Hòa Khánh",
+              "newWardShort": "Hòa Khánh",
+              "newWardCode": "20200",
+              "newWardType": "Phường",
+              "lat": 16.0471,
+              "lon": 108.131,
+              "areaKm2": 40.93
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "494",
+      "name": "Quận Ngũ Hành Sơn",
+      "type": "Quận",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "20290",
+          "name": "Phường Hòa Hải",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Đà Nẵng",
+              "newProvinceSlug": "da-nang",
+              "newProvinceCode": "48",
+              "newWard": "Phường Ngũ Hành Sơn",
+              "newWardShort": "Ngũ Hành Sơn",
+              "newWardCode": "20285",
+              "newWardType": "Phường",
+              "lat": 15.998,
+              "lon": 108.249,
+              "areaKm2": 40.19
+            }
+          ]
+        },
+        {
+          "code": "20287",
+          "name": "Phường Hòa Quý",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Đà Nẵng",
+              "newProvinceSlug": "da-nang",
+              "newProvinceCode": "48",
+              "newWard": "Phường Ngũ Hành Sơn",
+              "newWardShort": "Ngũ Hành Sơn",
+              "newWardCode": "20285",
+              "newWardType": "Phường",
+              "lat": 15.998,
+              "lon": 108.249,
+              "areaKm2": 40.19
+            }
+          ]
+        },
+        {
+          "code": "20285",
+          "name": "Phường Khuê Mỹ",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Đà Nẵng",
+              "newProvinceSlug": "da-nang",
+              "newProvinceCode": "48",
+              "newWard": "Phường Ngũ Hành Sơn",
+              "newWardShort": "Ngũ Hành Sơn",
+              "newWardCode": "20285",
+              "newWardType": "Phường",
+              "lat": 15.998,
+              "lon": 108.249,
+              "areaKm2": 40.19
+            }
+          ]
+        },
+        {
+          "code": "20284",
+          "name": "Phường Mỹ An",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Đà Nẵng",
+              "newProvinceSlug": "da-nang",
+              "newProvinceCode": "48",
+              "newWard": "Phường Ngũ Hành Sơn",
+              "newWardShort": "Ngũ Hành Sơn",
+              "newWardCode": "20285",
+              "newWardType": "Phường",
+              "lat": 15.998,
+              "lon": 108.249,
+              "areaKm2": 40.19
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "493",
+      "name": "Quận Sơn Trà",
+      "type": "Quận",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "20272",
+          "name": "Phường An Hải Bắc",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Đà Nẵng",
+              "newProvinceSlug": "da-nang",
+              "newProvinceCode": "48",
+              "newWard": "Phường An Hải",
+              "newWardShort": "An Hải",
+              "newWardCode": "20275",
+              "newWardType": "Phường",
+              "lat": 16.0689,
+              "lon": 108.237,
+              "areaKm2": 7.37
+            }
+          ]
+        },
+        {
+          "code": "20278",
+          "name": "Phường An Hải Nam",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Đà Nẵng",
+              "newProvinceSlug": "da-nang",
+              "newProvinceCode": "48",
+              "newWard": "Phường An Hải",
+              "newWardShort": "An Hải",
+              "newWardCode": "20275",
+              "newWardType": "Phường",
+              "lat": 16.0689,
+              "lon": 108.237,
+              "areaKm2": 7.37
+            }
+          ]
+        },
+        {
+          "code": "20269",
+          "name": "Phường Mân Thái",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Đà Nẵng",
+              "newProvinceSlug": "da-nang",
+              "newProvinceCode": "48",
+              "newWard": "Phường Sơn Trà",
+              "newWardShort": "Sơn Trà",
+              "newWardCode": "20263",
+              "newWardType": "Phường",
+              "lat": 16.1191,
+              "lon": 108.265,
+              "areaKm2": 56.03
+            }
+          ]
+        },
+        {
+          "code": "20266",
+          "name": "Phường Nại Hiên Đông",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Đà Nẵng",
+              "newProvinceSlug": "da-nang",
+              "newProvinceCode": "48",
+              "newWard": "Phường Sơn Trà",
+              "newWardShort": "Sơn Trà",
+              "newWardCode": "20263",
+              "newWardType": "Phường",
+              "lat": 16.1191,
+              "lon": 108.265,
+              "areaKm2": 56.03
+            }
+          ]
+        },
+        {
+          "code": "20275",
+          "name": "Phường Phước Mỹ",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Đà Nẵng",
+              "newProvinceSlug": "da-nang",
+              "newProvinceCode": "48",
+              "newWard": "Phường An Hải",
+              "newWardShort": "An Hải",
+              "newWardCode": "20275",
+              "newWardType": "Phường",
+              "lat": 16.0689,
+              "lon": 108.237,
+              "areaKm2": 7.37
+            }
+          ]
+        },
+        {
+          "code": "20263",
+          "name": "Phường Thọ Quang",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Đà Nẵng",
+              "newProvinceSlug": "da-nang",
+              "newProvinceCode": "48",
+              "newWard": "Phường Sơn Trà",
+              "newWardShort": "Sơn Trà",
+              "newWardCode": "20263",
+              "newWardType": "Phường",
+              "lat": 16.1191,
+              "lon": 108.265,
+              "areaKm2": 56.03
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "491",
+      "name": "Quận Thanh Khê",
+      "type": "Quận",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "20224",
+          "name": "Phường An Khê",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Đà Nẵng",
+              "newProvinceSlug": "da-nang",
+              "newProvinceCode": "48",
+              "newWard": "Phường An Khê",
+              "newWardShort": "An Khê",
+              "newWardCode": "20305",
+              "newWardType": "Phường",
+              "lat": 16.0367,
+              "lon": 108.179,
+              "areaKm2": 12.36
+            }
+          ]
+        },
+        {
+          "code": "20215",
+          "name": "Phường Chính Gián",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Đà Nẵng",
+              "newProvinceSlug": "da-nang",
+              "newProvinceCode": "48",
+              "newWard": "Phường Thanh Khê",
+              "newWardShort": "Thanh Khê",
+              "newWardCode": "20209",
+              "newWardType": "Phường",
+              "lat": 16.0697,
+              "lon": 108.203,
+              "areaKm2": 7.92
+            }
+          ]
+        },
+        {
+          "code": "20218",
+          "name": "Phường Thạc Gián",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Đà Nẵng",
+              "newProvinceSlug": "da-nang",
+              "newProvinceCode": "48",
+              "newWard": "Phường Thanh Khê",
+              "newWardShort": "Thanh Khê",
+              "newWardCode": "20209",
+              "newWardType": "Phường",
+              "lat": 16.0697,
+              "lon": 108.203,
+              "areaKm2": 7.92
+            }
+          ]
+        },
+        {
+          "code": "20207",
+          "name": "Phường Thanh Khê Đông",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Đà Nẵng",
+              "newProvinceSlug": "da-nang",
+              "newProvinceCode": "48",
+              "newWard": "Phường Thanh Khê",
+              "newWardShort": "Thanh Khê",
+              "newWardCode": "20209",
+              "newWardType": "Phường",
+              "lat": 16.0697,
+              "lon": 108.203,
+              "areaKm2": 7.92
+            }
+          ]
+        },
+        {
+          "code": "20206",
+          "name": "Phường Thanh Khê Tây",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Đà Nẵng",
+              "newProvinceSlug": "da-nang",
+              "newProvinceCode": "48",
+              "newWard": "Phường Thanh Khê",
+              "newWardShort": "Thanh Khê",
+              "newWardCode": "20209",
+              "newWardType": "Phường",
+              "lat": 16.0697,
+              "lon": 108.203,
+              "areaKm2": 7.92
+            }
+          ]
+        },
+        {
+          "code": "20209",
+          "name": "Phường Xuân Hà",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Đà Nẵng",
+              "newProvinceSlug": "da-nang",
+              "newProvinceCode": "48",
+              "newWard": "Phường Thanh Khê",
+              "newWardShort": "Thanh Khê",
+              "newWardCode": "20209",
+              "newWardType": "Phường",
+              "lat": 16.0697,
+              "lon": 108.203,
+              "areaKm2": 7.92
+            }
+          ]
+        }
+      ],
+      "results": []
+    }
+  ]
+}

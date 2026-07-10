@@ -211,6 +211,7 @@
     "detailStatsLink": "View merger stats",
     "viewProfile": "Province profile",
     "dataNoticeStatsLink": "Merger overview",
+    "addressConverterLink": "Convert old ↔ new address",
     "attributionOpenDetails": "Open data note and attribution",
     "attributionOSM": "© OpenStreetMap contributors",
     "attributionOpenMapTiles": "© OpenMapTiles",
@@ -242,5 +243,30 @@
     "title": "Viettrace",
     "description": "Compare Vietnam administrative boundaries before and after the July 2025 merger",
     "cta": "View map"
+  },
+  "AddressConverter": {
+    "title": "Convert address (before ↔ after merger)",
+    "subtitle": "Pick a pre-1 July 2025 administrative unit to see its new post-merger address.",
+    "metaDescription": "Look up your new address after Vietnam's 2025 merger: pick the old province/district/ward to get the new ward and province.",
+    "backToMap": "‹ Back to map",
+    "provinceLabel": "Province / city (old)",
+    "districtLabel": "District (old)",
+    "wardLabel": "Ward / commune (old)",
+    "provincePlaceholder": "— Select province / city —",
+    "districtPlaceholder": "— Select district —",
+    "wardPlaceholder": "— Select ward / commune —",
+    "loading": "Loading…",
+    "loadError": "Couldn't load data. Please try again.",
+    "islandNote": "Island district — no ward level before the merger; the result shows at district level.",
+    "emptyState": "Select an old administrative unit above to see the new post-merger address.",
+    "oldAddressLabel": "Address before 1 July 2025",
+    "newAddressLabel": "Address after the merger",
+    "dividedNote": "\"{name}\" was split across {count} new units. Choose the one matching your specific locality:",
+    "candidateBadge": "Option {n}",
+    "areaLabel": "Area",
+    "viewOnMap": "View on map",
+    "dataSourceTitle": "Data source",
+    "dataSourceContent": "Administrative-unit conversion table from vietnamadminunits (MIT licence), based on the official GSO registry (danhmuchanhchinh.gso.gov.vn) per Decision 19/2025/QĐ-TTg.",
+    "disclaimer": "Results are for reference; the official address is defined by state authority documents."
   }
 }

@@ -1,0 +1,2851 @@
+{
+  "schemaVersion": 1,
+  "mergeDate": "2025-07-01",
+  "code": "56",
+  "name": "Tỉnh Khánh Hòa",
+  "name_en": "Khanh Hoa Province",
+  "slug": "khanh-hoa",
+  "districts": [
+    {
+      "code": "569",
+      "name": "Thành phố Cam Ranh",
+      "type": "Thành phố",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "22423",
+          "name": "Phường Ba Ngòi",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Phường Ba Ngòi",
+              "newWardShort": "Ba Ngòi",
+              "newWardCode": "22423",
+              "newWardType": "Phường",
+              "lat": 11.9377,
+              "lon": 109.11,
+              "areaKm2": 78.2
+            }
+          ]
+        },
+        {
+          "code": "22432",
+          "name": "Phường Cam Linh",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Phường Cam Linh",
+              "newWardShort": "Cam Linh",
+              "newWardCode": "22432",
+              "newWardType": "Phường",
+              "lat": 11.9096,
+              "lon": 109.15,
+              "areaKm2": 4.8
+            }
+          ]
+        },
+        {
+          "code": "22417",
+          "name": "Phường Cam Lộc",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Phường Cam Ranh",
+              "newWardShort": "Cam Ranh",
+              "newWardCode": "22420",
+              "newWardType": "Phường",
+              "lat": 11.9355,
+              "lon": 109.16,
+              "areaKm2": 17.5
+            }
+          ]
+        },
+        {
+          "code": "22429",
+          "name": "Phường Cam Lợi",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Phường Cam Linh",
+              "newWardShort": "Cam Linh",
+              "newWardCode": "22432",
+              "newWardType": "Phường",
+              "lat": 11.9096,
+              "lon": 109.15,
+              "areaKm2": 4.8
+            }
+          ]
+        },
+        {
+          "code": "22408",
+          "name": "Phường Cam Nghĩa",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Phường Bắc Cam Ranh",
+              "newWardShort": "Bắc Cam Ranh",
+              "newWardCode": "22411",
+              "newWardType": "Phường",
+              "lat": 11.9361,
+              "lon": 109.238,
+              "areaKm2": 134
+            }
+          ]
+        },
+        {
+          "code": "22420",
+          "name": "Phường Cam Phú",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Phường Cam Ranh",
+              "newWardShort": "Cam Ranh",
+              "newWardCode": "22420",
+              "newWardType": "Phường",
+              "lat": 11.9355,
+              "lon": 109.16,
+              "areaKm2": 17.5
+            }
+          ]
+        },
+        {
+          "code": "22411",
+          "name": "Phường Cam Phúc Bắc",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Phường Bắc Cam Ranh",
+              "newWardShort": "Bắc Cam Ranh",
+              "newWardCode": "22411",
+              "newWardType": "Phường",
+              "lat": 11.9361,
+              "lon": 109.238,
+              "areaKm2": 134
+            }
+          ]
+        },
+        {
+          "code": "22414",
+          "name": "Phường Cam Phúc Nam",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Phường Cam Ranh",
+              "newWardShort": "Cam Ranh",
+              "newWardCode": "22420",
+              "newWardType": "Phường",
+              "lat": 11.9355,
+              "lon": 109.16,
+              "areaKm2": 17.5
+            }
+          ]
+        },
+        {
+          "code": "22426",
+          "name": "Phường Cam Thuận",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Phường Cam Linh",
+              "newWardShort": "Cam Linh",
+              "newWardCode": "22432",
+              "newWardType": "Phường",
+              "lat": 11.9096,
+              "lon": 109.15,
+              "areaKm2": 4.8
+            }
+          ]
+        },
+        {
+          "code": "22486",
+          "name": "Xã Cam Bình",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Nam Cam Ranh",
+              "newWardShort": "Nam Cam Ranh",
+              "newWardCode": "22480",
+              "newWardType": "Xã",
+              "lat": 11.8722,
+              "lon": 109.084,
+              "areaKm2": 92.6
+            }
+          ]
+        },
+        {
+          "code": "22483",
+          "name": "Xã Cam Lập",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Nam Cam Ranh",
+              "newWardShort": "Nam Cam Ranh",
+              "newWardCode": "22480",
+              "newWardType": "Xã",
+              "lat": 11.8722,
+              "lon": 109.084,
+              "areaKm2": 92.6
+            }
+          ]
+        },
+        {
+          "code": "22474",
+          "name": "Xã Cam Phước Đông",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Phường Ba Ngòi",
+              "newWardShort": "Ba Ngòi",
+              "newWardCode": "22423",
+              "newWardType": "Phường",
+              "lat": 11.9377,
+              "lon": 109.11,
+              "areaKm2": 78.2
+            }
+          ]
+        },
+        {
+          "code": "22468",
+          "name": "Xã Cam Thành Nam",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Phường Bắc Cam Ranh",
+              "newWardShort": "Bắc Cam Ranh",
+              "newWardCode": "22411",
+              "newWardType": "Phường",
+              "lat": 11.9361,
+              "lon": 109.238,
+              "areaKm2": 134
+            }
+          ]
+        },
+        {
+          "code": "22480",
+          "name": "Xã Cam Thịnh Đông",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Nam Cam Ranh",
+              "newWardShort": "Nam Cam Ranh",
+              "newWardCode": "22480",
+              "newWardType": "Xã",
+              "lat": 11.8722,
+              "lon": 109.084,
+              "areaKm2": 92.6
+            }
+          ]
+        },
+        {
+          "code": "22477",
+          "name": "Xã Cam Thịnh Tây",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Nam Cam Ranh",
+              "newWardShort": "Nam Cam Ranh",
+              "newWardCode": "22480",
+              "newWardType": "Xã",
+              "lat": 11.8722,
+              "lon": 109.084,
+              "areaKm2": 92.6
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "570",
+      "name": "Huyện Cam Lâm",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "22453",
+          "name": "Thị trấn Cam Đức",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Cam Lâm",
+              "newWardShort": "Cam Lâm",
+              "newWardCode": "22453",
+              "newWardType": "Xã",
+              "lat": 12.0843,
+              "lon": 109.147,
+              "areaKm2": 149.9
+            }
+          ]
+        },
+        {
+          "code": "22465",
+          "name": "Xã Cam An Bắc",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Cam An",
+              "newWardShort": "Cam An",
+              "newWardCode": "22465",
+              "newWardType": "Xã",
+              "lat": 11.9871,
+              "lon": 109.069,
+              "areaKm2": 122
+            },
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Cam Lâm",
+              "newWardShort": "Cam Lâm",
+              "newWardCode": "22453",
+              "newWardType": "Xã",
+              "lat": 12.0843,
+              "lon": 109.147,
+              "areaKm2": 149.9
+            }
+          ]
+        },
+        {
+          "code": "22471",
+          "name": "Xã Cam An Nam",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Cam An",
+              "newWardShort": "Cam An",
+              "newWardCode": "22465",
+              "newWardType": "Xã",
+              "lat": 11.9871,
+              "lon": 109.069,
+              "areaKm2": 122
+            },
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Cam Lâm",
+              "newWardShort": "Cam Lâm",
+              "newWardCode": "22453",
+              "newWardType": "Xã",
+              "lat": 12.0843,
+              "lon": 109.147,
+              "areaKm2": 149.9
+            }
+          ]
+        },
+        {
+          "code": "22441",
+          "name": "Xã Cam Hải Đông",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Cam Lâm",
+              "newWardShort": "Cam Lâm",
+              "newWardCode": "22453",
+              "newWardType": "Xã",
+              "lat": 12.0843,
+              "lon": 109.147,
+              "areaKm2": 149.9
+            }
+          ]
+        },
+        {
+          "code": "22444",
+          "name": "Xã Cam Hải Tây",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Cam Lâm",
+              "newWardShort": "Cam Lâm",
+              "newWardCode": "22453",
+              "newWardType": "Xã",
+              "lat": 12.0843,
+              "lon": 109.147,
+              "areaKm2": 149.9
+            }
+          ]
+        },
+        {
+          "code": "22450",
+          "name": "Xã Cam Hiệp Bắc",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Cam Hiệp",
+              "newWardShort": "Cam Hiệp",
+              "newWardCode": "22435",
+              "newWardType": "Xã",
+              "lat": 12.0806,
+              "lon": 109.057,
+              "areaKm2": 115.1
+            },
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Cam Lâm",
+              "newWardShort": "Cam Lâm",
+              "newWardCode": "22453",
+              "newWardType": "Xã",
+              "lat": 12.0843,
+              "lon": 109.147,
+              "areaKm2": 149.9
+            }
+          ]
+        },
+        {
+          "code": "22456",
+          "name": "Xã Cam Hiệp Nam",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Cam Hiệp",
+              "newWardShort": "Cam Hiệp",
+              "newWardCode": "22435",
+              "newWardType": "Xã",
+              "lat": 12.0806,
+              "lon": 109.057,
+              "areaKm2": 115.1
+            },
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Cam Lâm",
+              "newWardShort": "Cam Lâm",
+              "newWardCode": "22453",
+              "newWardType": "Xã",
+              "lat": 12.0843,
+              "lon": 109.147,
+              "areaKm2": 149.9
+            }
+          ]
+        },
+        {
+          "code": "22438",
+          "name": "Xã Cam Hòa",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Cam Hiệp",
+              "newWardShort": "Cam Hiệp",
+              "newWardCode": "22435",
+              "newWardType": "Xã",
+              "lat": 12.0806,
+              "lon": 109.057,
+              "areaKm2": 115.1
+            },
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Cam Lâm",
+              "newWardShort": "Cam Lâm",
+              "newWardCode": "22453",
+              "newWardType": "Xã",
+              "lat": 12.0843,
+              "lon": 109.147,
+              "areaKm2": 149.9
+            },
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Suối Dầu",
+              "newWardShort": "Suối Dầu",
+              "newWardCode": "22708",
+              "newWardType": "Xã",
+              "lat": 12.1581,
+              "lon": 109.094,
+              "areaKm2": 160.1
+            }
+          ]
+        },
+        {
+          "code": "22459",
+          "name": "Xã Cam Phước Tây",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Cam An",
+              "newWardShort": "Cam An",
+              "newWardCode": "22465",
+              "newWardType": "Xã",
+              "lat": 11.9871,
+              "lon": 109.069,
+              "areaKm2": 122
+            }
+          ]
+        },
+        {
+          "code": "22435",
+          "name": "Xã Cam Tân",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Cam Hiệp",
+              "newWardShort": "Cam Hiệp",
+              "newWardCode": "22435",
+              "newWardType": "Xã",
+              "lat": 12.0806,
+              "lon": 109.057,
+              "areaKm2": 115.1
+            },
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Cam Lâm",
+              "newWardShort": "Cam Lâm",
+              "newWardCode": "22453",
+              "newWardType": "Xã",
+              "lat": 12.0843,
+              "lon": 109.147,
+              "areaKm2": 149.9
+            },
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Suối Dầu",
+              "newWardShort": "Suối Dầu",
+              "newWardCode": "22708",
+              "newWardType": "Xã",
+              "lat": 12.1581,
+              "lon": 109.094,
+              "areaKm2": 160.1
+            }
+          ]
+        },
+        {
+          "code": "22462",
+          "name": "Xã Cam Thành Bắc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Cam Lâm",
+              "newWardShort": "Cam Lâm",
+              "newWardCode": "22453",
+              "newWardType": "Xã",
+              "lat": 12.0843,
+              "lon": 109.147,
+              "areaKm2": 149.9
+            }
+          ]
+        },
+        {
+          "code": "22447",
+          "name": "Xã Sơn Tân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Cam Hiệp",
+              "newWardShort": "Cam Hiệp",
+              "newWardCode": "22435",
+              "newWardType": "Xã",
+              "lat": 12.0806,
+              "lon": 109.057,
+              "areaKm2": 115.1
+            }
+          ]
+        },
+        {
+          "code": "22708",
+          "name": "Xã Suối Cát",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Suối Dầu",
+              "newWardShort": "Suối Dầu",
+              "newWardCode": "22708",
+              "newWardType": "Xã",
+              "lat": 12.1581,
+              "lon": 109.094,
+              "areaKm2": 160.1
+            }
+          ]
+        },
+        {
+          "code": "22711",
+          "name": "Xã Suối Tân",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Cam Hiệp",
+              "newWardShort": "Cam Hiệp",
+              "newWardCode": "22435",
+              "newWardType": "Xã",
+              "lat": 12.0806,
+              "lon": 109.057,
+              "areaKm2": 115.1
+            },
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Cam Lâm",
+              "newWardShort": "Cam Lâm",
+              "newWardCode": "22453",
+              "newWardType": "Xã",
+              "lat": 12.0843,
+              "lon": 109.147,
+              "areaKm2": 149.9
+            },
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Suối Dầu",
+              "newWardShort": "Suối Dầu",
+              "newWardCode": "22708",
+              "newWardType": "Xã",
+              "lat": 12.1581,
+              "lon": 109.094,
+              "areaKm2": 160.1
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "574",
+      "name": "Huyện Diên Khánh",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "22651",
+          "name": "Thị trấn Diên Khánh",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Diên Khánh",
+              "newWardShort": "Diên Khánh",
+              "newWardCode": "22651",
+              "newWardType": "Xã",
+              "lat": 12.2432,
+              "lon": 109.109,
+              "areaKm2": 18.4
+            }
+          ]
+        },
+        {
+          "code": "22696",
+          "name": "Xã Bình Lộc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Suối Hiệp",
+              "newWardShort": "Suối Hiệp",
+              "newWardCode": "22702",
+              "newWardType": "Xã",
+              "lat": 12.2119,
+              "lon": 109.048,
+              "areaKm2": 55.3
+            }
+          ]
+        },
+        {
+          "code": "22693",
+          "name": "Xã Diên An",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Diên Khánh",
+              "newWardShort": "Diên Khánh",
+              "newWardCode": "22651",
+              "newWardType": "Xã",
+              "lat": 12.2432,
+              "lon": 109.109,
+              "areaKm2": 18.4
+            }
+          ]
+        },
+        {
+          "code": "22657",
+          "name": "Xã Diên Điền",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Diên Điền",
+              "newWardShort": "Diên Điền",
+              "newWardCode": "22657",
+              "newWardType": "Xã",
+              "lat": 12.3022,
+              "lon": 109.096,
+              "areaKm2": 63.7
+            }
+          ]
+        },
+        {
+          "code": "22684",
+          "name": "Xã Diên Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Diên Lạc",
+              "newWardShort": "Diên Lạc",
+              "newWardCode": "22678",
+              "newWardType": "Xã",
+              "lat": 12.2542,
+              "lon": 109.078,
+              "areaKm2": 14.9
+            }
+          ]
+        },
+        {
+          "code": "22678",
+          "name": "Xã Diên Lạc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Diên Lạc",
+              "newWardShort": "Diên Lạc",
+              "newWardCode": "22678",
+              "newWardType": "Xã",
+              "lat": 12.2542,
+              "lon": 109.078,
+              "areaKm2": 14.9
+            }
+          ]
+        },
+        {
+          "code": "22654",
+          "name": "Xã Diên Lâm",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Diên Lâm",
+              "newWardShort": "Diên Lâm",
+              "newWardCode": "22660",
+              "newWardType": "Xã",
+              "lat": 12.3209,
+              "lon": 109.018,
+              "areaKm2": 117.8
+            }
+          ]
+        },
+        {
+          "code": "22669",
+          "name": "Xã Diên Phú",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Diên Điền",
+              "newWardShort": "Diên Điền",
+              "newWardCode": "22657",
+              "newWardType": "Xã",
+              "lat": 12.3022,
+              "lon": 109.096,
+              "areaKm2": 63.7
+            }
+          ]
+        },
+        {
+          "code": "22675",
+          "name": "Xã Diên Phước",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Diên Thọ",
+              "newWardShort": "Diên Thọ",
+              "newWardCode": "22672",
+              "newWardType": "Xã",
+              "lat": 12.2398,
+              "lon": 108.993,
+              "areaKm2": 73.6
+            }
+          ]
+        },
+        {
+          "code": "22663",
+          "name": "Xã Diên Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Diên Điền",
+              "newWardShort": "Diên Điền",
+              "newWardCode": "22657",
+              "newWardType": "Xã",
+              "lat": 12.3022,
+              "lon": 109.096,
+              "areaKm2": 63.7
+            }
+          ]
+        },
+        {
+          "code": "22681",
+          "name": "Xã Diên Tân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Diên Thọ",
+              "newWardShort": "Diên Thọ",
+              "newWardCode": "22672",
+              "newWardType": "Xã",
+              "lat": 12.2398,
+              "lon": 108.993,
+              "areaKm2": 73.6
+            }
+          ]
+        },
+        {
+          "code": "22687",
+          "name": "Xã Diên Thạnh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Diên Lạc",
+              "newWardShort": "Diên Lạc",
+              "newWardCode": "22678",
+              "newWardType": "Xã",
+              "lat": 12.2542,
+              "lon": 109.078,
+              "areaKm2": 14.9
+            }
+          ]
+        },
+        {
+          "code": "22672",
+          "name": "Xã Diên Thọ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Diên Thọ",
+              "newWardShort": "Diên Thọ",
+              "newWardCode": "22672",
+              "newWardType": "Xã",
+              "lat": 12.2398,
+              "lon": 108.993,
+              "areaKm2": 73.6
+            }
+          ]
+        },
+        {
+          "code": "22690",
+          "name": "Xã Diên Toàn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Diên Khánh",
+              "newWardShort": "Diên Khánh",
+              "newWardCode": "22651",
+              "newWardType": "Xã",
+              "lat": 12.2432,
+              "lon": 109.109,
+              "areaKm2": 18.4
+            }
+          ]
+        },
+        {
+          "code": "22702",
+          "name": "Xã Suối Hiệp",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Suối Hiệp",
+              "newWardShort": "Suối Hiệp",
+              "newWardCode": "22702",
+              "newWardType": "Xã",
+              "lat": 12.2119,
+              "lon": 109.048,
+              "areaKm2": 55.3
+            }
+          ]
+        },
+        {
+          "code": "22705",
+          "name": "Xã Suối Tiên",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Suối Hiệp",
+              "newWardShort": "Suối Hiệp",
+              "newWardCode": "22702",
+              "newWardType": "Xã",
+              "lat": 12.2119,
+              "lon": 109.048,
+              "areaKm2": 55.3
+            }
+          ]
+        },
+        {
+          "code": "22660",
+          "name": "Xã Xuân Đồng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Diên Lâm",
+              "newWardShort": "Diên Lâm",
+              "newWardCode": "22660",
+              "newWardType": "Xã",
+              "lat": 12.3209,
+              "lon": 109.018,
+              "areaKm2": 117.8
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "575",
+      "name": "Huyện Khánh Sơn",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "22714",
+          "name": "Thị trấn Tô Hạp",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Khánh Sơn",
+              "newWardShort": "Khánh Sơn",
+              "newWardCode": "22714",
+              "newWardType": "Xã",
+              "lat": 12.0203,
+              "lon": 108.912,
+              "areaKm2": 98.7
+            }
+          ]
+        },
+        {
+          "code": "22732",
+          "name": "Xã Ba Cụm Bắc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Đông Khánh Sơn",
+              "newWardShort": "Đông Khánh Sơn",
+              "newWardCode": "22732",
+              "newWardType": "Xã",
+              "lat": 11.9924,
+              "lon": 108.981,
+              "areaKm2": 114.3
+            }
+          ]
+        },
+        {
+          "code": "22735",
+          "name": "Xã Ba Cụm Nam",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Đông Khánh Sơn",
+              "newWardShort": "Đông Khánh Sơn",
+              "newWardCode": "22732",
+              "newWardType": "Xã",
+              "lat": 11.9924,
+              "lon": 108.981,
+              "areaKm2": 114.3
+            }
+          ]
+        },
+        {
+          "code": "22726",
+          "name": "Xã Sơn Bình",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Khánh Sơn",
+              "newWardShort": "Khánh Sơn",
+              "newWardCode": "22714",
+              "newWardType": "Xã",
+              "lat": 12.0203,
+              "lon": 108.912,
+              "areaKm2": 98.7
+            }
+          ]
+        },
+        {
+          "code": "22723",
+          "name": "Xã Sơn Hiệp",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Khánh Sơn",
+              "newWardShort": "Khánh Sơn",
+              "newWardCode": "22714",
+              "newWardType": "Xã",
+              "lat": 12.0203,
+              "lon": 108.912,
+              "areaKm2": 98.7
+            }
+          ]
+        },
+        {
+          "code": "22720",
+          "name": "Xã Sơn Lâm",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Tây Khánh Sơn",
+              "newWardShort": "Tây Khánh Sơn",
+              "newWardCode": "22720",
+              "newWardType": "Xã",
+              "lat": 12.074,
+              "lon": 108.842,
+              "areaKm2": 125.6
+            }
+          ]
+        },
+        {
+          "code": "22729",
+          "name": "Xã Sơn Trung",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Đông Khánh Sơn",
+              "newWardShort": "Đông Khánh Sơn",
+              "newWardCode": "22732",
+              "newWardType": "Xã",
+              "lat": 11.9924,
+              "lon": 108.981,
+              "areaKm2": 114.3
+            }
+          ]
+        },
+        {
+          "code": "22717",
+          "name": "Xã Thành Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Tây Khánh Sơn",
+              "newWardShort": "Tây Khánh Sơn",
+              "newWardCode": "22720",
+              "newWardType": "Xã",
+              "lat": 12.074,
+              "lon": 108.842,
+              "areaKm2": 125.6
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "573",
+      "name": "Huyện Khánh Vĩnh",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "22609",
+          "name": "Thị trấn Khánh Vĩnh",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Khánh Vĩnh",
+              "newWardShort": "Khánh Vĩnh",
+              "newWardCode": "22609",
+              "newWardType": "Xã",
+              "lat": 12.1782,
+              "lon": 108.915,
+              "areaKm2": 192.4
+            }
+          ]
+        },
+        {
+          "code": "22636",
+          "name": "Xã Cầu Bà",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Nam Khánh Vĩnh",
+              "newWardShort": "Nam Khánh Vĩnh",
+              "newWardCode": "22648",
+              "newWardType": "Xã",
+              "lat": 12.2094,
+              "lon": 108.816,
+              "areaKm2": 197.1
+            }
+          ]
+        },
+        {
+          "code": "22633",
+          "name": "Xã Giang Ly",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Tây Khánh Vĩnh",
+              "newWardShort": "Tây Khánh Vĩnh",
+              "newWardCode": "22624",
+              "newWardType": "Xã",
+              "lat": 12.3107,
+              "lon": 108.778,
+              "areaKm2": 294.3
+            }
+          ]
+        },
+        {
+          "code": "22615",
+          "name": "Xã Khánh Bình",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Bắc Khánh Vĩnh",
+              "newWardShort": "Bắc Khánh Vĩnh",
+              "newWardCode": "22615",
+              "newWardType": "Xã",
+              "lat": 12.4052,
+              "lon": 108.96,
+              "areaKm2": 144.2
+            }
+          ]
+        },
+        {
+          "code": "22621",
+          "name": "Xã Khánh Đông",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Bắc Khánh Vĩnh",
+              "newWardShort": "Bắc Khánh Vĩnh",
+              "newWardCode": "22615",
+              "newWardType": "Xã",
+              "lat": 12.4052,
+              "lon": 108.96,
+              "areaKm2": 144.2
+            }
+          ]
+        },
+        {
+          "code": "22612",
+          "name": "Xã Khánh Hiệp",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Trung Khánh Vĩnh",
+              "newWardShort": "Trung Khánh Vĩnh",
+              "newWardCode": "22612",
+              "newWardType": "Xã",
+              "lat": 12.4266,
+              "lon": 108.807,
+              "areaKm2": 338.5
+            }
+          ]
+        },
+        {
+          "code": "22627",
+          "name": "Xã Khánh Nam",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Tây Khánh Vĩnh",
+              "newWardShort": "Tây Khánh Vĩnh",
+              "newWardCode": "22624",
+              "newWardType": "Xã",
+              "lat": 12.3107,
+              "lon": 108.778,
+              "areaKm2": 294.3
+            }
+          ]
+        },
+        {
+          "code": "22645",
+          "name": "Xã Khánh Phú",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Khánh Vĩnh",
+              "newWardShort": "Khánh Vĩnh",
+              "newWardCode": "22609",
+              "newWardType": "Xã",
+              "lat": 12.1782,
+              "lon": 108.915,
+              "areaKm2": 192.4
+            }
+          ]
+        },
+        {
+          "code": "22642",
+          "name": "Xã Khánh Thành",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Nam Khánh Vĩnh",
+              "newWardShort": "Nam Khánh Vĩnh",
+              "newWardCode": "22648",
+              "newWardType": "Xã",
+              "lat": 12.2094,
+              "lon": 108.816,
+              "areaKm2": 197.1
+            }
+          ]
+        },
+        {
+          "code": "22624",
+          "name": "Xã Khánh Thượng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Tây Khánh Vĩnh",
+              "newWardShort": "Tây Khánh Vĩnh",
+              "newWardCode": "22624",
+              "newWardType": "Xã",
+              "lat": 12.3107,
+              "lon": 108.778,
+              "areaKm2": 294.3
+            }
+          ]
+        },
+        {
+          "code": "22618",
+          "name": "Xã Khánh Trung",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Trung Khánh Vĩnh",
+              "newWardShort": "Trung Khánh Vĩnh",
+              "newWardCode": "22612",
+              "newWardType": "Xã",
+              "lat": 12.4266,
+              "lon": 108.807,
+              "areaKm2": 338.5
+            }
+          ]
+        },
+        {
+          "code": "22639",
+          "name": "Xã Liên Sang",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Nam Khánh Vĩnh",
+              "newWardShort": "Nam Khánh Vĩnh",
+              "newWardCode": "22648",
+              "newWardType": "Xã",
+              "lat": 12.2094,
+              "lon": 108.816,
+              "areaKm2": 197.1
+            }
+          ]
+        },
+        {
+          "code": "22648",
+          "name": "Xã Sơn Thái",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Nam Khánh Vĩnh",
+              "newWardShort": "Nam Khánh Vĩnh",
+              "newWardCode": "22648",
+              "newWardType": "Xã",
+              "lat": 12.2094,
+              "lon": 108.816,
+              "areaKm2": 197.1
+            }
+          ]
+        },
+        {
+          "code": "22630",
+          "name": "Xã Sông Cầu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Khánh Vĩnh",
+              "newWardShort": "Khánh Vĩnh",
+              "newWardCode": "22609",
+              "newWardType": "Xã",
+              "lat": 12.1782,
+              "lon": 108.915,
+              "areaKm2": 192.4
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "576",
+      "name": "Huyện Trường Sa",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "22736",
+          "name": "Thị trấn Trường Sa",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Đặc khu Trường Sa",
+              "newWardShort": "Trường Sa",
+              "newWardCode": "22736",
+              "newWardType": "Đặc khu",
+              "lat": 9.71,
+              "lon": 114.45,
+              "areaKm2": 7.7
+            }
+          ]
+        },
+        {
+          "code": "22739",
+          "name": "Xã Sinh Tồn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Đặc khu Trường Sa",
+              "newWardShort": "Trường Sa",
+              "newWardCode": "22736",
+              "newWardType": "Đặc khu",
+              "lat": 9.71,
+              "lon": 114.45,
+              "areaKm2": 7.7
+            }
+          ]
+        },
+        {
+          "code": "22737",
+          "name": "Xã Song Tử Tây",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Đặc khu Trường Sa",
+              "newWardShort": "Trường Sa",
+              "newWardCode": "22736",
+              "newWardType": "Đặc khu",
+              "lat": 9.71,
+              "lon": 114.45,
+              "areaKm2": 7.7
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "571",
+      "name": "Huyện Vạn Ninh",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "22489",
+          "name": "Thị trấn Vạn Giã",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Vạn Ninh",
+              "newWardShort": "Vạn Ninh",
+              "newWardCode": "22489",
+              "newWardType": "Xã",
+              "lat": 12.7344,
+              "lon": 109.162,
+              "areaKm2": 130.5
+            }
+          ]
+        },
+        {
+          "code": "22492",
+          "name": "Xã Đại Lãnh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Đại Lãnh",
+              "newWardShort": "Đại Lãnh",
+              "newWardCode": "22504",
+              "newWardType": "Xã",
+              "lat": 12.6983,
+              "lon": 109.388,
+              "areaKm2": 171
+            }
+          ]
+        },
+        {
+          "code": "22501",
+          "name": "Xã Vạn Bình",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Vạn Thắng",
+              "newWardShort": "Vạn Thắng",
+              "newWardCode": "22516",
+              "newWardType": "Xã",
+              "lat": 12.7666,
+              "lon": 109.216,
+              "areaKm2": 74.8
+            }
+          ]
+        },
+        {
+          "code": "22525",
+          "name": "Xã Vạn Hưng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Vạn Hưng",
+              "newWardShort": "Vạn Hưng",
+              "newWardCode": "22525",
+              "newWardType": "Xã",
+              "lat": 12.6521,
+              "lon": 109.159,
+              "areaKm2": 86.1
+            }
+          ]
+        },
+        {
+          "code": "22507",
+          "name": "Xã Vạn Khánh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Tu Bông",
+              "newWardShort": "Tu Bông",
+              "newWardCode": "22498",
+              "newWardType": "Xã",
+              "lat": 12.7921,
+              "lon": 109.275,
+              "areaKm2": 99.6
+            }
+          ]
+        },
+        {
+          "code": "22498",
+          "name": "Xã Vạn Long",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Tu Bông",
+              "newWardShort": "Tu Bông",
+              "newWardCode": "22498",
+              "newWardType": "Xã",
+              "lat": 12.7921,
+              "lon": 109.275,
+              "areaKm2": 99.6
+            }
+          ]
+        },
+        {
+          "code": "22513",
+          "name": "Xã Vạn Lương",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Vạn Ninh",
+              "newWardShort": "Vạn Ninh",
+              "newWardCode": "22489",
+              "newWardType": "Xã",
+              "lat": 12.7344,
+              "lon": 109.162,
+              "areaKm2": 130.5
+            }
+          ]
+        },
+        {
+          "code": "22510",
+          "name": "Xã Vạn Phú",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Vạn Ninh",
+              "newWardShort": "Vạn Ninh",
+              "newWardCode": "22489",
+              "newWardType": "Xã",
+              "lat": 12.7344,
+              "lon": 109.162,
+              "areaKm2": 130.5
+            }
+          ]
+        },
+        {
+          "code": "22495",
+          "name": "Xã Vạn Phước",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Tu Bông",
+              "newWardShort": "Tu Bông",
+              "newWardCode": "22498",
+              "newWardType": "Xã",
+              "lat": 12.7921,
+              "lon": 109.275,
+              "areaKm2": 99.6
+            }
+          ]
+        },
+        {
+          "code": "22516",
+          "name": "Xã Vạn Thắng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Vạn Thắng",
+              "newWardShort": "Vạn Thắng",
+              "newWardCode": "22516",
+              "newWardType": "Xã",
+              "lat": 12.7666,
+              "lon": 109.216,
+              "areaKm2": 74.8
+            }
+          ]
+        },
+        {
+          "code": "22519",
+          "name": "Xã Vạn Thạnh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Đại Lãnh",
+              "newWardShort": "Đại Lãnh",
+              "newWardCode": "22504",
+              "newWardType": "Xã",
+              "lat": 12.6983,
+              "lon": 109.388,
+              "areaKm2": 171
+            }
+          ]
+        },
+        {
+          "code": "22504",
+          "name": "Xã Vạn Thọ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Đại Lãnh",
+              "newWardShort": "Đại Lãnh",
+              "newWardCode": "22504",
+              "newWardType": "Xã",
+              "lat": 12.6983,
+              "lon": 109.388,
+              "areaKm2": 171
+            }
+          ]
+        },
+        {
+          "code": "22522",
+          "name": "Xã Xuân Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Vạn Hưng",
+              "newWardShort": "Vạn Hưng",
+              "newWardCode": "22525",
+              "newWardType": "Xã",
+              "lat": 12.6521,
+              "lon": 109.159,
+              "areaKm2": 86.1
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "568",
+      "name": "Thành phố Nha Trang",
+      "type": "Thành phố",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "22363",
+          "name": "Phường Lộc Thọ",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Phường Nha Trang",
+              "newWardShort": "Nha Trang",
+              "newWardCode": "22366",
+              "newWardType": "Phường",
+              "lat": 12.24579,
+              "lon": 109.19533,
+              "areaKm2": 47.12
+            }
+          ]
+        },
+        {
+          "code": "22336",
+          "name": "Phường Ngọc Hiệp",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Phường Tây Nha Trang",
+              "newWardShort": "Tây Nha Trang",
+              "newWardCode": "22390",
+              "newWardType": "Phường",
+              "lat": 12.2611,
+              "lon": 109.157,
+              "areaKm2": 27.9
+            }
+          ]
+        },
+        {
+          "code": "22357",
+          "name": "Phường Phước Hải",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Phường Nam Nha Trang",
+              "newWardShort": "Nam Nha Trang",
+              "newWardCode": "22402",
+              "newWardType": "Phường",
+              "lat": 12.1947,
+              "lon": 109.168,
+              "areaKm2": 82.2
+            }
+          ]
+        },
+        {
+          "code": "22372",
+          "name": "Phường Phước Hòa",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Phường Nha Trang",
+              "newWardShort": "Nha Trang",
+              "newWardCode": "22366",
+              "newWardType": "Phường",
+              "lat": 12.24579,
+              "lon": 109.19533,
+              "areaKm2": 47.12
+            }
+          ]
+        },
+        {
+          "code": "22378",
+          "name": "Phường Phước Long",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Phường Nam Nha Trang",
+              "newWardShort": "Nam Nha Trang",
+              "newWardCode": "22402",
+              "newWardType": "Phường",
+              "lat": 12.1947,
+              "lon": 109.168,
+              "areaKm2": 82.2
+            }
+          ]
+        },
+        {
+          "code": "22351",
+          "name": "Phường Phương Sài",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Phường Tây Nha Trang",
+              "newWardShort": "Tây Nha Trang",
+              "newWardCode": "22390",
+              "newWardType": "Phường",
+              "lat": 12.2611,
+              "lon": 109.157,
+              "areaKm2": 27.9
+            }
+          ]
+        },
+        {
+          "code": "22366",
+          "name": "Phường Tân Tiến",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Phường Nha Trang",
+              "newWardShort": "Nha Trang",
+              "newWardCode": "22366",
+              "newWardType": "Phường",
+              "lat": 12.24579,
+              "lon": 109.19533,
+              "areaKm2": 47.12
+            }
+          ]
+        },
+        {
+          "code": "22348",
+          "name": "Phường Vạn Thạnh",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Phường Nha Trang",
+              "newWardShort": "Nha Trang",
+              "newWardCode": "22366",
+              "newWardType": "Phường",
+              "lat": 12.24579,
+              "lon": 109.19533,
+              "areaKm2": 47.12
+            }
+          ]
+        },
+        {
+          "code": "22330",
+          "name": "Phường Vĩnh Hải",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Phường Bắc Nha Trang",
+              "newWardShort": "Bắc Nha Trang",
+              "newWardCode": "22333",
+              "newWardType": "Phường",
+              "lat": 12.3221,
+              "lon": 109.171,
+              "areaKm2": 97
+            }
+          ]
+        },
+        {
+          "code": "22327",
+          "name": "Phường Vĩnh Hòa",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Phường Bắc Nha Trang",
+              "newWardShort": "Bắc Nha Trang",
+              "newWardCode": "22333",
+              "newWardType": "Phường",
+              "lat": 12.3221,
+              "lon": 109.171,
+              "areaKm2": 97
+            }
+          ]
+        },
+        {
+          "code": "22375",
+          "name": "Phường Vĩnh Nguyên",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Phường Nha Trang",
+              "newWardShort": "Nha Trang",
+              "newWardCode": "22366",
+              "newWardType": "Phường",
+              "lat": 12.24579,
+              "lon": 109.19533,
+              "areaKm2": 47.12
+            }
+          ]
+        },
+        {
+          "code": "22333",
+          "name": "Phường Vĩnh Phước",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Phường Bắc Nha Trang",
+              "newWardShort": "Bắc Nha Trang",
+              "newWardCode": "22333",
+              "newWardType": "Phường",
+              "lat": 12.3221,
+              "lon": 109.171,
+              "areaKm2": 97
+            }
+          ]
+        },
+        {
+          "code": "22339",
+          "name": "Phường Vĩnh Thọ",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Phường Bắc Nha Trang",
+              "newWardShort": "Bắc Nha Trang",
+              "newWardCode": "22333",
+              "newWardType": "Phường",
+              "lat": 12.3221,
+              "lon": 109.171,
+              "areaKm2": 97
+            }
+          ]
+        },
+        {
+          "code": "22381",
+          "name": "Phường Vĩnh Trường",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Phường Nam Nha Trang",
+              "newWardShort": "Nam Nha Trang",
+              "newWardCode": "22402",
+              "newWardType": "Phường",
+              "lat": 12.1947,
+              "lon": 109.168,
+              "areaKm2": 82.2
+            }
+          ]
+        },
+        {
+          "code": "22405",
+          "name": "Xã Phước Đồng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Phường Nam Nha Trang",
+              "newWardShort": "Nam Nha Trang",
+              "newWardCode": "22402",
+              "newWardType": "Phường",
+              "lat": 12.1947,
+              "lon": 109.168,
+              "areaKm2": 82.2
+            }
+          ]
+        },
+        {
+          "code": "22399",
+          "name": "Xã Vĩnh Hiệp",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Phường Tây Nha Trang",
+              "newWardShort": "Tây Nha Trang",
+              "newWardCode": "22390",
+              "newWardType": "Phường",
+              "lat": 12.2611,
+              "lon": 109.157,
+              "areaKm2": 27.9
+            }
+          ]
+        },
+        {
+          "code": "22384",
+          "name": "Xã Vĩnh Lương",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Phường Bắc Nha Trang",
+              "newWardShort": "Bắc Nha Trang",
+              "newWardCode": "22333",
+              "newWardType": "Phường",
+              "lat": 12.3221,
+              "lon": 109.171,
+              "areaKm2": 97
+            }
+          ]
+        },
+        {
+          "code": "22390",
+          "name": "Xã Vĩnh Ngọc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Phường Tây Nha Trang",
+              "newWardShort": "Tây Nha Trang",
+              "newWardCode": "22390",
+              "newWardType": "Phường",
+              "lat": 12.2611,
+              "lon": 109.157,
+              "areaKm2": 27.9
+            }
+          ]
+        },
+        {
+          "code": "22387",
+          "name": "Xã Vĩnh Phương",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Phường Bắc Nha Trang",
+              "newWardShort": "Bắc Nha Trang",
+              "newWardCode": "22333",
+              "newWardType": "Phường",
+              "lat": 12.3221,
+              "lon": 109.171,
+              "areaKm2": 97
+            }
+          ]
+        },
+        {
+          "code": "22402",
+          "name": "Xã Vĩnh Thái",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Phường Nam Nha Trang",
+              "newWardShort": "Nam Nha Trang",
+              "newWardCode": "22402",
+              "newWardType": "Phường",
+              "lat": 12.1947,
+              "lon": 109.168,
+              "areaKm2": 82.2
+            }
+          ]
+        },
+        {
+          "code": "22393",
+          "name": "Xã Vĩnh Thạnh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Phường Tây Nha Trang",
+              "newWardShort": "Tây Nha Trang",
+              "newWardCode": "22390",
+              "newWardType": "Phường",
+              "lat": 12.2611,
+              "lon": 109.157,
+              "areaKm2": 27.9
+            }
+          ]
+        },
+        {
+          "code": "22396",
+          "name": "Xã Vĩnh Trung",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Phường Tây Nha Trang",
+              "newWardShort": "Tây Nha Trang",
+              "newWardCode": "22390",
+              "newWardType": "Phường",
+              "lat": 12.2611,
+              "lon": 109.157,
+              "areaKm2": 27.9
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "572",
+      "name": "Thị xã Ninh Hòa",
+      "type": "Thị xã",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "22570",
+          "name": "Phường Ninh Đa",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Phường Ninh Hòa",
+              "newWardShort": "Ninh Hòa",
+              "newWardCode": "22528",
+              "newWardType": "Phường",
+              "lat": 12.5088,
+              "lon": 109.139,
+              "areaKm2": 35.8
+            }
+          ]
+        },
+        {
+          "code": "22561",
+          "name": "Phường Ninh Diêm",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Phường Đông Ninh Hòa",
+              "newWardShort": "Đông Ninh Hòa",
+              "newWardCode": "22561",
+              "newWardType": "Phường",
+              "lat": 12.4007,
+              "lon": 109.305,
+              "areaKm2": 134.2
+            }
+          ]
+        },
+        {
+          "code": "22591",
+          "name": "Phường Ninh Giang",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Phường Hòa Thắng",
+              "newWardShort": "Hòa Thắng",
+              "newWardCode": "22591",
+              "newWardType": "Phường",
+              "lat": 12.4663,
+              "lon": 109.193,
+              "areaKm2": 78.6
+            }
+          ]
+        },
+        {
+          "code": "22594",
+          "name": "Phường Ninh Hà",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Phường Hòa Thắng",
+              "newWardShort": "Hòa Thắng",
+              "newWardCode": "22591",
+              "newWardType": "Phường",
+              "lat": 12.4663,
+              "lon": 109.193,
+              "areaKm2": 78.6
+            }
+          ]
+        },
+        {
+          "code": "22543",
+          "name": "Phường Ninh Hải",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Phường Đông Ninh Hòa",
+              "newWardShort": "Đông Ninh Hòa",
+              "newWardCode": "22561",
+              "newWardType": "Phường",
+              "lat": 12.4007,
+              "lon": 109.305,
+              "areaKm2": 134.2
+            }
+          ]
+        },
+        {
+          "code": "22528",
+          "name": "Phường Ninh Hiệp",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Phường Ninh Hòa",
+              "newWardShort": "Ninh Hòa",
+              "newWardCode": "22528",
+              "newWardType": "Phường",
+              "lat": 12.5088,
+              "lon": 109.139,
+              "areaKm2": 35.8
+            }
+          ]
+        },
+        {
+          "code": "22567",
+          "name": "Phường Ninh Thủy",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Phường Đông Ninh Hòa",
+              "newWardShort": "Đông Ninh Hòa",
+              "newWardCode": "22561",
+              "newWardType": "Phường",
+              "lat": 12.4007,
+              "lon": 109.305,
+              "areaKm2": 134.2
+            }
+          ]
+        },
+        {
+          "code": "22540",
+          "name": "Xã Ninh An",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Bắc Ninh Hòa",
+              "newWardShort": "Bắc Ninh Hòa",
+              "newWardCode": "22546",
+              "newWardType": "Xã",
+              "lat": 12.6533,
+              "lon": 109.099,
+              "areaKm2": 237
+            }
+          ]
+        },
+        {
+          "code": "22576",
+          "name": "Xã Ninh Bình",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Tân Định",
+              "newWardShort": "Tân Định",
+              "newWardCode": "22576",
+              "newWardType": "Xã",
+              "lat": 12.4978,
+              "lon": 109.052,
+              "areaKm2": 92.4
+            }
+          ]
+        },
+        {
+          "code": "22564",
+          "name": "Xã Ninh Đông",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Phường Ninh Hòa",
+              "newWardShort": "Ninh Hòa",
+              "newWardCode": "22528",
+              "newWardType": "Phường",
+              "lat": 12.5088,
+              "lon": 109.139,
+              "areaKm2": 35.8
+            }
+          ]
+        },
+        {
+          "code": "22597",
+          "name": "Xã Ninh Hưng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Nam Ninh Hòa",
+              "newWardShort": "Nam Ninh Hòa",
+              "newWardCode": "22597",
+              "newWardType": "Xã",
+              "lat": 12.4199,
+              "lon": 109.077,
+              "areaKm2": 201.4
+            }
+          ]
+        },
+        {
+          "code": "22603",
+          "name": "Xã Ninh Ích",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Nam Ninh Hòa",
+              "newWardShort": "Nam Ninh Hòa",
+              "newWardCode": "22597",
+              "newWardType": "Xã",
+              "lat": 12.4199,
+              "lon": 109.077,
+              "areaKm2": 201.4
+            }
+          ]
+        },
+        {
+          "code": "22600",
+          "name": "Xã Ninh Lộc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Nam Ninh Hòa",
+              "newWardShort": "Nam Ninh Hòa",
+              "newWardCode": "22597",
+              "newWardType": "Xã",
+              "lat": 12.4199,
+              "lon": 109.077,
+              "areaKm2": 201.4
+            }
+          ]
+        },
+        {
+          "code": "22582",
+          "name": "Xã Ninh Phú",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Phường Hòa Thắng",
+              "newWardShort": "Hòa Thắng",
+              "newWardCode": "22591",
+              "newWardType": "Phường",
+              "lat": 12.4663,
+              "lon": 109.193,
+              "areaKm2": 78.6
+            }
+          ]
+        },
+        {
+          "code": "22573",
+          "name": "Xã Ninh Phụng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Phường Ninh Hòa",
+              "newWardShort": "Ninh Hòa",
+              "newWardCode": "22528",
+              "newWardType": "Phường",
+              "lat": 12.5088,
+              "lon": 109.139,
+              "areaKm2": 35.8
+            }
+          ]
+        },
+        {
+          "code": "22606",
+          "name": "Xã Ninh Phước",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Phường Đông Ninh Hòa",
+              "newWardShort": "Đông Ninh Hòa",
+              "newWardCode": "22561",
+              "newWardType": "Phường",
+              "lat": 12.4007,
+              "lon": 109.305,
+              "areaKm2": 134.2
+            }
+          ]
+        },
+        {
+          "code": "22588",
+          "name": "Xã Ninh Quang",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Tân Định",
+              "newWardShort": "Tân Định",
+              "newWardCode": "22576",
+              "newWardType": "Xã",
+              "lat": 12.4978,
+              "lon": 109.052,
+              "areaKm2": 92.4
+            }
+          ]
+        },
+        {
+          "code": "22552",
+          "name": "Xã Ninh Sim",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Tây Ninh Hòa",
+              "newWardShort": "Tây Ninh Hòa",
+              "newWardCode": "22552",
+              "newWardType": "Xã",
+              "lat": 12.5649,
+              "lon": 108.958,
+              "areaKm2": 275.9
+            }
+          ]
+        },
+        {
+          "code": "22531",
+          "name": "Xã Ninh Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Bắc Ninh Hòa",
+              "newWardShort": "Bắc Ninh Hòa",
+              "newWardCode": "22546",
+              "newWardType": "Xã",
+              "lat": 12.6533,
+              "lon": 109.099,
+              "areaKm2": 237
+            }
+          ]
+        },
+        {
+          "code": "22585",
+          "name": "Xã Ninh Tân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Nam Ninh Hòa",
+              "newWardShort": "Nam Ninh Hòa",
+              "newWardCode": "22597",
+              "newWardType": "Xã",
+              "lat": 12.4199,
+              "lon": 109.077,
+              "areaKm2": 201.4
+            }
+          ]
+        },
+        {
+          "code": "22534",
+          "name": "Xã Ninh Tây",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Tây Ninh Hòa",
+              "newWardShort": "Tây Ninh Hòa",
+              "newWardCode": "22552",
+              "newWardType": "Xã",
+              "lat": 12.5649,
+              "lon": 108.958,
+              "areaKm2": 275.9
+            }
+          ]
+        },
+        {
+          "code": "22558",
+          "name": "Xã Ninh Thân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Hòa Trí",
+              "newWardShort": "Hòa Trí",
+              "newWardCode": "22558",
+              "newWardType": "Xã",
+              "lat": 12.5472,
+              "lon": 109.094,
+              "areaKm2": 109.4
+            }
+          ]
+        },
+        {
+          "code": "22546",
+          "name": "Xã Ninh Thọ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Bắc Ninh Hòa",
+              "newWardShort": "Bắc Ninh Hòa",
+              "newWardCode": "22546",
+              "newWardType": "Xã",
+              "lat": 12.6533,
+              "lon": 109.099,
+              "areaKm2": 237
+            }
+          ]
+        },
+        {
+          "code": "22537",
+          "name": "Xã Ninh Thượng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Hòa Trí",
+              "newWardShort": "Hòa Trí",
+              "newWardCode": "22558",
+              "newWardType": "Xã",
+              "lat": 12.5472,
+              "lon": 109.094,
+              "areaKm2": 109.4
+            }
+          ]
+        },
+        {
+          "code": "22549",
+          "name": "Xã Ninh Trung",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Hòa Trí",
+              "newWardShort": "Hòa Trí",
+              "newWardCode": "22558",
+              "newWardType": "Xã",
+              "lat": 12.5472,
+              "lon": 109.094,
+              "areaKm2": 109.4
+            }
+          ]
+        },
+        {
+          "code": "22555",
+          "name": "Xã Ninh Xuân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Khánh Hòa",
+              "newProvinceSlug": "khanh-hoa",
+              "newProvinceCode": "56",
+              "newWard": "Xã Tân Định",
+              "newWardShort": "Tân Định",
+              "newWardCode": "22576",
+              "newWardType": "Xã",
+              "lat": 12.4978,
+              "lon": 109.052,
+              "areaKm2": 92.4
+            }
+          ]
+        }
+      ],
+      "results": []
+    }
+  ]
+}

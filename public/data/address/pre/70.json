@@ -1,0 +1,2329 @@
+{
+  "schemaVersion": 1,
+  "mergeDate": "2025-07-01",
+  "code": "70",
+  "name": "Tỉnh Bình Phước",
+  "name_en": "Binh Phuoc Province",
+  "slug": "binh-phuoc",
+  "districts": [
+    {
+      "code": "689",
+      "name": "Thành phố Đồng Xoài",
+      "type": "Thành phố",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "25201",
+          "name": "Phường Tân Bình",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Phường Bình Phước",
+              "newWardShort": "Bình Phước",
+              "newWardCode": "25195",
+              "newWardType": "Phường",
+              "lat": 11.5209,
+              "lon": 106.899,
+              "areaKm2": 86.4
+            }
+          ]
+        },
+        {
+          "code": "25198",
+          "name": "Phường Tân Đồng",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Phường Bình Phước",
+              "newWardShort": "Bình Phước",
+              "newWardCode": "25195",
+              "newWardType": "Phường",
+              "lat": 11.5209,
+              "lon": 106.899,
+              "areaKm2": 86.4
+            }
+          ]
+        },
+        {
+          "code": "25195",
+          "name": "Phường Tân Phú",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Phường Bình Phước",
+              "newWardShort": "Bình Phước",
+              "newWardCode": "25195",
+              "newWardType": "Phường",
+              "lat": 11.5209,
+              "lon": 106.899,
+              "areaKm2": 86.4
+            }
+          ]
+        },
+        {
+          "code": "25205",
+          "name": "Phường Tân Thiện",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Phường Bình Phước",
+              "newWardShort": "Bình Phước",
+              "newWardCode": "25195",
+              "newWardType": "Phường",
+              "lat": 11.5209,
+              "lon": 106.899,
+              "areaKm2": 86.4
+            }
+          ]
+        },
+        {
+          "code": "25204",
+          "name": "Phường Tân Xuân",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Phường Bình Phước",
+              "newWardShort": "Bình Phước",
+              "newWardCode": "25195",
+              "newWardType": "Phường",
+              "lat": 11.5209,
+              "lon": 106.899,
+              "areaKm2": 86.4
+            }
+          ]
+        },
+        {
+          "code": "25210",
+          "name": "Phường Tiến Thành",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Phường Đồng Xoài",
+              "newWardShort": "Đồng Xoài",
+              "newWardCode": "25210",
+              "newWardType": "Phường",
+              "lat": 11.53,
+              "lon": 106.817,
+              "areaKm2": 81.3
+            }
+          ]
+        },
+        {
+          "code": "25207",
+          "name": "Xã Tân Thành",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Phường Đồng Xoài",
+              "newWardShort": "Đồng Xoài",
+              "newWardCode": "25210",
+              "newWardType": "Phường",
+              "lat": 11.53,
+              "lon": 106.817,
+              "areaKm2": 81.3
+            }
+          ]
+        },
+        {
+          "code": "25213",
+          "name": "Xã Tiến Hưng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Phường Bình Phước",
+              "newWardShort": "Bình Phước",
+              "newWardCode": "25195",
+              "newWardType": "Phường",
+              "lat": 11.5209,
+              "lon": 106.899,
+              "areaKm2": 86.4
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "696",
+      "name": "Huyện Bù Đăng",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "25396",
+          "name": "Thị trấn Đức Phong",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Bù Đăng",
+              "newWardShort": "Bù Đăng",
+              "newWardCode": "25396",
+              "newWardType": "Xã",
+              "lat": 11.8184,
+              "lon": 107.249,
+              "areaKm2": 156.1
+            }
+          ]
+        },
+        {
+          "code": "25404",
+          "name": "Xã Bình Minh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Bom Bo",
+              "newWardShort": "Bom Bo",
+              "newWardCode": "25405",
+              "newWardType": "Xã",
+              "lat": 11.8698,
+              "lon": 107.15,
+              "areaKm2": 245.9
+            }
+          ]
+        },
+        {
+          "code": "25405",
+          "name": "Xã Bom Bo",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Bom Bo",
+              "newWardShort": "Bom Bo",
+              "newWardCode": "25405",
+              "newWardType": "Xã",
+              "lat": 11.8698,
+              "lon": 107.15,
+              "areaKm2": 245.9
+            }
+          ]
+        },
+        {
+          "code": "25399",
+          "name": "Xã Đak Nhau",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Đak Nhau",
+              "newWardShort": "Đak Nhau",
+              "newWardCode": "25399",
+              "newWardType": "Xã",
+              "lat": 11.9733,
+              "lon": 107.222,
+              "areaKm2": 182.571
+            }
+          ]
+        },
+        {
+          "code": "25426",
+          "name": "Xã Đăng Hà",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Phước Sơn",
+              "newWardShort": "Phước Sơn",
+              "newWardCode": "25420",
+              "newWardType": "Xã",
+              "lat": 11.6254,
+              "lon": 107.223,
+              "areaKm2": 386.6
+            }
+          ]
+        },
+        {
+          "code": "25411",
+          "name": "Xã Đoàn Kết",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Bù Đăng",
+              "newWardShort": "Bù Đăng",
+              "newWardCode": "25396",
+              "newWardType": "Xã",
+              "lat": 11.8184,
+              "lon": 107.249,
+              "areaKm2": 156.1
+            }
+          ]
+        },
+        {
+          "code": "25414",
+          "name": "Xã Đồng Nai",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Thọ Sơn",
+              "newWardShort": "Thọ Sơn",
+              "newWardCode": "25402",
+              "newWardType": "Xã",
+              "lat": 11.8627,
+              "lon": 107.335,
+              "areaKm2": 307.7
+            }
+          ]
+        },
+        {
+          "code": "25417",
+          "name": "Xã Đức Liễu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Nghĩa Trung",
+              "newWardShort": "Nghĩa Trung",
+              "newWardCode": "25417",
+              "newWardType": "Xã",
+              "lat": 11.6841,
+              "lon": 107.117,
+              "areaKm2": 222
+            }
+          ]
+        },
+        {
+          "code": "25398",
+          "name": "Xã Đường 10",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Đak Nhau",
+              "newWardShort": "Đak Nhau",
+              "newWardCode": "25399",
+              "newWardType": "Xã",
+              "lat": 11.9733,
+              "lon": 107.222,
+              "areaKm2": 182.571
+            }
+          ]
+        },
+        {
+          "code": "25408",
+          "name": "Xã Minh Hưng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Bù Đăng",
+              "newWardShort": "Bù Đăng",
+              "newWardCode": "25396",
+              "newWardType": "Xã",
+              "lat": 11.8184,
+              "lon": 107.249,
+              "areaKm2": 156.1
+            }
+          ]
+        },
+        {
+          "code": "25424",
+          "name": "Xã Nghĩa Bình",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Nghĩa Trung",
+              "newWardShort": "Nghĩa Trung",
+              "newWardCode": "25417",
+              "newWardType": "Xã",
+              "lat": 11.6841,
+              "lon": 107.117,
+              "areaKm2": 222
+            }
+          ]
+        },
+        {
+          "code": "25423",
+          "name": "Xã Nghĩa Trung",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Nghĩa Trung",
+              "newWardShort": "Nghĩa Trung",
+              "newWardCode": "25417",
+              "newWardType": "Xã",
+              "lat": 11.6841,
+              "lon": 107.117,
+              "areaKm2": 222
+            }
+          ]
+        },
+        {
+          "code": "25400",
+          "name": "Xã Phú Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Thọ Sơn",
+              "newWardShort": "Thọ Sơn",
+              "newWardCode": "25402",
+              "newWardType": "Xã",
+              "lat": 11.8627,
+              "lon": 107.335,
+              "areaKm2": 307.7
+            }
+          ]
+        },
+        {
+          "code": "25429",
+          "name": "Xã Phước Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Phước Sơn",
+              "newWardShort": "Phước Sơn",
+              "newWardCode": "25420",
+              "newWardType": "Xã",
+              "lat": 11.6254,
+              "lon": 107.223,
+              "areaKm2": 386.6
+            }
+          ]
+        },
+        {
+          "code": "25402",
+          "name": "Xã Thọ Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Thọ Sơn",
+              "newWardShort": "Thọ Sơn",
+              "newWardCode": "25402",
+              "newWardType": "Xã",
+              "lat": 11.8627,
+              "lon": 107.335,
+              "areaKm2": 307.7
+            }
+          ]
+        },
+        {
+          "code": "25420",
+          "name": "Xã Thống Nhất",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Phước Sơn",
+              "newWardShort": "Phước Sơn",
+              "newWardCode": "25420",
+              "newWardType": "Xã",
+              "lat": 11.6254,
+              "lon": 107.223,
+              "areaKm2": 386.6
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "693",
+      "name": "Huyện Bù Đốp",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "25308",
+          "name": "Thị trấn Thanh Bình",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Thiện Hưng",
+              "newWardShort": "Thiện Hưng",
+              "newWardCode": "25308",
+              "newWardType": "Xã",
+              "lat": 11.9688,
+              "lon": 106.798,
+              "areaKm2": 111
+            }
+          ]
+        },
+        {
+          "code": "25309",
+          "name": "Xã Hưng Phước",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Hưng Phước",
+              "newWardShort": "Hưng Phước",
+              "newWardCode": "25309",
+              "newWardType": "Xã",
+              "lat": 12.0352,
+              "lon": 106.877,
+              "areaKm2": 187.2
+            }
+          ]
+        },
+        {
+          "code": "25310",
+          "name": "Xã Phước Thiện",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Hưng Phước",
+              "newWardShort": "Hưng Phước",
+              "newWardCode": "25309",
+              "newWardType": "Xã",
+              "lat": 12.0352,
+              "lon": 106.877,
+              "areaKm2": 187.2
+            }
+          ]
+        },
+        {
+          "code": "25318",
+          "name": "Xã Tân Thành",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Tân Tiến",
+              "newWardShort": "Tân Tiến",
+              "newWardCode": "25318",
+              "newWardType": "Xã",
+              "lat": 11.9268,
+              "lon": 106.656,
+              "areaKm2": 207.2
+            }
+          ]
+        },
+        {
+          "code": "25321",
+          "name": "Xã Tân Tiến",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Tân Tiến",
+              "newWardShort": "Tân Tiến",
+              "newWardCode": "25318",
+              "newWardType": "Xã",
+              "lat": 11.9268,
+              "lon": 106.656,
+              "areaKm2": 207.2
+            }
+          ]
+        },
+        {
+          "code": "25315",
+          "name": "Xã Thanh Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Thiện Hưng",
+              "newWardShort": "Thiện Hưng",
+              "newWardCode": "25308",
+              "newWardType": "Xã",
+              "lat": 11.9688,
+              "lon": 106.798,
+              "areaKm2": 111
+            }
+          ]
+        },
+        {
+          "code": "25312",
+          "name": "Xã Thiện Hưng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Thiện Hưng",
+              "newWardShort": "Thiện Hưng",
+              "newWardCode": "25308",
+              "newWardType": "Xã",
+              "lat": 11.9688,
+              "lon": 106.798,
+              "areaKm2": 111
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "691",
+      "name": "Huyện Bù Gia Mập",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "25234",
+          "name": "Xã Bình Thắng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Đa Kia",
+              "newWardShort": "Đa Kia",
+              "newWardCode": "25231",
+              "newWardType": "Xã",
+              "lat": 11.9028,
+              "lon": 106.863,
+              "areaKm2": 196.3
+            }
+          ]
+        },
+        {
+          "code": "25222",
+          "name": "Xã Bù Gia Mập",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Bù Gia Mập",
+              "newWardShort": "Bù Gia Mập",
+              "newWardCode": "25222",
+              "newWardType": "Xã",
+              "lat": 12.1358,
+              "lon": 107.168,
+              "areaKm2": 342.5
+            }
+          ]
+        },
+        {
+          "code": "25231",
+          "name": "Xã Đa Kia",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Đa Kia",
+              "newWardShort": "Đa Kia",
+              "newWardCode": "25231",
+              "newWardType": "Xã",
+              "lat": 11.9028,
+              "lon": 106.863,
+              "areaKm2": 196.3
+            }
+          ]
+        },
+        {
+          "code": "25225",
+          "name": "Xã Đak Ơ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Đăk Ơ",
+              "newWardShort": "Đăk Ơ",
+              "newWardCode": "25225",
+              "newWardType": "Xã",
+              "lat": 12.067,
+              "lon": 107.056,
+              "areaKm2": 246.711
+            }
+          ]
+        },
+        {
+          "code": "25228",
+          "name": "Xã Đức Hạnh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Phú Nghĩa",
+              "newWardShort": "Phú Nghĩa",
+              "newWardCode": "25267",
+              "newWardType": "Xã",
+              "lat": 11.9338,
+              "lon": 107.018,
+              "areaKm2": 279.4
+            }
+          ]
+        },
+        {
+          "code": "25267",
+          "name": "Xã Phú Nghĩa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Phú Nghĩa",
+              "newWardShort": "Phú Nghĩa",
+              "newWardCode": "25267",
+              "newWardType": "Xã",
+              "lat": 11.9338,
+              "lon": 107.018,
+              "areaKm2": 279.4
+            }
+          ]
+        },
+        {
+          "code": "25229",
+          "name": "Xã Phú Văn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Phú Nghĩa",
+              "newWardShort": "Phú Nghĩa",
+              "newWardCode": "25267",
+              "newWardType": "Xã",
+              "lat": 11.9338,
+              "lon": 107.018,
+              "areaKm2": 279.4
+            }
+          ]
+        },
+        {
+          "code": "25232",
+          "name": "Xã Phước Minh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Đa Kia",
+              "newWardShort": "Đa Kia",
+              "newWardCode": "25231",
+              "newWardType": "Xã",
+              "lat": 11.9028,
+              "lon": 106.863,
+              "areaKm2": 196.3
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "695",
+      "name": "Huyện Đồng Phú",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "25363",
+          "name": "Thị trấn Tân Phú",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Đồng Phú",
+              "newWardShort": "Đồng Phú",
+              "newWardCode": "25363",
+              "newWardType": "Xã",
+              "lat": 11.4115,
+              "lon": 106.847,
+              "areaKm2": 138.7
+            }
+          ]
+        },
+        {
+          "code": "25369",
+          "name": "Xã Đồng Tâm",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Đồng Tâm",
+              "newWardShort": "Đồng Tâm",
+              "newWardCode": "25390",
+              "newWardType": "Xã",
+              "lat": 11.5709,
+              "lon": 107.021,
+              "areaKm2": 248.8
+            }
+          ]
+        },
+        {
+          "code": "25390",
+          "name": "Xã Đồng Tiến",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Đồng Tâm",
+              "newWardShort": "Đồng Tâm",
+              "newWardCode": "25390",
+              "newWardType": "Xã",
+              "lat": 11.5709,
+              "lon": 107.021,
+              "areaKm2": 248.8
+            }
+          ]
+        },
+        {
+          "code": "25384",
+          "name": "Xã Tân Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Tân Lợi",
+              "newWardShort": "Tân Lợi",
+              "newWardCode": "25378",
+              "newWardType": "Xã",
+              "lat": 11.4329,
+              "lon": 106.991,
+              "areaKm2": 379.8
+            }
+          ]
+        },
+        {
+          "code": "25375",
+          "name": "Xã Tân Hưng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Tân Lợi",
+              "newWardShort": "Tân Lợi",
+              "newWardCode": "25378",
+              "newWardType": "Xã",
+              "lat": 11.4329,
+              "lon": 106.991,
+              "areaKm2": 379.8
+            }
+          ]
+        },
+        {
+          "code": "25381",
+          "name": "Xã Tân Lập",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Đồng Phú",
+              "newWardShort": "Đồng Phú",
+              "newWardCode": "25363",
+              "newWardType": "Xã",
+              "lat": 11.4115,
+              "lon": 106.847,
+              "areaKm2": 138.7
+            }
+          ]
+        },
+        {
+          "code": "25378",
+          "name": "Xã Tân Lợi",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Tân Lợi",
+              "newWardShort": "Tân Lợi",
+              "newWardCode": "25378",
+              "newWardType": "Xã",
+              "lat": 11.4329,
+              "lon": 106.991,
+              "areaKm2": 379.8
+            }
+          ]
+        },
+        {
+          "code": "25372",
+          "name": "Xã Tân Phước",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Đồng Tâm",
+              "newWardShort": "Đồng Tâm",
+              "newWardCode": "25390",
+              "newWardType": "Xã",
+              "lat": 11.5709,
+              "lon": 107.021,
+              "areaKm2": 248.8
+            }
+          ]
+        },
+        {
+          "code": "25393",
+          "name": "Xã Tân Tiến",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Đồng Phú",
+              "newWardShort": "Đồng Phú",
+              "newWardCode": "25363",
+              "newWardType": "Xã",
+              "lat": 11.4115,
+              "lon": 106.847,
+              "areaKm2": 138.7
+            }
+          ]
+        },
+        {
+          "code": "25366",
+          "name": "Xã Thuận Lợi",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Thuận Lợi",
+              "newWardShort": "Thuận Lợi",
+              "newWardCode": "25387",
+              "newWardType": "Xã",
+              "lat": 11.6055,
+              "lon": 106.867,
+              "areaKm2": 167.2
+            }
+          ]
+        },
+        {
+          "code": "25387",
+          "name": "Xã Thuận Phú",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Thuận Lợi",
+              "newWardShort": "Thuận Lợi",
+              "newWardCode": "25387",
+              "newWardType": "Xã",
+              "lat": 11.6055,
+              "lon": 106.867,
+              "areaKm2": 167.2
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "694",
+      "name": "Huyện Hớn Quản",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "25357",
+          "name": "Thị trấn Tân Khai",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Tân Khai",
+              "newWardShort": "Tân Khai",
+              "newWardCode": "25357",
+              "newWardType": "Xã",
+              "lat": 11.5279,
+              "lon": 106.542,
+              "areaKm2": 161.8
+            }
+          ]
+        },
+        {
+          "code": "25330",
+          "name": "Xã An Khương",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Tân Hưng",
+              "newWardShort": "Tân Hưng",
+              "newWardCode": "25345",
+              "newWardType": "Xã",
+              "lat": 11.6919,
+              "lon": 106.715,
+              "areaKm2": 92.41
+            }
+          ]
+        },
+        {
+          "code": "25339",
+          "name": "Xã An Phú",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Minh Đức",
+              "newWardShort": "Minh Đức",
+              "newWardCode": "25349",
+              "newWardType": "Xã",
+              "lat": 11.6242,
+              "lon": 106.522,
+              "areaKm2": 167.1
+            }
+          ]
+        },
+        {
+          "code": "25360",
+          "name": "Xã Đồng Nơ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Tân Khai",
+              "newWardShort": "Tân Khai",
+              "newWardCode": "25357",
+              "newWardType": "Xã",
+              "lat": 11.5279,
+              "lon": 106.542,
+              "areaKm2": 161.8
+            }
+          ]
+        },
+        {
+          "code": "25348",
+          "name": "Xã Minh Đức",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Minh Đức",
+              "newWardShort": "Minh Đức",
+              "newWardCode": "25349",
+              "newWardType": "Xã",
+              "lat": 11.6242,
+              "lon": 106.522,
+              "areaKm2": 167.1
+            }
+          ]
+        },
+        {
+          "code": "25349",
+          "name": "Xã Minh Tâm",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Minh Đức",
+              "newWardShort": "Minh Đức",
+              "newWardCode": "25349",
+              "newWardType": "Xã",
+              "lat": 11.6242,
+              "lon": 106.522,
+              "areaKm2": 167.1
+            }
+          ]
+        },
+        {
+          "code": "25351",
+          "name": "Xã Phước An",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Tân Quan",
+              "newWardShort": "Tân Quan",
+              "newWardCode": "25351",
+              "newWardType": "Xã",
+              "lat": 11.6046,
+              "lon": 106.669,
+              "areaKm2": 148.3
+            }
+          ]
+        },
+        {
+          "code": "25361",
+          "name": "Xã Tân Hiệp",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Tân Khai",
+              "newWardShort": "Tân Khai",
+              "newWardCode": "25357",
+              "newWardType": "Xã",
+              "lat": 11.5279,
+              "lon": 106.542,
+              "areaKm2": 161.8
+            }
+          ]
+        },
+        {
+          "code": "25345",
+          "name": "Xã Tân Hưng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Tân Hưng",
+              "newWardShort": "Tân Hưng",
+              "newWardCode": "25345",
+              "newWardType": "Xã",
+              "lat": 11.6919,
+              "lon": 106.715,
+              "areaKm2": 92.41
+            }
+          ]
+        },
+        {
+          "code": "25342",
+          "name": "Xã Tân Lợi",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Tân Quan",
+              "newWardShort": "Tân Quan",
+              "newWardCode": "25351",
+              "newWardType": "Xã",
+              "lat": 11.6046,
+              "lon": 106.669,
+              "areaKm2": 148.3
+            }
+          ]
+        },
+        {
+          "code": "25438",
+          "name": "Xã Tân Quan",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Tân Quan",
+              "newWardShort": "Tân Quan",
+              "newWardCode": "25351",
+              "newWardType": "Xã",
+              "lat": 11.6046,
+              "lon": 106.669,
+              "areaKm2": 148.3
+            }
+          ]
+        },
+        {
+          "code": "25327",
+          "name": "Xã Thanh An",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Tân Hưng",
+              "newWardShort": "Tân Hưng",
+              "newWardCode": "25345",
+              "newWardType": "Xã",
+              "lat": 11.6919,
+              "lon": 106.715,
+              "areaKm2": 92.41
+            }
+          ]
+        },
+        {
+          "code": "25354",
+          "name": "Xã Thanh Bình",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Phường Bình Long",
+              "newWardShort": "Bình Long",
+              "newWardCode": "25326",
+              "newWardType": "Phường",
+              "lat": 11.6321,
+              "lon": 106.598,
+              "areaKm2": 49.1
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "692",
+      "name": "Huyện Lộc Ninh",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "25270",
+          "name": "Thị trấn Lộc Ninh",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Lộc Ninh",
+              "newWardShort": "Lộc Ninh",
+              "newWardCode": "25270",
+              "newWardType": "Xã",
+              "lat": 11.8389,
+              "lon": 106.635,
+              "areaKm2": 67.4
+            }
+          ]
+        },
+        {
+          "code": "25276",
+          "name": "Xã Lộc An",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Tân Tiến",
+              "newWardShort": "Tân Tiến",
+              "newWardCode": "25318",
+              "newWardType": "Xã",
+              "lat": 11.9268,
+              "lon": 106.656,
+              "areaKm2": 207.2
+            }
+          ]
+        },
+        {
+          "code": "25300",
+          "name": "Xã Lộc Điền",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Lộc Hưng",
+              "newWardShort": "Lộc Hưng",
+              "newWardCode": "25303",
+              "newWardType": "Xã",
+              "lat": 11.7867,
+              "lon": 106.664,
+              "areaKm2": 99
+            }
+          ]
+        },
+        {
+          "code": "25282",
+          "name": "Xã Lộc Hiệp",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Lộc Quang",
+              "newWardShort": "Lộc Quang",
+              "newWardCode": "25292",
+              "newWardType": "Xã",
+              "lat": 11.8443,
+              "lon": 106.716,
+              "areaKm2": 105
+            }
+          ]
+        },
+        {
+          "code": "25273",
+          "name": "Xã Lộc Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Lộc Thạnh",
+              "newWardShort": "Lộc Thạnh",
+              "newWardCode": "25280",
+              "newWardType": "Xã",
+              "lat": 11.9365,
+              "lon": 106.576,
+              "areaKm2": 125.5
+            }
+          ]
+        },
+        {
+          "code": "25303",
+          "name": "Xã Lộc Hưng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Lộc Hưng",
+              "newWardShort": "Lộc Hưng",
+              "newWardCode": "25303",
+              "newWardType": "Xã",
+              "lat": 11.7867,
+              "lon": 106.664,
+              "areaKm2": 99
+            }
+          ]
+        },
+        {
+          "code": "25306",
+          "name": "Xã Lộc Khánh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Lộc Hưng",
+              "newWardShort": "Lộc Hưng",
+              "newWardCode": "25303",
+              "newWardType": "Xã",
+              "lat": 11.7867,
+              "lon": 106.664,
+              "areaKm2": 99
+            }
+          ]
+        },
+        {
+          "code": "25292",
+          "name": "Xã Lộc Phú",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Lộc Quang",
+              "newWardShort": "Lộc Quang",
+              "newWardCode": "25292",
+              "newWardType": "Xã",
+              "lat": 11.8443,
+              "lon": 106.716,
+              "areaKm2": 105
+            }
+          ]
+        },
+        {
+          "code": "25291",
+          "name": "Xã Lộc Quang",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Lộc Quang",
+              "newWardShort": "Lộc Quang",
+              "newWardCode": "25292",
+              "newWardType": "Xã",
+              "lat": 11.8443,
+              "lon": 106.716,
+              "areaKm2": 105
+            }
+          ]
+        },
+        {
+          "code": "25279",
+          "name": "Xã Lộc Tấn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Lộc Tấn",
+              "newWardShort": "Lộc Tấn",
+              "newWardCode": "25279",
+              "newWardType": "Xã",
+              "lat": 11.8815,
+              "lon": 106.519,
+              "areaKm2": 183.36
+            }
+          ]
+        },
+        {
+          "code": "25297",
+          "name": "Xã Lộc Thái",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Lộc Ninh",
+              "newWardShort": "Lộc Ninh",
+              "newWardCode": "25270",
+              "newWardType": "Xã",
+              "lat": 11.8389,
+              "lon": 106.635,
+              "areaKm2": 67.4
+            }
+          ]
+        },
+        {
+          "code": "25280",
+          "name": "Xã Lộc Thạnh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Lộc Thạnh",
+              "newWardShort": "Lộc Thạnh",
+              "newWardCode": "25280",
+              "newWardType": "Xã",
+              "lat": 11.9365,
+              "lon": 106.576,
+              "areaKm2": 125.5
+            }
+          ]
+        },
+        {
+          "code": "25294",
+          "name": "Xã Lộc Thành",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Lộc Thành",
+              "newWardShort": "Lộc Thành",
+              "newWardCode": "25294",
+              "newWardType": "Xã",
+              "lat": 11.7661,
+              "lon": 106.494,
+              "areaKm2": 206.1
+            }
+          ]
+        },
+        {
+          "code": "25285",
+          "name": "Xã Lộc Thiện",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Lộc Tấn",
+              "newWardShort": "Lộc Tấn",
+              "newWardCode": "25279",
+              "newWardType": "Xã",
+              "lat": 11.8815,
+              "lon": 106.519,
+              "areaKm2": 183.36
+            }
+          ]
+        },
+        {
+          "code": "25305",
+          "name": "Xã Lộc Thịnh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Lộc Thành",
+              "newWardShort": "Lộc Thành",
+              "newWardCode": "25294",
+              "newWardType": "Xã",
+              "lat": 11.7661,
+              "lon": 106.494,
+              "areaKm2": 206.1
+            }
+          ]
+        },
+        {
+          "code": "25288",
+          "name": "Xã Lộc Thuận",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Lộc Ninh",
+              "newWardShort": "Lộc Ninh",
+              "newWardCode": "25270",
+              "newWardType": "Xã",
+              "lat": 11.8389,
+              "lon": 106.635,
+              "areaKm2": 67.4
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "698",
+      "name": "Huyện Phú Riềng",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "25244",
+          "name": "Xã Bình Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Phường Phước Bình",
+              "newWardShort": "Phước Bình",
+              "newWardCode": "25220",
+              "newWardType": "Phường",
+              "lat": 11.834,
+              "lon": 106.94,
+              "areaKm2": 72.6
+            }
+          ]
+        },
+        {
+          "code": "25243",
+          "name": "Xã Bình Tân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Bình Tân",
+              "newWardShort": "Bình Tân",
+              "newWardCode": "25246",
+              "newWardType": "Xã",
+              "lat": 11.8155,
+              "lon": 106.806,
+              "areaKm2": 190.9
+            }
+          ]
+        },
+        {
+          "code": "25252",
+          "name": "Xã Bù Nho",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Phú Riềng",
+              "newWardShort": "Phú Riềng",
+              "newWardCode": "25252",
+              "newWardType": "Xã",
+              "lat": 11.6825,
+              "lon": 106.922,
+              "areaKm2": 117.4
+            }
+          ]
+        },
+        {
+          "code": "25240",
+          "name": "Xã Long Bình",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Bình Tân",
+              "newWardShort": "Bình Tân",
+              "newWardCode": "25246",
+              "newWardType": "Xã",
+              "lat": 11.8155,
+              "lon": 106.806,
+              "areaKm2": 190.9
+            }
+          ]
+        },
+        {
+          "code": "25255",
+          "name": "Xã Long Hà",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Long Hà",
+              "newWardShort": "Long Hà",
+              "newWardCode": "25255",
+              "newWardType": "Xã",
+              "lat": 11.7,
+              "lon": 106.815,
+              "areaKm2": 168.4
+            }
+          ]
+        },
+        {
+          "code": "25246",
+          "name": "Xã Long Hưng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Bình Tân",
+              "newWardShort": "Bình Tân",
+              "newWardCode": "25246",
+              "newWardType": "Xã",
+              "lat": 11.8155,
+              "lon": 106.806,
+              "areaKm2": 190.9
+            }
+          ]
+        },
+        {
+          "code": "25258",
+          "name": "Xã Long Tân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Long Hà",
+              "newWardShort": "Long Hà",
+              "newWardCode": "25255",
+              "newWardType": "Xã",
+              "lat": 11.7,
+              "lon": 106.815,
+              "areaKm2": 168.4
+            }
+          ]
+        },
+        {
+          "code": "25264",
+          "name": "Xã Phú Riềng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Phú Riềng",
+              "newWardShort": "Phú Riềng",
+              "newWardCode": "25252",
+              "newWardType": "Xã",
+              "lat": 11.6825,
+              "lon": 106.922,
+              "areaKm2": 117.4
+            }
+          ]
+        },
+        {
+          "code": "25261",
+          "name": "Xã Phú Trung",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Phú Trung",
+              "newWardShort": "Phú Trung",
+              "newWardCode": "25261",
+              "newWardType": "Xã",
+              "lat": 11.7238,
+              "lon": 107.017,
+              "areaKm2": 172
+            }
+          ]
+        },
+        {
+          "code": "25250",
+          "name": "Xã Phước Tân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Phú Trung",
+              "newWardShort": "Phú Trung",
+              "newWardCode": "25261",
+              "newWardType": "Xã",
+              "lat": 11.7238,
+              "lon": 107.017,
+              "areaKm2": 172
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "690",
+      "name": "Thị xã Bình Long",
+      "type": "Thị xã",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "25324",
+          "name": "Phường An Lộc",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Phường Bình Long",
+              "newWardShort": "Bình Long",
+              "newWardCode": "25326",
+              "newWardType": "Phường",
+              "lat": 11.6321,
+              "lon": 106.598,
+              "areaKm2": 49.1
+            }
+          ]
+        },
+        {
+          "code": "25320",
+          "name": "Phường Hưng Chiến",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Phường Bình Long",
+              "newWardShort": "Bình Long",
+              "newWardCode": "25326",
+              "newWardType": "Phường",
+              "lat": 11.6321,
+              "lon": 106.598,
+              "areaKm2": 49.1
+            }
+          ]
+        },
+        {
+          "code": "25326",
+          "name": "Phường Phú Đức",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Phường Bình Long",
+              "newWardShort": "Bình Long",
+              "newWardCode": "25326",
+              "newWardType": "Phường",
+              "lat": 11.6321,
+              "lon": 106.598,
+              "areaKm2": 49.1
+            }
+          ]
+        },
+        {
+          "code": "25325",
+          "name": "Phường Phú Thịnh",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Phường An Lộc",
+              "newWardShort": "An Lộc",
+              "newWardCode": "25333",
+              "newWardType": "Phường",
+              "lat": 11.7021,
+              "lon": 106.582,
+              "areaKm2": 88.7
+            }
+          ]
+        },
+        {
+          "code": "25333",
+          "name": "Xã Thanh Lương",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Phường An Lộc",
+              "newWardShort": "An Lộc",
+              "newWardCode": "25333",
+              "newWardType": "Phường",
+              "lat": 11.7021,
+              "lon": 106.582,
+              "areaKm2": 88.7
+            }
+          ]
+        },
+        {
+          "code": "25336",
+          "name": "Xã Thanh Phú",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Phường An Lộc",
+              "newWardShort": "An Lộc",
+              "newWardCode": "25333",
+              "newWardType": "Phường",
+              "lat": 11.7021,
+              "lon": 106.582,
+              "areaKm2": 88.7
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "697",
+      "name": "Thị xã Chơn Thành",
+      "type": "Thị xã",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "25432",
+          "name": "Phường Hưng Long",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Phường Chơn Thành",
+              "newWardShort": "Chơn Thành",
+              "newWardCode": "25432",
+              "newWardType": "Phường",
+              "lat": 11.4153,
+              "lon": 106.646,
+              "areaKm2": 124.4
+            }
+          ]
+        },
+        {
+          "code": "25441",
+          "name": "Phường Minh Hưng",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Phường Minh Hưng",
+              "newWardShort": "Minh Hưng",
+              "newWardCode": "25441",
+              "newWardType": "Phường",
+              "lat": 11.4845,
+              "lon": 106.634,
+              "areaKm2": 99.7
+            }
+          ]
+        },
+        {
+          "code": "25444",
+          "name": "Phường Minh Long",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Phường Minh Hưng",
+              "newWardShort": "Minh Hưng",
+              "newWardCode": "25441",
+              "newWardType": "Phường",
+              "lat": 11.4845,
+              "lon": 106.634,
+              "areaKm2": 99.7
+            }
+          ]
+        },
+        {
+          "code": "25447",
+          "name": "Phường Minh Thành",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Phường Chơn Thành",
+              "newWardShort": "Chơn Thành",
+              "newWardCode": "25432",
+              "newWardType": "Phường",
+              "lat": 11.4153,
+              "lon": 106.646,
+              "areaKm2": 124.4
+            }
+          ]
+        },
+        {
+          "code": "25433",
+          "name": "Phường Thành Tâm",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Phường Chơn Thành",
+              "newWardShort": "Chơn Thành",
+              "newWardCode": "25432",
+              "newWardType": "Phường",
+              "lat": 11.4153,
+              "lon": 106.646,
+              "areaKm2": 124.4
+            }
+          ]
+        },
+        {
+          "code": "25435",
+          "name": "Xã Minh Lập",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Nha Bích",
+              "newWardShort": "Nha Bích",
+              "newWardCode": "25450",
+              "newWardType": "Xã",
+              "lat": 11.5064,
+              "lon": 106.723,
+              "areaKm2": 137.1
+            }
+          ]
+        },
+        {
+          "code": "25453",
+          "name": "Xã Minh Thắng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Nha Bích",
+              "newWardShort": "Nha Bích",
+              "newWardCode": "25450",
+              "newWardType": "Xã",
+              "lat": 11.5064,
+              "lon": 106.723,
+              "areaKm2": 137.1
+            }
+          ]
+        },
+        {
+          "code": "25450",
+          "name": "Xã Nha Bích",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Nha Bích",
+              "newWardShort": "Nha Bích",
+              "newWardCode": "25450",
+              "newWardType": "Xã",
+              "lat": 11.5064,
+              "lon": 106.723,
+              "areaKm2": 137.1
+            }
+          ]
+        },
+        {
+          "code": "25439",
+          "name": "Xã Quang Minh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Xã Tân Quan",
+              "newWardShort": "Tân Quan",
+              "newWardCode": "25351",
+              "newWardType": "Xã",
+              "lat": 11.6046,
+              "lon": 106.669,
+              "areaKm2": 148.3
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "688",
+      "name": "Thị xã Phước Long",
+      "type": "Thị xã",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "25220",
+          "name": "Phường Long Phước",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Phường Phước Bình",
+              "newWardShort": "Phước Bình",
+              "newWardCode": "25220",
+              "newWardType": "Phường",
+              "lat": 11.834,
+              "lon": 106.94,
+              "areaKm2": 72.6
+            }
+          ]
+        },
+        {
+          "code": "25217",
+          "name": "Phường Long Thủy",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Phường Phước Long",
+              "newWardShort": "Phước Long",
+              "newWardCode": "25217",
+              "newWardType": "Phường",
+              "lat": 11.819,
+              "lon": 107.018,
+              "areaKm2": 71.8838
+            }
+          ]
+        },
+        {
+          "code": "25219",
+          "name": "Phường Phước Bình",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Phường Phước Bình",
+              "newWardShort": "Phước Bình",
+              "newWardCode": "25220",
+              "newWardType": "Phường",
+              "lat": 11.834,
+              "lon": 106.94,
+              "areaKm2": 72.6
+            }
+          ]
+        },
+        {
+          "code": "25237",
+          "name": "Phường Sơn Giang",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Phường Phước Long",
+              "newWardShort": "Phước Long",
+              "newWardCode": "25217",
+              "newWardType": "Phường",
+              "lat": 11.819,
+              "lon": 107.018,
+              "areaKm2": 71.8838
+            }
+          ]
+        },
+        {
+          "code": "25216",
+          "name": "Phường Thác Mơ",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Phường Phước Long",
+              "newWardShort": "Phước Long",
+              "newWardCode": "25217",
+              "newWardType": "Phường",
+              "lat": 11.819,
+              "lon": 107.018,
+              "areaKm2": 71.8838
+            }
+          ]
+        },
+        {
+          "code": "25245",
+          "name": "Xã Long Giang",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Phường Phước Bình",
+              "newWardShort": "Phước Bình",
+              "newWardCode": "25220",
+              "newWardType": "Phường",
+              "lat": 11.834,
+              "lon": 106.94,
+              "areaKm2": 72.6
+            }
+          ]
+        },
+        {
+          "code": "25249",
+          "name": "Xã Phước Tín",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đồng Nai",
+              "newProvinceSlug": "dong-nai",
+              "newProvinceCode": "75",
+              "newWard": "Phường Phước Long",
+              "newWardShort": "Phước Long",
+              "newWardCode": "25217",
+              "newWardType": "Phường",
+              "lat": 11.819,
+              "lon": 107.018,
+              "areaKm2": 71.8838
+            }
+          ]
+        }
+      ],
+      "results": []
+    }
+  ]
+}

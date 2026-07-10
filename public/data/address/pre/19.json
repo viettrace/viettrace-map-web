@@ -1,0 +1,3567 @@
+{
+  "schemaVersion": 1,
+  "mergeDate": "2025-07-01",
+  "code": "19",
+  "name": "Tỉnh Thái Nguyên",
+  "name_en": "Thai Nguyen Province",
+  "slug": "thai-nguyen",
+  "districts": [
+    {
+      "code": "171",
+      "name": "Huyện Đại Từ",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "5761",
+          "name": "Thị trấn Hùng Sơn",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Đại Phúc",
+              "newWardShort": "Đại Phúc",
+              "newWardCode": "05488",
+              "newWardType": "Xã",
+              "lat": 21.5765,
+              "lon": 105.71,
+              "areaKm2": 107.47
+            }
+          ]
+        },
+        {
+          "code": "5851",
+          "name": "Thị trấn Quân Chu",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Quân Chu",
+              "newWardShort": "Quân Chu",
+              "newWardCode": "05851",
+              "newWardType": "Xã",
+              "lat": 21.4922,
+              "lon": 105.681,
+              "areaKm2": 79.38
+            }
+          ]
+        },
+        {
+          "code": "5824",
+          "name": "Xã An Khánh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã An Khánh",
+              "newWardShort": "An Khánh",
+              "newWardCode": "05809",
+              "newWardType": "Xã",
+              "lat": 21.6277,
+              "lon": 105.722,
+              "areaKm2": 45.09
+            }
+          ]
+        },
+        {
+          "code": "5800",
+          "name": "Xã Bản Ngoại",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Phú Thịnh",
+              "newWardShort": "Phú Thịnh",
+              "newWardCode": "05800",
+              "newWardType": "Xã",
+              "lat": 21.688,
+              "lon": 105.573,
+              "areaKm2": 45.37
+            }
+          ]
+        },
+        {
+          "code": "5830",
+          "name": "Xã Bình Thuận",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Đại Từ",
+              "newWardShort": "Đại Từ",
+              "newWardCode": "05830",
+              "newWardType": "Xã",
+              "lat": 21.6069,
+              "lon": 105.615,
+              "areaKm2": 69.42
+            }
+          ]
+        },
+        {
+          "code": "5848",
+          "name": "Xã Cát Nê",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Quân Chu",
+              "newWardShort": "Quân Chu",
+              "newWardCode": "05851",
+              "newWardType": "Xã",
+              "lat": 21.4922,
+              "lon": 105.681,
+              "areaKm2": 79.38
+            }
+          ]
+        },
+        {
+          "code": "5809",
+          "name": "Xã Cù Vân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã An Khánh",
+              "newWardShort": "An Khánh",
+              "newWardCode": "05809",
+              "newWardType": "Xã",
+              "lat": 21.6277,
+              "lon": 105.722,
+              "areaKm2": 45.09
+            }
+          ]
+        },
+        {
+          "code": "5776",
+          "name": "Xã Đức Lương",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Đức Lương",
+              "newWardShort": "Đức Lương",
+              "newWardCode": "05776",
+              "newWardType": "Xã",
+              "lat": 21.7381,
+              "lon": 105.61,
+              "areaKm2": 60.9
+            }
+          ]
+        },
+        {
+          "code": "5812",
+          "name": "Xã Hà Thượng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã An Khánh",
+              "newWardShort": "An Khánh",
+              "newWardCode": "05809",
+              "newWardType": "Xã",
+              "lat": 21.6277,
+              "lon": 105.722,
+              "areaKm2": 45.09
+            }
+          ]
+        },
+        {
+          "code": "5818",
+          "name": "Xã Hoàng Nông",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã La Bằng",
+              "newWardShort": "La Bằng",
+              "newWardCode": "05818",
+              "newWardType": "Xã",
+              "lat": 21.6225,
+              "lon": 105.561,
+              "areaKm2": 60.84
+            }
+          ]
+        },
+        {
+          "code": "5821",
+          "name": "Xã Khôi Kỳ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Đại Từ",
+              "newWardShort": "Đại Từ",
+              "newWardCode": "05830",
+              "newWardType": "Xã",
+              "lat": 21.6069,
+              "lon": 105.615,
+              "areaKm2": 69.42
+            }
+          ]
+        },
+        {
+          "code": "5815",
+          "name": "Xã La Bằng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã La Bằng",
+              "newWardShort": "La Bằng",
+              "newWardCode": "05818",
+              "newWardType": "Xã",
+              "lat": 21.6225,
+              "lon": 105.561,
+              "areaKm2": 60.84
+            }
+          ]
+        },
+        {
+          "code": "5833",
+          "name": "Xã Lục Ba",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Đại Từ",
+              "newWardShort": "Đại Từ",
+              "newWardCode": "05830",
+              "newWardType": "Xã",
+              "lat": 21.6069,
+              "lon": 105.615,
+              "areaKm2": 69.42
+            }
+          ]
+        },
+        {
+          "code": "5770",
+          "name": "Xã Minh Tiến",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Đức Lương",
+              "newWardShort": "Đức Lương",
+              "newWardCode": "05776",
+              "newWardType": "Xã",
+              "lat": 21.7381,
+              "lon": 105.61,
+              "areaKm2": 60.9
+            }
+          ]
+        },
+        {
+          "code": "5836",
+          "name": "Xã Mỹ Yên",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Đại Từ",
+              "newWardShort": "Đại Từ",
+              "newWardCode": "05830",
+              "newWardType": "Xã",
+              "lat": 21.6069,
+              "lon": 105.615,
+              "areaKm2": 69.42
+            }
+          ]
+        },
+        {
+          "code": "5779",
+          "name": "Xã Phú Cường",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Phú Thịnh",
+              "newWardShort": "Phú Thịnh",
+              "newWardCode": "05800",
+              "newWardType": "Xã",
+              "lat": 21.688,
+              "lon": 105.573,
+              "areaKm2": 45.37
+            }
+          ]
+        },
+        {
+          "code": "5785",
+          "name": "Xã Phú Lạc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Phú Lạc",
+              "newWardShort": "Phú Lạc",
+              "newWardCode": "05788",
+              "newWardType": "Xã",
+              "lat": 21.6838,
+              "lon": 105.652,
+              "areaKm2": 58.07
+            }
+          ]
+        },
+        {
+          "code": "5791",
+          "name": "Xã Phú Thịnh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Phú Thịnh",
+              "newWardShort": "Phú Thịnh",
+              "newWardCode": "05800",
+              "newWardType": "Xã",
+              "lat": 21.688,
+              "lon": 105.573,
+              "areaKm2": 45.37
+            }
+          ]
+        },
+        {
+          "code": "5797",
+          "name": "Xã Phú Xuyên",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Phú Xuyên",
+              "newWardShort": "Phú Xuyên",
+              "newWardCode": "05773",
+              "newWardType": "Xã",
+              "lat": 21.6753,
+              "lon": 105.518,
+              "areaKm2": 64.58
+            }
+          ]
+        },
+        {
+          "code": "5794",
+          "name": "Xã Phục Linh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Phú Lạc",
+              "newWardShort": "Phú Lạc",
+              "newWardCode": "05788",
+              "newWardType": "Xã",
+              "lat": 21.6838,
+              "lon": 105.652,
+              "areaKm2": 58.07
+            }
+          ]
+        },
+        {
+          "code": "5767",
+          "name": "Xã Phúc Lương",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Đức Lương",
+              "newWardShort": "Đức Lương",
+              "newWardCode": "05776",
+              "newWardType": "Xã",
+              "lat": 21.7381,
+              "lon": 105.61,
+              "areaKm2": 60.9
+            }
+          ]
+        },
+        {
+          "code": "5788",
+          "name": "Xã Tân Linh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Phú Lạc",
+              "newWardShort": "Phú Lạc",
+              "newWardCode": "05788",
+              "newWardType": "Xã",
+              "lat": 21.6838,
+              "lon": 105.652,
+              "areaKm2": 58.07
+            }
+          ]
+        },
+        {
+          "code": "5827",
+          "name": "Xã Tân Thái",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Đại Phúc",
+              "newWardShort": "Đại Phúc",
+              "newWardCode": "05488",
+              "newWardType": "Xã",
+              "lat": 21.5765,
+              "lon": 105.71,
+              "areaKm2": 107.47
+            }
+          ]
+        },
+        {
+          "code": "5803",
+          "name": "Xã Tiên Hội",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã La Bằng",
+              "newWardShort": "La Bằng",
+              "newWardCode": "05818",
+              "newWardType": "Xã",
+              "lat": 21.6225,
+              "lon": 105.561,
+              "areaKm2": 60.84
+            }
+          ]
+        },
+        {
+          "code": "5845",
+          "name": "Xã Vạn Phú",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Vạn Phú",
+              "newWardShort": "Vạn Phú",
+              "newWardCode": "05845",
+              "newWardType": "Xã",
+              "lat": 21.5497,
+              "lon": 105.637,
+              "areaKm2": 51.2
+            }
+          ]
+        },
+        {
+          "code": "5842",
+          "name": "Xã Văn Yên",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Vạn Phú",
+              "newWardShort": "Vạn Phú",
+              "newWardCode": "05845",
+              "newWardType": "Xã",
+              "lat": 21.5497,
+              "lon": 105.637,
+              "areaKm2": 51.2
+            }
+          ]
+        },
+        {
+          "code": "5773",
+          "name": "Xã Yên Lãng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Phú Xuyên",
+              "newWardShort": "Phú Xuyên",
+              "newWardCode": "05773",
+              "newWardType": "Xã",
+              "lat": 21.6753,
+              "lon": 105.518,
+              "areaKm2": 64.58
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "167",
+      "name": "Huyện Định Hóa",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "5569",
+          "name": "Thị trấn Chợ Chu",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Định Hóa",
+              "newWardShort": "Định Hóa",
+              "newWardCode": "05569",
+              "newWardType": "Xã",
+              "lat": 21.9019,
+              "lon": 105.6,
+              "areaKm2": 67.3
+            }
+          ]
+        },
+        {
+          "code": "5554",
+          "name": "Xã Bảo Linh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Định Hóa",
+              "newWardShort": "Định Hóa",
+              "newWardCode": "05569",
+              "newWardType": "Xã",
+              "lat": 21.9019,
+              "lon": 105.6,
+              "areaKm2": 67.3
+            }
+          ]
+        },
+        {
+          "code": "5605",
+          "name": "Xã Bình Thành",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Bình Thành",
+              "newWardShort": "Bình Thành",
+              "newWardCode": "05605",
+              "newWardType": "Xã",
+              "lat": 21.7878,
+              "lon": 105.571,
+              "areaKm2": 72.1
+            }
+          ]
+        },
+        {
+          "code": "5587",
+          "name": "Xã Bình Yên",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Bình Yên",
+              "newWardShort": "Bình Yên",
+              "newWardCode": "05587",
+              "newWardType": "Xã",
+              "lat": 21.8597,
+              "lon": 105.573,
+              "areaKm2": 48.36
+            }
+          ]
+        },
+        {
+          "code": "5596",
+          "name": "Xã Bộc Nhiêu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Trung Hội",
+              "newWardShort": "Trung Hội",
+              "newWardCode": "05581",
+              "newWardType": "Xã",
+              "lat": 21.8221,
+              "lon": 105.634,
+              "areaKm2": 54.21
+            }
+          ]
+        },
+        {
+          "code": "5590",
+          "name": "Xã Điềm Mặc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Phú Đình",
+              "newWardShort": "Phú Đình",
+              "newWardCode": "05602",
+              "newWardType": "Xã",
+              "lat": 21.8089,
+              "lon": 105.528,
+              "areaKm2": 47.89
+            }
+          ]
+        },
+        {
+          "code": "5575",
+          "name": "Xã Định Biên",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Bình Yên",
+              "newWardShort": "Bình Yên",
+              "newWardCode": "05587",
+              "newWardType": "Xã",
+              "lat": 21.8597,
+              "lon": 105.573,
+              "areaKm2": 48.36
+            }
+          ]
+        },
+        {
+          "code": "5572",
+          "name": "Xã Đồng Thịnh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Định Hóa",
+              "newWardShort": "Định Hóa",
+              "newWardCode": "05569",
+              "newWardType": "Xã",
+              "lat": 21.9019,
+              "lon": 105.6,
+              "areaKm2": 67.3
+            }
+          ]
+        },
+        {
+          "code": "5551",
+          "name": "Xã Kim Phượng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Kim Phượng",
+              "newWardShort": "Kim Phượng",
+              "newWardCode": "05551",
+              "newWardType": "Xã",
+              "lat": 21.9669,
+              "lon": 105.626,
+              "areaKm2": 78.61
+            }
+          ]
+        },
+        {
+          "code": "5542",
+          "name": "Xã Lam Vỹ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Lam Vỹ",
+              "newWardShort": "Lam Vỹ",
+              "newWardCode": "05542",
+              "newWardType": "Xã",
+              "lat": 21.9979,
+              "lon": 105.691,
+              "areaKm2": 71.42
+            }
+          ]
+        },
+        {
+          "code": "5539",
+          "name": "Xã Linh Thông",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Lam Vỹ",
+              "newWardShort": "Lam Vỹ",
+              "newWardCode": "05542",
+              "newWardType": "Xã",
+              "lat": 21.9979,
+              "lon": 105.691,
+              "areaKm2": 71.42
+            }
+          ]
+        },
+        {
+          "code": "5602",
+          "name": "Xã Phú Đình",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Phú Đình",
+              "newWardShort": "Phú Đình",
+              "newWardCode": "05602",
+              "newWardType": "Xã",
+              "lat": 21.8089,
+              "lon": 105.528,
+              "areaKm2": 47.89
+            }
+          ]
+        },
+        {
+          "code": "5593",
+          "name": "Xã Phú Tiến",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Trung Hội",
+              "newWardShort": "Trung Hội",
+              "newWardCode": "05581",
+              "newWardType": "Xã",
+              "lat": 21.8221,
+              "lon": 105.634,
+              "areaKm2": 54.21
+            }
+          ]
+        },
+        {
+          "code": "5560",
+          "name": "Xã Phúc Chu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Định Hóa",
+              "newWardShort": "Định Hóa",
+              "newWardCode": "05569",
+              "newWardType": "Xã",
+              "lat": 21.9019,
+              "lon": 105.6,
+              "areaKm2": 67.3
+            }
+          ]
+        },
+        {
+          "code": "5566",
+          "name": "Xã Phượng Tiến",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Phượng Tiến",
+              "newWardShort": "Phượng Tiến",
+              "newWardCode": "05563",
+              "newWardType": "Xã",
+              "lat": 21.9243,
+              "lon": 105.709,
+              "areaKm2": 102.7
+            }
+          ]
+        },
+        {
+          "code": "5545",
+          "name": "Xã Quy Kỳ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Kim Phượng",
+              "newWardShort": "Kim Phượng",
+              "newWardCode": "05551",
+              "newWardType": "Xã",
+              "lat": 21.9669,
+              "lon": 105.626,
+              "areaKm2": 78.61
+            }
+          ]
+        },
+        {
+          "code": "5599",
+          "name": "Xã Sơn Phú",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Bình Thành",
+              "newWardShort": "Bình Thành",
+              "newWardCode": "05605",
+              "newWardType": "Xã",
+              "lat": 21.7878,
+              "lon": 105.571,
+              "areaKm2": 72.1
+            }
+          ]
+        },
+        {
+          "code": "5563",
+          "name": "Xã Tân Dương",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Phượng Tiến",
+              "newWardShort": "Phượng Tiến",
+              "newWardCode": "05563",
+              "newWardType": "Xã",
+              "lat": 21.9243,
+              "lon": 105.709,
+              "areaKm2": 102.7
+            }
+          ]
+        },
+        {
+          "code": "5548",
+          "name": "Xã Tân Thịnh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Phượng Tiến",
+              "newWardShort": "Phượng Tiến",
+              "newWardCode": "05563",
+              "newWardType": "Xã",
+              "lat": 21.9243,
+              "lon": 105.709,
+              "areaKm2": 102.7
+            }
+          ]
+        },
+        {
+          "code": "5578",
+          "name": "Xã Thanh Định",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Bình Yên",
+              "newWardShort": "Bình Yên",
+              "newWardCode": "05587",
+              "newWardType": "Xã",
+              "lat": 21.8597,
+              "lon": 105.573,
+              "areaKm2": 48.36
+            }
+          ]
+        },
+        {
+          "code": "5581",
+          "name": "Xã Trung Hội",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Trung Hội",
+              "newWardShort": "Trung Hội",
+              "newWardCode": "05581",
+              "newWardType": "Xã",
+              "lat": 21.8221,
+              "lon": 105.634,
+              "areaKm2": 54.21
+            }
+          ]
+        },
+        {
+          "code": "5584",
+          "name": "Xã Trung Lương",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Bình Yên",
+              "newWardShort": "Bình Yên",
+              "newWardCode": "05587",
+              "newWardType": "Xã",
+              "lat": 21.8597,
+              "lon": 105.573,
+              "areaKm2": 48.36
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "169",
+      "name": "Huyện Đồng Hỷ",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "5692",
+          "name": "Thị trấn Hóa Thượng",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Đồng Hỷ",
+              "newWardShort": "Đồng Hỷ",
+              "newWardCode": "05692",
+              "newWardType": "Xã",
+              "lat": 21.6732,
+              "lon": 105.834,
+              "areaKm2": 53.72
+            }
+          ]
+        },
+        {
+          "code": "5656",
+          "name": "Thị trấn Sông Cầu",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Đồng Hỷ",
+              "newWardShort": "Đồng Hỷ",
+              "newWardCode": "05692",
+              "newWardType": "Xã",
+              "lat": 21.6732,
+              "lon": 105.834,
+              "areaKm2": 53.72
+            }
+          ]
+        },
+        {
+          "code": "5662",
+          "name": "Thị trấn Trại Cau",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Trại Cau",
+              "newWardShort": "Trại Cau",
+              "newWardCode": "05662",
+              "newWardType": "Xã",
+              "lat": 21.5889,
+              "lon": 106.011,
+              "areaKm2": 82.85
+            }
+          ]
+        },
+        {
+          "code": "5689",
+          "name": "Xã Cây Thị",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Nam Hòa",
+              "newWardShort": "Nam Hòa",
+              "newWardCode": "05707",
+              "newWardType": "Xã",
+              "lat": 21.6498,
+              "lon": 105.993,
+              "areaKm2": 65.02
+            }
+          ]
+        },
+        {
+          "code": "5671",
+          "name": "Xã Hòa Bình",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Văn Lăng",
+              "newWardShort": "Văn Lăng",
+              "newWardCode": "05665",
+              "newWardType": "Xã",
+              "lat": 21.7857,
+              "lon": 105.829,
+              "areaKm2": 75.27
+            }
+          ]
+        },
+        {
+          "code": "5683",
+          "name": "Xã Hóa Trung",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Đồng Hỷ",
+              "newWardShort": "Đồng Hỷ",
+              "newWardCode": "05692",
+              "newWardType": "Xã",
+              "lat": 21.6732,
+              "lon": 105.834,
+              "areaKm2": 53.72
+            }
+          ]
+        },
+        {
+          "code": "5698",
+          "name": "Xã Hợp Tiến",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Trại Cau",
+              "newWardShort": "Trại Cau",
+              "newWardCode": "05662",
+              "newWardType": "Xã",
+              "lat": 21.5889,
+              "lon": 106.011,
+              "areaKm2": 82.85
+            }
+          ]
+        },
+        {
+          "code": "5686",
+          "name": "Xã Khe Mo",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Văn Hán",
+              "newWardShort": "Văn Hán",
+              "newWardCode": "05680",
+              "newWardType": "Xã",
+              "lat": 21.6645,
+              "lon": 105.929,
+              "areaKm2": 96.26
+            }
+          ]
+        },
+        {
+          "code": "5677",
+          "name": "Xã Minh Lập",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Đồng Hỷ",
+              "newWardShort": "Đồng Hỷ",
+              "newWardCode": "05692",
+              "newWardType": "Xã",
+              "lat": 21.6732,
+              "lon": 105.834,
+              "areaKm2": 53.72
+            }
+          ]
+        },
+        {
+          "code": "5707",
+          "name": "Xã Nam Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Nam Hòa",
+              "newWardShort": "Nam Hòa",
+              "newWardCode": "05707",
+              "newWardType": "Xã",
+              "lat": 21.6498,
+              "lon": 105.993,
+              "areaKm2": 65.02
+            }
+          ]
+        },
+        {
+          "code": "5674",
+          "name": "Xã Quang Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Quang Sơn",
+              "newWardShort": "Quang Sơn",
+              "newWardCode": "05674",
+              "newWardType": "Xã",
+              "lat": 21.7349,
+              "lon": 105.878,
+              "areaKm2": 58.63
+            }
+          ]
+        },
+        {
+          "code": "5668",
+          "name": "Xã Tân Long",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Quang Sơn",
+              "newWardShort": "Quang Sơn",
+              "newWardCode": "05674",
+              "newWardType": "Xã",
+              "lat": 21.7349,
+              "lon": 105.878,
+              "areaKm2": 58.63
+            }
+          ]
+        },
+        {
+          "code": "5680",
+          "name": "Xã Văn Hán",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Văn Hán",
+              "newWardShort": "Văn Hán",
+              "newWardCode": "05680",
+              "newWardType": "Xã",
+              "lat": 21.6645,
+              "lon": 105.929,
+              "areaKm2": 96.26
+            }
+          ]
+        },
+        {
+          "code": "5665",
+          "name": "Xã Văn Lăng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Văn Lăng",
+              "newWardShort": "Văn Lăng",
+              "newWardCode": "05665",
+              "newWardType": "Xã",
+              "lat": 21.7857,
+              "lon": 105.829,
+              "areaKm2": 75.27
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "173",
+      "name": "Huyện Phú Bình",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "5908",
+          "name": "Thị trấn Hương Sơn",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Phú Bình",
+              "newWardShort": "Phú Bình",
+              "newWardCode": "05908",
+              "newWardType": "Xã",
+              "lat": 21.4734,
+              "lon": 105.956,
+              "areaKm2": 44.18
+            }
+          ]
+        },
+        {
+          "code": "5911",
+          "name": "Xã Bàn Đạt",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Tân Khánh",
+              "newWardShort": "Tân Khánh",
+              "newWardCode": "05917",
+              "newWardType": "Xã",
+              "lat": 21.5446,
+              "lon": 105.941,
+              "areaKm2": 48.31
+            }
+          ]
+        },
+        {
+          "code": "5929",
+          "name": "Xã Bảo Lý",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Phú Bình",
+              "newWardShort": "Phú Bình",
+              "newWardCode": "05908",
+              "newWardType": "Xã",
+              "lat": 21.4734,
+              "lon": 105.956,
+              "areaKm2": 44.18
+            }
+          ]
+        },
+        {
+          "code": "5926",
+          "name": "Xã Đào Xá",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Tân Khánh",
+              "newWardShort": "Tân Khánh",
+              "newWardCode": "05917",
+              "newWardType": "Xã",
+              "lat": 21.5446,
+              "lon": 105.941,
+              "areaKm2": 48.31
+            }
+          ]
+        },
+        {
+          "code": "5941",
+          "name": "Xã Điềm Thụy",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Điềm Thụy",
+              "newWardShort": "Điềm Thụy",
+              "newWardCode": "05941",
+              "newWardType": "Xã",
+              "lat": 21.457,
+              "lon": 105.921,
+              "areaKm2": 42.03
+            }
+          ]
+        },
+        {
+          "code": "5965",
+          "name": "Xã Dương Thành",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Kha Sơn",
+              "newWardShort": "Kha Sơn",
+              "newWardCode": "05953",
+              "newWardType": "Xã",
+              "lat": 21.4277,
+              "lon": 106.006,
+              "areaKm2": 37.85
+            }
+          ]
+        },
+        {
+          "code": "5968",
+          "name": "Xã Hà Châu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Điềm Thụy",
+              "newWardShort": "Điềm Thụy",
+              "newWardCode": "05941",
+              "newWardType": "Xã",
+              "lat": 21.457,
+              "lon": 105.921,
+              "areaKm2": 42.03
+            }
+          ]
+        },
+        {
+          "code": "5959",
+          "name": "Xã Kha Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Kha Sơn",
+              "newWardShort": "Kha Sơn",
+              "newWardCode": "05953",
+              "newWardType": "Xã",
+              "lat": 21.4277,
+              "lon": 106.006,
+              "areaKm2": 37.85
+            }
+          ]
+        },
+        {
+          "code": "5953",
+          "name": "Xã Lương Phú",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Kha Sơn",
+              "newWardShort": "Kha Sơn",
+              "newWardCode": "05953",
+              "newWardType": "Xã",
+              "lat": 21.4277,
+              "lon": 106.006,
+              "areaKm2": 37.85
+            }
+          ]
+        },
+        {
+          "code": "5956",
+          "name": "Xã Nga My",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Điềm Thụy",
+              "newWardShort": "Điềm Thụy",
+              "newWardCode": "05941",
+              "newWardType": "Xã",
+              "lat": 21.457,
+              "lon": 105.921,
+              "areaKm2": 42.03
+            }
+          ]
+        },
+        {
+          "code": "5938",
+          "name": "Xã Nhã Lộng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Phú Bình",
+              "newWardShort": "Phú Bình",
+              "newWardCode": "05908",
+              "newWardType": "Xã",
+              "lat": 21.4734,
+              "lon": 105.956,
+              "areaKm2": 44.18
+            }
+          ]
+        },
+        {
+          "code": "5947",
+          "name": "Xã Tân Đức",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Kha Sơn",
+              "newWardShort": "Kha Sơn",
+              "newWardCode": "05953",
+              "newWardType": "Xã",
+              "lat": 21.4277,
+              "lon": 106.006,
+              "areaKm2": 37.85
+            }
+          ]
+        },
+        {
+          "code": "5935",
+          "name": "Xã Tân Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Tân Thành",
+              "newWardShort": "Tân Thành",
+              "newWardCode": "05923",
+              "newWardType": "Xã",
+              "lat": 21.5058,
+              "lon": 106.006,
+              "areaKm2": 64.8
+            }
+          ]
+        },
+        {
+          "code": "5917",
+          "name": "Xã Tân Khánh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Tân Khánh",
+              "newWardShort": "Tân Khánh",
+              "newWardCode": "05917",
+              "newWardType": "Xã",
+              "lat": 21.5446,
+              "lon": 105.941,
+              "areaKm2": 48.31
+            }
+          ]
+        },
+        {
+          "code": "5920",
+          "name": "Xã Tân Kim",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Tân Thành",
+              "newWardShort": "Tân Thành",
+              "newWardCode": "05923",
+              "newWardType": "Xã",
+              "lat": 21.5058,
+              "lon": 106.006,
+              "areaKm2": 64.8
+            }
+          ]
+        },
+        {
+          "code": "5923",
+          "name": "Xã Tân Thành",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Tân Thành",
+              "newWardShort": "Tân Thành",
+              "newWardCode": "05923",
+              "newWardType": "Xã",
+              "lat": 21.5058,
+              "lon": 106.006,
+              "areaKm2": 64.8
+            }
+          ]
+        },
+        {
+          "code": "5962",
+          "name": "Xã Thanh Ninh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Kha Sơn",
+              "newWardShort": "Kha Sơn",
+              "newWardCode": "05953",
+              "newWardType": "Xã",
+              "lat": 21.4277,
+              "lon": 106.006,
+              "areaKm2": 37.85
+            }
+          ]
+        },
+        {
+          "code": "5932",
+          "name": "Xã Thượng Đình",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Điềm Thụy",
+              "newWardShort": "Điềm Thụy",
+              "newWardCode": "05941",
+              "newWardType": "Xã",
+              "lat": 21.457,
+              "lon": 105.921,
+              "areaKm2": 42.03
+            },
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Phú Bình",
+              "newWardShort": "Phú Bình",
+              "newWardCode": "05908",
+              "newWardType": "Xã",
+              "lat": 21.4734,
+              "lon": 105.956,
+              "areaKm2": 44.18
+            }
+          ]
+        },
+        {
+          "code": "5950",
+          "name": "Xã Úc Kỳ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Phú Bình",
+              "newWardShort": "Phú Bình",
+              "newWardCode": "05908",
+              "newWardType": "Xã",
+              "lat": 21.4734,
+              "lon": 105.956,
+              "areaKm2": 44.18
+            }
+          ]
+        },
+        {
+          "code": "5944",
+          "name": "Xã Xuân Phương",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Phú Bình",
+              "newWardShort": "Phú Bình",
+              "newWardCode": "05908",
+              "newWardType": "Xã",
+              "lat": 21.4734,
+              "lon": 105.956,
+              "areaKm2": 44.18
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "168",
+      "name": "Huyện Phú Lương",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "5611",
+          "name": "Thị trấn Đu",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Phú Lương",
+              "newWardShort": "Phú Lương",
+              "newWardCode": "05611",
+              "newWardType": "Xã",
+              "lat": 21.744,
+              "lon": 105.726,
+              "areaKm2": 112.39
+            }
+          ]
+        },
+        {
+          "code": "5644",
+          "name": "Thị trấn Giang Tiên",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Phú Lương",
+              "newWardShort": "Phú Lương",
+              "newWardCode": "05611",
+              "newWardType": "Xã",
+              "lat": 21.744,
+              "lon": 105.726,
+              "areaKm2": 112.39
+            }
+          ]
+        },
+        {
+          "code": "5650",
+          "name": "Xã Cổ Lũng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Vô Tranh",
+              "newWardShort": "Vô Tranh",
+              "newWardCode": "05641",
+              "newWardType": "Xã",
+              "lat": 21.7044,
+              "lon": 105.772,
+              "areaKm2": 83.53
+            }
+          ]
+        },
+        {
+          "code": "5629",
+          "name": "Xã Động Đạt",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Phú Lương",
+              "newWardShort": "Phú Lương",
+              "newWardCode": "05611",
+              "newWardType": "Xã",
+              "lat": 21.744,
+              "lon": 105.726,
+              "areaKm2": 112.39
+            }
+          ]
+        },
+        {
+          "code": "5638",
+          "name": "Xã Hợp Thành",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Hợp Thành",
+              "newWardShort": "Hợp Thành",
+              "newWardCode": "05632",
+              "newWardType": "Xã",
+              "lat": 21.7675,
+              "lon": 105.66,
+              "areaKm2": 41.2
+            }
+          ]
+        },
+        {
+          "code": "5626",
+          "name": "Xã Ôn Lương",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Hợp Thành",
+              "newWardShort": "Hợp Thành",
+              "newWardCode": "05632",
+              "newWardType": "Xã",
+              "lat": 21.7675,
+              "lon": 105.66,
+              "areaKm2": 41.2
+            }
+          ]
+        },
+        {
+          "code": "5635",
+          "name": "Xã Phú Đô",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Vô Tranh",
+              "newWardShort": "Vô Tranh",
+              "newWardCode": "05641",
+              "newWardType": "Xã",
+              "lat": 21.7044,
+              "lon": 105.772,
+              "areaKm2": 83.53
+            }
+          ]
+        },
+        {
+          "code": "5632",
+          "name": "Xã Phủ Lý",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Hợp Thành",
+              "newWardShort": "Hợp Thành",
+              "newWardCode": "05632",
+              "newWardType": "Xã",
+              "lat": 21.7675,
+              "lon": 105.66,
+              "areaKm2": 41.2
+            }
+          ]
+        },
+        {
+          "code": "5641",
+          "name": "Xã Tức Tranh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Vô Tranh",
+              "newWardShort": "Vô Tranh",
+              "newWardCode": "05641",
+              "newWardType": "Xã",
+              "lat": 21.7044,
+              "lon": 105.772,
+              "areaKm2": 83.53
+            }
+          ]
+        },
+        {
+          "code": "5647",
+          "name": "Xã Vô Tranh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Vô Tranh",
+              "newWardShort": "Vô Tranh",
+              "newWardCode": "05641",
+              "newWardType": "Xã",
+              "lat": 21.7044,
+              "lon": 105.772,
+              "areaKm2": 83.53
+            }
+          ]
+        },
+        {
+          "code": "5620",
+          "name": "Xã Yên Đổ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Yên Trạch",
+              "newWardShort": "Yên Trạch",
+              "newWardCode": "05620",
+              "newWardType": "Xã",
+              "lat": 21.8466,
+              "lon": 105.718,
+              "areaKm2": 112.68
+            }
+          ]
+        },
+        {
+          "code": "5623",
+          "name": "Xã Yên Lạc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Phú Lương",
+              "newWardShort": "Phú Lương",
+              "newWardCode": "05611",
+              "newWardType": "Xã",
+              "lat": 21.744,
+              "lon": 105.726,
+              "areaKm2": 112.39
+            }
+          ]
+        },
+        {
+          "code": "5614",
+          "name": "Xã Yên Ninh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Yên Trạch",
+              "newWardShort": "Yên Trạch",
+              "newWardCode": "05620",
+              "newWardType": "Xã",
+              "lat": 21.8466,
+              "lon": 105.718,
+              "areaKm2": 112.68
+            }
+          ]
+        },
+        {
+          "code": "5617",
+          "name": "Xã Yên Trạch",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Yên Trạch",
+              "newWardShort": "Yên Trạch",
+              "newWardCode": "05620",
+              "newWardType": "Xã",
+              "lat": 21.8466,
+              "lon": 105.718,
+              "areaKm2": 112.68
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "170",
+      "name": "Huyện Võ Nhai",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "5716",
+          "name": "Thị trấn Đình Cả",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Võ Nhai",
+              "newWardShort": "Võ Nhai",
+              "newWardCode": "05716",
+              "newWardType": "Xã",
+              "lat": 21.758,
+              "lon": 106.112,
+              "areaKm2": 99.78
+            }
+          ]
+        },
+        {
+          "code": "5758",
+          "name": "Xã Bình Long",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Dân Tiến",
+              "newWardShort": "Dân Tiến",
+              "newWardCode": "05755",
+              "newWardType": "Xã",
+              "lat": 21.6767,
+              "lon": 106.163,
+              "areaKm2": 144.28
+            }
+          ]
+        },
+        {
+          "code": "5737",
+          "name": "Xã Cúc Đường",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã La Hiên",
+              "newWardShort": "La Hiên",
+              "newWardCode": "05740",
+              "newWardType": "Xã",
+              "lat": 21.7416,
+              "lon": 105.948,
+              "areaKm2": 71.55
+            }
+          ]
+        },
+        {
+          "code": "5755",
+          "name": "Xã Dân Tiến",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Dân Tiến",
+              "newWardShort": "Dân Tiến",
+              "newWardCode": "05755",
+              "newWardType": "Xã",
+              "lat": 21.6767,
+              "lon": 106.163,
+              "areaKm2": 144.28
+            }
+          ]
+        },
+        {
+          "code": "5740",
+          "name": "Xã La Hiên",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã La Hiên",
+              "newWardShort": "La Hiên",
+              "newWardCode": "05740",
+              "newWardType": "Xã",
+              "lat": 21.7416,
+              "lon": 105.948,
+              "areaKm2": 71.55
+            }
+          ]
+        },
+        {
+          "code": "5743",
+          "name": "Xã Lâu Thượng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Võ Nhai",
+              "newWardShort": "Võ Nhai",
+              "newWardCode": "05716",
+              "newWardType": "Xã",
+              "lat": 21.758,
+              "lon": 106.112,
+              "areaKm2": 99.78
+            }
+          ]
+        },
+        {
+          "code": "5752",
+          "name": "Xã Liên Minh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Tràng Xá",
+              "newWardShort": "Tràng Xá",
+              "newWardCode": "05746",
+              "newWardType": "Xã",
+              "lat": 21.6888,
+              "lon": 106.063,
+              "areaKm2": 119.18
+            }
+          ]
+        },
+        {
+          "code": "5722",
+          "name": "Xã Nghinh Tường",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Nghinh Tường",
+              "newWardShort": "Nghinh Tường",
+              "newWardCode": "05722",
+              "newWardType": "Xã",
+              "lat": 21.8492,
+              "lon": 106.06,
+              "areaKm2": 160.73
+            }
+          ]
+        },
+        {
+          "code": "5734",
+          "name": "Xã Phú Thượng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Võ Nhai",
+              "newWardShort": "Võ Nhai",
+              "newWardCode": "05716",
+              "newWardType": "Xã",
+              "lat": 21.758,
+              "lon": 106.112,
+              "areaKm2": 99.78
+            }
+          ]
+        },
+        {
+          "code": "5749",
+          "name": "Xã Phương Giao",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Dân Tiến",
+              "newWardShort": "Dân Tiến",
+              "newWardCode": "05755",
+              "newWardType": "Xã",
+              "lat": 21.6767,
+              "lon": 106.163,
+              "areaKm2": 144.28
+            }
+          ]
+        },
+        {
+          "code": "5719",
+          "name": "Xã Sảng Mộc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Sảng Mộc",
+              "newWardShort": "Sảng Mộc",
+              "newWardCode": "05719",
+              "newWardType": "Xã",
+              "lat": 21.9018,
+              "lon": 106.004,
+              "areaKm2": 96.79
+            }
+          ]
+        },
+        {
+          "code": "5725",
+          "name": "Xã Thần Xa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Thần Sa",
+              "newWardShort": "Thần Sa",
+              "newWardCode": "05725",
+              "newWardType": "Xã",
+              "lat": 21.8287,
+              "lon": 105.924,
+              "areaKm2": 146.08
+            }
+          ]
+        },
+        {
+          "code": "5731",
+          "name": "Xã Thượng Nung",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Thần Sa",
+              "newWardShort": "Thần Sa",
+              "newWardCode": "05725",
+              "newWardType": "Xã",
+              "lat": 21.8287,
+              "lon": 105.924,
+              "areaKm2": 146.08
+            }
+          ]
+        },
+        {
+          "code": "5746",
+          "name": "Xã Tràng Xá",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Tràng Xá",
+              "newWardShort": "Tràng Xá",
+              "newWardCode": "05746",
+              "newWardType": "Xã",
+              "lat": 21.6888,
+              "lon": 106.063,
+              "areaKm2": 119.18
+            }
+          ]
+        },
+        {
+          "code": "5728",
+          "name": "Xã Vũ Chấn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Nghinh Tường",
+              "newWardShort": "Nghinh Tường",
+              "newWardCode": "05722",
+              "newWardType": "Xã",
+              "lat": 21.8492,
+              "lon": 106.06,
+              "areaKm2": 160.73
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "172",
+      "name": "Thành phố Phổ Yên",
+      "type": "Thành phố",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "5860",
+          "name": "Phường Ba Hàng",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Phường Phổ Yên",
+              "newWardShort": "Phổ Yên",
+              "newWardCode": "05860",
+              "newWardType": "Phường",
+              "lat": 21.4265,
+              "lon": 105.867,
+              "areaKm2": 40.7
+            }
+          ]
+        },
+        {
+          "code": "5857",
+          "name": "Phường Bắc Sơn",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Phường Phúc Thuận",
+              "newWardShort": "Phúc Thuận",
+              "newWardCode": "05857",
+              "newWardType": "Phường",
+              "lat": 21.4522,
+              "lon": 105.765,
+              "areaKm2": 74.16
+            }
+          ]
+        },
+        {
+          "code": "5854",
+          "name": "Phường Bãi Bông",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Phường Phổ Yên",
+              "newWardShort": "Phổ Yên",
+              "newWardCode": "05860",
+              "newWardType": "Phường",
+              "lat": 21.4265,
+              "lon": 105.867,
+              "areaKm2": 40.7
+            }
+          ]
+        },
+        {
+          "code": "5875",
+          "name": "Phường Đắc Sơn",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Phường Phổ Yên",
+              "newWardShort": "Phổ Yên",
+              "newWardCode": "05860",
+              "newWardType": "Phường",
+              "lat": 21.4265,
+              "lon": 105.867,
+              "areaKm2": 40.7
+            }
+          ]
+        },
+        {
+          "code": "5896",
+          "name": "Phường Đông Cao",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Phường Trung Thành",
+              "newWardShort": "Trung Thành",
+              "newWardCode": "05899",
+              "newWardType": "Phường",
+              "lat": 21.3593,
+              "lon": 105.881,
+              "areaKm2": 25.84
+            }
+          ]
+        },
+        {
+          "code": "5878",
+          "name": "Phường Đồng Tiến",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Phường Vạn Xuân",
+              "newWardShort": "Vạn Xuân",
+              "newWardCode": "05890",
+              "newWardType": "Phường",
+              "lat": 21.4111,
+              "lon": 105.897,
+              "areaKm2": 40.2
+            }
+          ]
+        },
+        {
+          "code": "5869",
+          "name": "Phường Hồng Tiến",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Phường Phổ Yên",
+              "newWardShort": "Phổ Yên",
+              "newWardCode": "05860",
+              "newWardType": "Phường",
+              "lat": 21.4265,
+              "lon": 105.867,
+              "areaKm2": 40.7
+            }
+          ]
+        },
+        {
+          "code": "5890",
+          "name": "Phường Nam Tiến",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Phường Vạn Xuân",
+              "newWardShort": "Vạn Xuân",
+              "newWardCode": "05890",
+              "newWardType": "Phường",
+              "lat": 21.4111,
+              "lon": 105.897,
+              "areaKm2": 40.2
+            }
+          ]
+        },
+        {
+          "code": "5893",
+          "name": "Phường Tân Hương",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Phường Vạn Xuân",
+              "newWardShort": "Vạn Xuân",
+              "newWardCode": "05890",
+              "newWardType": "Phường",
+              "lat": 21.4111,
+              "lon": 105.897,
+              "areaKm2": 40.2
+            }
+          ]
+        },
+        {
+          "code": "5902",
+          "name": "Phường Tân Phú",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Phường Trung Thành",
+              "newWardShort": "Trung Thành",
+              "newWardCode": "05899",
+              "newWardType": "Phường",
+              "lat": 21.3593,
+              "lon": 105.881,
+              "areaKm2": 25.84
+            }
+          ]
+        },
+        {
+          "code": "5905",
+          "name": "Phường Thuận Thành",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Phường Trung Thành",
+              "newWardShort": "Trung Thành",
+              "newWardCode": "05899",
+              "newWardType": "Phường",
+              "lat": 21.3593,
+              "lon": 105.881,
+              "areaKm2": 25.84
+            }
+          ]
+        },
+        {
+          "code": "5884",
+          "name": "Phường Tiên Phong",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Phường Vạn Xuân",
+              "newWardShort": "Vạn Xuân",
+              "newWardCode": "05890",
+              "newWardType": "Phường",
+              "lat": 21.4111,
+              "lon": 105.897,
+              "areaKm2": 40.2
+            }
+          ]
+        },
+        {
+          "code": "5899",
+          "name": "Phường Trung Thành",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Phường Trung Thành",
+              "newWardShort": "Trung Thành",
+              "newWardCode": "05899",
+              "newWardType": "Phường",
+              "lat": 21.3593,
+              "lon": 105.881,
+              "areaKm2": 25.84
+            }
+          ]
+        },
+        {
+          "code": "5872",
+          "name": "Xã Minh Đức",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Phường Phúc Thuận",
+              "newWardShort": "Phúc Thuận",
+              "newWardCode": "05857",
+              "newWardType": "Phường",
+              "lat": 21.4522,
+              "lon": 105.765,
+              "areaKm2": 74.16
+            }
+          ]
+        },
+        {
+          "code": "5863",
+          "name": "Xã Phúc Tân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Đại Phúc",
+              "newWardShort": "Đại Phúc",
+              "newWardCode": "05488",
+              "newWardType": "Xã",
+              "lat": 21.5765,
+              "lon": 105.71,
+              "areaKm2": 107.47
+            }
+          ]
+        },
+        {
+          "code": "5866",
+          "name": "Xã Phúc Thuận",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Phường Phúc Thuận",
+              "newWardShort": "Phúc Thuận",
+              "newWardCode": "05857",
+              "newWardType": "Phường",
+              "lat": 21.4522,
+              "lon": 105.765,
+              "areaKm2": 74.16
+            }
+          ]
+        },
+        {
+          "code": "5881",
+          "name": "Xã Thành Công",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Thành Công",
+              "newWardShort": "Thành Công",
+              "newWardCode": "05881",
+              "newWardType": "Xã",
+              "lat": 21.3981,
+              "lon": 105.787,
+              "areaKm2": 43.45
+            }
+          ]
+        },
+        {
+          "code": "5887",
+          "name": "Xã Vạn Phái",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Thành Công",
+              "newWardShort": "Thành Công",
+              "newWardCode": "05881",
+              "newWardType": "Xã",
+              "lat": 21.3981,
+              "lon": 105.787,
+              "areaKm2": 43.45
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "165",
+      "name": "Thành phố Sông Công",
+      "type": "Thành phố",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "5528",
+          "name": "Phường Bách Quang",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Phường Bách Quang",
+              "newWardShort": "Bách Quang",
+              "newWardCode": "05528",
+              "newWardType": "Phường",
+              "lat": 21.4954,
+              "lon": 105.869,
+              "areaKm2": 35.02
+            }
+          ]
+        },
+        {
+          "code": "5515",
+          "name": "Phường Cải Đan",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Phường Sông Công",
+              "newWardShort": "Sông Công",
+              "newWardCode": "05518",
+              "newWardType": "Phường",
+              "lat": 21.4579,
+              "lon": 105.849,
+              "areaKm2": 13.98
+            }
+          ]
+        },
+        {
+          "code": "5509",
+          "name": "Phường Châu Sơn",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Phường Bá Xuyên",
+              "newWardShort": "Bá Xuyên",
+              "newWardCode": "05533",
+              "newWardType": "Phường",
+              "lat": 21.4666,
+              "lon": 105.806,
+              "areaKm2": 21.13
+            }
+          ]
+        },
+        {
+          "code": "5506",
+          "name": "Phường Lương Sơn",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Phường Bách Quang",
+              "newWardShort": "Bách Quang",
+              "newWardCode": "05528",
+              "newWardType": "Phường",
+              "lat": 21.4954,
+              "lon": 105.869,
+              "areaKm2": 35.02
+            }
+          ]
+        },
+        {
+          "code": "5512",
+          "name": "Phường Mỏ Chè",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Phường Bá Xuyên",
+              "newWardShort": "Bá Xuyên",
+              "newWardCode": "05533",
+              "newWardType": "Phường",
+              "lat": 21.4666,
+              "lon": 105.806,
+              "areaKm2": 21.13
+            }
+          ]
+        },
+        {
+          "code": "5521",
+          "name": "Phường Phố Cò",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Phường Sông Công",
+              "newWardShort": "Sông Công",
+              "newWardCode": "05518",
+              "newWardType": "Phường",
+              "lat": 21.4579,
+              "lon": 105.849,
+              "areaKm2": 13.98
+            }
+          ]
+        },
+        {
+          "code": "5518",
+          "name": "Phường Thắng Lợi",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Phường Sông Công",
+              "newWardShort": "Sông Công",
+              "newWardCode": "05518",
+              "newWardType": "Phường",
+              "lat": 21.4579,
+              "lon": 105.849,
+              "areaKm2": 13.98
+            }
+          ]
+        },
+        {
+          "code": "5533",
+          "name": "Xã Bá Xuyên",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Phường Bá Xuyên",
+              "newWardShort": "Bá Xuyên",
+              "newWardCode": "05533",
+              "newWardType": "Phường",
+              "lat": 21.4666,
+              "lon": 105.806,
+              "areaKm2": 21.13
+            }
+          ]
+        },
+        {
+          "code": "5530",
+          "name": "Xã Bình Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Tân Cương",
+              "newWardShort": "Tân Cương",
+              "newWardCode": "05503",
+              "newWardType": "Xã",
+              "lat": 21.5194,
+              "lon": 105.787,
+              "areaKm2": 57.92
+            }
+          ]
+        },
+        {
+          "code": "5527",
+          "name": "Xã Tân Quang",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Phường Bách Quang",
+              "newWardShort": "Bách Quang",
+              "newWardCode": "05528",
+              "newWardType": "Phường",
+              "lat": 21.4954,
+              "lon": 105.869,
+              "areaKm2": 35.02
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "164",
+      "name": "Thành phố Thái Nguyên",
+      "type": "Thành phố",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "5467",
+          "name": "Phường Cam Giá",
+          "type": "Phường",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Phường Gia Sàng",
+              "newWardShort": "Gia Sàng",
+              "newWardCode": "05467",
+              "newWardType": "Phường",
+              "lat": 21.5621,
+              "lon": 105.882,
+              "areaKm2": 25.47
+            },
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Phường Tích Lương",
+              "newWardShort": "Tích Lương",
+              "newWardCode": "05500",
+              "newWardType": "Phường",
+              "lat": 21.5431,
+              "lon": 105.851,
+              "areaKm2": 23.56
+            }
+          ]
+        },
+        {
+          "code": "5659",
+          "name": "Phường Chùa Hang",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Phường Linh Sơn",
+              "newWardShort": "Linh Sơn",
+              "newWardCode": "05710",
+              "newWardType": "Phường",
+              "lat": 21.6131,
+              "lon": 105.857,
+              "areaKm2": 39.28
+            }
+          ]
+        },
+        {
+          "code": "5710",
+          "name": "Phường Đồng Bẩm",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Phường Linh Sơn",
+              "newWardShort": "Linh Sơn",
+              "newWardCode": "05710",
+              "newWardType": "Phường",
+              "lat": 21.6131,
+              "lon": 105.857,
+              "areaKm2": 39.28
+            }
+          ]
+        },
+        {
+          "code": "5458",
+          "name": "Phường Đồng Quang",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Phường Phan Đình Phùng",
+              "newWardShort": "Phan Đình Phùng",
+              "newWardCode": "05443",
+              "newWardType": "Phường",
+              "lat": 21.5887,
+              "lon": 105.834,
+              "areaKm2": 14.73
+            }
+          ]
+        },
+        {
+          "code": "5461",
+          "name": "Phường Gia Sàng",
+          "type": "Phường",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Phường Gia Sàng",
+              "newWardShort": "Gia Sàng",
+              "newWardCode": "05467",
+              "newWardType": "Phường",
+              "lat": 21.5621,
+              "lon": 105.882,
+              "areaKm2": 25.47
+            },
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Phường Phan Đình Phùng",
+              "newWardShort": "Phan Đình Phùng",
+              "newWardCode": "05443",
+              "newWardType": "Phường",
+              "lat": 21.5887,
+              "lon": 105.834,
+              "areaKm2": 14.73
+            }
+          ]
+        },
+        {
+          "code": "5440",
+          "name": "Phường Hoàng Văn Thụ",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Phường Phan Đình Phùng",
+              "newWardShort": "Phan Đình Phùng",
+              "newWardCode": "05443",
+              "newWardType": "Phường",
+              "lat": 21.5887,
+              "lon": 105.834,
+              "areaKm2": 14.73
+            }
+          ]
+        },
+        {
+          "code": "5473",
+          "name": "Phường Hương Sơn",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Phường Gia Sàng",
+              "newWardShort": "Gia Sàng",
+              "newWardCode": "05467",
+              "newWardType": "Phường",
+              "lat": 21.5621,
+              "lon": 105.882,
+              "areaKm2": 25.47
+            }
+          ]
+        },
+        {
+          "code": "5449",
+          "name": "Phường Phan Đình Phùng",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Phường Phan Đình Phùng",
+              "newWardShort": "Phan Đình Phùng",
+              "newWardCode": "05443",
+              "newWardType": "Phường",
+              "lat": 21.5887,
+              "lon": 105.834,
+              "areaKm2": 14.73
+            }
+          ]
+        },
+        {
+          "code": "5470",
+          "name": "Phường Phú Xá",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Phường Tích Lương",
+              "newWardShort": "Tích Lương",
+              "newWardCode": "05500",
+              "newWardType": "Phường",
+              "lat": 21.5431,
+              "lon": 105.851,
+              "areaKm2": 23.56
+            }
+          ]
+        },
+        {
+          "code": "5431",
+          "name": "Phường Quan Triều",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Phường Quan Triều",
+              "newWardShort": "Quan Triều",
+              "newWardCode": "05482",
+              "newWardType": "Phường",
+              "lat": 21.6301,
+              "lon": 105.795,
+              "areaKm2": 24.72
+            }
+          ]
+        },
+        {
+          "code": "5446",
+          "name": "Phường Quang Trung",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Phường Phan Đình Phùng",
+              "newWardShort": "Phan Đình Phùng",
+              "newWardCode": "05443",
+              "newWardType": "Phường",
+              "lat": 21.5887,
+              "lon": 105.834,
+              "areaKm2": 14.73
+            }
+          ]
+        },
+        {
+          "code": "5434",
+          "name": "Phường Quang Vinh",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Phường Quan Triều",
+              "newWardShort": "Quan Triều",
+              "newWardCode": "05482",
+              "newWardType": "Phường",
+              "lat": 21.6301,
+              "lon": 105.795,
+              "areaKm2": 24.72
+            }
+          ]
+        },
+        {
+          "code": "5464",
+          "name": "Phường Tân Lập",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Phường Tích Lương",
+              "newWardShort": "Tích Lương",
+              "newWardCode": "05500",
+              "newWardType": "Phường",
+              "lat": 21.5431,
+              "lon": 105.851,
+              "areaKm2": 23.56
+            }
+          ]
+        },
+        {
+          "code": "5482",
+          "name": "Phường Tân Long",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Phường Quan Triều",
+              "newWardShort": "Quan Triều",
+              "newWardCode": "05482",
+              "newWardType": "Phường",
+              "lat": 21.6301,
+              "lon": 105.795,
+              "areaKm2": 24.72
+            }
+          ]
+        },
+        {
+          "code": "5479",
+          "name": "Phường Tân Thành",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Phường Tích Lương",
+              "newWardShort": "Tích Lương",
+              "newWardCode": "05500",
+              "newWardType": "Phường",
+              "lat": 21.5431,
+              "lon": 105.851,
+              "areaKm2": 23.56
+            }
+          ]
+        },
+        {
+          "code": "5452",
+          "name": "Phường Tân Thịnh",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Phường Phan Đình Phùng",
+              "newWardShort": "Phan Đình Phùng",
+              "newWardCode": "05443",
+              "newWardType": "Phường",
+              "lat": 21.5887,
+              "lon": 105.834,
+              "areaKm2": 14.73
+            }
+          ]
+        },
+        {
+          "code": "5455",
+          "name": "Phường Thịnh Đán",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Phường Quyết Thắng",
+              "newWardShort": "Quyết Thắng",
+              "newWardCode": "05455",
+              "newWardType": "Phường",
+              "lat": 21.5819,
+              "lon": 105.794,
+              "areaKm2": 24.43
+            }
+          ]
+        },
+        {
+          "code": "5500",
+          "name": "Phường Tích Lương",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Phường Tích Lương",
+              "newWardShort": "Tích Lương",
+              "newWardCode": "05500",
+              "newWardType": "Phường",
+              "lat": 21.5431,
+              "lon": 105.851,
+              "areaKm2": 23.56
+            }
+          ]
+        },
+        {
+          "code": "5476",
+          "name": "Phường Trung Thành",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Phường Tích Lương",
+              "newWardShort": "Tích Lương",
+              "newWardCode": "05500",
+              "newWardType": "Phường",
+              "lat": 21.5431,
+              "lon": 105.851,
+              "areaKm2": 23.56
+            }
+          ]
+        },
+        {
+          "code": "5443",
+          "name": "Phường Trưng Vương",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Phường Phan Đình Phùng",
+              "newWardShort": "Phan Đình Phùng",
+              "newWardCode": "05443",
+              "newWardType": "Phường",
+              "lat": 21.5887,
+              "lon": 105.834,
+              "areaKm2": 14.73
+            }
+          ]
+        },
+        {
+          "code": "5437",
+          "name": "Phường Túc Duyên",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Phường Phan Đình Phùng",
+              "newWardShort": "Phan Đình Phùng",
+              "newWardCode": "05443",
+              "newWardType": "Phường",
+              "lat": 21.5887,
+              "lon": 105.834,
+              "areaKm2": 14.73
+            }
+          ]
+        },
+        {
+          "code": "5695",
+          "name": "Xã Cao Ngạn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Phường Linh Sơn",
+              "newWardShort": "Linh Sơn",
+              "newWardCode": "05710",
+              "newWardType": "Phường",
+              "lat": 21.6131,
+              "lon": 105.857,
+              "areaKm2": 39.28
+            }
+          ]
+        },
+        {
+          "code": "5914",
+          "name": "Xã Đồng Liên",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Phường Gia Sàng",
+              "newWardShort": "Gia Sàng",
+              "newWardCode": "05467",
+              "newWardType": "Phường",
+              "lat": 21.5621,
+              "lon": 105.882,
+              "areaKm2": 25.47
+            }
+          ]
+        },
+        {
+          "code": "5713",
+          "name": "Xã Huống Thượng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Phường Linh Sơn",
+              "newWardShort": "Linh Sơn",
+              "newWardCode": "05710",
+              "newWardType": "Phường",
+              "lat": 21.6131,
+              "lon": 105.857,
+              "areaKm2": 39.28
+            }
+          ]
+        },
+        {
+          "code": "5701",
+          "name": "Xã Linh Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Phường Linh Sơn",
+              "newWardShort": "Linh Sơn",
+              "newWardCode": "05710",
+              "newWardType": "Phường",
+              "lat": 21.6131,
+              "lon": 105.857,
+              "areaKm2": 39.28
+            }
+          ]
+        },
+        {
+          "code": "5485",
+          "name": "Xã Phúc Hà",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Phường Quyết Thắng",
+              "newWardShort": "Quyết Thắng",
+              "newWardCode": "05455",
+              "newWardType": "Phường",
+              "lat": 21.5819,
+              "lon": 105.794,
+              "areaKm2": 24.43
+            }
+          ]
+        },
+        {
+          "code": "5494",
+          "name": "Xã Phúc Trìu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Đại Phúc",
+              "newWardShort": "Đại Phúc",
+              "newWardCode": "05488",
+              "newWardType": "Xã",
+              "lat": 21.5765,
+              "lon": 105.71,
+              "areaKm2": 107.47
+            }
+          ]
+        },
+        {
+          "code": "5488",
+          "name": "Xã Phúc Xuân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Đại Phúc",
+              "newWardShort": "Đại Phúc",
+              "newWardCode": "05488",
+              "newWardType": "Xã",
+              "lat": 21.5765,
+              "lon": 105.71,
+              "areaKm2": 107.47
+            }
+          ]
+        },
+        {
+          "code": "5491",
+          "name": "Xã Quyết Thắng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Phường Quyết Thắng",
+              "newWardShort": "Quyết Thắng",
+              "newWardCode": "05455",
+              "newWardType": "Phường",
+              "lat": 21.5819,
+              "lon": 105.794,
+              "areaKm2": 24.43
+            }
+          ]
+        },
+        {
+          "code": "5653",
+          "name": "Xã Sơn Cẩm",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Phường Quan Triều",
+              "newWardShort": "Quan Triều",
+              "newWardCode": "05482",
+              "newWardType": "Phường",
+              "lat": 21.6301,
+              "lon": 105.795,
+              "areaKm2": 24.72
+            }
+          ]
+        },
+        {
+          "code": "5503",
+          "name": "Xã Tân Cương",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Tân Cương",
+              "newWardShort": "Tân Cương",
+              "newWardCode": "05503",
+              "newWardType": "Xã",
+              "lat": 21.5194,
+              "lon": 105.787,
+              "areaKm2": 57.92
+            }
+          ]
+        },
+        {
+          "code": "5497",
+          "name": "Xã Thịnh Đức",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Thái Nguyên",
+              "newProvinceSlug": "thai-nguyen",
+              "newProvinceCode": "19",
+              "newWard": "Xã Tân Cương",
+              "newWardShort": "Tân Cương",
+              "newWardCode": "05503",
+              "newWardType": "Xã",
+              "lat": 21.5194,
+              "lon": 105.787,
+              "areaKm2": 57.92
+            }
+          ]
+        }
+      ],
+      "results": []
+    }
+  ]
+}

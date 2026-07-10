@@ -1,0 +1,3111 @@
+{
+  "schemaVersion": 1,
+  "mergeDate": "2025-07-01",
+  "code": "10",
+  "name": "Tỉnh Lào Cai",
+  "name_en": "Lao Cai Province",
+  "slug": "lao-cai",
+  "districts": [
+    {
+      "code": "85",
+      "name": "Huyện Bắc Hà",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "2839",
+          "name": "Thị trấn Bắc Hà",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Bắc Hà",
+              "newWardShort": "Bắc Hà",
+              "newWardCode": "02839",
+              "newWardType": "Xã",
+              "lat": 22.5246,
+              "lon": 104.307,
+              "areaKm2": 179.7
+            }
+          ]
+        },
+        {
+          "code": "2899",
+          "name": "Xã Bản Cái",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Cốc Lầu",
+              "newWardShort": "Cốc Lầu",
+              "newWardCode": "02896",
+              "newWardType": "Xã",
+              "lat": 22.3864,
+              "lon": 104.362,
+              "areaKm2": 135.8
+            }
+          ]
+        },
+        {
+          "code": "2869",
+          "name": "Xã Bản Liền",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Bản Liền",
+              "newWardShort": "Bản Liền",
+              "newWardCode": "02869",
+              "newWardType": "Xã",
+              "lat": 22.4986,
+              "lon": 104.384,
+              "areaKm2": 76.7
+            }
+          ]
+        },
+        {
+          "code": "2866",
+          "name": "Xã Bản Phố",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Bắc Hà",
+              "newWardShort": "Bắc Hà",
+              "newWardCode": "02839",
+              "newWardType": "Xã",
+              "lat": 22.5246,
+              "lon": 104.307,
+              "areaKm2": 179.7
+            }
+          ]
+        },
+        {
+          "code": "2890",
+          "name": "Xã Bảo Nhai",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Bảo Nhai",
+              "newWardShort": "Bảo Nhai",
+              "newWardCode": "02890",
+              "newWardType": "Xã",
+              "lat": 22.4185,
+              "lon": 104.258,
+              "areaKm2": 156
+            }
+          ]
+        },
+        {
+          "code": "2896",
+          "name": "Xã Cốc Lầu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Cốc Lầu",
+              "newWardShort": "Cốc Lầu",
+              "newWardCode": "02896",
+              "newWardType": "Xã",
+              "lat": 22.3864,
+              "lon": 104.362,
+              "areaKm2": 135.8
+            }
+          ]
+        },
+        {
+          "code": "2878",
+          "name": "Xã Cốc Ly",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Bảo Nhai",
+              "newWardShort": "Bảo Nhai",
+              "newWardCode": "02890",
+              "newWardType": "Xã",
+              "lat": 22.4185,
+              "lon": 104.258,
+              "areaKm2": 156
+            }
+          ]
+        },
+        {
+          "code": "2863",
+          "name": "Xã Hoàng Thu Phố",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Bắc Hà",
+              "newWardShort": "Bắc Hà",
+              "newWardCode": "02839",
+              "newWardType": "Xã",
+              "lat": 22.5246,
+              "lon": 104.307,
+              "areaKm2": 179.7
+            }
+          ]
+        },
+        {
+          "code": "2842",
+          "name": "Xã Lùng Cải",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Tả Củ Tỷ",
+              "newWardShort": "Tả Củ Tỷ",
+              "newWardCode": "02842",
+              "newWardType": "Xã",
+              "lat": 22.6033,
+              "lon": 104.411,
+              "areaKm2": 67.1453
+            }
+          ]
+        },
+        {
+          "code": "2848",
+          "name": "Xã Lùng Phình",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Lùng Phình",
+              "newWardShort": "Lùng Phình",
+              "newWardCode": "02848",
+              "newWardType": "Xã",
+              "lat": 22.6105,
+              "lon": 104.322,
+              "areaKm2": 101
+            }
+          ]
+        },
+        {
+          "code": "2875",
+          "name": "Xã Na Hối",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Bắc Hà",
+              "newWardShort": "Bắc Hà",
+              "newWardCode": "02839",
+              "newWardType": "Xã",
+              "lat": 22.5246,
+              "lon": 104.307,
+              "areaKm2": 179.7
+            }
+          ]
+        },
+        {
+          "code": "2884",
+          "name": "Xã Nậm Đét",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Bảo Nhai",
+              "newWardShort": "Bảo Nhai",
+              "newWardCode": "02890",
+              "newWardType": "Xã",
+              "lat": 22.4185,
+              "lon": 104.258,
+              "areaKm2": 156
+            }
+          ]
+        },
+        {
+          "code": "2887",
+          "name": "Xã Nậm Khánh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Bản Liền",
+              "newWardShort": "Bản Liền",
+              "newWardCode": "02869",
+              "newWardType": "Xã",
+              "lat": 22.4986,
+              "lon": 104.384,
+              "areaKm2": 76.7
+            }
+          ]
+        },
+        {
+          "code": "2893",
+          "name": "Xã Nậm Lúc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Cốc Lầu",
+              "newWardShort": "Cốc Lầu",
+              "newWardCode": "02896",
+              "newWardType": "Xã",
+              "lat": 22.3864,
+              "lon": 104.362,
+              "areaKm2": 135.8
+            }
+          ]
+        },
+        {
+          "code": "2881",
+          "name": "Xã Nậm Mòn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Bắc Hà",
+              "newWardShort": "Bắc Hà",
+              "newWardCode": "02839",
+              "newWardType": "Xã",
+              "lat": 22.5246,
+              "lon": 104.307,
+              "areaKm2": 179.7
+            }
+          ]
+        },
+        {
+          "code": "2854",
+          "name": "Xã Tả Củ Tỷ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Tả Củ Tỷ",
+              "newWardShort": "Tả Củ Tỷ",
+              "newWardCode": "02842",
+              "newWardType": "Xã",
+              "lat": 22.6033,
+              "lon": 104.411,
+              "areaKm2": 67.1453
+            }
+          ]
+        },
+        {
+          "code": "2851",
+          "name": "Xã Tả Van Chư",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Lùng Phình",
+              "newWardShort": "Lùng Phình",
+              "newWardCode": "02848",
+              "newWardType": "Xã",
+              "lat": 22.6105,
+              "lon": 104.322,
+              "areaKm2": 101
+            }
+          ]
+        },
+        {
+          "code": "2857",
+          "name": "Xã Thải Giàng Phố",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Bắc Hà",
+              "newWardShort": "Bắc Hà",
+              "newWardCode": "02839",
+              "newWardType": "Xã",
+              "lat": 22.5246,
+              "lon": 104.307,
+              "areaKm2": 179.7
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "86",
+      "name": "Huyện Bảo Thắng",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "2902",
+          "name": "Thị trấn Nông trường Phong Hải",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Phong Hải",
+              "newWardShort": "Phong Hải",
+              "newWardCode": "02902",
+              "newWardType": "Xã",
+              "lat": 22.4832,
+              "lon": 104.121,
+              "areaKm2": 120.9
+            }
+          ]
+        },
+        {
+          "code": "2905",
+          "name": "Thị trấn Phố Lu",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Bảo Thắng",
+              "newWardShort": "Bảo Thắng",
+              "newWardCode": "02905",
+              "newWardType": "Xã",
+              "lat": 22.3729,
+              "lon": 104.14,
+              "areaKm2": 160.4
+            }
+          ]
+        },
+        {
+          "code": "2908",
+          "name": "Thị trấn Tằng Loỏng",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Tằng Loỏng",
+              "newWardShort": "Tằng Loỏng",
+              "newWardCode": "02908",
+              "newWardType": "Xã",
+              "lat": 22.2577,
+              "lon": 104.132,
+              "areaKm2": 125.718
+            }
+          ]
+        },
+        {
+          "code": "2914",
+          "name": "Xã Bản Cầm",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Phong Hải",
+              "newWardShort": "Phong Hải",
+              "newWardCode": "02902",
+              "newWardType": "Xã",
+              "lat": 22.4832,
+              "lon": 104.121,
+              "areaKm2": 120.9
+            }
+          ]
+        },
+        {
+          "code": "2911",
+          "name": "Xã Bản Phiệt",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Phường Lào Cai",
+              "newWardShort": "Lào Cai",
+              "newWardCode": "02647",
+              "newWardType": "Phường",
+              "lat": 22.4979,
+              "lon": 104.015,
+              "areaKm2": 72.32
+            }
+          ]
+        },
+        {
+          "code": "2923",
+          "name": "Xã Gia Phú",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Gia Phú",
+              "newWardShort": "Gia Phú",
+              "newWardCode": "02923",
+              "newWardType": "Xã",
+              "lat": 22.3442,
+              "lon": 104.077,
+              "areaKm2": 102.4
+            }
+          ]
+        },
+        {
+          "code": "2920",
+          "name": "Xã Phong Niên",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Xuân Quang",
+              "newWardShort": "Xuân Quang",
+              "newWardCode": "02926",
+              "newWardType": "Xã",
+              "lat": 22.3595,
+              "lon": 104.237,
+              "areaKm2": 137.7
+            }
+          ]
+        },
+        {
+          "code": "2944",
+          "name": "Xã Phú Nhuận",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Tằng Loỏng",
+              "newWardShort": "Tằng Loỏng",
+              "newWardCode": "02908",
+              "newWardType": "Xã",
+              "lat": 22.2577,
+              "lon": 104.132,
+              "areaKm2": 125.718
+            }
+          ]
+        },
+        {
+          "code": "2938",
+          "name": "Xã Sơn Hà",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Bảo Thắng",
+              "newWardShort": "Bảo Thắng",
+              "newWardCode": "02905",
+              "newWardType": "Xã",
+              "lat": 22.3729,
+              "lon": 104.14,
+              "areaKm2": 160.4
+            }
+          ]
+        },
+        {
+          "code": "2929",
+          "name": "Xã Sơn Hải",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Bảo Thắng",
+              "newWardShort": "Bảo Thắng",
+              "newWardCode": "02905",
+              "newWardType": "Xã",
+              "lat": 22.3729,
+              "lon": 104.14,
+              "areaKm2": 160.4
+            }
+          ]
+        },
+        {
+          "code": "2917",
+          "name": "Xã Thái Niên",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Bảo Thắng",
+              "newWardShort": "Bảo Thắng",
+              "newWardCode": "02905",
+              "newWardType": "Xã",
+              "lat": 22.3729,
+              "lon": 104.14,
+              "areaKm2": 160.4
+            }
+          ]
+        },
+        {
+          "code": "2935",
+          "name": "Xã Trì Quang",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Xuân Quang",
+              "newWardShort": "Xuân Quang",
+              "newWardCode": "02926",
+              "newWardType": "Xã",
+              "lat": 22.3595,
+              "lon": 104.237,
+              "areaKm2": 137.7
+            }
+          ]
+        },
+        {
+          "code": "2932",
+          "name": "Xã Xuân Giao",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Gia Phú",
+              "newWardShort": "Gia Phú",
+              "newWardCode": "02923",
+              "newWardType": "Xã",
+              "lat": 22.3442,
+              "lon": 104.077,
+              "areaKm2": 102.4
+            }
+          ]
+        },
+        {
+          "code": "2926",
+          "name": "Xã Xuân Quang",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Xuân Quang",
+              "newWardShort": "Xuân Quang",
+              "newWardCode": "02926",
+              "newWardType": "Xã",
+              "lat": 22.3595,
+              "lon": 104.237,
+              "areaKm2": 137.7
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "87",
+      "name": "Huyện Bảo Yên",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "2947",
+          "name": "Thị trấn Phố Ràng",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Bảo Yên",
+              "newWardShort": "Bảo Yên",
+              "newWardCode": "02947",
+              "newWardType": "Xã",
+              "lat": 22.2155,
+              "lon": 104.491,
+              "areaKm2": 119.1
+            }
+          ]
+        },
+        {
+          "code": "2989",
+          "name": "Xã Bảo Hà",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Bảo Hà",
+              "newWardShort": "Bảo Hà",
+              "newWardCode": "02989",
+              "newWardType": "Xã",
+              "lat": 22.205,
+              "lon": 104.326,
+              "areaKm2": 243
+            }
+          ]
+        },
+        {
+          "code": "2974",
+          "name": "Xã Cam Cọn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Bảo Hà",
+              "newWardShort": "Bảo Hà",
+              "newWardCode": "02989",
+              "newWardType": "Xã",
+              "lat": 22.205,
+              "lon": 104.326,
+              "areaKm2": 243
+            }
+          ]
+        },
+        {
+          "code": "2959",
+          "name": "Xã Điện Quan",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Thượng Hà",
+              "newWardShort": "Thượng Hà",
+              "newWardCode": "02968",
+              "newWardType": "Xã",
+              "lat": 22.292,
+              "lon": 104.382,
+              "areaKm2": 143.8
+            }
+          ]
+        },
+        {
+          "code": "2971",
+          "name": "Xã Kim Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Bảo Hà",
+              "newWardShort": "Bảo Hà",
+              "newWardCode": "02989",
+              "newWardType": "Xã",
+              "lat": 22.205,
+              "lon": 104.326,
+              "areaKm2": 243
+            }
+          ]
+        },
+        {
+          "code": "2992",
+          "name": "Xã Lương Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Bảo Yên",
+              "newWardShort": "Bảo Yên",
+              "newWardCode": "02947",
+              "newWardType": "Xã",
+              "lat": 22.2155,
+              "lon": 104.491,
+              "areaKm2": 119.1
+            }
+          ]
+        },
+        {
+          "code": "2977",
+          "name": "Xã Minh Tân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Thượng Hà",
+              "newWardShort": "Thượng Hà",
+              "newWardCode": "02968",
+              "newWardType": "Xã",
+              "lat": 22.292,
+              "lon": 104.382,
+              "areaKm2": 143.8
+            }
+          ]
+        },
+        {
+          "code": "2953",
+          "name": "Xã Nghĩa Đô",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Nghĩa Đô",
+              "newWardShort": "Nghĩa Đô",
+              "newWardCode": "02953",
+              "newWardType": "Xã",
+              "lat": 22.3822,
+              "lon": 104.485,
+              "areaKm2": 159.4
+            }
+          ]
+        },
+        {
+          "code": "2998",
+          "name": "Xã Phúc Khánh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Phúc Khánh",
+              "newWardShort": "Phúc Khánh",
+              "newWardCode": "02998",
+              "newWardType": "Xã",
+              "lat": 22.1694,
+              "lon": 104.559,
+              "areaKm2": 114
+            }
+          ]
+        },
+        {
+          "code": "2965",
+          "name": "Xã Tân Dương",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Xuân Hòa",
+              "newWardShort": "Xuân Hòa",
+              "newWardCode": "02962",
+              "newWardType": "Xã",
+              "lat": 22.308,
+              "lon": 104.505,
+              "areaKm2": 306
+            }
+          ]
+        },
+        {
+          "code": "2950",
+          "name": "Xã Tân Tiến",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Nghĩa Đô",
+              "newWardShort": "Nghĩa Đô",
+              "newWardCode": "02953",
+              "newWardType": "Xã",
+              "lat": 22.3822,
+              "lon": 104.485,
+              "areaKm2": 159.4
+            }
+          ]
+        },
+        {
+          "code": "2968",
+          "name": "Xã Thượng Hà",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Thượng Hà",
+              "newWardShort": "Thượng Hà",
+              "newWardCode": "02968",
+              "newWardType": "Xã",
+              "lat": 22.292,
+              "lon": 104.382,
+              "areaKm2": 143.8
+            }
+          ]
+        },
+        {
+          "code": "2983",
+          "name": "Xã Việt Tiến",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Phúc Khánh",
+              "newWardShort": "Phúc Khánh",
+              "newWardCode": "02998",
+              "newWardType": "Xã",
+              "lat": 22.1694,
+              "lon": 104.559,
+              "areaKm2": 114
+            }
+          ]
+        },
+        {
+          "code": "2956",
+          "name": "Xã Vĩnh Yên",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Nghĩa Đô",
+              "newWardShort": "Nghĩa Đô",
+              "newWardCode": "02953",
+              "newWardType": "Xã",
+              "lat": 22.3822,
+              "lon": 104.485,
+              "areaKm2": 159.4
+            }
+          ]
+        },
+        {
+          "code": "2962",
+          "name": "Xã Xuân Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Xuân Hòa",
+              "newWardShort": "Xuân Hòa",
+              "newWardCode": "02962",
+              "newWardType": "Xã",
+              "lat": 22.308,
+              "lon": 104.505,
+              "areaKm2": 306
+            }
+          ]
+        },
+        {
+          "code": "2980",
+          "name": "Xã Xuân Thượng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Bảo Yên",
+              "newWardShort": "Bảo Yên",
+              "newWardCode": "02947",
+              "newWardType": "Xã",
+              "lat": 22.2155,
+              "lon": 104.491,
+              "areaKm2": 119.1
+            }
+          ]
+        },
+        {
+          "code": "2986",
+          "name": "Xã Yên Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Bảo Yên",
+              "newWardShort": "Bảo Yên",
+              "newWardCode": "02947",
+              "newWardType": "Xã",
+              "lat": 22.2155,
+              "lon": 104.491,
+              "areaKm2": 119.1
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "82",
+      "name": "Huyện Bát Xát",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "2683",
+          "name": "Thị trấn Bát Xát",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Bát Xát",
+              "newWardShort": "Bát Xát",
+              "newWardCode": "02683",
+              "newWardType": "Xã",
+              "lat": 22.5196,
+              "lon": 103.851,
+              "areaKm2": 190
+            }
+          ]
+        },
+        {
+          "code": "2692",
+          "name": "Xã A Lù",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Y Tý",
+              "newWardShort": "Y Tý",
+              "newWardCode": "02701",
+              "newWardType": "Xã",
+              "lat": 22.6516,
+              "lon": 103.601,
+              "areaKm2": 127.6
+            }
+          ]
+        },
+        {
+          "code": "2686",
+          "name": "Xã A Mú Sung",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã A Mú Sung",
+              "newWardShort": "A Mú Sung",
+              "newWardCode": "02686",
+              "newWardType": "Xã",
+              "lat": 22.7296,
+              "lon": 103.659,
+              "areaKm2": 104.4
+            }
+          ]
+        },
+        {
+          "code": "2716",
+          "name": "Xã Bản Qua",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Bát Xát",
+              "newWardShort": "Bát Xát",
+              "newWardCode": "02683",
+              "newWardType": "Xã",
+              "lat": 22.5196,
+              "lon": 103.851,
+              "areaKm2": 190
+            }
+          ]
+        },
+        {
+          "code": "2710",
+          "name": "Xã Bản Vược",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Bát Xát",
+              "newWardShort": "Bát Xát",
+              "newWardCode": "02683",
+              "newWardType": "Xã",
+              "lat": 22.5196,
+              "lon": 103.851,
+              "areaKm2": 190
+            }
+          ]
+        },
+        {
+          "code": "2725",
+          "name": "Xã Bản Xèo",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Bản Xèo",
+              "newWardShort": "Bản Xèo",
+              "newWardCode": "02725",
+              "newWardType": "Xã",
+              "lat": 22.5248,
+              "lon": 103.773,
+              "areaKm2": 78.3
+            }
+          ]
+        },
+        {
+          "code": "2704",
+          "name": "Xã Cốc Mỳ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Trịnh Tường",
+              "newWardShort": "Trịnh Tường",
+              "newWardCode": "02695",
+              "newWardType": "Xã",
+              "lat": 22.6417,
+              "lon": 103.738,
+              "areaKm2": 146.6
+            }
+          ]
+        },
+        {
+          "code": "2707",
+          "name": "Xã Dền Sáng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Dền Sáng",
+              "newWardShort": "Dền Sáng",
+              "newWardCode": "02707",
+              "newWardType": "Xã",
+              "lat": 22.5683,
+              "lon": 103.656,
+              "areaKm2": 148.2
+            }
+          ]
+        },
+        {
+          "code": "2722",
+          "name": "Xã Dền Thàng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Dền Sáng",
+              "newWardShort": "Dền Sáng",
+              "newWardCode": "02707",
+              "newWardType": "Xã",
+              "lat": 22.5683,
+              "lon": 103.656,
+              "areaKm2": 148.2
+            }
+          ]
+        },
+        {
+          "code": "2728",
+          "name": "Xã Mường Hum",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Mường Hum",
+              "newWardShort": "Mường Hum",
+              "newWardCode": "02728",
+              "newWardType": "Xã",
+              "lat": 22.4668,
+              "lon": 103.658,
+              "areaKm2": 212.8
+            }
+          ]
+        },
+        {
+          "code": "2719",
+          "name": "Xã Mường Vi",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Bản Xèo",
+              "newWardShort": "Bản Xèo",
+              "newWardCode": "02725",
+              "newWardType": "Xã",
+              "lat": 22.5248,
+              "lon": 103.773,
+              "areaKm2": 78.3
+            }
+          ]
+        },
+        {
+          "code": "2689",
+          "name": "Xã Nậm Chạc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã A Mú Sung",
+              "newWardShort": "A Mú Sung",
+              "newWardCode": "02686",
+              "newWardType": "Xã",
+              "lat": 22.7296,
+              "lon": 103.659,
+              "areaKm2": 104.4
+            }
+          ]
+        },
+        {
+          "code": "2740",
+          "name": "Xã Nậm Pung",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Mường Hum",
+              "newWardShort": "Mường Hum",
+              "newWardCode": "02728",
+              "newWardType": "Xã",
+              "lat": 22.4668,
+              "lon": 103.658,
+              "areaKm2": 212.8
+            }
+          ]
+        },
+        {
+          "code": "2737",
+          "name": "Xã Pa Cheo",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Bản Xèo",
+              "newWardShort": "Bản Xèo",
+              "newWardCode": "02725",
+              "newWardType": "Xã",
+              "lat": 22.5248,
+              "lon": 103.773,
+              "areaKm2": 78.3
+            }
+          ]
+        },
+        {
+          "code": "2743",
+          "name": "Xã Phìn Ngan",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Bát Xát",
+              "newWardShort": "Bát Xát",
+              "newWardCode": "02683",
+              "newWardType": "Xã",
+              "lat": 22.5196,
+              "lon": 103.851,
+              "areaKm2": 190
+            }
+          ]
+        },
+        {
+          "code": "2734",
+          "name": "Xã Quang Kim",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Bát Xát",
+              "newWardShort": "Bát Xát",
+              "newWardCode": "02683",
+              "newWardType": "Xã",
+              "lat": 22.5196,
+              "lon": 103.851,
+              "areaKm2": 190
+            }
+          ]
+        },
+        {
+          "code": "2713",
+          "name": "Xã Sàng Ma Sáo",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Dền Sáng",
+              "newWardShort": "Dền Sáng",
+              "newWardCode": "02707",
+              "newWardType": "Xã",
+              "lat": 22.5683,
+              "lon": 103.656,
+              "areaKm2": 148.2
+            }
+          ]
+        },
+        {
+          "code": "2749",
+          "name": "Xã Tòng Sành",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Cốc San",
+              "newWardShort": "Cốc San",
+              "newWardCode": "02746",
+              "newWardType": "Xã",
+              "lat": 22.4531,
+              "lon": 103.926,
+              "areaKm2": 57.2
+            }
+          ]
+        },
+        {
+          "code": "2695",
+          "name": "Xã Trịnh Tường",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Trịnh Tường",
+              "newWardShort": "Trịnh Tường",
+              "newWardCode": "02695",
+              "newWardType": "Xã",
+              "lat": 22.6417,
+              "lon": 103.738,
+              "areaKm2": 146.6
+            }
+          ]
+        },
+        {
+          "code": "2731",
+          "name": "Xã Trung Lèng Hồ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Mường Hum",
+              "newWardShort": "Mường Hum",
+              "newWardCode": "02728",
+              "newWardType": "Xã",
+              "lat": 22.4668,
+              "lon": 103.658,
+              "areaKm2": 212.8
+            }
+          ]
+        },
+        {
+          "code": "2701",
+          "name": "Xã Y Tý",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Y Tý",
+              "newWardShort": "Y Tý",
+              "newWardCode": "02701",
+              "newWardType": "Xã",
+              "lat": 22.6516,
+              "lon": 103.601,
+              "areaKm2": 127.6
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "83",
+      "name": "Huyện Mường Khương",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "2761",
+          "name": "Thị trấn Mường Khương",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Mường Khương",
+              "newWardShort": "Mường Khương",
+              "newWardCode": "02761",
+              "newWardType": "Xã",
+              "lat": 22.7302,
+              "lon": 104.104,
+              "areaKm2": 169.2
+            }
+          ]
+        },
+        {
+          "code": "2788",
+          "name": "Xã Bản Lầu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Bản Lầu",
+              "newWardShort": "Bản Lầu",
+              "newWardCode": "02788",
+              "newWardType": "Xã",
+              "lat": 22.5943,
+              "lon": 104.07,
+              "areaKm2": 125.3
+            }
+          ]
+        },
+        {
+          "code": "2797",
+          "name": "Xã Bản Sen",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Bản Lầu",
+              "newWardShort": "Bản Lầu",
+              "newWardCode": "02788",
+              "newWardType": "Xã",
+              "lat": 22.5943,
+              "lon": 104.07,
+              "areaKm2": 125.3
+            }
+          ]
+        },
+        {
+          "code": "2782",
+          "name": "Xã Cao Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Cao Sơn",
+              "newWardShort": "Cao Sơn",
+              "newWardCode": "02782",
+              "newWardType": "Xã",
+              "lat": 22.6154,
+              "lon": 104.156,
+              "areaKm2": 124.93
+            }
+          ]
+        },
+        {
+          "code": "2764",
+          "name": "Xã Dìn Chin",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Pha Long",
+              "newWardShort": "Pha Long",
+              "newWardCode": "02752",
+              "newWardType": "Xã",
+              "lat": 22.7818,
+              "lon": 104.223,
+              "areaKm2": 105.6
+            }
+          ]
+        },
+        {
+          "code": "2791",
+          "name": "Xã La Pan Tẩn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Cao Sơn",
+              "newWardShort": "Cao Sơn",
+              "newWardCode": "02782",
+              "newWardType": "Xã",
+              "lat": 22.6154,
+              "lon": 104.156,
+              "areaKm2": 124.93
+            }
+          ]
+        },
+        {
+          "code": "2776",
+          "name": "Xã Lùng Khấu Nhin",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Cao Sơn",
+              "newWardShort": "Cao Sơn",
+              "newWardCode": "02782",
+              "newWardType": "Xã",
+              "lat": 22.6154,
+              "lon": 104.156,
+              "areaKm2": 124.93
+            }
+          ]
+        },
+        {
+          "code": "2785",
+          "name": "Xã Lùng Vai",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Bản Lầu",
+              "newWardShort": "Bản Lầu",
+              "newWardCode": "02788",
+              "newWardType": "Xã",
+              "lat": 22.5943,
+              "lon": 104.07,
+              "areaKm2": 125.3
+            }
+          ]
+        },
+        {
+          "code": "2770",
+          "name": "Xã Nậm Chảy",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Mường Khương",
+              "newWardShort": "Mường Khương",
+              "newWardCode": "02761",
+              "newWardType": "Xã",
+              "lat": 22.7302,
+              "lon": 104.104,
+              "areaKm2": 169.2
+            }
+          ]
+        },
+        {
+          "code": "2773",
+          "name": "Xã Nấm Lư",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Mường Khương",
+              "newWardShort": "Mường Khương",
+              "newWardCode": "02761",
+              "newWardType": "Xã",
+              "lat": 22.7302,
+              "lon": 104.104,
+              "areaKm2": 169.2
+            }
+          ]
+        },
+        {
+          "code": "2752",
+          "name": "Xã Pha Long",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Pha Long",
+              "newWardShort": "Pha Long",
+              "newWardCode": "02752",
+              "newWardType": "Xã",
+              "lat": 22.7818,
+              "lon": 104.223,
+              "areaKm2": 105.6
+            }
+          ]
+        },
+        {
+          "code": "2767",
+          "name": "Xã Tả Gia Khâu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Pha Long",
+              "newWardShort": "Pha Long",
+              "newWardCode": "02752",
+              "newWardType": "Xã",
+              "lat": 22.7818,
+              "lon": 104.223,
+              "areaKm2": 105.6
+            }
+          ]
+        },
+        {
+          "code": "2755",
+          "name": "Xã Tả Ngài Chồ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Pha Long",
+              "newWardShort": "Pha Long",
+              "newWardCode": "02752",
+              "newWardType": "Xã",
+              "lat": 22.7818,
+              "lon": 104.223,
+              "areaKm2": 105.6
+            }
+          ]
+        },
+        {
+          "code": "2794",
+          "name": "Xã Tả Thàng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Cao Sơn",
+              "newWardShort": "Cao Sơn",
+              "newWardCode": "02782",
+              "newWardType": "Xã",
+              "lat": 22.6154,
+              "lon": 104.156,
+              "areaKm2": 124.93
+            }
+          ]
+        },
+        {
+          "code": "2779",
+          "name": "Xã Thanh Bình",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Mường Khương",
+              "newWardShort": "Mường Khương",
+              "newWardCode": "02761",
+              "newWardType": "Xã",
+              "lat": 22.7302,
+              "lon": 104.104,
+              "areaKm2": 169.2
+            }
+          ]
+        },
+        {
+          "code": "2758",
+          "name": "Xã Tung Chung Phố",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Mường Khương",
+              "newWardShort": "Mường Khương",
+              "newWardCode": "02761",
+              "newWardType": "Xã",
+              "lat": 22.7302,
+              "lon": 104.104,
+              "areaKm2": 169.2
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "84",
+      "name": "Huyện Si Ma Cai",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "2809",
+          "name": "Thị trấn Si Ma Cai",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Si Ma Cai",
+              "newWardShort": "Si Ma Cai",
+              "newWardCode": "02809",
+              "newWardType": "Xã",
+              "lat": 22.6801,
+              "lon": 104.285,
+              "areaKm2": 109
+            }
+          ]
+        },
+        {
+          "code": "2806",
+          "name": "Xã Bản Mế",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Sín Chéng",
+              "newWardShort": "Sín Chéng",
+              "newWardCode": "02824",
+              "newWardType": "Xã",
+              "lat": 22.6641,
+              "lon": 104.213,
+              "areaKm2": 88
+            }
+          ]
+        },
+        {
+          "code": "2821",
+          "name": "Xã Cán Cấu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Si Ma Cai",
+              "newWardShort": "Si Ma Cai",
+              "newWardCode": "02809",
+              "newWardType": "Xã",
+              "lat": 22.6801,
+              "lon": 104.285,
+              "areaKm2": 109
+            }
+          ]
+        },
+        {
+          "code": "2818",
+          "name": "Xã Lùng Thẩn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Lùng Phình",
+              "newWardShort": "Lùng Phình",
+              "newWardCode": "02848",
+              "newWardType": "Xã",
+              "lat": 22.6105,
+              "lon": 104.322,
+              "areaKm2": 101
+            }
+          ]
+        },
+        {
+          "code": "2800",
+          "name": "Xã Nàn Sán",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Si Ma Cai",
+              "newWardShort": "Si Ma Cai",
+              "newWardCode": "02809",
+              "newWardType": "Xã",
+              "lat": 22.6801,
+              "lon": 104.285,
+              "areaKm2": 109
+            }
+          ]
+        },
+        {
+          "code": "2836",
+          "name": "Xã Nàn Sín",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Sín Chéng",
+              "newWardShort": "Sín Chéng",
+              "newWardCode": "02824",
+              "newWardType": "Xã",
+              "lat": 22.6641,
+              "lon": 104.213,
+              "areaKm2": 88
+            }
+          ]
+        },
+        {
+          "code": "2827",
+          "name": "Xã Quan Hồ Thẩn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Si Ma Cai",
+              "newWardShort": "Si Ma Cai",
+              "newWardCode": "02809",
+              "newWardType": "Xã",
+              "lat": 22.6801,
+              "lon": 104.285,
+              "areaKm2": 109
+            }
+          ]
+        },
+        {
+          "code": "2812",
+          "name": "Xã Sán Chải",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Si Ma Cai",
+              "newWardShort": "Si Ma Cai",
+              "newWardCode": "02809",
+              "newWardType": "Xã",
+              "lat": 22.6801,
+              "lon": 104.285,
+              "areaKm2": 109
+            }
+          ]
+        },
+        {
+          "code": "2824",
+          "name": "Xã Sín Chéng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Sín Chéng",
+              "newWardShort": "Sín Chéng",
+              "newWardCode": "02824",
+              "newWardType": "Xã",
+              "lat": 22.6641,
+              "lon": 104.213,
+              "areaKm2": 88
+            }
+          ]
+        },
+        {
+          "code": "2803",
+          "name": "Xã Thào Chư Phìn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Sín Chéng",
+              "newWardShort": "Sín Chéng",
+              "newWardCode": "02824",
+              "newWardType": "Xã",
+              "lat": 22.6641,
+              "lon": 104.213,
+              "areaKm2": 88
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "89",
+      "name": "Huyện Văn Bàn",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "3055",
+          "name": "Thị trấn Khánh Yên",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Văn Bàn",
+              "newWardShort": "Văn Bàn",
+              "newWardCode": "03082",
+              "newWardType": "Xã",
+              "lat": 22.1117,
+              "lon": 104.241,
+              "areaKm2": 156.7
+            }
+          ]
+        },
+        {
+          "code": "3091",
+          "name": "Xã Chiềng Ken",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Chiềng Ken",
+              "newWardShort": "Chiềng Ken",
+              "newWardCode": "03091",
+              "newWardType": "Xã",
+              "lat": 21.9828,
+              "lon": 104.395,
+              "areaKm2": 191.3
+            }
+          ]
+        },
+        {
+          "code": "3088",
+          "name": "Xã Dần Thàng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Nậm Chày",
+              "newWardShort": "Nậm Chày",
+              "newWardCode": "03076",
+              "newWardType": "Xã",
+              "lat": 22.1185,
+              "lon": 104.089,
+              "areaKm2": 142.1
+            }
+          ]
+        },
+        {
+          "code": "3106",
+          "name": "Xã Dương Quỳ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Dương Quỳ",
+              "newWardShort": "Dương Quỳ",
+              "newWardCode": "03106",
+              "newWardType": "Xã",
+              "lat": 22.0253,
+              "lon": 104.152,
+              "areaKm2": 157.1
+            }
+          ]
+        },
+        {
+          "code": "3097",
+          "name": "Xã Hòa Mạc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Văn Bàn",
+              "newWardShort": "Văn Bàn",
+              "newWardCode": "03082",
+              "newWardType": "Xã",
+              "lat": 22.1117,
+              "lon": 104.241,
+              "areaKm2": 156.7
+            }
+          ]
+        },
+        {
+          "code": "3103",
+          "name": "Xã Khánh Yên Hạ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Khánh Yên",
+              "newWardShort": "Khánh Yên",
+              "newWardCode": "03103",
+              "newWardType": "Xã",
+              "lat": 21.9971,
+              "lon": 104.29,
+              "areaKm2": 173.6
+            }
+          ]
+        },
+        {
+          "code": "3082",
+          "name": "Xã Khánh Yên Thượng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Văn Bàn",
+              "newWardShort": "Văn Bàn",
+              "newWardCode": "03082",
+              "newWardType": "Xã",
+              "lat": 22.1117,
+              "lon": 104.241,
+              "areaKm2": 156.7
+            }
+          ]
+        },
+        {
+          "code": "3100",
+          "name": "Xã Khánh Yên Trung",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Khánh Yên",
+              "newWardShort": "Khánh Yên",
+              "newWardCode": "03103",
+              "newWardType": "Xã",
+              "lat": 21.9971,
+              "lon": 104.29,
+              "areaKm2": 173.6
+            }
+          ]
+        },
+        {
+          "code": "3094",
+          "name": "Xã Làng Giàng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Văn Bàn",
+              "newWardShort": "Văn Bàn",
+              "newWardCode": "03082",
+              "newWardType": "Xã",
+              "lat": 22.1117,
+              "lon": 104.241,
+              "areaKm2": 156.7
+            }
+          ]
+        },
+        {
+          "code": "3118",
+          "name": "Xã Liêm Phú",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Khánh Yên",
+              "newWardShort": "Khánh Yên",
+              "newWardCode": "03103",
+              "newWardType": "Xã",
+              "lat": 21.9971,
+              "lon": 104.29,
+              "areaKm2": 173.6
+            }
+          ]
+        },
+        {
+          "code": "3112",
+          "name": "Xã Minh Lương",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Minh Lương",
+              "newWardShort": "Minh Lương",
+              "newWardCode": "03121",
+              "newWardType": "Xã",
+              "lat": 21.9531,
+              "lon": 104.112,
+              "areaKm2": 206.6
+            }
+          ]
+        },
+        {
+          "code": "3076",
+          "name": "Xã Nậm Chày",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Nậm Chày",
+              "newWardShort": "Nậm Chày",
+              "newWardCode": "03076",
+              "newWardType": "Xã",
+              "lat": 22.1185,
+              "lon": 104.089,
+              "areaKm2": 142.1
+            }
+          ]
+        },
+        {
+          "code": "3073",
+          "name": "Xã Nậm Dạng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Võ Lao",
+              "newWardShort": "Võ Lao",
+              "newWardCode": "03061",
+              "newWardType": "Xã",
+              "lat": 22.1826,
+              "lon": 104.176,
+              "areaKm2": 152.8
+            }
+          ]
+        },
+        {
+          "code": "3067",
+          "name": "Xã Nậm Mả",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Võ Lao",
+              "newWardShort": "Võ Lao",
+              "newWardCode": "03061",
+              "newWardType": "Xã",
+              "lat": 22.1826,
+              "lon": 104.176,
+              "areaKm2": 152.8
+            }
+          ]
+        },
+        {
+          "code": "3109",
+          "name": "Xã Nậm Tha",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Chiềng Ken",
+              "newWardShort": "Chiềng Ken",
+              "newWardCode": "03091",
+              "newWardType": "Xã",
+              "lat": 21.9828,
+              "lon": 104.395,
+              "areaKm2": 191.3
+            }
+          ]
+        },
+        {
+          "code": "3121",
+          "name": "Xã Nậm Xây",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Minh Lương",
+              "newWardShort": "Minh Lương",
+              "newWardCode": "03121",
+              "newWardType": "Xã",
+              "lat": 21.9531,
+              "lon": 104.112,
+              "areaKm2": 206.6
+            }
+          ]
+        },
+        {
+          "code": "3085",
+          "name": "Xã Nậm Xé",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Nậm Xé",
+              "newWardShort": "Nậm Xé",
+              "newWardCode": "03085",
+              "newWardType": "Xã",
+              "lat": 22.0459,
+              "lon": 103.995,
+              "areaKm2": 170.96
+            }
+          ]
+        },
+        {
+          "code": "3064",
+          "name": "Xã Sơn Thủy",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Văn Bàn",
+              "newWardShort": "Văn Bàn",
+              "newWardCode": "03082",
+              "newWardType": "Xã",
+              "lat": 22.1117,
+              "lon": 104.241,
+              "areaKm2": 156.7
+            }
+          ]
+        },
+        {
+          "code": "3079",
+          "name": "Xã Tân An",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Bảo Hà",
+              "newWardShort": "Bảo Hà",
+              "newWardCode": "02989",
+              "newWardType": "Xã",
+              "lat": 22.205,
+              "lon": 104.326,
+              "areaKm2": 243
+            }
+          ]
+        },
+        {
+          "code": "3070",
+          "name": "Xã Tân Thượng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Bảo Hà",
+              "newWardShort": "Bảo Hà",
+              "newWardCode": "02989",
+              "newWardType": "Xã",
+              "lat": 22.205,
+              "lon": 104.326,
+              "areaKm2": 243
+            }
+          ]
+        },
+        {
+          "code": "3115",
+          "name": "Xã Thẩm Dương",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Dương Quỳ",
+              "newWardShort": "Dương Quỳ",
+              "newWardCode": "03106",
+              "newWardType": "Xã",
+              "lat": 22.0253,
+              "lon": 104.152,
+              "areaKm2": 157.1
+            }
+          ]
+        },
+        {
+          "code": "3061",
+          "name": "Xã Võ Lao",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Võ Lao",
+              "newWardShort": "Võ Lao",
+              "newWardCode": "03061",
+              "newWardType": "Xã",
+              "lat": 22.1826,
+              "lon": 104.176,
+              "areaKm2": 152.8
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "80",
+      "name": "Thành phố Lào Cai",
+      "type": "Thành phố",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "2668",
+          "name": "Phường Bắc Cường",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Phường Cam Đường",
+              "newWardShort": "Cam Đường",
+              "newWardCode": "02671",
+              "newWardType": "Phường",
+              "lat": 22.4316,
+              "lon": 104.006,
+              "areaKm2": 59.9
+            }
+          ]
+        },
+        {
+          "code": "2650",
+          "name": "Phường Bắc Lệnh",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Phường Cam Đường",
+              "newWardShort": "Cam Đường",
+              "newWardCode": "02671",
+              "newWardType": "Phường",
+              "lat": 22.4316,
+              "lon": 104.006,
+              "areaKm2": 59.9
+            }
+          ]
+        },
+        {
+          "code": "2658",
+          "name": "Phường Bình Minh",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Phường Cam Đường",
+              "newWardShort": "Cam Đường",
+              "newWardCode": "02671",
+              "newWardType": "Phường",
+              "lat": 22.4316,
+              "lon": 104.006,
+              "areaKm2": 59.9
+            }
+          ]
+        },
+        {
+          "code": "2644",
+          "name": "Phường Cốc Lếu",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Phường Lào Cai",
+              "newWardShort": "Lào Cai",
+              "newWardCode": "02647",
+              "newWardType": "Phường",
+              "lat": 22.4979,
+              "lon": 104.015,
+              "areaKm2": 72.32
+            }
+          ]
+        },
+        {
+          "code": "2635",
+          "name": "Phường Duyên Hải",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Phường Lào Cai",
+              "newWardShort": "Lào Cai",
+              "newWardCode": "02647",
+              "newWardType": "Phường",
+              "lat": 22.4979,
+              "lon": 104.015,
+              "areaKm2": 72.32
+            }
+          ]
+        },
+        {
+          "code": "2647",
+          "name": "Phường Kim Tân",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Phường Lào Cai",
+              "newWardShort": "Lào Cai",
+              "newWardCode": "02647",
+              "newWardType": "Phường",
+              "lat": 22.4979,
+              "lon": 104.015,
+              "areaKm2": 72.32
+            }
+          ]
+        },
+        {
+          "code": "2641",
+          "name": "Phường Lào Cai",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Phường Lào Cai",
+              "newWardShort": "Lào Cai",
+              "newWardCode": "02647",
+              "newWardType": "Phường",
+              "lat": 22.4979,
+              "lon": 104.015,
+              "areaKm2": 72.32
+            }
+          ]
+        },
+        {
+          "code": "2671",
+          "name": "Phường Nam Cường",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Phường Cam Đường",
+              "newWardShort": "Cam Đường",
+              "newWardCode": "02671",
+              "newWardType": "Phường",
+              "lat": 22.4316,
+              "lon": 104.006,
+              "areaKm2": 59.9
+            }
+          ]
+        },
+        {
+          "code": "2653",
+          "name": "Phường Pom Hán",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Phường Cam Đường",
+              "newWardShort": "Cam Đường",
+              "newWardCode": "02671",
+              "newWardType": "Phường",
+              "lat": 22.4316,
+              "lon": 104.006,
+              "areaKm2": 59.9
+            }
+          ]
+        },
+        {
+          "code": "2656",
+          "name": "Phường Xuân Tăng",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Phường Cam Đường",
+              "newWardShort": "Cam Đường",
+              "newWardCode": "02671",
+              "newWardType": "Phường",
+              "lat": 22.4316,
+              "lon": 104.006,
+              "areaKm2": 59.9
+            }
+          ]
+        },
+        {
+          "code": "2674",
+          "name": "Xã Cam Đường",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Phường Cam Đường",
+              "newWardShort": "Cam Đường",
+              "newWardCode": "02671",
+              "newWardType": "Phường",
+              "lat": 22.4316,
+              "lon": 104.006,
+              "areaKm2": 59.9
+            }
+          ]
+        },
+        {
+          "code": "2746",
+          "name": "Xã Cốc San",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Cốc San",
+              "newWardShort": "Cốc San",
+              "newWardCode": "02746",
+              "newWardType": "Xã",
+              "lat": 22.4531,
+              "lon": 103.926,
+              "areaKm2": 57.2
+            }
+          ]
+        },
+        {
+          "code": "2662",
+          "name": "Xã Đồng Tuyển",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Cốc San",
+              "newWardShort": "Cốc San",
+              "newWardCode": "02746",
+              "newWardType": "Xã",
+              "lat": 22.4531,
+              "lon": 103.926,
+              "areaKm2": 57.2
+            }
+          ]
+        },
+        {
+          "code": "2680",
+          "name": "Xã Hợp Thành",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Hợp Thành",
+              "newWardShort": "Hợp Thành",
+              "newWardCode": "02680",
+              "newWardType": "Xã",
+              "lat": 22.3678,
+              "lon": 103.966,
+              "areaKm2": 41.2
+            }
+          ]
+        },
+        {
+          "code": "2677",
+          "name": "Xã Tả Phời",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Hợp Thành",
+              "newWardShort": "Hợp Thành",
+              "newWardCode": "02680",
+              "newWardType": "Xã",
+              "lat": 22.3678,
+              "lon": 103.966,
+              "areaKm2": 41.2
+            }
+          ]
+        },
+        {
+          "code": "2659",
+          "name": "Xã Thống Nhất",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Gia Phú",
+              "newWardShort": "Gia Phú",
+              "newWardCode": "02923",
+              "newWardType": "Xã",
+              "lat": 22.3442,
+              "lon": 104.077,
+              "areaKm2": 102.4
+            }
+          ]
+        },
+        {
+          "code": "2665",
+          "name": "Xã Vạn Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Phường Lào Cai",
+              "newWardShort": "Lào Cai",
+              "newWardCode": "02647",
+              "newWardType": "Phường",
+              "lat": 22.4979,
+              "lon": 104.015,
+              "areaKm2": 72.32
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "88",
+      "name": "Thị xã Sa Pa",
+      "type": "Thị xã",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "3028",
+          "name": "Phường Cầu Mây",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Phường Sa Pa",
+              "newWardShort": "Sa Pa",
+              "newWardCode": "03006",
+              "newWardType": "Phường",
+              "lat": 22.3497,
+              "lon": 103.837,
+              "areaKm2": 54.63
+            }
+          ]
+        },
+        {
+          "code": "3016",
+          "name": "Phường Hàm Rồng",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Phường Sa Pa",
+              "newWardShort": "Sa Pa",
+              "newWardCode": "03006",
+              "newWardType": "Phường",
+              "lat": 22.3497,
+              "lon": 103.837,
+              "areaKm2": 54.63
+            }
+          ]
+        },
+        {
+          "code": "3003",
+          "name": "Phường Ô Quý Hồ",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Phường Sa Pa",
+              "newWardShort": "Sa Pa",
+              "newWardCode": "03006",
+              "newWardType": "Phường",
+              "lat": 22.3497,
+              "lon": 103.837,
+              "areaKm2": 54.63
+            }
+          ]
+        },
+        {
+          "code": "3006",
+          "name": "Phường Phan Si Păng",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Phường Sa Pa",
+              "newWardShort": "Sa Pa",
+              "newWardCode": "03006",
+              "newWardType": "Phường",
+              "lat": 22.3497,
+              "lon": 103.837,
+              "areaKm2": 54.63
+            }
+          ]
+        },
+        {
+          "code": "3001",
+          "name": "Phường Sa Pa",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Phường Sa Pa",
+              "newWardShort": "Sa Pa",
+              "newWardCode": "03006",
+              "newWardType": "Phường",
+              "lat": 22.3497,
+              "lon": 103.837,
+              "areaKm2": 54.63
+            }
+          ]
+        },
+        {
+          "code": "3002",
+          "name": "Phường Sa Pả",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Phường Sa Pa",
+              "newWardShort": "Sa Pa",
+              "newWardCode": "03006",
+              "newWardType": "Phường",
+              "lat": 22.3497,
+              "lon": 103.837,
+              "areaKm2": 54.63
+            }
+          ]
+        },
+        {
+          "code": "3046",
+          "name": "Xã Bản Hồ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Bản Hồ",
+              "newWardShort": "Bản Hồ",
+              "newWardCode": "03046",
+              "newWardType": "Xã",
+              "lat": 22.24,
+              "lon": 103.954,
+              "areaKm2": 166.2
+            }
+          ]
+        },
+        {
+          "code": "3019",
+          "name": "Xã Hoàng Liên",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Tả Van",
+              "newWardShort": "Tả Van",
+              "newWardCode": "03037",
+              "newWardType": "Xã",
+              "lat": 22.2772,
+              "lon": 103.862,
+              "areaKm2": 158.5
+            }
+          ]
+        },
+        {
+          "code": "3052",
+          "name": "Xã Liên Minh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Mường Bo",
+              "newWardShort": "Mường Bo",
+              "newWardCode": "03043",
+              "newWardType": "Xã",
+              "lat": 22.221,
+              "lon": 104.026,
+              "areaKm2": 148.3
+            }
+          ]
+        },
+        {
+          "code": "3043",
+          "name": "Xã Mường Bo",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Mường Bo",
+              "newWardShort": "Mường Bo",
+              "newWardCode": "03043",
+              "newWardType": "Xã",
+              "lat": 22.221,
+              "lon": 104.026,
+              "areaKm2": 148.3
+            }
+          ]
+        },
+        {
+          "code": "3037",
+          "name": "Xã Mường Hoa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Tả Van",
+              "newWardShort": "Tả Van",
+              "newWardCode": "03037",
+              "newWardType": "Xã",
+              "lat": 22.2772,
+              "lon": 103.862,
+              "areaKm2": 158.5
+            }
+          ]
+        },
+        {
+          "code": "3004",
+          "name": "Xã Ngũ Chỉ Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Ngũ Chỉ Sơn",
+              "newWardShort": "Ngũ Chỉ Sơn",
+              "newWardCode": "03004",
+              "newWardType": "Xã",
+              "lat": 22.4296,
+              "lon": 103.782,
+              "areaKm2": 82.47
+            }
+          ]
+        },
+        {
+          "code": "3013",
+          "name": "Xã Tả Phìn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Tả Phìn",
+              "newWardShort": "Tả Phìn",
+              "newWardCode": "03013",
+              "newWardType": "Xã",
+              "lat": 22.3955,
+              "lon": 103.874,
+              "areaKm2": 74.68
+            }
+          ]
+        },
+        {
+          "code": "3040",
+          "name": "Xã Tả Van",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Tả Van",
+              "newWardShort": "Tả Van",
+              "newWardCode": "03037",
+              "newWardType": "Xã",
+              "lat": 22.2772,
+              "lon": 103.862,
+              "areaKm2": 158.5
+            }
+          ]
+        },
+        {
+          "code": "3022",
+          "name": "Xã Thanh Bình",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Bản Hồ",
+              "newWardShort": "Bản Hồ",
+              "newWardCode": "03046",
+              "newWardType": "Xã",
+              "lat": 22.24,
+              "lon": 103.954,
+              "areaKm2": 166.2
+            }
+          ]
+        },
+        {
+          "code": "3010",
+          "name": "Xã Trung Chải",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lào Cai",
+              "newProvinceSlug": "lao-cai",
+              "newProvinceCode": "15",
+              "newWard": "Xã Tả Phìn",
+              "newWardShort": "Tả Phìn",
+              "newWardCode": "03013",
+              "newWardType": "Xã",
+              "lat": 22.3955,
+              "lon": 103.874,
+              "areaKm2": 74.68
+            }
+          ]
+        }
+      ],
+      "results": []
+    }
+  ]
+}

@@ -1,0 +1,2840 @@
+{
+  "schemaVersion": 1,
+  "mergeDate": "2025-07-01",
+  "code": "68",
+  "name": "Tỉnh Lâm Đồng",
+  "name_en": "Lam Dong Province",
+  "slug": "lam-dong",
+  "districts": [
+    {
+      "code": "673",
+      "name": "Thành phố Bảo Lộc",
+      "type": "Thành phố",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "24823",
+          "name": "Phường 1",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Phường 1 Bảo Lộc",
+              "newWardShort": "1 Bảo Lộc",
+              "newWardCode": "24823",
+              "newWardType": "Phường",
+              "lat": 11.5733,
+              "lon": 107.844,
+              "areaKm2": 51.46
+            }
+          ]
+        },
+        {
+          "code": "24820",
+          "name": "Phường 2",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Phường 2 Bảo Lộc",
+              "newWardShort": "2 Bảo Lộc",
+              "newWardCode": "24820",
+              "newWardType": "Phường",
+              "lat": 11.5951,
+              "lon": 107.724,
+              "areaKm2": 176.72
+            }
+          ]
+        },
+        {
+          "code": "24826",
+          "name": "Phường B'lao",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Phường B'Lao",
+              "newWardShort": "B'Lao",
+              "newWardCode": "24829",
+              "newWardType": "Phường",
+              "lat": 11.5247,
+              "lon": 107.859,
+              "areaKm2": 33.7679
+            }
+          ]
+        },
+        {
+          "code": "24814",
+          "name": "Phường Lộc Phát",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Phường 1 Bảo Lộc",
+              "newWardShort": "1 Bảo Lộc",
+              "newWardCode": "24823",
+              "newWardType": "Phường",
+              "lat": 11.5733,
+              "lon": 107.844,
+              "areaKm2": 51.46
+            }
+          ]
+        },
+        {
+          "code": "24829",
+          "name": "Phường Lộc Sơn",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Phường B'Lao",
+              "newWardShort": "B'Lao",
+              "newWardCode": "24829",
+              "newWardType": "Phường",
+              "lat": 11.5247,
+              "lon": 107.859,
+              "areaKm2": 33.7679
+            }
+          ]
+        },
+        {
+          "code": "24817",
+          "name": "Phường Lộc Tiến",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Phường 3 Bảo Lộc",
+              "newWardShort": "3 Bảo Lộc",
+              "newWardCode": "24841",
+              "newWardType": "Phường",
+              "lat": 11.4975,
+              "lon": 107.758,
+              "areaKm2": 108.98
+            }
+          ]
+        },
+        {
+          "code": "24844",
+          "name": "Xã Đại Lào",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Phường 3 Bảo Lộc",
+              "newWardShort": "3 Bảo Lộc",
+              "newWardCode": "24841",
+              "newWardType": "Phường",
+              "lat": 11.4975,
+              "lon": 107.758,
+              "areaKm2": 108.98
+            }
+          ]
+        },
+        {
+          "code": "24832",
+          "name": "Xã Đamb'ri",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Phường 2 Bảo Lộc",
+              "newWardShort": "2 Bảo Lộc",
+              "newWardCode": "24820",
+              "newWardType": "Phường",
+              "lat": 11.5951,
+              "lon": 107.724,
+              "areaKm2": 176.72
+            }
+          ]
+        },
+        {
+          "code": "24841",
+          "name": "Xã Lộc Châu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Phường 3 Bảo Lộc",
+              "newWardShort": "3 Bảo Lộc",
+              "newWardCode": "24841",
+              "newWardType": "Phường",
+              "lat": 11.4975,
+              "lon": 107.758,
+              "areaKm2": 108.98
+            }
+          ]
+        },
+        {
+          "code": "24838",
+          "name": "Xã Lộc Nga",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Phường B'Lao",
+              "newWardShort": "B'Lao",
+              "newWardCode": "24829",
+              "newWardType": "Phường",
+              "lat": 11.5247,
+              "lon": 107.859,
+              "areaKm2": 33.7679
+            }
+          ]
+        },
+        {
+          "code": "24835",
+          "name": "Xã Lộc Thanh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Phường 1 Bảo Lộc",
+              "newWardShort": "1 Bảo Lộc",
+              "newWardCode": "24823",
+              "newWardType": "Phường",
+              "lat": 11.5733,
+              "lon": 107.844,
+              "areaKm2": 51.46
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "672",
+      "name": "Thành phố Đà Lạt",
+      "type": "Thành phố",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "24784",
+          "name": "Phường 1",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Phường Xuân Hương - Đà Lạt",
+              "newWardShort": "Xuân Hương - Đà Lạt",
+              "newWardCode": "24781",
+              "newWardType": "Phường",
+              "lat": 11.9033,
+              "lon": 108.443,
+              "areaKm2": 73.45
+            }
+          ]
+        },
+        {
+          "code": "24796",
+          "name": "Phường 10",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Phường Xuân Hương - Đà Lạt",
+              "newWardShort": "Xuân Hương - Đà Lạt",
+              "newWardCode": "24781",
+              "newWardType": "Phường",
+              "lat": 11.9033,
+              "lon": 108.443,
+              "areaKm2": 73.45
+            }
+          ]
+        },
+        {
+          "code": "24799",
+          "name": "Phường 11",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Phường Xuân Trường - Đà Lạt",
+              "newWardShort": "Xuân Trường - Đà Lạt",
+              "newWardCode": "24805",
+              "newWardType": "Phường",
+              "lat": 11.8993,
+              "lon": 108.531,
+              "areaKm2": 168.83
+            }
+          ]
+        },
+        {
+          "code": "24775",
+          "name": "Phường 12",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Phường Lâm Viên - Đà Lạt",
+              "newWardShort": "Lâm Viên - Đà Lạt",
+              "newWardCode": "24778",
+              "newWardType": "Phường",
+              "lat": 11.9746,
+              "lon": 108.466,
+              "areaKm2": 35.03
+            }
+          ]
+        },
+        {
+          "code": "24781",
+          "name": "Phường 2",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Phường Xuân Hương - Đà Lạt",
+              "newWardShort": "Xuân Hương - Đà Lạt",
+              "newWardCode": "24781",
+              "newWardType": "Phường",
+              "lat": 11.9033,
+              "lon": 108.443,
+              "areaKm2": 73.45
+            }
+          ]
+        },
+        {
+          "code": "24802",
+          "name": "Phường 3",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Phường Xuân Hương - Đà Lạt",
+              "newWardShort": "Xuân Hương - Đà Lạt",
+              "newWardCode": "24781",
+              "newWardType": "Phường",
+              "lat": 11.9033,
+              "lon": 108.443,
+              "areaKm2": 73.45
+            }
+          ]
+        },
+        {
+          "code": "24793",
+          "name": "Phường 4",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Phường Xuân Hương - Đà Lạt",
+              "newWardShort": "Xuân Hương - Đà Lạt",
+              "newWardCode": "24781",
+              "newWardType": "Phường",
+              "lat": 11.9033,
+              "lon": 108.443,
+              "areaKm2": 73.45
+            }
+          ]
+        },
+        {
+          "code": "24790",
+          "name": "Phường 5",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Phường Cam Ly - Đà Lạt",
+              "newWardShort": "Cam Ly - Đà Lạt",
+              "newWardCode": "24787",
+              "newWardType": "Phường",
+              "lat": 11.9331,
+              "lon": 108.369,
+              "areaKm2": 80.92
+            }
+          ]
+        },
+        {
+          "code": "24787",
+          "name": "Phường 6",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Phường Cam Ly - Đà Lạt",
+              "newWardShort": "Cam Ly - Đà Lạt",
+              "newWardCode": "24787",
+              "newWardType": "Phường",
+              "lat": 11.9331,
+              "lon": 108.369,
+              "areaKm2": 80.92
+            }
+          ]
+        },
+        {
+          "code": "24769",
+          "name": "Phường 7",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Phường Lang Biang - Đà Lạt",
+              "newWardShort": "Lang Biang - Đà Lạt",
+              "newWardCode": "24846",
+              "newWardType": "Phường",
+              "lat": 12.0564,
+              "lon": 108.402,
+              "areaKm2": 323.739
+            }
+          ]
+        },
+        {
+          "code": "24772",
+          "name": "Phường 8",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Phường Lâm Viên - Đà Lạt",
+              "newWardShort": "Lâm Viên - Đà Lạt",
+              "newWardCode": "24778",
+              "newWardType": "Phường",
+              "lat": 11.9746,
+              "lon": 108.466,
+              "areaKm2": 35.03
+            }
+          ]
+        },
+        {
+          "code": "24778",
+          "name": "Phường 9",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Phường Lâm Viên - Đà Lạt",
+              "newWardShort": "Lâm Viên - Đà Lạt",
+              "newWardCode": "24778",
+              "newWardType": "Phường",
+              "lat": 11.9746,
+              "lon": 108.466,
+              "areaKm2": 35.03
+            }
+          ]
+        },
+        {
+          "code": "24808",
+          "name": "Xã Tà Nung",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Phường Cam Ly - Đà Lạt",
+              "newWardShort": "Cam Ly - Đà Lạt",
+              "newWardCode": "24787",
+              "newWardType": "Phường",
+              "lat": 11.9331,
+              "lon": 108.369,
+              "areaKm2": 80.92
+            }
+          ]
+        },
+        {
+          "code": "24810",
+          "name": "Xã Trạm Hành",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Phường Xuân Trường - Đà Lạt",
+              "newWardShort": "Xuân Trường - Đà Lạt",
+              "newWardCode": "24805",
+              "newWardType": "Phường",
+              "lat": 11.8993,
+              "lon": 108.531,
+              "areaKm2": 168.83
+            }
+          ]
+        },
+        {
+          "code": "24805",
+          "name": "Xã Xuân Thọ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Phường Xuân Trường - Đà Lạt",
+              "newWardShort": "Xuân Trường - Đà Lạt",
+              "newWardCode": "24805",
+              "newWardType": "Phường",
+              "lat": 11.8993,
+              "lon": 108.531,
+              "areaKm2": 168.83
+            }
+          ]
+        },
+        {
+          "code": "24811",
+          "name": "Xã Xuân Trường",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Phường Xuân Trường - Đà Lạt",
+              "newWardShort": "Xuân Trường - Đà Lạt",
+              "newWardCode": "24805",
+              "newWardType": "Phường",
+              "lat": 11.8993,
+              "lon": 108.531,
+              "areaKm2": 168.83
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "680",
+      "name": "Huyện Bảo Lâm",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "25054",
+          "name": "Thị trấn Lộc Thắng",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Bảo Lâm 1",
+              "newWardShort": "Bảo Lâm 1",
+              "newWardCode": "25054",
+              "newWardType": "Xã",
+              "lat": 11.6627,
+              "lon": 107.85,
+              "areaKm2": 204.43
+            }
+          ]
+        },
+        {
+          "code": "25069",
+          "name": "Xã B'Lá",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Bảo Lâm 4",
+              "newWardShort": "Bảo Lâm 4",
+              "newWardCode": "25063",
+              "newWardType": "Xã",
+              "lat": 11.7873,
+              "lon": 107.819,
+              "areaKm2": 343.35
+            }
+          ]
+        },
+        {
+          "code": "25084",
+          "name": "Xã Lộc An",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Bảo Lâm 2",
+              "newWardShort": "Bảo Lâm 2",
+              "newWardCode": "25084",
+              "newWardType": "Xã",
+              "lat": 11.5592,
+              "lon": 107.9,
+              "areaKm2": 114
+            }
+          ]
+        },
+        {
+          "code": "25066",
+          "name": "Xã Lộc Bắc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Bảo Lâm 5",
+              "newWardShort": "Bảo Lâm 5",
+              "newWardCode": "25057",
+              "newWardType": "Xã",
+              "lat": 11.7751,
+              "lon": 107.643,
+              "areaKm2": 511.88
+            }
+          ]
+        },
+        {
+          "code": "25057",
+          "name": "Xã Lộc Bảo",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Bảo Lâm 5",
+              "newWardShort": "Bảo Lâm 5",
+              "newWardCode": "25057",
+              "newWardType": "Xã",
+              "lat": 11.7751,
+              "lon": 107.643,
+              "areaKm2": 511.88
+            }
+          ]
+        },
+        {
+          "code": "25081",
+          "name": "Xã Lộc Đức",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Bảo Lâm 2",
+              "newWardShort": "Bảo Lâm 2",
+              "newWardCode": "25084",
+              "newWardType": "Xã",
+              "lat": 11.5592,
+              "lon": 107.9,
+              "areaKm2": 114
+            }
+          ]
+        },
+        {
+          "code": "25060",
+          "name": "Xã Lộc Lâm",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Bảo Lâm 4",
+              "newWardShort": "Bảo Lâm 4",
+              "newWardCode": "25063",
+              "newWardType": "Xã",
+              "lat": 11.7873,
+              "lon": 107.819,
+              "areaKm2": 343.35
+            }
+          ]
+        },
+        {
+          "code": "25093",
+          "name": "Xã Lộc Nam",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Bảo Lâm 3",
+              "newWardShort": "Bảo Lâm 3",
+              "newWardCode": "25093",
+              "newWardType": "Xã",
+              "lat": 11.4239,
+              "lon": 107.836,
+              "areaKm2": 152.13
+            }
+          ]
+        },
+        {
+          "code": "25072",
+          "name": "Xã Lộc Ngãi",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Bảo Lâm 1",
+              "newWardShort": "Bảo Lâm 1",
+              "newWardCode": "25054",
+              "newWardType": "Xã",
+              "lat": 11.6627,
+              "lon": 107.85,
+              "areaKm2": 204.43
+            }
+          ]
+        },
+        {
+          "code": "25063",
+          "name": "Xã Lộc Phú",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Bảo Lâm 4",
+              "newWardShort": "Bảo Lâm 4",
+              "newWardCode": "25063",
+              "newWardType": "Xã",
+              "lat": 11.7873,
+              "lon": 107.819,
+              "areaKm2": 343.35
+            }
+          ]
+        },
+        {
+          "code": "25075",
+          "name": "Xã Lộc Quảng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Bảo Lâm 1",
+              "newWardShort": "Bảo Lâm 1",
+              "newWardCode": "25054",
+              "newWardType": "Xã",
+              "lat": 11.6627,
+              "lon": 107.85,
+              "areaKm2": 204.43
+            }
+          ]
+        },
+        {
+          "code": "25078",
+          "name": "Xã Lộc Tân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Phường 2 Bảo Lộc",
+              "newWardShort": "2 Bảo Lộc",
+              "newWardCode": "24820",
+              "newWardType": "Phường",
+              "lat": 11.5951,
+              "lon": 107.724,
+              "areaKm2": 176.72
+            }
+          ]
+        },
+        {
+          "code": "25090",
+          "name": "Xã Lộc Thành",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Bảo Lâm 3",
+              "newWardShort": "Bảo Lâm 3",
+              "newWardCode": "25093",
+              "newWardType": "Xã",
+              "lat": 11.4239,
+              "lon": 107.836,
+              "areaKm2": 152.13
+            }
+          ]
+        },
+        {
+          "code": "25087",
+          "name": "Xã Tân Lạc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Bảo Lâm 2",
+              "newWardShort": "Bảo Lâm 2",
+              "newWardCode": "25084",
+              "newWardType": "Xã",
+              "lat": 11.5592,
+              "lon": 107.9,
+              "areaKm2": 114
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "682",
+      "name": "Huyện Đạ Huoai",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "25159",
+          "name": "Thị trấn Cát Tiên",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Cát Tiên",
+              "newWardShort": "Cát Tiên",
+              "newWardCode": "25159",
+              "newWardType": "Xã",
+              "lat": 11.596,
+              "lon": 107.397,
+              "areaKm2": 78.13
+            }
+          ]
+        },
+        {
+          "code": "25096",
+          "name": "Thị trấn Đạ M'ri",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Đạ Huoai 2",
+              "newWardShort": "Đạ Huoai 2",
+              "newWardCode": "25105",
+              "newWardType": "Xã",
+              "lat": 11.4586,
+              "lon": 107.645,
+              "areaKm2": 249.57
+            }
+          ]
+        },
+        {
+          "code": "25126",
+          "name": "Thị trấn Đạ Tẻh",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Đạ Tẻh",
+              "newWardShort": "Đạ Tẻh",
+              "newWardCode": "25126",
+              "newWardType": "Xã",
+              "lat": 11.5589,
+              "lon": 107.426,
+              "areaKm2": 145.85
+            }
+          ]
+        },
+        {
+          "code": "25099",
+          "name": "Thị trấn Ma Đa Guôi",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Đạ Huoai",
+              "newWardShort": "Đạ Huoai",
+              "newWardCode": "25099",
+              "newWardType": "Xã",
+              "lat": 11.4294,
+              "lon": 107.536,
+              "areaKm2": 113.96
+            }
+          ]
+        },
+        {
+          "code": "25180",
+          "name": "Thị trấn Phước Cát",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Cát Tiên 2",
+              "newWardShort": "Cát Tiên 2",
+              "newWardCode": "25180",
+              "newWardType": "Xã",
+              "lat": 11.6699,
+              "lon": 107.33,
+              "areaKm2": 177.26
+            }
+          ]
+        },
+        {
+          "code": "25129",
+          "name": "Xã An Nhơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Đạ Tẻh",
+              "newWardShort": "Đạ Tẻh",
+              "newWardCode": "25126",
+              "newWardType": "Xã",
+              "lat": 11.5589,
+              "lon": 107.426,
+              "areaKm2": 145.85
+            }
+          ]
+        },
+        {
+          "code": "25114",
+          "name": "Xã Bà Gia",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Đạ Huoai 3",
+              "newWardShort": "Đạ Huoai 3",
+              "newWardCode": "25114",
+              "newWardType": "Xã",
+              "lat": 11.3776,
+              "lon": 107.704,
+              "areaKm2": 131.51
+            }
+          ]
+        },
+        {
+          "code": "25153",
+          "name": "Xã Đạ Kho",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Đạ Tẻh 2",
+              "newWardShort": "Đạ Tẻh 2",
+              "newWardCode": "25138",
+              "newWardType": "Xã",
+              "lat": 11.5209,
+              "lon": 107.551,
+              "areaKm2": 186.07
+            }
+          ]
+        },
+        {
+          "code": "25141",
+          "name": "Xã Đạ Lây",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Đạ Tẻh",
+              "newWardShort": "Đạ Tẻh",
+              "newWardCode": "25126",
+              "newWardType": "Xã",
+              "lat": 11.5589,
+              "lon": 107.426,
+              "areaKm2": 145.85
+            }
+          ]
+        },
+        {
+          "code": "25111",
+          "name": "Xã Đạ Oai",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Đạ Huoai",
+              "newWardShort": "Đạ Huoai",
+              "newWardCode": "25099",
+              "newWardType": "Xã",
+              "lat": 11.4294,
+              "lon": 107.536,
+              "areaKm2": 113.96
+            }
+          ]
+        },
+        {
+          "code": "25156",
+          "name": "Xã Đạ Pal",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Đạ Tẻh 2",
+              "newWardShort": "Đạ Tẻh 2",
+              "newWardCode": "25138",
+              "newWardType": "Xã",
+              "lat": 11.5209,
+              "lon": 107.551,
+              "areaKm2": 186.07
+            }
+          ]
+        },
+        {
+          "code": "25192",
+          "name": "Xã Đồng Nai Thượng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Cát Tiên 3",
+              "newWardShort": "Cát Tiên 3",
+              "newWardCode": "25162",
+              "newWardType": "Xã",
+              "lat": 11.703,
+              "lon": 107.426,
+              "areaKm2": 171.31
+            }
+          ]
+        },
+        {
+          "code": "25183",
+          "name": "Xã Đức Phổ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Cát Tiên 2",
+              "newWardShort": "Cát Tiên 2",
+              "newWardCode": "25180",
+              "newWardType": "Xã",
+              "lat": 11.6699,
+              "lon": 107.33,
+              "areaKm2": 177.26
+            }
+          ]
+        },
+        {
+          "code": "25168",
+          "name": "Xã Gia Viễn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Cát Tiên 3",
+              "newWardShort": "Cát Tiên 3",
+              "newWardCode": "25162",
+              "newWardType": "Xã",
+              "lat": 11.703,
+              "lon": 107.426,
+              "areaKm2": 171.31
+            }
+          ]
+        },
+        {
+          "code": "25105",
+          "name": "Xã Hà Lâm",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Đạ Huoai 2",
+              "newWardShort": "Đạ Huoai 2",
+              "newWardCode": "25105",
+              "newWardType": "Xã",
+              "lat": 11.4586,
+              "lon": 107.645,
+              "areaKm2": 249.57
+            }
+          ]
+        },
+        {
+          "code": "25117",
+          "name": "Xã Ma Đa Guôi",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Đạ Huoai",
+              "newWardShort": "Đạ Huoai",
+              "newWardCode": "25099",
+              "newWardType": "Xã",
+              "lat": 11.4294,
+              "lon": 107.536,
+              "areaKm2": 113.96
+            }
+          ]
+        },
+        {
+          "code": "25135",
+          "name": "Xã Mỹ Đức",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Đạ Tẻh 3",
+              "newWardShort": "Đạ Tẻh 3",
+              "newWardCode": "25135",
+              "newWardType": "Xã",
+              "lat": 11.6213,
+              "lon": 107.544,
+              "areaKm2": 194.82
+            }
+          ]
+        },
+        {
+          "code": "25171",
+          "name": "Xã Nam Ninh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Cát Tiên",
+              "newWardShort": "Cát Tiên",
+              "newWardCode": "25159",
+              "newWardType": "Xã",
+              "lat": 11.596,
+              "lon": 107.397,
+              "areaKm2": 78.13
+            }
+          ]
+        },
+        {
+          "code": "25165",
+          "name": "Xã Phước Cát 2",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Cát Tiên 2",
+              "newWardShort": "Cát Tiên 2",
+              "newWardCode": "25180",
+              "newWardType": "Xã",
+              "lat": 11.6699,
+              "lon": 107.33,
+              "areaKm2": 177.26
+            }
+          ]
+        },
+        {
+          "code": "25189",
+          "name": "Xã Quảng Ngãi",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Cát Tiên",
+              "newWardShort": "Cát Tiên",
+              "newWardCode": "25159",
+              "newWardType": "Xã",
+              "lat": 11.596,
+              "lon": 107.397,
+              "areaKm2": 78.13
+            }
+          ]
+        },
+        {
+          "code": "25138",
+          "name": "Xã Quảng Trị",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Đạ Tẻh 2",
+              "newWardShort": "Đạ Tẻh 2",
+              "newWardCode": "25138",
+              "newWardType": "Xã",
+              "lat": 11.5209,
+              "lon": 107.551,
+              "areaKm2": 186.07
+            }
+          ]
+        },
+        {
+          "code": "25132",
+          "name": "Xã Quốc Oai",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Đạ Tẻh 3",
+              "newWardShort": "Đạ Tẻh 3",
+              "newWardCode": "25135",
+              "newWardType": "Xã",
+              "lat": 11.6213,
+              "lon": 107.544,
+              "areaKm2": 194.82
+            }
+          ]
+        },
+        {
+          "code": "25162",
+          "name": "Xã Tiên Hoàng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Cát Tiên 3",
+              "newWardShort": "Cát Tiên 3",
+              "newWardCode": "25162",
+              "newWardType": "Xã",
+              "lat": 11.703,
+              "lon": 107.426,
+              "areaKm2": 171.31
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "674",
+      "name": "Huyện Đam Rông",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "24889",
+          "name": "Xã Đạ K'Nàng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Đam Rông 1",
+              "newWardShort": "Đam Rông 1",
+              "newWardCode": "24886",
+              "newWardType": "Xã",
+              "lat": 11.9391,
+              "lon": 108.117,
+              "areaKm2": 172.55
+            }
+          ]
+        },
+        {
+          "code": "24856",
+          "name": "Xã Đạ Long",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Đam Rông 4",
+              "newWardShort": "Đam Rông 4",
+              "newWardCode": "24853",
+              "newWardType": "Xã",
+              "lat": 12.1741,
+              "lon": 108.367,
+              "areaKm2": 391.25
+            }
+          ]
+        },
+        {
+          "code": "24859",
+          "name": "Xã Đạ M'Rông",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Đam Rông 3",
+              "newWardShort": "Đam Rông 3",
+              "newWardCode": "24875",
+              "newWardType": "Xã",
+              "lat": 12.1616,
+              "lon": 108.178,
+              "areaKm2": 139.38
+            }
+          ]
+        },
+        {
+          "code": "24875",
+          "name": "Xã Đạ Rsal",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Đam Rông 3",
+              "newWardShort": "Đam Rông 3",
+              "newWardCode": "24875",
+              "newWardType": "Xã",
+              "lat": 12.1616,
+              "lon": 108.178,
+              "areaKm2": 139.38
+            }
+          ]
+        },
+        {
+          "code": "24853",
+          "name": "Xã Đạ Tông",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Đam Rông 4",
+              "newWardShort": "Đam Rông 4",
+              "newWardCode": "24853",
+              "newWardType": "Xã",
+              "lat": 12.1741,
+              "lon": 108.367,
+              "areaKm2": 391.25
+            }
+          ]
+        },
+        {
+          "code": "24874",
+          "name": "Xã Liêng Srônh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Đam Rông 2",
+              "newWardShort": "Đam Rông 2",
+              "newWardCode": "24877",
+              "newWardType": "Xã",
+              "lat": 12.0533,
+              "lon": 108.109,
+              "areaKm2": 365.58
+            }
+          ]
+        },
+        {
+          "code": "24886",
+          "name": "Xã Phi Liêng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Đam Rông 1",
+              "newWardShort": "Đam Rông 1",
+              "newWardCode": "24886",
+              "newWardType": "Xã",
+              "lat": 11.9391,
+              "lon": 108.117,
+              "areaKm2": 172.55
+            }
+          ]
+        },
+        {
+          "code": "24877",
+          "name": "Xã Rô Men",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Đam Rông 2",
+              "newWardShort": "Đam Rông 2",
+              "newWardCode": "24877",
+              "newWardType": "Xã",
+              "lat": 12.0533,
+              "lon": 108.109,
+              "areaKm2": 365.58
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "679",
+      "name": "Huyện Di Linh",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "25000",
+          "name": "Thị trấn Di Linh",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Di Linh",
+              "newWardShort": "Di Linh",
+              "newWardCode": "25000",
+              "newWardType": "Xã",
+              "lat": 11.5354,
+              "lon": 108.046,
+              "areaKm2": 268.28
+            }
+          ]
+        },
+        {
+          "code": "25033",
+          "name": "Xã Bảo Thuận",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Bảo Thuận",
+              "newWardShort": "Bảo Thuận",
+              "newWardCode": "25018",
+              "newWardType": "Xã",
+              "lat": 11.4907,
+              "lon": 108.14,
+              "areaKm2": 300.3
+            }
+          ]
+        },
+        {
+          "code": "25018",
+          "name": "Xã Đinh Lạc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Bảo Thuận",
+              "newWardShort": "Bảo Thuận",
+              "newWardCode": "25018",
+              "newWardType": "Xã",
+              "lat": 11.4907,
+              "lon": 108.14,
+              "areaKm2": 300.3
+            }
+          ]
+        },
+        {
+          "code": "25024",
+          "name": "Xã Đinh Trang Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Hòa Ninh",
+              "newWardShort": "Hòa Ninh",
+              "newWardCode": "25036",
+              "newWardType": "Xã",
+              "lat": 11.5437,
+              "lon": 107.954,
+              "areaKm2": 95.17
+            }
+          ]
+        },
+        {
+          "code": "25003",
+          "name": "Xã Đinh Trang Thượng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Đinh Trang Thượng",
+              "newWardShort": "Đinh Trang Thượng",
+              "newWardCode": "25007",
+              "newWardType": "Xã",
+              "lat": 11.7091,
+              "lon": 107.984,
+              "areaKm2": 203.77
+            }
+          ]
+        },
+        {
+          "code": "25051",
+          "name": "Xã Gia Bắc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Sơn Điền",
+              "newWardShort": "Sơn Điền",
+              "newWardCode": "25051",
+              "newWardType": "Xã",
+              "lat": 11.3495,
+              "lon": 108.065,
+              "areaKm2": 261.88
+            }
+          ]
+        },
+        {
+          "code": "25015",
+          "name": "Xã Gia Hiệp",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Gia Hiệp",
+              "newWardShort": "Gia Hiệp",
+              "newWardCode": "25015",
+              "newWardType": "Xã",
+              "lat": 11.5038,
+              "lon": 108.217,
+              "areaKm2": 324.43
+            }
+          ]
+        },
+        {
+          "code": "25030",
+          "name": "Xã Gung Ré",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Di Linh",
+              "newWardShort": "Di Linh",
+              "newWardCode": "25000",
+              "newWardType": "Xã",
+              "lat": 11.5354,
+              "lon": 108.046,
+              "areaKm2": 268.28
+            }
+          ]
+        },
+        {
+          "code": "25045",
+          "name": "Xã Hòa Bắc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Hòa Bắc",
+              "newWardShort": "Hòa Bắc",
+              "newWardCode": "25042",
+              "newWardType": "Xã",
+              "lat": 11.4303,
+              "lon": 107.944,
+              "areaKm2": 159.35
+            }
+          ]
+        },
+        {
+          "code": "25042",
+          "name": "Xã Hòa Nam",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Hòa Bắc",
+              "newWardShort": "Hòa Bắc",
+              "newWardCode": "25042",
+              "newWardType": "Xã",
+              "lat": 11.4303,
+              "lon": 107.944,
+              "areaKm2": 159.35
+            }
+          ]
+        },
+        {
+          "code": "25036",
+          "name": "Xã Hòa Ninh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Hòa Ninh",
+              "newWardShort": "Hòa Ninh",
+              "newWardCode": "25036",
+              "newWardType": "Xã",
+              "lat": 11.5437,
+              "lon": 107.954,
+              "areaKm2": 95.17
+            }
+          ]
+        },
+        {
+          "code": "25039",
+          "name": "Xã Hòa Trung",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Hòa Ninh",
+              "newWardShort": "Hòa Ninh",
+              "newWardCode": "25036",
+              "newWardType": "Xã",
+              "lat": 11.5437,
+              "lon": 107.954,
+              "areaKm2": 95.17
+            }
+          ]
+        },
+        {
+          "code": "25027",
+          "name": "Xã Liên Đầm",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Di Linh",
+              "newWardShort": "Di Linh",
+              "newWardCode": "25000",
+              "newWardType": "Xã",
+              "lat": 11.5354,
+              "lon": 108.046,
+              "areaKm2": 268.28
+            }
+          ]
+        },
+        {
+          "code": "25048",
+          "name": "Xã Sơn Điền",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Sơn Điền",
+              "newWardShort": "Sơn Điền",
+              "newWardCode": "25051",
+              "newWardType": "Xã",
+              "lat": 11.3495,
+              "lon": 108.065,
+              "areaKm2": 261.88
+            }
+          ]
+        },
+        {
+          "code": "25021",
+          "name": "Xã Tam Bố",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Gia Hiệp",
+              "newWardShort": "Gia Hiệp",
+              "newWardCode": "25015",
+              "newWardType": "Xã",
+              "lat": 11.5038,
+              "lon": 108.217,
+              "areaKm2": 324.43
+            }
+          ]
+        },
+        {
+          "code": "25009",
+          "name": "Xã Tân Châu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Di Linh",
+              "newWardShort": "Di Linh",
+              "newWardCode": "25000",
+              "newWardType": "Xã",
+              "lat": 11.5354,
+              "lon": 108.046,
+              "areaKm2": 268.28
+            }
+          ]
+        },
+        {
+          "code": "25007",
+          "name": "Xã Tân Lâm",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Đinh Trang Thượng",
+              "newWardShort": "Đinh Trang Thượng",
+              "newWardCode": "25007",
+              "newWardType": "Xã",
+              "lat": 11.7091,
+              "lon": 107.984,
+              "areaKm2": 203.77
+            }
+          ]
+        },
+        {
+          "code": "25012",
+          "name": "Xã Tân Nghĩa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Bảo Thuận",
+              "newWardShort": "Bảo Thuận",
+              "newWardCode": "25018",
+              "newWardType": "Xã",
+              "lat": 11.4907,
+              "lon": 108.14,
+              "areaKm2": 300.3
+            }
+          ]
+        },
+        {
+          "code": "25006",
+          "name": "Xã Tân Thượng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Đinh Trang Thượng",
+              "newWardShort": "Đinh Trang Thượng",
+              "newWardCode": "25007",
+              "newWardType": "Xã",
+              "lat": 11.7091,
+              "lon": 107.984,
+              "areaKm2": 203.77
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "677",
+      "name": "Huyện Đơn Dương",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "24928",
+          "name": "Thị trấn D'Ran",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã D'Ran",
+              "newWardShort": "D'Ran",
+              "newWardCode": "24934",
+              "newWardType": "Xã",
+              "lat": 11.8051,
+              "lon": 108.572,
+              "areaKm2": 240.89
+            }
+          ]
+        },
+        {
+          "code": "24931",
+          "name": "Thị trấn Thạnh Mỹ",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Đơn Dương",
+              "newWardShort": "Đơn Dương",
+              "newWardCode": "24931",
+              "newWardType": "Xã",
+              "lat": 11.7306,
+              "lon": 108.453,
+              "areaKm2": 127.81
+            }
+          ]
+        },
+        {
+          "code": "24937",
+          "name": "Xã Đạ Ròn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Đơn Dương",
+              "newWardShort": "Đơn Dương",
+              "newWardCode": "24931",
+              "newWardType": "Xã",
+              "lat": 11.7306,
+              "lon": 108.453,
+              "areaKm2": 127.81
+            }
+          ]
+        },
+        {
+          "code": "24943",
+          "name": "Xã Ka Đô",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Ka Đô",
+              "newWardShort": "Ka Đô",
+              "newWardCode": "24943",
+              "newWardType": "Xã",
+              "lat": 11.7266,
+              "lon": 108.593,
+              "areaKm2": 108.08
+            }
+          ]
+        },
+        {
+          "code": "24949",
+          "name": "Xã Ka Đơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Quảng Lập",
+              "newWardShort": "Quảng Lập",
+              "newWardCode": "24955",
+              "newWardType": "Xã",
+              "lat": 11.7111,
+              "lon": 108.518,
+              "areaKm2": 135.08
+            }
+          ]
+        },
+        {
+          "code": "24940",
+          "name": "Xã Lạc Lâm",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Ka Đô",
+              "newWardShort": "Ka Đô",
+              "newWardCode": "24943",
+              "newWardType": "Xã",
+              "lat": 11.7266,
+              "lon": 108.593,
+              "areaKm2": 108.08
+            }
+          ]
+        },
+        {
+          "code": "24934",
+          "name": "Xã Lạc Xuân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã D'Ran",
+              "newWardShort": "D'Ran",
+              "newWardCode": "24934",
+              "newWardType": "Xã",
+              "lat": 11.8051,
+              "lon": 108.572,
+              "areaKm2": 240.89
+            }
+          ]
+        },
+        {
+          "code": "24955",
+          "name": "Xã Quảng Lập",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Quảng Lập",
+              "newWardShort": "Quảng Lập",
+              "newWardCode": "24955",
+              "newWardType": "Xã",
+              "lat": 11.7111,
+              "lon": 108.518,
+              "areaKm2": 135.08
+            }
+          ]
+        },
+        {
+          "code": "24952",
+          "name": "Xã Tu Tra",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Đơn Dương",
+              "newWardShort": "Đơn Dương",
+              "newWardCode": "24931",
+              "newWardType": "Xã",
+              "lat": 11.7306,
+              "lon": 108.453,
+              "areaKm2": 127.81
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "678",
+      "name": "Huyện Đức Trọng",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "24958",
+          "name": "Thị trấn Liên Nghĩa",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Đức Trọng",
+              "newWardShort": "Đức Trọng",
+              "newWardCode": "24958",
+              "newWardType": "Xã",
+              "lat": 11.6788,
+              "lon": 108.361,
+              "areaKm2": 148.78
+            }
+          ]
+        },
+        {
+          "code": "24970",
+          "name": "Xã Bình Thạnh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Đinh Văn Lâm Hà",
+              "newWardShort": "Đinh Văn Lâm Hà",
+              "newWardCode": "24871",
+              "newWardType": "Xã",
+              "lat": 11.7769,
+              "lon": 108.25,
+              "areaKm2": 90.1789
+            }
+          ]
+        },
+        {
+          "code": "24994",
+          "name": "Xã Đà Loan",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Tà Hine",
+              "newWardShort": "Tà Hine",
+              "newWardCode": "24991",
+              "newWardType": "Xã",
+              "lat": 11.5676,
+              "lon": 108.364,
+              "areaKm2": 128.69
+            }
+          ]
+        },
+        {
+          "code": "24989",
+          "name": "Xã Đa Quyn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Tà Năng",
+              "newWardShort": "Tà Năng",
+              "newWardCode": "24988",
+              "newWardType": "Xã",
+              "lat": 11.5905,
+              "lon": 108.494,
+              "areaKm2": 258.33
+            }
+          ]
+        },
+        {
+          "code": "24961",
+          "name": "Xã Hiệp An",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Hiệp Thạnh",
+              "newWardShort": "Hiệp Thạnh",
+              "newWardCode": "24967",
+              "newWardType": "Xã",
+              "lat": 11.8075,
+              "lon": 108.42,
+              "areaKm2": 127.19
+            }
+          ]
+        },
+        {
+          "code": "24967",
+          "name": "Xã Hiệp Thạnh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Hiệp Thạnh",
+              "newWardShort": "Hiệp Thạnh",
+              "newWardCode": "24967",
+              "newWardType": "Xã",
+              "lat": 11.8075,
+              "lon": 108.42,
+              "areaKm2": 127.19
+            }
+          ]
+        },
+        {
+          "code": "24964",
+          "name": "Xã Liên Hiệp",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Hiệp Thạnh",
+              "newWardShort": "Hiệp Thạnh",
+              "newWardCode": "24967",
+              "newWardType": "Xã",
+              "lat": 11.8075,
+              "lon": 108.42,
+              "areaKm2": 127.19
+            }
+          ]
+        },
+        {
+          "code": "24973",
+          "name": "Xã N'Thol Hạ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Tân Hội",
+              "newWardShort": "Tân Hội",
+              "newWardCode": "24976",
+              "newWardType": "Xã",
+              "lat": 11.7135,
+              "lon": 108.29,
+              "areaKm2": 146.28
+            }
+          ]
+        },
+        {
+          "code": "24985",
+          "name": "Xã Ninh Gia",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Ninh Gia",
+              "newWardShort": "Ninh Gia",
+              "newWardCode": "24985",
+              "newWardType": "Xã",
+              "lat": 11.6107,
+              "lon": 108.27,
+              "areaKm2": 143.83
+            }
+          ]
+        },
+        {
+          "code": "24997",
+          "name": "Xã Ninh Loan",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Tà Hine",
+              "newWardShort": "Tà Hine",
+              "newWardCode": "24991",
+              "newWardType": "Xã",
+              "lat": 11.5676,
+              "lon": 108.364,
+              "areaKm2": 128.69
+            }
+          ]
+        },
+        {
+          "code": "24982",
+          "name": "Xã Phú Hội",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Đức Trọng",
+              "newWardShort": "Đức Trọng",
+              "newWardCode": "24958",
+              "newWardType": "Xã",
+              "lat": 11.6788,
+              "lon": 108.361,
+              "areaKm2": 148.78
+            }
+          ]
+        },
+        {
+          "code": "24991",
+          "name": "Xã Tà Hine",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Tà Hine",
+              "newWardShort": "Tà Hine",
+              "newWardCode": "24991",
+              "newWardType": "Xã",
+              "lat": 11.5676,
+              "lon": 108.364,
+              "areaKm2": 128.69
+            }
+          ]
+        },
+        {
+          "code": "24988",
+          "name": "Xã Tà Năng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Tà Năng",
+              "newWardShort": "Tà Năng",
+              "newWardCode": "24988",
+              "newWardType": "Xã",
+              "lat": 11.5905,
+              "lon": 108.494,
+              "areaKm2": 258.33
+            }
+          ]
+        },
+        {
+          "code": "24976",
+          "name": "Xã Tân Hội",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Tân Hội",
+              "newWardShort": "Tân Hội",
+              "newWardCode": "24976",
+              "newWardType": "Xã",
+              "lat": 11.7135,
+              "lon": 108.29,
+              "areaKm2": 146.28
+            }
+          ]
+        },
+        {
+          "code": "24979",
+          "name": "Xã Tân Thành",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Tân Hội",
+              "newWardShort": "Tân Hội",
+              "newWardCode": "24976",
+              "newWardType": "Xã",
+              "lat": 11.7135,
+              "lon": 108.29,
+              "areaKm2": 146.28
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "675",
+      "name": "Huyện Lạc Dương",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "24846",
+          "name": "Thị trấn Lạc Dương",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Phường Lang Biang - Đà Lạt",
+              "newWardShort": "Lang Biang - Đà Lạt",
+              "newWardCode": "24846",
+              "newWardType": "Phường",
+              "lat": 12.0564,
+              "lon": 108.402,
+              "areaKm2": 323.739
+            }
+          ]
+        },
+        {
+          "code": "24847",
+          "name": "Xã Đạ Chais",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Lạc Dương",
+              "newWardShort": "Lạc Dương",
+              "newWardCode": "24848",
+              "newWardType": "Xã",
+              "lat": 12.1288,
+              "lon": 108.596,
+              "areaKm2": 828.01
+            }
+          ]
+        },
+        {
+          "code": "24848",
+          "name": "Xã Đạ Nhim",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Lạc Dương",
+              "newWardShort": "Lạc Dương",
+              "newWardCode": "24848",
+              "newWardType": "Xã",
+              "lat": 12.1288,
+              "lon": 108.596,
+              "areaKm2": 828.01
+            }
+          ]
+        },
+        {
+          "code": "24865",
+          "name": "Xã Đạ Sar",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Lạc Dương",
+              "newWardShort": "Lạc Dương",
+              "newWardCode": "24848",
+              "newWardType": "Xã",
+              "lat": 12.1288,
+              "lon": 108.596,
+              "areaKm2": 828.01
+            }
+          ]
+        },
+        {
+          "code": "24850",
+          "name": "Xã Đưng KNớ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Đam Rông 4",
+              "newWardShort": "Đam Rông 4",
+              "newWardCode": "24853",
+              "newWardType": "Xã",
+              "lat": 12.1741,
+              "lon": 108.367,
+              "areaKm2": 391.25
+            }
+          ]
+        },
+        {
+          "code": "24862",
+          "name": "Xã Lát",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Phường Lang Biang - Đà Lạt",
+              "newWardShort": "Lang Biang - Đà Lạt",
+              "newWardCode": "24846",
+              "newWardType": "Phường",
+              "lat": 12.0564,
+              "lon": 108.402,
+              "areaKm2": 323.739
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "676",
+      "name": "Huyện Lâm Hà",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "24871",
+          "name": "Thị trấn Đinh Văn",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Đinh Văn Lâm Hà",
+              "newWardShort": "Đinh Văn Lâm Hà",
+              "newWardCode": "24871",
+              "newWardType": "Xã",
+              "lat": 11.7769,
+              "lon": 108.25,
+              "areaKm2": 90.1789
+            }
+          ]
+        },
+        {
+          "code": "24868",
+          "name": "Thị trấn Nam Ban",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Nam Ban Lâm Hà",
+              "newWardShort": "Nam Ban Lâm Hà",
+              "newWardCode": "24868",
+              "newWardType": "Xã",
+              "lat": 11.8518,
+              "lon": 108.35,
+              "areaKm2": 117.926
+            }
+          ]
+        },
+        {
+          "code": "24895",
+          "name": "Xã Đạ Đờn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Phú Sơn Lâm Hà",
+              "newWardShort": "Phú Sơn Lâm Hà",
+              "newWardCode": "24895",
+              "newWardType": "Xã",
+              "lat": 11.8906,
+              "lon": 108.194,
+              "areaKm2": 240.61
+            }
+          ]
+        },
+        {
+          "code": "24922",
+          "name": "Xã Đan Phượng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Tân Hà Lâm Hà",
+              "newWardShort": "Tân Hà Lâm Hà",
+              "newWardCode": "24916",
+              "newWardType": "Xã",
+              "lat": 11.7119,
+              "lon": 108.164,
+              "areaKm2": 168.9
+            }
+          ]
+        },
+        {
+          "code": "24901",
+          "name": "Xã Đông Thanh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Nam Ban Lâm Hà",
+              "newWardShort": "Nam Ban Lâm Hà",
+              "newWardCode": "24868",
+              "newWardType": "Xã",
+              "lat": 11.8518,
+              "lon": 108.35,
+              "areaKm2": 117.926
+            }
+          ]
+        },
+        {
+          "code": "24904",
+          "name": "Xã Gia Lâm",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Nam Ban Lâm Hà",
+              "newWardShort": "Nam Ban Lâm Hà",
+              "newWardCode": "24868",
+              "newWardType": "Xã",
+              "lat": 11.8518,
+              "lon": 108.35,
+              "areaKm2": 117.926
+            }
+          ]
+        },
+        {
+          "code": "24913",
+          "name": "Xã Hoài Đức",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Tân Hà Lâm Hà",
+              "newWardShort": "Tân Hà Lâm Hà",
+              "newWardCode": "24916",
+              "newWardType": "Xã",
+              "lat": 11.7119,
+              "lon": 108.164,
+              "areaKm2": 168.9
+            }
+          ]
+        },
+        {
+          "code": "24919",
+          "name": "Xã Liên Hà",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Tân Hà Lâm Hà",
+              "newWardShort": "Tân Hà Lâm Hà",
+              "newWardCode": "24916",
+              "newWardType": "Xã",
+              "lat": 11.7119,
+              "lon": 108.164,
+              "areaKm2": 168.9
+            }
+          ]
+        },
+        {
+          "code": "24892",
+          "name": "Xã Mê Linh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Nam Ban Lâm Hà",
+              "newWardShort": "Nam Ban Lâm Hà",
+              "newWardCode": "24868",
+              "newWardType": "Xã",
+              "lat": 11.8518,
+              "lon": 108.35,
+              "areaKm2": 117.926
+            }
+          ]
+        },
+        {
+          "code": "24925",
+          "name": "Xã Nam Hà",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Nam Hà Lâm Hà",
+              "newWardShort": "Nam Hà Lâm Hà",
+              "newWardCode": "24883",
+              "newWardType": "Xã",
+              "lat": 11.8846,
+              "lon": 108.275,
+              "areaKm2": 100.366
+            }
+          ]
+        },
+        {
+          "code": "24883",
+          "name": "Xã Phi Tô",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Nam Hà Lâm Hà",
+              "newWardShort": "Nam Hà Lâm Hà",
+              "newWardCode": "24883",
+              "newWardType": "Xã",
+              "lat": 11.8846,
+              "lon": 108.275,
+              "areaKm2": 100.366
+            }
+          ]
+        },
+        {
+          "code": "24880",
+          "name": "Xã Phú Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Phú Sơn Lâm Hà",
+              "newWardShort": "Phú Sơn Lâm Hà",
+              "newWardCode": "24895",
+              "newWardType": "Xã",
+              "lat": 11.8906,
+              "lon": 108.194,
+              "areaKm2": 240.61
+            }
+          ]
+        },
+        {
+          "code": "24898",
+          "name": "Xã Phúc Thọ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Phúc Thọ Lâm Hà",
+              "newWardShort": "Phúc Thọ Lâm Hà",
+              "newWardCode": "24907",
+              "newWardType": "Xã",
+              "lat": 11.7837,
+              "lon": 108.082,
+              "areaKm2": 231.137
+            }
+          ]
+        },
+        {
+          "code": "24916",
+          "name": "Xã Tân Hà",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Tân Hà Lâm Hà",
+              "newWardShort": "Tân Hà Lâm Hà",
+              "newWardCode": "24916",
+              "newWardType": "Xã",
+              "lat": 11.7119,
+              "lon": 108.164,
+              "areaKm2": 168.9
+            }
+          ]
+        },
+        {
+          "code": "24907",
+          "name": "Xã Tân Thanh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Phúc Thọ Lâm Hà",
+              "newWardShort": "Phúc Thọ Lâm Hà",
+              "newWardCode": "24907",
+              "newWardType": "Xã",
+              "lat": 11.7837,
+              "lon": 108.082,
+              "areaKm2": 231.137
+            }
+          ]
+        },
+        {
+          "code": "24910",
+          "name": "Xã Tân Văn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lâm Đồng",
+              "newProvinceSlug": "lam-dong",
+              "newProvinceCode": "68",
+              "newWard": "Xã Đinh Văn Lâm Hà",
+              "newWardShort": "Đinh Văn Lâm Hà",
+              "newWardCode": "24871",
+              "newWardType": "Xã",
+              "lat": 11.7769,
+              "lon": 108.25,
+              "areaKm2": 90.1789
+            }
+          ]
+        }
+      ],
+      "results": []
+    }
+  ]
+}

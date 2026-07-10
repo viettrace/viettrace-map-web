@@ -1,0 +1,590 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "dataset": "tranngocminhhieu/vietnamadminunits",
+    "file": "raw/vietnam-admin-units/convert_legacy_2025_simple.csv",
+    "commit": "7fac8c45805aad9916b17237c54baf4502303b93",
+    "license": "MIT",
+    "url": "https://github.com/tranngocminhhieu/vietnamadminunits",
+    "note": "Official codes from danhmuchanhchinh.gso.gov.vn (aligns with Quyết định 19/2025/QĐ-TTg)."
+  },
+  "mergeDate": "2025-07-01",
+  "counts": {
+    "oldProvinces": 63,
+    "oldWards": 10035,
+    "islandDistricts": 5,
+    "oldUnits": 10040,
+    "newProvinces": 34,
+    "newWards": 3321,
+    "dividedOldWards": 471
+  },
+  "provinces": [
+    {
+      "code": "89",
+      "name": "Tỉnh An Giang",
+      "name_en": "An Giang Province",
+      "slug": "an-giang",
+      "districtCount": 11,
+      "wardCount": 155,
+      "hasIslandDistrict": false
+    },
+    {
+      "code": "77",
+      "name": "Tỉnh Bà Rịa - Vũng Tàu",
+      "name_en": "Ba Ria - Vung Tau Province",
+      "slug": "ba-ria-vung-tau",
+      "districtCount": 7,
+      "wardCount": 77,
+      "hasIslandDistrict": true
+    },
+    {
+      "code": "24",
+      "name": "Tỉnh Bắc Giang",
+      "name_en": "Bac Giang Province",
+      "slug": "bac-giang",
+      "districtCount": 10,
+      "wardCount": 192,
+      "hasIslandDistrict": false
+    },
+    {
+      "code": "06",
+      "name": "Tỉnh Bắc Kạn",
+      "name_en": "Bac Kan Province",
+      "slug": "bac-kan",
+      "districtCount": 8,
+      "wardCount": 108,
+      "hasIslandDistrict": false
+    },
+    {
+      "code": "95",
+      "name": "Tỉnh Bạc Liêu",
+      "name_en": "Bac Lieu Province",
+      "slug": "bac-lieu",
+      "districtCount": 7,
+      "wardCount": 64,
+      "hasIslandDistrict": false
+    },
+    {
+      "code": "27",
+      "name": "Tỉnh Bắc Ninh",
+      "name_en": "Bac Ninh Province",
+      "slug": "bac-ninh",
+      "districtCount": 8,
+      "wardCount": 121,
+      "hasIslandDistrict": false
+    },
+    {
+      "code": "83",
+      "name": "Tỉnh Bến Tre",
+      "name_en": "Ben Tre Province",
+      "slug": "ben-tre",
+      "districtCount": 9,
+      "wardCount": 148,
+      "hasIslandDistrict": false
+    },
+    {
+      "code": "52",
+      "name": "Tỉnh Bình Định",
+      "name_en": "Binh Dinh Province",
+      "slug": "binh-dinh",
+      "districtCount": 11,
+      "wardCount": 155,
+      "hasIslandDistrict": false
+    },
+    {
+      "code": "74",
+      "name": "Tỉnh Bình Dương",
+      "name_en": "Binh Duong Province",
+      "slug": "binh-duong",
+      "districtCount": 9,
+      "wardCount": 91,
+      "hasIslandDistrict": false
+    },
+    {
+      "code": "70",
+      "name": "Tỉnh Bình Phước",
+      "name_en": "Binh Phuoc Province",
+      "slug": "binh-phuoc",
+      "districtCount": 11,
+      "wardCount": 111,
+      "hasIslandDistrict": false
+    },
+    {
+      "code": "60",
+      "name": "Tỉnh Bình Thuận",
+      "name_en": "Binh Thuan Province",
+      "slug": "binh-thuan",
+      "districtCount": 10,
+      "wardCount": 121,
+      "hasIslandDistrict": false
+    },
+    {
+      "code": "96",
+      "name": "Tỉnh Cà Mau",
+      "name_en": "Ca Mau Province",
+      "slug": "ca-mau",
+      "districtCount": 9,
+      "wardCount": 100,
+      "hasIslandDistrict": false
+    },
+    {
+      "code": "92",
+      "name": "Thành phố Cần Thơ",
+      "name_en": "Can Tho City",
+      "slug": "can-tho",
+      "districtCount": 9,
+      "wardCount": 80,
+      "hasIslandDistrict": false
+    },
+    {
+      "code": "04",
+      "name": "Tỉnh Cao Bằng",
+      "name_en": "Cao Bang Province",
+      "slug": "cao-bang",
+      "districtCount": 10,
+      "wardCount": 161,
+      "hasIslandDistrict": false
+    },
+    {
+      "code": "48",
+      "name": "Thành phố Đà Nẵng",
+      "name_en": "Da Nang City",
+      "slug": "da-nang",
+      "districtCount": 8,
+      "wardCount": 47,
+      "hasIslandDistrict": true
+    },
+    {
+      "code": "66",
+      "name": "Tỉnh Đắk Lắk",
+      "name_en": "Dak Lak Province",
+      "slug": "dak-lak",
+      "districtCount": 15,
+      "wardCount": 180,
+      "hasIslandDistrict": false
+    },
+    {
+      "code": "67",
+      "name": "Tỉnh Đắk Nông",
+      "name_en": "Dak Nong Province",
+      "slug": "dak-nong",
+      "districtCount": 8,
+      "wardCount": 71,
+      "hasIslandDistrict": false
+    },
+    {
+      "code": "11",
+      "name": "Tỉnh Điện Biên",
+      "name_en": "Dien Bien Province",
+      "slug": "dien-bien",
+      "districtCount": 10,
+      "wardCount": 129,
+      "hasIslandDistrict": false
+    },
+    {
+      "code": "75",
+      "name": "Tỉnh Đồng Nai",
+      "name_en": "Dong Nai Province",
+      "slug": "dong-nai",
+      "districtCount": 11,
+      "wardCount": 159,
+      "hasIslandDistrict": false
+    },
+    {
+      "code": "87",
+      "name": "Tỉnh Đồng Tháp",
+      "name_en": "Dong Thap Province",
+      "slug": "dong-thap",
+      "districtCount": 12,
+      "wardCount": 141,
+      "hasIslandDistrict": false
+    },
+    {
+      "code": "64",
+      "name": "Tỉnh Gia Lai",
+      "name_en": "Gia Lai Province",
+      "slug": "gia-lai",
+      "districtCount": 17,
+      "wardCount": 218,
+      "hasIslandDistrict": false
+    },
+    {
+      "code": "02",
+      "name": "Tỉnh Hà Giang",
+      "name_en": "Ha Giang Province",
+      "slug": "ha-giang",
+      "districtCount": 11,
+      "wardCount": 193,
+      "hasIslandDistrict": false
+    },
+    {
+      "code": "35",
+      "name": "Tỉnh Hà Nam",
+      "name_en": "Ha Nam Province",
+      "slug": "ha-nam",
+      "districtCount": 6,
+      "wardCount": 98,
+      "hasIslandDistrict": false
+    },
+    {
+      "code": "01",
+      "name": "Thành phố Hà Nội",
+      "name_en": "Ha Noi City",
+      "slug": "ha-noi",
+      "districtCount": 30,
+      "wardCount": 526,
+      "hasIslandDistrict": false
+    },
+    {
+      "code": "42",
+      "name": "Tỉnh Hà Tĩnh",
+      "name_en": "Ha Tinh Province",
+      "slug": "ha-tinh",
+      "districtCount": 12,
+      "wardCount": 209,
+      "hasIslandDistrict": false
+    },
+    {
+      "code": "30",
+      "name": "Tỉnh Hải Dương",
+      "name_en": "Hai Duong Province",
+      "slug": "hai-duong",
+      "districtCount": 12,
+      "wardCount": 207,
+      "hasIslandDistrict": false
+    },
+    {
+      "code": "31",
+      "name": "Thành phố Hải Phòng",
+      "name_en": "Hai Phong City",
+      "slug": "hai-phong",
+      "districtCount": 15,
+      "wardCount": 167,
+      "hasIslandDistrict": true
+    },
+    {
+      "code": "93",
+      "name": "Tỉnh Hậu Giang",
+      "name_en": "Hau Giang Province",
+      "slug": "hau-giang",
+      "districtCount": 8,
+      "wardCount": 75,
+      "hasIslandDistrict": false
+    },
+    {
+      "code": "79",
+      "name": "Thành phố Hồ Chí Minh",
+      "name_en": "Ho Chi Minh City",
+      "slug": "ho-chi-minh",
+      "districtCount": 22,
+      "wardCount": 273,
+      "hasIslandDistrict": false
+    },
+    {
+      "code": "17",
+      "name": "Tỉnh Hòa Bình",
+      "name_en": "Hoa Binh Province",
+      "slug": "hoa-binh",
+      "districtCount": 10,
+      "wardCount": 151,
+      "hasIslandDistrict": false
+    },
+    {
+      "code": "46",
+      "name": "Thành phố Huế",
+      "name_en": "Hue City",
+      "slug": "hue",
+      "districtCount": 9,
+      "wardCount": 133,
+      "hasIslandDistrict": false
+    },
+    {
+      "code": "33",
+      "name": "Tỉnh Hưng Yên",
+      "name_en": "Hung Yen Province",
+      "slug": "hung-yen",
+      "districtCount": 10,
+      "wardCount": 139,
+      "hasIslandDistrict": false
+    },
+    {
+      "code": "56",
+      "name": "Tỉnh Khánh Hòa",
+      "name_en": "Khanh Hoa Province",
+      "slug": "khanh-hoa",
+      "districtCount": 9,
+      "wardCount": 132,
+      "hasIslandDistrict": false
+    },
+    {
+      "code": "91",
+      "name": "Tỉnh Kiên Giang",
+      "name_en": "Kien Giang Province",
+      "slug": "kien-giang",
+      "districtCount": 15,
+      "wardCount": 143,
+      "hasIslandDistrict": false
+    },
+    {
+      "code": "62",
+      "name": "Tỉnh Kon Tum",
+      "name_en": "Kon Tum Province",
+      "slug": "kon-tum",
+      "districtCount": 10,
+      "wardCount": 102,
+      "hasIslandDistrict": false
+    },
+    {
+      "code": "12",
+      "name": "Tỉnh Lai Châu",
+      "name_en": "Lai Chau Province",
+      "slug": "lai-chau",
+      "districtCount": 8,
+      "wardCount": 106,
+      "hasIslandDistrict": false
+    },
+    {
+      "code": "68",
+      "name": "Tỉnh Lâm Đồng",
+      "name_en": "Lam Dong Province",
+      "slug": "lam-dong",
+      "districtCount": 10,
+      "wardCount": 137,
+      "hasIslandDistrict": false
+    },
+    {
+      "code": "20",
+      "name": "Tỉnh Lạng Sơn",
+      "name_en": "Lang Son Province",
+      "slug": "lang-son",
+      "districtCount": 11,
+      "wardCount": 194,
+      "hasIslandDistrict": false
+    },
+    {
+      "code": "10",
+      "name": "Tỉnh Lào Cai",
+      "name_en": "Lao Cai Province",
+      "slug": "lao-cai",
+      "districtCount": 9,
+      "wardCount": 151,
+      "hasIslandDistrict": false
+    },
+    {
+      "code": "80",
+      "name": "Tỉnh Long An",
+      "name_en": "Long An Province",
+      "slug": "long-an",
+      "districtCount": 15,
+      "wardCount": 186,
+      "hasIslandDistrict": false
+    },
+    {
+      "code": "36",
+      "name": "Tỉnh Nam Định",
+      "name_en": "Nam Dinh Province",
+      "slug": "nam-dinh",
+      "districtCount": 9,
+      "wardCount": 175,
+      "hasIslandDistrict": false
+    },
+    {
+      "code": "40",
+      "name": "Tỉnh Nghệ An",
+      "name_en": "Nghe An Province",
+      "slug": "nghe-an",
+      "districtCount": 20,
+      "wardCount": 412,
+      "hasIslandDistrict": false
+    },
+    {
+      "code": "37",
+      "name": "Tỉnh Ninh Bình",
+      "name_en": "Ninh Binh Province",
+      "slug": "ninh-binh",
+      "districtCount": 7,
+      "wardCount": 125,
+      "hasIslandDistrict": false
+    },
+    {
+      "code": "58",
+      "name": "Tỉnh Ninh Thuận",
+      "name_en": "Ninh Thuan Province",
+      "slug": "ninh-thuan",
+      "districtCount": 7,
+      "wardCount": 62,
+      "hasIslandDistrict": false
+    },
+    {
+      "code": "25",
+      "name": "Tỉnh Phú Thọ",
+      "name_en": "Phu Tho Province",
+      "slug": "phu-tho",
+      "districtCount": 13,
+      "wardCount": 207,
+      "hasIslandDistrict": false
+    },
+    {
+      "code": "54",
+      "name": "Tỉnh Phú Yên",
+      "name_en": "Phu Yen Province",
+      "slug": "phu-yen",
+      "districtCount": 9,
+      "wardCount": 106,
+      "hasIslandDistrict": false
+    },
+    {
+      "code": "44",
+      "name": "Tỉnh Quảng Bình",
+      "name_en": "Quang Binh Province",
+      "slug": "quang-binh",
+      "districtCount": 8,
+      "wardCount": 145,
+      "hasIslandDistrict": false
+    },
+    {
+      "code": "49",
+      "name": "Tỉnh Quảng Nam",
+      "name_en": "Quang Nam Province",
+      "slug": "quang-nam",
+      "districtCount": 17,
+      "wardCount": 233,
+      "hasIslandDistrict": false
+    },
+    {
+      "code": "51",
+      "name": "Tỉnh Quảng Ngãi",
+      "name_en": "Quang Ngai Province",
+      "slug": "quang-ngai",
+      "districtCount": 13,
+      "wardCount": 170,
+      "hasIslandDistrict": true
+    },
+    {
+      "code": "22",
+      "name": "Tỉnh Quảng Ninh",
+      "name_en": "Quang Ninh Province",
+      "slug": "quang-ninh",
+      "districtCount": 13,
+      "wardCount": 171,
+      "hasIslandDistrict": false
+    },
+    {
+      "code": "45",
+      "name": "Tỉnh Quảng Trị",
+      "name_en": "Quang Tri Province",
+      "slug": "quang-tri",
+      "districtCount": 10,
+      "wardCount": 119,
+      "hasIslandDistrict": true
+    },
+    {
+      "code": "94",
+      "name": "Tỉnh Sóc Trăng",
+      "name_en": "Soc Trang Province",
+      "slug": "soc-trang",
+      "districtCount": 11,
+      "wardCount": 108,
+      "hasIslandDistrict": false
+    },
+    {
+      "code": "14",
+      "name": "Tỉnh Sơn La",
+      "name_en": "Son La Province",
+      "slug": "son-la",
+      "districtCount": 12,
+      "wardCount": 200,
+      "hasIslandDistrict": false
+    },
+    {
+      "code": "72",
+      "name": "Tỉnh Tây Ninh",
+      "name_en": "Tay Ninh Province",
+      "slug": "tay-ninh",
+      "districtCount": 9,
+      "wardCount": 94,
+      "hasIslandDistrict": false
+    },
+    {
+      "code": "34",
+      "name": "Tỉnh Thái Bình",
+      "name_en": "Thai Binh Province",
+      "slug": "thai-binh",
+      "districtCount": 8,
+      "wardCount": 242,
+      "hasIslandDistrict": false
+    },
+    {
+      "code": "19",
+      "name": "Tỉnh Thái Nguyên",
+      "name_en": "Thai Nguyen Province",
+      "slug": "thai-nguyen",
+      "districtCount": 9,
+      "wardCount": 172,
+      "hasIslandDistrict": false
+    },
+    {
+      "code": "38",
+      "name": "Tỉnh Thanh Hóa",
+      "name_en": "Thanh Hoa Province",
+      "slug": "thanh-hoa",
+      "districtCount": 26,
+      "wardCount": 547,
+      "hasIslandDistrict": false
+    },
+    {
+      "code": "82",
+      "name": "Tỉnh Tiền Giang",
+      "name_en": "Tien Giang Province",
+      "slug": "tien-giang",
+      "districtCount": 11,
+      "wardCount": 164,
+      "hasIslandDistrict": false
+    },
+    {
+      "code": "84",
+      "name": "Tỉnh Trà Vinh",
+      "name_en": "Tra Vinh Province",
+      "slug": "tra-vinh",
+      "districtCount": 9,
+      "wardCount": 104,
+      "hasIslandDistrict": false
+    },
+    {
+      "code": "08",
+      "name": "Tỉnh Tuyên Quang",
+      "name_en": "Tuyen Quang Province",
+      "slug": "tuyen-quang",
+      "districtCount": 7,
+      "wardCount": 137,
+      "hasIslandDistrict": false
+    },
+    {
+      "code": "86",
+      "name": "Tỉnh Vĩnh Long",
+      "name_en": "Vinh Long Province",
+      "slug": "vinh-long",
+      "districtCount": 8,
+      "wardCount": 102,
+      "hasIslandDistrict": false
+    },
+    {
+      "code": "26",
+      "name": "Tỉnh Vĩnh Phúc",
+      "name_en": "Vinh Phuc Province",
+      "slug": "vinh-phuc",
+      "districtCount": 9,
+      "wardCount": 121,
+      "hasIslandDistrict": false
+    },
+    {
+      "code": "15",
+      "name": "Tỉnh Yên Bái",
+      "name_en": "Yen Bai Province",
+      "slug": "yen-bai",
+      "districtCount": 9,
+      "wardCount": 168,
+      "hasIslandDistrict": false
+    }
+  ]
+}

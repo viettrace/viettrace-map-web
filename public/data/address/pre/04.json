@@ -1,0 +1,3320 @@
+{
+  "schemaVersion": 1,
+  "mergeDate": "2025-07-01",
+  "code": "04",
+  "name": "Tỉnh Cao Bằng",
+  "name_en": "Cao Bang Province",
+  "slug": "cao-bang",
+  "districts": [
+    {
+      "code": "40",
+      "name": "Thành phố Cao Bằng",
+      "type": "Thành phố",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "1282",
+          "name": "Phường Đề Thám",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Phường Thục Phán",
+              "newWardShort": "Thục Phán",
+              "newWardCode": "01273",
+              "newWardType": "Phường",
+              "lat": 22.6777,
+              "lon": 106.189,
+              "areaKm2": 55.44
+            }
+          ]
+        },
+        {
+          "code": "1288",
+          "name": "Phường Duyệt Trung",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Phường Tân Giang",
+              "newWardShort": "Tân Giang",
+              "newWardCode": "01288",
+              "newWardType": "Phường",
+              "lat": 22.6154,
+              "lon": 106.276,
+              "areaKm2": 84.26
+            }
+          ]
+        },
+        {
+          "code": "1285",
+          "name": "Phường Hòa Chung",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Phường Tân Giang",
+              "newWardShort": "Tân Giang",
+              "newWardCode": "01288",
+              "newWardType": "Phường",
+              "lat": 22.6154,
+              "lon": 106.276,
+              "areaKm2": 84.26
+            }
+          ]
+        },
+        {
+          "code": "1273",
+          "name": "Phường Hợp Giang",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Phường Thục Phán",
+              "newWardShort": "Thục Phán",
+              "newWardCode": "01273",
+              "newWardType": "Phường",
+              "lat": 22.6777,
+              "lon": 106.189,
+              "areaKm2": 55.44
+            }
+          ]
+        },
+        {
+          "code": "1279",
+          "name": "Phường Ngọc Xuân",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Phường Nùng Trí Cao",
+              "newWardShort": "Nùng Trí Cao",
+              "newWardCode": "01279",
+              "newWardType": "Phường",
+              "lat": 22.697,
+              "lon": 106.24,
+              "areaKm2": 29.31
+            }
+          ]
+        },
+        {
+          "code": "1270",
+          "name": "Phường Sông Bằng",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Phường Nùng Trí Cao",
+              "newWardShort": "Nùng Trí Cao",
+              "newWardCode": "01279",
+              "newWardType": "Phường",
+              "lat": 22.697,
+              "lon": 106.24,
+              "areaKm2": 29.31
+            }
+          ]
+        },
+        {
+          "code": "1267",
+          "name": "Phường Sông Hiến",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Phường Thục Phán",
+              "newWardShort": "Thục Phán",
+              "newWardCode": "01273",
+              "newWardType": "Phường",
+              "lat": 22.6777,
+              "lon": 106.189,
+              "areaKm2": 55.44
+            }
+          ]
+        },
+        {
+          "code": "1276",
+          "name": "Phường Tân Giang",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Phường Tân Giang",
+              "newWardShort": "Tân Giang",
+              "newWardCode": "01288",
+              "newWardType": "Phường",
+              "lat": 22.6154,
+              "lon": 106.276,
+              "areaKm2": 84.26
+            }
+          ]
+        },
+        {
+          "code": "1720",
+          "name": "Xã Chu Trinh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Phường Tân Giang",
+              "newWardShort": "Tân Giang",
+              "newWardCode": "01288",
+              "newWardType": "Phường",
+              "lat": 22.6154,
+              "lon": 106.276,
+              "areaKm2": 84.26
+            }
+          ]
+        },
+        {
+          "code": "1705",
+          "name": "Xã Hưng Đạo",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Phường Thục Phán",
+              "newWardShort": "Thục Phán",
+              "newWardCode": "01273",
+              "newWardType": "Phường",
+              "lat": 22.6777,
+              "lon": 106.189,
+              "areaKm2": 55.44
+            }
+          ]
+        },
+        {
+          "code": "1693",
+          "name": "Xã Vĩnh Quang",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Phường Nùng Trí Cao",
+              "newWardShort": "Nùng Trí Cao",
+              "newWardCode": "01279",
+              "newWardType": "Phường",
+              "lat": 22.697,
+              "lon": 106.24,
+              "areaKm2": 29.31
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "43",
+      "name": "Huyện Bảo Lạc",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "1321",
+          "name": "Thị trấn Bảo Lạc",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Bảo Lạc",
+              "newWardShort": "Bảo Lạc",
+              "newWardCode": "01321",
+              "newWardType": "Xã",
+              "lat": 22.9452,
+              "lon": 105.633,
+              "areaKm2": 118.7
+            }
+          ]
+        },
+        {
+          "code": "1333",
+          "name": "Xã Bảo Toàn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Bảo Lạc",
+              "newWardShort": "Bảo Lạc",
+              "newWardCode": "01321",
+              "newWardType": "Xã",
+              "lat": 22.9452,
+              "lon": 105.633,
+              "areaKm2": 118.7
+            }
+          ]
+        },
+        {
+          "code": "1330",
+          "name": "Xã Cô Ba",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Cô Ba",
+              "newWardShort": "Cô Ba",
+              "newWardCode": "01327",
+              "newWardType": "Xã",
+              "lat": 22.9993,
+              "lon": 105.714,
+              "areaKm2": 134.52
+            }
+          ]
+        },
+        {
+          "code": "1324",
+          "name": "Xã Cốc Pàng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Cốc Pàng",
+              "newWardShort": "Cốc Pàng",
+              "newWardCode": "01324",
+              "newWardType": "Xã",
+              "lat": 23.0393,
+              "lon": 105.577,
+              "areaKm2": 170.28
+            }
+          ]
+        },
+        {
+          "code": "1357",
+          "name": "Xã Đình Phùng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Huy Giáp",
+              "newWardShort": "Huy Giáp",
+              "newWardCode": "01354",
+              "newWardType": "Xã",
+              "lat": 22.7948,
+              "lon": 105.775,
+              "areaKm2": 133.76
+            }
+          ]
+        },
+        {
+          "code": "1348",
+          "name": "Xã Hồng An",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Xuân Trường",
+              "newWardShort": "Xuân Trường",
+              "newWardCode": "01339",
+              "newWardType": "Xã",
+              "lat": 22.8909,
+              "lon": 105.828,
+              "areaKm2": 122.92
+            }
+          ]
+        },
+        {
+          "code": "1342",
+          "name": "Xã Hồng Trị",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Bảo Lạc",
+              "newWardShort": "Bảo Lạc",
+              "newWardCode": "01321",
+              "newWardType": "Xã",
+              "lat": 22.9452,
+              "lon": 105.633,
+              "areaKm2": 118.7
+            }
+          ]
+        },
+        {
+          "code": "1351",
+          "name": "Xã Hưng Đạo",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Hưng Đạo",
+              "newWardShort": "Hưng Đạo",
+              "newWardCode": "01351",
+              "newWardType": "Xã",
+              "lat": 22.8355,
+              "lon": 105.671,
+              "areaKm2": 122.43
+            }
+          ]
+        },
+        {
+          "code": "1352",
+          "name": "Xã Hưng Thịnh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Hưng Đạo",
+              "newWardShort": "Hưng Đạo",
+              "newWardCode": "01351",
+              "newWardType": "Xã",
+              "lat": 22.8355,
+              "lon": 105.671,
+              "areaKm2": 122.43
+            }
+          ]
+        },
+        {
+          "code": "1354",
+          "name": "Xã Huy Giáp",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Huy Giáp",
+              "newWardShort": "Huy Giáp",
+              "newWardCode": "01354",
+              "newWardType": "Xã",
+              "lat": 22.7948,
+              "lon": 105.775,
+              "areaKm2": 133.76
+            }
+          ]
+        },
+        {
+          "code": "1336",
+          "name": "Xã Khánh Xuân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Khánh Xuân",
+              "newWardShort": "Khánh Xuân",
+              "newWardCode": "01336",
+              "newWardType": "Xã",
+              "lat": 22.9038,
+              "lon": 105.76,
+              "areaKm2": 109.96
+            }
+          ]
+        },
+        {
+          "code": "1343",
+          "name": "Xã Kim Cúc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Hưng Đạo",
+              "newWardShort": "Hưng Đạo",
+              "newWardCode": "01351",
+              "newWardType": "Xã",
+              "lat": 22.8355,
+              "lon": 105.671,
+              "areaKm2": 122.43
+            }
+          ]
+        },
+        {
+          "code": "1345",
+          "name": "Xã Phan Thanh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Khánh Xuân",
+              "newWardShort": "Khánh Xuân",
+              "newWardCode": "01336",
+              "newWardType": "Xã",
+              "lat": 22.9038,
+              "lon": 105.76,
+              "areaKm2": 109.96
+            }
+          ]
+        },
+        {
+          "code": "1359",
+          "name": "Xã Sơn Lập",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Sơn Lộ",
+              "newWardShort": "Sơn Lộ",
+              "newWardCode": "01360",
+              "newWardType": "Xã",
+              "lat": 22.7346,
+              "lon": 105.652,
+              "areaKm2": 97.38
+            }
+          ]
+        },
+        {
+          "code": "1360",
+          "name": "Xã Sơn Lộ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Sơn Lộ",
+              "newWardShort": "Sơn Lộ",
+              "newWardCode": "01360",
+              "newWardType": "Xã",
+              "lat": 22.7346,
+              "lon": 105.652,
+              "areaKm2": 97.38
+            }
+          ]
+        },
+        {
+          "code": "1327",
+          "name": "Xã Thượng Hà",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Cô Ba",
+              "newWardShort": "Cô Ba",
+              "newWardCode": "01327",
+              "newWardType": "Xã",
+              "lat": 22.9993,
+              "lon": 105.714,
+              "areaKm2": 134.52
+            }
+          ]
+        },
+        {
+          "code": "1339",
+          "name": "Xã Xuân Trường",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Xuân Trường",
+              "newWardShort": "Xuân Trường",
+              "newWardCode": "01339",
+              "newWardType": "Xã",
+              "lat": 22.8909,
+              "lon": 105.828,
+              "areaKm2": 122.92
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "42",
+      "name": "Huyện Bảo Lâm",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "1290",
+          "name": "Thị trấn Pác Miầu",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Bảo Lâm",
+              "newWardShort": "Bảo Lâm",
+              "newWardCode": "01290",
+              "newWardType": "Xã",
+              "lat": 22.8215,
+              "lon": 105.544,
+              "areaKm2": 161.82
+            }
+          ]
+        },
+        {
+          "code": "1291",
+          "name": "Xã Đức Hạnh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Cốc Pàng",
+              "newWardShort": "Cốc Pàng",
+              "newWardCode": "01324",
+              "newWardType": "Xã",
+              "lat": 23.0393,
+              "lon": 105.577,
+              "areaKm2": 170.28
+            }
+          ]
+        },
+        {
+          "code": "1294",
+          "name": "Xã Lý Bôn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Lý Bôn",
+              "newWardShort": "Lý Bôn",
+              "newWardCode": "01294",
+              "newWardType": "Xã",
+              "lat": 22.9306,
+              "lon": 105.53,
+              "areaKm2": 173.25
+            }
+          ]
+        },
+        {
+          "code": "1312",
+          "name": "Xã Mông Ân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Bảo Lâm",
+              "newWardShort": "Bảo Lâm",
+              "newWardCode": "01290",
+              "newWardType": "Xã",
+              "lat": 22.8215,
+              "lon": 105.544,
+              "areaKm2": 161.82
+            }
+          ]
+        },
+        {
+          "code": "1296",
+          "name": "Xã Nam Cao",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Nam Quang",
+              "newWardShort": "Nam Quang",
+              "newWardCode": "01297",
+              "newWardType": "Xã",
+              "lat": 22.9158,
+              "lon": 105.433,
+              "areaKm2": 148.16
+            }
+          ]
+        },
+        {
+          "code": "1297",
+          "name": "Xã Nam Quang",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Nam Quang",
+              "newWardShort": "Nam Quang",
+              "newWardCode": "01297",
+              "newWardType": "Xã",
+              "lat": 22.9158,
+              "lon": 105.433,
+              "areaKm2": 148.16
+            }
+          ]
+        },
+        {
+          "code": "1303",
+          "name": "Xã Quảng Lâm",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Quảng Lâm",
+              "newWardShort": "Quảng Lâm",
+              "newWardCode": "01304",
+              "newWardType": "Xã",
+              "lat": 22.8564,
+              "lon": 105.377,
+              "areaKm2": 172.93
+            }
+          ]
+        },
+        {
+          "code": "1304",
+          "name": "Xã Thạch Lâm",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Quảng Lâm",
+              "newWardShort": "Quảng Lâm",
+              "newWardCode": "01304",
+              "newWardType": "Xã",
+              "lat": 22.8564,
+              "lon": 105.377,
+              "areaKm2": 172.93
+            }
+          ]
+        },
+        {
+          "code": "1315",
+          "name": "Xã Thái Học",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Yên Thổ",
+              "newWardShort": "Yên Thổ",
+              "newWardCode": "01318",
+              "newWardType": "Xã",
+              "lat": 22.7232,
+              "lon": 105.539,
+              "areaKm2": 167.67
+            }
+          ]
+        },
+        {
+          "code": "1316",
+          "name": "Xã Thái Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Yên Thổ",
+              "newWardShort": "Yên Thổ",
+              "newWardCode": "01318",
+              "newWardType": "Xã",
+              "lat": 22.7232,
+              "lon": 105.539,
+              "areaKm2": 167.67
+            }
+          ]
+        },
+        {
+          "code": "1309",
+          "name": "Xã Vĩnh Phong",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Bảo Lâm",
+              "newWardShort": "Bảo Lâm",
+              "newWardCode": "01290",
+              "newWardType": "Xã",
+              "lat": 22.8215,
+              "lon": 105.544,
+              "areaKm2": 161.82
+            }
+          ]
+        },
+        {
+          "code": "1300",
+          "name": "Xã Vĩnh Quang",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Lý Bôn",
+              "newWardShort": "Lý Bôn",
+              "newWardCode": "01294",
+              "newWardType": "Xã",
+              "lat": 22.9306,
+              "lon": 105.53,
+              "areaKm2": 173.25
+            }
+          ]
+        },
+        {
+          "code": "1318",
+          "name": "Xã Yên Thổ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Yên Thổ",
+              "newWardShort": "Yên Thổ",
+              "newWardCode": "01318",
+              "newWardType": "Xã",
+              "lat": 22.7232,
+              "lon": 105.539,
+              "areaKm2": 167.67
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "48",
+      "name": "Huyện Hạ Lang",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "1558",
+          "name": "Thị trấn Thanh Nhật",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Hạ Lang",
+              "newWardShort": "Hạ Lang",
+              "newWardCode": "01558",
+              "newWardType": "Xã",
+              "lat": 22.6132,
+              "lon": 106.691,
+              "areaKm2": 81.13
+            }
+          ]
+        },
+        {
+          "code": "1555",
+          "name": "Xã An Lạc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Vinh Quý",
+              "newWardShort": "Vinh Quý",
+              "newWardCode": "01561",
+              "newWardType": "Xã",
+              "lat": 22.6786,
+              "lon": 106.619,
+              "areaKm2": 143.05
+            }
+          ]
+        },
+        {
+          "code": "1567",
+          "name": "Xã Cô Ngân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Vinh Quý",
+              "newWardShort": "Vinh Quý",
+              "newWardCode": "01561",
+              "newWardType": "Xã",
+              "lat": 22.6786,
+              "lon": 106.619,
+              "areaKm2": 143.05
+            }
+          ]
+        },
+        {
+          "code": "1543",
+          "name": "Xã Đồng Loan",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Lý Quốc",
+              "newWardShort": "Lý Quốc",
+              "newWardCode": "01537",
+              "newWardType": "Xã",
+              "lat": 22.7947,
+              "lon": 106.735,
+              "areaKm2": 102.18
+            }
+          ]
+        },
+        {
+          "code": "1546",
+          "name": "Xã Đức Quang",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Quang Long",
+              "newWardShort": "Quang Long",
+              "newWardCode": "01552",
+              "newWardType": "Xã",
+              "lat": 22.7373,
+              "lon": 106.692,
+              "areaKm2": 130.15
+            }
+          ]
+        },
+        {
+          "code": "1549",
+          "name": "Xã Kim Loan",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Vinh Quý",
+              "newWardShort": "Vinh Quý",
+              "newWardCode": "01561",
+              "newWardType": "Xã",
+              "lat": 22.6786,
+              "lon": 106.619,
+              "areaKm2": 143.05
+            }
+          ]
+        },
+        {
+          "code": "1537",
+          "name": "Xã Lý Quốc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Lý Quốc",
+              "newWardShort": "Lý Quốc",
+              "newWardCode": "01537",
+              "newWardType": "Xã",
+              "lat": 22.7947,
+              "lon": 106.735,
+              "areaKm2": 102.18
+            }
+          ]
+        },
+        {
+          "code": "1534",
+          "name": "Xã Minh Long",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Lý Quốc",
+              "newWardShort": "Lý Quốc",
+              "newWardCode": "01537",
+              "newWardType": "Xã",
+              "lat": 22.7947,
+              "lon": 106.735,
+              "areaKm2": 102.18
+            }
+          ]
+        },
+        {
+          "code": "1552",
+          "name": "Xã Quang Long",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Quang Long",
+              "newWardShort": "Quang Long",
+              "newWardCode": "01552",
+              "newWardType": "Xã",
+              "lat": 22.7373,
+              "lon": 106.692,
+              "areaKm2": 130.15
+            }
+          ]
+        },
+        {
+          "code": "1540",
+          "name": "Xã Thắng Lợi",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Quang Long",
+              "newWardShort": "Quang Long",
+              "newWardCode": "01552",
+              "newWardType": "Xã",
+              "lat": 22.7373,
+              "lon": 106.692,
+              "areaKm2": 130.15
+            }
+          ]
+        },
+        {
+          "code": "1573",
+          "name": "Xã Thị Hoa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Hạ Lang",
+              "newWardShort": "Hạ Lang",
+              "newWardCode": "01558",
+              "newWardType": "Xã",
+              "lat": 22.6132,
+              "lon": 106.691,
+              "areaKm2": 81.13
+            }
+          ]
+        },
+        {
+          "code": "1564",
+          "name": "Xã Thống Nhất",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Hạ Lang",
+              "newWardShort": "Hạ Lang",
+              "newWardCode": "01558",
+              "newWardType": "Xã",
+              "lat": 22.6132,
+              "lon": 106.691,
+              "areaKm2": 81.13
+            }
+          ]
+        },
+        {
+          "code": "1561",
+          "name": "Xã Vinh Quý",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Vinh Quý",
+              "newWardShort": "Vinh Quý",
+              "newWardCode": "01561",
+              "newWardType": "Xã",
+              "lat": 22.6786,
+              "lon": 106.619,
+              "areaKm2": 143.05
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "45",
+      "name": "Huyện Hà Quảng",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "1363",
+          "name": "Thị trấn Thông Nông",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Thông Nông",
+              "newWardShort": "Thông Nông",
+              "newWardCode": "01363",
+              "newWardType": "Xã",
+              "lat": 22.7925,
+              "lon": 105.994,
+              "areaKm2": 94.29
+            }
+          ]
+        },
+        {
+          "code": "1392",
+          "name": "Thị trấn Xuân Hòa",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Trường Hà",
+              "newWardShort": "Trường Hà",
+              "newWardCode": "01392",
+              "newWardType": "Xã",
+              "lat": 22.9121,
+              "lon": 106.029,
+              "areaKm2": 143.3
+            }
+          ]
+        },
+        {
+          "code": "1402",
+          "name": "Xã Cải Viên",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Tổng Cọt",
+              "newWardShort": "Tổng Cọt",
+              "newWardCode": "01414",
+              "newWardType": "Xã",
+              "lat": 22.9418,
+              "lon": 106.19,
+              "areaKm2": 100.48
+            }
+          ]
+        },
+        {
+          "code": "1367",
+          "name": "Xã Cần Nông",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Cần Yên",
+              "newWardShort": "Cần Yên",
+              "newWardCode": "01366",
+              "newWardType": "Xã",
+              "lat": 22.8831,
+              "lon": 105.926,
+              "areaKm2": 144.64
+            }
+          ]
+        },
+        {
+          "code": "1366",
+          "name": "Xã Cần Yên",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Cần Yên",
+              "newWardShort": "Cần Yên",
+              "newWardCode": "01366",
+              "newWardType": "Xã",
+              "lat": 22.8831,
+              "lon": 105.926,
+              "areaKm2": 144.64
+            }
+          ]
+        },
+        {
+          "code": "1375",
+          "name": "Xã Đa Thông",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Thông Nông",
+              "newWardShort": "Thông Nông",
+              "newWardCode": "01363",
+              "newWardType": "Xã",
+              "lat": 22.7925,
+              "lon": 105.994,
+              "areaKm2": 94.29
+            }
+          ]
+        },
+        {
+          "code": "1429",
+          "name": "Xã Hồng Sỹ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Hà Quảng",
+              "newWardShort": "Hà Quảng",
+              "newWardCode": "01438",
+              "newWardType": "Xã",
+              "lat": 22.8513,
+              "lon": 106.16,
+              "areaKm2": 112.25
+            }
+          ]
+        },
+        {
+          "code": "1393",
+          "name": "Xã Lũng Nặm",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Lũng Nặm",
+              "newWardShort": "Lũng Nặm",
+              "newWardCode": "01393",
+              "newWardType": "Xã",
+              "lat": 22.9158,
+              "lon": 106.115,
+              "areaKm2": 97.59
+            }
+          ]
+        },
+        {
+          "code": "1384",
+          "name": "Xã Lương Can",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Thông Nông",
+              "newWardShort": "Thông Nông",
+              "newWardCode": "01363",
+              "newWardType": "Xã",
+              "lat": 22.7925,
+              "lon": 105.994,
+              "areaKm2": 94.29
+            }
+          ]
+        },
+        {
+          "code": "1372",
+          "name": "Xã Lương Thông",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Cần Yên",
+              "newWardShort": "Cần Yên",
+              "newWardCode": "01366",
+              "newWardType": "Xã",
+              "lat": 22.8831,
+              "lon": 105.926,
+              "areaKm2": 144.64
+            }
+          ]
+        },
+        {
+          "code": "1435",
+          "name": "Xã Mã Ba",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Hà Quảng",
+              "newWardShort": "Hà Quảng",
+              "newWardCode": "01438",
+              "newWardType": "Xã",
+              "lat": 22.8513,
+              "lon": 106.16,
+              "areaKm2": 112.25
+            }
+          ]
+        },
+        {
+          "code": "1438",
+          "name": "Xã Ngọc Đào",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Hà Quảng",
+              "newWardShort": "Hà Quảng",
+              "newWardCode": "01438",
+              "newWardType": "Xã",
+              "lat": 22.8513,
+              "lon": 106.16,
+              "areaKm2": 112.25
+            }
+          ]
+        },
+        {
+          "code": "1378",
+          "name": "Xã Ngọc Động",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Thanh Long",
+              "newWardShort": "Thanh Long",
+              "newWardCode": "01387",
+              "newWardType": "Xã",
+              "lat": 22.7219,
+              "lon": 105.978,
+              "areaKm2": 118.62
+            }
+          ]
+        },
+        {
+          "code": "1411",
+          "name": "Xã Nội Thôn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Tổng Cọt",
+              "newWardShort": "Tổng Cọt",
+              "newWardCode": "01414",
+              "newWardType": "Xã",
+              "lat": 22.9418,
+              "lon": 106.19,
+              "areaKm2": 100.48
+            }
+          ]
+        },
+        {
+          "code": "1432",
+          "name": "Xã Quý Quân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Trường Hà",
+              "newWardShort": "Trường Hà",
+              "newWardCode": "01392",
+              "newWardType": "Xã",
+              "lat": 22.9121,
+              "lon": 106.029,
+              "areaKm2": 143.3
+            }
+          ]
+        },
+        {
+          "code": "1417",
+          "name": "Xã Sóc Hà",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Trường Hà",
+              "newWardShort": "Trường Hà",
+              "newWardCode": "01392",
+              "newWardType": "Xã",
+              "lat": 22.9121,
+              "lon": 106.029,
+              "areaKm2": 143.3
+            }
+          ]
+        },
+        {
+          "code": "1387",
+          "name": "Xã Thanh Long",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Thanh Long",
+              "newWardShort": "Thanh Long",
+              "newWardCode": "01387",
+              "newWardType": "Xã",
+              "lat": 22.7219,
+              "lon": 105.978,
+              "areaKm2": 118.62
+            }
+          ]
+        },
+        {
+          "code": "1420",
+          "name": "Xã Thượng Thôn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Lũng Nặm",
+              "newWardShort": "Lũng Nặm",
+              "newWardCode": "01393",
+              "newWardType": "Xã",
+              "lat": 22.9158,
+              "lon": 106.115,
+              "areaKm2": 97.59
+            }
+          ]
+        },
+        {
+          "code": "1414",
+          "name": "Xã Tổng Cọt",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Tổng Cọt",
+              "newWardShort": "Tổng Cọt",
+              "newWardCode": "01414",
+              "newWardType": "Xã",
+              "lat": 22.9418,
+              "lon": 106.19,
+              "areaKm2": 100.48
+            }
+          ]
+        },
+        {
+          "code": "1399",
+          "name": "Xã Trường Hà",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Trường Hà",
+              "newWardShort": "Trường Hà",
+              "newWardCode": "01392",
+              "newWardType": "Xã",
+              "lat": 22.9121,
+              "lon": 106.029,
+              "areaKm2": 143.3
+            }
+          ]
+        },
+        {
+          "code": "1381",
+          "name": "Xã Yên Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Thanh Long",
+              "newWardShort": "Thanh Long",
+              "newWardCode": "01387",
+              "newWardType": "Xã",
+              "lat": 22.7219,
+              "lon": 105.978,
+              "areaKm2": 118.62
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "51",
+      "name": "Huyện Hòa An",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "1654",
+          "name": "Thị trấn Nước Hai",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Hòa An",
+              "newWardShort": "Hòa An",
+              "newWardCode": "01654",
+              "newWardType": "Xã",
+              "lat": 22.7503,
+              "lon": 106.181,
+              "areaKm2": 97.03
+            }
+          ]
+        },
+        {
+          "code": "1708",
+          "name": "Xã Bạch Đằng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Bạch Đằng",
+              "newWardShort": "Bạch Đằng",
+              "newWardCode": "01708",
+              "newWardType": "Xã",
+              "lat": 22.5894,
+              "lon": 106.159,
+              "areaKm2": 141.61
+            }
+          ]
+        },
+        {
+          "code": "1711",
+          "name": "Xã Bình Dương",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Bạch Đằng",
+              "newWardShort": "Bạch Đằng",
+              "newWardCode": "01708",
+              "newWardType": "Xã",
+              "lat": 22.5894,
+              "lon": 106.159,
+              "areaKm2": 141.61
+            }
+          ]
+        },
+        {
+          "code": "1666",
+          "name": "Xã Đại Tiến",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Hòa An",
+              "newWardShort": "Hòa An",
+              "newWardCode": "01654",
+              "newWardType": "Xã",
+              "lat": 22.7503,
+              "lon": 106.181,
+              "areaKm2": 97.03
+            }
+          ]
+        },
+        {
+          "code": "1657",
+          "name": "Xã Dân Chủ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Nam Tuấn",
+              "newWardShort": "Nam Tuấn",
+              "newWardCode": "01660",
+              "newWardType": "Xã",
+              "lat": 22.7807,
+              "lon": 106.106,
+              "areaKm2": 119.66
+            }
+          ]
+        },
+        {
+          "code": "1669",
+          "name": "Xã Đức Long",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Nam Tuấn",
+              "newWardShort": "Nam Tuấn",
+              "newWardCode": "01660",
+              "newWardType": "Xã",
+              "lat": 22.7807,
+              "lon": 106.106,
+              "areaKm2": 119.66
+            }
+          ]
+        },
+        {
+          "code": "1696",
+          "name": "Xã Hoàng Tung",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Phường Thục Phán",
+              "newWardShort": "Thục Phán",
+              "newWardCode": "01273",
+              "newWardType": "Phường",
+              "lat": 22.6777,
+              "lon": 106.189,
+              "areaKm2": 55.44
+            }
+          ]
+        },
+        {
+          "code": "1723",
+          "name": "Xã Hồng Nam",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Kim Đồng",
+              "newWardShort": "Kim Đồng",
+              "newWardCode": "01792",
+              "newWardType": "Xã",
+              "lat": 22.5336,
+              "lon": 106.344,
+              "areaKm2": 112.06
+            }
+          ]
+        },
+        {
+          "code": "1687",
+          "name": "Xã Hồng Việt",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Hòa An",
+              "newWardShort": "Hòa An",
+              "newWardCode": "01654",
+              "newWardType": "Xã",
+              "lat": 22.7503,
+              "lon": 106.181,
+              "areaKm2": 97.03
+            }
+          ]
+        },
+        {
+          "code": "1714",
+          "name": "Xã Lê Chung",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Phường Tân Giang",
+              "newWardShort": "Tân Giang",
+              "newWardCode": "01288",
+              "newWardType": "Phường",
+              "lat": 22.6154,
+              "lon": 106.276,
+              "areaKm2": 84.26
+            }
+          ]
+        },
+        {
+          "code": "1660",
+          "name": "Xã Nam Tuấn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Nam Tuấn",
+              "newWardShort": "Nam Tuấn",
+              "newWardCode": "01660",
+              "newWardType": "Xã",
+              "lat": 22.7807,
+              "lon": 106.106,
+              "areaKm2": 119.66
+            }
+          ]
+        },
+        {
+          "code": "1672",
+          "name": "Xã Ngũ Lão",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Nguyễn Huệ",
+              "newWardShort": "Nguyễn Huệ",
+              "newWardCode": "01699",
+              "newWardType": "Xã",
+              "lat": 22.6961,
+              "lon": 106.297,
+              "areaKm2": 146.8
+            }
+          ]
+        },
+        {
+          "code": "1699",
+          "name": "Xã Nguyễn Huệ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Nguyễn Huệ",
+              "newWardShort": "Nguyễn Huệ",
+              "newWardCode": "01699",
+              "newWardType": "Xã",
+              "lat": 22.6961,
+              "lon": 106.297,
+              "areaKm2": 146.8
+            }
+          ]
+        },
+        {
+          "code": "1702",
+          "name": "Xã Quang Trung",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Nguyễn Huệ",
+              "newWardShort": "Nguyễn Huệ",
+              "newWardCode": "01699",
+              "newWardType": "Xã",
+              "lat": 22.6961,
+              "lon": 106.297,
+              "areaKm2": 146.8
+            }
+          ]
+        },
+        {
+          "code": "1675",
+          "name": "Xã Trương Lương",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Minh Tâm",
+              "newWardShort": "Minh Tâm",
+              "newWardCode": "01747",
+              "newWardType": "Xã",
+              "lat": 22.6949,
+              "lon": 106.078,
+              "areaKm2": 106.64
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "52",
+      "name": "Huyện Nguyên Bình",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "1726",
+          "name": "Thị trấn Nguyên Bình",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Nguyên Bình",
+              "newWardShort": "Nguyên Bình",
+              "newWardCode": "01726",
+              "newWardType": "Xã",
+              "lat": 22.66,
+              "lon": 105.986,
+              "areaKm2": 99.73
+            }
+          ]
+        },
+        {
+          "code": "1729",
+          "name": "Thị trấn Tĩnh Túc",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Tĩnh Túc",
+              "newWardShort": "Tĩnh Túc",
+              "newWardCode": "01729",
+              "newWardType": "Xã",
+              "lat": 22.6881,
+              "lon": 105.889,
+              "areaKm2": 86.79
+            }
+          ]
+        },
+        {
+          "code": "1738",
+          "name": "Xã Ca Thành",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Ca Thành",
+              "newWardShort": "Ca Thành",
+              "newWardCode": "01738",
+              "newWardType": "Xã",
+              "lat": 22.7244,
+              "lon": 105.828,
+              "areaKm2": 109.85
+            }
+          ]
+        },
+        {
+          "code": "1765",
+          "name": "Xã Hoa Thám",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Tam Kim",
+              "newWardShort": "Tam Kim",
+              "newWardCode": "01774",
+              "newWardType": "Xã",
+              "lat": 22.5958,
+              "lon": 106.02,
+              "areaKm2": 161.81
+            }
+          ]
+        },
+        {
+          "code": "1783",
+          "name": "Xã Hưng Đạo",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Tam Kim",
+              "newWardShort": "Tam Kim",
+              "newWardCode": "01774",
+              "newWardType": "Xã",
+              "lat": 22.5958,
+              "lon": 106.02,
+              "areaKm2": 161.81
+            }
+          ]
+        },
+        {
+          "code": "1756",
+          "name": "Xã Mai Long",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Phan Thanh",
+              "newWardShort": "Phan Thanh",
+              "newWardCode": "01768",
+              "newWardType": "Xã",
+              "lat": 22.6142,
+              "lon": 105.8,
+              "areaKm2": 138.09
+            }
+          ]
+        },
+        {
+          "code": "1747",
+          "name": "Xã Minh Tâm",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Minh Tâm",
+              "newWardShort": "Minh Tâm",
+              "newWardCode": "01747",
+              "newWardType": "Xã",
+              "lat": 22.6949,
+              "lon": 106.078,
+              "areaKm2": 106.64
+            }
+          ]
+        },
+        {
+          "code": "1768",
+          "name": "Xã Phan Thanh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Phan Thanh",
+              "newWardShort": "Phan Thanh",
+              "newWardCode": "01768",
+              "newWardType": "Xã",
+              "lat": 22.6142,
+              "lon": 105.8,
+              "areaKm2": 138.09
+            }
+          ]
+        },
+        {
+          "code": "1771",
+          "name": "Xã Quang Thành",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Thành Công",
+              "newWardShort": "Thành Công",
+              "newWardCode": "01777",
+              "newWardType": "Xã",
+              "lat": 22.5733,
+              "lon": 105.895,
+              "areaKm2": 140.63
+            }
+          ]
+        },
+        {
+          "code": "1774",
+          "name": "Xã Tam Kim",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Tam Kim",
+              "newWardShort": "Tam Kim",
+              "newWardCode": "01774",
+              "newWardType": "Xã",
+              "lat": 22.5958,
+              "lon": 106.02,
+              "areaKm2": 161.81
+            }
+          ]
+        },
+        {
+          "code": "1777",
+          "name": "Xã Thành Công",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Thành Công",
+              "newWardShort": "Thành Công",
+              "newWardCode": "01777",
+              "newWardType": "Xã",
+              "lat": 22.5733,
+              "lon": 105.895,
+              "areaKm2": 140.63
+            }
+          ]
+        },
+        {
+          "code": "1750",
+          "name": "Xã Thể Dục",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Nguyên Bình",
+              "newWardShort": "Nguyên Bình",
+              "newWardCode": "01726",
+              "newWardType": "Xã",
+              "lat": 22.66,
+              "lon": 105.986,
+              "areaKm2": 99.73
+            }
+          ]
+        },
+        {
+          "code": "1780",
+          "name": "Xã Thịnh Vượng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Bạch Đằng",
+              "newWardShort": "Bạch Đằng",
+              "newWardCode": "01708",
+              "newWardType": "Xã",
+              "lat": 22.5894,
+              "lon": 106.159,
+              "areaKm2": 141.61
+            }
+          ]
+        },
+        {
+          "code": "1735",
+          "name": "Xã Triệu Nguyên",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Tĩnh Túc",
+              "newWardShort": "Tĩnh Túc",
+              "newWardCode": "01729",
+              "newWardType": "Xã",
+              "lat": 22.6881,
+              "lon": 105.889,
+              "areaKm2": 86.79
+            }
+          ]
+        },
+        {
+          "code": "1762",
+          "name": "Xã Vũ Minh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Nguyên Bình",
+              "newWardShort": "Nguyên Bình",
+              "newWardCode": "01726",
+              "newWardType": "Xã",
+              "lat": 22.66,
+              "lon": 105.986,
+              "areaKm2": 99.73
+            }
+          ]
+        },
+        {
+          "code": "1744",
+          "name": "Xã Vũ Nông",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Tĩnh Túc",
+              "newWardShort": "Tĩnh Túc",
+              "newWardCode": "01729",
+              "newWardType": "Xã",
+              "lat": 22.6881,
+              "lon": 105.889,
+              "areaKm2": 86.79
+            }
+          ]
+        },
+        {
+          "code": "1732",
+          "name": "Xã Yên Lạc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Ca Thành",
+              "newWardShort": "Ca Thành",
+              "newWardCode": "01738",
+              "newWardType": "Xã",
+              "lat": 22.7244,
+              "lon": 105.828,
+              "areaKm2": 109.85
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "49",
+      "name": "Huyện Quảng Hòa",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "1648",
+          "name": "Thị trấn Hòa Thuận",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Phục Hòa",
+              "newWardShort": "Phục Hòa",
+              "newWardCode": "01648",
+              "newWardType": "Xã",
+              "lat": 22.5269,
+              "lon": 106.531,
+              "areaKm2": 122.7
+            }
+          ]
+        },
+        {
+          "code": "1576",
+          "name": "Thị trấn Quảng Uyên",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Quảng Uyên",
+              "newWardShort": "Quảng Uyên",
+              "newWardCode": "01576",
+              "newWardType": "Xã",
+              "lat": 22.7143,
+              "lon": 106.416,
+              "areaKm2": 128.05
+            }
+          ]
+        },
+        {
+          "code": "1627",
+          "name": "Thị trấn Tà Lùng",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Phục Hòa",
+              "newWardShort": "Phục Hòa",
+              "newWardCode": "01648",
+              "newWardType": "Xã",
+              "lat": 22.5269,
+              "lon": 106.531,
+              "areaKm2": 122.7
+            }
+          ]
+        },
+        {
+          "code": "1630",
+          "name": "Xã Bế Văn Đàn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Bế Văn Đàn",
+              "newWardShort": "Bế Văn Đàn",
+              "newWardCode": "01636",
+              "newWardType": "Xã",
+              "lat": 22.6125,
+              "lon": 106.541,
+              "areaKm2": 118.31
+            }
+          ]
+        },
+        {
+          "code": "1636",
+          "name": "Xã Cách Linh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Bế Văn Đàn",
+              "newWardShort": "Bế Văn Đàn",
+              "newWardCode": "01636",
+              "newWardType": "Xã",
+              "lat": 22.6125,
+              "lon": 106.541,
+              "areaKm2": 118.31
+            }
+          ]
+        },
+        {
+          "code": "1597",
+          "name": "Xã Cai Bộ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Độc Lập",
+              "newWardShort": "Độc Lập",
+              "newWardCode": "01594",
+              "newWardType": "Xã",
+              "lat": 22.7084,
+              "lon": 106.5,
+              "areaKm2": 102.21
+            }
+          ]
+        },
+        {
+          "code": "1606",
+          "name": "Xã Chí Thảo",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Quảng Uyên",
+              "newWardShort": "Quảng Uyên",
+              "newWardCode": "01576",
+              "newWardType": "Xã",
+              "lat": 22.7143,
+              "lon": 106.416,
+              "areaKm2": 128.05
+            }
+          ]
+        },
+        {
+          "code": "1639",
+          "name": "Xã Đại Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Phục Hòa",
+              "newWardShort": "Phục Hòa",
+              "newWardCode": "01648",
+              "newWardType": "Xã",
+              "lat": 22.5269,
+              "lon": 106.531,
+              "areaKm2": 122.7
+            }
+          ]
+        },
+        {
+          "code": "1594",
+          "name": "Xã Độc Lập",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Độc Lập",
+              "newWardShort": "Độc Lập",
+              "newWardCode": "01594",
+              "newWardType": "Xã",
+              "lat": 22.7084,
+              "lon": 106.5,
+              "areaKm2": 102.21
+            }
+          ]
+        },
+        {
+          "code": "1624",
+          "name": "Xã Hạnh Phúc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Hạnh Phúc",
+              "newWardShort": "Hạnh Phúc",
+              "newWardCode": "01618",
+              "newWardType": "Xã",
+              "lat": 22.6235,
+              "lon": 106.412,
+              "areaKm2": 126.78
+            }
+          ]
+        },
+        {
+          "code": "1615",
+          "name": "Xã Hồng Quang",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Bế Văn Đàn",
+              "newWardShort": "Bế Văn Đàn",
+              "newWardCode": "01636",
+              "newWardType": "Xã",
+              "lat": 22.6125,
+              "lon": 106.541,
+              "areaKm2": 118.31
+            }
+          ]
+        },
+        {
+          "code": "1651",
+          "name": "Xã Mỹ Hưng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Phục Hòa",
+              "newWardShort": "Phục Hòa",
+              "newWardCode": "01648",
+              "newWardType": "Xã",
+              "lat": 22.5269,
+              "lon": 106.531,
+              "areaKm2": 122.7
+            }
+          ]
+        },
+        {
+          "code": "1618",
+          "name": "Xã Ngọc Động",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Hạnh Phúc",
+              "newWardShort": "Hạnh Phúc",
+              "newWardCode": "01618",
+              "newWardType": "Xã",
+              "lat": 22.6235,
+              "lon": 106.412,
+              "areaKm2": 126.78
+            }
+          ]
+        },
+        {
+          "code": "1579",
+          "name": "Xã Phi Hải",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Quảng Uyên",
+              "newWardShort": "Quảng Uyên",
+              "newWardCode": "01576",
+              "newWardType": "Xã",
+              "lat": 22.7143,
+              "lon": 106.416,
+              "areaKm2": 128.05
+            }
+          ]
+        },
+        {
+          "code": "1603",
+          "name": "Xã Phúc Sen",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Quảng Uyên",
+              "newWardShort": "Quảng Uyên",
+              "newWardCode": "01576",
+              "newWardType": "Xã",
+              "lat": 22.7143,
+              "lon": 106.416,
+              "areaKm2": 128.05
+            }
+          ]
+        },
+        {
+          "code": "1582",
+          "name": "Xã Quảng Hưng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Độc Lập",
+              "newWardShort": "Độc Lập",
+              "newWardCode": "01594",
+              "newWardType": "Xã",
+              "lat": 22.7084,
+              "lon": 106.5,
+              "areaKm2": 102.21
+            }
+          ]
+        },
+        {
+          "code": "1474",
+          "name": "Xã Quốc Toản",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Trà Lĩnh",
+              "newWardShort": "Trà Lĩnh",
+              "newWardCode": "01447",
+              "newWardType": "Xã",
+              "lat": 22.784,
+              "lon": 106.328,
+              "areaKm2": 74.97
+            }
+          ]
+        },
+        {
+          "code": "1645",
+          "name": "Xã Tiên Thành",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Thạch An",
+              "newWardShort": "Thạch An",
+              "newWardCode": "01807",
+              "newWardType": "Xã",
+              "lat": 22.4985,
+              "lon": 106.423,
+              "areaKm2": 113.74
+            }
+          ]
+        },
+        {
+          "code": "1609",
+          "name": "Xã Tự Do",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Hạnh Phúc",
+              "newWardShort": "Hạnh Phúc",
+              "newWardCode": "01618",
+              "newWardType": "Xã",
+              "lat": 22.6235,
+              "lon": 106.412,
+              "areaKm2": 126.78
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "53",
+      "name": "Huyện Thạch An",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "1786",
+          "name": "Thị trấn Đông Khê",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Đông Khê",
+              "newWardShort": "Đông Khê",
+              "newWardCode": "01786",
+              "newWardType": "Xã",
+              "lat": 22.4133,
+              "lon": 106.359,
+              "areaKm2": 125.27
+            }
+          ]
+        },
+        {
+          "code": "1789",
+          "name": "Xã Canh Tân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Canh Tân",
+              "newWardShort": "Canh Tân",
+              "newWardCode": "01789",
+              "newWardType": "Xã",
+              "lat": 22.51,
+              "lon": 106.269,
+              "areaKm2": 132.36
+            }
+          ]
+        },
+        {
+          "code": "1822",
+          "name": "Xã Đức Long",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Đức Long",
+              "newWardShort": "Đức Long",
+              "newWardCode": "01822",
+              "newWardType": "Xã",
+              "lat": 22.4453,
+              "lon": 106.495,
+              "areaKm2": 106.93
+            }
+          ]
+        },
+        {
+          "code": "1801",
+          "name": "Xã Đức Thông",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Canh Tân",
+              "newWardShort": "Canh Tân",
+              "newWardCode": "01789",
+              "newWardType": "Xã",
+              "lat": 22.51,
+              "lon": 106.269,
+              "areaKm2": 132.36
+            }
+          ]
+        },
+        {
+          "code": "1831",
+          "name": "Xã Đức Xuân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Đông Khê",
+              "newWardShort": "Đông Khê",
+              "newWardCode": "01786",
+              "newWardType": "Xã",
+              "lat": 22.4133,
+              "lon": 106.359,
+              "areaKm2": 125.27
+            }
+          ]
+        },
+        {
+          "code": "1792",
+          "name": "Xã Kim Đồng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Kim Đồng",
+              "newWardShort": "Kim Đồng",
+              "newWardCode": "01792",
+              "newWardType": "Xã",
+              "lat": 22.5336,
+              "lon": 106.344,
+              "areaKm2": 112.06
+            }
+          ]
+        },
+        {
+          "code": "1819",
+          "name": "Xã Lê Lai",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Thạch An",
+              "newWardShort": "Thạch An",
+              "newWardCode": "01807",
+              "newWardType": "Xã",
+              "lat": 22.4985,
+              "lon": 106.423,
+              "areaKm2": 113.74
+            }
+          ]
+        },
+        {
+          "code": "1828",
+          "name": "Xã Lê Lợi",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Đức Long",
+              "newWardShort": "Đức Long",
+              "newWardCode": "01822",
+              "newWardType": "Xã",
+              "lat": 22.4453,
+              "lon": 106.495,
+              "areaKm2": 106.93
+            }
+          ]
+        },
+        {
+          "code": "1795",
+          "name": "Xã Minh Khai",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Minh Khai",
+              "newWardShort": "Minh Khai",
+              "newWardCode": "01795",
+              "newWardType": "Xã",
+              "lat": 22.4697,
+              "lon": 106.171,
+              "areaKm2": 173.4
+            }
+          ]
+        },
+        {
+          "code": "1813",
+          "name": "Xã Quang Trọng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Minh Khai",
+              "newWardShort": "Minh Khai",
+              "newWardCode": "01795",
+              "newWardType": "Xã",
+              "lat": 22.4697,
+              "lon": 106.171,
+              "areaKm2": 173.4
+            }
+          ]
+        },
+        {
+          "code": "1804",
+          "name": "Xã Thái Cường",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Kim Đồng",
+              "newWardShort": "Kim Đồng",
+              "newWardCode": "01792",
+              "newWardType": "Xã",
+              "lat": 22.5336,
+              "lon": 106.344,
+              "areaKm2": 112.06
+            }
+          ]
+        },
+        {
+          "code": "1810",
+          "name": "Xã Thụy Hùng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Đức Long",
+              "newWardShort": "Đức Long",
+              "newWardCode": "01822",
+              "newWardType": "Xã",
+              "lat": 22.4453,
+              "lon": 106.495,
+              "areaKm2": 106.93
+            }
+          ]
+        },
+        {
+          "code": "1816",
+          "name": "Xã Trọng Con",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Đông Khê",
+              "newWardShort": "Đông Khê",
+              "newWardCode": "01786",
+              "newWardType": "Xã",
+              "lat": 22.4133,
+              "lon": 106.359,
+              "areaKm2": 125.27
+            }
+          ]
+        },
+        {
+          "code": "1807",
+          "name": "Xã Vân Trình",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Thạch An",
+              "newWardShort": "Thạch An",
+              "newWardCode": "01807",
+              "newWardType": "Xã",
+              "lat": 22.4985,
+              "lon": 106.423,
+              "areaKm2": 113.74
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "47",
+      "name": "Huyện Trùng Khánh",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "1447",
+          "name": "Thị trấn Trà Lĩnh",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Trà Lĩnh",
+              "newWardShort": "Trà Lĩnh",
+              "newWardCode": "01447",
+              "newWardType": "Xã",
+              "lat": 22.784,
+              "lon": 106.328,
+              "areaKm2": 74.97
+            }
+          ]
+        },
+        {
+          "code": "1477",
+          "name": "Thị trấn Trùng Khánh",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Trùng Khánh",
+              "newWardShort": "Trùng Khánh",
+              "newWardCode": "01477",
+              "newWardType": "Xã",
+              "lat": 22.8405,
+              "lon": 106.496,
+              "areaKm2": 125.5
+            }
+          ]
+        },
+        {
+          "code": "1471",
+          "name": "Xã Cao Chương",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Trà Lĩnh",
+              "newWardShort": "Trà Lĩnh",
+              "newWardCode": "01447",
+              "newWardType": "Xã",
+              "lat": 22.784,
+              "lon": 106.328,
+              "areaKm2": 74.97
+            }
+          ]
+        },
+        {
+          "code": "1519",
+          "name": "Xã Cao Thăng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Đoài Dương",
+              "newWardShort": "Đoài Dương",
+              "newWardCode": "01525",
+              "newWardType": "Xã",
+              "lat": 22.7565,
+              "lon": 106.503,
+              "areaKm2": 114.48
+            }
+          ]
+        },
+        {
+          "code": "1501",
+          "name": "Xã Chí Viễn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Đàm Thủy",
+              "newWardShort": "Đàm Thủy",
+              "newWardCode": "01501",
+              "newWardType": "Xã",
+              "lat": 22.8332,
+              "lon": 106.651,
+              "areaKm2": 114.63
+            }
+          ]
+        },
+        {
+          "code": "1495",
+          "name": "Xã Đàm Thủy",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Đàm Thủy",
+              "newWardShort": "Đàm Thủy",
+              "newWardCode": "01501",
+              "newWardType": "Xã",
+              "lat": 22.8332,
+              "lon": 106.651,
+              "areaKm2": 114.63
+            }
+          ]
+        },
+        {
+          "code": "1489",
+          "name": "Xã Đình Phong",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Đình Phong",
+              "newWardShort": "Đình Phong",
+              "newWardCode": "01489",
+              "newWardType": "Xã",
+              "lat": 22.8904,
+              "lon": 106.566,
+              "areaKm2": 113.77
+            }
+          ]
+        },
+        {
+          "code": "1525",
+          "name": "Xã Đoài Dương",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Đoài Dương",
+              "newWardShort": "Đoài Dương",
+              "newWardCode": "01525",
+              "newWardType": "Xã",
+              "lat": 22.7565,
+              "lon": 106.503,
+              "areaKm2": 114.48
+            }
+          ]
+        },
+        {
+          "code": "1522",
+          "name": "Xã Đức Hồng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Trùng Khánh",
+              "newWardShort": "Trùng Khánh",
+              "newWardCode": "01477",
+              "newWardType": "Xã",
+              "lat": 22.8405,
+              "lon": 106.496,
+              "areaKm2": 125.5
+            }
+          ]
+        },
+        {
+          "code": "1498",
+          "name": "Xã Khâm Thành",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Trùng Khánh",
+              "newWardShort": "Trùng Khánh",
+              "newWardCode": "01477",
+              "newWardType": "Xã",
+              "lat": 22.8405,
+              "lon": 106.496,
+              "areaKm2": 125.5
+            }
+          ]
+        },
+        {
+          "code": "1504",
+          "name": "Xã Lăng Hiếu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Trùng Khánh",
+              "newWardShort": "Trùng Khánh",
+              "newWardCode": "01477",
+              "newWardType": "Xã",
+              "lat": 22.8405,
+              "lon": 106.496,
+              "areaKm2": 125.5
+            }
+          ]
+        },
+        {
+          "code": "1481",
+          "name": "Xã Ngọc Côn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Đình Phong",
+              "newWardShort": "Đình Phong",
+              "newWardCode": "01489",
+              "newWardType": "Xã",
+              "lat": 22.8904,
+              "lon": 106.566,
+              "areaKm2": 113.77
+            }
+          ]
+        },
+        {
+          "code": "1480",
+          "name": "Xã Ngọc Khê",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Đình Phong",
+              "newWardShort": "Đình Phong",
+              "newWardCode": "01489",
+              "newWardType": "Xã",
+              "lat": 22.8904,
+              "lon": 106.566,
+              "areaKm2": 113.77
+            }
+          ]
+        },
+        {
+          "code": "1507",
+          "name": "Xã Phong Châu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Đàm Thủy",
+              "newWardShort": "Đàm Thủy",
+              "newWardCode": "01501",
+              "newWardType": "Xã",
+              "lat": 22.8332,
+              "lon": 106.651,
+              "areaKm2": 114.63
+            }
+          ]
+        },
+        {
+          "code": "1483",
+          "name": "Xã Phong Nặm",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Đình Phong",
+              "newWardShort": "Đình Phong",
+              "newWardCode": "01489",
+              "newWardType": "Xã",
+              "lat": 22.8904,
+              "lon": 106.566,
+              "areaKm2": 113.77
+            }
+          ]
+        },
+        {
+          "code": "1456",
+          "name": "Xã Quang Hán",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Quang Hán",
+              "newWardShort": "Quang Hán",
+              "newWardCode": "01456",
+              "newWardType": "Xã",
+              "lat": 22.835,
+              "lon": 106.265,
+              "areaKm2": 93.61
+            }
+          ]
+        },
+        {
+          "code": "1465",
+          "name": "Xã Quang Trung",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Quang Trung",
+              "newWardShort": "Quang Trung",
+              "newWardCode": "01465",
+              "newWardType": "Xã",
+              "lat": 22.8351,
+              "lon": 106.39,
+              "areaKm2": 82.6
+            }
+          ]
+        },
+        {
+          "code": "1468",
+          "name": "Xã Quang Vinh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Quang Hán",
+              "newWardShort": "Quang Hán",
+              "newWardCode": "01456",
+              "newWardType": "Xã",
+              "lat": 22.835,
+              "lon": 106.265,
+              "areaKm2": 93.61
+            }
+          ]
+        },
+        {
+          "code": "1453",
+          "name": "Xã Tri Phương",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Quang Trung",
+              "newWardShort": "Quang Trung",
+              "newWardCode": "01465",
+              "newWardType": "Xã",
+              "lat": 22.8351,
+              "lon": 106.39,
+              "areaKm2": 82.6
+            }
+          ]
+        },
+        {
+          "code": "1516",
+          "name": "Xã Trung Phúc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Đoài Dương",
+              "newWardShort": "Đoài Dương",
+              "newWardCode": "01525",
+              "newWardType": "Xã",
+              "lat": 22.7565,
+              "lon": 106.503,
+              "areaKm2": 114.48
+            }
+          ]
+        },
+        {
+          "code": "1462",
+          "name": "Xã Xuân Nội",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cao Bằng",
+              "newProvinceSlug": "cao-bang",
+              "newProvinceCode": "04",
+              "newWard": "Xã Quang Trung",
+              "newWardShort": "Quang Trung",
+              "newWardCode": "01465",
+              "newWardType": "Xã",
+              "lat": 22.8351,
+              "lon": 106.39,
+              "areaKm2": 82.6
+            }
+          ]
+        }
+      ],
+      "results": []
+    }
+  ]
+}

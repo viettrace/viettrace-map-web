@@ -1,0 +1,3757 @@
+{
+  "schemaVersion": 1,
+  "mergeDate": "2025-07-01",
+  "code": "66",
+  "name": "Tỉnh Đắk Lắk",
+  "name_en": "Dak Lak Province",
+  "slug": "dak-lak",
+  "districts": [
+    {
+      "code": "643",
+      "name": "Thành phố Buôn Ma Thuột",
+      "type": "Thành phố",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "24151",
+          "name": "Phường Ea Tam",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Phường Ea Kao",
+              "newWardShort": "Ea Kao",
+              "newWardCode": "24169",
+              "newWardType": "Phường",
+              "lat": 12.6109,
+              "lon": 108.048,
+              "areaKm2": 60.7
+            }
+          ]
+        },
+        {
+          "code": "24154",
+          "name": "Phường Khánh Xuân",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Phường Thành Nhất",
+              "newWardShort": "Thành Nhất",
+              "newWardCode": "24154",
+              "newWardType": "Phường",
+              "lat": 12.657,
+              "lon": 107.98,
+              "areaKm2": 32.22
+            }
+          ]
+        },
+        {
+          "code": "24124",
+          "name": "Phường Tân An",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Phường Tân An",
+              "newWardShort": "Tân An",
+              "newWardCode": "24163",
+              "newWardType": "Phường",
+              "lat": 12.7203,
+              "lon": 108.11,
+              "areaKm2": 8.06
+            }
+          ]
+        },
+        {
+          "code": "24121",
+          "name": "Phường Tân Hòa",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Phường Tân Lập",
+              "newWardShort": "Tân Lập",
+              "newWardCode": "24121",
+              "newWardType": "Phường",
+              "lat": 12.6647,
+              "lon": 108.097,
+              "areaKm2": 46.7
+            }
+          ]
+        },
+        {
+          "code": "24118",
+          "name": "Phường Tân Lập",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Phường Tân Lập",
+              "newWardShort": "Tân Lập",
+              "newWardCode": "24121",
+              "newWardType": "Phường",
+              "lat": 12.6647,
+              "lon": 108.097,
+              "areaKm2": 46.7
+            }
+          ]
+        },
+        {
+          "code": "24136",
+          "name": "Phường Tân Lợi",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Phường Buôn Ma Thuột",
+              "newWardShort": "Buôn Ma Thuột",
+              "newWardCode": "24133",
+              "newWardType": "Phường",
+              "lat": 12.7089,
+              "lon": 108.028,
+              "areaKm2": 71.99
+            }
+          ]
+        },
+        {
+          "code": "24142",
+          "name": "Phường Tân Thành",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Phường Buôn Ma Thuột",
+              "newWardShort": "Buôn Ma Thuột",
+              "newWardCode": "24133",
+              "newWardType": "Phường",
+              "lat": 12.7089,
+              "lon": 108.028,
+              "areaKm2": 71.99
+            }
+          ]
+        },
+        {
+          "code": "24145",
+          "name": "Phường Tân Tiến",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Phường Buôn Ma Thuột",
+              "newWardShort": "Buôn Ma Thuột",
+              "newWardCode": "24133",
+              "newWardType": "Phường",
+              "lat": 12.7089,
+              "lon": 108.028,
+              "areaKm2": 71.99
+            }
+          ]
+        },
+        {
+          "code": "24133",
+          "name": "Phường Thành Công",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Phường Buôn Ma Thuột",
+              "newWardShort": "Buôn Ma Thuột",
+              "newWardCode": "24133",
+              "newWardType": "Phường",
+              "lat": 12.7089,
+              "lon": 108.028,
+              "areaKm2": 71.99
+            }
+          ]
+        },
+        {
+          "code": "24130",
+          "name": "Phường Thành Nhất",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Phường Thành Nhất",
+              "newWardShort": "Thành Nhất",
+              "newWardCode": "24154",
+              "newWardType": "Phường",
+              "lat": 12.657,
+              "lon": 107.98,
+              "areaKm2": 32.22
+            }
+          ]
+        },
+        {
+          "code": "24148",
+          "name": "Phường Tự An",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Phường Buôn Ma Thuột",
+              "newWardShort": "Buôn Ma Thuột",
+              "newWardCode": "24133",
+              "newWardType": "Phường",
+              "lat": 12.7089,
+              "lon": 108.028,
+              "areaKm2": 71.99
+            }
+          ]
+        },
+        {
+          "code": "24160",
+          "name": "Xã Cư ÊBur",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Phường Buôn Ma Thuột",
+              "newWardShort": "Buôn Ma Thuột",
+              "newWardCode": "24133",
+              "newWardType": "Phường",
+              "lat": 12.7089,
+              "lon": 108.028,
+              "areaKm2": 71.99
+            }
+          ]
+        },
+        {
+          "code": "24169",
+          "name": "Xã Ea Kao",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Phường Ea Kao",
+              "newWardShort": "Ea Kao",
+              "newWardCode": "24169",
+              "newWardType": "Phường",
+              "lat": 12.6109,
+              "lon": 108.048,
+              "areaKm2": 60.7
+            }
+          ]
+        },
+        {
+          "code": "24163",
+          "name": "Xã Ea Tu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Phường Tân An",
+              "newWardShort": "Tân An",
+              "newWardCode": "24163",
+              "newWardType": "Phường",
+              "lat": 12.7203,
+              "lon": 108.11,
+              "areaKm2": 8.06
+            }
+          ]
+        },
+        {
+          "code": "24175",
+          "name": "Xã Hòa Khánh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Hòa Phú",
+              "newWardShort": "Hòa Phú",
+              "newWardCode": "24175",
+              "newWardType": "Xã",
+              "lat": 12.6162,
+              "lon": 107.958,
+              "areaKm2": 109.07
+            }
+          ]
+        },
+        {
+          "code": "24172",
+          "name": "Xã Hòa Phú",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Hòa Phú",
+              "newWardShort": "Hòa Phú",
+              "newWardCode": "24175",
+              "newWardType": "Xã",
+              "lat": 12.6162,
+              "lon": 107.958,
+              "areaKm2": 109.07
+            }
+          ]
+        },
+        {
+          "code": "24166",
+          "name": "Xã Hòa Thắng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Phường Tân Lập",
+              "newWardShort": "Tân Lập",
+              "newWardCode": "24121",
+              "newWardType": "Phường",
+              "lat": 12.6647,
+              "lon": 108.097,
+              "areaKm2": 46.7
+            }
+          ]
+        },
+        {
+          "code": "24157",
+          "name": "Xã Hòa Thuận",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Phường Tân An",
+              "newWardShort": "Tân An",
+              "newWardCode": "24163",
+              "newWardType": "Phường",
+              "lat": 12.7203,
+              "lon": 108.11,
+              "areaKm2": 8.06
+            }
+          ]
+        },
+        {
+          "code": "24178",
+          "name": "Xã Hòa Xuân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Hòa Phú",
+              "newWardShort": "Hòa Phú",
+              "newWardCode": "24175",
+              "newWardType": "Xã",
+              "lat": 12.6162,
+              "lon": 107.958,
+              "areaKm2": 109.07
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "647",
+      "name": "Huyện Buôn Đôn",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "24247",
+          "name": "Xã Cuôr KNia",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea Nuôl",
+              "newWardShort": "Ea Nuôl",
+              "newWardCode": "24250",
+              "newWardType": "Xã",
+              "lat": 12.7205,
+              "lon": 107.927,
+              "areaKm2": 111.74
+            }
+          ]
+        },
+        {
+          "code": "24250",
+          "name": "Xã Ea Bar",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea Nuôl",
+              "newWardShort": "Ea Nuôl",
+              "newWardCode": "24250",
+              "newWardType": "Xã",
+              "lat": 12.7205,
+              "lon": 107.927,
+              "areaKm2": 111.74
+            }
+          ]
+        },
+        {
+          "code": "24238",
+          "name": "Xã Ea Huar",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea Wer",
+              "newWardShort": "Ea Wer",
+              "newWardCode": "24241",
+              "newWardType": "Xã",
+              "lat": 12.8306,
+              "lon": 107.884,
+              "areaKm2": 184.61
+            }
+          ]
+        },
+        {
+          "code": "24253",
+          "name": "Xã Ea Nuôl",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea Nuôl",
+              "newWardShort": "Ea Nuôl",
+              "newWardCode": "24250",
+              "newWardType": "Xã",
+              "lat": 12.7205,
+              "lon": 107.927,
+              "areaKm2": 111.74
+            }
+          ]
+        },
+        {
+          "code": "24241",
+          "name": "Xã Ea Wer",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea Wer",
+              "newWardShort": "Ea Wer",
+              "newWardCode": "24241",
+              "newWardType": "Xã",
+              "lat": 12.8306,
+              "lon": 107.884,
+              "areaKm2": 184.61
+            }
+          ]
+        },
+        {
+          "code": "24235",
+          "name": "Xã Krông Na",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Buôn Đôn",
+              "newWardShort": "Buôn Đôn",
+              "newWardCode": "24235",
+              "newWardType": "Xã",
+              "lat": 12.9312,
+              "lon": 107.679,
+              "areaKm2": 1118.35
+            }
+          ]
+        },
+        {
+          "code": "24244",
+          "name": "Xã Tân Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea Wer",
+              "newWardShort": "Ea Wer",
+              "newWardCode": "24241",
+              "newWardType": "Xã",
+              "lat": 12.8306,
+              "lon": 107.884,
+              "areaKm2": 184.61
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "657",
+      "name": "Huyện Cư Kuin",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "24541",
+          "name": "Xã Cư Êwi",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea Ning",
+              "newWardShort": "Ea Ning",
+              "newWardCode": "24540",
+              "newWardType": "Xã",
+              "lat": 12.6041,
+              "lon": 108.235,
+              "areaKm2": 86.21
+            }
+          ]
+        },
+        {
+          "code": "24561",
+          "name": "Xã Dray Bhăng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Dray Bhăng",
+              "newWardShort": "Dray Bhăng",
+              "newWardCode": "24561",
+              "newWardType": "Xã",
+              "lat": 12.5491,
+              "lon": 108.173,
+              "areaKm2": 101.37
+            }
+          ]
+        },
+        {
+          "code": "24550",
+          "name": "Xã Ea BHốk",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Dray Bhăng",
+              "newWardShort": "Dray Bhăng",
+              "newWardCode": "24561",
+              "newWardType": "Xã",
+              "lat": 12.5491,
+              "lon": 108.173,
+              "areaKm2": 101.37
+            },
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea Ktur",
+              "newWardShort": "Ea Ktur",
+              "newWardCode": "24544",
+              "newWardType": "Xã",
+              "lat": 12.6152,
+              "lon": 108.133,
+              "areaKm2": 100.72
+            }
+          ]
+        },
+        {
+          "code": "24553",
+          "name": "Xã Ea Hu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea Ning",
+              "newWardShort": "Ea Ning",
+              "newWardCode": "24540",
+              "newWardType": "Xã",
+              "lat": 12.6041,
+              "lon": 108.235,
+              "areaKm2": 86.21
+            }
+          ]
+        },
+        {
+          "code": "24544",
+          "name": "Xã Ea Ktur",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea Ktur",
+              "newWardShort": "Ea Ktur",
+              "newWardCode": "24544",
+              "newWardType": "Xã",
+              "lat": 12.6152,
+              "lon": 108.133,
+              "areaKm2": 100.72
+            }
+          ]
+        },
+        {
+          "code": "24540",
+          "name": "Xã Ea Ning",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea Ning",
+              "newWardShort": "Ea Ning",
+              "newWardCode": "24540",
+              "newWardType": "Xã",
+              "lat": 12.6041,
+              "lon": 108.235,
+              "areaKm2": 86.21
+            }
+          ]
+        },
+        {
+          "code": "24547",
+          "name": "Xã Ea Tiêu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea Ktur",
+              "newWardShort": "Ea Ktur",
+              "newWardCode": "24544",
+              "newWardType": "Xã",
+              "lat": 12.6152,
+              "lon": 108.133,
+              "areaKm2": 100.72
+            }
+          ]
+        },
+        {
+          "code": "24562",
+          "name": "Xã Hòa Hiệp",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Dray Bhăng",
+              "newWardShort": "Dray Bhăng",
+              "newWardCode": "24561",
+              "newWardType": "Xã",
+              "lat": 12.5491,
+              "lon": 108.173,
+              "areaKm2": 101.37
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "648",
+      "name": "Huyện Cư M'gar",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "24256",
+          "name": "Thị trấn Ea Pốk",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Quảng Phú",
+              "newWardShort": "Quảng Phú",
+              "newWardCode": "24259",
+              "newWardType": "Xã",
+              "lat": 12.7911,
+              "lon": 108.071,
+              "areaKm2": 263.58
+            }
+          ]
+        },
+        {
+          "code": "24259",
+          "name": "Thị trấn Quảng Phú",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Quảng Phú",
+              "newWardShort": "Quảng Phú",
+              "newWardCode": "24259",
+              "newWardType": "Xã",
+              "lat": 12.7911,
+              "lon": 108.071,
+              "areaKm2": 263.58
+            }
+          ]
+        },
+        {
+          "code": "24271",
+          "name": "Xã Cư Dliê M'nông",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea Tul",
+              "newWardShort": "Ea Tul",
+              "newWardCode": "24277",
+              "newWardType": "Xã",
+              "lat": 12.9099,
+              "lon": 108.148,
+              "areaKm2": 159.51
+            }
+          ]
+        },
+        {
+          "code": "24289",
+          "name": "Xã Cư M'gar",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Cư M'gar",
+              "newWardShort": "Cư M'gar",
+              "newWardCode": "24280",
+              "newWardType": "Xã",
+              "lat": 12.8706,
+              "lon": 108.069,
+              "areaKm2": 114.389
+            }
+          ]
+        },
+        {
+          "code": "24298",
+          "name": "Xã Cư Suê",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Quảng Phú",
+              "newWardShort": "Quảng Phú",
+              "newWardCode": "24259",
+              "newWardType": "Xã",
+              "lat": 12.7911,
+              "lon": 108.071,
+              "areaKm2": 263.58
+            }
+          ]
+        },
+        {
+          "code": "24301",
+          "name": "Xã Cuôr Đăng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Cuôr Đăng",
+              "newWardShort": "Cuôr Đăng",
+              "newWardCode": "24301",
+              "newWardType": "Xã",
+              "lat": 12.7776,
+              "lon": 108.168,
+              "areaKm2": 102.84
+            }
+          ]
+        },
+        {
+          "code": "24292",
+          "name": "Xã Ea Drơng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Cuôr Đăng",
+              "newWardShort": "Cuôr Đăng",
+              "newWardCode": "24301",
+              "newWardType": "Xã",
+              "lat": 12.7776,
+              "lon": 108.168,
+              "areaKm2": 102.84
+            }
+          ]
+        },
+        {
+          "code": "24274",
+          "name": "Xã Ea H'đing",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Cư M'gar",
+              "newWardShort": "Cư M'gar",
+              "newWardCode": "24280",
+              "newWardType": "Xã",
+              "lat": 12.8706,
+              "lon": 108.069,
+              "areaKm2": 114.389
+            }
+          ]
+        },
+        {
+          "code": "24265",
+          "name": "Xã Ea Kiết",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea Kiết",
+              "newWardShort": "Ea Kiết",
+              "newWardCode": "24265",
+              "newWardType": "Xã",
+              "lat": 12.9926,
+              "lon": 108.035,
+              "areaKm2": 201.83
+            }
+          ]
+        },
+        {
+          "code": "24280",
+          "name": "Xã Ea KPam",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Cư M'gar",
+              "newWardShort": "Cư M'gar",
+              "newWardCode": "24280",
+              "newWardType": "Xã",
+              "lat": 12.8706,
+              "lon": 108.069,
+              "areaKm2": 114.389
+            }
+          ]
+        },
+        {
+          "code": "24264",
+          "name": "Xã Ea Kuêh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea Kiết",
+              "newWardShort": "Ea Kiết",
+              "newWardCode": "24265",
+              "newWardType": "Xã",
+              "lat": 12.9926,
+              "lon": 108.035,
+              "areaKm2": 201.83
+            }
+          ]
+        },
+        {
+          "code": "24283",
+          "name": "Xã Ea M'Droh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea M'Droh",
+              "newWardShort": "Ea M'Droh",
+              "newWardCode": "24286",
+              "newWardType": "Xã",
+              "lat": 12.8669,
+              "lon": 107.972,
+              "areaKm2": 135.509
+            }
+          ]
+        },
+        {
+          "code": "24295",
+          "name": "Xã Ea M'nang",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea M'Droh",
+              "newWardShort": "Ea M'Droh",
+              "newWardCode": "24286",
+              "newWardType": "Xã",
+              "lat": 12.8669,
+              "lon": 107.972,
+              "areaKm2": 135.509
+            }
+          ]
+        },
+        {
+          "code": "24268",
+          "name": "Xã Ea Tar",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea Tul",
+              "newWardShort": "Ea Tul",
+              "newWardCode": "24277",
+              "newWardType": "Xã",
+              "lat": 12.9099,
+              "lon": 108.148,
+              "areaKm2": 159.51
+            }
+          ]
+        },
+        {
+          "code": "24277",
+          "name": "Xã Ea Tul",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea Tul",
+              "newWardShort": "Ea Tul",
+              "newWardCode": "24277",
+              "newWardType": "Xã",
+              "lat": 12.9099,
+              "lon": 108.148,
+              "areaKm2": 159.51
+            }
+          ]
+        },
+        {
+          "code": "24286",
+          "name": "Xã Quảng Hiệp",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea M'Droh",
+              "newWardShort": "Ea M'Droh",
+              "newWardCode": "24286",
+              "newWardType": "Xã",
+              "lat": 12.8669,
+              "lon": 107.972,
+              "areaKm2": 135.509
+            }
+          ]
+        },
+        {
+          "code": "24262",
+          "name": "Xã Quảng Tiến",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Quảng Phú",
+              "newWardShort": "Quảng Phú",
+              "newWardCode": "24259",
+              "newWardType": "Xã",
+              "lat": 12.7911,
+              "lon": 108.071,
+              "areaKm2": 263.58
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "645",
+      "name": "Huyện Ea H'leo",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "24181",
+          "name": "Thị trấn Ea Drăng",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea Drăng",
+              "newWardShort": "Ea Drăng",
+              "newWardCode": "24181",
+              "newWardType": "Xã",
+              "lat": 13.2192,
+              "lon": 108.222,
+              "areaKm2": 171.34
+            }
+          ]
+        },
+        {
+          "code": "24194",
+          "name": "Xã Cư A Mung",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea Wy",
+              "newWardShort": "Ea Wy",
+              "newWardCode": "24193",
+              "newWardType": "Xã",
+              "lat": 13.213,
+              "lon": 108.061,
+              "areaKm2": 213.94
+            }
+          ]
+        },
+        {
+          "code": "24196",
+          "name": "Xã Cư Mốt",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea Wy",
+              "newWardShort": "Ea Wy",
+              "newWardCode": "24193",
+              "newWardType": "Xã",
+              "lat": 13.213,
+              "lon": 108.061,
+              "areaKm2": 213.94
+            }
+          ]
+        },
+        {
+          "code": "24205",
+          "name": "Xã Dliê Yang",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea Drăng",
+              "newWardShort": "Ea Drăng",
+              "newWardCode": "24181",
+              "newWardType": "Xã",
+              "lat": 13.2192,
+              "lon": 108.222,
+              "areaKm2": 171.34
+            }
+          ]
+        },
+        {
+          "code": "24184",
+          "name": "Xã Ea H'leo",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea H'Leo",
+              "newWardShort": "Ea H'Leo",
+              "newWardCode": "24184",
+              "newWardType": "Xã",
+              "lat": 13.3407,
+              "lon": 108.095,
+              "areaKm2": 338.324
+            }
+          ]
+        },
+        {
+          "code": "24199",
+          "name": "Xã Ea Hiao",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea Hiao",
+              "newWardShort": "Ea Hiao",
+              "newWardCode": "24187",
+              "newWardType": "Xã",
+              "lat": 13.2482,
+              "lon": 108.326,
+              "areaKm2": 361.69
+            }
+          ]
+        },
+        {
+          "code": "24202",
+          "name": "Xã Ea Khal",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea Khăl",
+              "newWardShort": "Ea Khăl",
+              "newWardCode": "24208",
+              "newWardType": "Xã",
+              "lat": 13.135,
+              "lon": 108.127,
+              "areaKm2": 247.05
+            }
+          ]
+        },
+        {
+          "code": "24208",
+          "name": "Xã Ea Nam",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea Khăl",
+              "newWardShort": "Ea Khăl",
+              "newWardCode": "24208",
+              "newWardType": "Xã",
+              "lat": 13.135,
+              "lon": 108.127,
+              "areaKm2": 247.05
+            }
+          ]
+        },
+        {
+          "code": "24190",
+          "name": "Xã Ea Ral",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea Drăng",
+              "newWardShort": "Ea Drăng",
+              "newWardCode": "24181",
+              "newWardType": "Xã",
+              "lat": 13.2192,
+              "lon": 108.222,
+              "areaKm2": 171.34
+            }
+          ]
+        },
+        {
+          "code": "24187",
+          "name": "Xã Ea Sol",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea Hiao",
+              "newWardShort": "Ea Hiao",
+              "newWardCode": "24187",
+              "newWardType": "Xã",
+              "lat": 13.2482,
+              "lon": 108.326,
+              "areaKm2": 361.69
+            }
+          ]
+        },
+        {
+          "code": "24207",
+          "name": "Xã Ea Tir",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea Khăl",
+              "newWardShort": "Ea Khăl",
+              "newWardCode": "24208",
+              "newWardType": "Xã",
+              "lat": 13.135,
+              "lon": 108.127,
+              "areaKm2": 247.05
+            }
+          ]
+        },
+        {
+          "code": "24193",
+          "name": "Xã Ea Wy",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea Wy",
+              "newWardShort": "Ea Wy",
+              "newWardCode": "24193",
+              "newWardType": "Xã",
+              "lat": 13.213,
+              "lon": 108.061,
+              "areaKm2": 213.94
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "651",
+      "name": "Huyện Ea Kar",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "24373",
+          "name": "Thị trấn Ea Kar",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea Kar",
+              "newWardShort": "Ea Kar",
+              "newWardCode": "24373",
+              "newWardType": "Xã",
+              "lat": 12.7996,
+              "lon": 108.468,
+              "areaKm2": 198.67
+            }
+          ]
+        },
+        {
+          "code": "24376",
+          "name": "Thị trấn Ea Knốp",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea Knốp",
+              "newWardShort": "Ea Knốp",
+              "newWardCode": "24376",
+              "newWardType": "Xã",
+              "lat": 12.9208,
+              "lon": 108.573,
+              "areaKm2": 448.65
+            }
+          ]
+        },
+        {
+          "code": "24406",
+          "name": "Xã Cư Bông",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Cư Yang",
+              "newWardShort": "Cư Yang",
+              "newWardCode": "24406",
+              "newWardType": "Xã",
+              "lat": 12.648,
+              "lon": 108.628,
+              "areaKm2": 149.43
+            }
+          ]
+        },
+        {
+          "code": "24404",
+          "name": "Xã Cư ELang",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea Ô",
+              "newWardShort": "Ea Ô",
+              "newWardCode": "24403",
+              "newWardType": "Xã",
+              "lat": 12.6536,
+              "lon": 108.528,
+              "areaKm2": 137.73
+            }
+          ]
+        },
+        {
+          "code": "24385",
+          "name": "Xã Cư Huê",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea Kar",
+              "newWardShort": "Ea Kar",
+              "newWardCode": "24373",
+              "newWardType": "Xã",
+              "lat": 12.7996,
+              "lon": 108.468,
+              "areaKm2": 198.67
+            }
+          ]
+        },
+        {
+          "code": "24397",
+          "name": "Xã Cư Ni",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea Kar",
+              "newWardShort": "Ea Kar",
+              "newWardCode": "24373",
+              "newWardType": "Xã",
+              "lat": 12.7996,
+              "lon": 108.468,
+              "areaKm2": 198.67
+            }
+          ]
+        },
+        {
+          "code": "24401",
+          "name": "Xã Cư Prông",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea Păl",
+              "newWardShort": "Ea Păl",
+              "newWardCode": "24400",
+              "newWardType": "Xã",
+              "lat": 12.7367,
+              "lon": 108.606,
+              "areaKm2": 102.52
+            }
+          ]
+        },
+        {
+          "code": "24409",
+          "name": "Xã Cư Yang",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Cư Yang",
+              "newWardShort": "Cư Yang",
+              "newWardCode": "24406",
+              "newWardType": "Xã",
+              "lat": 12.648,
+              "lon": 108.628,
+              "areaKm2": 149.43
+            }
+          ]
+        },
+        {
+          "code": "24391",
+          "name": "Xã Ea Đar",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea Kar",
+              "newWardShort": "Ea Kar",
+              "newWardCode": "24373",
+              "newWardType": "Xã",
+              "lat": 12.7996,
+              "lon": 108.468,
+              "areaKm2": 198.67
+            }
+          ]
+        },
+        {
+          "code": "24394",
+          "name": "Xã Ea Kmút",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea Kar",
+              "newWardShort": "Ea Kar",
+              "newWardCode": "24373",
+              "newWardType": "Xã",
+              "lat": 12.7996,
+              "lon": 108.468,
+              "areaKm2": 198.67
+            }
+          ]
+        },
+        {
+          "code": "24403",
+          "name": "Xã Ea Ô",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea Ô",
+              "newWardShort": "Ea Ô",
+              "newWardCode": "24403",
+              "newWardType": "Xã",
+              "lat": 12.6536,
+              "lon": 108.528,
+              "areaKm2": 137.73
+            }
+          ]
+        },
+        {
+          "code": "24400",
+          "name": "Xã Ea Păl",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea Păl",
+              "newWardShort": "Ea Păl",
+              "newWardCode": "24400",
+              "newWardType": "Xã",
+              "lat": 12.7367,
+              "lon": 108.606,
+              "areaKm2": 102.52
+            }
+          ]
+        },
+        {
+          "code": "24380",
+          "name": "Xã Ea Sar",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea Knốp",
+              "newWardShort": "Ea Knốp",
+              "newWardCode": "24376",
+              "newWardType": "Xã",
+              "lat": 12.9208,
+              "lon": 108.573,
+              "areaKm2": 448.65
+            }
+          ]
+        },
+        {
+          "code": "24379",
+          "name": "Xã Ea Sô",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea Knốp",
+              "newWardShort": "Ea Knốp",
+              "newWardCode": "24376",
+              "newWardType": "Xã",
+              "lat": 12.9208,
+              "lon": 108.573,
+              "areaKm2": 448.65
+            }
+          ]
+        },
+        {
+          "code": "24388",
+          "name": "Xã Ea Tih",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea Knốp",
+              "newWardShort": "Ea Knốp",
+              "newWardCode": "24376",
+              "newWardType": "Xã",
+              "lat": 12.9208,
+              "lon": 108.573,
+              "areaKm2": 448.65
+            }
+          ]
+        },
+        {
+          "code": "24382",
+          "name": "Xã Xuân Phú",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea Kar",
+              "newWardShort": "Ea Kar",
+              "newWardCode": "24373",
+              "newWardType": "Xã",
+              "lat": 12.7996,
+              "lon": 108.468,
+              "areaKm2": 198.67
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "646",
+      "name": "Huyện Ea Súp",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "24211",
+          "name": "Thị trấn Ea Súp",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea Súp",
+              "newWardShort": "Ea Súp",
+              "newWardCode": "24211",
+              "newWardType": "Xã",
+              "lat": 13.0356,
+              "lon": 107.877,
+              "areaKm2": 418.72
+            }
+          ]
+        },
+        {
+          "code": "24226",
+          "name": "Xã Cư KBang",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea Rốk",
+              "newWardShort": "Ea Rốk",
+              "newWardCode": "24217",
+              "newWardType": "Xã",
+              "lat": 13.2669,
+              "lon": 107.887,
+              "areaKm2": 544.6
+            }
+          ]
+        },
+        {
+          "code": "24232",
+          "name": "Xã Cư M'Lan",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea Súp",
+              "newWardShort": "Ea Súp",
+              "newWardCode": "24211",
+              "newWardType": "Xã",
+              "lat": 13.0356,
+              "lon": 107.877,
+              "areaKm2": 418.72
+            }
+          ]
+        },
+        {
+          "code": "24229",
+          "name": "Xã Ea Bung",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea Bung",
+              "newWardShort": "Ea Bung",
+              "newWardCode": "24229",
+              "newWardType": "Xã",
+              "lat": 13.1158,
+              "lon": 107.696,
+              "areaKm2": 390.08
+            }
+          ]
+        },
+        {
+          "code": "24223",
+          "name": "Xã Ea Lê",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea Súp",
+              "newWardShort": "Ea Súp",
+              "newWardCode": "24211",
+              "newWardType": "Xã",
+              "lat": 13.0356,
+              "lon": 107.877,
+              "areaKm2": 418.72
+            }
+          ]
+        },
+        {
+          "code": "24217",
+          "name": "Xã Ea Rốk",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea Rốk",
+              "newWardShort": "Ea Rốk",
+              "newWardCode": "24217",
+              "newWardType": "Xã",
+              "lat": 13.2669,
+              "lon": 107.887,
+              "areaKm2": 544.6
+            }
+          ]
+        },
+        {
+          "code": "24215",
+          "name": "Xã Ia JLơi",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea Rốk",
+              "newWardShort": "Ea Rốk",
+              "newWardCode": "24217",
+              "newWardType": "Xã",
+              "lat": 13.2669,
+              "lon": 107.887,
+              "areaKm2": 544.6
+            }
+          ]
+        },
+        {
+          "code": "24214",
+          "name": "Xã Ia Lốp",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ia Lốp",
+              "newWardShort": "Ia Lốp",
+              "newWardCode": "24214",
+              "newWardType": "Xã",
+              "lat": 13.3153,
+              "lon": 107.732,
+              "areaKm2": 194.09
+            }
+          ]
+        },
+        {
+          "code": "24221",
+          "name": "Xã Ia RVê",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ia Rvê",
+              "newWardShort": "Ia Rvê",
+              "newWardCode": "24221",
+              "newWardType": "Xã",
+              "lat": 13.2245,
+              "lon": 107.65,
+              "areaKm2": 217.83
+            }
+          ]
+        },
+        {
+          "code": "24220",
+          "name": "Xã Ya Tờ Mốt",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea Bung",
+              "newWardShort": "Ea Bung",
+              "newWardCode": "24229",
+              "newWardType": "Xã",
+              "lat": 13.1158,
+              "lon": 107.696,
+              "areaKm2": 390.08
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "655",
+      "name": "Huyện Krông A Na",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "24538",
+          "name": "Thị trấn Buôn Trấp",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Krông Ana",
+              "newWardShort": "Krông Ana",
+              "newWardCode": "24538",
+              "newWardType": "Xã",
+              "lat": 12.4486,
+              "lon": 108.013,
+              "areaKm2": 107.23
+            }
+          ]
+        },
+        {
+          "code": "24568",
+          "name": "Xã Băng A Drênh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Dur Kmăl",
+              "newWardShort": "Dur Kmăl",
+              "newWardCode": "24568",
+              "newWardType": "Xã",
+              "lat": 12.4739,
+              "lon": 108.12,
+              "areaKm2": 114.49
+            }
+          ]
+        },
+        {
+          "code": "24574",
+          "name": "Xã Bình Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Krông Ana",
+              "newWardShort": "Krông Ana",
+              "newWardCode": "24538",
+              "newWardType": "Xã",
+              "lat": 12.4486,
+              "lon": 108.013,
+              "areaKm2": 107.23
+            }
+          ]
+        },
+        {
+          "code": "24556",
+          "name": "Xã Dray Sáp",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea Na",
+              "newWardShort": "Ea Na",
+              "newWardCode": "24559",
+              "newWardType": "Xã",
+              "lat": 12.5378,
+              "lon": 108.005,
+              "areaKm2": 134.18
+            }
+          ]
+        },
+        {
+          "code": "24571",
+          "name": "Xã Dur KMăl",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Dur Kmăl",
+              "newWardShort": "Dur Kmăl",
+              "newWardCode": "24568",
+              "newWardType": "Xã",
+              "lat": 12.4739,
+              "lon": 108.12,
+              "areaKm2": 114.49
+            }
+          ]
+        },
+        {
+          "code": "24565",
+          "name": "Xã Ea Bông",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea Na",
+              "newWardShort": "Ea Na",
+              "newWardCode": "24559",
+              "newWardType": "Xã",
+              "lat": 12.5378,
+              "lon": 108.005,
+              "areaKm2": 134.18
+            }
+          ]
+        },
+        {
+          "code": "24559",
+          "name": "Xã Ea Na",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea Na",
+              "newWardShort": "Ea Na",
+              "newWardCode": "24559",
+              "newWardType": "Xã",
+              "lat": 12.5378,
+              "lon": 108.005,
+              "areaKm2": 134.18
+            }
+          ]
+        },
+        {
+          "code": "24577",
+          "name": "Xã Quảng Điền",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Krông Ana",
+              "newWardShort": "Krông Ana",
+              "newWardCode": "24538",
+              "newWardType": "Xã",
+              "lat": 12.4486,
+              "lon": 108.013,
+              "areaKm2": 107.23
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "653",
+      "name": "Huyện Krông Bông",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "24448",
+          "name": "Thị trấn Krông Kmar",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Krông Bông",
+              "newWardShort": "Krông Bông",
+              "newWardCode": "24448",
+              "newWardType": "Xã",
+              "lat": 12.4816,
+              "lon": 108.381,
+              "areaKm2": 166.03
+            }
+          ]
+        },
+        {
+          "code": "24484",
+          "name": "Xã Cư Drăm",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Yang Mao",
+              "newWardShort": "Yang Mao",
+              "newWardCode": "24484",
+              "newWardType": "Xã",
+              "lat": 12.4056,
+              "lon": 108.589,
+              "areaKm2": 562.38
+            }
+          ]
+        },
+        {
+          "code": "24454",
+          "name": "Xã Cư KTy",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Dang Kang",
+              "newWardShort": "Dang Kang",
+              "newWardCode": "24454",
+              "newWardType": "Xã",
+              "lat": 12.5746,
+              "lon": 108.319,
+              "areaKm2": 105.91
+            }
+          ]
+        },
+        {
+          "code": "24478",
+          "name": "Xã Cư Pui",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Cư Pui",
+              "newWardShort": "Cư Pui",
+              "newWardCode": "24478",
+              "newWardType": "Xã",
+              "lat": 12.5467,
+              "lon": 108.498,
+              "areaKm2": 314.08
+            }
+          ]
+        },
+        {
+          "code": "24451",
+          "name": "Xã Dang Kang",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Dang Kang",
+              "newWardShort": "Dang Kang",
+              "newWardCode": "24454",
+              "newWardType": "Xã",
+              "lat": 12.5746,
+              "lon": 108.319,
+              "areaKm2": 105.91
+            }
+          ]
+        },
+        {
+          "code": "24472",
+          "name": "Xã Ea Trul",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Hòa Sơn",
+              "newWardShort": "Hòa Sơn",
+              "newWardCode": "24472",
+              "newWardType": "Xã",
+              "lat": 12.4897,
+              "lon": 108.268,
+              "areaKm2": 108.55
+            }
+          ]
+        },
+        {
+          "code": "24466",
+          "name": "Xã Hòa Lễ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Krông Bông",
+              "newWardShort": "Krông Bông",
+              "newWardCode": "24448",
+              "newWardType": "Xã",
+              "lat": 12.4816,
+              "lon": 108.381,
+              "areaKm2": 166.03
+            }
+          ]
+        },
+        {
+          "code": "24463",
+          "name": "Xã Hòa Phong",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Cư Pui",
+              "newWardShort": "Cư Pui",
+              "newWardCode": "24478",
+              "newWardType": "Xã",
+              "lat": 12.5467,
+              "lon": 108.498,
+              "areaKm2": 314.08
+            }
+          ]
+        },
+        {
+          "code": "24481",
+          "name": "Xã Hòa Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Hòa Sơn",
+              "newWardShort": "Hòa Sơn",
+              "newWardCode": "24472",
+              "newWardType": "Xã",
+              "lat": 12.4897,
+              "lon": 108.268,
+              "areaKm2": 108.55
+            }
+          ]
+        },
+        {
+          "code": "24457",
+          "name": "Xã Hòa Thành",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Dang Kang",
+              "newWardShort": "Dang Kang",
+              "newWardCode": "24454",
+              "newWardType": "Xã",
+              "lat": 12.5746,
+              "lon": 108.319,
+              "areaKm2": 105.91
+            }
+          ]
+        },
+        {
+          "code": "24475",
+          "name": "Xã Khuê Ngọc Điền",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Krông Bông",
+              "newWardShort": "Krông Bông",
+              "newWardCode": "24448",
+              "newWardType": "Xã",
+              "lat": 12.4816,
+              "lon": 108.381,
+              "areaKm2": 166.03
+            }
+          ]
+        },
+        {
+          "code": "24487",
+          "name": "Xã Yang Mao",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Yang Mao",
+              "newWardShort": "Yang Mao",
+              "newWardCode": "24484",
+              "newWardType": "Xã",
+              "lat": 12.4056,
+              "lon": 108.589,
+              "areaKm2": 562.38
+            }
+          ]
+        },
+        {
+          "code": "24469",
+          "name": "Xã Yang Reh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Hòa Sơn",
+              "newWardShort": "Hòa Sơn",
+              "newWardCode": "24472",
+              "newWardType": "Xã",
+              "lat": 12.4897,
+              "lon": 108.268,
+              "areaKm2": 108.55
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "649",
+      "name": "Huyện Krông Búk",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "24316",
+          "name": "Thị trấn Pơng Drang",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Pơng Drang",
+              "newWardShort": "Pơng Drang",
+              "newWardCode": "24316",
+              "newWardType": "Xã",
+              "lat": 12.9679,
+              "lon": 108.236,
+              "areaKm2": 85.03
+            }
+          ]
+        },
+        {
+          "code": "24310",
+          "name": "Xã Chứ Kbô",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Krông Búk",
+              "newWardShort": "Krông Búk",
+              "newWardCode": "24310",
+              "newWardType": "Xã",
+              "lat": 13.0549,
+              "lon": 108.24,
+              "areaKm2": 134.83
+            }
+          ]
+        },
+        {
+          "code": "24307",
+          "name": "Xã Cư Né",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Krông Búk",
+              "newWardShort": "Krông Búk",
+              "newWardCode": "24310",
+              "newWardType": "Xã",
+              "lat": 13.0549,
+              "lon": 108.24,
+              "areaKm2": 134.83
+            }
+          ]
+        },
+        {
+          "code": "24313",
+          "name": "Xã Cư Pơng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Cư Pơng",
+              "newWardShort": "Cư Pơng",
+              "newWardCode": "24313",
+              "newWardType": "Xã",
+              "lat": 13.0432,
+              "lon": 108.152,
+              "areaKm2": 137.81
+            }
+          ]
+        },
+        {
+          "code": "24319",
+          "name": "Xã Ea Ngai",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Pơng Drang",
+              "newWardShort": "Pơng Drang",
+              "newWardCode": "24316",
+              "newWardType": "Xã",
+              "lat": 12.9679,
+              "lon": 108.236,
+              "areaKm2": 85.03
+            }
+          ]
+        },
+        {
+          "code": "24314",
+          "name": "Xã Ea Sin",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Cư Pơng",
+              "newWardShort": "Cư Pơng",
+              "newWardCode": "24313",
+              "newWardType": "Xã",
+              "lat": 13.0432,
+              "lon": 108.152,
+              "areaKm2": 137.81
+            }
+          ]
+        },
+        {
+          "code": "24317",
+          "name": "Xã Tân Lập",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Pơng Drang",
+              "newWardShort": "Pơng Drang",
+              "newWardCode": "24316",
+              "newWardType": "Xã",
+              "lat": 12.9679,
+              "lon": 108.236,
+              "areaKm2": 85.03
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "650",
+      "name": "Huyện Krông Năng",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "24343",
+          "name": "Thị trấn Krông Năng",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Krông Năng",
+              "newWardShort": "Krông Năng",
+              "newWardCode": "24343",
+              "newWardType": "Xã",
+              "lat": 12.9719,
+              "lon": 108.337,
+              "areaKm2": 98.34
+            }
+          ]
+        },
+        {
+          "code": "24367",
+          "name": "Xã Cư Klông",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Tam Giang",
+              "newWardShort": "Tam Giang",
+              "newWardCode": "24352",
+              "newWardType": "Xã",
+              "lat": 13.044,
+              "lon": 108.438,
+              "areaKm2": 205.2
+            }
+          ]
+        },
+        {
+          "code": "24346",
+          "name": "Xã Dliê Ya",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Dliê Ya",
+              "newWardShort": "Dliê Ya",
+              "newWardCode": "24346",
+              "newWardType": "Xã",
+              "lat": 13.0879,
+              "lon": 108.348,
+              "areaKm2": 179.73
+            }
+          ]
+        },
+        {
+          "code": "24360",
+          "name": "Xã Ea Dăh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Phú Xuân",
+              "newWardShort": "Phú Xuân",
+              "newWardCode": "24364",
+              "newWardType": "Xã",
+              "lat": 12.9064,
+              "lon": 108.427,
+              "areaKm2": 140.74
+            }
+          ]
+        },
+        {
+          "code": "24361",
+          "name": "Xã Ea Hồ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Krông Năng",
+              "newWardShort": "Krông Năng",
+              "newWardCode": "24343",
+              "newWardType": "Xã",
+              "lat": 12.9719,
+              "lon": 108.337,
+              "areaKm2": 98.34
+            }
+          ]
+        },
+        {
+          "code": "24359",
+          "name": "Xã Ea Púk",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Phú Xuân",
+              "newWardShort": "Phú Xuân",
+              "newWardCode": "24364",
+              "newWardType": "Xã",
+              "lat": 12.9064,
+              "lon": 108.427,
+              "areaKm2": 140.74
+            }
+          ]
+        },
+        {
+          "code": "24352",
+          "name": "Xã Ea Tam",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Tam Giang",
+              "newWardShort": "Tam Giang",
+              "newWardCode": "24352",
+              "newWardType": "Xã",
+              "lat": 13.044,
+              "lon": 108.438,
+              "areaKm2": 205.2
+            }
+          ]
+        },
+        {
+          "code": "24370",
+          "name": "Xã Ea Tân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Dliê Ya",
+              "newWardShort": "Dliê Ya",
+              "newWardCode": "24346",
+              "newWardType": "Xã",
+              "lat": 13.0879,
+              "lon": 108.348,
+              "areaKm2": 179.73
+            }
+          ]
+        },
+        {
+          "code": "24349",
+          "name": "Xã Ea Tóh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Dliê Ya",
+              "newWardShort": "Dliê Ya",
+              "newWardCode": "24346",
+              "newWardType": "Xã",
+              "lat": 13.0879,
+              "lon": 108.348,
+              "areaKm2": 179.73
+            }
+          ]
+        },
+        {
+          "code": "24355",
+          "name": "Xã Phú Lộc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Krông Năng",
+              "newWardShort": "Krông Năng",
+              "newWardCode": "24343",
+              "newWardType": "Xã",
+              "lat": 12.9719,
+              "lon": 108.337,
+              "areaKm2": 98.34
+            }
+          ]
+        },
+        {
+          "code": "24364",
+          "name": "Xã Phú Xuân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Phú Xuân",
+              "newWardShort": "Phú Xuân",
+              "newWardCode": "24364",
+              "newWardType": "Xã",
+              "lat": 12.9064,
+              "lon": 108.427,
+              "areaKm2": 140.74
+            }
+          ]
+        },
+        {
+          "code": "24358",
+          "name": "Xã Tam Giang",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Tam Giang",
+              "newWardShort": "Tam Giang",
+              "newWardCode": "24352",
+              "newWardType": "Xã",
+              "lat": 13.044,
+              "lon": 108.438,
+              "areaKm2": 205.2
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "654",
+      "name": "Huyện Krông Pắc",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "24490",
+          "name": "Thị trấn Phước An",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Krông Pắc",
+              "newWardShort": "Krông Pắc",
+              "newWardCode": "24490",
+              "newWardType": "Xã",
+              "lat": 12.7028,
+              "lon": 108.301,
+              "areaKm2": 112.52
+            }
+          ]
+        },
+        {
+          "code": "24520",
+          "name": "Xã Ea Hiu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea Phê",
+              "newWardShort": "Ea Phê",
+              "newWardCode": "24502",
+              "newWardType": "Xã",
+              "lat": 12.726,
+              "lon": 108.364,
+              "areaKm2": 84.66
+            }
+          ]
+        },
+        {
+          "code": "24499",
+          "name": "Xã Ea Kênh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea Knuếc",
+              "newWardShort": "Ea Knuếc",
+              "newWardCode": "24505",
+              "newWardType": "Xã",
+              "lat": 12.6954,
+              "lon": 108.21,
+              "areaKm2": 122.39
+            }
+          ]
+        },
+        {
+          "code": "24496",
+          "name": "Xã Ea Kly",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea Kly",
+              "newWardShort": "Ea Kly",
+              "newWardCode": "24496",
+              "newWardType": "Xã",
+              "lat": 12.7626,
+              "lon": 108.401,
+              "areaKm2": 107.63
+            }
+          ]
+        },
+        {
+          "code": "24505",
+          "name": "Xã Ea Knuếc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea Knuếc",
+              "newWardShort": "Ea Knuếc",
+              "newWardCode": "24505",
+              "newWardType": "Xã",
+              "lat": 12.6954,
+              "lon": 108.21,
+              "areaKm2": 122.39
+            }
+          ]
+        },
+        {
+          "code": "24514",
+          "name": "Xã Ea Kuăng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea Phê",
+              "newWardShort": "Ea Phê",
+              "newWardCode": "24502",
+              "newWardType": "Xã",
+              "lat": 12.726,
+              "lon": 108.364,
+              "areaKm2": 84.66
+            }
+          ]
+        },
+        {
+          "code": "24502",
+          "name": "Xã Ea Phê",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea Phê",
+              "newWardShort": "Ea Phê",
+              "newWardCode": "24502",
+              "newWardType": "Xã",
+              "lat": 12.726,
+              "lon": 108.364,
+              "areaKm2": 84.66
+            }
+          ]
+        },
+        {
+          "code": "24532",
+          "name": "Xã Ea Uy",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Tân Tiến",
+              "newWardShort": "Tân Tiến",
+              "newWardCode": "24526",
+              "newWardType": "Xã",
+              "lat": 12.6233,
+              "lon": 108.37,
+              "areaKm2": 207.2
+            }
+          ]
+        },
+        {
+          "code": "24535",
+          "name": "Xã Ea Yiêng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Tân Tiến",
+              "newWardShort": "Tân Tiến",
+              "newWardCode": "24526",
+              "newWardType": "Xã",
+              "lat": 12.6233,
+              "lon": 108.37,
+              "areaKm2": 207.2
+            }
+          ]
+        },
+        {
+          "code": "24508",
+          "name": "Xã Ea Yông",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Krông Pắc",
+              "newWardShort": "Krông Pắc",
+              "newWardCode": "24490",
+              "newWardType": "Xã",
+              "lat": 12.7028,
+              "lon": 108.301,
+              "areaKm2": 112.52
+            }
+          ]
+        },
+        {
+          "code": "24511",
+          "name": "Xã Hòa An",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Krông Pắc",
+              "newWardShort": "Krông Pắc",
+              "newWardCode": "24490",
+              "newWardType": "Xã",
+              "lat": 12.7028,
+              "lon": 108.301,
+              "areaKm2": 112.52
+            }
+          ]
+        },
+        {
+          "code": "24517",
+          "name": "Xã Hòa Đông",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea Knuếc",
+              "newWardShort": "Ea Knuếc",
+              "newWardCode": "24505",
+              "newWardType": "Xã",
+              "lat": 12.6954,
+              "lon": 108.21,
+              "areaKm2": 122.39
+            }
+          ]
+        },
+        {
+          "code": "24523",
+          "name": "Xã Hòa Tiến",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Krông Pắc",
+              "newWardShort": "Krông Pắc",
+              "newWardCode": "24490",
+              "newWardType": "Xã",
+              "lat": 12.7028,
+              "lon": 108.301,
+              "areaKm2": 112.52
+            }
+          ]
+        },
+        {
+          "code": "24493",
+          "name": "Xã KRông Búk",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea Kly",
+              "newWardShort": "Ea Kly",
+              "newWardCode": "24496",
+              "newWardType": "Xã",
+              "lat": 12.7626,
+              "lon": 108.401,
+              "areaKm2": 107.63
+            }
+          ]
+        },
+        {
+          "code": "24526",
+          "name": "Xã Tân Tiến",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Tân Tiến",
+              "newWardShort": "Tân Tiến",
+              "newWardCode": "24526",
+              "newWardType": "Xã",
+              "lat": 12.6233,
+              "lon": 108.37,
+              "areaKm2": 207.2
+            }
+          ]
+        },
+        {
+          "code": "24529",
+          "name": "Xã Vụ Bổn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Vụ Bổn",
+              "newWardShort": "Vụ Bổn",
+              "newWardCode": "24529",
+              "newWardType": "Xã",
+              "lat": 12.6243,
+              "lon": 108.446,
+              "areaKm2": 109.13
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "656",
+      "name": "Huyện Lắk",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "24580",
+          "name": "Thị trấn Liên Sơn",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Liên Sơn Lắk",
+              "newWardShort": "Liên Sơn Lắk",
+              "newWardCode": "24580",
+              "newWardType": "Xã",
+              "lat": 12.3814,
+              "lon": 108.328,
+              "areaKm2": 398.82
+            }
+          ]
+        },
+        {
+          "code": "24586",
+          "name": "Xã Bông Krang",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Liên Sơn Lắk",
+              "newWardShort": "Liên Sơn Lắk",
+              "newWardCode": "24580",
+              "newWardType": "Xã",
+              "lat": 12.3814,
+              "lon": 108.328,
+              "areaKm2": 398.82
+            }
+          ]
+        },
+        {
+          "code": "24595",
+          "name": "Xã Buôn Tría",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Đắk Liêng",
+              "newWardShort": "Đắk Liêng",
+              "newWardCode": "24595",
+              "newWardType": "Xã",
+              "lat": 12.3907,
+              "lon": 108.091,
+              "areaKm2": 135.55
+            }
+          ]
+        },
+        {
+          "code": "24592",
+          "name": "Xã Buôn Triết",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Đắk Liêng",
+              "newWardShort": "Đắk Liêng",
+              "newWardCode": "24595",
+              "newWardType": "Xã",
+              "lat": 12.3907,
+              "lon": 108.091,
+              "areaKm2": 135.55
+            }
+          ]
+        },
+        {
+          "code": "24589",
+          "name": "Xã Đắk Liêng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Đắk Liêng",
+              "newWardShort": "Đắk Liêng",
+              "newWardCode": "24595",
+              "newWardType": "Xã",
+              "lat": 12.3907,
+              "lon": 108.091,
+              "areaKm2": 135.55
+            }
+          ]
+        },
+        {
+          "code": "24601",
+          "name": "Xã Đắk Nuê",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Đắk Phơi",
+              "newWardShort": "Đắk Phơi",
+              "newWardCode": "24598",
+              "newWardType": "Xã",
+              "lat": 12.3118,
+              "lon": 108.202,
+              "areaKm2": 266.83
+            }
+          ]
+        },
+        {
+          "code": "24598",
+          "name": "Xã Đắk Phơi",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Đắk Phơi",
+              "newWardShort": "Đắk Phơi",
+              "newWardCode": "24598",
+              "newWardType": "Xã",
+              "lat": 12.3118,
+              "lon": 108.202,
+              "areaKm2": 266.83
+            }
+          ]
+        },
+        {
+          "code": "24610",
+          "name": "Xã Ea Rbin",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Nam Ka",
+              "newWardShort": "Nam Ka",
+              "newWardCode": "24607",
+              "newWardType": "Xã",
+              "lat": 12.3332,
+              "lon": 108.015,
+              "areaKm2": 172.86
+            }
+          ]
+        },
+        {
+          "code": "24604",
+          "name": "Xã Krông Nô",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Krông Nô",
+              "newWardShort": "Krông Nô",
+              "newWardCode": "24604",
+              "newWardType": "Xã",
+              "lat": 12.2284,
+              "lon": 108.257,
+              "areaKm2": 159.82
+            }
+          ]
+        },
+        {
+          "code": "24607",
+          "name": "Xã Nam Ka",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Nam Ka",
+              "newWardShort": "Nam Ka",
+              "newWardCode": "24607",
+              "newWardType": "Xã",
+              "lat": 12.3332,
+              "lon": 108.015,
+              "areaKm2": 172.86
+            }
+          ]
+        },
+        {
+          "code": "24583",
+          "name": "Xã Yang Tao",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Liên Sơn Lắk",
+              "newWardShort": "Liên Sơn Lắk",
+              "newWardCode": "24580",
+              "newWardType": "Xã",
+              "lat": 12.3814,
+              "lon": 108.328,
+              "areaKm2": 398.82
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "652",
+      "name": "Huyện M'Đrắk",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "24412",
+          "name": "Thị trấn M'Drắk",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã M'Drắk",
+              "newWardShort": "M'Drắk",
+              "newWardCode": "24412",
+              "newWardType": "Xã",
+              "lat": 12.7953,
+              "lon": 108.721,
+              "areaKm2": 151.686
+            }
+          ]
+        },
+        {
+          "code": "24439",
+          "name": "Xã Cư Króa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Cư M'ta",
+              "newWardShort": "Cư M'ta",
+              "newWardCode": "24436",
+              "newWardType": "Xã",
+              "lat": 12.7193,
+              "lon": 108.878,
+              "areaKm2": 279.421
+            }
+          ]
+        },
+        {
+          "code": "24436",
+          "name": "Xã Cư M'ta",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Cư M'ta",
+              "newWardShort": "Cư M'ta",
+              "newWardCode": "24436",
+              "newWardType": "Xã",
+              "lat": 12.7193,
+              "lon": 108.878,
+              "areaKm2": 279.421
+            }
+          ]
+        },
+        {
+          "code": "24415",
+          "name": "Xã Cư Prao",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Cư Prao",
+              "newWardShort": "Cư Prao",
+              "newWardCode": "24415",
+              "newWardType": "Xã",
+              "lat": 12.8359,
+              "lon": 108.635,
+              "areaKm2": 204.89
+            }
+          ]
+        },
+        {
+          "code": "24444",
+          "name": "Xã Cư San",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Krông Á",
+              "newWardShort": "Krông Á",
+              "newWardCode": "24444",
+              "newWardType": "Xã",
+              "lat": 12.5446,
+              "lon": 108.769,
+              "areaKm2": 291.6
+            }
+          ]
+        },
+        {
+          "code": "24424",
+          "name": "Xã Ea H'MLay",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea Riêng",
+              "newWardShort": "Ea Riêng",
+              "newWardCode": "24433",
+              "newWardType": "Xã",
+              "lat": 12.7989,
+              "lon": 108.839,
+              "areaKm2": 167.56
+            }
+          ]
+        },
+        {
+          "code": "24421",
+          "name": "Xã Ea Lai",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã M'Drắk",
+              "newWardShort": "M'Drắk",
+              "newWardCode": "24412",
+              "newWardType": "Xã",
+              "lat": 12.7953,
+              "lon": 108.721,
+              "areaKm2": 151.686
+            }
+          ]
+        },
+        {
+          "code": "24430",
+          "name": "Xã Ea M'Doal",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea Riêng",
+              "newWardShort": "Ea Riêng",
+              "newWardCode": "24433",
+              "newWardType": "Xã",
+              "lat": 12.7989,
+              "lon": 108.839,
+              "areaKm2": 167.56
+            }
+          ]
+        },
+        {
+          "code": "24418",
+          "name": "Xã Ea Pil",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Cư Prao",
+              "newWardShort": "Cư Prao",
+              "newWardCode": "24415",
+              "newWardType": "Xã",
+              "lat": 12.8359,
+              "lon": 108.635,
+              "areaKm2": 204.89
+            }
+          ]
+        },
+        {
+          "code": "24433",
+          "name": "Xã Ea Riêng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea Riêng",
+              "newWardShort": "Ea Riêng",
+              "newWardCode": "24433",
+              "newWardType": "Xã",
+              "lat": 12.7989,
+              "lon": 108.839,
+              "areaKm2": 167.56
+            }
+          ]
+        },
+        {
+          "code": "24445",
+          "name": "Xã Ea Trang",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea Trang",
+              "newWardShort": "Ea Trang",
+              "newWardCode": "24445",
+              "newWardType": "Xã",
+              "lat": 12.613,
+              "lon": 108.843,
+              "areaKm2": 207.4
+            }
+          ]
+        },
+        {
+          "code": "24442",
+          "name": "Xã Krông Á",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Krông Á",
+              "newWardShort": "Krông Á",
+              "newWardCode": "24444",
+              "newWardType": "Xã",
+              "lat": 12.5446,
+              "lon": 108.769,
+              "areaKm2": 291.6
+            }
+          ]
+        },
+        {
+          "code": "24427",
+          "name": "Xã Krông Jing",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã M'Drắk",
+              "newWardShort": "M'Drắk",
+              "newWardCode": "24412",
+              "newWardType": "Xã",
+              "lat": 12.7953,
+              "lon": 108.721,
+              "areaKm2": 151.686
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "644",
+      "name": "Thị Xã Buôn Hồ",
+      "type": "Thị xã",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "24308",
+          "name": "Phường An Bình",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Phường Buôn Hồ",
+              "newWardShort": "Buôn Hồ",
+              "newWardCode": "24305",
+              "newWardType": "Phường",
+              "lat": 12.8944,
+              "lon": 108.251,
+              "areaKm2": 66.54
+            }
+          ]
+        },
+        {
+          "code": "24305",
+          "name": "Phường An Lạc",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Phường Buôn Hồ",
+              "newWardShort": "Buôn Hồ",
+              "newWardCode": "24305",
+              "newWardType": "Phường",
+              "lat": 12.8944,
+              "lon": 108.251,
+              "areaKm2": 66.54
+            }
+          ]
+        },
+        {
+          "code": "24332",
+          "name": "Phường Bình Tân",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Phường Cư Bao",
+              "newWardShort": "Cư Bao",
+              "newWardCode": "24340",
+              "newWardType": "Phường",
+              "lat": 12.8055,
+              "lon": 108.252,
+              "areaKm2": 104.94
+            }
+          ]
+        },
+        {
+          "code": "24318",
+          "name": "Phường Đạt Hiếu",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Phường Buôn Hồ",
+              "newWardShort": "Buôn Hồ",
+              "newWardCode": "24305",
+              "newWardType": "Phường",
+              "lat": 12.8944,
+              "lon": 108.251,
+              "areaKm2": 66.54
+            }
+          ]
+        },
+        {
+          "code": "24322",
+          "name": "Phường Đoàn Kết",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Phường Buôn Hồ",
+              "newWardShort": "Buôn Hồ",
+              "newWardCode": "24305",
+              "newWardType": "Phường",
+              "lat": 12.8944,
+              "lon": 108.251,
+              "areaKm2": 66.54
+            }
+          ]
+        },
+        {
+          "code": "24311",
+          "name": "Phường Thiện An",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Phường Buôn Hồ",
+              "newWardShort": "Buôn Hồ",
+              "newWardCode": "24305",
+              "newWardType": "Phường",
+              "lat": 12.8944,
+              "lon": 108.251,
+              "areaKm2": 66.54
+            }
+          ]
+        },
+        {
+          "code": "24331",
+          "name": "Phường Thống Nhất",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Phường Buôn Hồ",
+              "newWardShort": "Buôn Hồ",
+              "newWardCode": "24305",
+              "newWardType": "Phường",
+              "lat": 12.8944,
+              "lon": 108.251,
+              "areaKm2": 66.54
+            }
+          ]
+        },
+        {
+          "code": "24337",
+          "name": "Xã Bình Thuận",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Phường Cư Bao",
+              "newWardShort": "Cư Bao",
+              "newWardCode": "24340",
+              "newWardType": "Phường",
+              "lat": 12.8055,
+              "lon": 108.252,
+              "areaKm2": 104.94
+            }
+          ]
+        },
+        {
+          "code": "24340",
+          "name": "Xã Cư Bao",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Phường Cư Bao",
+              "newWardShort": "Cư Bao",
+              "newWardCode": "24340",
+              "newWardType": "Phường",
+              "lat": 12.8055,
+              "lon": 108.252,
+              "areaKm2": 104.94
+            }
+          ]
+        },
+        {
+          "code": "24328",
+          "name": "Xã Ea Drông",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea Drông",
+              "newWardShort": "Ea Drông",
+              "newWardCode": "24328",
+              "newWardType": "Xã",
+              "lat": 12.8663,
+              "lon": 108.321,
+              "areaKm2": 111.13
+            }
+          ]
+        },
+        {
+          "code": "24334",
+          "name": "Xã Ea Siên",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Đắk Lắk",
+              "newProvinceSlug": "dak-lak",
+              "newProvinceCode": "66",
+              "newWard": "Xã Ea Drông",
+              "newWardShort": "Ea Drông",
+              "newWardCode": "24328",
+              "newWardType": "Xã",
+              "lat": 12.8663,
+              "lon": 108.321,
+              "areaKm2": 111.13
+            }
+          ]
+        }
+      ],
+      "results": []
+    }
+  ]
+}

@@ -1,0 +1,3005 @@
+{
+  "schemaVersion": 1,
+  "mergeDate": "2025-07-01",
+  "code": "91",
+  "name": "Tỉnh Kiên Giang",
+  "name_en": "Kien Giang Province",
+  "slug": "kien-giang",
+  "districts": [
+    {
+      "code": "900",
+      "name": "Thành phố Hà Tiên",
+      "type": "Thành phố",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "30772",
+          "name": "Phường Bình San",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Phường Hà Tiên",
+              "newWardShort": "Hà Tiên",
+              "newWardCode": "30769",
+              "newWardType": "Phường",
+              "lat": 10.4029,
+              "lon": 104.469,
+              "areaKm2": 61.35
+            }
+          ]
+        },
+        {
+          "code": "30769",
+          "name": "Phường Đông Hồ",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Phường Hà Tiên",
+              "newWardShort": "Hà Tiên",
+              "newWardCode": "30769",
+              "newWardType": "Phường",
+              "lat": 10.4029,
+              "lon": 104.469,
+              "areaKm2": 61.35
+            }
+          ]
+        },
+        {
+          "code": "30778",
+          "name": "Phường Mỹ Đức",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Phường Hà Tiên",
+              "newWardShort": "Hà Tiên",
+              "newWardCode": "30769",
+              "newWardType": "Phường",
+              "lat": 10.4029,
+              "lon": 104.469,
+              "areaKm2": 61.35
+            }
+          ]
+        },
+        {
+          "code": "30775",
+          "name": "Phường Pháo Đài",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Phường Hà Tiên",
+              "newWardShort": "Hà Tiên",
+              "newWardCode": "30769",
+              "newWardType": "Phường",
+              "lat": 10.4029,
+              "lon": 104.469,
+              "areaKm2": 61.35
+            }
+          ]
+        },
+        {
+          "code": "30766",
+          "name": "Phường Tô Châu",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Phường Tô Châu",
+              "newWardShort": "Tô Châu",
+              "newWardCode": "30766",
+              "newWardType": "Phường",
+              "lat": 10.3215,
+              "lon": 104.552,
+              "areaKm2": 79.77
+            }
+          ]
+        },
+        {
+          "code": "30784",
+          "name": "Xã Thuận Yên",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Phường Tô Châu",
+              "newWardShort": "Tô Châu",
+              "newWardCode": "30766",
+              "newWardType": "Phường",
+              "lat": 10.3215,
+              "lon": 104.552,
+              "areaKm2": 79.77
+            }
+          ]
+        },
+        {
+          "code": "30781",
+          "name": "Xã Tiên Hải",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Tiên Hải",
+              "newWardShort": "Tiên Hải",
+              "newWardCode": "30781",
+              "newWardType": "Xã",
+              "lat": 10.1408,
+              "lon": 104.3303,
+              "areaKm2": 2.54
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "908",
+      "name": "Huyện An Biên",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "30985",
+          "name": "Thị trấn Thứ Ba",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã An Biên",
+              "newWardShort": "An Biên",
+              "newWardCode": "30985",
+              "newWardType": "Xã",
+              "lat": 9.7871,
+              "lon": 105.097,
+              "areaKm2": 118.27
+            }
+          ]
+        },
+        {
+          "code": "31006",
+          "name": "Xã Đông Thái",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Đông Thái",
+              "newWardShort": "Đông Thái",
+              "newWardCode": "31006",
+              "newWardType": "Xã",
+              "lat": 9.79932,
+              "lon": 105.001,
+              "areaKm2": 154.52
+            }
+          ]
+        },
+        {
+          "code": "31009",
+          "name": "Xã Đông Yên",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã An Biên",
+              "newWardShort": "An Biên",
+              "newWardCode": "30985",
+              "newWardType": "Xã",
+              "lat": 9.7871,
+              "lon": 105.097,
+              "areaKm2": 118.27
+            }
+          ]
+        },
+        {
+          "code": "30997",
+          "name": "Xã Hưng Yên",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã An Biên",
+              "newWardShort": "An Biên",
+              "newWardCode": "30985",
+              "newWardType": "Xã",
+              "lat": 9.7871,
+              "lon": 105.097,
+              "areaKm2": 118.27
+            }
+          ]
+        },
+        {
+          "code": "31000",
+          "name": "Xã Nam Thái",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Đông Thái",
+              "newWardShort": "Đông Thái",
+              "newWardCode": "31006",
+              "newWardType": "Xã",
+              "lat": 9.79932,
+              "lon": 105.001,
+              "areaKm2": 154.52
+            }
+          ]
+        },
+        {
+          "code": "31003",
+          "name": "Xã Nam Thái A",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Đông Thái",
+              "newWardShort": "Đông Thái",
+              "newWardCode": "31006",
+              "newWardType": "Xã",
+              "lat": 9.79932,
+              "lon": 105.001,
+              "areaKm2": 154.52
+            }
+          ]
+        },
+        {
+          "code": "30994",
+          "name": "Xã Nam Yên",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Tây Yên",
+              "newWardShort": "Tây Yên",
+              "newWardCode": "30988",
+              "newWardType": "Xã",
+              "lat": 9.88419,
+              "lon": 105.053,
+              "areaKm2": 127.5
+            }
+          ]
+        },
+        {
+          "code": "30988",
+          "name": "Xã Tây Yên",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Tây Yên",
+              "newWardShort": "Tây Yên",
+              "newWardCode": "30988",
+              "newWardType": "Xã",
+              "lat": 9.88419,
+              "lon": 105.053,
+              "areaKm2": 127.5
+            }
+          ]
+        },
+        {
+          "code": "30991",
+          "name": "Xã Tây Yên A",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Tây Yên",
+              "newWardShort": "Tây Yên",
+              "newWardCode": "30988",
+              "newWardType": "Xã",
+              "lat": 9.88419,
+              "lon": 105.053,
+              "areaKm2": 127.5
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "909",
+      "name": "Huyện An Minh",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "31018",
+          "name": "Thị trấn Thứ Mười Một",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã An Minh",
+              "newWardShort": "An Minh",
+              "newWardCode": "31018",
+              "newWardType": "Xã",
+              "lat": 9.60108,
+              "lon": 104.972,
+              "areaKm2": 142.3
+            }
+          ]
+        },
+        {
+          "code": "31024",
+          "name": "Xã Đông Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Đông Hòa",
+              "newWardShort": "Đông Hòa",
+              "newWardCode": "31024",
+              "newWardType": "Xã",
+              "lat": 9.6999,
+              "lon": 104.992,
+              "areaKm2": 151.88
+            }
+          ]
+        },
+        {
+          "code": "31033",
+          "name": "Xã Đông Hưng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã An Minh",
+              "newWardShort": "An Minh",
+              "newWardCode": "31018",
+              "newWardType": "Xã",
+              "lat": 9.60108,
+              "lon": 104.972,
+              "areaKm2": 142.3
+            }
+          ]
+        },
+        {
+          "code": "31036",
+          "name": "Xã Đông Hưng A",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Đông Hưng",
+              "newWardShort": "Đông Hưng",
+              "newWardCode": "31036",
+              "newWardType": "Xã",
+              "lat": 9.65306,
+              "lon": 104.881,
+              "areaKm2": 81.62
+            }
+          ]
+        },
+        {
+          "code": "31039",
+          "name": "Xã Đông Hưng B",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã An Minh",
+              "newWardShort": "An Minh",
+              "newWardCode": "31018",
+              "newWardType": "Xã",
+              "lat": 9.60108,
+              "lon": 104.972,
+              "areaKm2": 142.3
+            }
+          ]
+        },
+        {
+          "code": "31030",
+          "name": "Xã Đông Thạnh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Đông Hòa",
+              "newWardShort": "Đông Hòa",
+              "newWardCode": "31024",
+              "newWardType": "Xã",
+              "lat": 9.6999,
+              "lon": 104.992,
+              "areaKm2": 151.88
+            }
+          ]
+        },
+        {
+          "code": "31031",
+          "name": "Xã Tân Thạnh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Tân Thạnh",
+              "newWardShort": "Tân Thạnh",
+              "newWardCode": "31031",
+              "newWardType": "Xã",
+              "lat": 9.76306,
+              "lon": 104.909,
+              "areaKm2": 70.8
+            }
+          ]
+        },
+        {
+          "code": "31021",
+          "name": "Xã Thuận Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Tân Thạnh",
+              "newWardShort": "Tân Thạnh",
+              "newWardCode": "31031",
+              "newWardType": "Xã",
+              "lat": 9.76306,
+              "lon": 104.909,
+              "areaKm2": 70.8
+            }
+          ]
+        },
+        {
+          "code": "31042",
+          "name": "Xã Vân Khánh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Vân Khánh",
+              "newWardShort": "Vân Khánh",
+              "newWardCode": "31042",
+              "newWardType": "Xã",
+              "lat": 9.56421,
+              "lon": 104.879,
+              "areaKm2": 90.84
+            }
+          ]
+        },
+        {
+          "code": "31045",
+          "name": "Xã Vân Khánh Đông",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Đông Hưng",
+              "newWardShort": "Đông Hưng",
+              "newWardCode": "31036",
+              "newWardType": "Xã",
+              "lat": 9.65306,
+              "lon": 104.881,
+              "areaKm2": 81.62
+            }
+          ]
+        },
+        {
+          "code": "31048",
+          "name": "Xã Vân Khánh Tây",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Vân Khánh",
+              "newWardShort": "Vân Khánh",
+              "newWardCode": "31042",
+              "newWardType": "Xã",
+              "lat": 9.56421,
+              "lon": 104.879,
+              "areaKm2": 90.84
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "905",
+      "name": "Huyện Châu Thành",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "30880",
+          "name": "Thị trấn Minh Lương",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Châu Thành",
+              "newWardShort": "Châu Thành",
+              "newWardCode": "30880",
+              "newWardType": "Xã",
+              "lat": 9.90357,
+              "lon": 105.194,
+              "areaKm2": 47.71
+            }
+          ]
+        },
+        {
+          "code": "30898",
+          "name": "Xã Bình An",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Bình An",
+              "newWardShort": "Bình An",
+              "newWardCode": "30898",
+              "newWardType": "Xã",
+              "lat": 9.88888,
+              "lon": 105.135,
+              "areaKm2": 73.43
+            }
+          ]
+        },
+        {
+          "code": "30889",
+          "name": "Xã Giục Tượng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Châu Thành",
+              "newWardShort": "Châu Thành",
+              "newWardCode": "30880",
+              "newWardType": "Xã",
+              "lat": 9.90357,
+              "lon": 105.194,
+              "areaKm2": 47.71
+            }
+          ]
+        },
+        {
+          "code": "30895",
+          "name": "Xã Minh Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Châu Thành",
+              "newWardShort": "Châu Thành",
+              "newWardCode": "30880",
+              "newWardType": "Xã",
+              "lat": 9.90357,
+              "lon": 105.194,
+              "areaKm2": 47.71
+            }
+          ]
+        },
+        {
+          "code": "30887",
+          "name": "Xã Mong Thọ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Thạnh Lộc",
+              "newWardShort": "Thạnh Lộc",
+              "newWardCode": "30886",
+              "newWardType": "Xã",
+              "lat": 10.0178,
+              "lon": 105.169,
+              "areaKm2": 104.62
+            }
+          ]
+        },
+        {
+          "code": "30883",
+          "name": "Xã Mong Thọ A",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Thạnh Lộc",
+              "newWardShort": "Thạnh Lộc",
+              "newWardCode": "30886",
+              "newWardType": "Xã",
+              "lat": 10.0178,
+              "lon": 105.169,
+              "areaKm2": 104.62
+            }
+          ]
+        },
+        {
+          "code": "30886",
+          "name": "Xã Mong Thọ B",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Thạnh Lộc",
+              "newWardShort": "Thạnh Lộc",
+              "newWardCode": "30886",
+              "newWardType": "Xã",
+              "lat": 10.0178,
+              "lon": 105.169,
+              "areaKm2": 104.62
+            }
+          ]
+        },
+        {
+          "code": "30901",
+          "name": "Xã Thạnh Lộc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Thạnh Lộc",
+              "newWardShort": "Thạnh Lộc",
+              "newWardCode": "30886",
+              "newWardType": "Xã",
+              "lat": 10.0178,
+              "lon": 105.169,
+              "areaKm2": 104.62
+            }
+          ]
+        },
+        {
+          "code": "30892",
+          "name": "Xã Vĩnh Hòa Hiệp",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Bình An",
+              "newWardShort": "Bình An",
+              "newWardCode": "30898",
+              "newWardType": "Xã",
+              "lat": 9.88888,
+              "lon": 105.135,
+              "areaKm2": 73.43
+            }
+          ]
+        },
+        {
+          "code": "30893",
+          "name": "Xã Vĩnh Hòa Phú",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Bình An",
+              "newWardShort": "Bình An",
+              "newWardCode": "30898",
+              "newWardType": "Xã",
+              "lat": 9.88888,
+              "lon": 105.135,
+              "areaKm2": 73.43
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "914",
+      "name": "Huyện Giang Thành",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "30797",
+          "name": "Xã Phú Lợi",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Giang Thành",
+              "newWardShort": "Giang Thành",
+              "newWardCode": "30796",
+              "newWardType": "Xã",
+              "lat": 10.4479,
+              "lon": 104.6,
+              "areaKm2": 184.14
+            }
+          ]
+        },
+        {
+          "code": "30799",
+          "name": "Xã Phú Mỹ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Giang Thành",
+              "newWardShort": "Giang Thành",
+              "newWardCode": "30796",
+              "newWardType": "Xã",
+              "lat": 10.4479,
+              "lon": 104.6,
+              "areaKm2": 184.14
+            }
+          ]
+        },
+        {
+          "code": "30796",
+          "name": "Xã Tân Khánh Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Giang Thành",
+              "newWardShort": "Giang Thành",
+              "newWardCode": "30796",
+              "newWardType": "Xã",
+              "lat": 10.4479,
+              "lon": 104.6,
+              "areaKm2": 184.14
+            }
+          ]
+        },
+        {
+          "code": "30793",
+          "name": "Xã Vĩnh Điều",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Vĩnh Điều",
+              "newWardShort": "Vĩnh Điều",
+              "newWardCode": "30793",
+              "newWardType": "Xã",
+              "lat": 10.4572,
+              "lon": 104.729,
+              "areaKm2": 229.35
+            }
+          ]
+        },
+        {
+          "code": "30791",
+          "name": "Xã Vĩnh Phú",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Vĩnh Điều",
+              "newWardShort": "Vĩnh Điều",
+              "newWardCode": "30793",
+              "newWardType": "Xã",
+              "lat": 10.4572,
+              "lon": 104.729,
+              "areaKm2": 229.35
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "906",
+      "name": "Huyện Giồng Riềng",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "30904",
+          "name": "Thị trấn Giồng Riềng",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Giồng Riềng",
+              "newWardShort": "Giồng Riềng",
+              "newWardCode": "30904",
+              "newWardType": "Xã",
+              "lat": 9.92527,
+              "lon": 105.273,
+              "areaKm2": 122.1
+            }
+          ]
+        },
+        {
+          "code": "30922",
+          "name": "Xã Bàn Tân Định",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Giồng Riềng",
+              "newWardShort": "Giồng Riềng",
+              "newWardCode": "30904",
+              "newWardType": "Xã",
+              "lat": 9.92527,
+              "lon": 105.273,
+              "areaKm2": 122.1
+            }
+          ]
+        },
+        {
+          "code": "30919",
+          "name": "Xã Bàn Thạch",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Giồng Riềng",
+              "newWardShort": "Giồng Riềng",
+              "newWardCode": "30904",
+              "newWardType": "Xã",
+              "lat": 9.92527,
+              "lon": 105.273,
+              "areaKm2": 122.1
+            }
+          ]
+        },
+        {
+          "code": "30940",
+          "name": "Xã Hòa An",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Hòa Hưng",
+              "newWardShort": "Hòa Hưng",
+              "newWardCode": "30934",
+              "newWardType": "Xã",
+              "lat": 9.89649,
+              "lon": 105.48,
+              "areaKm2": 114.24
+            }
+          ]
+        },
+        {
+          "code": "30934",
+          "name": "Xã Hòa Hưng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Hòa Hưng",
+              "newWardShort": "Hòa Hưng",
+              "newWardCode": "30934",
+              "newWardType": "Xã",
+              "lat": 9.89649,
+              "lon": 105.48,
+              "areaKm2": 114.24
+            }
+          ]
+        },
+        {
+          "code": "30937",
+          "name": "Xã Hòa Lợi",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Hòa Hưng",
+              "newWardShort": "Hòa Hưng",
+              "newWardCode": "30934",
+              "newWardType": "Xã",
+              "lat": 9.89649,
+              "lon": 105.48,
+              "areaKm2": 114.24
+            }
+          ]
+        },
+        {
+          "code": "30949",
+          "name": "Xã Hòa Thuận",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Hòa Thuận",
+              "newWardShort": "Hòa Thuận",
+              "newWardCode": "30949",
+              "newWardType": "Xã",
+              "lat": 9.84949,
+              "lon": 105.404,
+              "areaKm2": 73.85
+            }
+          ]
+        },
+        {
+          "code": "30943",
+          "name": "Xã Long Thạnh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Long Thạnh",
+              "newWardShort": "Long Thạnh",
+              "newWardCode": "30943",
+              "newWardType": "Xã",
+              "lat": 9.83867,
+              "lon": 105.313,
+              "areaKm2": 96.37
+            }
+          ]
+        },
+        {
+          "code": "30928",
+          "name": "Xã Ngọc Chúc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Ngọc Chúc",
+              "newWardShort": "Ngọc Chúc",
+              "newWardCode": "30928",
+              "newWardType": "Xã",
+              "lat": 9.91663,
+              "lon": 105.392,
+              "areaKm2": 90.25
+            }
+          ]
+        },
+        {
+          "code": "30950",
+          "name": "Xã Ngọc Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Hòa Thuận",
+              "newWardShort": "Hòa Thuận",
+              "newWardCode": "30949",
+              "newWardType": "Xã",
+              "lat": 9.84949,
+              "lon": 105.404,
+              "areaKm2": 73.85
+            }
+          ]
+        },
+        {
+          "code": "30925",
+          "name": "Xã Ngọc Thành",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Ngọc Chúc",
+              "newWardShort": "Ngọc Chúc",
+              "newWardCode": "30928",
+              "newWardType": "Xã",
+              "lat": 9.91663,
+              "lon": 105.392,
+              "areaKm2": 90.25
+            }
+          ]
+        },
+        {
+          "code": "30931",
+          "name": "Xã Ngọc Thuận",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Ngọc Chúc",
+              "newWardShort": "Ngọc Chúc",
+              "newWardCode": "30928",
+              "newWardType": "Xã",
+              "lat": 9.91663,
+              "lon": 105.392,
+              "areaKm2": 90.25
+            }
+          ]
+        },
+        {
+          "code": "30917",
+          "name": "Xã Thạnh Bình",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Giồng Riềng",
+              "newWardShort": "Giồng Riềng",
+              "newWardCode": "30904",
+              "newWardType": "Xã",
+              "lat": 9.92527,
+              "lon": 105.273,
+              "areaKm2": 122.1
+            }
+          ]
+        },
+        {
+          "code": "30916",
+          "name": "Xã Thạnh Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Giồng Riềng",
+              "newWardShort": "Giồng Riềng",
+              "newWardCode": "30904",
+              "newWardType": "Xã",
+              "lat": 9.92527,
+              "lon": 105.273,
+              "areaKm2": 122.1
+            }
+          ]
+        },
+        {
+          "code": "30907",
+          "name": "Xã Thạnh Hưng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Thạnh Hưng",
+              "newWardShort": "Thạnh Hưng",
+              "newWardCode": "30910",
+              "newWardType": "Xã",
+              "lat": 9.98824,
+              "lon": 105.381,
+              "areaKm2": 142.54
+            }
+          ]
+        },
+        {
+          "code": "30913",
+          "name": "Xã Thạnh Lộc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Thạnh Hưng",
+              "newWardShort": "Thạnh Hưng",
+              "newWardCode": "30910",
+              "newWardType": "Xã",
+              "lat": 9.98824,
+              "lon": 105.381,
+              "areaKm2": 142.54
+            }
+          ]
+        },
+        {
+          "code": "30910",
+          "name": "Xã Thạnh Phước",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Thạnh Hưng",
+              "newWardShort": "Thạnh Hưng",
+              "newWardCode": "30910",
+              "newWardType": "Xã",
+              "lat": 9.98824,
+              "lon": 105.381,
+              "areaKm2": 142.54
+            }
+          ]
+        },
+        {
+          "code": "30947",
+          "name": "Xã Vĩnh Phú",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Long Thạnh",
+              "newWardShort": "Long Thạnh",
+              "newWardCode": "30943",
+              "newWardType": "Xã",
+              "lat": 9.83867,
+              "lon": 105.313,
+              "areaKm2": 96.37
+            }
+          ]
+        },
+        {
+          "code": "30946",
+          "name": "Xã Vĩnh Thạnh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Long Thạnh",
+              "newWardShort": "Long Thạnh",
+              "newWardCode": "30943",
+              "newWardType": "Xã",
+              "lat": 9.83867,
+              "lon": 105.313,
+              "areaKm2": 96.37
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "907",
+      "name": "Huyện Gò Quao",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "30952",
+          "name": "Thị trấn Gò Quao",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Gò Quao",
+              "newWardShort": "Gò Quao",
+              "newWardCode": "30952",
+              "newWardType": "Xã",
+              "lat": 9.7456,
+              "lon": 105.294,
+              "areaKm2": 83.92
+            }
+          ]
+        },
+        {
+          "code": "30964",
+          "name": "Xã Định An",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Gò Quao",
+              "newWardShort": "Gò Quao",
+              "newWardCode": "30952",
+              "newWardType": "Xã",
+              "lat": 9.7456,
+              "lon": 105.294,
+              "areaKm2": 83.92
+            }
+          ]
+        },
+        {
+          "code": "30958",
+          "name": "Xã Định Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Định Hòa",
+              "newWardShort": "Định Hòa",
+              "newWardCode": "30958",
+              "newWardType": "Xã",
+              "lat": 9.7568,
+              "lon": 105.215,
+              "areaKm2": 143.79
+            }
+          ]
+        },
+        {
+          "code": "30961",
+          "name": "Xã Thới Quản",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Định Hòa",
+              "newWardShort": "Định Hòa",
+              "newWardCode": "30958",
+              "newWardType": "Xã",
+              "lat": 9.7568,
+              "lon": 105.215,
+              "areaKm2": 143.79
+            }
+          ]
+        },
+        {
+          "code": "30967",
+          "name": "Xã Thủy Liễu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Định Hòa",
+              "newWardShort": "Định Hòa",
+              "newWardCode": "30958",
+              "newWardType": "Xã",
+              "lat": 9.7568,
+              "lon": 105.215,
+              "areaKm2": 143.79
+            }
+          ]
+        },
+        {
+          "code": "30955",
+          "name": "Xã Vĩnh Hòa Hưng Bắc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Vĩnh Hòa Hưng",
+              "newWardShort": "Vĩnh Hòa Hưng",
+              "newWardCode": "30970",
+              "newWardType": "Xã",
+              "lat": 9.77706,
+              "lon": 105.373,
+              "areaKm2": 95.94
+            }
+          ]
+        },
+        {
+          "code": "30970",
+          "name": "Xã Vĩnh Hòa Hưng Nam",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Vĩnh Hòa Hưng",
+              "newWardShort": "Vĩnh Hòa Hưng",
+              "newWardCode": "30970",
+              "newWardType": "Xã",
+              "lat": 9.77706,
+              "lon": 105.373,
+              "areaKm2": 95.94
+            }
+          ]
+        },
+        {
+          "code": "30973",
+          "name": "Xã Vĩnh Phước A",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Vĩnh Tuy",
+              "newWardShort": "Vĩnh Tuy",
+              "newWardCode": "30982",
+              "newWardType": "Xã",
+              "lat": 9.65691,
+              "lon": 105.323,
+              "areaKm2": 115.86
+            }
+          ]
+        },
+        {
+          "code": "30976",
+          "name": "Xã Vĩnh Phước B",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Gò Quao",
+              "newWardShort": "Gò Quao",
+              "newWardCode": "30952",
+              "newWardType": "Xã",
+              "lat": 9.7456,
+              "lon": 105.294,
+              "areaKm2": 83.92
+            }
+          ]
+        },
+        {
+          "code": "30982",
+          "name": "Xã Vĩnh Thắng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Vĩnh Tuy",
+              "newWardShort": "Vĩnh Tuy",
+              "newWardCode": "30982",
+              "newWardType": "Xã",
+              "lat": 9.65691,
+              "lon": 105.323,
+              "areaKm2": 115.86
+            }
+          ]
+        },
+        {
+          "code": "30979",
+          "name": "Xã Vĩnh Tuy",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Vĩnh Tuy",
+              "newWardShort": "Vĩnh Tuy",
+              "newWardCode": "30982",
+              "newWardType": "Xã",
+              "lat": 9.65691,
+              "lon": 105.323,
+              "areaKm2": 115.86
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "903",
+      "name": "Huyện Hòn Đất",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "30817",
+          "name": "Thị trấn Hòn Đất",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Hòn Đất",
+              "newWardShort": "Hòn Đất",
+              "newWardCode": "30817",
+              "newWardType": "Xã",
+              "lat": 10.2161,
+              "lon": 104.93,
+              "areaKm2": 281.7
+            }
+          ]
+        },
+        {
+          "code": "30820",
+          "name": "Thị trấn Sóc Sơn",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Mỹ Thuận",
+              "newWardShort": "Mỹ Thuận",
+              "newWardCode": "30838",
+              "newWardType": "Xã",
+              "lat": 10.1723,
+              "lon": 105.078,
+              "areaKm2": 210.5
+            }
+          ]
+        },
+        {
+          "code": "30826",
+          "name": "Xã Bình Giang",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Bình Giang",
+              "newWardShort": "Bình Giang",
+              "newWardCode": "30826",
+              "newWardType": "Xã",
+              "lat": 10.3092,
+              "lon": 104.791,
+              "areaKm2": 163.7
+            }
+          ]
+        },
+        {
+          "code": "30823",
+          "name": "Xã Bình Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Bình Sơn",
+              "newWardShort": "Bình Sơn",
+              "newWardCode": "30823",
+              "newWardType": "Xã",
+              "lat": 10.2664,
+              "lon": 104.859,
+              "areaKm2": 281.7
+            }
+          ]
+        },
+        {
+          "code": "30840",
+          "name": "Xã Lình Huỳnh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Hòn Đất",
+              "newWardShort": "Hòn Đất",
+              "newWardCode": "30817",
+              "newWardType": "Xã",
+              "lat": 10.2161,
+              "lon": 104.93,
+              "areaKm2": 281.7
+            }
+          ]
+        },
+        {
+          "code": "30832",
+          "name": "Xã Mỹ Hiệp Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Mỹ Thuận",
+              "newWardShort": "Mỹ Thuận",
+              "newWardCode": "30838",
+              "newWardType": "Xã",
+              "lat": 10.1723,
+              "lon": 105.078,
+              "areaKm2": 210.5
+            }
+          ]
+        },
+        {
+          "code": "30844",
+          "name": "Xã Mỹ Lâm",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Phường Vĩnh Thông",
+              "newWardShort": "Vĩnh Thông",
+              "newWardCode": "30760",
+              "newWardType": "Phường",
+              "lat": 10.0664,
+              "lon": 105.125,
+              "areaKm2": 95.89
+            }
+          ]
+        },
+        {
+          "code": "30847",
+          "name": "Xã Mỹ Phước",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Mỹ Thuận",
+              "newWardShort": "Mỹ Thuận",
+              "newWardCode": "30838",
+              "newWardType": "Xã",
+              "lat": 10.1723,
+              "lon": 105.078,
+              "areaKm2": 210.5
+            }
+          ]
+        },
+        {
+          "code": "30828",
+          "name": "Xã Mỹ Thái",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Sơn Kiên",
+              "newWardShort": "Sơn Kiên",
+              "newWardCode": "30835",
+              "newWardType": "Xã",
+              "lat": 10.192,
+              "lon": 105.002,
+              "areaKm2": 163.41
+            }
+          ]
+        },
+        {
+          "code": "30838",
+          "name": "Xã Mỹ Thuận",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Mỹ Thuận",
+              "newWardShort": "Mỹ Thuận",
+              "newWardCode": "30838",
+              "newWardType": "Xã",
+              "lat": 10.1723,
+              "lon": 105.078,
+              "areaKm2": 210.5
+            }
+          ]
+        },
+        {
+          "code": "30829",
+          "name": "Xã Nam Thái Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Hòn Đất",
+              "newWardShort": "Hòn Đất",
+              "newWardCode": "30817",
+              "newWardType": "Xã",
+              "lat": 10.2161,
+              "lon": 104.93,
+              "areaKm2": 281.7
+            }
+          ]
+        },
+        {
+          "code": "30836",
+          "name": "Xã Sơn Bình",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Sơn Kiên",
+              "newWardShort": "Sơn Kiên",
+              "newWardCode": "30835",
+              "newWardType": "Xã",
+              "lat": 10.192,
+              "lon": 105.002,
+              "areaKm2": 163.41
+            }
+          ]
+        },
+        {
+          "code": "30835",
+          "name": "Xã Sơn Kiên",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Sơn Kiên",
+              "newWardShort": "Sơn Kiên",
+              "newWardCode": "30835",
+              "newWardType": "Xã",
+              "lat": 10.192,
+              "lon": 105.002,
+              "areaKm2": 163.41
+            }
+          ]
+        },
+        {
+          "code": "30841",
+          "name": "Xã Thổ Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Hòn Đất",
+              "newWardShort": "Hòn Đất",
+              "newWardCode": "30817",
+              "newWardType": "Xã",
+              "lat": 10.2161,
+              "lon": 104.93,
+              "areaKm2": 281.7
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "912",
+      "name": "Huyện Kiên Hải",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "31114",
+          "name": "Xã An Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Đặc khu Kiên Hải",
+              "newWardShort": "Kiên Hải",
+              "newWardCode": "31108",
+              "newWardType": "Đặc khu",
+              "lat": 9.8,
+              "lon": 104.632,
+              "areaKm2": 21.81
+            }
+          ]
+        },
+        {
+          "code": "31108",
+          "name": "Xã Hòn Tre",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Đặc khu Kiên Hải",
+              "newWardShort": "Kiên Hải",
+              "newWardCode": "31108",
+              "newWardType": "Đặc khu",
+              "lat": 9.8,
+              "lon": 104.632,
+              "areaKm2": 21.81
+            }
+          ]
+        },
+        {
+          "code": "31111",
+          "name": "Xã Lại Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Đặc khu Kiên Hải",
+              "newWardShort": "Kiên Hải",
+              "newWardCode": "31108",
+              "newWardType": "Đặc khu",
+              "lat": 9.8,
+              "lon": 104.632,
+              "areaKm2": 21.81
+            }
+          ]
+        },
+        {
+          "code": "31115",
+          "name": "Xã Nam Du",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Đặc khu Kiên Hải",
+              "newWardShort": "Kiên Hải",
+              "newWardCode": "31108",
+              "newWardType": "Đặc khu",
+              "lat": 9.8,
+              "lon": 104.632,
+              "areaKm2": 21.81
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "902",
+      "name": "Huyện Kiên Lương",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "30787",
+          "name": "Thị trấn Kiên Lương",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Kiên Lương",
+              "newWardShort": "Kiên Lương",
+              "newWardCode": "30787",
+              "newWardType": "Xã",
+              "lat": 10.1964,
+              "lon": 104.649,
+              "areaKm2": 138.07
+            }
+          ]
+        },
+        {
+          "code": "30808",
+          "name": "Xã Bình An",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Kiên Lương",
+              "newWardShort": "Kiên Lương",
+              "newWardCode": "30787",
+              "newWardType": "Xã",
+              "lat": 10.1964,
+              "lon": 104.649,
+              "areaKm2": 138.07
+            }
+          ]
+        },
+        {
+          "code": "30809",
+          "name": "Xã Bình Trị",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Kiên Lương",
+              "newWardShort": "Kiên Lương",
+              "newWardCode": "30787",
+              "newWardType": "Xã",
+              "lat": 10.1964,
+              "lon": 104.649,
+              "areaKm2": 138.07
+            }
+          ]
+        },
+        {
+          "code": "30805",
+          "name": "Xã Dương Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Phường Tô Châu",
+              "newWardShort": "Tô Châu",
+              "newWardCode": "30766",
+              "newWardType": "Phường",
+              "lat": 10.3215,
+              "lon": 104.552,
+              "areaKm2": 79.77
+            }
+          ]
+        },
+        {
+          "code": "30802",
+          "name": "Xã Hòa Điền",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Hòa Điền",
+              "newWardShort": "Hòa Điền",
+              "newWardCode": "30790",
+              "newWardType": "Xã",
+              "lat": 10.3337,
+              "lon": 104.676,
+              "areaKm2": 285.38
+            }
+          ]
+        },
+        {
+          "code": "30814",
+          "name": "Xã Hòn Nghệ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Hòn Nghệ",
+              "newWardShort": "Hòn Nghệ",
+              "newWardCode": "30814",
+              "newWardType": "Xã",
+              "lat": 10.0256,
+              "lon": 104.5537,
+              "areaKm2": 3.46
+            }
+          ]
+        },
+        {
+          "code": "30790",
+          "name": "Xã Kiên Bình",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Hòa Điền",
+              "newWardShort": "Hòa Điền",
+              "newWardCode": "30790",
+              "newWardType": "Xã",
+              "lat": 10.3337,
+              "lon": 104.676,
+              "areaKm2": 285.38
+            }
+          ]
+        },
+        {
+          "code": "30811",
+          "name": "Xã Sơn Hải",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Sơn Hải",
+              "newWardShort": "Sơn Hải",
+              "newWardCode": "30811",
+              "newWardType": "Xã",
+              "lat": 10.0256,
+              "lon": 104.53,
+              "areaKm2": 4.31
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "904",
+      "name": "Huyện Tân Hiệp",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "30850",
+          "name": "Thị trấn Tân Hiệp",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Tân Hiệp",
+              "newWardShort": "Tân Hiệp",
+              "newWardCode": "30850",
+              "newWardType": "Xã",
+              "lat": 10.0857,
+              "lon": 105.301,
+              "areaKm2": 146.62
+            }
+          ]
+        },
+        {
+          "code": "30871",
+          "name": "Xã Tân An",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Tân Hội",
+              "newWardShort": "Tân Hội",
+              "newWardCode": "30856",
+              "newWardType": "Xã",
+              "lat": 10.1453,
+              "lon": 105.18,
+              "areaKm2": 146.28
+            }
+          ]
+        },
+        {
+          "code": "30868",
+          "name": "Xã Tân Hiệp A",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Thạnh Đông",
+              "newWardShort": "Thạnh Đông",
+              "newWardCode": "30874",
+              "newWardType": "Xã",
+              "lat": 10.0209,
+              "lon": 105.253,
+              "areaKm2": 130.02
+            }
+          ]
+        },
+        {
+          "code": "30859",
+          "name": "Xã Tân Hiệp B",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Tân Hiệp",
+              "newWardShort": "Tân Hiệp",
+              "newWardCode": "30850",
+              "newWardType": "Xã",
+              "lat": 10.0857,
+              "lon": 105.301,
+              "areaKm2": 146.62
+            }
+          ]
+        },
+        {
+          "code": "30860",
+          "name": "Xã Tân Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Tân Hội",
+              "newWardShort": "Tân Hội",
+              "newWardCode": "30856",
+              "newWardType": "Xã",
+              "lat": 10.1453,
+              "lon": 105.18,
+              "areaKm2": 146.28
+            }
+          ]
+        },
+        {
+          "code": "30853",
+          "name": "Xã Tân Hội",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Tân Hội",
+              "newWardShort": "Tân Hội",
+              "newWardCode": "30856",
+              "newWardType": "Xã",
+              "lat": 10.1453,
+              "lon": 105.18,
+              "areaKm2": 146.28
+            }
+          ]
+        },
+        {
+          "code": "30856",
+          "name": "Xã Tân Thành",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Tân Hội",
+              "newWardShort": "Tân Hội",
+              "newWardCode": "30856",
+              "newWardType": "Xã",
+              "lat": 10.1453,
+              "lon": 105.18,
+              "areaKm2": 146.28
+            }
+          ]
+        },
+        {
+          "code": "30865",
+          "name": "Xã Thạnh Đông",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Tân Hiệp",
+              "newWardShort": "Tân Hiệp",
+              "newWardCode": "30850",
+              "newWardType": "Xã",
+              "lat": 10.0857,
+              "lon": 105.301,
+              "areaKm2": 146.62
+            }
+          ]
+        },
+        {
+          "code": "30874",
+          "name": "Xã Thạnh Đông A",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Thạnh Đông",
+              "newWardShort": "Thạnh Đông",
+              "newWardCode": "30874",
+              "newWardType": "Xã",
+              "lat": 10.0209,
+              "lon": 105.253,
+              "areaKm2": 130.02
+            }
+          ]
+        },
+        {
+          "code": "30862",
+          "name": "Xã Thạnh Đông B",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Tân Hiệp",
+              "newWardShort": "Tân Hiệp",
+              "newWardCode": "30850",
+              "newWardType": "Xã",
+              "lat": 10.0857,
+              "lon": 105.301,
+              "areaKm2": 146.62
+            }
+          ]
+        },
+        {
+          "code": "30877",
+          "name": "Xã Thạnh Trị",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Thạnh Đông",
+              "newWardShort": "Thạnh Đông",
+              "newWardCode": "30874",
+              "newWardType": "Xã",
+              "lat": 10.0209,
+              "lon": 105.253,
+              "areaKm2": 130.02
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "913",
+      "name": "Huyện U Minh Thượng",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "31027",
+          "name": "Xã An Minh Bắc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã U Minh Thượng",
+              "newWardShort": "U Minh Thượng",
+              "newWardCode": "31027",
+              "newWardType": "Xã",
+              "lat": 9.59173,
+              "lon": 105.105,
+              "areaKm2": 286.47
+            }
+          ]
+        },
+        {
+          "code": "31057",
+          "name": "Xã Hòa Chánh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Vĩnh Hòa",
+              "newWardShort": "Vĩnh Hòa",
+              "newWardCode": "31012",
+              "newWardType": "Xã",
+              "lat": 9.69581,
+              "lon": 105.169,
+              "areaKm2": 146.23
+            }
+          ]
+        },
+        {
+          "code": "31066",
+          "name": "Xã Minh Thuận",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã U Minh Thượng",
+              "newWardShort": "U Minh Thượng",
+              "newWardCode": "31027",
+              "newWardType": "Xã",
+              "lat": 9.59173,
+              "lon": 105.105,
+              "areaKm2": 286.47
+            }
+          ]
+        },
+        {
+          "code": "31012",
+          "name": "Xã Thạnh Yên",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Vĩnh Hòa",
+              "newWardShort": "Vĩnh Hòa",
+              "newWardCode": "31012",
+              "newWardType": "Xã",
+              "lat": 9.69581,
+              "lon": 105.169,
+              "areaKm2": 146.23
+            }
+          ]
+        },
+        {
+          "code": "31015",
+          "name": "Xã Thạnh Yên A",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Vĩnh Hòa",
+              "newWardShort": "Vĩnh Hòa",
+              "newWardCode": "31012",
+              "newWardType": "Xã",
+              "lat": 9.69581,
+              "lon": 105.169,
+              "areaKm2": 146.23
+            }
+          ]
+        },
+        {
+          "code": "31054",
+          "name": "Xã Vĩnh Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Vĩnh Hòa",
+              "newWardShort": "Vĩnh Hòa",
+              "newWardCode": "31012",
+              "newWardType": "Xã",
+              "lat": 9.69581,
+              "lon": 105.169,
+              "areaKm2": 146.23
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "910",
+      "name": "Huyện Vĩnh Thuận",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "31051",
+          "name": "Thị trấn Vĩnh Thuận",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Vĩnh Phong",
+              "newWardShort": "Vĩnh Phong",
+              "newWardCode": "31051",
+              "newWardType": "Xã",
+              "lat": 9.46393,
+              "lon": 105.26,
+              "areaKm2": 139.3
+            }
+          ]
+        },
+        {
+          "code": "31064",
+          "name": "Xã Bình Minh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Vĩnh Bình",
+              "newWardShort": "Vĩnh Bình",
+              "newWardCode": "31064",
+              "newWardType": "Xã",
+              "lat": 9.60534,
+              "lon": 105.248,
+              "areaKm2": 159.68
+            }
+          ]
+        },
+        {
+          "code": "31074",
+          "name": "Xã Phong Đông",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Vĩnh Phong",
+              "newWardShort": "Vĩnh Phong",
+              "newWardCode": "31051",
+              "newWardType": "Xã",
+              "lat": 9.46393,
+              "lon": 105.26,
+              "areaKm2": 139.3
+            }
+          ]
+        },
+        {
+          "code": "31072",
+          "name": "Xã Tân Thuận",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Vĩnh Thuận",
+              "newWardShort": "Vĩnh Thuận",
+              "newWardCode": "31069",
+              "newWardType": "Xã",
+              "lat": 9.50681,
+              "lon": 105.193,
+              "areaKm2": 95.46
+            }
+          ]
+        },
+        {
+          "code": "31060",
+          "name": "Xã Vĩnh Bình Bắc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Vĩnh Bình",
+              "newWardShort": "Vĩnh Bình",
+              "newWardCode": "31064",
+              "newWardType": "Xã",
+              "lat": 9.60534,
+              "lon": 105.248,
+              "areaKm2": 159.68
+            }
+          ]
+        },
+        {
+          "code": "31063",
+          "name": "Xã Vĩnh Bình Nam",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Vĩnh Bình",
+              "newWardShort": "Vĩnh Bình",
+              "newWardCode": "31064",
+              "newWardType": "Xã",
+              "lat": 9.60534,
+              "lon": 105.248,
+              "areaKm2": 159.68
+            }
+          ]
+        },
+        {
+          "code": "31075",
+          "name": "Xã Vĩnh Phong",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Vĩnh Phong",
+              "newWardShort": "Vĩnh Phong",
+              "newWardCode": "31051",
+              "newWardType": "Xã",
+              "lat": 9.46393,
+              "lon": 105.26,
+              "areaKm2": 139.3
+            }
+          ]
+        },
+        {
+          "code": "31069",
+          "name": "Xã Vĩnh Thuận",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Xã Vĩnh Thuận",
+              "newWardShort": "Vĩnh Thuận",
+              "newWardCode": "31069",
+              "newWardType": "Xã",
+              "lat": 9.50681,
+              "lon": 105.193,
+              "areaKm2": 95.46
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "911",
+      "name": "Thành phố Phú Quốc",
+      "type": "Thành phố",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "31081",
+          "name": "Phường An Thới",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Đặc khu Phú Quốc",
+              "newWardShort": "Phú Quốc",
+              "newWardCode": "31078",
+              "newWardType": "Đặc khu",
+              "lat": 10.2751,
+              "lon": 103.991,
+              "areaKm2": 589.27
+            }
+          ]
+        },
+        {
+          "code": "31078",
+          "name": "Phường Dương Đông",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Đặc khu Phú Quốc",
+              "newWardShort": "Phú Quốc",
+              "newWardCode": "31078",
+              "newWardType": "Đặc khu",
+              "lat": 10.2751,
+              "lon": 103.991,
+              "areaKm2": 589.27
+            }
+          ]
+        },
+        {
+          "code": "31102",
+          "name": "Xã Bãi Thơm",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Đặc khu Phú Quốc",
+              "newWardShort": "Phú Quốc",
+              "newWardCode": "31078",
+              "newWardType": "Đặc khu",
+              "lat": 10.2751,
+              "lon": 103.991,
+              "areaKm2": 589.27
+            }
+          ]
+        },
+        {
+          "code": "31084",
+          "name": "Xã Cửa Cạn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Đặc khu Phú Quốc",
+              "newWardShort": "Phú Quốc",
+              "newWardCode": "31078",
+              "newWardType": "Đặc khu",
+              "lat": 10.2751,
+              "lon": 103.991,
+              "areaKm2": 589.27
+            }
+          ]
+        },
+        {
+          "code": "31090",
+          "name": "Xã Cửa Dương",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Đặc khu Phú Quốc",
+              "newWardShort": "Phú Quốc",
+              "newWardCode": "31078",
+              "newWardType": "Đặc khu",
+              "lat": 10.2751,
+              "lon": 103.991,
+              "areaKm2": 589.27
+            }
+          ]
+        },
+        {
+          "code": "31096",
+          "name": "Xã Dương Tơ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Đặc khu Phú Quốc",
+              "newWardShort": "Phú Quốc",
+              "newWardCode": "31078",
+              "newWardType": "Đặc khu",
+              "lat": 10.2751,
+              "lon": 103.991,
+              "areaKm2": 589.27
+            }
+          ]
+        },
+        {
+          "code": "31087",
+          "name": "Xã Gành Dầu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Đặc khu Phú Quốc",
+              "newWardShort": "Phú Quốc",
+              "newWardCode": "31078",
+              "newWardType": "Đặc khu",
+              "lat": 10.2751,
+              "lon": 103.991,
+              "areaKm2": 589.27
+            }
+          ]
+        },
+        {
+          "code": "31093",
+          "name": "Xã Hàm Ninh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Đặc khu Phú Quốc",
+              "newWardShort": "Phú Quốc",
+              "newWardCode": "31078",
+              "newWardType": "Đặc khu",
+              "lat": 10.2751,
+              "lon": 103.991,
+              "areaKm2": 589.27
+            }
+          ]
+        },
+        {
+          "code": "31105",
+          "name": "Xã Thổ Châu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Đặc khu Thổ Châu",
+              "newWardShort": "Thổ Châu",
+              "newWardCode": "31105",
+              "newWardType": "Đặc khu",
+              "lat": 9.306,
+              "lon": 103.4857,
+              "areaKm2": 13.95
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "899",
+      "name": "Thành phố Rạch Giá",
+      "type": "Thành phố",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "30751",
+          "name": "Phường An Bình",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Phường Rạch Giá",
+              "newWardShort": "Rạch Giá",
+              "newWardCode": "30742",
+              "newWardType": "Phường",
+              "lat": 9.99098,
+              "lon": 105.1,
+              "areaKm2": 45.53
+            }
+          ]
+        },
+        {
+          "code": "30748",
+          "name": "Phường An Hòa",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Phường Rạch Giá",
+              "newWardShort": "Rạch Giá",
+              "newWardCode": "30742",
+              "newWardType": "Phường",
+              "lat": 9.99098,
+              "lon": 105.1,
+              "areaKm2": 45.53
+            }
+          ]
+        },
+        {
+          "code": "30754",
+          "name": "Phường Rạch Sỏi",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Phường Rạch Giá",
+              "newWardShort": "Rạch Giá",
+              "newWardCode": "30742",
+              "newWardType": "Phường",
+              "lat": 9.99098,
+              "lon": 105.1,
+              "areaKm2": 45.53
+            }
+          ]
+        },
+        {
+          "code": "30739",
+          "name": "Phường Vĩnh Hiệp",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Phường Rạch Giá",
+              "newWardShort": "Rạch Giá",
+              "newWardCode": "30742",
+              "newWardType": "Phường",
+              "lat": 9.99098,
+              "lon": 105.1,
+              "areaKm2": 45.53
+            }
+          ]
+        },
+        {
+          "code": "30745",
+          "name": "Phường Vĩnh Lạc",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Phường Rạch Giá",
+              "newWardShort": "Rạch Giá",
+              "newWardCode": "30742",
+              "newWardType": "Phường",
+              "lat": 9.99098,
+              "lon": 105.1,
+              "areaKm2": 45.53
+            }
+          ]
+        },
+        {
+          "code": "30757",
+          "name": "Phường Vĩnh Lợi",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Phường Rạch Giá",
+              "newWardShort": "Rạch Giá",
+              "newWardCode": "30742",
+              "newWardType": "Phường",
+              "lat": 9.99098,
+              "lon": 105.1,
+              "areaKm2": 45.53
+            }
+          ]
+        },
+        {
+          "code": "30736",
+          "name": "Phường Vĩnh Quang",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Phường Rạch Giá",
+              "newWardShort": "Rạch Giá",
+              "newWardCode": "30742",
+              "newWardType": "Phường",
+              "lat": 9.99098,
+              "lon": 105.1,
+              "areaKm2": 45.53
+            }
+          ]
+        },
+        {
+          "code": "30733",
+          "name": "Phường Vĩnh Thanh",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Phường Rạch Giá",
+              "newWardShort": "Rạch Giá",
+              "newWardCode": "30742",
+              "newWardType": "Phường",
+              "lat": 9.99098,
+              "lon": 105.1,
+              "areaKm2": 45.53
+            }
+          ]
+        },
+        {
+          "code": "30742",
+          "name": "Phường Vĩnh Thanh Vân",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Phường Rạch Giá",
+              "newWardShort": "Rạch Giá",
+              "newWardCode": "30742",
+              "newWardType": "Phường",
+              "lat": 9.99098,
+              "lon": 105.1,
+              "areaKm2": 45.53
+            }
+          ]
+        },
+        {
+          "code": "30760",
+          "name": "Phường Vĩnh Thông",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Phường Vĩnh Thông",
+              "newWardShort": "Vĩnh Thông",
+              "newWardCode": "30760",
+              "newWardType": "Phường",
+              "lat": 10.0664,
+              "lon": 105.125,
+              "areaKm2": 95.89
+            }
+          ]
+        },
+        {
+          "code": "30763",
+          "name": "Xã Phi Thông",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh An Giang",
+              "newProvinceSlug": "an-giang",
+              "newProvinceCode": "91",
+              "newWard": "Phường Vĩnh Thông",
+              "newWardShort": "Vĩnh Thông",
+              "newWardCode": "30760",
+              "newWardType": "Phường",
+              "lat": 10.0664,
+              "lon": 105.125,
+              "areaKm2": 95.89
+            }
+          ]
+        }
+      ],
+      "results": []
+    }
+  ]
+}

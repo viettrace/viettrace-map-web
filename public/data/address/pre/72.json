@@ -1,0 +1,2103 @@
+{
+  "schemaVersion": 1,
+  "mergeDate": "2025-07-01",
+  "code": "72",
+  "name": "Tỉnh Tây Ninh",
+  "name_en": "Tay Ninh Province",
+  "slug": "tay-ninh",
+  "districts": [
+    {
+      "code": "711",
+      "name": "Huyện Bến Cầu",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "25681",
+          "name": "Thị trấn Bến Cầu",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Bến Cầu",
+              "newWardShort": "Bến Cầu",
+              "newWardCode": "25681",
+              "newWardType": "Xã",
+              "lat": 11.1097,
+              "lon": 106.195,
+              "areaKm2": 112.02
+            }
+          ]
+        },
+        {
+          "code": "25705",
+          "name": "Xã An Thạnh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Bến Cầu",
+              "newWardShort": "Bến Cầu",
+              "newWardCode": "25681",
+              "newWardType": "Xã",
+              "lat": 11.1097,
+              "lon": 106.195,
+              "areaKm2": 112.02
+            }
+          ]
+        },
+        {
+          "code": "25699",
+          "name": "Xã Lợi Thuận",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Bến Cầu",
+              "newWardShort": "Bến Cầu",
+              "newWardCode": "25681",
+              "newWardType": "Xã",
+              "lat": 11.1097,
+              "lon": 106.195,
+              "areaKm2": 112.02
+            }
+          ]
+        },
+        {
+          "code": "25684",
+          "name": "Xã Long Chữ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Long Chữ",
+              "newWardShort": "Long Chữ",
+              "newWardCode": "25684",
+              "newWardType": "Xã",
+              "lat": 11.2062,
+              "lon": 106.115,
+              "areaKm2": 92
+            }
+          ]
+        },
+        {
+          "code": "25690",
+          "name": "Xã Long Giang",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Long Thuận",
+              "newWardShort": "Long Thuận",
+              "newWardCode": "25702",
+              "newWardType": "Xã",
+              "lat": 11.1271,
+              "lon": 106.1,
+              "areaKm2": 65.61
+            }
+          ]
+        },
+        {
+          "code": "25696",
+          "name": "Xã Long Khánh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Long Thuận",
+              "newWardShort": "Long Thuận",
+              "newWardCode": "25702",
+              "newWardType": "Xã",
+              "lat": 11.1271,
+              "lon": 106.1,
+              "areaKm2": 65.61
+            }
+          ]
+        },
+        {
+          "code": "25687",
+          "name": "Xã Long Phước",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Long Chữ",
+              "newWardShort": "Long Chữ",
+              "newWardCode": "25684",
+              "newWardType": "Xã",
+              "lat": 11.2062,
+              "lon": 106.115,
+              "areaKm2": 92
+            }
+          ]
+        },
+        {
+          "code": "25702",
+          "name": "Xã Long Thuận",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Long Thuận",
+              "newWardShort": "Long Thuận",
+              "newWardCode": "25702",
+              "newWardType": "Xã",
+              "lat": 11.1271,
+              "lon": 106.1,
+              "areaKm2": 65.61
+            }
+          ]
+        },
+        {
+          "code": "25693",
+          "name": "Xã Tiên Thuận",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Bến Cầu",
+              "newWardShort": "Bến Cầu",
+              "newWardCode": "25681",
+              "newWardType": "Xã",
+              "lat": 11.1097,
+              "lon": 106.195,
+              "areaKm2": 112.02
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "708",
+      "name": "Huyện Châu Thành",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "25585",
+          "name": "Thị trấn Châu Thành",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Châu Thành",
+              "newWardShort": "Châu Thành",
+              "newWardCode": "25585",
+              "newWardType": "Xã",
+              "lat": 11.3359,
+              "lon": 106.048,
+              "areaKm2": 47.71
+            }
+          ]
+        },
+        {
+          "code": "25615",
+          "name": "Xã An Bình",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Châu Thành",
+              "newWardShort": "Châu Thành",
+              "newWardCode": "25585",
+              "newWardType": "Xã",
+              "lat": 11.3359,
+              "lon": 106.048,
+              "areaKm2": 47.71
+            }
+          ]
+        },
+        {
+          "code": "25600",
+          "name": "Xã An Cơ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Hảo Đước",
+              "newWardShort": "Hảo Đước",
+              "newWardCode": "25588",
+              "newWardType": "Xã",
+              "lat": 11.3693,
+              "lon": 105.993,
+              "areaKm2": 93.75
+            }
+          ]
+        },
+        {
+          "code": "25603",
+          "name": "Xã Biên Giới",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Hòa Hội",
+              "newWardShort": "Hòa Hội",
+              "newWardCode": "25606",
+              "newWardType": "Xã",
+              "lat": 11.3252,
+              "lon": 105.923,
+              "areaKm2": 136.27
+            }
+          ]
+        },
+        {
+          "code": "25594",
+          "name": "Xã Đồng Khởi",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Châu Thành",
+              "newWardShort": "Châu Thành",
+              "newWardCode": "25585",
+              "newWardType": "Xã",
+              "lat": 11.3359,
+              "lon": 106.048,
+              "areaKm2": 47.71
+            }
+          ]
+        },
+        {
+          "code": "25588",
+          "name": "Xã Hảo Đước",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Hảo Đước",
+              "newWardShort": "Hảo Đước",
+              "newWardCode": "25588",
+              "newWardType": "Xã",
+              "lat": 11.3693,
+              "lon": 105.993,
+              "areaKm2": 93.75
+            }
+          ]
+        },
+        {
+          "code": "25612",
+          "name": "Xã Hòa Hội",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Hòa Hội",
+              "newWardShort": "Hòa Hội",
+              "newWardCode": "25606",
+              "newWardType": "Xã",
+              "lat": 11.3252,
+              "lon": 105.923,
+              "areaKm2": 136.27
+            }
+          ]
+        },
+        {
+          "code": "25606",
+          "name": "Xã Hòa Thạnh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Hòa Hội",
+              "newWardShort": "Hòa Hội",
+              "newWardCode": "25606",
+              "newWardType": "Xã",
+              "lat": 11.3252,
+              "lon": 105.923,
+              "areaKm2": 136.27
+            }
+          ]
+        },
+        {
+          "code": "25627",
+          "name": "Xã Long Vĩnh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Long Chữ",
+              "newWardShort": "Long Chữ",
+              "newWardCode": "25684",
+              "newWardType": "Xã",
+              "lat": 11.2062,
+              "lon": 106.115,
+              "areaKm2": 92
+            }
+          ]
+        },
+        {
+          "code": "25624",
+          "name": "Xã Ninh Điền",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Ninh Điền",
+              "newWardShort": "Ninh Điền",
+              "newWardCode": "25621",
+              "newWardType": "Xã",
+              "lat": 11.2357,
+              "lon": 105.992,
+              "areaKm2": 152.23
+            }
+          ]
+        },
+        {
+          "code": "25591",
+          "name": "Xã Phước Vinh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Phước Vinh",
+              "newWardShort": "Phước Vinh",
+              "newWardCode": "25591",
+              "newWardType": "Xã",
+              "lat": 11.4551,
+              "lon": 105.929,
+              "areaKm2": 165.08
+            }
+          ]
+        },
+        {
+          "code": "25597",
+          "name": "Xã Thái Bình",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Châu Thành",
+              "newWardShort": "Châu Thành",
+              "newWardCode": "25585",
+              "newWardType": "Xã",
+              "lat": 11.3359,
+              "lon": 106.048,
+              "areaKm2": 47.71
+            },
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Phường Tân Ninh",
+              "newWardShort": "Tân Ninh",
+              "newWardCode": "25459",
+              "newWardType": "Phường",
+              "lat": 11.3153,
+              "lon": 106.103,
+              "areaKm2": 21.35
+            }
+          ]
+        },
+        {
+          "code": "25618",
+          "name": "Xã Thanh Điền",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Phường Thanh Điền",
+              "newWardShort": "Thanh Điền",
+              "newWardCode": "25633",
+              "newWardType": "Phường",
+              "lat": 11.2709,
+              "lon": 106.086,
+              "areaKm2": 30.73
+            }
+          ]
+        },
+        {
+          "code": "25621",
+          "name": "Xã Thành Long",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Ninh Điền",
+              "newWardShort": "Ninh Điền",
+              "newWardCode": "25621",
+              "newWardType": "Xã",
+              "lat": 11.2357,
+              "lon": 105.992,
+              "areaKm2": 152.23
+            }
+          ]
+        },
+        {
+          "code": "25609",
+          "name": "Xã Trí Bình",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Hảo Đước",
+              "newWardShort": "Hảo Đước",
+              "newWardCode": "25588",
+              "newWardType": "Xã",
+              "lat": 11.3693,
+              "lon": 105.993,
+              "areaKm2": 93.75
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "707",
+      "name": "Huyện Dương Minh Châu",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "25552",
+          "name": "Thị trấn Dương Minh Châu",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Dương Minh Châu",
+              "newWardShort": "Dương Minh Châu",
+              "newWardCode": "25552",
+              "newWardType": "Xã",
+              "lat": 11.4016,
+              "lon": 106.262,
+              "areaKm2": 177.15
+            }
+          ]
+        },
+        {
+          "code": "25567",
+          "name": "Xã Bàu Năng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Phường Ninh Thạnh",
+              "newWardShort": "Ninh Thạnh",
+              "newWardCode": "25567",
+              "newWardType": "Phường",
+              "lat": 11.3275,
+              "lon": 106.157,
+              "areaKm2": 52.66
+            }
+          ]
+        },
+        {
+          "code": "25576",
+          "name": "Xã Bến Củi",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Lộc Ninh",
+              "newWardShort": "Lộc Ninh",
+              "newWardCode": "25579",
+              "newWardType": "Xã",
+              "lat": 11.2917,
+              "lon": 106.319,
+              "areaKm2": 67.4
+            }
+          ]
+        },
+        {
+          "code": "25573",
+          "name": "Xã Cầu Khởi",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Cầu Khởi",
+              "newWardShort": "Cầu Khởi",
+              "newWardCode": "25573",
+              "newWardType": "Xã",
+              "lat": 11.3067,
+              "lon": 106.241,
+              "areaKm2": 90.51
+            }
+          ]
+        },
+        {
+          "code": "25570",
+          "name": "Xã Chà Là",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Cầu Khởi",
+              "newWardShort": "Cầu Khởi",
+              "newWardCode": "25573",
+              "newWardType": "Xã",
+              "lat": 11.3067,
+              "lon": 106.241,
+              "areaKm2": 90.51
+            },
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Phường Ninh Thạnh",
+              "newWardShort": "Ninh Thạnh",
+              "newWardCode": "25567",
+              "newWardType": "Phường",
+              "lat": 11.3275,
+              "lon": 106.157,
+              "areaKm2": 52.66
+            }
+          ]
+        },
+        {
+          "code": "25579",
+          "name": "Xã Lộc Ninh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Lộc Ninh",
+              "newWardShort": "Lộc Ninh",
+              "newWardCode": "25579",
+              "newWardType": "Xã",
+              "lat": 11.2917,
+              "lon": 106.319,
+              "areaKm2": 67.4
+            }
+          ]
+        },
+        {
+          "code": "25558",
+          "name": "Xã Phan",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Phường Bình Minh",
+              "newWardShort": "Bình Minh",
+              "newWardCode": "25480",
+              "newWardType": "Phường",
+              "lat": 11.3841,
+              "lon": 106.128,
+              "areaKm2": 23.86
+            },
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Dương Minh Châu",
+              "newWardShort": "Dương Minh Châu",
+              "newWardCode": "25552",
+              "newWardType": "Xã",
+              "lat": 11.4016,
+              "lon": 106.262,
+              "areaKm2": 177.15
+            }
+          ]
+        },
+        {
+          "code": "25564",
+          "name": "Xã Phước Minh",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Dương Minh Châu",
+              "newWardShort": "Dương Minh Châu",
+              "newWardCode": "25552",
+              "newWardType": "Xã",
+              "lat": 11.4016,
+              "lon": 106.262,
+              "areaKm2": 177.15
+            },
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Lộc Ninh",
+              "newWardShort": "Lộc Ninh",
+              "newWardCode": "25579",
+              "newWardType": "Xã",
+              "lat": 11.2917,
+              "lon": 106.319,
+              "areaKm2": 67.4
+            }
+          ]
+        },
+        {
+          "code": "25561",
+          "name": "Xã Phước Ninh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Cầu Khởi",
+              "newWardShort": "Cầu Khởi",
+              "newWardCode": "25573",
+              "newWardType": "Xã",
+              "lat": 11.3067,
+              "lon": 106.241,
+              "areaKm2": 90.51
+            }
+          ]
+        },
+        {
+          "code": "25555",
+          "name": "Xã Suối Đá",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Phường Bình Minh",
+              "newWardShort": "Bình Minh",
+              "newWardCode": "25480",
+              "newWardType": "Phường",
+              "lat": 11.3841,
+              "lon": 106.128,
+              "areaKm2": 23.86
+            },
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Dương Minh Châu",
+              "newWardShort": "Dương Minh Châu",
+              "newWardCode": "25552",
+              "newWardType": "Xã",
+              "lat": 11.4016,
+              "lon": 106.262,
+              "areaKm2": 177.15
+            }
+          ]
+        },
+        {
+          "code": "25582",
+          "name": "Xã Truông Mít",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Truông Mít",
+              "newWardShort": "Truông Mít",
+              "newWardCode": "25666",
+              "newWardType": "Xã",
+              "lat": 11.2046,
+              "lon": 106.294,
+              "areaKm2": 74.43
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "710",
+      "name": "Huyện Gò Dầu",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "25654",
+          "name": "Thị trấn Gò Dầu",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Phường Gò Dầu",
+              "newWardShort": "Gò Dầu",
+              "newWardCode": "25654",
+              "newWardType": "Phường",
+              "lat": 11.0751,
+              "lon": 106.298,
+              "areaKm2": 43.09
+            }
+          ]
+        },
+        {
+          "code": "25666",
+          "name": "Xã Bàu Đồn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Truông Mít",
+              "newWardShort": "Truông Mít",
+              "newWardCode": "25666",
+              "newWardType": "Xã",
+              "lat": 11.2046,
+              "lon": 106.294,
+              "areaKm2": 74.43
+            }
+          ]
+        },
+        {
+          "code": "25660",
+          "name": "Xã Cẩm Giang",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Thạnh Đức",
+              "newWardShort": "Thạnh Đức",
+              "newWardCode": "25657",
+              "newWardType": "Xã",
+              "lat": 11.1967,
+              "lon": 106.203,
+              "areaKm2": 99.06
+            }
+          ]
+        },
+        {
+          "code": "25663",
+          "name": "Xã Hiệp Thạnh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Phước Thạnh",
+              "newWardShort": "Phước Thạnh",
+              "newWardCode": "25663",
+              "newWardType": "Xã",
+              "lat": 11.139,
+              "lon": 106.267,
+              "areaKm2": 70.89
+            }
+          ]
+        },
+        {
+          "code": "25672",
+          "name": "Xã Phước Đông",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Phường Gia Lộc",
+              "newWardShort": "Gia Lộc",
+              "newWardCode": "25672",
+              "newWardType": "Phường",
+              "lat": 11.0977,
+              "lon": 106.341,
+              "areaKm2": 50.26
+            }
+          ]
+        },
+        {
+          "code": "25669",
+          "name": "Xã Phước Thạnh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Phước Thạnh",
+              "newWardShort": "Phước Thạnh",
+              "newWardCode": "25663",
+              "newWardType": "Xã",
+              "lat": 11.139,
+              "lon": 106.267,
+              "areaKm2": 70.89
+            }
+          ]
+        },
+        {
+          "code": "25675",
+          "name": "Xã Phước Trạch",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Phước Thạnh",
+              "newWardShort": "Phước Thạnh",
+              "newWardCode": "25663",
+              "newWardType": "Xã",
+              "lat": 11.139,
+              "lon": 106.267,
+              "areaKm2": 70.89
+            }
+          ]
+        },
+        {
+          "code": "25657",
+          "name": "Xã Thạnh Đức",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Thạnh Đức",
+              "newWardShort": "Thạnh Đức",
+              "newWardCode": "25657",
+              "newWardType": "Xã",
+              "lat": 11.1967,
+              "lon": 106.203,
+              "areaKm2": 99.06
+            }
+          ]
+        },
+        {
+          "code": "25678",
+          "name": "Xã Thanh Phước",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Phường Gò Dầu",
+              "newWardShort": "Gò Dầu",
+              "newWardCode": "25654",
+              "newWardType": "Phường",
+              "lat": 11.0751,
+              "lon": 106.298,
+              "areaKm2": 43.09
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "705",
+      "name": "Huyện Tân Biên",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "25486",
+          "name": "Thị trấn Tân Biên",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Tân Biên",
+              "newWardShort": "Tân Biên",
+              "newWardCode": "25486",
+              "newWardType": "Xã",
+              "lat": 11.5694,
+              "lon": 105.925,
+              "areaKm2": 244.71
+            }
+          ]
+        },
+        {
+          "code": "25504",
+          "name": "Xã Hòa Hiệp",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Phước Vinh",
+              "newWardShort": "Phước Vinh",
+              "newWardCode": "25591",
+              "newWardType": "Xã",
+              "lat": 11.4551,
+              "lon": 105.929,
+              "areaKm2": 165.08
+            }
+          ]
+        },
+        {
+          "code": "25510",
+          "name": "Xã Mỏ Công",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Trà Vong",
+              "newWardShort": "Trà Vong",
+              "newWardCode": "25510",
+              "newWardType": "Xã",
+              "lat": 11.4432,
+              "lon": 106.057,
+              "areaKm2": 88.67
+            },
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Tân Phú",
+              "newWardShort": "Tân Phú",
+              "newWardCode": "25549",
+              "newWardType": "Xã",
+              "lat": 11.4746,
+              "lon": 106.162,
+              "areaKm2": 38.6
+            }
+          ]
+        },
+        {
+          "code": "25495",
+          "name": "Xã Tân Bình",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Tân Biên",
+              "newWardShort": "Tân Biên",
+              "newWardCode": "25486",
+              "newWardType": "Xã",
+              "lat": 11.5694,
+              "lon": 105.925,
+              "areaKm2": 244.71
+            }
+          ]
+        },
+        {
+          "code": "25489",
+          "name": "Xã Tân Lập",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Tân Lập",
+              "newWardShort": "Tân Lập",
+              "newWardCode": "25489",
+              "newWardType": "Xã",
+              "lat": 11.6778,
+              "lon": 106.04,
+              "areaKm2": 257.61
+            }
+          ]
+        },
+        {
+          "code": "25507",
+          "name": "Xã Tân Phong",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Thạnh Bình",
+              "newWardShort": "Thạnh Bình",
+              "newWardCode": "25498",
+              "newWardType": "Xã",
+              "lat": 11.5357,
+              "lon": 106.059,
+              "areaKm2": 174.92
+            },
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Tân Phú",
+              "newWardShort": "Tân Phú",
+              "newWardCode": "25549",
+              "newWardType": "Xã",
+              "lat": 11.4746,
+              "lon": 106.162,
+              "areaKm2": 38.6
+            }
+          ]
+        },
+        {
+          "code": "25492",
+          "name": "Xã Thạnh Bắc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Tân Lập",
+              "newWardShort": "Tân Lập",
+              "newWardCode": "25489",
+              "newWardType": "Xã",
+              "lat": 11.6778,
+              "lon": 106.04,
+              "areaKm2": 257.61
+            }
+          ]
+        },
+        {
+          "code": "25498",
+          "name": "Xã Thạnh Bình",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Thạnh Bình",
+              "newWardShort": "Thạnh Bình",
+              "newWardCode": "25498",
+              "newWardType": "Xã",
+              "lat": 11.5357,
+              "lon": 106.059,
+              "areaKm2": 174.92
+            }
+          ]
+        },
+        {
+          "code": "25501",
+          "name": "Xã Thạnh Tây",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Tân Biên",
+              "newWardShort": "Tân Biên",
+              "newWardCode": "25486",
+              "newWardType": "Xã",
+              "lat": 11.5694,
+              "lon": 105.925,
+              "areaKm2": 244.71
+            }
+          ]
+        },
+        {
+          "code": "25513",
+          "name": "Xã Trà Vong",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Trà Vong",
+              "newWardShort": "Trà Vong",
+              "newWardCode": "25510",
+              "newWardType": "Xã",
+              "lat": 11.4432,
+              "lon": 106.057,
+              "areaKm2": 88.67
+            },
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Tân Phú",
+              "newWardShort": "Tân Phú",
+              "newWardCode": "25549",
+              "newWardType": "Xã",
+              "lat": 11.4746,
+              "lon": 106.162,
+              "areaKm2": 38.6
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "706",
+      "name": "Huyện Tân Châu",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "25516",
+          "name": "Thị trấn Tân Châu",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Tân Châu",
+              "newWardShort": "Tân Châu",
+              "newWardCode": "25516",
+              "newWardType": "Xã",
+              "lat": 11.5522,
+              "lon": 106.149,
+              "areaKm2": 54.77
+            }
+          ]
+        },
+        {
+          "code": "25534",
+          "name": "Xã Suối Dây",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Tân Châu",
+              "newWardShort": "Tân Châu",
+              "newWardCode": "25516",
+              "newWardType": "Xã",
+              "lat": 11.5522,
+              "lon": 106.149,
+              "areaKm2": 54.77
+            },
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Tân Thành",
+              "newWardShort": "Tân Thành",
+              "newWardCode": "25534",
+              "newWardType": "Xã",
+              "lat": 11.5098,
+              "lon": 106.269,
+              "areaKm2": 64.8
+            }
+          ]
+        },
+        {
+          "code": "25531",
+          "name": "Xã Suối Ngô",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Tân Hòa",
+              "newWardShort": "Tân Hòa",
+              "newWardCode": "25531",
+              "newWardType": "Xã",
+              "lat": 11.5893,
+              "lon": 106.373,
+              "areaKm2": 58.6
+            }
+          ]
+        },
+        {
+          "code": "25522",
+          "name": "Xã Tân Đông",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Tân Đông",
+              "newWardShort": "Tân Đông",
+              "newWardCode": "25522",
+              "newWardType": "Xã",
+              "lat": 11.6962,
+              "lon": 106.213,
+              "areaKm2": 50.4
+            }
+          ]
+        },
+        {
+          "code": "25519",
+          "name": "Xã Tân Hà",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Tân Đông",
+              "newWardShort": "Tân Đông",
+              "newWardCode": "25522",
+              "newWardType": "Xã",
+              "lat": 11.6962,
+              "lon": 106.213,
+              "areaKm2": 50.4
+            }
+          ]
+        },
+        {
+          "code": "25537",
+          "name": "Xã Tân Hiệp",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Tân Hội",
+              "newWardShort": "Tân Hội",
+              "newWardCode": "25525",
+              "newWardType": "Xã",
+              "lat": 11.6371,
+              "lon": 106.165,
+              "areaKm2": 146.28
+            }
+          ]
+        },
+        {
+          "code": "25528",
+          "name": "Xã Tân Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Tân Hòa",
+              "newWardShort": "Tân Hòa",
+              "newWardCode": "25531",
+              "newWardType": "Xã",
+              "lat": 11.5893,
+              "lon": 106.373,
+              "areaKm2": 58.6
+            }
+          ]
+        },
+        {
+          "code": "25525",
+          "name": "Xã Tân Hội",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Tân Hội",
+              "newWardShort": "Tân Hội",
+              "newWardCode": "25525",
+              "newWardType": "Xã",
+              "lat": 11.6371,
+              "lon": 106.165,
+              "areaKm2": 146.28
+            }
+          ]
+        },
+        {
+          "code": "25549",
+          "name": "Xã Tân Hưng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Tân Phú",
+              "newWardShort": "Tân Phú",
+              "newWardCode": "25549",
+              "newWardType": "Xã",
+              "lat": 11.4746,
+              "lon": 106.162,
+              "areaKm2": 38.6
+            }
+          ]
+        },
+        {
+          "code": "25546",
+          "name": "Xã Tân Phú",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Tân Châu",
+              "newWardShort": "Tân Châu",
+              "newWardCode": "25516",
+              "newWardType": "Xã",
+              "lat": 11.5522,
+              "lon": 106.149,
+              "areaKm2": 54.77
+            },
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Tân Phú",
+              "newWardShort": "Tân Phú",
+              "newWardCode": "25549",
+              "newWardType": "Xã",
+              "lat": 11.4746,
+              "lon": 106.162,
+              "areaKm2": 38.6
+            }
+          ]
+        },
+        {
+          "code": "25543",
+          "name": "Xã Tân Thành",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Tân Thành",
+              "newWardShort": "Tân Thành",
+              "newWardCode": "25534",
+              "newWardType": "Xã",
+              "lat": 11.5098,
+              "lon": 106.269,
+              "areaKm2": 64.8
+            }
+          ]
+        },
+        {
+          "code": "25540",
+          "name": "Xã Thạnh Đông",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Tân Châu",
+              "newWardShort": "Tân Châu",
+              "newWardCode": "25516",
+              "newWardType": "Xã",
+              "lat": 11.5522,
+              "lon": 106.149,
+              "areaKm2": 54.77
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "703",
+      "name": "Thành phố Tây Ninh",
+      "type": "Thành phố",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "25456",
+          "name": "Phường 1",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Phường Tân Ninh",
+              "newWardShort": "Tân Ninh",
+              "newWardCode": "25459",
+              "newWardType": "Phường",
+              "lat": 11.3153,
+              "lon": 106.103,
+              "areaKm2": 21.35
+            }
+          ]
+        },
+        {
+          "code": "25468",
+          "name": "Phường 2",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Phường Tân Ninh",
+              "newWardShort": "Tân Ninh",
+              "newWardCode": "25459",
+              "newWardType": "Phường",
+              "lat": 11.3153,
+              "lon": 106.103,
+              "areaKm2": 21.35
+            }
+          ]
+        },
+        {
+          "code": "25459",
+          "name": "Phường 3",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Phường Tân Ninh",
+              "newWardShort": "Tân Ninh",
+              "newWardCode": "25459",
+              "newWardType": "Phường",
+              "lat": 11.3153,
+              "lon": 106.103,
+              "areaKm2": 21.35
+            }
+          ]
+        },
+        {
+          "code": "25462",
+          "name": "Phường 4",
+          "type": "Phường",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Phường Tân Ninh",
+              "newWardShort": "Tân Ninh",
+              "newWardCode": "25459",
+              "newWardType": "Phường",
+              "lat": 11.3153,
+              "lon": 106.103,
+              "areaKm2": 21.35
+            },
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Phường Long An",
+              "newWardShort": "Long An",
+              "newWardCode": "27694",
+              "newWardType": "Phường",
+              "lat": 10.5476,
+              "lon": 106.405,
+              "areaKm2": 34.9
+            }
+          ]
+        },
+        {
+          "code": "25465",
+          "name": "Phường Hiệp Ninh",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Phường Tân Ninh",
+              "newWardShort": "Tân Ninh",
+              "newWardCode": "25459",
+              "newWardType": "Phường",
+              "lat": 11.3153,
+              "lon": 106.103,
+              "areaKm2": 21.35
+            }
+          ]
+        },
+        {
+          "code": "25480",
+          "name": "Phường Ninh Sơn",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Phường Bình Minh",
+              "newWardShort": "Bình Minh",
+              "newWardCode": "25480",
+              "newWardType": "Phường",
+              "lat": 11.3841,
+              "lon": 106.128,
+              "areaKm2": 23.86
+            }
+          ]
+        },
+        {
+          "code": "25483",
+          "name": "Phường Ninh Thạnh",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Phường Ninh Thạnh",
+              "newWardShort": "Ninh Thạnh",
+              "newWardCode": "25567",
+              "newWardType": "Phường",
+              "lat": 11.3275,
+              "lon": 106.157,
+              "areaKm2": 52.66
+            }
+          ]
+        },
+        {
+          "code": "25477",
+          "name": "Xã Bình Minh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Phường Bình Minh",
+              "newWardShort": "Bình Minh",
+              "newWardCode": "25480",
+              "newWardType": "Phường",
+              "lat": 11.3841,
+              "lon": 106.128,
+              "areaKm2": 23.86
+            }
+          ]
+        },
+        {
+          "code": "25474",
+          "name": "Xã Tân Bình",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Phường Bình Minh",
+              "newWardShort": "Bình Minh",
+              "newWardCode": "25480",
+              "newWardType": "Phường",
+              "lat": 11.3841,
+              "lon": 106.128,
+              "areaKm2": 23.86
+            }
+          ]
+        },
+        {
+          "code": "25471",
+          "name": "Xã Thạnh Tân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Phường Bình Minh",
+              "newWardShort": "Bình Minh",
+              "newWardCode": "25480",
+              "newWardType": "Phường",
+              "lat": 11.3841,
+              "lon": 106.128,
+              "areaKm2": 23.86
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "709",
+      "name": "Thị xã Hòa Thành",
+      "type": "Thị xã",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "25633",
+          "name": "Phường Hiệp Tân",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Phường Thanh Điền",
+              "newWardShort": "Thanh Điền",
+              "newWardCode": "25633",
+              "newWardType": "Phường",
+              "lat": 11.2709,
+              "lon": 106.086,
+              "areaKm2": 30.73
+            }
+          ]
+        },
+        {
+          "code": "25630",
+          "name": "Phường Long Hoa",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Phường Long Hoa",
+              "newWardShort": "Long Hoa",
+              "newWardCode": "25630",
+              "newWardType": "Phường",
+              "lat": 11.26,
+              "lon": 106.164,
+              "areaKm2": 55.99
+            }
+          ]
+        },
+        {
+          "code": "25636",
+          "name": "Phường Long Thành Bắc",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Phường Long Hoa",
+              "newWardShort": "Long Hoa",
+              "newWardCode": "25630",
+              "newWardType": "Phường",
+              "lat": 11.26,
+              "lon": 106.164,
+              "areaKm2": 55.99
+            }
+          ]
+        },
+        {
+          "code": "25645",
+          "name": "Phường Long Thành Trung",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Phường Hòa Thành",
+              "newWardShort": "Hòa Thành",
+              "newWardCode": "25645",
+              "newWardType": "Phường",
+              "lat": 11.2635,
+              "lon": 106.113,
+              "areaKm2": 97.29
+            }
+          ]
+        },
+        {
+          "code": "25651",
+          "name": "Xã Long Thành Nam",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Phường Hòa Thành",
+              "newWardShort": "Hòa Thành",
+              "newWardCode": "25645",
+              "newWardType": "Phường",
+              "lat": 11.2635,
+              "lon": 106.113,
+              "areaKm2": 97.29
+            }
+          ]
+        },
+        {
+          "code": "25642",
+          "name": "Xã Trường Đông",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Phường Long Hoa",
+              "newWardShort": "Long Hoa",
+              "newWardCode": "25630",
+              "newWardType": "Phường",
+              "lat": 11.26,
+              "lon": 106.164,
+              "areaKm2": 55.99
+            }
+          ]
+        },
+        {
+          "code": "25639",
+          "name": "Xã Trường Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Phường Long Hoa",
+              "newWardShort": "Long Hoa",
+              "newWardCode": "25630",
+              "newWardType": "Phường",
+              "lat": 11.26,
+              "lon": 106.164,
+              "areaKm2": 55.99
+            }
+          ]
+        },
+        {
+          "code": "25648",
+          "name": "Xã Trường Tây",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Phường Long Hoa",
+              "newWardShort": "Long Hoa",
+              "newWardCode": "25630",
+              "newWardType": "Phường",
+              "lat": 11.26,
+              "lon": 106.164,
+              "areaKm2": 55.99
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "712",
+      "name": "Thị xã Trảng Bàng",
+      "type": "Thị xã",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "25735",
+          "name": "Phường An Hòa",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Phường Trảng Bàng",
+              "newWardShort": "Trảng Bàng",
+              "newWardCode": "25708",
+              "newWardType": "Phường",
+              "lat": 11.0323,
+              "lon": 106.325,
+              "areaKm2": 36.97
+            }
+          ]
+        },
+        {
+          "code": "25732",
+          "name": "Phường An Tịnh",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Phường An Tịnh",
+              "newWardShort": "An Tịnh",
+              "newWardCode": "25732",
+              "newWardType": "Phường",
+              "lat": 11.0572,
+              "lon": 106.407,
+              "areaKm2": 78.44
+            }
+          ]
+        },
+        {
+          "code": "25723",
+          "name": "Phường Gia Bình",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Phường Gò Dầu",
+              "newWardShort": "Gò Dầu",
+              "newWardCode": "25654",
+              "newWardType": "Phường",
+              "lat": 11.0751,
+              "lon": 106.298,
+              "areaKm2": 43.09
+            }
+          ]
+        },
+        {
+          "code": "25720",
+          "name": "Phường Gia Lộc",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Phường Gia Lộc",
+              "newWardShort": "Gia Lộc",
+              "newWardCode": "25672",
+              "newWardType": "Phường",
+              "lat": 11.0977,
+              "lon": 106.341,
+              "areaKm2": 50.26
+            }
+          ]
+        },
+        {
+          "code": "25717",
+          "name": "Phường Lộc Hưng",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Phường An Tịnh",
+              "newWardShort": "An Tịnh",
+              "newWardCode": "25732",
+              "newWardType": "Phường",
+              "lat": 11.0572,
+              "lon": 106.407,
+              "areaKm2": 78.44
+            }
+          ]
+        },
+        {
+          "code": "25708",
+          "name": "Phường Trảng Bàng",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Phường Trảng Bàng",
+              "newWardShort": "Trảng Bàng",
+              "newWardCode": "25708",
+              "newWardType": "Phường",
+              "lat": 11.0323,
+              "lon": 106.325,
+              "areaKm2": 36.97
+            }
+          ]
+        },
+        {
+          "code": "25711",
+          "name": "Xã Đôn Thuận",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Hưng Thuận",
+              "newWardShort": "Hưng Thuận",
+              "newWardCode": "25711",
+              "newWardType": "Xã",
+              "lat": 11.1551,
+              "lon": 106.387,
+              "areaKm2": 102.72
+            }
+          ]
+        },
+        {
+          "code": "25714",
+          "name": "Xã Hưng Thuận",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Hưng Thuận",
+              "newWardShort": "Hưng Thuận",
+              "newWardCode": "25711",
+              "newWardType": "Xã",
+              "lat": 11.1551,
+              "lon": 106.387,
+              "areaKm2": 102.72
+            }
+          ]
+        },
+        {
+          "code": "25729",
+          "name": "Xã Phước Bình",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Phước Chỉ",
+              "newWardShort": "Phước Chỉ",
+              "newWardCode": "25729",
+              "newWardType": "Xã",
+              "lat": 11.0172,
+              "lon": 106.231,
+              "areaKm2": 82.84
+            }
+          ]
+        },
+        {
+          "code": "25738",
+          "name": "Xã Phước Chỉ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tây Ninh",
+              "newProvinceSlug": "tay-ninh",
+              "newProvinceCode": "80",
+              "newWard": "Xã Phước Chỉ",
+              "newWardShort": "Phước Chỉ",
+              "newWardCode": "25729",
+              "newWardType": "Xã",
+              "lat": 11.0172,
+              "lon": 106.231,
+              "areaKm2": 82.84
+            }
+          ]
+        }
+      ],
+      "results": []
+    }
+  ]
+}

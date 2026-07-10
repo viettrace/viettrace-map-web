@@ -1,0 +1,2171 @@
+{
+  "schemaVersion": 1,
+  "mergeDate": "2025-07-01",
+  "code": "84",
+  "name": "Tỉnh Trà Vinh",
+  "name_en": "Tra Vinh Province",
+  "slug": "tra-vinh",
+  "districts": [
+    {
+      "code": "844",
+      "name": "Huyện Càng Long",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "29266",
+          "name": "Thị trấn Càng Long",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Càng Long",
+              "newWardShort": "Càng Long",
+              "newWardCode": "29266",
+              "newWardType": "Xã",
+              "lat": 9.99529,
+              "lon": 106.206,
+              "areaKm2": 46.87
+            }
+          ]
+        },
+        {
+          "code": "29275",
+          "name": "Xã An Trường",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã An Trường",
+              "newWardShort": "An Trường",
+              "newWardCode": "29275",
+              "newWardType": "Xã",
+              "lat": 9.95456,
+              "lon": 106.165,
+              "areaKm2": 72.61
+            }
+          ]
+        },
+        {
+          "code": "29272",
+          "name": "Xã An Trường A",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã An Trường",
+              "newWardShort": "An Trường",
+              "newWardCode": "29275",
+              "newWardType": "Xã",
+              "lat": 9.95456,
+              "lon": 106.165,
+              "areaKm2": 72.61
+            }
+          ]
+        },
+        {
+          "code": "29287",
+          "name": "Xã Bình Phú",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Bình Phú",
+              "newWardShort": "Bình Phú",
+              "newWardCode": "29287",
+              "newWardType": "Xã",
+              "lat": 9.96267,
+              "lon": 106.261,
+              "areaKm2": 47.3
+            }
+          ]
+        },
+        {
+          "code": "29293",
+          "name": "Xã Đại Phúc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Bình Phú",
+              "newWardShort": "Bình Phú",
+              "newWardCode": "29287",
+              "newWardType": "Xã",
+              "lat": 9.96267,
+              "lon": 106.261,
+              "areaKm2": 47.3
+            }
+          ]
+        },
+        {
+          "code": "29296",
+          "name": "Xã Đại Phước",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Nhị Long",
+              "newWardShort": "Nhị Long",
+              "newWardCode": "29302",
+              "newWardType": "Xã",
+              "lat": 10.0102,
+              "lon": 106.269,
+              "areaKm2": 57.95
+            }
+          ]
+        },
+        {
+          "code": "29305",
+          "name": "Xã Đức Mỹ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Nhị Long",
+              "newWardShort": "Nhị Long",
+              "newWardCode": "29302",
+              "newWardType": "Xã",
+              "lat": 10.0102,
+              "lon": 106.269,
+              "areaKm2": 57.95
+            }
+          ]
+        },
+        {
+          "code": "29278",
+          "name": "Xã Huyền Hội",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Tân An",
+              "newWardShort": "Tân An",
+              "newWardCode": "29278",
+              "newWardType": "Xã",
+              "lat": 9.91676,
+              "lon": 106.222,
+              "areaKm2": 40.61
+            }
+          ]
+        },
+        {
+          "code": "29269",
+          "name": "Xã Mỹ Cẩm",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Càng Long",
+              "newWardShort": "Càng Long",
+              "newWardCode": "29266",
+              "newWardType": "Xã",
+              "lat": 9.99529,
+              "lon": 106.206,
+              "areaKm2": 46.87
+            }
+          ]
+        },
+        {
+          "code": "29302",
+          "name": "Xã Nhị Long",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Nhị Long",
+              "newWardShort": "Nhị Long",
+              "newWardCode": "29302",
+              "newWardType": "Xã",
+              "lat": 10.0102,
+              "lon": 106.269,
+              "areaKm2": 57.95
+            }
+          ]
+        },
+        {
+          "code": "29299",
+          "name": "Xã Nhị Long Phú",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Càng Long",
+              "newWardShort": "Càng Long",
+              "newWardCode": "29266",
+              "newWardType": "Xã",
+              "lat": 9.99529,
+              "lon": 106.206,
+              "areaKm2": 46.87
+            }
+          ]
+        },
+        {
+          "code": "29290",
+          "name": "Xã Phương Thạnh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Bình Phú",
+              "newWardShort": "Bình Phú",
+              "newWardCode": "29287",
+              "newWardType": "Xã",
+              "lat": 9.96267,
+              "lon": 106.261,
+              "areaKm2": 47.3
+            }
+          ]
+        },
+        {
+          "code": "29281",
+          "name": "Xã Tân An",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Tân An",
+              "newWardShort": "Tân An",
+              "newWardCode": "29278",
+              "newWardType": "Xã",
+              "lat": 9.91676,
+              "lon": 106.222,
+              "areaKm2": 40.61
+            }
+          ]
+        },
+        {
+          "code": "29284",
+          "name": "Xã Tân Bình",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã An Trường",
+              "newWardShort": "An Trường",
+              "newWardCode": "29275",
+              "newWardType": "Xã",
+              "lat": 9.95456,
+              "lon": 106.165,
+              "areaKm2": 72.61
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "845",
+      "name": "Huyện Cầu Kè",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "29308",
+          "name": "Thị trấn Cầu Kè",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Cầu Kè",
+              "newWardShort": "Cầu Kè",
+              "newWardCode": "29308",
+              "newWardType": "Xã",
+              "lat": 9.87865,
+              "lon": 106.085,
+              "areaKm2": 54.12
+            }
+          ]
+        },
+        {
+          "code": "29317",
+          "name": "Xã An Phú Tân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã An Phú Tân",
+              "newWardShort": "An Phú Tân",
+              "newWardCode": "29317",
+              "newWardType": "Xã",
+              "lat": 9.86317,
+              "lon": 106.02,
+              "areaKm2": 53.91
+            }
+          ]
+        },
+        {
+          "code": "29314",
+          "name": "Xã Châu Điền",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Cầu Kè",
+              "newWardShort": "Cầu Kè",
+              "newWardCode": "29308",
+              "newWardType": "Xã",
+              "lat": 9.87865,
+              "lon": 106.085,
+              "areaKm2": 54.12
+            }
+          ]
+        },
+        {
+          "code": "29311",
+          "name": "Xã Hòa Ân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Cầu Kè",
+              "newWardShort": "Cầu Kè",
+              "newWardCode": "29308",
+              "newWardType": "Xã",
+              "lat": 9.87865,
+              "lon": 106.085,
+              "areaKm2": 54.12
+            }
+          ]
+        },
+        {
+          "code": "29320",
+          "name": "Xã Hòa Tân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã An Phú Tân",
+              "newWardShort": "An Phú Tân",
+              "newWardCode": "29317",
+              "newWardType": "Xã",
+              "lat": 9.86317,
+              "lon": 106.02,
+              "areaKm2": 53.91
+            }
+          ]
+        },
+        {
+          "code": "29323",
+          "name": "Xã Ninh Thới",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Phong Thạnh",
+              "newWardShort": "Phong Thạnh",
+              "newWardCode": "29329",
+              "newWardType": "Xã",
+              "lat": 9.82197,
+              "lon": 106.104,
+              "areaKm2": 27.08
+            }
+          ]
+        },
+        {
+          "code": "29326",
+          "name": "Xã Phong Phú",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Phong Thạnh",
+              "newWardShort": "Phong Thạnh",
+              "newWardCode": "29329",
+              "newWardType": "Xã",
+              "lat": 9.82197,
+              "lon": 106.104,
+              "areaKm2": 27.08
+            }
+          ]
+        },
+        {
+          "code": "29329",
+          "name": "Xã Phong Thạnh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Phong Thạnh",
+              "newWardShort": "Phong Thạnh",
+              "newWardCode": "29329",
+              "newWardType": "Xã",
+              "lat": 9.82197,
+              "lon": 106.104,
+              "areaKm2": 27.08
+            }
+          ]
+        },
+        {
+          "code": "29332",
+          "name": "Xã Tam Ngãi",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Tam Ngãi",
+              "newWardShort": "Tam Ngãi",
+              "newWardCode": "29335",
+              "newWardType": "Xã",
+              "lat": 9.93073,
+              "lon": 106.071,
+              "areaKm2": 61.31
+            }
+          ]
+        },
+        {
+          "code": "29338",
+          "name": "Xã Thạnh Phú",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Tam Ngãi",
+              "newWardShort": "Tam Ngãi",
+              "newWardCode": "29335",
+              "newWardType": "Xã",
+              "lat": 9.93073,
+              "lon": 106.071,
+              "areaKm2": 61.31
+            }
+          ]
+        },
+        {
+          "code": "29335",
+          "name": "Xã Thông Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Tam Ngãi",
+              "newWardShort": "Tam Ngãi",
+              "newWardCode": "29335",
+              "newWardType": "Xã",
+              "lat": 9.93073,
+              "lon": 106.071,
+              "areaKm2": 61.31
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "848",
+      "name": "Huyện Cầu Ngang",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "29416",
+          "name": "Thị trấn Cầu Ngang",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Cầu Ngang",
+              "newWardShort": "Cầu Ngang",
+              "newWardCode": "29416",
+              "newWardType": "Xã",
+              "lat": 9.793,
+              "lon": 106.452,
+              "areaKm2": 35.32
+            }
+          ]
+        },
+        {
+          "code": "29419",
+          "name": "Thị trấn Mỹ Long",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Mỹ Long",
+              "newWardShort": "Mỹ Long",
+              "newWardCode": "29419",
+              "newWardType": "Xã",
+              "lat": 9.79018,
+              "lon": 106.504,
+              "areaKm2": 73.61
+            }
+          ]
+        },
+        {
+          "code": "29437",
+          "name": "Xã Hiệp Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Nhị Trường",
+              "newWardShort": "Nhị Trường",
+              "newWardCode": "29446",
+              "newWardType": "Xã",
+              "lat": 9.77493,
+              "lon": 106.382,
+              "areaKm2": 72.34
+            }
+          ]
+        },
+        {
+          "code": "29452",
+          "name": "Xã Hiệp Mỹ Đông",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Hiệp Mỹ",
+              "newWardShort": "Hiệp Mỹ",
+              "newWardCode": "29455",
+              "newWardType": "Xã",
+              "lat": 9.74823,
+              "lon": 106.462,
+              "areaKm2": 67.45
+            }
+          ]
+        },
+        {
+          "code": "29455",
+          "name": "Xã Hiệp Mỹ Tây",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Hiệp Mỹ",
+              "newWardShort": "Hiệp Mỹ",
+              "newWardCode": "29455",
+              "newWardType": "Xã",
+              "lat": 9.74823,
+              "lon": 106.462,
+              "areaKm2": 67.45
+            }
+          ]
+        },
+        {
+          "code": "29434",
+          "name": "Xã Kim Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Vinh Kim",
+              "newWardShort": "Vinh Kim",
+              "newWardCode": "29431",
+              "newWardType": "Xã",
+              "lat": 9.84519,
+              "lon": 106.433,
+              "areaKm2": 25.6
+            }
+          ]
+        },
+        {
+          "code": "29443",
+          "name": "Xã Long Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Hiệp Mỹ",
+              "newWardShort": "Hiệp Mỹ",
+              "newWardCode": "29455",
+              "newWardType": "Xã",
+              "lat": 9.74823,
+              "lon": 106.462,
+              "areaKm2": 67.45
+            }
+          ]
+        },
+        {
+          "code": "29428",
+          "name": "Xã Mỹ Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Cầu Ngang",
+              "newWardShort": "Cầu Ngang",
+              "newWardCode": "29416",
+              "newWardType": "Xã",
+              "lat": 9.793,
+              "lon": 106.452,
+              "areaKm2": 35.32
+            }
+          ]
+        },
+        {
+          "code": "29422",
+          "name": "Xã Mỹ Long Bắc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Mỹ Long",
+              "newWardShort": "Mỹ Long",
+              "newWardCode": "29419",
+              "newWardType": "Xã",
+              "lat": 9.79018,
+              "lon": 106.504,
+              "areaKm2": 73.61
+            }
+          ]
+        },
+        {
+          "code": "29425",
+          "name": "Xã Mỹ Long Nam",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Mỹ Long",
+              "newWardShort": "Mỹ Long",
+              "newWardCode": "29419",
+              "newWardType": "Xã",
+              "lat": 9.79018,
+              "lon": 106.504,
+              "areaKm2": 73.61
+            }
+          ]
+        },
+        {
+          "code": "29446",
+          "name": "Xã Nhị Trường",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Nhị Trường",
+              "newWardShort": "Nhị Trường",
+              "newWardCode": "29446",
+              "newWardType": "Xã",
+              "lat": 9.77493,
+              "lon": 106.382,
+              "areaKm2": 72.34
+            }
+          ]
+        },
+        {
+          "code": "29458",
+          "name": "Xã Thạnh Hòa Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Ngũ Lạc",
+              "newWardShort": "Ngũ Lạc",
+              "newWardCode": "29530",
+              "newWardType": "Xã",
+              "lat": 9.68254,
+              "lon": 106.434,
+              "areaKm2": 60.92
+            }
+          ]
+        },
+        {
+          "code": "29440",
+          "name": "Xã Thuận Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Cầu Ngang",
+              "newWardShort": "Cầu Ngang",
+              "newWardCode": "29416",
+              "newWardType": "Xã",
+              "lat": 9.793,
+              "lon": 106.452,
+              "areaKm2": 35.32
+            }
+          ]
+        },
+        {
+          "code": "29449",
+          "name": "Xã Trường Thọ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Nhị Trường",
+              "newWardShort": "Nhị Trường",
+              "newWardCode": "29446",
+              "newWardType": "Xã",
+              "lat": 9.77493,
+              "lon": 106.382,
+              "areaKm2": 72.34
+            }
+          ]
+        },
+        {
+          "code": "29431",
+          "name": "Xã Vinh Kim",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Vinh Kim",
+              "newWardShort": "Vinh Kim",
+              "newWardCode": "29431",
+              "newWardType": "Xã",
+              "lat": 9.84519,
+              "lon": 106.433,
+              "areaKm2": 25.6
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "847",
+      "name": "Huyện Châu Thành",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "29374",
+          "name": "Thị trấn Châu Thành",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Châu Thành",
+              "newWardShort": "Châu Thành",
+              "newWardCode": "29374",
+              "newWardType": "Xã",
+              "lat": 9.83937,
+              "lon": 106.337,
+              "areaKm2": 47.71
+            }
+          ]
+        },
+        {
+          "code": "29377",
+          "name": "Xã Đa Lộc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Châu Thành",
+              "newWardShort": "Châu Thành",
+              "newWardCode": "29374",
+              "newWardType": "Xã",
+              "lat": 9.83937,
+              "lon": 106.337,
+              "areaKm2": 47.71
+            }
+          ]
+        },
+        {
+          "code": "29401",
+          "name": "Xã Hòa Lợi",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Hưng Mỹ",
+              "newWardShort": "Hưng Mỹ",
+              "newWardCode": "29407",
+              "newWardType": "Xã",
+              "lat": 9.90236,
+              "lon": 106.399,
+              "areaKm2": 98.4
+            }
+          ]
+        },
+        {
+          "code": "29410",
+          "name": "Xã Hòa Minh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Hòa Minh",
+              "newWardShort": "Hòa Minh",
+              "newWardCode": "29410",
+              "newWardType": "Xã",
+              "lat": 9.92261,
+              "lon": 106.445,
+              "areaKm2": 35.75
+            }
+          ]
+        },
+        {
+          "code": "29398",
+          "name": "Xã Hòa Thuận",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Phường Hòa Thuận",
+              "newWardShort": "Hòa Thuận",
+              "newWardCode": "29398",
+              "newWardType": "Phường",
+              "lat": 9.94665,
+              "lon": 106.362,
+              "areaKm2": 16.51
+            }
+          ]
+        },
+        {
+          "code": "29407",
+          "name": "Xã Hưng Mỹ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Hưng Mỹ",
+              "newWardShort": "Hưng Mỹ",
+              "newWardCode": "29407",
+              "newWardType": "Xã",
+              "lat": 9.90236,
+              "lon": 106.399,
+              "areaKm2": 98.4
+            }
+          ]
+        },
+        {
+          "code": "29413",
+          "name": "Xã Long Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Long Hòa",
+              "newWardShort": "Long Hòa",
+              "newWardCode": "29413",
+              "newWardType": "Xã",
+              "lat": 9.86897,
+              "lon": 106.504,
+              "areaKm2": 52.67
+            }
+          ]
+        },
+        {
+          "code": "29389",
+          "name": "Xã Lương Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Song Lộc",
+              "newWardShort": "Song Lộc",
+              "newWardCode": "29386",
+              "newWardType": "Xã",
+              "lat": 9.88434,
+              "lon": 106.275,
+              "areaKm2": 80.1
+            }
+          ]
+        },
+        {
+          "code": "29386",
+          "name": "Xã Lương Hòa A",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Song Lộc",
+              "newWardShort": "Song Lộc",
+              "newWardCode": "29386",
+              "newWardType": "Xã",
+              "lat": 9.88434,
+              "lon": 106.275,
+              "areaKm2": 80.1
+            }
+          ]
+        },
+        {
+          "code": "29380",
+          "name": "Xã Mỹ Chánh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Châu Thành",
+              "newWardShort": "Châu Thành",
+              "newWardCode": "29374",
+              "newWardType": "Xã",
+              "lat": 9.83937,
+              "lon": 106.337,
+              "areaKm2": 47.71
+            }
+          ]
+        },
+        {
+          "code": "29395",
+          "name": "Xã Nguyệt Hóa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Phường Nguyệt Hóa",
+              "newWardShort": "Nguyệt Hóa",
+              "newWardCode": "29254",
+              "newWardType": "Phường",
+              "lat": 9.93221,
+              "lon": 106.312,
+              "areaKm2": 21.14
+            }
+          ]
+        },
+        {
+          "code": "29404",
+          "name": "Xã Phước Hảo",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Hưng Mỹ",
+              "newWardShort": "Hưng Mỹ",
+              "newWardCode": "29407",
+              "newWardType": "Xã",
+              "lat": 9.90236,
+              "lon": 106.399,
+              "areaKm2": 98.4
+            }
+          ]
+        },
+        {
+          "code": "29392",
+          "name": "Xã Song Lộc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Song Lộc",
+              "newWardShort": "Song Lộc",
+              "newWardCode": "29386",
+              "newWardType": "Xã",
+              "lat": 9.88434,
+              "lon": 106.275,
+              "areaKm2": 80.1
+            }
+          ]
+        },
+        {
+          "code": "29383",
+          "name": "Xã Thanh Mỹ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Châu Thành",
+              "newWardShort": "Châu Thành",
+              "newWardCode": "29374",
+              "newWardType": "Xã",
+              "lat": 9.83937,
+              "lon": 106.337,
+              "areaKm2": 47.71
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "850",
+      "name": "Huyện Duyên Hải",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "29513",
+          "name": "Thị trấn Long Thành",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Long Thành",
+              "newWardShort": "Long Thành",
+              "newWardCode": "29513",
+              "newWardType": "Xã",
+              "lat": 9.60554,
+              "lon": 106.43,
+              "areaKm2": 51.51
+            }
+          ]
+        },
+        {
+          "code": "29500",
+          "name": "Xã Đôn Châu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Đôn Châu",
+              "newWardShort": "Đôn Châu",
+              "newWardCode": "29497",
+              "newWardType": "Xã",
+              "lat": 9.65465,
+              "lon": 106.365,
+              "areaKm2": 58.93
+            }
+          ]
+        },
+        {
+          "code": "29497",
+          "name": "Xã Đôn Xuân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Đôn Châu",
+              "newWardShort": "Đôn Châu",
+              "newWardCode": "29497",
+              "newWardType": "Xã",
+              "lat": 9.65465,
+              "lon": 106.365,
+              "areaKm2": 58.93
+            }
+          ]
+        },
+        {
+          "code": "29536",
+          "name": "Xã Đông Hải",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Đông Hải",
+              "newWardShort": "Đông Hải",
+              "newWardCode": "29536",
+              "newWardType": "Xã",
+              "lat": 9.55083,
+              "lon": 106.443,
+              "areaKm2": 100.16
+            }
+          ]
+        },
+        {
+          "code": "29521",
+          "name": "Xã Long Khánh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Long Thành",
+              "newWardShort": "Long Thành",
+              "newWardCode": "29513",
+              "newWardType": "Xã",
+              "lat": 9.60554,
+              "lon": 106.43,
+              "areaKm2": 51.51
+            }
+          ]
+        },
+        {
+          "code": "29533",
+          "name": "Xã Long Vĩnh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Long Vĩnh",
+              "newWardShort": "Long Vĩnh",
+              "newWardCode": "29533",
+              "newWardType": "Xã",
+              "lat": 9.59069,
+              "lon": 106.355,
+              "areaKm2": 96.37
+            }
+          ]
+        },
+        {
+          "code": "29530",
+          "name": "Xã Ngũ Lạc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Ngũ Lạc",
+              "newWardShort": "Ngũ Lạc",
+              "newWardCode": "29530",
+              "newWardType": "Xã",
+              "lat": 9.68254,
+              "lon": 106.434,
+              "areaKm2": 60.92
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "846",
+      "name": "Huyện Tiểu Cần",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "29344",
+          "name": "Thị trấn Cầu Quan",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Tân Hòa",
+              "newWardShort": "Tân Hòa",
+              "newWardCode": "29371",
+              "newWardType": "Xã",
+              "lat": 9.77203,
+              "lon": 106.144,
+              "areaKm2": 58.6
+            }
+          ]
+        },
+        {
+          "code": "29341",
+          "name": "Thị trấn Tiểu Cần",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Tiểu Cần",
+              "newWardShort": "Tiểu Cần",
+              "newWardCode": "29341",
+              "newWardType": "Xã",
+              "lat": 9.83255,
+              "lon": 106.178,
+              "areaKm2": 49.73
+            }
+          ]
+        },
+        {
+          "code": "29353",
+          "name": "Xã Hiếu Trung",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Tiểu Cần",
+              "newWardShort": "Tiểu Cần",
+              "newWardCode": "29341",
+              "newWardType": "Xã",
+              "lat": 9.83255,
+              "lon": 106.178,
+              "areaKm2": 49.73
+            }
+          ]
+        },
+        {
+          "code": "29350",
+          "name": "Xã Hiếu Tử",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Tập Ngãi",
+              "newWardShort": "Tập Ngãi",
+              "newWardCode": "29365",
+              "newWardType": "Xã",
+              "lat": 9.82312,
+              "lon": 106.237,
+              "areaKm2": 58.77
+            }
+          ]
+        },
+        {
+          "code": "29359",
+          "name": "Xã Hùng Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Hùng Hòa",
+              "newWardShort": "Hùng Hòa",
+              "newWardCode": "29362",
+              "newWardType": "Xã",
+              "lat": 9.77859,
+              "lon": 106.233,
+              "areaKm2": 57.51
+            }
+          ]
+        },
+        {
+          "code": "29356",
+          "name": "Xã Long Thới",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Tân Hòa",
+              "newWardShort": "Tân Hòa",
+              "newWardCode": "29371",
+              "newWardType": "Xã",
+              "lat": 9.77203,
+              "lon": 106.144,
+              "areaKm2": 58.6
+            }
+          ]
+        },
+        {
+          "code": "29368",
+          "name": "Xã Ngãi Hùng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Hùng Hòa",
+              "newWardShort": "Hùng Hòa",
+              "newWardCode": "29362",
+              "newWardType": "Xã",
+              "lat": 9.77859,
+              "lon": 106.233,
+              "areaKm2": 57.51
+            }
+          ]
+        },
+        {
+          "code": "29347",
+          "name": "Xã Phú Cần",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Tiểu Cần",
+              "newWardShort": "Tiểu Cần",
+              "newWardCode": "29341",
+              "newWardType": "Xã",
+              "lat": 9.83255,
+              "lon": 106.178,
+              "areaKm2": 49.73
+            }
+          ]
+        },
+        {
+          "code": "29371",
+          "name": "Xã Tân Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Tân Hòa",
+              "newWardShort": "Tân Hòa",
+              "newWardCode": "29371",
+              "newWardType": "Xã",
+              "lat": 9.77203,
+              "lon": 106.144,
+              "areaKm2": 58.6
+            }
+          ]
+        },
+        {
+          "code": "29362",
+          "name": "Xã Tân Hùng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Hùng Hòa",
+              "newWardShort": "Hùng Hòa",
+              "newWardCode": "29362",
+              "newWardType": "Xã",
+              "lat": 9.77859,
+              "lon": 106.233,
+              "areaKm2": 57.51
+            }
+          ]
+        },
+        {
+          "code": "29365",
+          "name": "Xã Tập Ngãi",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Tập Ngãi",
+              "newWardShort": "Tập Ngãi",
+              "newWardCode": "29365",
+              "newWardType": "Xã",
+              "lat": 9.82312,
+              "lon": 106.237,
+              "areaKm2": 58.77
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "849",
+      "name": "Huyện Trà Cú",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "29462",
+          "name": "Thị trấn Định An",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Đại An",
+              "newWardShort": "Đại An",
+              "newWardCode": "29491",
+              "newWardType": "Xã",
+              "lat": 9.62901,
+              "lon": 106.284,
+              "areaKm2": 32.32
+            }
+          ]
+        },
+        {
+          "code": "29461",
+          "name": "Thị trấn Trà Cú",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Trà Cú",
+              "newWardShort": "Trà Cú",
+              "newWardCode": "29461",
+              "newWardType": "Xã",
+              "lat": 9.69961,
+              "lon": 106.276,
+              "areaKm2": 37.33
+            }
+          ]
+        },
+        {
+          "code": "29473",
+          "name": "Xã An Quảng Hữu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Lưu Nghiệp Anh",
+              "newWardShort": "Lưu Nghiệp Anh",
+              "newWardCode": "29476",
+              "newWardType": "Xã",
+              "lat": 9.71054,
+              "lon": 106.192,
+              "areaKm2": 54.62
+            }
+          ]
+        },
+        {
+          "code": "29491",
+          "name": "Xã Đại An",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Đại An",
+              "newWardShort": "Đại An",
+              "newWardCode": "29491",
+              "newWardType": "Xã",
+              "lat": 9.62901,
+              "lon": 106.284,
+              "areaKm2": 32.32
+            }
+          ]
+        },
+        {
+          "code": "29494",
+          "name": "Xã Định An",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Đại An",
+              "newWardShort": "Đại An",
+              "newWardCode": "29491",
+              "newWardType": "Xã",
+              "lat": 9.62901,
+              "lon": 106.284,
+              "areaKm2": 32.32
+            }
+          ]
+        },
+        {
+          "code": "29488",
+          "name": "Xã Hàm Giang",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Hàm Giang",
+              "newWardShort": "Hàm Giang",
+              "newWardCode": "29489",
+              "newWardType": "Xã",
+              "lat": 9.6611,
+              "lon": 106.223,
+              "areaKm2": 60.66
+            }
+          ]
+        },
+        {
+          "code": "29489",
+          "name": "Xã Hàm Tân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Hàm Giang",
+              "newWardShort": "Hàm Giang",
+              "newWardCode": "29489",
+              "newWardType": "Xã",
+              "lat": 9.6611,
+              "lon": 106.223,
+              "areaKm2": 60.66
+            }
+          ]
+        },
+        {
+          "code": "29482",
+          "name": "Xã Kim Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Hàm Giang",
+              "newWardShort": "Hàm Giang",
+              "newWardCode": "29489",
+              "newWardType": "Xã",
+              "lat": 9.6611,
+              "lon": 106.223,
+              "areaKm2": 60.66
+            }
+          ]
+        },
+        {
+          "code": "29506",
+          "name": "Xã Long Hiệp",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Long Hiệp",
+              "newWardShort": "Long Hiệp",
+              "newWardCode": "29506",
+              "newWardType": "Xã",
+              "lat": 9.70816,
+              "lon": 106.354,
+              "areaKm2": 65.17
+            }
+          ]
+        },
+        {
+          "code": "29476",
+          "name": "Xã Lưu Nghiệp Anh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Lưu Nghiệp Anh",
+              "newWardShort": "Lưu Nghiệp Anh",
+              "newWardCode": "29476",
+              "newWardType": "Xã",
+              "lat": 9.71054,
+              "lon": 106.192,
+              "areaKm2": 54.62
+            }
+          ]
+        },
+        {
+          "code": "29479",
+          "name": "Xã Ngãi Xuyên",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Trà Cú",
+              "newWardShort": "Trà Cú",
+              "newWardCode": "29461",
+              "newWardType": "Xã",
+              "lat": 9.69961,
+              "lon": 106.276,
+              "areaKm2": 37.33
+            }
+          ]
+        },
+        {
+          "code": "29503",
+          "name": "Xã Ngọc Biên",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Long Hiệp",
+              "newWardShort": "Long Hiệp",
+              "newWardCode": "29506",
+              "newWardType": "Xã",
+              "lat": 9.70816,
+              "lon": 106.354,
+              "areaKm2": 65.17
+            }
+          ]
+        },
+        {
+          "code": "29464",
+          "name": "Xã Phước Hưng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Tập Sơn",
+              "newWardShort": "Tập Sơn",
+              "newWardCode": "29467",
+              "newWardType": "Xã",
+              "lat": 9.75436,
+              "lon": 106.277,
+              "areaKm2": 67.44
+            }
+          ]
+        },
+        {
+          "code": "29509",
+          "name": "Xã Tân Hiệp",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Long Hiệp",
+              "newWardShort": "Long Hiệp",
+              "newWardCode": "29506",
+              "newWardType": "Xã",
+              "lat": 9.70816,
+              "lon": 106.354,
+              "areaKm2": 65.17
+            }
+          ]
+        },
+        {
+          "code": "29470",
+          "name": "Xã Tân Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Tập Sơn",
+              "newWardShort": "Tập Sơn",
+              "newWardCode": "29467",
+              "newWardType": "Xã",
+              "lat": 9.75436,
+              "lon": 106.277,
+              "areaKm2": 67.44
+            }
+          ]
+        },
+        {
+          "code": "29467",
+          "name": "Xã Tập Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Tập Sơn",
+              "newWardShort": "Tập Sơn",
+              "newWardCode": "29467",
+              "newWardType": "Xã",
+              "lat": 9.75436,
+              "lon": 106.277,
+              "areaKm2": 67.44
+            }
+          ]
+        },
+        {
+          "code": "29485",
+          "name": "Xã Thanh Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Trà Cú",
+              "newWardShort": "Trà Cú",
+              "newWardCode": "29461",
+              "newWardType": "Xã",
+              "lat": 9.69961,
+              "lon": 106.276,
+              "areaKm2": 37.33
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "851",
+      "name": "Thị xã Duyên Hải",
+      "type": "Thị xã",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "29512",
+          "name": "Phường 1",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Phường Duyên Hải",
+              "newWardShort": "Duyên Hải",
+              "newWardCode": "29512",
+              "newWardType": "Phường",
+              "lat": 9.6258,
+              "lon": 106.497,
+              "areaKm2": 69.63
+            }
+          ]
+        },
+        {
+          "code": "29516",
+          "name": "Phường 2",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Phường Trường Long Hòa",
+              "newWardShort": "Trường Long Hòa",
+              "newWardCode": "29516",
+              "newWardType": "Phường",
+              "lat": 9.65843,
+              "lon": 106.546,
+              "areaKm2": 56.49
+            }
+          ]
+        },
+        {
+          "code": "29524",
+          "name": "Xã Dân Thành",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Phường Duyên Hải",
+              "newWardShort": "Duyên Hải",
+              "newWardCode": "29512",
+              "newWardType": "Phường",
+              "lat": 9.6258,
+              "lon": 106.497,
+              "areaKm2": 69.63
+            }
+          ]
+        },
+        {
+          "code": "29539",
+          "name": "Xã Hiệp Thạnh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Long Hữu",
+              "newWardShort": "Long Hữu",
+              "newWardCode": "29518",
+              "newWardType": "Xã",
+              "lat": 9.70232,
+              "lon": 106.522,
+              "areaKm2": 67.28
+            }
+          ]
+        },
+        {
+          "code": "29518",
+          "name": "Xã Long Hữu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Xã Long Hữu",
+              "newWardShort": "Long Hữu",
+              "newWardCode": "29518",
+              "newWardType": "Xã",
+              "lat": 9.70232,
+              "lon": 106.522,
+              "areaKm2": 67.28
+            }
+          ]
+        },
+        {
+          "code": "29515",
+          "name": "Xã Long Toàn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Phường Duyên Hải",
+              "newWardShort": "Duyên Hải",
+              "newWardCode": "29512",
+              "newWardType": "Phường",
+              "lat": 9.6258,
+              "lon": 106.497,
+              "areaKm2": 69.63
+            }
+          ]
+        },
+        {
+          "code": "29527",
+          "name": "Xã Trường Long Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Phường Trường Long Hòa",
+              "newWardShort": "Trường Long Hòa",
+              "newWardCode": "29516",
+              "newWardType": "Phường",
+              "lat": 9.65843,
+              "lon": 106.546,
+              "areaKm2": 56.49
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "842",
+      "name": "Thành phố Trà Vinh",
+      "type": "Thành phố",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "29239",
+          "name": "Phường 1",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Phường Trà Vinh",
+              "newWardShort": "Trà Vinh",
+              "newWardCode": "29242",
+              "newWardType": "Phường",
+              "lat": 9.91278,
+              "lon": 106.343,
+              "areaKm2": 15.73
+            }
+          ]
+        },
+        {
+          "code": "29242",
+          "name": "Phường 3",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Phường Trà Vinh",
+              "newWardShort": "Trà Vinh",
+              "newWardCode": "29242",
+              "newWardType": "Phường",
+              "lat": 9.91278,
+              "lon": 106.343,
+              "areaKm2": 15.73
+            }
+          ]
+        },
+        {
+          "code": "29236",
+          "name": "Phường 4",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Phường Long Đức",
+              "newWardShort": "Long Đức",
+              "newWardCode": "29263",
+              "newWardType": "Phường",
+              "lat": 9.9781,
+              "lon": 106.338,
+              "areaKm2": 40.62
+            }
+          ]
+        },
+        {
+          "code": "29248",
+          "name": "Phường 5",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Phường Hòa Thuận",
+              "newWardShort": "Hòa Thuận",
+              "newWardCode": "29398",
+              "newWardType": "Phường",
+              "lat": 9.94665,
+              "lon": 106.362,
+              "areaKm2": 16.51
+            }
+          ]
+        },
+        {
+          "code": "29254",
+          "name": "Phường 7",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Phường Nguyệt Hóa",
+              "newWardShort": "Nguyệt Hóa",
+              "newWardCode": "29254",
+              "newWardType": "Phường",
+              "lat": 9.93221,
+              "lon": 106.312,
+              "areaKm2": 21.14
+            }
+          ]
+        },
+        {
+          "code": "29257",
+          "name": "Phường 8",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Phường Nguyệt Hóa",
+              "newWardShort": "Nguyệt Hóa",
+              "newWardCode": "29254",
+              "newWardType": "Phường",
+              "lat": 9.93221,
+              "lon": 106.312,
+              "areaKm2": 21.14
+            }
+          ]
+        },
+        {
+          "code": "29260",
+          "name": "Phường 9",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Phường Trà Vinh",
+              "newWardShort": "Trà Vinh",
+              "newWardCode": "29242",
+              "newWardType": "Phường",
+              "lat": 9.91278,
+              "lon": 106.343,
+              "areaKm2": 15.73
+            }
+          ]
+        },
+        {
+          "code": "29263",
+          "name": "Xã Long Đức",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Vĩnh Long",
+              "newProvinceSlug": "vinh-long",
+              "newProvinceCode": "86",
+              "newWard": "Phường Long Đức",
+              "newWardShort": "Long Đức",
+              "newWardCode": "29263",
+              "newWardType": "Phường",
+              "lat": 9.9781,
+              "lon": 106.338,
+              "areaKm2": 40.62
+            }
+          ]
+        }
+      ],
+      "results": []
+    }
+  ]
+}

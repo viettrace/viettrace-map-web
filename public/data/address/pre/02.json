@@ -1,0 +1,4005 @@
+{
+  "schemaVersion": 1,
+  "mergeDate": "2025-07-01",
+  "code": "02",
+  "name": "Tỉnh Hà Giang",
+  "name_en": "Ha Giang Province",
+  "slug": "ha-giang",
+  "districts": [
+    {
+      "code": "24",
+      "name": "Thành phố Hà Giang",
+      "type": "Thành phố",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "697",
+          "name": "Phường Minh Khai",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Phường Hà Giang 2",
+              "newWardShort": "Hà Giang 2",
+              "newWardCode": "00691",
+              "newWardType": "Phường",
+              "lat": 22.8605,
+              "lon": 104.963,
+              "areaKm2": 60.62
+            }
+          ]
+        },
+        {
+          "code": "692",
+          "name": "Phường Ngọc Hà",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Phường Hà Giang 2",
+              "newWardShort": "Hà Giang 2",
+              "newWardCode": "00691",
+              "newWardType": "Phường",
+              "lat": 22.8605,
+              "lon": 104.963,
+              "areaKm2": 60.62
+            }
+          ]
+        },
+        {
+          "code": "694",
+          "name": "Phường Nguyễn Trãi",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Phường Hà Giang 1",
+              "newWardShort": "Hà Giang 1",
+              "newWardCode": "00694",
+              "newWardType": "Phường",
+              "lat": 22.8072,
+              "lon": 104.935,
+              "areaKm2": 82.69
+            }
+          ]
+        },
+        {
+          "code": "688",
+          "name": "Phường Quang Trung",
+          "type": "Phường",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Phường Hà Giang 1",
+              "newWardShort": "Hà Giang 1",
+              "newWardCode": "00694",
+              "newWardType": "Phường",
+              "lat": 22.8072,
+              "lon": 104.935,
+              "areaKm2": 82.69
+            },
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Phường Hà Giang 2",
+              "newWardShort": "Hà Giang 2",
+              "newWardCode": "00691",
+              "newWardType": "Phường",
+              "lat": 22.8605,
+              "lon": 104.963,
+              "areaKm2": 60.62
+            }
+          ]
+        },
+        {
+          "code": "691",
+          "name": "Phường Trần Phú",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Phường Hà Giang 2",
+              "newWardShort": "Hà Giang 2",
+              "newWardCode": "00691",
+              "newWardType": "Phường",
+              "lat": 22.8605,
+              "lon": 104.963,
+              "areaKm2": 60.62
+            }
+          ]
+        },
+        {
+          "code": "700",
+          "name": "Xã Ngọc Đường",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Ngọc Đường",
+              "newWardShort": "Ngọc Đường",
+              "newWardCode": "00700",
+              "newWardType": "Xã",
+              "lat": 22.8101,
+              "lon": 105.094,
+              "areaKm2": 98.07
+            }
+          ]
+        },
+        {
+          "code": "946",
+          "name": "Xã Phương Độ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Phường Hà Giang 1",
+              "newWardShort": "Hà Giang 1",
+              "newWardCode": "00694",
+              "newWardType": "Phường",
+              "lat": 22.8072,
+              "lon": 104.935,
+              "areaKm2": 82.69
+            }
+          ]
+        },
+        {
+          "code": "949",
+          "name": "Xã Phương Thiện",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Phường Hà Giang 1",
+              "newWardShort": "Hà Giang 1",
+              "newWardCode": "00694",
+              "newWardType": "Phường",
+              "lat": 22.8072,
+              "lon": 104.935,
+              "areaKm2": 82.69
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "31",
+      "name": "Huyện Bắc Mê",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "991",
+          "name": "Thị trấn Yên Phú",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Bắc Mê",
+              "newWardShort": "Bắc Mê",
+              "newWardCode": "00991",
+              "newWardType": "Xã",
+              "lat": 22.7505,
+              "lon": 105.33,
+              "areaKm2": 154.3
+            }
+          ]
+        },
+        {
+          "code": "1012",
+          "name": "Xã Đường Âm",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Đường Hồng",
+              "newWardShort": "Đường Hồng",
+              "newWardCode": "01012",
+              "newWardType": "Xã",
+              "lat": 22.6431,
+              "lon": 105.44,
+              "areaKm2": 135.42
+            }
+          ]
+        },
+        {
+          "code": "1015",
+          "name": "Xã Đường Hồng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Đường Hồng",
+              "newWardShort": "Đường Hồng",
+              "newWardCode": "01012",
+              "newWardType": "Xã",
+              "lat": 22.6431,
+              "lon": 105.44,
+              "areaKm2": 135.42
+            }
+          ]
+        },
+        {
+          "code": "985",
+          "name": "Xã Giáp Trung",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Giáp Trung",
+              "newWardShort": "Giáp Trung",
+              "newWardCode": "00985",
+              "newWardType": "Xã",
+              "lat": 22.8059,
+              "lon": 105.295,
+              "areaKm2": 73.21
+            }
+          ]
+        },
+        {
+          "code": "1000",
+          "name": "Xã Lạc Nông",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Bắc Mê",
+              "newWardShort": "Bắc Mê",
+              "newWardCode": "00991",
+              "newWardType": "Xã",
+              "lat": 22.7505,
+              "lon": 105.33,
+              "areaKm2": 154.3
+            }
+          ]
+        },
+        {
+          "code": "994",
+          "name": "Xã Minh Ngọc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Minh Ngọc",
+              "newWardShort": "Minh Ngọc",
+              "newWardCode": "00994",
+              "newWardType": "Xã",
+              "lat": 22.7017,
+              "lon": 105.218,
+              "areaKm2": 159.34
+            }
+          ]
+        },
+        {
+          "code": "982",
+          "name": "Xã Minh Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Minh Sơn",
+              "newWardShort": "Minh Sơn",
+              "newWardCode": "00982",
+              "newWardType": "Xã",
+              "lat": 22.8496,
+              "lon": 105.204,
+              "areaKm2": 81.77
+            }
+          ]
+        },
+        {
+          "code": "1018",
+          "name": "Xã Phiêng Luông",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Yên Cường",
+              "newWardShort": "Yên Cường",
+              "newWardCode": "01006",
+              "newWardType": "Xã",
+              "lat": 22.6782,
+              "lon": 105.357,
+              "areaKm2": 116.9
+            }
+          ]
+        },
+        {
+          "code": "1003",
+          "name": "Xã Phú Nam",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Đường Hồng",
+              "newWardShort": "Đường Hồng",
+              "newWardCode": "01012",
+              "newWardType": "Xã",
+              "lat": 22.6431,
+              "lon": 105.44,
+              "areaKm2": 135.42
+            }
+          ]
+        },
+        {
+          "code": "1009",
+          "name": "Xã Thượng Tân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Minh Ngọc",
+              "newWardShort": "Minh Ngọc",
+              "newWardCode": "00994",
+              "newWardType": "Xã",
+              "lat": 22.7017,
+              "lon": 105.218,
+              "areaKm2": 159.34
+            }
+          ]
+        },
+        {
+          "code": "1006",
+          "name": "Xã Yên Cường",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Yên Cường",
+              "newWardShort": "Yên Cường",
+              "newWardCode": "01006",
+              "newWardType": "Xã",
+              "lat": 22.6782,
+              "lon": 105.357,
+              "areaKm2": 116.9
+            }
+          ]
+        },
+        {
+          "code": "988",
+          "name": "Xã Yên Định",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Minh Ngọc",
+              "newWardShort": "Minh Ngọc",
+              "newWardCode": "00994",
+              "newWardType": "Xã",
+              "lat": 22.7017,
+              "lon": 105.218,
+              "areaKm2": 159.34
+            },
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Ngọc Đường",
+              "newWardShort": "Ngọc Đường",
+              "newWardCode": "00700",
+              "newWardType": "Xã",
+              "lat": 22.8101,
+              "lon": 105.094,
+              "areaKm2": 98.07
+            }
+          ]
+        },
+        {
+          "code": "997",
+          "name": "Xã Yên Phong",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Bắc Mê",
+              "newWardShort": "Bắc Mê",
+              "newWardCode": "00991",
+              "newWardType": "Xã",
+              "lat": 22.7505,
+              "lon": 105.33,
+              "areaKm2": 154.3
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "34",
+      "name": "Huyện Bắc Quang",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "1153",
+          "name": "Thị trấn Việt Quang",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Bắc Quang",
+              "newWardShort": "Bắc Quang",
+              "newWardCode": "01153",
+              "newWardType": "Xã",
+              "lat": 22.4245,
+              "lon": 104.845,
+              "areaKm2": 141.93
+            }
+          ]
+        },
+        {
+          "code": "1156",
+          "name": "Thị trấn Vĩnh Tuy",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Vĩnh Tuy",
+              "newWardShort": "Vĩnh Tuy",
+              "newWardCode": "01156",
+              "newWardType": "Xã",
+              "lat": 22.2474,
+              "lon": 104.867,
+              "areaKm2": 115.86
+            }
+          ]
+        },
+        {
+          "code": "1186",
+          "name": "Xã Bằng Hành",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Bằng Hành",
+              "newWardShort": "Bằng Hành",
+              "newWardCode": "01180",
+              "newWardType": "Xã",
+              "lat": 22.4066,
+              "lon": 104.955,
+              "areaKm2": 151.72
+            }
+          ]
+        },
+        {
+          "code": "1168",
+          "name": "Xã Đồng Tâm",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Đồng Tâm",
+              "newWardShort": "Đồng Tâm",
+              "newWardCode": "01165",
+              "newWardType": "Xã",
+              "lat": 22.5008,
+              "lon": 104.989,
+              "areaKm2": 248.8
+            }
+          ]
+        },
+        {
+          "code": "1219",
+          "name": "Xã Đông Thành",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Vĩnh Tuy",
+              "newWardShort": "Vĩnh Tuy",
+              "newWardCode": "01156",
+              "newWardType": "Xã",
+              "lat": 22.2474,
+              "lon": 104.867,
+              "areaKm2": 115.86
+            }
+          ]
+        },
+        {
+          "code": "1165",
+          "name": "Xã Đồng Tiến",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Đồng Tâm",
+              "newWardShort": "Đồng Tâm",
+              "newWardCode": "01165",
+              "newWardType": "Xã",
+              "lat": 22.5008,
+              "lon": 104.989,
+              "areaKm2": 248.8
+            }
+          ]
+        },
+        {
+          "code": "1216",
+          "name": "Xã Đồng Yên",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Đồng Yên",
+              "newWardShort": "Đồng Yên",
+              "newWardCode": "01216",
+              "newWardType": "Xã",
+              "lat": 22.225,
+              "lon": 104.786,
+              "areaKm2": 79.36
+            }
+          ]
+        },
+        {
+          "code": "1204",
+          "name": "Xã Đức Xuân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Liên Hiệp",
+              "newWardShort": "Liên Hiệp",
+              "newWardCode": "01192",
+              "newWardType": "Xã",
+              "lat": 22.3792,
+              "lon": 105.04,
+              "areaKm2": 166.67
+            }
+          ]
+        },
+        {
+          "code": "1201",
+          "name": "Xã Hùng An",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Hùng An",
+              "newWardShort": "Hùng An",
+              "newWardCode": "01201",
+              "newWardType": "Xã",
+              "lat": 22.3352,
+              "lon": 104.823,
+              "areaKm2": 118.57
+            }
+          ]
+        },
+        {
+          "code": "1177",
+          "name": "Xã Hữu Sản",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Liên Hiệp",
+              "newWardShort": "Liên Hiệp",
+              "newWardCode": "01192",
+              "newWardType": "Xã",
+              "lat": 22.3792,
+              "lon": 105.04,
+              "areaKm2": 166.67
+            }
+          ]
+        },
+        {
+          "code": "1180",
+          "name": "Xã Kim Ngọc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Bằng Hành",
+              "newWardShort": "Bằng Hành",
+              "newWardCode": "01180",
+              "newWardType": "Xã",
+              "lat": 22.4066,
+              "lon": 104.955,
+              "areaKm2": 151.72
+            }
+          ]
+        },
+        {
+          "code": "1192",
+          "name": "Xã Liên Hiệp",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Liên Hiệp",
+              "newWardShort": "Liên Hiệp",
+              "newWardCode": "01192",
+              "newWardType": "Xã",
+              "lat": 22.3792,
+              "lon": 105.04,
+              "areaKm2": 166.67
+            }
+          ]
+        },
+        {
+          "code": "1189",
+          "name": "Xã Quang Minh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Bắc Quang",
+              "newWardShort": "Bắc Quang",
+              "newWardCode": "01153",
+              "newWardType": "Xã",
+              "lat": 22.4245,
+              "lon": 104.845,
+              "areaKm2": 141.93
+            }
+          ]
+        },
+        {
+          "code": "1159",
+          "name": "Xã Tân Lập",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Tân Quang",
+              "newWardShort": "Tân Quang",
+              "newWardCode": "01171",
+              "newWardType": "Xã",
+              "lat": 22.5408,
+              "lon": 104.85,
+              "areaKm2": 174.14
+            }
+          ]
+        },
+        {
+          "code": "1171",
+          "name": "Xã Tân Quang",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Tân Quang",
+              "newWardShort": "Tân Quang",
+              "newWardCode": "01171",
+              "newWardType": "Xã",
+              "lat": 22.5408,
+              "lon": 104.85,
+              "areaKm2": 174.14
+            }
+          ]
+        },
+        {
+          "code": "1162",
+          "name": "Xã Tân Thành",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Tân Quang",
+              "newWardShort": "Tân Quang",
+              "newWardCode": "01171",
+              "newWardType": "Xã",
+              "lat": 22.5408,
+              "lon": 104.85,
+              "areaKm2": 174.14
+            }
+          ]
+        },
+        {
+          "code": "1174",
+          "name": "Xã Thượng Bình",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Đồng Tâm",
+              "newWardShort": "Đồng Tâm",
+              "newWardCode": "01165",
+              "newWardType": "Xã",
+              "lat": 22.5008,
+              "lon": 104.989,
+              "areaKm2": 248.8
+            }
+          ]
+        },
+        {
+          "code": "1207",
+          "name": "Xã Tiên Kiều",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Hùng An",
+              "newWardShort": "Hùng An",
+              "newWardCode": "01201",
+              "newWardType": "Xã",
+              "lat": 22.3352,
+              "lon": 104.823,
+              "areaKm2": 118.57
+            }
+          ]
+        },
+        {
+          "code": "1198",
+          "name": "Xã Việt Hồng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Hùng An",
+              "newWardShort": "Hùng An",
+              "newWardCode": "01201",
+              "newWardType": "Xã",
+              "lat": 22.3352,
+              "lon": 104.823,
+              "areaKm2": 118.57
+            }
+          ]
+        },
+        {
+          "code": "1183",
+          "name": "Xã Việt Vinh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Bắc Quang",
+              "newWardShort": "Bắc Quang",
+              "newWardCode": "01153",
+              "newWardType": "Xã",
+              "lat": 22.4245,
+              "lon": 104.845,
+              "areaKm2": 141.93
+            }
+          ]
+        },
+        {
+          "code": "1210",
+          "name": "Xã Vĩnh Hảo",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Vĩnh Tuy",
+              "newWardShort": "Vĩnh Tuy",
+              "newWardCode": "01156",
+              "newWardType": "Xã",
+              "lat": 22.2474,
+              "lon": 104.867,
+              "areaKm2": 115.86
+            }
+          ]
+        },
+        {
+          "code": "1213",
+          "name": "Xã Vĩnh Phúc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Đồng Yên",
+              "newWardShort": "Đồng Yên",
+              "newWardCode": "01216",
+              "newWardType": "Xã",
+              "lat": 22.225,
+              "lon": 104.786,
+              "areaKm2": 79.36
+            }
+          ]
+        },
+        {
+          "code": "1195",
+          "name": "Xã Vô Điếm",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Bằng Hành",
+              "newWardShort": "Bằng Hành",
+              "newWardCode": "01180",
+              "newWardType": "Xã",
+              "lat": 22.4066,
+              "lon": 104.955,
+              "areaKm2": 151.72
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "26",
+      "name": "Huyện Đồng Văn",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "721",
+          "name": "Thị trấn Đồng Văn",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Đồng Văn",
+              "newWardShort": "Đồng Văn",
+              "newWardCode": "00721",
+              "newWardType": "Xã",
+              "lat": 23.2568,
+              "lon": 105.347,
+              "areaKm2": 122.49
+            }
+          ]
+        },
+        {
+          "code": "712",
+          "name": "Thị trấn Phố Bảng",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Phố Bảng",
+              "newWardShort": "Phố Bảng",
+              "newWardCode": "00745",
+              "newWardType": "Xã",
+              "lat": 23.2231,
+              "lon": 105.174,
+              "areaKm2": 77.71
+            }
+          ]
+        },
+        {
+          "code": "757",
+          "name": "Xã Hố Quáng Phìn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Lũng Phìn",
+              "newWardShort": "Lũng Phìn",
+              "newWardCode": "00763",
+              "newWardType": "Xã",
+              "lat": 23.1378,
+              "lon": 105.262,
+              "areaKm2": 69.46
+            }
+          ]
+        },
+        {
+          "code": "715",
+          "name": "Xã Lũng Cú",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Lũng Cú",
+              "newWardShort": "Lũng Cú",
+              "newWardCode": "00715",
+              "newWardType": "Xã",
+              "lat": 23.3241,
+              "lon": 105.302,
+              "areaKm2": 95.2
+            }
+          ]
+        },
+        {
+          "code": "763",
+          "name": "Xã Lũng Phìn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Lũng Phìn",
+              "newWardShort": "Lũng Phìn",
+              "newWardCode": "00763",
+              "newWardType": "Xã",
+              "lat": 23.1378,
+              "lon": 105.262,
+              "areaKm2": 69.46
+            }
+          ]
+        },
+        {
+          "code": "724",
+          "name": "Xã Lũng Táo",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Lũng Cú",
+              "newWardShort": "Lũng Cú",
+              "newWardCode": "00715",
+              "newWardType": "Xã",
+              "lat": 23.3241,
+              "lon": 105.302,
+              "areaKm2": 95.2
+            }
+          ]
+        },
+        {
+          "code": "754",
+          "name": "Xã Lũng Thầu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Phố Bảng",
+              "newWardShort": "Phố Bảng",
+              "newWardCode": "00745",
+              "newWardType": "Xã",
+              "lat": 23.2231,
+              "lon": 105.174,
+              "areaKm2": 77.71
+            }
+          ]
+        },
+        {
+          "code": "718",
+          "name": "Xã Má Lé",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Lũng Cú",
+              "newWardShort": "Lũng Cú",
+              "newWardCode": "00715",
+              "newWardType": "Xã",
+              "lat": 23.3241,
+              "lon": 105.302,
+              "areaKm2": 95.2
+            }
+          ]
+        },
+        {
+          "code": "745",
+          "name": "Xã Phố Cáo",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Phố Bảng",
+              "newWardShort": "Phố Bảng",
+              "newWardCode": "00745",
+              "newWardType": "Xã",
+              "lat": 23.2231,
+              "lon": 105.174,
+              "areaKm2": 77.71
+            }
+          ]
+        },
+        {
+          "code": "727",
+          "name": "Xã Phố Là",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Phố Bảng",
+              "newWardShort": "Phố Bảng",
+              "newWardCode": "00745",
+              "newWardType": "Xã",
+              "lat": 23.2231,
+              "lon": 105.174,
+              "areaKm2": 77.71
+            }
+          ]
+        },
+        {
+          "code": "736",
+          "name": "Xã Sà Phìn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Sà Phìn",
+              "newWardShort": "Sà Phìn",
+              "newWardCode": "00733",
+              "newWardType": "Xã",
+              "lat": 23.225,
+              "lon": 105.245,
+              "areaKm2": 83.5
+            }
+          ]
+        },
+        {
+          "code": "751",
+          "name": "Xã Sảng Tủng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Sà Phìn",
+              "newWardShort": "Sà Phìn",
+              "newWardCode": "00733",
+              "newWardType": "Xã",
+              "lat": 23.225,
+              "lon": 105.245,
+              "areaKm2": 83.5
+            }
+          ]
+        },
+        {
+          "code": "748",
+          "name": "Xã Sính Lủng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Sà Phìn",
+              "newWardShort": "Sà Phìn",
+              "newWardCode": "00733",
+              "newWardType": "Xã",
+              "lat": 23.225,
+              "lon": 105.245,
+              "areaKm2": 83.5
+            }
+          ]
+        },
+        {
+          "code": "733",
+          "name": "Xã Sủng Là",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Sà Phìn",
+              "newWardShort": "Sà Phìn",
+              "newWardCode": "00733",
+              "newWardType": "Xã",
+              "lat": 23.225,
+              "lon": 105.245,
+              "areaKm2": 83.5
+            }
+          ]
+        },
+        {
+          "code": "766",
+          "name": "Xã Sủng Trái",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Lũng Phìn",
+              "newWardShort": "Lũng Phìn",
+              "newWardCode": "00763",
+              "newWardType": "Xã",
+              "lat": 23.1378,
+              "lon": 105.262,
+              "areaKm2": 69.46
+            }
+          ]
+        },
+        {
+          "code": "742",
+          "name": "Xã Tả Lủng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Đồng Văn",
+              "newWardShort": "Đồng Văn",
+              "newWardCode": "00721",
+              "newWardType": "Xã",
+              "lat": 23.2568,
+              "lon": 105.347,
+              "areaKm2": 122.49
+            }
+          ]
+        },
+        {
+          "code": "739",
+          "name": "Xã Tả Phìn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Đồng Văn",
+              "newWardShort": "Đồng Văn",
+              "newWardCode": "00721",
+              "newWardType": "Xã",
+              "lat": 23.2568,
+              "lon": 105.347,
+              "areaKm2": 122.49
+            }
+          ]
+        },
+        {
+          "code": "730",
+          "name": "Xã Thài Phìn Tủng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Đồng Văn",
+              "newWardShort": "Đồng Văn",
+              "newWardCode": "00721",
+              "newWardType": "Xã",
+              "lat": 23.2568,
+              "lon": 105.347,
+              "areaKm2": 122.49
+            }
+          ]
+        },
+        {
+          "code": "760",
+          "name": "Xã Vần Chải",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Yên Minh",
+              "newWardShort": "Yên Minh",
+              "newWardCode": "00820",
+              "newWardType": "Xã",
+              "lat": 23.0991,
+              "lon": 105.139,
+              "areaKm2": 154.7
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "32",
+      "name": "Huyện Hoàng Su Phì",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "1021",
+          "name": "Thị trấn Vinh Quang",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Hoàng Su Phì",
+              "newWardShort": "Hoàng Su Phì",
+              "newWardCode": "01021",
+              "newWardType": "Xã",
+              "lat": 22.7245,
+              "lon": 104.686,
+              "areaKm2": 86.65
+            }
+          ]
+        },
+        {
+          "code": "1063",
+          "name": "Xã Bản Luốc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Hoàng Su Phì",
+              "newWardShort": "Hoàng Su Phì",
+              "newWardCode": "01021",
+              "newWardType": "Xã",
+              "lat": 22.7245,
+              "lon": 104.686,
+              "areaKm2": 86.65
+            }
+          ]
+        },
+        {
+          "code": "1024",
+          "name": "Xã Bản Máy",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Bản Máy",
+              "newWardShort": "Bản Máy",
+              "newWardCode": "01024",
+              "newWardType": "Xã",
+              "lat": 22.7983,
+              "lon": 104.594,
+              "areaKm2": 76.17
+            }
+          ]
+        },
+        {
+          "code": "1069",
+          "name": "Xã Bản Nhùng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Tân Tiến",
+              "newWardShort": "Tân Tiến",
+              "newWardCode": "01051",
+              "newWardType": "Xã",
+              "lat": 22.7479,
+              "lon": 104.762,
+              "areaKm2": 207.2
+            }
+          ]
+        },
+        {
+          "code": "1036",
+          "name": "Xã Bản Phùng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Bản Máy",
+              "newWardShort": "Bản Máy",
+              "newWardCode": "01024",
+              "newWardType": "Xã",
+              "lat": 22.7983,
+              "lon": 104.594,
+              "areaKm2": 76.17
+            }
+          ]
+        },
+        {
+          "code": "1042",
+          "name": "Xã Chiến Phố",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Bản Máy",
+              "newWardShort": "Bản Máy",
+              "newWardCode": "01024",
+              "newWardType": "Xã",
+              "lat": 22.7983,
+              "lon": 104.594,
+              "areaKm2": 76.17
+            }
+          ]
+        },
+        {
+          "code": "1045",
+          "name": "Xã Đản Ván",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Hoàng Su Phì",
+              "newWardShort": "Hoàng Su Phì",
+              "newWardCode": "01021",
+              "newWardType": "Xã",
+              "lat": 22.7245,
+              "lon": 104.686,
+              "areaKm2": 86.65
+            }
+          ]
+        },
+        {
+          "code": "1081",
+          "name": "Xã Hồ Thầu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Hồ Thầu",
+              "newWardShort": "Hồ Thầu",
+              "newWardCode": "01084",
+              "newWardType": "Xã",
+              "lat": 22.6054,
+              "lon": 104.659,
+              "areaKm2": 136.83
+            }
+          ]
+        },
+        {
+          "code": "1075",
+          "name": "Xã Nậm Dịch",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Nậm Dịch",
+              "newWardShort": "Nậm Dịch",
+              "newWardCode": "01075",
+              "newWardType": "Xã",
+              "lat": 22.641,
+              "lon": 104.751,
+              "areaKm2": 97.78
+            }
+          ]
+        },
+        {
+          "code": "1093",
+          "name": "Xã Nậm Khòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Hồ Thầu",
+              "newWardShort": "Hồ Thầu",
+              "newWardCode": "01084",
+              "newWardType": "Xã",
+              "lat": 22.6054,
+              "lon": 104.659,
+              "areaKm2": 136.83
+            }
+          ]
+        },
+        {
+          "code": "1084",
+          "name": "Xã Nam Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Hồ Thầu",
+              "newWardShort": "Hồ Thầu",
+              "newWardCode": "01084",
+              "newWardType": "Xã",
+              "lat": 22.6054,
+              "lon": 104.659,
+              "areaKm2": 136.83
+            }
+          ]
+        },
+        {
+          "code": "1087",
+          "name": "Xã Nậm Ty",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Nậm Dịch",
+              "newWardShort": "Nậm Dịch",
+              "newWardCode": "01075",
+              "newWardType": "Xã",
+              "lat": 22.641,
+              "lon": 104.751,
+              "areaKm2": 97.78
+            }
+          ]
+        },
+        {
+          "code": "1054",
+          "name": "Xã Nàng Đôn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Pờ Ly Ngài",
+              "newWardShort": "Pờ Ly Ngài",
+              "newWardCode": "01057",
+              "newWardType": "Xã",
+              "lat": 22.7068,
+              "lon": 104.62,
+              "areaKm2": 49.34
+            }
+          ]
+        },
+        {
+          "code": "1066",
+          "name": "Xã Ngàm Đăng Vài",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Hoàng Su Phì",
+              "newWardShort": "Hoàng Su Phì",
+              "newWardCode": "01021",
+              "newWardType": "Xã",
+              "lat": 22.7245,
+              "lon": 104.686,
+              "areaKm2": 86.65
+            }
+          ]
+        },
+        {
+          "code": "1033",
+          "name": "Xã Pố Lồ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Thàng Tín",
+              "newWardShort": "Thàng Tín",
+              "newWardCode": "01033",
+              "newWardType": "Xã",
+              "lat": 22.7985,
+              "lon": 104.677,
+              "areaKm2": 70.78
+            }
+          ]
+        },
+        {
+          "code": "1057",
+          "name": "Xã Pờ Ly Ngài",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Pờ Ly Ngài",
+              "newWardShort": "Pờ Ly Ngài",
+              "newWardCode": "01057",
+              "newWardType": "Xã",
+              "lat": 22.7068,
+              "lon": 104.62,
+              "areaKm2": 49.34
+            }
+          ]
+        },
+        {
+          "code": "1060",
+          "name": "Xã Sán Sả Hồ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Pờ Ly Ngài",
+              "newWardShort": "Pờ Ly Ngài",
+              "newWardCode": "01057",
+              "newWardType": "Xã",
+              "lat": 22.7068,
+              "lon": 104.62,
+              "areaKm2": 49.34
+            }
+          ]
+        },
+        {
+          "code": "1072",
+          "name": "Xã Tả Sử Choóng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Nậm Dịch",
+              "newWardShort": "Nậm Dịch",
+              "newWardCode": "01075",
+              "newWardType": "Xã",
+              "lat": 22.641,
+              "lon": 104.751,
+              "areaKm2": 97.78
+            }
+          ]
+        },
+        {
+          "code": "1051",
+          "name": "Xã Tân Tiến",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Tân Tiến",
+              "newWardShort": "Tân Tiến",
+              "newWardCode": "01051",
+              "newWardType": "Xã",
+              "lat": 22.7479,
+              "lon": 104.762,
+              "areaKm2": 207.2
+            }
+          ]
+        },
+        {
+          "code": "1027",
+          "name": "Xã Thàng Tín",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Thàng Tín",
+              "newWardShort": "Thàng Tín",
+              "newWardCode": "01033",
+              "newWardType": "Xã",
+              "lat": 22.7985,
+              "lon": 104.677,
+              "areaKm2": 70.78
+            }
+          ]
+        },
+        {
+          "code": "1030",
+          "name": "Xã Thèn Chu Phìn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Thàng Tín",
+              "newWardShort": "Thàng Tín",
+              "newWardCode": "01033",
+              "newWardType": "Xã",
+              "lat": 22.7985,
+              "lon": 104.677,
+              "areaKm2": 70.78
+            }
+          ]
+        },
+        {
+          "code": "1090",
+          "name": "Xã Thông Nguyên",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Thông Nguyên",
+              "newWardShort": "Thông Nguyên",
+              "newWardCode": "01090",
+              "newWardType": "Xã",
+              "lat": 22.5307,
+              "lon": 104.748,
+              "areaKm2": 108.7
+            }
+          ]
+        },
+        {
+          "code": "1048",
+          "name": "Xã Tụ Nhân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Hoàng Su Phì",
+              "newWardShort": "Hoàng Su Phì",
+              "newWardCode": "01021",
+              "newWardType": "Xã",
+              "lat": 22.7245,
+              "lon": 104.686,
+              "areaKm2": 86.65
+            }
+          ]
+        },
+        {
+          "code": "1039",
+          "name": "Xã Túng Sán",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Tân Tiến",
+              "newWardShort": "Tân Tiến",
+              "newWardCode": "01051",
+              "newWardType": "Xã",
+              "lat": 22.7479,
+              "lon": 104.762,
+              "areaKm2": 207.2
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "27",
+      "name": "Huyện Mèo Vạc",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "769",
+          "name": "Thị trấn Mèo Vạc",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Mèo Vạc",
+              "newWardShort": "Mèo Vạc",
+              "newWardCode": "00769",
+              "newWardType": "Xã",
+              "lat": 23.1802,
+              "lon": 105.41,
+              "areaKm2": 92.21
+            }
+          ]
+        },
+        {
+          "code": "799",
+          "name": "Xã Cán Chu Phìn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Khâu Vai",
+              "newWardShort": "Khâu Vai",
+              "newWardCode": "00802",
+              "newWardType": "Xã",
+              "lat": 23.1162,
+              "lon": 105.481,
+              "areaKm2": 107.46
+            }
+          ]
+        },
+        {
+          "code": "784",
+          "name": "Xã Giàng Chu Phìn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Mèo Vạc",
+              "newWardShort": "Mèo Vạc",
+              "newWardCode": "00769",
+              "newWardType": "Xã",
+              "lat": 23.1802,
+              "lon": 105.41,
+              "areaKm2": 92.21
+            }
+          ]
+        },
+        {
+          "code": "814",
+          "name": "Xã Khâu Vai",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Khâu Vai",
+              "newWardShort": "Khâu Vai",
+              "newWardCode": "00802",
+              "newWardType": "Xã",
+              "lat": 23.1162,
+              "lon": 105.481,
+              "areaKm2": 107.46
+            }
+          ]
+        },
+        {
+          "code": "805",
+          "name": "Xã Lũng Chinh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Sủng Máng",
+              "newWardShort": "Sủng Máng",
+              "newWardCode": "00787",
+              "newWardType": "Xã",
+              "lat": 23.1606,
+              "lon": 105.328,
+              "areaKm2": 76.15
+            }
+          ]
+        },
+        {
+          "code": "802",
+          "name": "Xã Lũng Pù",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Khâu Vai",
+              "newWardShort": "Khâu Vai",
+              "newWardCode": "00802",
+              "newWardType": "Xã",
+              "lat": 23.1162,
+              "lon": 105.481,
+              "areaKm2": 107.46
+            }
+          ]
+        },
+        {
+          "code": "811",
+          "name": "Xã Nậm Ban",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Tát Ngà",
+              "newWardShort": "Tát Ngà",
+              "newWardCode": "00808",
+              "newWardType": "Xã",
+              "lat": 23.09,
+              "lon": 105.384,
+              "areaKm2": 90.6
+            }
+          ]
+        },
+        {
+          "code": "817",
+          "name": "Xã Niêm Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Niêm Sơn",
+              "newWardShort": "Niêm Sơn",
+              "newWardCode": "00817",
+              "newWardType": "Xã",
+              "lat": 23.0308,
+              "lon": 105.431,
+              "areaKm2": 81.73
+            }
+          ]
+        },
+        {
+          "code": "815",
+          "name": "Xã Niêm Tòng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Niêm Sơn",
+              "newWardShort": "Niêm Sơn",
+              "newWardCode": "00817",
+              "newWardType": "Xã",
+              "lat": 23.0308,
+              "lon": 105.431,
+              "areaKm2": 81.73
+            }
+          ]
+        },
+        {
+          "code": "781",
+          "name": "Xã Pả Vi",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Mèo Vạc",
+              "newWardShort": "Mèo Vạc",
+              "newWardCode": "00769",
+              "newWardType": "Xã",
+              "lat": 23.1802,
+              "lon": 105.41,
+              "areaKm2": 92.21
+            }
+          ]
+        },
+        {
+          "code": "775",
+          "name": "Xã Pải Lủng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Đồng Văn",
+              "newWardShort": "Đồng Văn",
+              "newWardCode": "00721",
+              "newWardType": "Xã",
+              "lat": 23.2568,
+              "lon": 105.347,
+              "areaKm2": 122.49
+            }
+          ]
+        },
+        {
+          "code": "793",
+          "name": "Xã Sơn Vĩ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Sơn Vĩ",
+              "newWardShort": "Sơn Vĩ",
+              "newWardCode": "00778",
+              "newWardType": "Xã",
+              "lat": 23.214,
+              "lon": 105.479,
+              "areaKm2": 110.62
+            }
+          ]
+        },
+        {
+          "code": "790",
+          "name": "Xã Sủng Máng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Sủng Máng",
+              "newWardShort": "Sủng Máng",
+              "newWardCode": "00787",
+              "newWardType": "Xã",
+              "lat": 23.1606,
+              "lon": 105.328,
+              "areaKm2": 76.15
+            }
+          ]
+        },
+        {
+          "code": "787",
+          "name": "Xã Sủng Trà",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Sủng Máng",
+              "newWardShort": "Sủng Máng",
+              "newWardCode": "00787",
+              "newWardType": "Xã",
+              "lat": 23.1606,
+              "lon": 105.328,
+              "areaKm2": 76.15
+            }
+          ]
+        },
+        {
+          "code": "796",
+          "name": "Xã Tả Lủng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Mèo Vạc",
+              "newWardShort": "Mèo Vạc",
+              "newWardCode": "00769",
+              "newWardType": "Xã",
+              "lat": 23.1802,
+              "lon": 105.41,
+              "areaKm2": 92.21
+            }
+          ]
+        },
+        {
+          "code": "808",
+          "name": "Xã Tát Ngà",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Tát Ngà",
+              "newWardShort": "Tát Ngà",
+              "newWardCode": "00808",
+              "newWardType": "Xã",
+              "lat": 23.09,
+              "lon": 105.384,
+              "areaKm2": 90.6
+            }
+          ]
+        },
+        {
+          "code": "772",
+          "name": "Xã Thượng Phùng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Sơn Vĩ",
+              "newWardShort": "Sơn Vĩ",
+              "newWardCode": "00778",
+              "newWardType": "Xã",
+              "lat": 23.214,
+              "lon": 105.479,
+              "areaKm2": 110.62
+            }
+          ]
+        },
+        {
+          "code": "778",
+          "name": "Xã Xín Cái",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Sơn Vĩ",
+              "newWardShort": "Sơn Vĩ",
+              "newWardCode": "00778",
+              "newWardType": "Xã",
+              "lat": 23.214,
+              "lon": 105.479,
+              "areaKm2": 110.62
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "29",
+      "name": "Huyện Quản Bạ",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "874",
+          "name": "Thị trấn Tam Sơn",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Quản Bạ",
+              "newWardShort": "Quản Bạ",
+              "newWardCode": "00874",
+              "newWardType": "Xã",
+              "lat": 23.028,
+              "lon": 104.978,
+              "areaKm2": 102.87
+            }
+          ]
+        },
+        {
+          "code": "877",
+          "name": "Xã Bát Đại Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Cán Tỷ",
+              "newWardShort": "Cán Tỷ",
+              "newWardCode": "00883",
+              "newWardType": "Xã",
+              "lat": 23.1266,
+              "lon": 105.012,
+              "areaKm2": 85.13
+            }
+          ]
+        },
+        {
+          "code": "883",
+          "name": "Xã Cán Tỷ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Cán Tỷ",
+              "newWardShort": "Cán Tỷ",
+              "newWardCode": "00883",
+              "newWardType": "Xã",
+              "lat": 23.1266,
+              "lon": 105.012,
+              "areaKm2": 85.13
+            }
+          ]
+        },
+        {
+          "code": "886",
+          "name": "Xã Cao Mã Pờ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Tùng Vài",
+              "newWardShort": "Tùng Vài",
+              "newWardCode": "00892",
+              "newWardType": "Xã",
+              "lat": 23.0606,
+              "lon": 104.869,
+              "areaKm2": 149.98
+            }
+          ]
+        },
+        {
+          "code": "895",
+          "name": "Xã Đông Hà",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Lùng Tám",
+              "newWardShort": "Lùng Tám",
+              "newWardCode": "00901",
+              "newWardType": "Xã",
+              "lat": 23.0115,
+              "lon": 105.077,
+              "areaKm2": 124.14
+            }
+          ]
+        },
+        {
+          "code": "901",
+          "name": "Xã Lùng Tám",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Lùng Tám",
+              "newWardShort": "Lùng Tám",
+              "newWardCode": "00901",
+              "newWardType": "Xã",
+              "lat": 23.0115,
+              "lon": 105.077,
+              "areaKm2": 124.14
+            }
+          ]
+        },
+        {
+          "code": "880",
+          "name": "Xã Nghĩa Thuận",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Nghĩa Thuận",
+              "newWardShort": "Nghĩa Thuận",
+              "newWardCode": "00889",
+              "newWardType": "Xã",
+              "lat": 23.1222,
+              "lon": 104.938,
+              "areaKm2": 80.12
+            }
+          ]
+        },
+        {
+          "code": "898",
+          "name": "Xã Quản Bạ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Quản Bạ",
+              "newWardShort": "Quản Bạ",
+              "newWardCode": "00874",
+              "newWardType": "Xã",
+              "lat": 23.028,
+              "lon": 104.978,
+              "areaKm2": 102.87
+            }
+          ]
+        },
+        {
+          "code": "904",
+          "name": "Xã Quyết Tiến",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Quản Bạ",
+              "newWardShort": "Quản Bạ",
+              "newWardCode": "00874",
+              "newWardType": "Xã",
+              "lat": 23.028,
+              "lon": 104.978,
+              "areaKm2": 102.87
+            }
+          ]
+        },
+        {
+          "code": "907",
+          "name": "Xã Tả Ván",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Tùng Vài",
+              "newWardShort": "Tùng Vài",
+              "newWardCode": "00892",
+              "newWardType": "Xã",
+              "lat": 23.0606,
+              "lon": 104.869,
+              "areaKm2": 149.98
+            }
+          ]
+        },
+        {
+          "code": "910",
+          "name": "Xã Thái An",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Lùng Tám",
+              "newWardShort": "Lùng Tám",
+              "newWardCode": "00901",
+              "newWardType": "Xã",
+              "lat": 23.0115,
+              "lon": 105.077,
+              "areaKm2": 124.14
+            }
+          ]
+        },
+        {
+          "code": "889",
+          "name": "Xã Thanh Vân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Nghĩa Thuận",
+              "newWardShort": "Nghĩa Thuận",
+              "newWardCode": "00889",
+              "newWardType": "Xã",
+              "lat": 23.1222,
+              "lon": 104.938,
+              "areaKm2": 80.12
+            }
+          ]
+        },
+        {
+          "code": "892",
+          "name": "Xã Tùng Vài",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Tùng Vài",
+              "newWardShort": "Tùng Vài",
+              "newWardCode": "00892",
+              "newWardType": "Xã",
+              "lat": 23.0606,
+              "lon": 104.869,
+              "areaKm2": 149.98
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "35",
+      "name": "Huyện Quang Bình",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "1237",
+          "name": "Thị trấn Yên Bình",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Quang Bình",
+              "newWardShort": "Quang Bình",
+              "newWardCode": "01237",
+              "newWardType": "Xã",
+              "lat": 22.458,
+              "lon": 104.593,
+              "areaKm2": 130.14
+            }
+          ]
+        },
+        {
+          "code": "1231",
+          "name": "Xã Bản Rịa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Yên Thành",
+              "newWardShort": "Yên Thành",
+              "newWardCode": "01234",
+              "newWardType": "Xã",
+              "lat": 22.4334,
+              "lon": 104.514,
+              "areaKm2": 38.13
+            }
+          ]
+        },
+        {
+          "code": "1246",
+          "name": "Xã Bằng Lang",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Bằng Lang",
+              "newWardShort": "Bằng Lang",
+              "newWardCode": "01246",
+              "newWardType": "Xã",
+              "lat": 22.3696,
+              "lon": 104.614,
+              "areaKm2": 115.66
+            }
+          ]
+        },
+        {
+          "code": "1252",
+          "name": "Xã Hương Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Tiên Yên",
+              "newWardShort": "Tiên Yên",
+              "newWardCode": "01261",
+              "newWardType": "Xã",
+              "lat": 22.2874,
+              "lon": 104.699,
+              "areaKm2": 97.18
+            }
+          ]
+        },
+        {
+          "code": "1258",
+          "name": "Xã Nà Khương",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Xuân Giang",
+              "newWardShort": "Xuân Giang",
+              "newWardCode": "01255",
+              "newWardType": "Xã",
+              "lat": 22.313,
+              "lon": 104.632,
+              "areaKm2": 86.06
+            }
+          ]
+        },
+        {
+          "code": "1243",
+          "name": "Xã Tân Bắc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Tân Trịnh",
+              "newWardShort": "Tân Trịnh",
+              "newWardCode": "01243",
+              "newWardType": "Xã",
+              "lat": 22.4212,
+              "lon": 104.712,
+              "areaKm2": 114.75
+            }
+          ]
+        },
+        {
+          "code": "1228",
+          "name": "Xã Tân Nam",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Quang Bình",
+              "newWardShort": "Quang Bình",
+              "newWardCode": "01237",
+              "newWardType": "Xã",
+              "lat": 22.458,
+              "lon": 104.593,
+              "areaKm2": 130.14
+            }
+          ]
+        },
+        {
+          "code": "1240",
+          "name": "Xã Tân Trịnh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Tân Trịnh",
+              "newWardShort": "Tân Trịnh",
+              "newWardCode": "01243",
+              "newWardType": "Xã",
+              "lat": 22.4212,
+              "lon": 104.712,
+              "areaKm2": 114.75
+            }
+          ]
+        },
+        {
+          "code": "1225",
+          "name": "Xã Tiên Nguyên",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Tiên Nguyên",
+              "newWardShort": "Tiên Nguyên",
+              "newWardCode": "01225",
+              "newWardType": "Xã",
+              "lat": 22.4944,
+              "lon": 104.671,
+              "areaKm2": 90.13
+            }
+          ]
+        },
+        {
+          "code": "1261",
+          "name": "Xã Tiên Yên",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Tiên Yên",
+              "newWardShort": "Tiên Yên",
+              "newWardCode": "01261",
+              "newWardType": "Xã",
+              "lat": 22.2874,
+              "lon": 104.699,
+              "areaKm2": 97.18
+            }
+          ]
+        },
+        {
+          "code": "1264",
+          "name": "Xã Vĩ Thượng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Tiên Yên",
+              "newWardShort": "Tiên Yên",
+              "newWardCode": "01261",
+              "newWardType": "Xã",
+              "lat": 22.2874,
+              "lon": 104.699,
+              "areaKm2": 97.18
+            }
+          ]
+        },
+        {
+          "code": "1255",
+          "name": "Xã Xuân Giang",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Xuân Giang",
+              "newWardShort": "Xuân Giang",
+              "newWardCode": "01255",
+              "newWardType": "Xã",
+              "lat": 22.313,
+              "lon": 104.632,
+              "areaKm2": 86.06
+            }
+          ]
+        },
+        {
+          "code": "1222",
+          "name": "Xã Xuân Minh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Thông Nguyên",
+              "newWardShort": "Thông Nguyên",
+              "newWardCode": "01090",
+              "newWardType": "Xã",
+              "lat": 22.5307,
+              "lon": 104.748,
+              "areaKm2": 108.7
+            }
+          ]
+        },
+        {
+          "code": "1249",
+          "name": "Xã Yên Hà",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Bằng Lang",
+              "newWardShort": "Bằng Lang",
+              "newWardCode": "01246",
+              "newWardType": "Xã",
+              "lat": 22.3696,
+              "lon": 104.614,
+              "areaKm2": 115.66
+            }
+          ]
+        },
+        {
+          "code": "1234",
+          "name": "Xã Yên Thành",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Yên Thành",
+              "newWardShort": "Yên Thành",
+              "newWardCode": "01234",
+              "newWardType": "Xã",
+              "lat": 22.4334,
+              "lon": 104.514,
+              "areaKm2": 38.13
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "30",
+      "name": "Huyện Vị Xuyên",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "916",
+          "name": "Thị trấn Nông trường Việt Lâm",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Vị Xuyên",
+              "newWardShort": "Vị Xuyên",
+              "newWardCode": "00913",
+              "newWardType": "Xã",
+              "lat": 22.6941,
+              "lon": 104.971,
+              "areaKm2": 80.44
+            }
+          ]
+        },
+        {
+          "code": "913",
+          "name": "Thị trấn Vị Xuyên",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Vị Xuyên",
+              "newWardShort": "Vị Xuyên",
+              "newWardCode": "00913",
+              "newWardType": "Xã",
+              "lat": 22.6941,
+              "lon": 104.971,
+              "areaKm2": 80.44
+            }
+          ]
+        },
+        {
+          "code": "976",
+          "name": "Xã Bạch Ngọc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Bạch Ngọc",
+              "newWardShort": "Bạch Ngọc",
+              "newWardCode": "00976",
+              "newWardType": "Xã",
+              "lat": 22.5885,
+              "lon": 105.081,
+              "areaKm2": 72.2
+            }
+          ]
+        },
+        {
+          "code": "952",
+          "name": "Xã Cao Bồ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Cao Bồ",
+              "newWardShort": "Cao Bồ",
+              "newWardCode": "00952",
+              "newWardType": "Xã",
+              "lat": 22.7574,
+              "lon": 104.882,
+              "areaKm2": 111.18
+            }
+          ]
+        },
+        {
+          "code": "955",
+          "name": "Xã Đạo Đức",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Vị Xuyên",
+              "newWardShort": "Vị Xuyên",
+              "newWardCode": "00913",
+              "newWardType": "Xã",
+              "lat": 22.6941,
+              "lon": 104.971,
+              "areaKm2": 80.44
+            }
+          ]
+        },
+        {
+          "code": "709",
+          "name": "Xã Kim Linh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Phú Linh",
+              "newWardShort": "Phú Linh",
+              "newWardCode": "00706",
+              "newWardType": "Xã",
+              "lat": 22.756,
+              "lon": 105.047,
+              "areaKm2": 112.37
+            }
+          ]
+        },
+        {
+          "code": "703",
+          "name": "Xã Kim Thạch",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Phú Linh",
+              "newWardShort": "Phú Linh",
+              "newWardCode": "00706",
+              "newWardType": "Xã",
+              "lat": 22.756,
+              "lon": 105.047,
+              "areaKm2": 112.37
+            }
+          ]
+        },
+        {
+          "code": "943",
+          "name": "Xã Lao Chải",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Lao Chải",
+              "newWardShort": "Lao Chải",
+              "newWardCode": "00937",
+              "newWardType": "Xã",
+              "lat": 22.8549,
+              "lon": 104.79,
+              "areaKm2": 157.99
+            }
+          ]
+        },
+        {
+          "code": "961",
+          "name": "Xã Linh Hồ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Linh Hồ",
+              "newWardShort": "Linh Hồ",
+              "newWardCode": "00970",
+              "newWardType": "Xã",
+              "lat": 22.6951,
+              "lon": 105.096,
+              "areaKm2": 181.44
+            }
+          ]
+        },
+        {
+          "code": "919",
+          "name": "Xã Minh Tân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Minh Tân",
+              "newWardShort": "Minh Tân",
+              "newWardCode": "00919",
+              "newWardType": "Xã",
+              "lat": 22.9612,
+              "lon": 104.919,
+              "areaKm2": 105.7
+            }
+          ]
+        },
+        {
+          "code": "970",
+          "name": "Xã Ngọc Linh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Linh Hồ",
+              "newWardShort": "Linh Hồ",
+              "newWardCode": "00970",
+              "newWardType": "Xã",
+              "lat": 22.6951,
+              "lon": 105.096,
+              "areaKm2": 181.44
+            }
+          ]
+        },
+        {
+          "code": "973",
+          "name": "Xã Ngọc Minh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Bạch Ngọc",
+              "newWardShort": "Bạch Ngọc",
+              "newWardCode": "00976",
+              "newWardType": "Xã",
+              "lat": 22.5885,
+              "lon": 105.081,
+              "areaKm2": 72.2
+            }
+          ]
+        },
+        {
+          "code": "934",
+          "name": "Xã Phong Quang",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Phường Hà Giang 2",
+              "newWardShort": "Hà Giang 2",
+              "newWardCode": "00691",
+              "newWardType": "Phường",
+              "lat": 22.8605,
+              "lon": 104.963,
+              "areaKm2": 60.62
+            }
+          ]
+        },
+        {
+          "code": "706",
+          "name": "Xã Phú Linh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Phú Linh",
+              "newWardShort": "Phú Linh",
+              "newWardCode": "00706",
+              "newWardType": "Xã",
+              "lat": 22.756,
+              "lon": 105.047,
+              "areaKm2": 112.37
+            }
+          ]
+        },
+        {
+          "code": "940",
+          "name": "Xã Phương Tiến",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Thanh Thủy",
+              "newWardShort": "Thanh Thủy",
+              "newWardCode": "00928",
+              "newWardType": "Xã",
+              "lat": 22.8672,
+              "lon": 104.864,
+              "areaKm2": 101.705
+            }
+          ]
+        },
+        {
+          "code": "964",
+          "name": "Xã Quảng Ngần",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Việt Lâm",
+              "newWardShort": "Việt Lâm",
+              "newWardCode": "00967",
+              "newWardType": "Xã",
+              "lat": 22.6668,
+              "lon": 104.907,
+              "areaKm2": 92.66
+            }
+          ]
+        },
+        {
+          "code": "931",
+          "name": "Xã Thanh Đức",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Lao Chải",
+              "newWardShort": "Lao Chải",
+              "newWardCode": "00937",
+              "newWardType": "Xã",
+              "lat": 22.8549,
+              "lon": 104.79,
+              "areaKm2": 157.99
+            }
+          ]
+        },
+        {
+          "code": "928",
+          "name": "Xã Thanh Thủy",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Thanh Thủy",
+              "newWardShort": "Thanh Thủy",
+              "newWardCode": "00928",
+              "newWardType": "Xã",
+              "lat": 22.8672,
+              "lon": 104.864,
+              "areaKm2": 101.705
+            }
+          ]
+        },
+        {
+          "code": "922",
+          "name": "Xã Thuận Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Thuận Hòa",
+              "newWardShort": "Thuận Hòa",
+              "newWardCode": "00922",
+              "newWardType": "Xã",
+              "lat": 22.9243,
+              "lon": 105.008,
+              "areaKm2": 45.86
+            }
+          ]
+        },
+        {
+          "code": "958",
+          "name": "Xã Thượng Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Thượng Sơn",
+              "newWardShort": "Thượng Sơn",
+              "newWardCode": "00958",
+              "newWardType": "Xã",
+              "lat": 22.6584,
+              "lon": 104.835,
+              "areaKm2": 142.6
+            }
+          ]
+        },
+        {
+          "code": "979",
+          "name": "Xã Trung Thành",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Linh Hồ",
+              "newWardShort": "Linh Hồ",
+              "newWardCode": "00970",
+              "newWardType": "Xã",
+              "lat": 22.6951,
+              "lon": 105.096,
+              "areaKm2": 181.44
+            }
+          ]
+        },
+        {
+          "code": "925",
+          "name": "Xã Tùng Bá",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Tùng Bá",
+              "newWardShort": "Tùng Bá",
+              "newWardCode": "00925",
+              "newWardType": "Xã",
+              "lat": 22.8961,
+              "lon": 105.099,
+              "areaKm2": 120.49
+            }
+          ]
+        },
+        {
+          "code": "967",
+          "name": "Xã Việt Lâm",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Vị Xuyên",
+              "newWardShort": "Vị Xuyên",
+              "newWardCode": "00913",
+              "newWardType": "Xã",
+              "lat": 22.6941,
+              "lon": 104.971,
+              "areaKm2": 80.44
+            },
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Việt Lâm",
+              "newWardShort": "Việt Lâm",
+              "newWardCode": "00967",
+              "newWardType": "Xã",
+              "lat": 22.6668,
+              "lon": 104.907,
+              "areaKm2": 92.66
+            }
+          ]
+        },
+        {
+          "code": "937",
+          "name": "Xã Xín Chải",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Lao Chải",
+              "newWardShort": "Lao Chải",
+              "newWardCode": "00937",
+              "newWardType": "Xã",
+              "lat": 22.8549,
+              "lon": 104.79,
+              "areaKm2": 157.99
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "33",
+      "name": "Huyện Xín Mần",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "1096",
+          "name": "Thị trấn Cốc Pài",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Pà Vầy Sủ",
+              "newWardShort": "Pà Vầy Sủ",
+              "newWardCode": "01096",
+              "newWardType": "Xã",
+              "lat": 22.6704,
+              "lon": 104.426,
+              "areaKm2": 83.3
+            }
+          ]
+        },
+        {
+          "code": "1102",
+          "name": "Xã Bản Díu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Xín Mần",
+              "newWardShort": "Xín Mần",
+              "newWardCode": "01108",
+              "newWardType": "Xã",
+              "lat": 22.7452,
+              "lon": 104.512,
+              "areaKm2": 125.24
+            }
+          ]
+        },
+        {
+          "code": "1135",
+          "name": "Xã Bản Ngò",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Pà Vầy Sủ",
+              "newWardShort": "Pà Vầy Sủ",
+              "newWardCode": "01096",
+              "newWardType": "Xã",
+              "lat": 22.6704,
+              "lon": 104.426,
+              "areaKm2": 83.3
+            }
+          ]
+        },
+        {
+          "code": "1138",
+          "name": "Xã Chế Là",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Nấm Dẩn",
+              "newWardShort": "Nấm Dẩn",
+              "newWardCode": "01141",
+              "newWardType": "Xã",
+              "lat": 22.6199,
+              "lon": 104.509,
+              "areaKm2": 86.11
+            }
+          ]
+        },
+        {
+          "code": "1105",
+          "name": "Xã Chí Cà",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Xín Mần",
+              "newWardShort": "Xín Mần",
+              "newWardCode": "01108",
+              "newWardType": "Xã",
+              "lat": 22.7452,
+              "lon": 104.512,
+              "areaKm2": 125.24
+            }
+          ]
+        },
+        {
+          "code": "1123",
+          "name": "Xã Cốc Rế",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Trung Thịnh",
+              "newWardShort": "Trung Thịnh",
+              "newWardCode": "01117",
+              "newWardType": "Xã",
+              "lat": 22.6841,
+              "lon": 104.555,
+              "areaKm2": 72.11
+            }
+          ]
+        },
+        {
+          "code": "1150",
+          "name": "Xã Khuôn Lùng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Khuôn Lùng",
+              "newWardShort": "Khuôn Lùng",
+              "newWardCode": "01147",
+              "newWardType": "Xã",
+              "lat": 22.5228,
+              "lon": 104.493,
+              "areaKm2": 120.28
+            }
+          ]
+        },
+        {
+          "code": "1147",
+          "name": "Xã Nà Chì",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Khuôn Lùng",
+              "newWardShort": "Khuôn Lùng",
+              "newWardCode": "01147",
+              "newWardType": "Xã",
+              "lat": 22.5228,
+              "lon": 104.493,
+              "areaKm2": 120.28
+            }
+          ]
+        },
+        {
+          "code": "1141",
+          "name": "Xã Nấm Dẩn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Nấm Dẩn",
+              "newWardShort": "Nấm Dẩn",
+              "newWardCode": "01141",
+              "newWardType": "Xã",
+              "lat": 22.6199,
+              "lon": 104.509,
+              "areaKm2": 86.11
+            }
+          ]
+        },
+        {
+          "code": "1129",
+          "name": "Xã Nàn Ma",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Pà Vầy Sủ",
+              "newWardShort": "Pà Vầy Sủ",
+              "newWardCode": "01096",
+              "newWardType": "Xã",
+              "lat": 22.6704,
+              "lon": 104.426,
+              "areaKm2": 83.3
+            }
+          ]
+        },
+        {
+          "code": "1099",
+          "name": "Xã Nàn Xỉn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Xín Mần",
+              "newWardShort": "Xín Mần",
+              "newWardCode": "01108",
+              "newWardType": "Xã",
+              "lat": 22.7452,
+              "lon": 104.512,
+              "areaKm2": 125.24
+            }
+          ]
+        },
+        {
+          "code": "1120",
+          "name": "Xã Pà Vầy Sủ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Pà Vầy Sủ",
+              "newWardShort": "Pà Vầy Sủ",
+              "newWardCode": "01096",
+              "newWardType": "Xã",
+              "lat": 22.6704,
+              "lon": 104.426,
+              "areaKm2": 83.3
+            }
+          ]
+        },
+        {
+          "code": "1144",
+          "name": "Xã Quảng Nguyên",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Quảng Nguyên",
+              "newWardShort": "Quảng Nguyên",
+              "newWardCode": "01144",
+              "newWardType": "Xã",
+              "lat": 22.5802,
+              "lon": 104.57,
+              "areaKm2": 99.48
+            }
+          ]
+        },
+        {
+          "code": "1132",
+          "name": "Xã Tả Nhìu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Nấm Dẩn",
+              "newWardShort": "Nấm Dẩn",
+              "newWardCode": "01141",
+              "newWardType": "Xã",
+              "lat": 22.6199,
+              "lon": 104.509,
+              "areaKm2": 86.11
+            }
+          ]
+        },
+        {
+          "code": "1114",
+          "name": "Xã Thèn Phàng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Xín Mần",
+              "newWardShort": "Xín Mần",
+              "newWardCode": "01108",
+              "newWardType": "Xã",
+              "lat": 22.7452,
+              "lon": 104.512,
+              "areaKm2": 125.24
+            }
+          ]
+        },
+        {
+          "code": "1126",
+          "name": "Xã Thu Tà",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Trung Thịnh",
+              "newWardShort": "Trung Thịnh",
+              "newWardCode": "01117",
+              "newWardType": "Xã",
+              "lat": 22.6841,
+              "lon": 104.555,
+              "areaKm2": 72.11
+            }
+          ]
+        },
+        {
+          "code": "1117",
+          "name": "Xã Trung Thịnh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Trung Thịnh",
+              "newWardShort": "Trung Thịnh",
+              "newWardCode": "01117",
+              "newWardType": "Xã",
+              "lat": 22.6841,
+              "lon": 104.555,
+              "areaKm2": 72.11
+            }
+          ]
+        },
+        {
+          "code": "1108",
+          "name": "Xã Xín Mần",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Xín Mần",
+              "newWardShort": "Xín Mần",
+              "newWardCode": "01108",
+              "newWardType": "Xã",
+              "lat": 22.7452,
+              "lon": 104.512,
+              "areaKm2": 125.24
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "28",
+      "name": "Huyện Yên Minh",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "820",
+          "name": "Thị trấn Yên Minh",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Yên Minh",
+              "newWardShort": "Yên Minh",
+              "newWardCode": "00820",
+              "newWardType": "Xã",
+              "lat": 23.0991,
+              "lon": 105.139,
+              "areaKm2": 154.7
+            }
+          ]
+        },
+        {
+          "code": "832",
+          "name": "Xã Bạch Đích",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Bạch Đích",
+              "newWardShort": "Bạch Đích",
+              "newWardCode": "00832",
+              "newWardType": "Xã",
+              "lat": 23.1838,
+              "lon": 105.03,
+              "areaKm2": 95.17
+            }
+          ]
+        },
+        {
+          "code": "850",
+          "name": "Xã Đông Minh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Yên Minh",
+              "newWardShort": "Yên Minh",
+              "newWardCode": "00820",
+              "newWardType": "Xã",
+              "lat": 23.0991,
+              "lon": 105.139,
+              "areaKm2": 154.7
+            }
+          ]
+        },
+        {
+          "code": "871",
+          "name": "Xã Du Già",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Du Già",
+              "newWardShort": "Du Già",
+              "newWardCode": "00871",
+              "newWardType": "Xã",
+              "lat": 22.9154,
+              "lon": 105.234,
+              "areaKm2": 126.94
+            }
+          ]
+        },
+        {
+          "code": "868",
+          "name": "Xã Du Tiến",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Du Già",
+              "newWardShort": "Du Già",
+              "newWardCode": "00871",
+              "newWardType": "Xã",
+              "lat": 22.9154,
+              "lon": 105.234,
+              "areaKm2": 126.94
+            }
+          ]
+        },
+        {
+          "code": "862",
+          "name": "Xã Đường Thượng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Đường Thượng",
+              "newWardShort": "Đường Thượng",
+              "newWardCode": "00865",
+              "newWardType": "Xã",
+              "lat": 22.9901,
+              "lon": 105.209,
+              "areaKm2": 103.25
+            }
+          ]
+        },
+        {
+          "code": "841",
+          "name": "Xã Hữu Vinh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Yên Minh",
+              "newWardShort": "Yên Minh",
+              "newWardCode": "00820",
+              "newWardType": "Xã",
+              "lat": 23.0991,
+              "lon": 105.139,
+              "areaKm2": 154.7
+            }
+          ]
+        },
+        {
+          "code": "844",
+          "name": "Xã Lao Và Chải",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Yên Minh",
+              "newWardShort": "Yên Minh",
+              "newWardCode": "00820",
+              "newWardType": "Xã",
+              "lat": 23.0991,
+              "lon": 105.139,
+              "areaKm2": 154.7
+            }
+          ]
+        },
+        {
+          "code": "865",
+          "name": "Xã Lũng Hồ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Đường Thượng",
+              "newWardShort": "Đường Thượng",
+              "newWardCode": "00865",
+              "newWardType": "Xã",
+              "lat": 22.9901,
+              "lon": 105.209,
+              "areaKm2": 103.25
+            }
+          ]
+        },
+        {
+          "code": "847",
+          "name": "Xã Mậu Duệ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Mậu Duệ",
+              "newWardShort": "Mậu Duệ",
+              "newWardCode": "00847",
+              "newWardType": "Xã",
+              "lat": 23.0564,
+              "lon": 105.236,
+              "areaKm2": 163.31
+            }
+          ]
+        },
+        {
+          "code": "853",
+          "name": "Xã Mậu Long",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Mậu Duệ",
+              "newWardShort": "Mậu Duệ",
+              "newWardCode": "00847",
+              "newWardType": "Xã",
+              "lat": 23.0564,
+              "lon": 105.236,
+              "areaKm2": 163.31
+            }
+          ]
+        },
+        {
+          "code": "835",
+          "name": "Xã Na Khê",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Bạch Đích",
+              "newWardShort": "Bạch Đích",
+              "newWardCode": "00832",
+              "newWardType": "Xã",
+              "lat": 23.1838,
+              "lon": 105.03,
+              "areaKm2": 95.17
+            }
+          ]
+        },
+        {
+          "code": "856",
+          "name": "Xã Ngam La",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Mậu Duệ",
+              "newWardShort": "Mậu Duệ",
+              "newWardCode": "00847",
+              "newWardType": "Xã",
+              "lat": 23.0564,
+              "lon": 105.236,
+              "areaKm2": 163.31
+            }
+          ]
+        },
+        {
+          "code": "859",
+          "name": "Xã Ngọc Long",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Ngọc Long",
+              "newWardShort": "Ngọc Long",
+              "newWardCode": "00859",
+              "newWardType": "Xã",
+              "lat": 22.99,
+              "lon": 105.332,
+              "areaKm2": 84.26
+            }
+          ]
+        },
+        {
+          "code": "826",
+          "name": "Xã Phú Lũng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Bạch Đích",
+              "newWardShort": "Bạch Đích",
+              "newWardCode": "00832",
+              "newWardType": "Xã",
+              "lat": 23.1838,
+              "lon": 105.03,
+              "areaKm2": 95.17
+            }
+          ]
+        },
+        {
+          "code": "829",
+          "name": "Xã Sủng Cháng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Thắng Mố",
+              "newWardShort": "Thắng Mố",
+              "newWardCode": "00829",
+              "newWardType": "Xã",
+              "lat": 23.1948,
+              "lon": 105.116,
+              "areaKm2": 67.68
+            }
+          ]
+        },
+        {
+          "code": "838",
+          "name": "Xã Sủng Thài",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Thắng Mố",
+              "newWardShort": "Thắng Mố",
+              "newWardCode": "00829",
+              "newWardType": "Xã",
+              "lat": 23.1948,
+              "lon": 105.116,
+              "areaKm2": 67.68
+            }
+          ]
+        },
+        {
+          "code": "823",
+          "name": "Xã Thắng Mố",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Tuyên Quang",
+              "newProvinceSlug": "tuyen-quang",
+              "newProvinceCode": "08",
+              "newWard": "Xã Thắng Mố",
+              "newWardShort": "Thắng Mố",
+              "newWardCode": "00829",
+              "newWardType": "Xã",
+              "lat": 23.1948,
+              "lon": 105.116,
+              "areaKm2": 67.68
+            }
+          ]
+        }
+      ],
+      "results": []
+    }
+  ]
+}

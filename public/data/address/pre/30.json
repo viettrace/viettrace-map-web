@@ -1,0 +1,4702 @@
+{
+  "schemaVersion": 1,
+  "mergeDate": "2025-07-01",
+  "code": "30",
+  "name": "Tỉnh Hải Dương",
+  "name_en": "Hai Duong Province",
+  "slug": "hai-duong",
+  "districts": [
+    {
+      "code": "290",
+      "name": "Thành phố Chí Linh",
+      "type": "Thành phố",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "10594",
+          "name": "Phường An Lạc",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Lê Đại Hành",
+              "newWardShort": "Lê Đại Hành",
+              "newWardCode": "10603",
+              "newWardType": "Phường",
+              "lat": 21.0518,
+              "lon": 106.397,
+              "areaKm2": 31.62
+            }
+          ]
+        },
+        {
+          "code": "10552",
+          "name": "Phường Bến Tắm",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Nguyễn Trãi",
+              "newWardShort": "Nguyễn Trãi",
+              "newWardCode": "10552",
+              "newWardType": "Phường",
+              "lat": 21.1918,
+              "lon": 106.448,
+              "areaKm2": 76.28
+            }
+          ]
+        },
+        {
+          "code": "10582",
+          "name": "Phường Chí Minh",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Chu Văn An",
+              "newWardShort": "Chu Văn An",
+              "newWardCode": "10549",
+              "newWardType": "Phường",
+              "lat": 21.0949,
+              "lon": 106.374,
+              "areaKm2": 40.86
+            }
+          ]
+        },
+        {
+          "code": "10576",
+          "name": "Phường Cổ Thành",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Chí Linh",
+              "newWardShort": "Chí Linh",
+              "newWardCode": "10546",
+              "newWardType": "Phường",
+              "lat": 21.1031,
+              "lon": 106.319,
+              "areaKm2": 26.79
+            }
+          ]
+        },
+        {
+          "code": "10570",
+          "name": "Phường Cộng Hòa",
+          "type": "Phường",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Chu Văn An",
+              "newWardShort": "Chu Văn An",
+              "newWardCode": "10549",
+              "newWardType": "Phường",
+              "lat": 21.0949,
+              "lon": 106.374,
+              "areaKm2": 40.86
+            },
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Trần Hưng Đạo",
+              "newWardShort": "Trần Hưng Đạo",
+              "newWardCode": "10570",
+              "newWardType": "Phường",
+              "lat": 21.1515,
+              "lon": 106.371,
+              "areaKm2": 66.89
+            }
+          ]
+        },
+        {
+          "code": "10600",
+          "name": "Phường Đồng Lạc",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Lê Đại Hành",
+              "newWardShort": "Lê Đại Hành",
+              "newWardCode": "10603",
+              "newWardType": "Phường",
+              "lat": 21.0518,
+              "lon": 106.397,
+              "areaKm2": 31.62
+            }
+          ]
+        },
+        {
+          "code": "10573",
+          "name": "Phường Hoàng Tân",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Trần Nhân Tông",
+              "newWardShort": "Trần Nhân Tông",
+              "newWardCode": "10573",
+              "newWardType": "Phường",
+              "lat": 21.1313,
+              "lon": 106.469,
+              "areaKm2": 39.97
+            }
+          ]
+        },
+        {
+          "code": "10567",
+          "name": "Phường Hoàng Tiến",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Trần Nhân Tông",
+              "newWardShort": "Trần Nhân Tông",
+              "newWardCode": "10573",
+              "newWardType": "Phường",
+              "lat": 21.1313,
+              "lon": 106.469,
+              "areaKm2": 39.97
+            }
+          ]
+        },
+        {
+          "code": "10546",
+          "name": "Phường Phả Lại",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Chí Linh",
+              "newWardShort": "Chí Linh",
+              "newWardCode": "10546",
+              "newWardType": "Phường",
+              "lat": 21.1031,
+              "lon": 106.319,
+              "areaKm2": 26.79
+            }
+          ]
+        },
+        {
+          "code": "10549",
+          "name": "Phường Sao Đỏ",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Chu Văn An",
+              "newWardShort": "Chu Văn An",
+              "newWardCode": "10549",
+              "newWardType": "Phường",
+              "lat": 21.0949,
+              "lon": 106.374,
+              "areaKm2": 40.86
+            }
+          ]
+        },
+        {
+          "code": "10603",
+          "name": "Phường Tân Dân",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Lê Đại Hành",
+              "newWardShort": "Lê Đại Hành",
+              "newWardCode": "10603",
+              "newWardType": "Phường",
+              "lat": 21.0518,
+              "lon": 106.397,
+              "areaKm2": 31.62
+            }
+          ]
+        },
+        {
+          "code": "10588",
+          "name": "Phường Thái Học",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Chu Văn An",
+              "newWardShort": "Chu Văn An",
+              "newWardCode": "10549",
+              "newWardType": "Phường",
+              "lat": 21.0949,
+              "lon": 106.374,
+              "areaKm2": 40.86
+            }
+          ]
+        },
+        {
+          "code": "10579",
+          "name": "Phường Văn An",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Chu Văn An",
+              "newWardShort": "Chu Văn An",
+              "newWardCode": "10549",
+              "newWardType": "Phường",
+              "lat": 21.0949,
+              "lon": 106.374,
+              "areaKm2": 40.86
+            }
+          ]
+        },
+        {
+          "code": "10585",
+          "name": "Phường Văn Đức",
+          "type": "Phường",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Bắc An Phụ",
+              "newWardShort": "Bắc An Phụ",
+              "newWardCode": "10678",
+              "newWardType": "Phường",
+              "lat": 21.0505,
+              "lon": 106.461,
+              "areaKm2": 26.1
+            },
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Chu Văn An",
+              "newWardShort": "Chu Văn An",
+              "newWardCode": "10549",
+              "newWardType": "Phường",
+              "lat": 21.0949,
+              "lon": 106.374,
+              "areaKm2": 40.86
+            },
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Trần Nhân Tông",
+              "newWardShort": "Trần Nhân Tông",
+              "newWardCode": "10573",
+              "newWardType": "Phường",
+              "lat": 21.1313,
+              "lon": 106.469,
+              "areaKm2": 39.97
+            }
+          ]
+        },
+        {
+          "code": "10558",
+          "name": "Xã Bắc An",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Nguyễn Trãi",
+              "newWardShort": "Nguyễn Trãi",
+              "newWardCode": "10552",
+              "newWardType": "Phường",
+              "lat": 21.1918,
+              "lon": 106.448,
+              "areaKm2": 76.28
+            }
+          ]
+        },
+        {
+          "code": "10555",
+          "name": "Xã Hoàng Hoa Thám",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Nguyễn Trãi",
+              "newWardShort": "Nguyễn Trãi",
+              "newWardCode": "10552",
+              "newWardType": "Phường",
+              "lat": 21.1918,
+              "lon": 106.448,
+              "areaKm2": 76.28
+            }
+          ]
+        },
+        {
+          "code": "10561",
+          "name": "Xã Hưng Đạo",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Trần Hưng Đạo",
+              "newWardShort": "Trần Hưng Đạo",
+              "newWardCode": "10570",
+              "newWardType": "Phường",
+              "lat": 21.1515,
+              "lon": 106.371,
+              "areaKm2": 66.89
+            }
+          ]
+        },
+        {
+          "code": "10564",
+          "name": "Xã Lê Lợi",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Trần Hưng Đạo",
+              "newWardShort": "Trần Hưng Đạo",
+              "newWardCode": "10570",
+              "newWardType": "Phường",
+              "lat": 21.1515,
+              "lon": 106.371,
+              "areaKm2": 66.89
+            }
+          ]
+        },
+        {
+          "code": "10591",
+          "name": "Xã Nhân Huệ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Chí Linh",
+              "newWardShort": "Chí Linh",
+              "newWardCode": "10546",
+              "newWardType": "Phường",
+              "lat": 21.1031,
+              "lon": 106.319,
+              "areaKm2": 26.79
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "288",
+      "name": "Thành phố Hải Dương",
+      "type": "Thành phố",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "10660",
+          "name": "Phường Ái Quốc",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Ái Quốc",
+              "newWardShort": "Ái Quốc",
+              "newWardCode": "10660",
+              "newWardType": "Phường",
+              "lat": 20.9433,
+              "lon": 106.383,
+              "areaKm2": 17.6
+            }
+          ]
+        },
+        {
+          "code": "10510",
+          "name": "Phường Bình Hàn",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Thành Đông",
+              "newWardShort": "Thành Đông",
+              "newWardCode": "10507",
+              "newWardType": "Phường",
+              "lat": 20.9594,
+              "lon": 106.325,
+              "areaKm2": 12.22
+            }
+          ]
+        },
+        {
+          "code": "10507",
+          "name": "Phường Cẩm Thượng",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Thành Đông",
+              "newWardShort": "Thành Đông",
+              "newWardCode": "10507",
+              "newWardType": "Phường",
+              "lat": 20.9594,
+              "lon": 106.325,
+              "areaKm2": 12.22
+            }
+          ]
+        },
+        {
+          "code": "10537",
+          "name": "Phường Hải Tân",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Tân Hưng",
+              "newWardShort": "Tân Hưng",
+              "newWardCode": "10537",
+              "newWardType": "Phường",
+              "lat": 20.9056,
+              "lon": 106.336,
+              "areaKm2": 14.18
+            }
+          ]
+        },
+        {
+          "code": "10534",
+          "name": "Phường Lê Thanh Nghị",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Lê Thanh Nghị",
+              "newWardShort": "Lê Thanh Nghị",
+              "newWardCode": "10532",
+              "newWardType": "Phường",
+              "lat": 20.9303,
+              "lon": 106.312,
+              "areaKm2": 8.04
+            }
+          ]
+        },
+        {
+          "code": "10672",
+          "name": "Phường Nam Đồng",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Nam Đồng",
+              "newWardShort": "Nam Đồng",
+              "newWardCode": "10837",
+              "newWardType": "Phường",
+              "lat": 20.9219,
+              "lon": 106.355,
+              "areaKm2": 19.67
+            }
+          ]
+        },
+        {
+          "code": "10513",
+          "name": "Phường Ngọc Châu",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Hải Dương",
+              "newWardShort": "Hải Dương",
+              "newWardCode": "10525",
+              "newWardType": "Phường",
+              "lat": 20.941,
+              "lon": 106.344,
+              "areaKm2": 6.51
+            }
+          ]
+        },
+        {
+          "code": "10519",
+          "name": "Phường Nguyễn Trãi",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Thành Đông",
+              "newWardShort": "Thành Đông",
+              "newWardCode": "10507",
+              "newWardType": "Phường",
+              "lat": 20.9594,
+              "lon": 106.325,
+              "areaKm2": 12.22
+            }
+          ]
+        },
+        {
+          "code": "10514",
+          "name": "Phường Nhị Châu",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Hải Dương",
+              "newWardShort": "Hải Dương",
+              "newWardCode": "10525",
+              "newWardType": "Phường",
+              "lat": 20.941,
+              "lon": 106.344,
+              "areaKm2": 6.51
+            }
+          ]
+        },
+        {
+          "code": "10516",
+          "name": "Phường Quang Trung",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Hải Dương",
+              "newWardShort": "Hải Dương",
+              "newWardCode": "10525",
+              "newWardType": "Phường",
+              "lat": 20.941,
+              "lon": 106.344,
+              "areaKm2": 6.51
+            }
+          ]
+        },
+        {
+          "code": "10532",
+          "name": "Phường Tân Bình",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Lê Thanh Nghị",
+              "newWardShort": "Lê Thanh Nghị",
+              "newWardCode": "10532",
+              "newWardType": "Phường",
+              "lat": 20.9303,
+              "lon": 106.312,
+              "areaKm2": 8.04
+            }
+          ]
+        },
+        {
+          "code": "11011",
+          "name": "Phường Tân Hưng",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Tân Hưng",
+              "newWardShort": "Tân Hưng",
+              "newWardCode": "10537",
+              "newWardType": "Phường",
+              "lat": 20.9056,
+              "lon": 106.336,
+              "areaKm2": 14.18
+            }
+          ]
+        },
+        {
+          "code": "11002",
+          "name": "Phường Thạch Khôi",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Thạch Khôi",
+              "newWardShort": "Thạch Khôi",
+              "newWardCode": "11002",
+              "newWardType": "Phường",
+              "lat": 20.901,
+              "lon": 106.297,
+              "areaKm2": 19.94
+            }
+          ]
+        },
+        {
+          "code": "10531",
+          "name": "Phường Thanh Bình",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Lê Thanh Nghị",
+              "newWardShort": "Lê Thanh Nghị",
+              "newWardCode": "10532",
+              "newWardType": "Phường",
+              "lat": 20.9303,
+              "lon": 106.312,
+              "areaKm2": 8.04
+            }
+          ]
+        },
+        {
+          "code": "10525",
+          "name": "Phường Trần Hưng Đạo",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Hải Dương",
+              "newWardShort": "Hải Dương",
+              "newWardCode": "10525",
+              "newWardType": "Phường",
+              "lat": 20.941,
+              "lon": 106.344,
+              "areaKm2": 6.51
+            }
+          ]
+        },
+        {
+          "code": "10528",
+          "name": "Phường Trần Phú",
+          "type": "Phường",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Lê Thanh Nghị",
+              "newWardShort": "Lê Thanh Nghị",
+              "newWardCode": "10532",
+              "newWardType": "Phường",
+              "lat": 20.9303,
+              "lon": 106.312,
+              "areaKm2": 8.04
+            },
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Tân Hưng",
+              "newWardShort": "Tân Hưng",
+              "newWardCode": "10537",
+              "newWardType": "Phường",
+              "lat": 20.9056,
+              "lon": 106.336,
+              "areaKm2": 14.18
+            }
+          ]
+        },
+        {
+          "code": "10540",
+          "name": "Phường Tứ Minh",
+          "type": "Phường",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Tứ Minh",
+              "newWardShort": "Tứ Minh",
+              "newWardCode": "10891",
+              "newWardType": "Phường",
+              "lat": 20.9254,
+              "lon": 106.268,
+              "areaKm2": 14.77
+            },
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Việt Hòa",
+              "newWardShort": "Việt Hòa",
+              "newWardCode": "10543",
+              "newWardType": "Xã",
+              "lat": 20.948,
+              "lon": 106.254,
+              "areaKm2": 17.02
+            }
+          ]
+        },
+        {
+          "code": "10543",
+          "name": "Phường Việt Hòa",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Việt Hòa",
+              "newWardShort": "Việt Hòa",
+              "newWardCode": "10543",
+              "newWardType": "Xã",
+              "lat": 20.948,
+              "lon": 106.254,
+              "areaKm2": 17.02
+            }
+          ]
+        },
+        {
+          "code": "10663",
+          "name": "Xã An Thượng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Thành Đông",
+              "newWardShort": "Thành Đông",
+              "newWardCode": "10507",
+              "newWardType": "Phường",
+              "lat": 20.9594,
+              "lon": 106.325,
+              "areaKm2": 12.22
+            }
+          ]
+        },
+        {
+          "code": "11017",
+          "name": "Xã Gia Xuyên",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Thạch Khôi",
+              "newWardShort": "Thạch Khôi",
+              "newWardCode": "11002",
+              "newWardType": "Phường",
+              "lat": 20.901,
+              "lon": 106.297,
+              "areaKm2": 19.94
+            }
+          ]
+        },
+        {
+          "code": "11005",
+          "name": "Xã Liên Hồng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Thạch Khôi",
+              "newWardShort": "Thạch Khôi",
+              "newWardCode": "11002",
+              "newWardType": "Phường",
+              "lat": 20.901,
+              "lon": 106.297,
+              "areaKm2": 19.94
+            }
+          ]
+        },
+        {
+          "code": "11077",
+          "name": "Xã Ngọc Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Tân Hưng",
+              "newWardShort": "Tân Hưng",
+              "newWardCode": "10537",
+              "newWardType": "Phường",
+              "lat": 20.9056,
+              "lon": 106.336,
+              "areaKm2": 14.18
+            }
+          ]
+        },
+        {
+          "code": "10822",
+          "name": "Xã Quyết Thắng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Ái Quốc",
+              "newWardShort": "Ái Quốc",
+              "newWardCode": "10660",
+              "newWardType": "Phường",
+              "lat": 20.9433,
+              "lon": 106.383,
+              "areaKm2": 17.6
+            }
+          ]
+        },
+        {
+          "code": "10837",
+          "name": "Xã Tiền Tiến",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Nam Đồng",
+              "newWardShort": "Nam Đồng",
+              "newWardCode": "10837",
+              "newWardType": "Phường",
+              "lat": 20.9219,
+              "lon": 106.355,
+              "areaKm2": 19.67
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "296",
+      "name": "Huyện Bình Giang",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "10945",
+          "name": "Thị trấn Kẻ Sặt",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Kẻ Sặt",
+              "newWardShort": "Kẻ Sặt",
+              "newWardCode": "10945",
+              "newWardType": "Xã",
+              "lat": 20.9062,
+              "lon": 106.181,
+              "areaKm2": 24.67
+            }
+          ]
+        },
+        {
+          "code": "10996",
+          "name": "Xã Bình Xuyên",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Thượng Hồng",
+              "newWardShort": "Thượng Hồng",
+              "newWardCode": "10993",
+              "newWardType": "Xã",
+              "lat": 20.8367,
+              "lon": 106.188,
+              "areaKm2": 24.01
+            }
+          ]
+        },
+        {
+          "code": "10984",
+          "name": "Xã Cổ Bì",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Bình Giang",
+              "newWardShort": "Bình Giang",
+              "newWardCode": "10966",
+              "newWardType": "Xã",
+              "lat": 20.884,
+              "lon": 106.222,
+              "areaKm2": 26.01
+            }
+          ]
+        },
+        {
+          "code": "10978",
+          "name": "Xã Hồng Khê",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Bình Giang",
+              "newWardShort": "Bình Giang",
+              "newWardCode": "10966",
+              "newWardType": "Xã",
+              "lat": 20.884,
+              "lon": 106.222,
+              "areaKm2": 26.01
+            }
+          ]
+        },
+        {
+          "code": "10954",
+          "name": "Xã Hùng Thắng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Kẻ Sặt",
+              "newWardShort": "Kẻ Sặt",
+              "newWardCode": "10945",
+              "newWardType": "Xã",
+              "lat": 20.9062,
+              "lon": 106.181,
+              "areaKm2": 24.67
+            }
+          ]
+        },
+        {
+          "code": "10963",
+          "name": "Xã Long Xuyên",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Bình Giang",
+              "newWardShort": "Bình Giang",
+              "newWardCode": "10966",
+              "newWardType": "Xã",
+              "lat": 20.884,
+              "lon": 106.222,
+              "areaKm2": 26.01
+            }
+          ]
+        },
+        {
+          "code": "10987",
+          "name": "Xã Nhân Quyền",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Nguyễn Lương Bằng",
+              "newWardShort": "Nguyễn Lương Bằng",
+              "newWardCode": "11242",
+              "newWardType": "Xã",
+              "lat": 20.8353,
+              "lon": 106.224,
+              "areaKm2": 21.78
+            }
+          ]
+        },
+        {
+          "code": "10972",
+          "name": "Xã Tân Hồng",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Đường An",
+              "newWardShort": "Đường An",
+              "newWardCode": "10972",
+              "newWardType": "Xã",
+              "lat": 20.8725,
+              "lon": 106.171,
+              "areaKm2": 25.53
+            },
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Thượng Hồng",
+              "newWardShort": "Thượng Hồng",
+              "newWardCode": "10993",
+              "newWardType": "Xã",
+              "lat": 20.8367,
+              "lon": 106.188,
+              "areaKm2": 24.01
+            }
+          ]
+        },
+        {
+          "code": "10966",
+          "name": "Xã Tân Việt",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Bình Giang",
+              "newWardShort": "Bình Giang",
+              "newWardCode": "10966",
+              "newWardType": "Xã",
+              "lat": 20.884,
+              "lon": 106.222,
+              "areaKm2": 26.01
+            }
+          ]
+        },
+        {
+          "code": "10990",
+          "name": "Xã Thái Dương",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Đường An",
+              "newWardShort": "Đường An",
+              "newWardCode": "10972",
+              "newWardType": "Xã",
+              "lat": 20.8725,
+              "lon": 106.171,
+              "areaKm2": 25.53
+            },
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Thượng Hồng",
+              "newWardShort": "Thượng Hồng",
+              "newWardCode": "10993",
+              "newWardType": "Xã",
+              "lat": 20.8367,
+              "lon": 106.188,
+              "areaKm2": 24.01
+            }
+          ]
+        },
+        {
+          "code": "10993",
+          "name": "Xã Thái Hòa",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Đường An",
+              "newWardShort": "Đường An",
+              "newWardCode": "10972",
+              "newWardType": "Xã",
+              "lat": 20.8725,
+              "lon": 106.171,
+              "areaKm2": 25.53
+            },
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Thượng Hồng",
+              "newWardShort": "Thượng Hồng",
+              "newWardCode": "10993",
+              "newWardType": "Xã",
+              "lat": 20.8367,
+              "lon": 106.188,
+              "areaKm2": 24.01
+            }
+          ]
+        },
+        {
+          "code": "10981",
+          "name": "Xã Thái Minh",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Đường An",
+              "newWardShort": "Đường An",
+              "newWardCode": "10972",
+              "newWardType": "Xã",
+              "lat": 20.8725,
+              "lon": 106.171,
+              "areaKm2": 25.53
+            },
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Thượng Hồng",
+              "newWardShort": "Thượng Hồng",
+              "newWardCode": "10993",
+              "newWardType": "Xã",
+              "lat": 20.8367,
+              "lon": 106.188,
+              "areaKm2": 24.01
+            }
+          ]
+        },
+        {
+          "code": "10969",
+          "name": "Xã Thúc Kháng",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Đường An",
+              "newWardShort": "Đường An",
+              "newWardCode": "10972",
+              "newWardType": "Xã",
+              "lat": 20.8725,
+              "lon": 106.171,
+              "areaKm2": 25.53
+            },
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Thượng Hồng",
+              "newWardShort": "Thượng Hồng",
+              "newWardCode": "10993",
+              "newWardType": "Xã",
+              "lat": 20.8367,
+              "lon": 106.188,
+              "areaKm2": 24.01
+            }
+          ]
+        },
+        {
+          "code": "10960",
+          "name": "Xã Vĩnh Hồng",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Bình Giang",
+              "newWardShort": "Bình Giang",
+              "newWardCode": "10966",
+              "newWardType": "Xã",
+              "lat": 20.884,
+              "lon": 106.222,
+              "areaKm2": 26.01
+            },
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Kẻ Sặt",
+              "newWardShort": "Kẻ Sặt",
+              "newWardCode": "10945",
+              "newWardType": "Xã",
+              "lat": 20.9062,
+              "lon": 106.181,
+              "areaKm2": 24.67
+            }
+          ]
+        },
+        {
+          "code": "10951",
+          "name": "Xã Vĩnh Hưng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Kẻ Sặt",
+              "newWardShort": "Kẻ Sặt",
+              "newWardCode": "10945",
+              "newWardType": "Xã",
+              "lat": 20.9062,
+              "lon": 106.181,
+              "areaKm2": 24.67
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "295",
+      "name": "Huyện Cẩm Giàng",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "10888",
+          "name": "Thị trấn Cẩm Giang",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Cẩm Giang",
+              "newWardShort": "Cẩm Giang",
+              "newWardCode": "10888",
+              "newWardType": "Xã",
+              "lat": 20.9687,
+              "lon": 106.21,
+              "areaKm2": 26.64
+            }
+          ]
+        },
+        {
+          "code": "10891",
+          "name": "Thị trấn Lai Cách",
+          "type": "Thị trấn",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Tứ Minh",
+              "newWardShort": "Tứ Minh",
+              "newWardCode": "10891",
+              "newWardType": "Phường",
+              "lat": 20.9254,
+              "lon": 106.268,
+              "areaKm2": 14.77
+            },
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Việt Hòa",
+              "newWardShort": "Việt Hòa",
+              "newWardCode": "10543",
+              "newWardType": "Xã",
+              "lat": 20.948,
+              "lon": 106.254,
+              "areaKm2": 17.02
+            }
+          ]
+        },
+        {
+          "code": "10942",
+          "name": "Xã Cẩm Đoài",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Tứ Minh",
+              "newWardShort": "Tứ Minh",
+              "newWardCode": "10891",
+              "newWardType": "Phường",
+              "lat": 20.9254,
+              "lon": 106.268,
+              "areaKm2": 14.77
+            }
+          ]
+        },
+        {
+          "code": "10939",
+          "name": "Xã Cẩm Đông",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Mao Điền",
+              "newWardShort": "Mao Điền",
+              "newWardCode": "10930",
+              "newWardType": "Xã",
+              "lat": 20.9312,
+              "lon": 106.213,
+              "areaKm2": 24.37
+            }
+          ]
+        },
+        {
+          "code": "10897",
+          "name": "Xã Cẩm Hoàng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Cẩm Giang",
+              "newWardShort": "Cẩm Giang",
+              "newWardCode": "10888",
+              "newWardType": "Xã",
+              "lat": 20.9687,
+              "lon": 106.21,
+              "areaKm2": 26.64
+            }
+          ]
+        },
+        {
+          "code": "10894",
+          "name": "Xã Cẩm Hưng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Cẩm Giàng",
+              "newWardShort": "Cẩm Giàng",
+              "newWardCode": "10903",
+              "newWardType": "Xã",
+              "lat": 20.9631,
+              "lon": 106.157,
+              "areaKm2": 23.43
+            }
+          ]
+        },
+        {
+          "code": "10900",
+          "name": "Xã Cẩm Văn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Tuệ Tĩnh",
+              "newWardShort": "Tuệ Tĩnh",
+              "newWardCode": "10909",
+              "newWardType": "Xã",
+              "lat": 20.9738,
+              "lon": 106.262,
+              "areaKm2": 17.78
+            }
+          ]
+        },
+        {
+          "code": "10909",
+          "name": "Xã Cẩm Vũ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Tuệ Tĩnh",
+              "newWardShort": "Tuệ Tĩnh",
+              "newWardCode": "10909",
+              "newWardType": "Xã",
+              "lat": 20.9738,
+              "lon": 106.262,
+              "areaKm2": 17.78
+            }
+          ]
+        },
+        {
+          "code": "10927",
+          "name": "Xã Cao An",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Việt Hòa",
+              "newWardShort": "Việt Hòa",
+              "newWardCode": "10543",
+              "newWardType": "Xã",
+              "lat": 20.948,
+              "lon": 106.254,
+              "areaKm2": 17.02
+            }
+          ]
+        },
+        {
+          "code": "10918",
+          "name": "Xã Định Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Cẩm Giang",
+              "newWardShort": "Cẩm Giang",
+              "newWardCode": "10888",
+              "newWardType": "Xã",
+              "lat": 20.9687,
+              "lon": 106.21,
+              "areaKm2": 26.64
+            }
+          ]
+        },
+        {
+          "code": "10912",
+          "name": "Xã Đức Chính",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Tuệ Tĩnh",
+              "newWardShort": "Tuệ Tĩnh",
+              "newWardCode": "10909",
+              "newWardType": "Xã",
+              "lat": 20.9738,
+              "lon": 106.262,
+              "areaKm2": 17.78
+            }
+          ]
+        },
+        {
+          "code": "10924",
+          "name": "Xã Lương Điền",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Cẩm Giàng",
+              "newWardShort": "Cẩm Giàng",
+              "newWardCode": "10903",
+              "newWardType": "Xã",
+              "lat": 20.9631,
+              "lon": 106.157,
+              "areaKm2": 23.43
+            }
+          ]
+        },
+        {
+          "code": "10903",
+          "name": "Xã Ngọc Liên",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Cẩm Giàng",
+              "newWardShort": "Cẩm Giàng",
+              "newWardCode": "10903",
+              "newWardType": "Xã",
+              "lat": 20.9631,
+              "lon": 106.157,
+              "areaKm2": 23.43
+            }
+          ]
+        },
+        {
+          "code": "10933",
+          "name": "Xã Phúc Điền",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Cẩm Giàng",
+              "newWardShort": "Cẩm Giàng",
+              "newWardCode": "10903",
+              "newWardType": "Xã",
+              "lat": 20.9631,
+              "lon": 106.157,
+              "areaKm2": 23.43
+            },
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Mao Điền",
+              "newWardShort": "Mao Điền",
+              "newWardCode": "10930",
+              "newWardType": "Xã",
+              "lat": 20.9312,
+              "lon": 106.213,
+              "areaKm2": 24.37
+            }
+          ]
+        },
+        {
+          "code": "10930",
+          "name": "Xã Tân Trường",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Mao Điền",
+              "newWardShort": "Mao Điền",
+              "newWardCode": "10930",
+              "newWardType": "Xã",
+              "lat": 20.9312,
+              "lon": 106.213,
+              "areaKm2": 24.37
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "297",
+      "name": "Huyện Gia Lộc",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "10999",
+          "name": "Thị trấn Gia Lộc",
+          "type": "Thị trấn",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Gia Lộc",
+              "newWardShort": "Gia Lộc",
+              "newWardCode": "10999",
+              "newWardType": "Xã",
+              "lat": 20.8345,
+              "lon": 106.291,
+              "areaKm2": 21.78
+            },
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Gia Phúc",
+              "newWardShort": "Gia Phúc",
+              "newWardCode": "11050",
+              "newWardType": "Xã",
+              "lat": 20.8713,
+              "lon": 106.311,
+              "areaKm2": 31.79
+            }
+          ]
+        },
+        {
+          "code": "11056",
+          "name": "Xã Đoàn Thượng",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Gia Phúc",
+              "newWardShort": "Gia Phúc",
+              "newWardCode": "11050",
+              "newWardType": "Xã",
+              "lat": 20.8713,
+              "lon": 106.311,
+              "areaKm2": 31.79
+            },
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Trường Tân",
+              "newWardShort": "Trường Tân",
+              "newWardCode": "11065",
+              "newWardType": "Xã",
+              "lat": 20.8055,
+              "lon": 106.269,
+              "areaKm2": 24.56
+            }
+          ]
+        },
+        {
+          "code": "11035",
+          "name": "Xã Gia Phúc",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Gia Lộc",
+              "newWardShort": "Gia Lộc",
+              "newWardCode": "10999",
+              "newWardType": "Xã",
+              "lat": 20.8345,
+              "lon": 106.291,
+              "areaKm2": 21.78
+            },
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Gia Phúc",
+              "newWardShort": "Gia Phúc",
+              "newWardCode": "11050",
+              "newWardType": "Xã",
+              "lat": 20.8713,
+              "lon": 106.311,
+              "areaKm2": 31.79
+            }
+          ]
+        },
+        {
+          "code": "11038",
+          "name": "Xã Gia Tiến",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Gia Lộc",
+              "newWardShort": "Gia Lộc",
+              "newWardCode": "10999",
+              "newWardType": "Xã",
+              "lat": 20.8345,
+              "lon": 106.291,
+              "areaKm2": 21.78
+            }
+          ]
+        },
+        {
+          "code": "11047",
+          "name": "Xã Hoàng Diệu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Gia Phúc",
+              "newWardShort": "Gia Phúc",
+              "newWardCode": "11050",
+              "newWardType": "Xã",
+              "lat": 20.8713,
+              "lon": 106.311,
+              "areaKm2": 31.79
+            }
+          ]
+        },
+        {
+          "code": "11050",
+          "name": "Xã Hồng Hưng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Gia Phúc",
+              "newWardShort": "Gia Phúc",
+              "newWardCode": "11050",
+              "newWardType": "Xã",
+              "lat": 20.8713,
+              "lon": 106.311,
+              "areaKm2": 31.79
+            }
+          ]
+        },
+        {
+          "code": "11041",
+          "name": "Xã Lê Lợi",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Gia Lộc",
+              "newWardShort": "Gia Lộc",
+              "newWardCode": "10999",
+              "newWardType": "Xã",
+              "lat": 20.8345,
+              "lon": 106.291,
+              "areaKm2": 21.78
+            },
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Yết Kiêu",
+              "newWardShort": "Yết Kiêu",
+              "newWardCode": "11020",
+              "newWardType": "Xã",
+              "lat": 20.8746,
+              "lon": 106.262,
+              "areaKm2": 21.53
+            }
+          ]
+        },
+        {
+          "code": "11065",
+          "name": "Xã Nhật Quang",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Trường Tân",
+              "newWardShort": "Trường Tân",
+              "newWardCode": "11065",
+              "newWardType": "Xã",
+              "lat": 20.8055,
+              "lon": 106.269,
+              "areaKm2": 24.56
+            }
+          ]
+        },
+        {
+          "code": "11053",
+          "name": "Xã Phạm Trấn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Trường Tân",
+              "newWardShort": "Trường Tân",
+              "newWardCode": "11065",
+              "newWardType": "Xã",
+              "lat": 20.8055,
+              "lon": 106.269,
+              "areaKm2": 24.56
+            }
+          ]
+        },
+        {
+          "code": "11071",
+          "name": "Xã Quang Đức",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Gia Phúc",
+              "newWardShort": "Gia Phúc",
+              "newWardCode": "11050",
+              "newWardType": "Xã",
+              "lat": 20.8713,
+              "lon": 106.311,
+              "areaKm2": 31.79
+            },
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Trường Tân",
+              "newWardShort": "Trường Tân",
+              "newWardCode": "11065",
+              "newWardType": "Xã",
+              "lat": 20.8055,
+              "lon": 106.269,
+              "areaKm2": 24.56
+            }
+          ]
+        },
+        {
+          "code": "11059",
+          "name": "Xã Thống Kênh",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Gia Phúc",
+              "newWardShort": "Gia Phúc",
+              "newWardCode": "11050",
+              "newWardType": "Xã",
+              "lat": 20.8713,
+              "lon": 106.311,
+              "areaKm2": 31.79
+            },
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Trường Tân",
+              "newWardShort": "Trường Tân",
+              "newWardCode": "11065",
+              "newWardType": "Xã",
+              "lat": 20.8055,
+              "lon": 106.269,
+              "areaKm2": 24.56
+            }
+          ]
+        },
+        {
+          "code": "11008",
+          "name": "Xã Thống Nhất",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Yết Kiêu",
+              "newWardShort": "Yết Kiêu",
+              "newWardCode": "11020",
+              "newWardType": "Xã",
+              "lat": 20.8746,
+              "lon": 106.262,
+              "areaKm2": 21.53
+            },
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Thạch Khôi",
+              "newWardShort": "Thạch Khôi",
+              "newWardCode": "11002",
+              "newWardType": "Phường",
+              "lat": 20.901,
+              "lon": 106.297,
+              "areaKm2": 19.94
+            }
+          ]
+        },
+        {
+          "code": "11044",
+          "name": "Xã Toàn Thắng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Gia Phúc",
+              "newWardShort": "Gia Phúc",
+              "newWardCode": "11050",
+              "newWardType": "Xã",
+              "lat": 20.8713,
+              "lon": 106.311,
+              "areaKm2": 31.79
+            }
+          ]
+        },
+        {
+          "code": "11020",
+          "name": "Xã Yết Kiêu",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Gia Lộc",
+              "newWardShort": "Gia Lộc",
+              "newWardCode": "10999",
+              "newWardType": "Xã",
+              "lat": 20.8345,
+              "lon": 106.291,
+              "areaKm2": 21.78
+            },
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Yết Kiêu",
+              "newWardShort": "Yết Kiêu",
+              "newWardCode": "11020",
+              "newWardType": "Xã",
+              "lat": 20.8746,
+              "lon": 106.262,
+              "areaKm2": 21.53
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "293",
+      "name": "Huyện Kim Thành",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "10750",
+          "name": "Thị trấn Phú Thái",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Phú Thái",
+              "newWardShort": "Phú Thái",
+              "newWardCode": "10750",
+              "newWardType": "Xã",
+              "lat": 20.9594,
+              "lon": 106.505,
+              "areaKm2": 28.89
+            }
+          ]
+        },
+        {
+          "code": "10810",
+          "name": "Xã Đại Đức",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Kim Thành",
+              "newWardShort": "Kim Thành",
+              "newWardCode": "10804",
+              "newWardType": "Xã",
+              "lat": 20.885,
+              "lon": 106.514,
+              "areaKm2": 33.79
+            }
+          ]
+        },
+        {
+          "code": "10804",
+          "name": "Xã Đồng Cẩm",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Kim Thành",
+              "newWardShort": "Kim Thành",
+              "newWardCode": "10804",
+              "newWardType": "Xã",
+              "lat": 20.885,
+              "lon": 106.514,
+              "areaKm2": 33.79
+            }
+          ]
+        },
+        {
+          "code": "10798",
+          "name": "Xã Hòa Bình",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Hà Nam",
+              "newWardShort": "Hà Nam",
+              "newWardCode": "10843",
+              "newWardType": "Xã",
+              "lat": 20.921,
+              "lon": 106.463,
+              "areaKm2": 27.78
+            },
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Kim Thành",
+              "newWardShort": "Kim Thành",
+              "newWardCode": "10804",
+              "newWardType": "Xã",
+              "lat": 20.885,
+              "lon": 106.514,
+              "areaKm2": 33.79
+            },
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Nguyễn Bỉnh Khiêm",
+              "newWardShort": "Nguyễn Bỉnh Khiêm",
+              "newWardCode": "11911",
+              "newWardType": "Xã",
+              "lat": 20.6622,
+              "lon": 106.563,
+              "areaKm2": 26.37
+            }
+          ]
+        },
+        {
+          "code": "10780",
+          "name": "Xã Kim Anh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Phú Thái",
+              "newWardShort": "Phú Thái",
+              "newWardCode": "10750",
+              "newWardType": "Xã",
+              "lat": 20.9594,
+              "lon": 106.505,
+              "areaKm2": 28.89
+            }
+          ]
+        },
+        {
+          "code": "10792",
+          "name": "Xã Kim Đính",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã An Thành",
+              "newWardShort": "An Thành",
+              "newWardCode": "10792",
+              "newWardType": "Xã",
+              "lat": 20.9292,
+              "lon": 106.502,
+              "areaKm2": 23.66
+            }
+          ]
+        },
+        {
+          "code": "10783",
+          "name": "Xã Kim Liên",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Phú Thái",
+              "newWardShort": "Phú Thái",
+              "newWardCode": "10750",
+              "newWardType": "Xã",
+              "lat": 20.9594,
+              "lon": 106.505,
+              "areaKm2": 28.89
+            }
+          ]
+        },
+        {
+          "code": "10786",
+          "name": "Xã Kim Tân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã An Thành",
+              "newWardShort": "An Thành",
+              "newWardCode": "10792",
+              "newWardType": "Xã",
+              "lat": 20.9292,
+              "lon": 106.502,
+              "areaKm2": 23.66
+            }
+          ]
+        },
+        {
+          "code": "10771",
+          "name": "Xã Kim Xuyên",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Phú Thái",
+              "newWardShort": "Phú Thái",
+              "newWardCode": "10750",
+              "newWardType": "Xã",
+              "lat": 20.9594,
+              "lon": 106.505,
+              "areaKm2": 28.89
+            }
+          ]
+        },
+        {
+          "code": "10756",
+          "name": "Xã Lai Khê",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Lai Khê",
+              "newWardShort": "Lai Khê",
+              "newWardCode": "10756",
+              "newWardType": "Xã",
+              "lat": 20.978,
+              "lon": 106.433,
+              "areaKm2": 30.07
+            }
+          ]
+        },
+        {
+          "code": "10777",
+          "name": "Xã Ngũ Phúc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã An Thành",
+              "newWardShort": "An Thành",
+              "newWardCode": "10792",
+              "newWardType": "Xã",
+              "lat": 20.9292,
+              "lon": 106.502,
+              "areaKm2": 23.66
+            }
+          ]
+        },
+        {
+          "code": "10801",
+          "name": "Xã Tam Kỳ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Kim Thành",
+              "newWardShort": "Kim Thành",
+              "newWardCode": "10804",
+              "newWardType": "Xã",
+              "lat": 20.885,
+              "lon": 106.514,
+              "areaKm2": 33.79
+            }
+          ]
+        },
+        {
+          "code": "10768",
+          "name": "Xã Tuấn Việt",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Lai Khê",
+              "newWardShort": "Lai Khê",
+              "newWardCode": "10756",
+              "newWardType": "Xã",
+              "lat": 20.978,
+              "lon": 106.433,
+              "areaKm2": 30.07
+            },
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Nam An Phụ",
+              "newWardShort": "Nam An Phụ",
+              "newWardCode": "10705",
+              "newWardType": "Xã",
+              "lat": 21.0153,
+              "lon": 106.435,
+              "areaKm2": 25.9
+            }
+          ]
+        },
+        {
+          "code": "10762",
+          "name": "Xã Vũ Dũng",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Lai Khê",
+              "newWardShort": "Lai Khê",
+              "newWardCode": "10756",
+              "newWardType": "Xã",
+              "lat": 20.978,
+              "lon": 106.433,
+              "areaKm2": 30.07
+            },
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Nam An Phụ",
+              "newWardShort": "Nam An Phụ",
+              "newWardCode": "10705",
+              "newWardType": "Xã",
+              "lat": 21.0153,
+              "lon": 106.435,
+              "areaKm2": 25.9
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "291",
+      "name": "Huyện Nam Sách",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "10606",
+          "name": "Thị trấn Nam Sách",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Nam Sách",
+              "newWardShort": "Nam Sách",
+              "newWardCode": "10606",
+              "newWardType": "Xã",
+              "lat": 20.9805,
+              "lon": 106.354,
+              "areaKm2": 19.75
+            }
+          ]
+        },
+        {
+          "code": "10630",
+          "name": "Xã An Bình",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã An Phú",
+              "newWardShort": "An Phú",
+              "newWardCode": "10645",
+              "newWardType": "Xã",
+              "lat": 21.007,
+              "lon": 106.374,
+              "areaKm2": 27.25
+            }
+          ]
+        },
+        {
+          "code": "10645",
+          "name": "Xã An Phú",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã An Phú",
+              "newWardShort": "An Phú",
+              "newWardCode": "10645",
+              "newWardType": "Xã",
+              "lat": 21.007,
+              "lon": 106.374,
+              "areaKm2": 27.25
+            }
+          ]
+        },
+        {
+          "code": "10636",
+          "name": "Xã An Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Thái Tân",
+              "newWardShort": "Thái Tân",
+              "newWardCode": "10642",
+              "newWardType": "Xã",
+              "lat": 20.9762,
+              "lon": 106.298,
+              "areaKm2": 20.73
+            }
+          ]
+        },
+        {
+          "code": "10639",
+          "name": "Xã Cộng Hòa",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã An Phú",
+              "newWardShort": "An Phú",
+              "newWardCode": "10645",
+              "newWardType": "Xã",
+              "lat": 21.007,
+              "lon": 106.374,
+              "areaKm2": 27.25
+            },
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Lai Khê",
+              "newWardShort": "Lai Khê",
+              "newWardCode": "10756",
+              "newWardType": "Xã",
+              "lat": 20.978,
+              "lon": 106.433,
+              "areaKm2": 30.07
+            },
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Nam An Phụ",
+              "newWardShort": "Nam An Phụ",
+              "newWardCode": "10705",
+              "newWardType": "Xã",
+              "lat": 21.0153,
+              "lon": 106.435,
+              "areaKm2": 25.9
+            }
+          ]
+        },
+        {
+          "code": "10657",
+          "name": "Xã Đồng Lạc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Nam Sách",
+              "newWardShort": "Nam Sách",
+              "newWardCode": "10606",
+              "newWardType": "Xã",
+              "lat": 20.9805,
+              "lon": 106.354,
+              "areaKm2": 19.75
+            }
+          ]
+        },
+        {
+          "code": "10618",
+          "name": "Xã Hiệp Cát",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Trần Phú",
+              "newWardShort": "Trần Phú",
+              "newWardCode": "10633",
+              "newWardType": "Xã",
+              "lat": 21.0319,
+              "lon": 106.328,
+              "areaKm2": 24.99
+            }
+          ]
+        },
+        {
+          "code": "10654",
+          "name": "Xã Hồng Phong",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Nam Sách",
+              "newWardShort": "Nam Sách",
+              "newWardCode": "10606",
+              "newWardType": "Xã",
+              "lat": 20.9805,
+              "lon": 106.354,
+              "areaKm2": 19.75
+            }
+          ]
+        },
+        {
+          "code": "10615",
+          "name": "Xã Hợp Tiến",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Hợp Tiến",
+              "newWardShort": "Hợp Tiến",
+              "newWardCode": "10615",
+              "newWardType": "Xã",
+              "lat": 21.0626,
+              "lon": 106.338,
+              "areaKm2": 17.5
+            }
+          ]
+        },
+        {
+          "code": "10666",
+          "name": "Xã Minh Tân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Thái Tân",
+              "newWardShort": "Thái Tân",
+              "newWardCode": "10642",
+              "newWardType": "Xã",
+              "lat": 20.9762,
+              "lon": 106.298,
+              "areaKm2": 20.73
+            }
+          ]
+        },
+        {
+          "code": "10609",
+          "name": "Xã Nam Hưng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Hợp Tiến",
+              "newWardShort": "Hợp Tiến",
+              "newWardCode": "10615",
+              "newWardType": "Xã",
+              "lat": 21.0626,
+              "lon": 106.338,
+              "areaKm2": 17.5
+            }
+          ]
+        },
+        {
+          "code": "10612",
+          "name": "Xã Nam Tân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Hợp Tiến",
+              "newWardShort": "Hợp Tiến",
+              "newWardCode": "10615",
+              "newWardType": "Xã",
+              "lat": 21.0626,
+              "lon": 106.338,
+              "areaKm2": 17.5
+            }
+          ]
+        },
+        {
+          "code": "10621",
+          "name": "Xã Quốc Tuấn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Trần Phú",
+              "newWardShort": "Trần Phú",
+              "newWardCode": "10633",
+              "newWardType": "Xã",
+              "lat": 21.0319,
+              "lon": 106.328,
+              "areaKm2": 24.99
+            }
+          ]
+        },
+        {
+          "code": "10642",
+          "name": "Xã Thái Tân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Thái Tân",
+              "newWardShort": "Thái Tân",
+              "newWardCode": "10642",
+              "newWardType": "Xã",
+              "lat": 20.9762,
+              "lon": 106.298,
+              "areaKm2": 20.73
+            }
+          ]
+        },
+        {
+          "code": "10633",
+          "name": "Xã Trần Phú",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Trần Phú",
+              "newWardShort": "Trần Phú",
+              "newWardCode": "10633",
+              "newWardType": "Xã",
+              "lat": 21.0319,
+              "lon": 106.328,
+              "areaKm2": 24.99
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "299",
+      "name": "Huyện Ninh Giang",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "11203",
+          "name": "Thị trấn Ninh Giang",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Ninh Giang",
+              "newWardShort": "Ninh Giang",
+              "newWardCode": "11203",
+              "newWardType": "Xã",
+              "lat": 20.7388,
+              "lon": 106.382,
+              "areaKm2": 27.41
+            }
+          ]
+        },
+        {
+          "code": "11173",
+          "name": "Xã An Đức",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Tân An",
+              "newWardShort": "Tân An",
+              "newWardCode": "11167",
+              "newWardType": "Xã",
+              "lat": 20.7617,
+              "lon": 106.312,
+              "areaKm2": 24.9
+            }
+          ]
+        },
+        {
+          "code": "11188",
+          "name": "Xã Bình Xuyên",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Khúc Thừa Dụ",
+              "newWardShort": "Khúc Thừa Dụ",
+              "newWardCode": "11224",
+              "newWardType": "Xã",
+              "lat": 20.7391,
+              "lon": 106.336,
+              "areaKm2": 28.79
+            }
+          ]
+        },
+        {
+          "code": "11167",
+          "name": "Xã Đức Phúc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Tân An",
+              "newWardShort": "Tân An",
+              "newWardCode": "11167",
+              "newWardType": "Xã",
+              "lat": 20.7617,
+              "lon": 106.312,
+              "areaKm2": 24.9
+            }
+          ]
+        },
+        {
+          "code": "11227",
+          "name": "Xã Hiệp Lực",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Ninh Giang",
+              "newWardShort": "Ninh Giang",
+              "newWardCode": "11203",
+              "newWardType": "Xã",
+              "lat": 20.7388,
+              "lon": 106.382,
+              "areaKm2": 27.41
+            }
+          ]
+        },
+        {
+          "code": "11215",
+          "name": "Xã Hồng Dụ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Ninh Giang",
+              "newWardShort": "Ninh Giang",
+              "newWardCode": "11203",
+              "newWardType": "Xã",
+              "lat": 20.7388,
+              "lon": 106.382,
+              "areaKm2": 27.41
+            }
+          ]
+        },
+        {
+          "code": "11224",
+          "name": "Xã Hồng Phong",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Khúc Thừa Dụ",
+              "newWardShort": "Khúc Thừa Dụ",
+              "newWardCode": "11224",
+              "newWardType": "Xã",
+              "lat": 20.7391,
+              "lon": 106.336,
+              "areaKm2": 28.79
+            }
+          ]
+        },
+        {
+          "code": "11233",
+          "name": "Xã Hưng Long",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Hồng Châu",
+              "newWardShort": "Hồng Châu",
+              "newWardCode": "11218",
+              "newWardType": "Xã",
+              "lat": 20.7295,
+              "lon": 106.284,
+              "areaKm2": 29.59
+            }
+          ]
+        },
+        {
+          "code": "11230",
+          "name": "Xã Kiến Phúc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Khúc Thừa Dụ",
+              "newWardShort": "Khúc Thừa Dụ",
+              "newWardCode": "11224",
+              "newWardType": "Xã",
+              "lat": 20.7391,
+              "lon": 106.336,
+              "areaKm2": 28.79
+            }
+          ]
+        },
+        {
+          "code": "11164",
+          "name": "Xã Nghĩa An",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Vĩnh Lại",
+              "newWardShort": "Vĩnh Lại",
+              "newWardCode": "11164",
+              "newWardType": "Xã",
+              "lat": 20.7819,
+              "lon": 106.359,
+              "areaKm2": 26.15
+            }
+          ]
+        },
+        {
+          "code": "11179",
+          "name": "Xã Tân Hương",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Vĩnh Lại",
+              "newWardShort": "Vĩnh Lại",
+              "newWardCode": "11164",
+              "newWardType": "Xã",
+              "lat": 20.7819,
+              "lon": 106.359,
+              "areaKm2": 26.15
+            }
+          ]
+        },
+        {
+          "code": "11197",
+          "name": "Xã Tân Phong",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Tân An",
+              "newWardShort": "Tân An",
+              "newWardCode": "11167",
+              "newWardType": "Xã",
+              "lat": 20.7617,
+              "lon": 106.312,
+              "areaKm2": 24.9
+            }
+          ]
+        },
+        {
+          "code": "11206",
+          "name": "Xã Tân Quang",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Hồng Châu",
+              "newWardShort": "Hồng Châu",
+              "newWardCode": "11218",
+              "newWardType": "Xã",
+              "lat": 20.7295,
+              "lon": 106.284,
+              "areaKm2": 29.59
+            }
+          ]
+        },
+        {
+          "code": "11161",
+          "name": "Xã Ứng Hòe",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Vĩnh Lại",
+              "newWardShort": "Vĩnh Lại",
+              "newWardCode": "11164",
+              "newWardType": "Xã",
+              "lat": 20.7819,
+              "lon": 106.359,
+              "areaKm2": 26.15
+            }
+          ]
+        },
+        {
+          "code": "11218",
+          "name": "Xã Văn Hội",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Hồng Châu",
+              "newWardShort": "Hồng Châu",
+              "newWardCode": "11218",
+              "newWardType": "Xã",
+              "lat": 20.7295,
+              "lon": 106.284,
+              "areaKm2": 29.59
+            }
+          ]
+        },
+        {
+          "code": "11185",
+          "name": "Xã Vĩnh Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Ninh Giang",
+              "newWardShort": "Ninh Giang",
+              "newWardCode": "11203",
+              "newWardType": "Xã",
+              "lat": 20.7388,
+              "lon": 106.382,
+              "areaKm2": 27.41
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "294",
+      "name": "Huyện Thanh Hà",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "10813",
+          "name": "Thị trấn Thanh Hà",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Thanh Hà",
+              "newWardShort": "Thanh Hà",
+              "newWardCode": "10813",
+              "newWardType": "Xã",
+              "lat": 20.8854,
+              "lon": 106.439,
+              "areaKm2": 25.9
+            }
+          ]
+        },
+        {
+          "code": "10864",
+          "name": "Xã An Phượng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Hà Tây",
+              "newWardShort": "Hà Tây",
+              "newWardCode": "10846",
+              "newWardType": "Xã",
+              "lat": 20.882,
+              "lon": 106.406,
+              "areaKm2": 24.41
+            }
+          ]
+        },
+        {
+          "code": "10828",
+          "name": "Xã Cẩm Việt",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Hà Bắc",
+              "newWardShort": "Hà Bắc",
+              "newWardCode": "10816",
+              "newWardType": "Xã",
+              "lat": 20.942,
+              "lon": 106.414,
+              "areaKm2": 26.29
+            },
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Lai Khê",
+              "newWardShort": "Lai Khê",
+              "newWardCode": "10756",
+              "newWardType": "Xã",
+              "lat": 20.978,
+              "lon": 106.433,
+              "areaKm2": 30.07
+            }
+          ]
+        },
+        {
+          "code": "10816",
+          "name": "Xã Hồng Lạc",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Ái Quốc",
+              "newWardShort": "Ái Quốc",
+              "newWardCode": "10660",
+              "newWardType": "Phường",
+              "lat": 20.9433,
+              "lon": 106.383,
+              "areaKm2": 17.6
+            },
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Hà Bắc",
+              "newWardShort": "Hà Bắc",
+              "newWardCode": "10816",
+              "newWardType": "Xã",
+              "lat": 20.942,
+              "lon": 106.414,
+              "areaKm2": 26.29
+            }
+          ]
+        },
+        {
+          "code": "10843",
+          "name": "Xã Liên Mạc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Hà Nam",
+              "newWardShort": "Hà Nam",
+              "newWardCode": "10843",
+              "newWardType": "Xã",
+              "lat": 20.921,
+              "lon": 106.463,
+              "areaKm2": 27.78
+            }
+          ]
+        },
+        {
+          "code": "10840",
+          "name": "Xã Tân An",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Hà Tây",
+              "newWardShort": "Hà Tây",
+              "newWardCode": "10846",
+              "newWardType": "Xã",
+              "lat": 20.882,
+              "lon": 106.406,
+              "areaKm2": 24.41
+            }
+          ]
+        },
+        {
+          "code": "10825",
+          "name": "Xã Tân Việt",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Hà Bắc",
+              "newWardShort": "Hà Bắc",
+              "newWardCode": "10816",
+              "newWardType": "Xã",
+              "lat": 20.942,
+              "lon": 106.414,
+              "areaKm2": 26.29
+            }
+          ]
+        },
+        {
+          "code": "10831",
+          "name": "Xã Thanh An",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Hà Nam",
+              "newWardShort": "Hà Nam",
+              "newWardCode": "10843",
+              "newWardType": "Xã",
+              "lat": 20.921,
+              "lon": 106.463,
+              "areaKm2": 27.78
+            },
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Lai Khê",
+              "newWardShort": "Lai Khê",
+              "newWardCode": "10756",
+              "newWardType": "Xã",
+              "lat": 20.978,
+              "lon": 106.433,
+              "areaKm2": 30.07
+            }
+          ]
+        },
+        {
+          "code": "10846",
+          "name": "Xã Thanh Hải",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Hà Tây",
+              "newWardShort": "Hà Tây",
+              "newWardCode": "10846",
+              "newWardType": "Xã",
+              "lat": 20.882,
+              "lon": 106.406,
+              "areaKm2": 24.41
+            },
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Đại Sơn",
+              "newWardShort": "Đại Sơn",
+              "newWardCode": "11086",
+              "newWardType": "Xã",
+              "lat": 20.8723,
+              "lon": 106.378,
+              "areaKm2": 22.99
+            }
+          ]
+        },
+        {
+          "code": "10879",
+          "name": "Xã Thanh Hồng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Hà Đông",
+              "newWardShort": "Hà Đông",
+              "newWardCode": "10882",
+              "newWardType": "Xã",
+              "lat": 20.8357,
+              "lon": 106.473,
+              "areaKm2": 33.15
+            }
+          ]
+        },
+        {
+          "code": "10834",
+          "name": "Xã Thanh Lang",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Hà Nam",
+              "newWardShort": "Hà Nam",
+              "newWardCode": "10843",
+              "newWardType": "Xã",
+              "lat": 20.921,
+              "lon": 106.463,
+              "areaKm2": 27.78
+            }
+          ]
+        },
+        {
+          "code": "10876",
+          "name": "Xã Thanh Quang",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Hà Đông",
+              "newWardShort": "Hà Đông",
+              "newWardCode": "10882",
+              "newWardType": "Xã",
+              "lat": 20.8357,
+              "lon": 106.473,
+              "areaKm2": 33.15
+            }
+          ]
+        },
+        {
+          "code": "10867",
+          "name": "Xã Thanh Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Thanh Hà",
+              "newWardShort": "Thanh Hà",
+              "newWardCode": "10813",
+              "newWardType": "Xã",
+              "lat": 20.8854,
+              "lon": 106.439,
+              "areaKm2": 25.9
+            }
+          ]
+        },
+        {
+          "code": "10861",
+          "name": "Xã Thanh Tân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Thanh Hà",
+              "newWardShort": "Thanh Hà",
+              "newWardCode": "10813",
+              "newWardType": "Xã",
+              "lat": 20.8854,
+              "lon": 106.439,
+              "areaKm2": 25.9
+            }
+          ]
+        },
+        {
+          "code": "10855",
+          "name": "Xã Thanh Xuân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Hà Nam",
+              "newWardShort": "Hà Nam",
+              "newWardCode": "10843",
+              "newWardType": "Xã",
+              "lat": 20.921,
+              "lon": 106.463,
+              "areaKm2": 27.78
+            }
+          ]
+        },
+        {
+          "code": "10882",
+          "name": "Xã Vĩnh Cường",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Hà Đông",
+              "newWardShort": "Hà Đông",
+              "newWardCode": "10882",
+              "newWardType": "Xã",
+              "lat": 20.8357,
+              "lon": 106.473,
+              "areaKm2": 33.15
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "300",
+      "name": "Huyện Thanh Miện",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "11239",
+          "name": "Thị trấn Thanh Miện",
+          "type": "Thị trấn",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Thanh Miện",
+              "newWardShort": "Thanh Miện",
+              "newWardCode": "11239",
+              "newWardType": "Xã",
+              "lat": 20.7742,
+              "lon": 106.24,
+              "areaKm2": 33.47
+            },
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Trường Tân",
+              "newWardShort": "Trường Tân",
+              "newWardCode": "11065",
+              "newWardType": "Xã",
+              "lat": 20.8055,
+              "lon": 106.269,
+              "areaKm2": 24.56
+            }
+          ]
+        },
+        {
+          "code": "11278",
+          "name": "Xã Cao Thắng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Thanh Miện",
+              "newWardShort": "Thanh Miện",
+              "newWardCode": "11239",
+              "newWardType": "Xã",
+              "lat": 20.7742,
+              "lon": 106.24,
+              "areaKm2": 33.47
+            }
+          ]
+        },
+        {
+          "code": "11281",
+          "name": "Xã Chi Lăng Bắc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Nam Thanh Miện",
+              "newWardShort": "Nam Thanh Miện",
+              "newWardCode": "11284",
+              "newWardType": "Xã",
+              "lat": 20.7235,
+              "lon": 106.241,
+              "areaKm2": 23.99
+            }
+          ]
+        },
+        {
+          "code": "11284",
+          "name": "Xã Chi Lăng Nam",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Nam Thanh Miện",
+              "newWardShort": "Nam Thanh Miện",
+              "newWardCode": "11284",
+              "newWardType": "Xã",
+              "lat": 20.7235,
+              "lon": 106.241,
+              "areaKm2": 23.99
+            }
+          ]
+        },
+        {
+          "code": "11263",
+          "name": "Xã Đoàn Kết",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Hải Hưng",
+              "newWardShort": "Hải Hưng",
+              "newWardCode": "11257",
+              "newWardType": "Xã",
+              "lat": 20.8038,
+              "lon": 106.163,
+              "areaKm2": 24.84
+            }
+          ]
+        },
+        {
+          "code": "11251",
+          "name": "Xã Đoàn Tùng",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Nguyễn Lương Bằng",
+              "newWardShort": "Nguyễn Lương Bằng",
+              "newWardCode": "11242",
+              "newWardType": "Xã",
+              "lat": 20.8353,
+              "lon": 106.224,
+              "areaKm2": 21.78
+            },
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Thượng Hồng",
+              "newWardShort": "Thượng Hồng",
+              "newWardCode": "10993",
+              "newWardType": "Xã",
+              "lat": 20.8367,
+              "lon": 106.188,
+              "areaKm2": 24.01
+            }
+          ]
+        },
+        {
+          "code": "11293",
+          "name": "Xã Hồng Phong",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Nam Thanh Miện",
+              "newWardShort": "Nam Thanh Miện",
+              "newWardCode": "11284",
+              "newWardType": "Xã",
+              "lat": 20.7235,
+              "lon": 106.241,
+              "areaKm2": 23.99
+            }
+          ]
+        },
+        {
+          "code": "11254",
+          "name": "Xã Hồng Quang",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Bắc Thanh Miện",
+              "newWardShort": "Bắc Thanh Miện",
+              "newWardCode": "11254",
+              "newWardType": "Xã",
+              "lat": 20.7974,
+              "lon": 106.205,
+              "areaKm2": 25.27
+            }
+          ]
+        },
+        {
+          "code": "11260",
+          "name": "Xã Lam Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Bắc Thanh Miện",
+              "newWardShort": "Bắc Thanh Miện",
+              "newWardCode": "11254",
+              "newWardType": "Xã",
+              "lat": 20.7974,
+              "lon": 106.205,
+              "areaKm2": 25.27
+            }
+          ]
+        },
+        {
+          "code": "11266",
+          "name": "Xã Lê Hồng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Bắc Thanh Miện",
+              "newWardShort": "Bắc Thanh Miện",
+              "newWardCode": "11254",
+              "newWardType": "Xã",
+              "lat": 20.7974,
+              "lon": 106.205,
+              "areaKm2": 25.27
+            }
+          ]
+        },
+        {
+          "code": "11248",
+          "name": "Xã Ngô Quyền",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Hải Hưng",
+              "newWardShort": "Hải Hưng",
+              "newWardCode": "11257",
+              "newWardType": "Xã",
+              "lat": 20.8038,
+              "lon": 106.163,
+              "areaKm2": 24.84
+            }
+          ]
+        },
+        {
+          "code": "11275",
+          "name": "Xã Ngũ Hùng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Thanh Miện",
+              "newWardShort": "Thanh Miện",
+              "newWardCode": "11239",
+              "newWardType": "Xã",
+              "lat": 20.7742,
+              "lon": 106.24,
+              "areaKm2": 33.47
+            }
+          ]
+        },
+        {
+          "code": "11245",
+          "name": "Xã Phạm Kha",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Nguyễn Lương Bằng",
+              "newWardShort": "Nguyễn Lương Bằng",
+              "newWardCode": "11242",
+              "newWardType": "Xã",
+              "lat": 20.8353,
+              "lon": 106.224,
+              "areaKm2": 21.78
+            }
+          ]
+        },
+        {
+          "code": "11257",
+          "name": "Xã Tân Trào",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Hải Hưng",
+              "newWardShort": "Hải Hưng",
+              "newWardCode": "11257",
+              "newWardType": "Xã",
+              "lat": 20.8038,
+              "lon": 106.163,
+              "areaKm2": 24.84
+            }
+          ]
+        },
+        {
+          "code": "11287",
+          "name": "Xã Thanh Giang",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Nam Thanh Miện",
+              "newWardShort": "Nam Thanh Miện",
+              "newWardCode": "11284",
+              "newWardType": "Xã",
+              "lat": 20.7235,
+              "lon": 106.241,
+              "areaKm2": 23.99
+            }
+          ]
+        },
+        {
+          "code": "11242",
+          "name": "Xã Thanh Tùng",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Nguyễn Lương Bằng",
+              "newWardShort": "Nguyễn Lương Bằng",
+              "newWardCode": "11242",
+              "newWardType": "Xã",
+              "lat": 20.8353,
+              "lon": 106.224,
+              "areaKm2": 21.78
+            },
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Thượng Hồng",
+              "newWardShort": "Thượng Hồng",
+              "newWardCode": "10993",
+              "newWardType": "Xã",
+              "lat": 20.8367,
+              "lon": 106.188,
+              "areaKm2": 24.01
+            }
+          ]
+        },
+        {
+          "code": "11269",
+          "name": "Xã Tứ Cường",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Thanh Miện",
+              "newWardShort": "Thanh Miện",
+              "newWardCode": "11239",
+              "newWardType": "Xã",
+              "lat": 20.7742,
+              "lon": 106.24,
+              "areaKm2": 33.47
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "298",
+      "name": "Huyện Tứ Kỳ",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "11074",
+          "name": "Thị trấn Tứ Kỳ",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Tứ Kỳ",
+              "newWardShort": "Tứ Kỳ",
+              "newWardCode": "11074",
+              "newWardType": "Xã",
+              "lat": 20.8088,
+              "lon": 106.391,
+              "areaKm2": 30.86
+            }
+          ]
+        },
+        {
+          "code": "11125",
+          "name": "Xã An Thanh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Chí Minh",
+              "newWardShort": "Chí Minh",
+              "newWardCode": "11131",
+              "newWardType": "Xã",
+              "lat": 20.8078,
+              "lon": 106.462,
+              "areaKm2": 33.58
+            }
+          ]
+        },
+        {
+          "code": "11092",
+          "name": "Xã Bình Lãng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Đại Sơn",
+              "newWardShort": "Đại Sơn",
+              "newWardCode": "11086",
+              "newWardType": "Xã",
+              "lat": 20.8723,
+              "lon": 106.378,
+              "areaKm2": 22.99
+            }
+          ]
+        },
+        {
+          "code": "11095",
+          "name": "Xã Chí Minh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Chí Minh",
+              "newWardShort": "Chí Minh",
+              "newWardCode": "11131",
+              "newWardType": "Xã",
+              "lat": 20.8078,
+              "lon": 106.462,
+              "areaKm2": 33.58
+            }
+          ]
+        },
+        {
+          "code": "11119",
+          "name": "Xã Đại Hợp",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Tân Kỳ",
+              "newWardShort": "Tân Kỳ",
+              "newWardCode": "11113",
+              "newWardType": "Xã",
+              "lat": 20.8232,
+              "lon": 106.344,
+              "areaKm2": 27.76
+            }
+          ]
+        },
+        {
+          "code": "11083",
+          "name": "Xã Đại Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Đại Sơn",
+              "newWardShort": "Đại Sơn",
+              "newWardCode": "11086",
+              "newWardType": "Xã",
+              "lat": 20.8723,
+              "lon": 106.378,
+              "areaKm2": 22.99
+            }
+          ]
+        },
+        {
+          "code": "11122",
+          "name": "Xã Dân An",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Tân Kỳ",
+              "newWardShort": "Tân Kỳ",
+              "newWardCode": "11113",
+              "newWardType": "Xã",
+              "lat": 20.8232,
+              "lon": 106.344,
+              "areaKm2": 27.76
+            }
+          ]
+        },
+        {
+          "code": "11149",
+          "name": "Xã Hà Kỳ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Nguyên Giáp",
+              "newWardShort": "Nguyên Giáp",
+              "newWardCode": "11146",
+              "newWardType": "Xã",
+              "lat": 20.7507,
+              "lon": 106.423,
+              "areaKm2": 27.21
+            }
+          ]
+        },
+        {
+          "code": "11152",
+          "name": "Xã Hà Thanh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Nguyên Giáp",
+              "newWardShort": "Nguyên Giáp",
+              "newWardCode": "11146",
+              "newWardType": "Xã",
+              "lat": 20.7507,
+              "lon": 106.423,
+              "areaKm2": 27.21
+            }
+          ]
+        },
+        {
+          "code": "11086",
+          "name": "Xã Hưng Đạo",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Đại Sơn",
+              "newWardShort": "Đại Sơn",
+              "newWardCode": "11086",
+              "newWardType": "Xã",
+              "lat": 20.8723,
+              "lon": 106.378,
+              "areaKm2": 22.99
+            },
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Tân Kỳ",
+              "newWardShort": "Tân Kỳ",
+              "newWardCode": "11113",
+              "newWardType": "Xã",
+              "lat": 20.8232,
+              "lon": 106.344,
+              "areaKm2": 27.76
+            }
+          ]
+        },
+        {
+          "code": "11098",
+          "name": "Xã Kỳ Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Tân Kỳ",
+              "newWardShort": "Tân Kỳ",
+              "newWardCode": "11113",
+              "newWardType": "Xã",
+              "lat": 20.8232,
+              "lon": 106.344,
+              "areaKm2": 27.76
+            }
+          ]
+        },
+        {
+          "code": "11140",
+          "name": "Xã Lạc Phượng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Lạc Phượng",
+              "newWardShort": "Lạc Phượng",
+              "newWardCode": "11140",
+              "newWardType": "Xã",
+              "lat": 20.7763,
+              "lon": 106.452,
+              "areaKm2": 24.71
+            }
+          ]
+        },
+        {
+          "code": "11128",
+          "name": "Xã Minh Đức",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Tứ Kỳ",
+              "newWardShort": "Tứ Kỳ",
+              "newWardCode": "11074",
+              "newWardType": "Xã",
+              "lat": 20.8088,
+              "lon": 106.391,
+              "areaKm2": 30.86
+            }
+          ]
+        },
+        {
+          "code": "11146",
+          "name": "Xã Nguyên Giáp",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Nguyên Giáp",
+              "newWardShort": "Nguyên Giáp",
+              "newWardCode": "11146",
+              "newWardType": "Xã",
+              "lat": 20.7507,
+              "lon": 106.423,
+              "areaKm2": 27.21
+            }
+          ]
+        },
+        {
+          "code": "11116",
+          "name": "Xã Quang Khải",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Tứ Kỳ",
+              "newWardShort": "Tứ Kỳ",
+              "newWardCode": "11074",
+              "newWardType": "Xã",
+              "lat": 20.8088,
+              "lon": 106.391,
+              "areaKm2": 30.86
+            }
+          ]
+        },
+        {
+          "code": "11101",
+          "name": "Xã Quang Phục",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Tứ Kỳ",
+              "newWardShort": "Tứ Kỳ",
+              "newWardCode": "11074",
+              "newWardType": "Xã",
+              "lat": 20.8088,
+              "lon": 106.391,
+              "areaKm2": 30.86
+            }
+          ]
+        },
+        {
+          "code": "11134",
+          "name": "Xã Quang Trung",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Lạc Phượng",
+              "newWardShort": "Lạc Phượng",
+              "newWardCode": "11140",
+              "newWardType": "Xã",
+              "lat": 20.7763,
+              "lon": 106.452,
+              "areaKm2": 24.71
+            }
+          ]
+        },
+        {
+          "code": "11113",
+          "name": "Xã Tân Kỳ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Tân Kỳ",
+              "newWardShort": "Tân Kỳ",
+              "newWardCode": "11113",
+              "newWardType": "Xã",
+              "lat": 20.8232,
+              "lon": 106.344,
+              "areaKm2": 27.76
+            }
+          ]
+        },
+        {
+          "code": "11143",
+          "name": "Xã Tiên Động",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Lạc Phượng",
+              "newWardShort": "Lạc Phượng",
+              "newWardCode": "11140",
+              "newWardType": "Xã",
+              "lat": 20.7763,
+              "lon": 106.452,
+              "areaKm2": 24.71
+            },
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Nguyên Giáp",
+              "newWardShort": "Nguyên Giáp",
+              "newWardCode": "11146",
+              "newWardType": "Xã",
+              "lat": 20.7507,
+              "lon": 106.423,
+              "areaKm2": 27.21
+            }
+          ]
+        },
+        {
+          "code": "11131",
+          "name": "Xã Văn Tố",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Chí Minh",
+              "newWardShort": "Chí Minh",
+              "newWardCode": "11131",
+              "newWardType": "Xã",
+              "lat": 20.8078,
+              "lon": 106.462,
+              "areaKm2": 33.58
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "292",
+      "name": "Thị xã Kinh Môn",
+      "type": "Thị xã",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "10675",
+          "name": "Phường An Lưu",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Kinh Môn",
+              "newWardShort": "Kinh Môn",
+              "newWardCode": "10675",
+              "newWardType": "Phường",
+              "lat": 20.9806,
+              "lon": 106.543,
+              "areaKm2": 11.47
+            }
+          ]
+        },
+        {
+          "code": "10732",
+          "name": "Phường An Phụ",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Trần Liễu",
+              "newWardShort": "Trần Liễu",
+              "newWardCode": "10729",
+              "newWardType": "Phường",
+              "lat": 20.9958,
+              "lon": 106.492,
+              "areaKm2": 23.87
+            }
+          ]
+        },
+        {
+          "code": "10723",
+          "name": "Phường An Sinh",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Phạm Sư Mạnh",
+              "newWardShort": "Phạm Sư Mạnh",
+              "newWardCode": "10726",
+              "newWardType": "Phường",
+              "lat": 21.0179,
+              "lon": 106.512,
+              "areaKm2": 22.34
+            }
+          ]
+        },
+        {
+          "code": "10696",
+          "name": "Phường Duy Tân",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Nhị Chiểu",
+              "newWardShort": "Nhị Chiểu",
+              "newWardCode": "10714",
+              "newWardType": "Phường",
+              "lat": 21.0346,
+              "lon": 106.557,
+              "areaKm2": 39.28
+            }
+          ]
+        },
+        {
+          "code": "10744",
+          "name": "Phường Hiến Thành",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Nguyễn Đại Năng",
+              "newWardShort": "Nguyễn Đại Năng",
+              "newWardCode": "10744",
+              "newWardType": "Phường",
+              "lat": 20.9579,
+              "lon": 106.567,
+              "areaKm2": 17.4
+            }
+          ]
+        },
+        {
+          "code": "10735",
+          "name": "Phường Hiệp An",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Kinh Môn",
+              "newWardShort": "Kinh Môn",
+              "newWardCode": "10675",
+              "newWardType": "Phường",
+              "lat": 20.9806,
+              "lon": 106.543,
+              "areaKm2": 11.47
+            }
+          ]
+        },
+        {
+          "code": "10726",
+          "name": "Phường Hiệp Sơn",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Phạm Sư Mạnh",
+              "newWardShort": "Phạm Sư Mạnh",
+              "newWardCode": "10726",
+              "newWardType": "Phường",
+              "lat": 21.0179,
+              "lon": 106.512,
+              "areaKm2": 22.34
+            }
+          ]
+        },
+        {
+          "code": "10738",
+          "name": "Phường Long Xuyên",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Kinh Môn",
+              "newWardShort": "Kinh Môn",
+              "newWardCode": "10675",
+              "newWardType": "Phường",
+              "lat": 20.9806,
+              "lon": 106.543,
+              "areaKm2": 11.47
+            }
+          ]
+        },
+        {
+          "code": "10702",
+          "name": "Phường Minh Tân",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Nhị Chiểu",
+              "newWardShort": "Nhị Chiểu",
+              "newWardCode": "10714",
+              "newWardType": "Phường",
+              "lat": 21.0346,
+              "lon": 106.557,
+              "areaKm2": 39.28
+            }
+          ]
+        },
+        {
+          "code": "10693",
+          "name": "Phường Phạm Thái",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Phạm Sư Mạnh",
+              "newWardShort": "Phạm Sư Mạnh",
+              "newWardCode": "10726",
+              "newWardType": "Phường",
+              "lat": 21.0179,
+              "lon": 106.512,
+              "areaKm2": 22.34
+            }
+          ]
+        },
+        {
+          "code": "10714",
+          "name": "Phường Phú Thứ",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Nhị Chiểu",
+              "newWardShort": "Nhị Chiểu",
+              "newWardCode": "10714",
+              "newWardType": "Phường",
+              "lat": 21.0346,
+              "lon": 106.557,
+              "areaKm2": 39.28
+            }
+          ]
+        },
+        {
+          "code": "10699",
+          "name": "Phường Tân Dân",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Nhị Chiểu",
+              "newWardShort": "Nhị Chiểu",
+              "newWardCode": "10714",
+              "newWardType": "Phường",
+              "lat": 21.0346,
+              "lon": 106.557,
+              "areaKm2": 39.28
+            }
+          ]
+        },
+        {
+          "code": "10741",
+          "name": "Phường Thái Thịnh",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Nguyễn Đại Năng",
+              "newWardShort": "Nguyễn Đại Năng",
+              "newWardCode": "10744",
+              "newWardType": "Phường",
+              "lat": 20.9579,
+              "lon": 106.567,
+              "areaKm2": 17.4
+            }
+          ]
+        },
+        {
+          "code": "10681",
+          "name": "Phường Thất Hùng",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Bắc An Phụ",
+              "newWardShort": "Bắc An Phụ",
+              "newWardCode": "10678",
+              "newWardType": "Phường",
+              "lat": 21.0505,
+              "lon": 106.461,
+              "areaKm2": 26.1
+            }
+          ]
+        },
+        {
+          "code": "10678",
+          "name": "Xã Bạch Đằng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Bắc An Phụ",
+              "newWardShort": "Bắc An Phụ",
+              "newWardCode": "10678",
+              "newWardType": "Phường",
+              "lat": 21.0505,
+              "lon": 106.461,
+              "areaKm2": 26.1
+            }
+          ]
+        },
+        {
+          "code": "10708",
+          "name": "Xã Hiệp Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Trần Liễu",
+              "newWardShort": "Trần Liễu",
+              "newWardCode": "10729",
+              "newWardType": "Phường",
+              "lat": 20.9958,
+              "lon": 106.492,
+              "areaKm2": 23.87
+            }
+          ]
+        },
+        {
+          "code": "10720",
+          "name": "Xã Lạc Long",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Nam An Phụ",
+              "newWardShort": "Nam An Phụ",
+              "newWardCode": "10705",
+              "newWardType": "Xã",
+              "lat": 21.0153,
+              "lon": 106.435,
+              "areaKm2": 25.9
+            }
+          ]
+        },
+        {
+          "code": "10684",
+          "name": "Xã Lê Ninh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Bắc An Phụ",
+              "newWardShort": "Bắc An Phụ",
+              "newWardCode": "10678",
+              "newWardType": "Phường",
+              "lat": 21.0505,
+              "lon": 106.461,
+              "areaKm2": 26.1
+            }
+          ]
+        },
+        {
+          "code": "10747",
+          "name": "Xã Minh Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Nguyễn Đại Năng",
+              "newWardShort": "Nguyễn Đại Năng",
+              "newWardCode": "10744",
+              "newWardType": "Phường",
+              "lat": 20.9579,
+              "lon": 106.567,
+              "areaKm2": 17.4
+            }
+          ]
+        },
+        {
+          "code": "10705",
+          "name": "Xã Quang Thành",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Nam An Phụ",
+              "newWardShort": "Nam An Phụ",
+              "newWardCode": "10705",
+              "newWardType": "Xã",
+              "lat": 21.0153,
+              "lon": 106.435,
+              "areaKm2": 25.9
+            }
+          ]
+        },
+        {
+          "code": "10717",
+          "name": "Xã Thăng Long",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Nam An Phụ",
+              "newWardShort": "Nam An Phụ",
+              "newWardCode": "10705",
+              "newWardType": "Xã",
+              "lat": 21.0153,
+              "lon": 106.435,
+              "areaKm2": 25.9
+            }
+          ]
+        },
+        {
+          "code": "10729",
+          "name": "Xã Thượng Quận",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Xã Phú Thái",
+              "newWardShort": "Phú Thái",
+              "newWardCode": "10750",
+              "newWardType": "Xã",
+              "lat": 20.9594,
+              "lon": 106.505,
+              "areaKm2": 28.89
+            },
+            {
+              "newProvince": "Thành phố Hải Phòng",
+              "newProvinceSlug": "hai-phong",
+              "newProvinceCode": "31",
+              "newWard": "Phường Trần Liễu",
+              "newWardShort": "Trần Liễu",
+              "newWardCode": "10729",
+              "newWardType": "Phường",
+              "lat": 20.9958,
+              "lon": 106.492,
+              "areaKm2": 23.87
+            }
+          ]
+        }
+      ],
+      "results": []
+    }
+  ]
+}

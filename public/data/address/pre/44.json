@@ -1,0 +1,2982 @@
+{
+  "schemaVersion": 1,
+  "mergeDate": "2025-07-01",
+  "code": "44",
+  "name": "Tỉnh Quảng Bình",
+  "name_en": "Quang Binh Province",
+  "slug": "quang-binh",
+  "districts": [
+    {
+      "code": "450",
+      "name": "Thành Phố Đồng Hới",
+      "type": "Thành phố",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "18859",
+          "name": "Phường Bắc Lý",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Phường Đồng Thuận",
+              "newWardShort": "Đồng Thuận",
+              "newWardCode": "18859",
+              "newWardType": "Phường",
+              "lat": 17.4958,
+              "lon": 106.59,
+              "areaKm2": 26.49
+            }
+          ]
+        },
+        {
+          "code": "18877",
+          "name": "Phường Bắc Nghĩa",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Phường Đồng Sơn",
+              "newWardShort": "Đồng Sơn",
+              "newWardCode": "18871",
+              "newWardType": "Phường",
+              "lat": 17.4296,
+              "lon": 106.549,
+              "areaKm2": 88.03
+            }
+          ]
+        },
+        {
+          "code": "18868",
+          "name": "Phường Đồng Hải",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Phường Đồng Hới",
+              "newWardShort": "Đồng Hới",
+              "newWardCode": "18880",
+              "newWardType": "Phường",
+              "lat": 17.4522,
+              "lon": 106.632,
+              "areaKm2": 41.35
+            }
+          ]
+        },
+        {
+          "code": "18856",
+          "name": "Phường Đồng Phú",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Phường Đồng Hới",
+              "newWardShort": "Đồng Hới",
+              "newWardCode": "18880",
+              "newWardType": "Phường",
+              "lat": 17.4522,
+              "lon": 106.632,
+              "areaKm2": 41.35
+            }
+          ]
+        },
+        {
+          "code": "18871",
+          "name": "Phường Đồng Sơn",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Phường Đồng Sơn",
+              "newWardShort": "Đồng Sơn",
+              "newWardCode": "18871",
+              "newWardType": "Phường",
+              "lat": 17.4296,
+              "lon": 106.549,
+              "areaKm2": 88.03
+            }
+          ]
+        },
+        {
+          "code": "18880",
+          "name": "Phường Đức Ninh Đông",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Phường Đồng Hới",
+              "newWardShort": "Đồng Hới",
+              "newWardCode": "18880",
+              "newWardType": "Phường",
+              "lat": 17.4522,
+              "lon": 106.632,
+              "areaKm2": 41.35
+            }
+          ]
+        },
+        {
+          "code": "18853",
+          "name": "Phường Hải Thành",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Phường Đồng Hới",
+              "newWardShort": "Đồng Hới",
+              "newWardCode": "18880",
+              "newWardType": "Phường",
+              "lat": 17.4522,
+              "lon": 106.632,
+              "areaKm2": 41.35
+            }
+          ]
+        },
+        {
+          "code": "18865",
+          "name": "Phường Nam Lý",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Phường Đồng Hới",
+              "newWardShort": "Đồng Hới",
+              "newWardCode": "18880",
+              "newWardType": "Phường",
+              "lat": 17.4522,
+              "lon": 106.632,
+              "areaKm2": 41.35
+            }
+          ]
+        },
+        {
+          "code": "18874",
+          "name": "Phường Phú Hải",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Phường Đồng Hới",
+              "newWardShort": "Đồng Hới",
+              "newWardCode": "18880",
+              "newWardType": "Phường",
+              "lat": 17.4522,
+              "lon": 106.632,
+              "areaKm2": 41.35
+            }
+          ]
+        },
+        {
+          "code": "18889",
+          "name": "Xã Bảo Ninh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Phường Đồng Hới",
+              "newWardShort": "Đồng Hới",
+              "newWardCode": "18880",
+              "newWardType": "Phường",
+              "lat": 17.4522,
+              "lon": 106.632,
+              "areaKm2": 41.35
+            }
+          ]
+        },
+        {
+          "code": "18898",
+          "name": "Xã Đức Ninh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Phường Đồng Hới",
+              "newWardShort": "Đồng Hới",
+              "newWardCode": "18880",
+              "newWardType": "Phường",
+              "lat": 17.4522,
+              "lon": 106.632,
+              "areaKm2": 41.35
+            }
+          ]
+        },
+        {
+          "code": "18886",
+          "name": "Xã Lộc Ninh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Phường Đồng Thuận",
+              "newWardShort": "Đồng Thuận",
+              "newWardCode": "18859",
+              "newWardType": "Phường",
+              "lat": 17.4958,
+              "lon": 106.59,
+              "areaKm2": 26.49
+            }
+          ]
+        },
+        {
+          "code": "18892",
+          "name": "Xã Nghĩa Ninh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Phường Đồng Sơn",
+              "newWardShort": "Đồng Sơn",
+              "newWardCode": "18871",
+              "newWardType": "Phường",
+              "lat": 17.4296,
+              "lon": 106.549,
+              "areaKm2": 88.03
+            }
+          ]
+        },
+        {
+          "code": "18883",
+          "name": "Xã Quang Phú",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Phường Đồng Thuận",
+              "newWardShort": "Đồng Thuận",
+              "newWardCode": "18859",
+              "newWardType": "Phường",
+              "lat": 17.4958,
+              "lon": 106.59,
+              "areaKm2": 26.49
+            }
+          ]
+        },
+        {
+          "code": "18895",
+          "name": "Xã Thuận Đức",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Phường Đồng Sơn",
+              "newWardShort": "Đồng Sơn",
+              "newWardCode": "18871",
+              "newWardType": "Phường",
+              "lat": 17.4296,
+              "lon": 106.549,
+              "areaKm2": 88.03
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "455",
+      "name": "Huyện Bố Trạch",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "19111",
+          "name": "Thị trấn Hoàn Lão",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Hoàn Lão",
+              "newWardShort": "Hoàn Lão",
+              "newWardCode": "19111",
+              "newWardType": "Xã",
+              "lat": 17.5674,
+              "lon": 106.509,
+              "areaKm2": 99.03
+            }
+          ]
+        },
+        {
+          "code": "19114",
+          "name": "Thị trấn Nông trường Việt Trung",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Nam Trạch",
+              "newWardShort": "Nam Trạch",
+              "newWardCode": "19198",
+              "newWardType": "Xã",
+              "lat": 17.4925,
+              "lon": 106.508,
+              "areaKm2": 129.83
+            }
+          ]
+        },
+        {
+          "code": "19165",
+          "name": "Thị trấn Phong Nha",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Phong Nha",
+              "newWardShort": "Phong Nha",
+              "newWardCode": "19138",
+              "newWardType": "Xã",
+              "lat": 17.6186,
+              "lon": 106.284,
+              "areaKm2": 358.1
+            }
+          ]
+        },
+        {
+          "code": "19126",
+          "name": "Xã Bắc Trạch",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Bắc Trạch",
+              "newWardShort": "Bắc Trạch",
+              "newWardCode": "19126",
+              "newWardType": "Xã",
+              "lat": 17.6789,
+              "lon": 106.43,
+              "areaKm2": 97.61
+            }
+          ]
+        },
+        {
+          "code": "19141",
+          "name": "Xã Cự Nẫm",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Bố Trạch",
+              "newWardShort": "Bố Trạch",
+              "newWardCode": "19141",
+              "newWardType": "Xã",
+              "lat": 17.5385,
+              "lon": 106.411,
+              "areaKm2": 299.42
+            }
+          ]
+        },
+        {
+          "code": "19186",
+          "name": "Xã Đại Trạch",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Hoàn Lão",
+              "newWardShort": "Hoàn Lão",
+              "newWardCode": "19111",
+              "newWardType": "Xã",
+              "lat": 17.5674,
+              "lon": 106.509,
+              "areaKm2": 99.03
+            }
+          ]
+        },
+        {
+          "code": "19159",
+          "name": "Xã Đồng Trạch",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Đông Trạch",
+              "newWardShort": "Đông Trạch",
+              "newWardCode": "19159",
+              "newWardType": "Xã",
+              "lat": 17.637,
+              "lon": 106.491,
+              "areaKm2": 0
+            }
+          ]
+        },
+        {
+          "code": "19162",
+          "name": "Xã Đức Trạch",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Đông Trạch",
+              "newWardShort": "Đông Trạch",
+              "newWardCode": "19159",
+              "newWardType": "Xã",
+              "lat": 17.637,
+              "lon": 106.491,
+              "areaKm2": 0
+            }
+          ]
+        },
+        {
+          "code": "19123",
+          "name": "Xã Hạ Mỹ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Bắc Trạch",
+              "newWardShort": "Bắc Trạch",
+              "newWardCode": "19126",
+              "newWardType": "Xã",
+              "lat": 17.6789,
+              "lon": 106.43,
+              "areaKm2": 97.61
+            }
+          ]
+        },
+        {
+          "code": "19144",
+          "name": "Xã Hải Phú",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Đông Trạch",
+              "newWardShort": "Đông Trạch",
+              "newWardCode": "19159",
+              "newWardType": "Xã",
+              "lat": 17.637,
+              "lon": 106.491,
+              "areaKm2": 0
+            }
+          ]
+        },
+        {
+          "code": "19183",
+          "name": "Xã Hòa Trạch",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Hoàn Lão",
+              "newWardShort": "Hoàn Lão",
+              "newWardCode": "19111",
+              "newWardType": "Xã",
+              "lat": 17.5674,
+              "lon": 106.509,
+              "areaKm2": 99.03
+            }
+          ]
+        },
+        {
+          "code": "19156",
+          "name": "Xã Hưng Trạch",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Bố Trạch",
+              "newWardShort": "Bố Trạch",
+              "newWardCode": "19141",
+              "newWardType": "Xã",
+              "lat": 17.5385,
+              "lon": 106.411,
+              "areaKm2": 299.42
+            }
+          ]
+        },
+        {
+          "code": "19129",
+          "name": "Xã Lâm Trạch",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Phong Nha",
+              "newWardShort": "Phong Nha",
+              "newWardCode": "19138",
+              "newWardType": "Xã",
+              "lat": 17.6186,
+              "lon": 106.284,
+              "areaKm2": 358.1
+            }
+          ]
+        },
+        {
+          "code": "19135",
+          "name": "Xã Liên Trạch",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Bắc Trạch",
+              "newWardShort": "Bắc Trạch",
+              "newWardCode": "19126",
+              "newWardType": "Xã",
+              "lat": 17.6789,
+              "lon": 106.43,
+              "areaKm2": 97.61
+            }
+          ]
+        },
+        {
+          "code": "19198",
+          "name": "Xã Lý Nam",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Nam Trạch",
+              "newWardShort": "Nam Trạch",
+              "newWardCode": "19198",
+              "newWardType": "Xã",
+              "lat": 17.4925,
+              "lon": 106.508,
+              "areaKm2": 129.83
+            }
+          ]
+        },
+        {
+          "code": "19189",
+          "name": "Xã Nhân Trạch",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Nam Trạch",
+              "newWardShort": "Nam Trạch",
+              "newWardCode": "19198",
+              "newWardType": "Xã",
+              "lat": 17.4925,
+              "lon": 106.508,
+              "areaKm2": 129.83
+            }
+          ]
+        },
+        {
+          "code": "19174",
+          "name": "Xã Phú Định",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Bố Trạch",
+              "newWardShort": "Bố Trạch",
+              "newWardCode": "19141",
+              "newWardType": "Xã",
+              "lat": 17.5385,
+              "lon": 106.411,
+              "areaKm2": 299.42
+            }
+          ]
+        },
+        {
+          "code": "19138",
+          "name": "Xã Phúc Trạch",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Phong Nha",
+              "newWardShort": "Phong Nha",
+              "newWardCode": "19138",
+              "newWardType": "Xã",
+              "lat": 17.6186,
+              "lon": 106.284,
+              "areaKm2": 358.1
+            }
+          ]
+        },
+        {
+          "code": "19150",
+          "name": "Xã Sơn Lộc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Đông Trạch",
+              "newWardShort": "Đông Trạch",
+              "newWardCode": "19159",
+              "newWardType": "Xã",
+              "lat": 17.637,
+              "lon": 106.491,
+              "areaKm2": 0
+            }
+          ]
+        },
+        {
+          "code": "19192",
+          "name": "Xã Tân Trạch",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Thượng Trạch",
+              "newWardShort": "Thượng Trạch",
+              "newWardCode": "19147",
+              "newWardType": "Xã",
+              "lat": 17.4608,
+              "lon": 106.183,
+              "areaKm2": 0
+            }
+          ]
+        },
+        {
+          "code": "19180",
+          "name": "Xã Tây Trạch",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Hoàn Lão",
+              "newWardShort": "Hoàn Lão",
+              "newWardCode": "19111",
+              "newWardType": "Xã",
+              "lat": 17.5674,
+              "lon": 106.509,
+              "areaKm2": 99.03
+            }
+          ]
+        },
+        {
+          "code": "19132",
+          "name": "Xã Thanh Trạch",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Bắc Trạch",
+              "newWardShort": "Bắc Trạch",
+              "newWardCode": "19126",
+              "newWardType": "Xã",
+              "lat": 17.6789,
+              "lon": 106.43,
+              "areaKm2": 97.61
+            }
+          ]
+        },
+        {
+          "code": "19147",
+          "name": "Xã Thượng Trạch",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Thượng Trạch",
+              "newWardShort": "Thượng Trạch",
+              "newWardCode": "19147",
+              "newWardType": "Xã",
+              "lat": 17.4608,
+              "lon": 106.183,
+              "areaKm2": 0
+            }
+          ]
+        },
+        {
+          "code": "19177",
+          "name": "Xã Trung Trạch",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Hoàn Lão",
+              "newWardShort": "Hoàn Lão",
+              "newWardCode": "19111",
+              "newWardType": "Xã",
+              "lat": 17.5674,
+              "lon": 106.509,
+              "areaKm2": 99.03
+            }
+          ]
+        },
+        {
+          "code": "19168",
+          "name": "Xã Vạn Trạch",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Bố Trạch",
+              "newWardShort": "Bố Trạch",
+              "newWardCode": "19141",
+              "newWardType": "Xã",
+              "lat": 17.5385,
+              "lon": 106.411,
+              "areaKm2": 299.42
+            }
+          ]
+        },
+        {
+          "code": "19117",
+          "name": "Xã Xuân Trạch",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Phong Nha",
+              "newWardShort": "Phong Nha",
+              "newWardCode": "19138",
+              "newWardType": "Xã",
+              "lat": 17.6186,
+              "lon": 106.284,
+              "areaKm2": 358.1
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "457",
+      "name": "Huyện Lệ Thủy",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "19249",
+          "name": "Thị trấn Kiến Giang",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Lệ Thủy",
+              "newWardShort": "Lệ Thủy",
+              "newWardCode": "19249",
+              "newWardType": "Xã",
+              "lat": 17.2319,
+              "lon": 106.77,
+              "areaKm2": 55.93
+            }
+          ]
+        },
+        {
+          "code": "19246",
+          "name": "Thị trấn Nông trường Lệ Ninh",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Lệ Ninh",
+              "newWardShort": "Lệ Ninh",
+              "newWardCode": "19246",
+              "newWardType": "Xã",
+              "lat": 17.237,
+              "lon": 106.698,
+              "areaKm2": 56.32
+            }
+          ]
+        },
+        {
+          "code": "19264",
+          "name": "Xã An Thủy",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Lệ Thủy",
+              "newWardShort": "Lệ Thủy",
+              "newWardCode": "19249",
+              "newWardType": "Xã",
+              "lat": 17.2319,
+              "lon": 106.77,
+              "areaKm2": 55.93
+            }
+          ]
+        },
+        {
+          "code": "19270",
+          "name": "Xã Cam Thủy",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Cam Hồng",
+              "newWardShort": "Cam Hồng",
+              "newWardCode": "19255",
+              "newWardType": "Xã",
+              "lat": 17.2723,
+              "lon": 106.798,
+              "areaKm2": 87.89
+            }
+          ]
+        },
+        {
+          "code": "19291",
+          "name": "Xã Dương Thủy",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Tân Mỹ",
+              "newWardShort": "Tân Mỹ",
+              "newWardCode": "19291",
+              "newWardType": "Xã",
+              "lat": 17.1515,
+              "lon": 106.85,
+              "areaKm2": 102.57
+            }
+          ]
+        },
+        {
+          "code": "19258",
+          "name": "Xã Hoa Thủy",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Lệ Ninh",
+              "newWardShort": "Lệ Ninh",
+              "newWardCode": "19246",
+              "newWardType": "Xã",
+              "lat": 17.237,
+              "lon": 106.698,
+              "areaKm2": 56.32
+            }
+          ]
+        },
+        {
+          "code": "19252",
+          "name": "Xã Hồng Thủy",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Cam Hồng",
+              "newWardShort": "Cam Hồng",
+              "newWardCode": "19255",
+              "newWardType": "Xã",
+              "lat": 17.2723,
+              "lon": 106.798,
+              "areaKm2": 87.89
+            }
+          ]
+        },
+        {
+          "code": "19288",
+          "name": "Xã Hưng Thủy",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Sen Ngư",
+              "newWardShort": "Sen Ngư",
+              "newWardCode": "19288",
+              "newWardType": "Xã",
+              "lat": 17.1708,
+              "lon": 106.916,
+              "areaKm2": 120.84
+            }
+          ]
+        },
+        {
+          "code": "19318",
+          "name": "Xã Kim Thủy",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Kim Ngân",
+              "newWardShort": "Kim Ngân",
+              "newWardCode": "19318",
+              "newWardType": "Xã",
+              "lat": 17.062,
+              "lon": 106.645,
+              "areaKm2": 881.06
+            }
+          ]
+        },
+        {
+          "code": "19327",
+          "name": "Xã Lâm Thủy",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Kim Ngân",
+              "newWardShort": "Kim Ngân",
+              "newWardCode": "19318",
+              "newWardType": "Xã",
+              "lat": 17.062,
+              "lon": 106.645,
+              "areaKm2": 881.06
+            }
+          ]
+        },
+        {
+          "code": "19285",
+          "name": "Xã Liên Thủy",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Lệ Thủy",
+              "newWardShort": "Lệ Thủy",
+              "newWardCode": "19249",
+              "newWardType": "Xã",
+              "lat": 17.2319,
+              "lon": 106.77,
+              "areaKm2": 55.93
+            }
+          ]
+        },
+        {
+          "code": "19279",
+          "name": "Xã Lộc Thủy",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Lệ Thủy",
+              "newWardShort": "Lệ Thủy",
+              "newWardCode": "19249",
+              "newWardType": "Xã",
+              "lat": 17.2319,
+              "lon": 106.77,
+              "areaKm2": 55.93
+            }
+          ]
+        },
+        {
+          "code": "19309",
+          "name": "Xã Mai Thủy",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Trường Phú",
+              "newWardShort": "Trường Phú",
+              "newWardCode": "19309",
+              "newWardType": "Xã",
+              "lat": 17.1662,
+              "lon": 106.76,
+              "areaKm2": 97.18
+            }
+          ]
+        },
+        {
+          "code": "19303",
+          "name": "Xã Mỹ Thủy",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Tân Mỹ",
+              "newWardShort": "Tân Mỹ",
+              "newWardCode": "19291",
+              "newWardType": "Xã",
+              "lat": 17.1515,
+              "lon": 106.85,
+              "areaKm2": 102.57
+            }
+          ]
+        },
+        {
+          "code": "19273",
+          "name": "Xã Ngân Thủy",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Kim Ngân",
+              "newWardShort": "Kim Ngân",
+              "newWardCode": "19318",
+              "newWardType": "Xã",
+              "lat": 17.062,
+              "lon": 106.645,
+              "areaKm2": 881.06
+            }
+          ]
+        },
+        {
+          "code": "19306",
+          "name": "Xã Ngư Thủy",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Sen Ngư",
+              "newWardShort": "Sen Ngư",
+              "newWardCode": "19288",
+              "newWardType": "Xã",
+              "lat": 17.1708,
+              "lon": 106.916,
+              "areaKm2": 120.84
+            }
+          ]
+        },
+        {
+          "code": "19255",
+          "name": "Xã Ngư Thủy Bắc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Cam Hồng",
+              "newWardShort": "Cam Hồng",
+              "newWardCode": "19255",
+              "newWardType": "Xã",
+              "lat": 17.2723,
+              "lon": 106.798,
+              "areaKm2": 87.89
+            }
+          ]
+        },
+        {
+          "code": "19267",
+          "name": "Xã Phong Thủy",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Lệ Thủy",
+              "newWardShort": "Lệ Thủy",
+              "newWardCode": "19249",
+              "newWardType": "Xã",
+              "lat": 17.2319,
+              "lon": 106.77,
+              "areaKm2": 55.93
+            }
+          ]
+        },
+        {
+          "code": "19297",
+          "name": "Xã Phú Thủy",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Trường Phú",
+              "newWardShort": "Trường Phú",
+              "newWardCode": "19309",
+              "newWardType": "Xã",
+              "lat": 17.1662,
+              "lon": 106.76,
+              "areaKm2": 97.18
+            }
+          ]
+        },
+        {
+          "code": "19312",
+          "name": "Xã Sen Thủy",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Sen Ngư",
+              "newWardShort": "Sen Ngư",
+              "newWardCode": "19288",
+              "newWardType": "Xã",
+              "lat": 17.1708,
+              "lon": 106.916,
+              "areaKm2": 120.84
+            }
+          ]
+        },
+        {
+          "code": "19276",
+          "name": "Xã Sơn Thủy",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Lệ Ninh",
+              "newWardShort": "Lệ Ninh",
+              "newWardCode": "19246",
+              "newWardType": "Xã",
+              "lat": 17.237,
+              "lon": 106.698,
+              "areaKm2": 56.32
+            }
+          ]
+        },
+        {
+          "code": "19294",
+          "name": "Xã Tân Thủy",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Tân Mỹ",
+              "newWardShort": "Tân Mỹ",
+              "newWardCode": "19291",
+              "newWardType": "Xã",
+              "lat": 17.1515,
+              "lon": 106.85,
+              "areaKm2": 102.57
+            }
+          ]
+        },
+        {
+          "code": "19315",
+          "name": "Xã Thái Thủy",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Tân Mỹ",
+              "newWardShort": "Tân Mỹ",
+              "newWardCode": "19291",
+              "newWardType": "Xã",
+              "lat": 17.1515,
+              "lon": 106.85,
+              "areaKm2": 102.57
+            }
+          ]
+        },
+        {
+          "code": "19261",
+          "name": "Xã Thanh Thủy",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Cam Hồng",
+              "newWardShort": "Cam Hồng",
+              "newWardCode": "19255",
+              "newWardType": "Xã",
+              "lat": 17.2723,
+              "lon": 106.798,
+              "areaKm2": 87.89
+            }
+          ]
+        },
+        {
+          "code": "19321",
+          "name": "Xã Trường Thủy",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Trường Phú",
+              "newWardShort": "Trường Phú",
+              "newWardCode": "19309",
+              "newWardType": "Xã",
+              "lat": 17.1662,
+              "lon": 106.76,
+              "areaKm2": 97.18
+            }
+          ]
+        },
+        {
+          "code": "19300",
+          "name": "Xã Xuân Thủy",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Lệ Thủy",
+              "newWardShort": "Lệ Thủy",
+              "newWardCode": "19249",
+              "newWardType": "Xã",
+              "lat": 17.2319,
+              "lon": 106.77,
+              "areaKm2": 55.93
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "452",
+      "name": "Huyện Minh Hóa",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "18901",
+          "name": "Thị trấn Quy Đạt",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Minh Hóa",
+              "newWardShort": "Minh Hóa",
+              "newWardCode": "18901",
+              "newWardType": "Xã",
+              "lat": 17.8486,
+              "lon": 105.95,
+              "areaKm2": 156.97
+            }
+          ]
+        },
+        {
+          "code": "18904",
+          "name": "Xã Dân Hóa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Dân Hóa",
+              "newWardShort": "Dân Hóa",
+              "newWardCode": "18904",
+              "newWardType": "Xã",
+              "lat": 17.8259,
+              "lon": 105.735,
+              "areaKm2": 365
+            }
+          ]
+        },
+        {
+          "code": "18922",
+          "name": "Xã Hóa Hợp",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Kim Điền",
+              "newWardShort": "Kim Điền",
+              "newWardCode": "18922",
+              "newWardType": "Xã",
+              "lat": 17.7428,
+              "lon": 105.861,
+              "areaKm2": 229.42
+            }
+          ]
+        },
+        {
+          "code": "18937",
+          "name": "Xã Hóa Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Kim Điền",
+              "newWardShort": "Kim Điền",
+              "newWardCode": "18922",
+              "newWardType": "Xã",
+              "lat": 17.7428,
+              "lon": 105.861,
+              "areaKm2": 229.42
+            }
+          ]
+        },
+        {
+          "code": "18913",
+          "name": "Xã Hồng Hóa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Minh Hóa",
+              "newWardShort": "Minh Hóa",
+              "newWardCode": "18901",
+              "newWardType": "Xã",
+              "lat": 17.8486,
+              "lon": 105.95,
+              "areaKm2": 156.97
+            }
+          ]
+        },
+        {
+          "code": "18931",
+          "name": "Xã Minh Hóa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Kim Phú",
+              "newWardShort": "Kim Phú",
+              "newWardCode": "18943",
+              "newWardType": "Xã",
+              "lat": 17.6719,
+              "lon": 105.991,
+              "areaKm2": 552.57
+            }
+          ]
+        },
+        {
+          "code": "18934",
+          "name": "Xã Tân Hóa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Kim Phú",
+              "newWardShort": "Kim Phú",
+              "newWardCode": "18943",
+              "newWardType": "Xã",
+              "lat": 17.6719,
+              "lon": 105.991,
+              "areaKm2": 552.57
+            }
+          ]
+        },
+        {
+          "code": "18919",
+          "name": "Xã Tân Thành",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Tân Thành",
+              "newWardShort": "Tân Thành",
+              "newWardCode": "18919",
+              "newWardType": "Xã",
+              "lat": 17.8809,
+              "lon": 105.828,
+              "areaKm2": 89.77
+            }
+          ]
+        },
+        {
+          "code": "18946",
+          "name": "Xã Thượng Hóa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Kim Phú",
+              "newWardShort": "Kim Phú",
+              "newWardCode": "18943",
+              "newWardType": "Xã",
+              "lat": 17.6719,
+              "lon": 105.991,
+              "areaKm2": 552.57
+            }
+          ]
+        },
+        {
+          "code": "18907",
+          "name": "Xã Trọng Hóa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Dân Hóa",
+              "newWardShort": "Dân Hóa",
+              "newWardCode": "18904",
+              "newWardType": "Xã",
+              "lat": 17.8259,
+              "lon": 105.735,
+              "areaKm2": 365
+            }
+          ]
+        },
+        {
+          "code": "18943",
+          "name": "Xã Trung Hóa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Kim Phú",
+              "newWardShort": "Kim Phú",
+              "newWardCode": "18943",
+              "newWardType": "Xã",
+              "lat": 17.6719,
+              "lon": 105.991,
+              "areaKm2": 552.57
+            }
+          ]
+        },
+        {
+          "code": "18925",
+          "name": "Xã Xuân Hóa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Minh Hóa",
+              "newWardShort": "Minh Hóa",
+              "newWardCode": "18901",
+              "newWardType": "Xã",
+              "lat": 17.8486,
+              "lon": 105.95,
+              "areaKm2": 156.97
+            }
+          ]
+        },
+        {
+          "code": "18928",
+          "name": "Xã Yên Hóa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Minh Hóa",
+              "newWardShort": "Minh Hóa",
+              "newWardCode": "18901",
+              "newWardType": "Xã",
+              "lat": 17.8486,
+              "lon": 105.95,
+              "areaKm2": 156.97
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "456",
+      "name": "Huyện Quảng Ninh",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "19207",
+          "name": "Thị trấn Quán Hàu",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Quảng Ninh",
+              "newWardShort": "Quảng Ninh",
+              "newWardCode": "19207",
+              "newWardType": "Xã",
+              "lat": 17.3867,
+              "lon": 106.615,
+              "areaKm2": 100.27
+            }
+          ]
+        },
+        {
+          "code": "19240",
+          "name": "Xã An Ninh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Trường Ninh",
+              "newWardShort": "Trường Ninh",
+              "newWardCode": "19237",
+              "newWardType": "Xã",
+              "lat": 17.298,
+              "lon": 106.659,
+              "areaKm2": 71.92
+            }
+          ]
+        },
+        {
+          "code": "19222",
+          "name": "Xã Duy Ninh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Ninh Châu",
+              "newWardShort": "Ninh Châu",
+              "newWardCode": "19225",
+              "newWardType": "Xã",
+              "lat": 17.3446,
+              "lon": 106.713,
+              "areaKm2": 86.03
+            }
+          ]
+        },
+        {
+          "code": "19225",
+          "name": "Xã Gia Ninh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Ninh Châu",
+              "newWardShort": "Ninh Châu",
+              "newWardCode": "19225",
+              "newWardType": "Xã",
+              "lat": 17.3446,
+              "lon": 106.713,
+              "areaKm2": 86.03
+            }
+          ]
+        },
+        {
+          "code": "19216",
+          "name": "Xã Hải Ninh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Ninh Châu",
+              "newWardShort": "Ninh Châu",
+              "newWardCode": "19225",
+              "newWardType": "Xã",
+              "lat": 17.3446,
+              "lon": 106.713,
+              "areaKm2": 86.03
+            }
+          ]
+        },
+        {
+          "code": "19219",
+          "name": "Xã Hàm Ninh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Quảng Ninh",
+              "newWardShort": "Quảng Ninh",
+              "newWardCode": "19207",
+              "newWardType": "Xã",
+              "lat": 17.3867,
+              "lon": 106.615,
+              "areaKm2": 100.27
+            }
+          ]
+        },
+        {
+          "code": "19231",
+          "name": "Xã Hiền Ninh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Trường Ninh",
+              "newWardShort": "Trường Ninh",
+              "newWardCode": "19237",
+              "newWardType": "Xã",
+              "lat": 17.298,
+              "lon": 106.659,
+              "areaKm2": 71.92
+            }
+          ]
+        },
+        {
+          "code": "19234",
+          "name": "Xã Tân Ninh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Ninh Châu",
+              "newWardShort": "Ninh Châu",
+              "newWardCode": "19225",
+              "newWardType": "Xã",
+              "lat": 17.3446,
+              "lon": 106.713,
+              "areaKm2": 86.03
+            }
+          ]
+        },
+        {
+          "code": "19204",
+          "name": "Xã Trường Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Trường Sơn",
+              "newWardShort": "Trường Sơn",
+              "newWardCode": "19204",
+              "newWardType": "Xã",
+              "lat": 17.2539,
+              "lon": 106.458,
+              "areaKm2": 935.96
+            }
+          ]
+        },
+        {
+          "code": "19228",
+          "name": "Xã Trường Xuân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Trường Sơn",
+              "newWardShort": "Trường Sơn",
+              "newWardCode": "19204",
+              "newWardType": "Xã",
+              "lat": 17.2539,
+              "lon": 106.458,
+              "areaKm2": 935.96
+            }
+          ]
+        },
+        {
+          "code": "19243",
+          "name": "Xã Vạn Ninh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Trường Ninh",
+              "newWardShort": "Trường Ninh",
+              "newWardCode": "19237",
+              "newWardType": "Xã",
+              "lat": 17.298,
+              "lon": 106.659,
+              "areaKm2": 71.92
+            }
+          ]
+        },
+        {
+          "code": "19210",
+          "name": "Xã Vĩnh Ninh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Quảng Ninh",
+              "newWardShort": "Quảng Ninh",
+              "newWardCode": "19207",
+              "newWardType": "Xã",
+              "lat": 17.3867,
+              "lon": 106.615,
+              "areaKm2": 100.27
+            }
+          ]
+        },
+        {
+          "code": "19213",
+          "name": "Xã Võ Ninh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Quảng Ninh",
+              "newWardShort": "Quảng Ninh",
+              "newWardCode": "19207",
+              "newWardType": "Xã",
+              "lat": 17.3867,
+              "lon": 106.615,
+              "areaKm2": 100.27
+            }
+          ]
+        },
+        {
+          "code": "19237",
+          "name": "Xã Xuân Ninh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Trường Ninh",
+              "newWardShort": "Trường Ninh",
+              "newWardCode": "19237",
+              "newWardType": "Xã",
+              "lat": 17.298,
+              "lon": 106.659,
+              "areaKm2": 71.92
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "454",
+      "name": "Huyện Quảng Trạch",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "19036",
+          "name": "Xã Cảnh Dương",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Hòa Trạch",
+              "newWardShort": "Hòa Trạch",
+              "newWardCode": "19033",
+              "newWardType": "Xã",
+              "lat": 17.8743,
+              "lon": 106.388,
+              "areaKm2": 52.67
+            }
+          ]
+        },
+        {
+          "code": "19051",
+          "name": "Xã Liên Trường",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Tân Gianh",
+              "newWardShort": "Tân Gianh",
+              "newWardCode": "19051",
+              "newWardType": "Xã",
+              "lat": 17.727,
+              "lon": 106.313,
+              "areaKm2": 41.05
+            }
+          ]
+        },
+        {
+          "code": "19063",
+          "name": "Xã Phù Cảnh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Tân Gianh",
+              "newWardShort": "Tân Gianh",
+              "newWardCode": "19051",
+              "newWardType": "Xã",
+              "lat": 17.727,
+              "lon": 106.313,
+              "areaKm2": 41.05
+            }
+          ]
+        },
+        {
+          "code": "19024",
+          "name": "Xã Quảng Châu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Hòa Trạch",
+              "newWardShort": "Hòa Trạch",
+              "newWardCode": "19033",
+              "newWardType": "Xã",
+              "lat": 17.8743,
+              "lon": 106.388,
+              "areaKm2": 52.67
+            }
+          ]
+        },
+        {
+          "code": "19018",
+          "name": "Xã Quảng Đông",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Phú Trạch",
+              "newWardShort": "Phú Trạch",
+              "newWardCode": "19021",
+              "newWardType": "Xã",
+              "lat": 17.9471,
+              "lon": 106.396,
+              "areaKm2": 197.41
+            }
+          ]
+        },
+        {
+          "code": "19012",
+          "name": "Xã Quảng Hợp",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Phú Trạch",
+              "newWardShort": "Phú Trạch",
+              "newWardCode": "19021",
+              "newWardType": "Xã",
+              "lat": 17.9471,
+              "lon": 106.396,
+              "areaKm2": 197.41
+            }
+          ]
+        },
+        {
+          "code": "19042",
+          "name": "Xã Quảng Hưng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Quảng Trạch",
+              "newWardShort": "Quảng Trạch",
+              "newWardCode": "19057",
+              "newWardType": "Xã",
+              "lat": 17.7878,
+              "lon": 106.396,
+              "areaKm2": 56.64
+            }
+          ]
+        },
+        {
+          "code": "19015",
+          "name": "Xã Quảng Kim",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Phú Trạch",
+              "newWardShort": "Phú Trạch",
+              "newWardCode": "19021",
+              "newWardType": "Xã",
+              "lat": 17.9471,
+              "lon": 106.396,
+              "areaKm2": 197.41
+            }
+          ]
+        },
+        {
+          "code": "19030",
+          "name": "Xã Quảng Lưu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Trung Thuần",
+              "newWardShort": "Trung Thuần",
+              "newWardCode": "19030",
+              "newWardType": "Xã",
+              "lat": 17.8399,
+              "lon": 106.338,
+              "areaKm2": 98.83
+            }
+          ]
+        },
+        {
+          "code": "19021",
+          "name": "Xã Quảng Phú",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Phú Trạch",
+              "newWardShort": "Phú Trạch",
+              "newWardCode": "19021",
+              "newWardType": "Xã",
+              "lat": 17.9471,
+              "lon": 106.396,
+              "areaKm2": 197.41
+            }
+          ]
+        },
+        {
+          "code": "19057",
+          "name": "Xã Quảng Phương",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Quảng Trạch",
+              "newWardShort": "Quảng Trạch",
+              "newWardCode": "19057",
+              "newWardType": "Xã",
+              "lat": 17.7878,
+              "lon": 106.396,
+              "areaKm2": 56.64
+            }
+          ]
+        },
+        {
+          "code": "19027",
+          "name": "Xã Quảng Thạch",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Trung Thuần",
+              "newWardShort": "Trung Thuần",
+              "newWardCode": "19030",
+              "newWardType": "Xã",
+              "lat": 17.8399,
+              "lon": 106.338,
+              "areaKm2": 98.83
+            }
+          ]
+        },
+        {
+          "code": "19072",
+          "name": "Xã Quảng Thanh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Tân Gianh",
+              "newWardShort": "Tân Gianh",
+              "newWardCode": "19051",
+              "newWardType": "Xã",
+              "lat": 17.727,
+              "lon": 106.313,
+              "areaKm2": 41.05
+            }
+          ]
+        },
+        {
+          "code": "19039",
+          "name": "Xã Quảng Tiến",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Trung Thuần",
+              "newWardShort": "Trung Thuần",
+              "newWardCode": "19030",
+              "newWardType": "Xã",
+              "lat": 17.8399,
+              "lon": 106.338,
+              "areaKm2": 98.83
+            }
+          ]
+        },
+        {
+          "code": "19033",
+          "name": "Xã Quảng Tùng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Hòa Trạch",
+              "newWardShort": "Hòa Trạch",
+              "newWardCode": "19033",
+              "newWardType": "Xã",
+              "lat": 17.8743,
+              "lon": 106.388,
+              "areaKm2": 52.67
+            }
+          ]
+        },
+        {
+          "code": "19045",
+          "name": "Xã Quảng Xuân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Quảng Trạch",
+              "newWardShort": "Quảng Trạch",
+              "newWardCode": "19057",
+              "newWardType": "Xã",
+              "lat": 17.7878,
+              "lon": 106.396,
+              "areaKm2": 56.64
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "453",
+      "name": "Huyện Tuyên Hóa",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "18949",
+          "name": "Thị trấn Đồng Lê",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Đồng Lê",
+              "newWardShort": "Đồng Lê",
+              "newWardCode": "18949",
+              "newWardType": "Xã",
+              "lat": 17.9452,
+              "lon": 105.991,
+              "areaKm2": 291.93
+            }
+          ]
+        },
+        {
+          "code": "19003",
+          "name": "Xã Cao Quảng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Tuyên Hóa",
+              "newWardShort": "Tuyên Hóa",
+              "newWardCode": "18997",
+              "newWardType": "Xã",
+              "lat": 17.7643,
+              "lon": 106.201,
+              "areaKm2": 194.92
+            }
+          ]
+        },
+        {
+          "code": "19000",
+          "name": "Xã Châu Hóa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Tuyên Hóa",
+              "newWardShort": "Tuyên Hóa",
+              "newWardCode": "18997",
+              "newWardType": "Xã",
+              "lat": 17.7643,
+              "lon": 106.201,
+              "areaKm2": 194.92
+            }
+          ]
+        },
+        {
+          "code": "18976",
+          "name": "Xã Đồng Hóa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Tuyên Phú",
+              "newWardShort": "Tuyên Phú",
+              "newWardCode": "18985",
+              "newWardType": "Xã",
+              "lat": 17.8673,
+              "lon": 106.116,
+              "areaKm2": 135.88
+            }
+          ]
+        },
+        {
+          "code": "18988",
+          "name": "Xã Đức Hóa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Tuyên Phú",
+              "newWardShort": "Tuyên Phú",
+              "newWardCode": "18985",
+              "newWardType": "Xã",
+              "lat": 17.8673,
+              "lon": 106.116,
+              "areaKm2": 135.88
+            }
+          ]
+        },
+        {
+          "code": "18952",
+          "name": "Xã Hương Hóa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Tuyên Sơn",
+              "newWardShort": "Tuyên Sơn",
+              "newWardCode": "18952",
+              "newWardType": "Xã",
+              "lat": 18.0335,
+              "lon": 105.899,
+              "areaKm2": 132.14
+            }
+          ]
+        },
+        {
+          "code": "18955",
+          "name": "Xã Kim Hóa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Đồng Lê",
+              "newWardShort": "Đồng Lê",
+              "newWardCode": "18949",
+              "newWardType": "Xã",
+              "lat": 17.9452,
+              "lon": 105.991,
+              "areaKm2": 291.93
+            }
+          ]
+        },
+        {
+          "code": "18967",
+          "name": "Xã Lâm Hóa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Tuyên Lâm",
+              "newWardShort": "Tuyên Lâm",
+              "newWardCode": "18958",
+              "newWardType": "Xã",
+              "lat": 17.967,
+              "lon": 105.761,
+              "areaKm2": 235.2
+            }
+          ]
+        },
+        {
+          "code": "18970",
+          "name": "Xã Lê Hóa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Đồng Lê",
+              "newWardShort": "Đồng Lê",
+              "newWardCode": "18949",
+              "newWardType": "Xã",
+              "lat": 17.9452,
+              "lon": 105.991,
+              "areaKm2": 291.93
+            }
+          ]
+        },
+        {
+          "code": "18994",
+          "name": "Xã Mai Hóa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Tuyên Bình",
+              "newWardShort": "Tuyên Bình",
+              "newWardCode": "18991",
+              "newWardType": "Xã",
+              "lat": 17.8897,
+              "lon": 106.246,
+              "areaKm2": 119.19
+            }
+          ]
+        },
+        {
+          "code": "18979",
+          "name": "Xã Ngư Hóa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Tuyên Bình",
+              "newWardShort": "Tuyên Bình",
+              "newWardCode": "18991",
+              "newWardType": "Xã",
+              "lat": 17.8897,
+              "lon": 106.246,
+              "areaKm2": 119.19
+            }
+          ]
+        },
+        {
+          "code": "18991",
+          "name": "Xã Phong Hóa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Tuyên Bình",
+              "newWardShort": "Tuyên Bình",
+              "newWardCode": "18991",
+              "newWardType": "Xã",
+              "lat": 17.8897,
+              "lon": 106.246,
+              "areaKm2": 119.19
+            }
+          ]
+        },
+        {
+          "code": "18973",
+          "name": "Xã Sơn Hóa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Đồng Lê",
+              "newWardShort": "Đồng Lê",
+              "newWardCode": "18949",
+              "newWardType": "Xã",
+              "lat": 17.9452,
+              "lon": 105.991,
+              "areaKm2": 291.93
+            }
+          ]
+        },
+        {
+          "code": "18985",
+          "name": "Xã Thạch Hóa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Tuyên Phú",
+              "newWardShort": "Tuyên Phú",
+              "newWardCode": "18985",
+              "newWardType": "Xã",
+              "lat": 17.8673,
+              "lon": 106.116,
+              "areaKm2": 135.88
+            }
+          ]
+        },
+        {
+          "code": "18958",
+          "name": "Xã Thanh Hóa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Tuyên Lâm",
+              "newWardShort": "Tuyên Lâm",
+              "newWardCode": "18958",
+              "newWardType": "Xã",
+              "lat": 17.967,
+              "lon": 105.761,
+              "areaKm2": 235.2
+            }
+          ]
+        },
+        {
+          "code": "18961",
+          "name": "Xã Thanh Thạch",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Tuyên Sơn",
+              "newWardShort": "Tuyên Sơn",
+              "newWardCode": "18952",
+              "newWardType": "Xã",
+              "lat": 18.0335,
+              "lon": 105.899,
+              "areaKm2": 132.14
+            }
+          ]
+        },
+        {
+          "code": "18964",
+          "name": "Xã Thuận Hóa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Đồng Lê",
+              "newWardShort": "Đồng Lê",
+              "newWardCode": "18949",
+              "newWardType": "Xã",
+              "lat": 17.9452,
+              "lon": 105.991,
+              "areaKm2": 291.93
+            }
+          ]
+        },
+        {
+          "code": "18997",
+          "name": "Xã Tiến Hóa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Tuyên Hóa",
+              "newWardShort": "Tuyên Hóa",
+              "newWardCode": "18997",
+              "newWardType": "Xã",
+              "lat": 17.7643,
+              "lon": 106.201,
+              "areaKm2": 194.92
+            }
+          ]
+        },
+        {
+          "code": "19006",
+          "name": "Xã Văn Hóa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Tuyên Hóa",
+              "newWardShort": "Tuyên Hóa",
+              "newWardCode": "18997",
+              "newWardType": "Xã",
+              "lat": 17.7643,
+              "lon": 106.201,
+              "areaKm2": 194.92
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "458",
+      "name": "Thị xã Ba Đồn",
+      "type": "Thị xã",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "19009",
+          "name": "Phường Ba Đồn",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Phường Ba Đồn",
+              "newWardShort": "Ba Đồn",
+              "newWardCode": "19009",
+              "newWardType": "Phường",
+              "lat": 17.7687,
+              "lon": 106.418,
+              "areaKm2": 20.45
+            }
+          ]
+        },
+        {
+          "code": "19060",
+          "name": "Phường Quảng Long",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Phường Ba Đồn",
+              "newWardShort": "Ba Đồn",
+              "newWardCode": "19009",
+              "newWardType": "Phường",
+              "lat": 17.7687,
+              "lon": 106.418,
+              "areaKm2": 20.45
+            }
+          ]
+        },
+        {
+          "code": "19078",
+          "name": "Phường Quảng Phong",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Phường Ba Đồn",
+              "newWardShort": "Ba Đồn",
+              "newWardCode": "19009",
+              "newWardType": "Phường",
+              "lat": 17.7687,
+              "lon": 106.418,
+              "areaKm2": 20.45
+            }
+          ]
+        },
+        {
+          "code": "19102",
+          "name": "Phường Quảng Phúc",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Phường Bắc Gianh",
+              "newWardShort": "Bắc Gianh",
+              "newWardCode": "19066",
+              "newWardType": "Phường",
+              "lat": 17.7364,
+              "lon": 106.455,
+              "areaKm2": 31.14
+            }
+          ]
+        },
+        {
+          "code": "19066",
+          "name": "Phường Quảng Thọ",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Phường Bắc Gianh",
+              "newWardShort": "Bắc Gianh",
+              "newWardCode": "19066",
+              "newWardType": "Phường",
+              "lat": 17.7364,
+              "lon": 106.455,
+              "areaKm2": 31.14
+            }
+          ]
+        },
+        {
+          "code": "19081",
+          "name": "Phường Quảng Thuận",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Phường Bắc Gianh",
+              "newWardShort": "Bắc Gianh",
+              "newWardCode": "19066",
+              "newWardType": "Phường",
+              "lat": 17.7364,
+              "lon": 106.455,
+              "areaKm2": 31.14
+            }
+          ]
+        },
+        {
+          "code": "19087",
+          "name": "Xã Quảng Hải",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Phường Ba Đồn",
+              "newWardShort": "Ba Đồn",
+              "newWardCode": "19009",
+              "newWardType": "Phường",
+              "lat": 17.7687,
+              "lon": 106.418,
+              "areaKm2": 20.45
+            }
+          ]
+        },
+        {
+          "code": "19105",
+          "name": "Xã Quảng Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Nam Gianh",
+              "newWardShort": "Nam Gianh",
+              "newWardCode": "19093",
+              "newWardType": "Xã",
+              "lat": 17.6923,
+              "lon": 106.372,
+              "areaKm2": 34.43
+            }
+          ]
+        },
+        {
+          "code": "19093",
+          "name": "Xã Quảng Lộc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Nam Gianh",
+              "newWardShort": "Nam Gianh",
+              "newWardCode": "19093",
+              "newWardType": "Xã",
+              "lat": 17.6923,
+              "lon": 106.372,
+              "areaKm2": 34.43
+            }
+          ]
+        },
+        {
+          "code": "19108",
+          "name": "Xã Quảng Minh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Nam Gianh",
+              "newWardShort": "Nam Gianh",
+              "newWardCode": "19093",
+              "newWardType": "Xã",
+              "lat": 17.6923,
+              "lon": 106.372,
+              "areaKm2": 34.43
+            }
+          ]
+        },
+        {
+          "code": "19090",
+          "name": "Xã Quảng Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Nam Ba Đồn",
+              "newWardShort": "Nam Ba Đồn",
+              "newWardCode": "19075",
+              "newWardType": "Xã",
+              "lat": 17.735,
+              "lon": 106.3297,
+              "areaKm2": 76.3
+            }
+          ]
+        },
+        {
+          "code": "19084",
+          "name": "Xã Quảng Tân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Nam Ba Đồn",
+              "newWardShort": "Nam Ba Đồn",
+              "newWardCode": "19075",
+              "newWardType": "Xã",
+              "lat": 17.735,
+              "lon": 106.3297,
+              "areaKm2": 76.3
+            }
+          ]
+        },
+        {
+          "code": "19096",
+          "name": "Xã Quảng Thủy",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Nam Ba Đồn",
+              "newWardShort": "Nam Ba Đồn",
+              "newWardCode": "19075",
+              "newWardType": "Xã",
+              "lat": 17.735,
+              "lon": 106.3297,
+              "areaKm2": 76.3
+            }
+          ]
+        },
+        {
+          "code": "19069",
+          "name": "Xã Quảng Tiên",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Nam Ba Đồn",
+              "newWardShort": "Nam Ba Đồn",
+              "newWardCode": "19075",
+              "newWardType": "Xã",
+              "lat": 17.735,
+              "lon": 106.3297,
+              "areaKm2": 76.3
+            }
+          ]
+        },
+        {
+          "code": "19075",
+          "name": "Xã Quảng Trung",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Nam Ba Đồn",
+              "newWardShort": "Nam Ba Đồn",
+              "newWardCode": "19075",
+              "newWardType": "Xã",
+              "lat": 17.735,
+              "lon": 106.3297,
+              "areaKm2": 76.3
+            }
+          ]
+        },
+        {
+          "code": "19099",
+          "name": "Xã Quảng Văn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Trị",
+              "newProvinceSlug": "quang-tri",
+              "newProvinceCode": "44",
+              "newWard": "Xã Nam Gianh",
+              "newWardShort": "Nam Gianh",
+              "newWardCode": "19093",
+              "newWardType": "Xã",
+              "lat": 17.6923,
+              "lon": 106.372,
+              "areaKm2": 34.43
+            }
+          ]
+        }
+      ],
+      "results": []
+    }
+  ]
+}

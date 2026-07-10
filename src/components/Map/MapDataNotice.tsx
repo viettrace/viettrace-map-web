@@ -38,6 +38,12 @@ export default function MapDataNotice({ onClose }: MapDataNoticeProps) {
       </div>
       <div className="mt-2 flex flex-wrap gap-1.5 sm:gap-2">
         <Link
+          href={`/${locale}/doi-dia-chi`}
+          className="rounded-md border border-blue-300 bg-blue-600 px-2 py-1 font-medium text-white transition-colors hover:bg-blue-700"
+        >
+          {t('addressConverterLink')}
+        </Link>
+        <Link
           href={`/${locale}/stats`}
           className="rounded-md border border-blue-200 bg-blue-50 px-2 py-1 font-medium text-blue-700 transition-colors hover:border-blue-300 hover:bg-blue-100"
         >

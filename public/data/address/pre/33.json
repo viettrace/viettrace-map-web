@@ -1,0 +1,2916 @@
+{
+  "schemaVersion": 1,
+  "mergeDate": "2025-07-01",
+  "code": "33",
+  "name": "Tỉnh Hưng Yên",
+  "name_en": "Hung Yen Province",
+  "slug": "hung-yen",
+  "districts": [
+    {
+      "code": "323",
+      "name": "Thành phố Hưng Yên",
+      "type": "Thành phố",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "11956",
+          "name": "Phường An Tảo",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Phường Phố Hiến",
+              "newWardShort": "Phố Hiến",
+              "newWardCode": "11953",
+              "newWardType": "Phường",
+              "lat": 20.6634,
+              "lon": 106.068,
+              "areaKm2": 21.5
+            }
+          ]
+        },
+        {
+          "code": "11953",
+          "name": "Phường Hiến Nam",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Phường Phố Hiến",
+              "newWardShort": "Phố Hiến",
+              "newWardCode": "11953",
+              "newWardType": "Phường",
+              "lat": 20.6634,
+              "lon": 106.068,
+              "areaKm2": 21.5
+            }
+          ]
+        },
+        {
+          "code": "11968",
+          "name": "Phường Hồng Châu",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Phường Hồng Châu",
+              "newWardShort": "Hồng Châu",
+              "newWardCode": "11980",
+              "newWardType": "Phường",
+              "lat": 20.6236,
+              "lon": 106.063,
+              "areaKm2": 15.41
+            }
+          ]
+        },
+        {
+          "code": "11950",
+          "name": "Phường Lam Sơn",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Phường Sơn Nam",
+              "newWardShort": "Sơn Nam",
+              "newWardCode": "11983",
+              "newWardType": "Phường",
+              "lat": 20.6914,
+              "lon": 106.043,
+              "areaKm2": 23.62
+            }
+          ]
+        },
+        {
+          "code": "11959",
+          "name": "Phường Lê Lợi",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Phường Phố Hiến",
+              "newWardShort": "Phố Hiến",
+              "newWardCode": "11953",
+              "newWardType": "Phường",
+              "lat": 20.6634,
+              "lon": 106.068,
+              "areaKm2": 21.5
+            }
+          ]
+        },
+        {
+          "code": "11962",
+          "name": "Phường Minh Khai",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Phường Phố Hiến",
+              "newWardShort": "Phố Hiến",
+              "newWardCode": "11953",
+              "newWardType": "Phường",
+              "lat": 20.6634,
+              "lon": 106.068,
+              "areaKm2": 21.5
+            }
+          ]
+        },
+        {
+          "code": "11983",
+          "name": "Xã Bảo Khê",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Phường Sơn Nam",
+              "newWardShort": "Sơn Nam",
+              "newWardCode": "11983",
+              "newWardType": "Phường",
+              "lat": 20.6914,
+              "lon": 106.043,
+              "areaKm2": 23.62
+            }
+          ]
+        },
+        {
+          "code": "12388",
+          "name": "Xã Hoàng Hanh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Phường Hồng Châu",
+              "newWardShort": "Hồng Châu",
+              "newWardCode": "11980",
+              "newWardType": "Phường",
+              "lat": 20.6236,
+              "lon": 106.063,
+              "areaKm2": 15.41
+            }
+          ]
+        },
+        {
+          "code": "12334",
+          "name": "Xã Hùng Cường",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Phường Sơn Nam",
+              "newWardShort": "Sơn Nam",
+              "newWardCode": "11983",
+              "newWardType": "Phường",
+              "lat": 20.6914,
+              "lon": 106.043,
+              "areaKm2": 23.62
+            }
+          ]
+        },
+        {
+          "code": "11974",
+          "name": "Xã Liên Phương",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Phường Phố Hiến",
+              "newWardShort": "Phố Hiến",
+              "newWardCode": "11953",
+              "newWardType": "Phường",
+              "lat": 20.6634,
+              "lon": 106.068,
+              "areaKm2": 21.5
+            }
+          ]
+        },
+        {
+          "code": "12331",
+          "name": "Xã Phú Cường",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Phường Sơn Nam",
+              "newWardShort": "Sơn Nam",
+              "newWardCode": "11983",
+              "newWardType": "Phường",
+              "lat": 20.6914,
+              "lon": 106.043,
+              "areaKm2": 23.62
+            }
+          ]
+        },
+        {
+          "code": "11977",
+          "name": "Xã Phương Nam",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Tân Hưng",
+              "newWardShort": "Tân Hưng",
+              "newWardCode": "11977",
+              "newWardType": "Xã",
+              "lat": 20.6384,
+              "lon": 106.097,
+              "areaKm2": 92.41
+            }
+          ]
+        },
+        {
+          "code": "11980",
+          "name": "Xã Quảng Châu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Phường Hồng Châu",
+              "newWardShort": "Hồng Châu",
+              "newWardCode": "11980",
+              "newWardType": "Phường",
+              "lat": 20.6236,
+              "lon": 106.063,
+              "areaKm2": 15.41
+            }
+          ]
+        },
+        {
+          "code": "12385",
+          "name": "Xã Tân Hưng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Tân Hưng",
+              "newWardShort": "Tân Hưng",
+              "newWardCode": "11977",
+              "newWardType": "Xã",
+              "lat": 20.6384,
+              "lon": 106.097,
+              "areaKm2": 92.41
+            }
+          ]
+        },
+        {
+          "code": "11971",
+          "name": "Xã Trung Nghĩa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Phường Phố Hiến",
+              "newWardShort": "Phố Hiến",
+              "newWardCode": "11953",
+              "newWardType": "Phường",
+              "lat": 20.6634,
+              "lon": 106.068,
+              "areaKm2": 21.5
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "329",
+      "name": "Huyện Ân Thi",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "12142",
+          "name": "Thị trấn Ân Thi",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Ân Thi",
+              "newWardShort": "Ân Thi",
+              "newWardCode": "12142",
+              "newWardType": "Xã",
+              "lat": 20.8246,
+              "lon": 106.101,
+              "areaKm2": 24.39
+            }
+          ]
+        },
+        {
+          "code": "12148",
+          "name": "Xã Bắc Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Phạm Ngũ Lão",
+              "newWardShort": "Phạm Ngũ Lão",
+              "newWardCode": "12148",
+              "newWardType": "Xã",
+              "lat": 20.8685,
+              "lon": 106.112,
+              "areaKm2": 29.32
+            }
+          ]
+        },
+        {
+          "code": "12151",
+          "name": "Xã Bãi Sậy",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Phạm Ngũ Lão",
+              "newWardShort": "Phạm Ngũ Lão",
+              "newWardCode": "12148",
+              "newWardType": "Xã",
+              "lat": 20.8685,
+              "lon": 106.112,
+              "areaKm2": 29.32
+            }
+          ]
+        },
+        {
+          "code": "12181",
+          "name": "Xã Cẩm Ninh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Nguyễn Trãi",
+              "newWardShort": "Nguyễn Trãi",
+              "newWardCode": "12184",
+              "newWardType": "Xã",
+              "lat": 20.791,
+              "lon": 106.11,
+              "areaKm2": 30.68
+            }
+          ]
+        },
+        {
+          "code": "12175",
+          "name": "Xã Đa Lộc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Nguyễn Trãi",
+              "newWardShort": "Nguyễn Trãi",
+              "newWardCode": "12184",
+              "newWardType": "Xã",
+              "lat": 20.791,
+              "lon": 106.11,
+              "areaKm2": 30.68
+            }
+          ]
+        },
+        {
+          "code": "12178",
+          "name": "Xã Đặng Lễ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Nguyễn Trãi",
+              "newWardShort": "Nguyễn Trãi",
+              "newWardCode": "12184",
+              "newWardType": "Xã",
+              "lat": 20.791,
+              "lon": 106.11,
+              "areaKm2": 30.68
+            }
+          ]
+        },
+        {
+          "code": "12154",
+          "name": "Xã Đào Dương",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Phạm Ngũ Lão",
+              "newWardShort": "Phạm Ngũ Lão",
+              "newWardCode": "12148",
+              "newWardType": "Xã",
+              "lat": 20.8685,
+              "lon": 106.112,
+              "areaKm2": 29.32
+            }
+          ]
+        },
+        {
+          "code": "12202",
+          "name": "Xã Hạ Lễ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Hồng Quang",
+              "newWardShort": "Hồng Quang",
+              "newWardCode": "12196",
+              "newWardType": "Xã",
+              "lat": 20.7555,
+              "lon": 106.119,
+              "areaKm2": 25.53
+            }
+          ]
+        },
+        {
+          "code": "12190",
+          "name": "Xã Hồ Tùng Mậu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Hồng Quang",
+              "newWardShort": "Hồng Quang",
+              "newWardCode": "12196",
+              "newWardType": "Xã",
+              "lat": 20.7555,
+              "lon": 106.119,
+              "areaKm2": 25.53
+            }
+          ]
+        },
+        {
+          "code": "12169",
+          "name": "Xã Hoàng Hoa Thám",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Ân Thi",
+              "newWardShort": "Ân Thi",
+              "newWardCode": "12142",
+              "newWardType": "Xã",
+              "lat": 20.8246,
+              "lon": 106.101,
+              "areaKm2": 24.39
+            }
+          ]
+        },
+        {
+          "code": "12196",
+          "name": "Xã Hồng Quang",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Hồng Quang",
+              "newWardShort": "Hồng Quang",
+              "newWardCode": "12196",
+              "newWardType": "Xã",
+              "lat": 20.7555,
+              "lon": 106.119,
+              "areaKm2": 25.53
+            }
+          ]
+        },
+        {
+          "code": "12184",
+          "name": "Xã Nguyễn Trãi",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Nguyễn Trãi",
+              "newWardShort": "Nguyễn Trãi",
+              "newWardCode": "12184",
+              "newWardType": "Xã",
+              "lat": 20.791,
+              "lon": 106.11,
+              "areaKm2": 30.68
+            }
+          ]
+        },
+        {
+          "code": "12145",
+          "name": "Xã Phù Ủng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Phạm Ngũ Lão",
+              "newWardShort": "Phạm Ngũ Lão",
+              "newWardCode": "12148",
+              "newWardType": "Xã",
+              "lat": 20.8685,
+              "lon": 106.112,
+              "areaKm2": 29.32
+            }
+          ]
+        },
+        {
+          "code": "12172",
+          "name": "Xã Quảng Lãng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Xuân Trúc",
+              "newWardShort": "Xuân Trúc",
+              "newWardCode": "12166",
+              "newWardType": "Xã",
+              "lat": 20.8262,
+              "lon": 106.062,
+              "areaKm2": 20.04
+            }
+          ]
+        },
+        {
+          "code": "12157",
+          "name": "Xã Quang Vinh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Ân Thi",
+              "newWardShort": "Ân Thi",
+              "newWardCode": "12142",
+              "newWardType": "Xã",
+              "lat": 20.8246,
+              "lon": 106.101,
+              "areaKm2": 24.39
+            }
+          ]
+        },
+        {
+          "code": "12193",
+          "name": "Xã Tiền Phong",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Hồng Quang",
+              "newWardShort": "Hồng Quang",
+              "newWardCode": "12196",
+              "newWardType": "Xã",
+              "lat": 20.7555,
+              "lon": 106.119,
+              "areaKm2": 25.53
+            }
+          ]
+        },
+        {
+          "code": "12160",
+          "name": "Xã Vân Du",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Xuân Trúc",
+              "newWardShort": "Xuân Trúc",
+              "newWardCode": "12166",
+              "newWardType": "Xã",
+              "lat": 20.8262,
+              "lon": 106.062,
+              "areaKm2": 20.04
+            }
+          ]
+        },
+        {
+          "code": "12166",
+          "name": "Xã Xuân Trúc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Xuân Trúc",
+              "newWardShort": "Xuân Trúc",
+              "newWardCode": "12166",
+              "newWardType": "Xã",
+              "lat": 20.8262,
+              "lon": 106.062,
+              "areaKm2": 20.04
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "330",
+      "name": "Huyện Khoái Châu",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "12205",
+          "name": "Thị trấn Khoái Châu",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Khoái Châu",
+              "newWardShort": "Khoái Châu",
+              "newWardCode": "12205",
+              "newWardType": "Xã",
+              "lat": 20.8167,
+              "lon": 105.971,
+              "areaKm2": 29.35
+            }
+          ]
+        },
+        {
+          "code": "12229",
+          "name": "Xã An Vĩ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Triệu Việt Vương",
+              "newWardShort": "Triệu Việt Vương",
+              "newWardCode": "12223",
+              "newWardType": "Xã",
+              "lat": 20.8556,
+              "lon": 105.971,
+              "areaKm2": 27.15
+            }
+          ]
+        },
+        {
+          "code": "12211",
+          "name": "Xã Bình Minh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Mễ Sở",
+              "newWardShort": "Mễ Sở",
+              "newWardCode": "12049",
+              "newWardType": "Xã",
+              "lat": 20.8927,
+              "lon": 105.924,
+              "areaKm2": 17.51
+            }
+          ]
+        },
+        {
+          "code": "12265",
+          "name": "Xã Chí Minh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Chí Minh",
+              "newWardShort": "Chí Minh",
+              "newWardCode": "12271",
+              "newWardType": "Xã",
+              "lat": 20.7773,
+              "lon": 105.989,
+              "areaKm2": 20.73
+            }
+          ]
+        },
+        {
+          "code": "12262",
+          "name": "Xã Đại Tập",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Châu Ninh",
+              "newWardShort": "Châu Ninh",
+              "newWardCode": "12247",
+              "newWardType": "Xã",
+              "lat": 20.8179,
+              "lon": 105.924,
+              "areaKm2": 22.22
+            }
+          ]
+        },
+        {
+          "code": "12238",
+          "name": "Xã Dân Tiến",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Việt Tiến",
+              "newWardShort": "Việt Tiến",
+              "newWardCode": "12238",
+              "newWardType": "Xã",
+              "lat": 20.8244,
+              "lon": 106.018,
+              "areaKm2": 20.18
+            }
+          ]
+        },
+        {
+          "code": "12232",
+          "name": "Xã Đông Kết",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Khoái Châu",
+              "newWardShort": "Khoái Châu",
+              "newWardCode": "12205",
+              "newWardType": "Xã",
+              "lat": 20.8167,
+              "lon": 105.971,
+              "areaKm2": 29.35
+            }
+          ]
+        },
+        {
+          "code": "12259",
+          "name": "Xã Đông Ninh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Châu Ninh",
+              "newWardShort": "Châu Ninh",
+              "newWardCode": "12247",
+              "newWardType": "Xã",
+              "lat": 20.8179,
+              "lon": 105.924,
+              "areaKm2": 22.22
+            }
+          ]
+        },
+        {
+          "code": "12208",
+          "name": "Xã Đông Tảo",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Hoàn Long",
+              "newWardShort": "Hoàn Long",
+              "newWardCode": "12070",
+              "newWardType": "Xã",
+              "lat": 20.9115,
+              "lon": 106.005,
+              "areaKm2": 19.6
+            }
+          ]
+        },
+        {
+          "code": "12244",
+          "name": "Xã Đồng Tiến",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Việt Tiến",
+              "newWardShort": "Việt Tiến",
+              "newWardCode": "12238",
+              "newWardType": "Xã",
+              "lat": 20.8244,
+              "lon": 106.018,
+              "areaKm2": 20.18
+            }
+          ]
+        },
+        {
+          "code": "12250",
+          "name": "Xã Liên Khê",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Khoái Châu",
+              "newWardShort": "Khoái Châu",
+              "newWardCode": "12205",
+              "newWardType": "Xã",
+              "lat": 20.8167,
+              "lon": 105.971,
+              "areaKm2": 29.35
+            }
+          ]
+        },
+        {
+          "code": "12274",
+          "name": "Xã Nguyễn Huệ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Chí Minh",
+              "newWardShort": "Chí Minh",
+              "newWardCode": "12271",
+              "newWardType": "Xã",
+              "lat": 20.7773,
+              "lon": 105.989,
+              "areaKm2": 20.73
+            }
+          ]
+        },
+        {
+          "code": "12220",
+          "name": "Xã Ông Đình",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Triệu Việt Vương",
+              "newWardShort": "Triệu Việt Vương",
+              "newWardCode": "12223",
+              "newWardType": "Xã",
+              "lat": 20.8556,
+              "lon": 105.971,
+              "areaKm2": 27.15
+            }
+          ]
+        },
+        {
+          "code": "12214",
+          "name": "Xã Phạm Hồng Thái",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Triệu Việt Vương",
+              "newWardShort": "Triệu Việt Vương",
+              "newWardCode": "12223",
+              "newWardType": "Xã",
+              "lat": 20.8556,
+              "lon": 105.971,
+              "areaKm2": 27.15
+            }
+          ]
+        },
+        {
+          "code": "12253",
+          "name": "Xã Phùng Hưng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Khoái Châu",
+              "newWardShort": "Khoái Châu",
+              "newWardCode": "12205",
+              "newWardType": "Xã",
+              "lat": 20.8167,
+              "lon": 105.971,
+              "areaKm2": 29.35
+            }
+          ]
+        },
+        {
+          "code": "12247",
+          "name": "Xã Tân Châu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Châu Ninh",
+              "newWardShort": "Châu Ninh",
+              "newWardCode": "12247",
+              "newWardType": "Xã",
+              "lat": 20.8179,
+              "lon": 105.924,
+              "areaKm2": 22.22
+            }
+          ]
+        },
+        {
+          "code": "12223",
+          "name": "Xã Tân Dân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Triệu Việt Vương",
+              "newWardShort": "Triệu Việt Vương",
+              "newWardCode": "12223",
+              "newWardType": "Xã",
+              "lat": 20.8556,
+              "lon": 105.971,
+              "areaKm2": 27.15
+            }
+          ]
+        },
+        {
+          "code": "12271",
+          "name": "Xã Thuần Hưng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Chí Minh",
+              "newWardShort": "Chí Minh",
+              "newWardCode": "12271",
+              "newWardType": "Xã",
+              "lat": 20.7773,
+              "lon": 105.989,
+              "areaKm2": 20.73
+            }
+          ]
+        },
+        {
+          "code": "12226",
+          "name": "Xã Tứ Dân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Châu Ninh",
+              "newWardShort": "Châu Ninh",
+              "newWardCode": "12247",
+              "newWardType": "Xã",
+              "lat": 20.8179,
+              "lon": 105.924,
+              "areaKm2": 22.22
+            }
+          ]
+        },
+        {
+          "code": "12256",
+          "name": "Xã Việt Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Việt Tiến",
+              "newWardShort": "Việt Tiến",
+              "newWardCode": "12238",
+              "newWardType": "Xã",
+              "lat": 20.8244,
+              "lon": 106.018,
+              "areaKm2": 20.18
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "331",
+      "name": "Huyện Kim Động",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "12280",
+          "name": "Thị trấn Lương Bằng",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Lương Bằng",
+              "newWardShort": "Lương Bằng",
+              "newWardCode": "12280",
+              "newWardType": "Xã",
+              "lat": 20.7517,
+              "lon": 106.068,
+              "areaKm2": 29.08
+            }
+          ]
+        },
+        {
+          "code": "12304",
+          "name": "Xã Chính Nghĩa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Lương Bằng",
+              "newWardShort": "Lương Bằng",
+              "newWardCode": "12280",
+              "newWardType": "Xã",
+              "lat": 20.7517,
+              "lon": 106.068,
+              "areaKm2": 29.08
+            }
+          ]
+        },
+        {
+          "code": "12325",
+          "name": "Xã Diên Hồng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Lương Bằng",
+              "newWardShort": "Lương Bằng",
+              "newWardCode": "12280",
+              "newWardType": "Xã",
+              "lat": 20.7517,
+              "lon": 106.068,
+              "areaKm2": 29.08
+            }
+          ]
+        },
+        {
+          "code": "12298",
+          "name": "Xã Đồng Thanh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Nghĩa Dân",
+              "newWardShort": "Nghĩa Dân",
+              "newWardCode": "12286",
+              "newWardType": "Xã",
+              "lat": 20.7888,
+              "lon": 106.034,
+              "areaKm2": 23.29
+            }
+          ]
+        },
+        {
+          "code": "12316",
+          "name": "Xã Đức Hợp",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Đức Hợp",
+              "newWardShort": "Đức Hợp",
+              "newWardCode": "12313",
+              "newWardType": "Xã",
+              "lat": 20.7311,
+              "lon": 105.985,
+              "areaKm2": 22.37
+            }
+          ]
+        },
+        {
+          "code": "12328",
+          "name": "Xã Hiệp Cường",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Hiệp Cường",
+              "newWardShort": "Hiệp Cường",
+              "newWardCode": "12322",
+              "newWardType": "Xã",
+              "lat": 20.7259,
+              "lon": 106.037,
+              "areaKm2": 28.37
+            }
+          ]
+        },
+        {
+          "code": "12319",
+          "name": "Xã Hùng An",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Hiệp Cường",
+              "newWardShort": "Hiệp Cường",
+              "newWardCode": "12322",
+              "newWardType": "Xã",
+              "lat": 20.7259,
+              "lon": 106.037,
+              "areaKm2": 28.37
+            }
+          ]
+        },
+        {
+          "code": "12313",
+          "name": "Xã Mai Động",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Đức Hợp",
+              "newWardShort": "Đức Hợp",
+              "newWardCode": "12313",
+              "newWardType": "Xã",
+              "lat": 20.7311,
+              "lon": 105.985,
+              "areaKm2": 22.37
+            }
+          ]
+        },
+        {
+          "code": "12283",
+          "name": "Xã Nghĩa Dân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Nghĩa Dân",
+              "newWardShort": "Nghĩa Dân",
+              "newWardCode": "12286",
+              "newWardType": "Xã",
+              "lat": 20.7888,
+              "lon": 106.034,
+              "areaKm2": 23.29
+            }
+          ]
+        },
+        {
+          "code": "12322",
+          "name": "Xã Ngọc Thanh",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Hiệp Cường",
+              "newWardShort": "Hiệp Cường",
+              "newWardCode": "12322",
+              "newWardType": "Xã",
+              "lat": 20.7259,
+              "lon": 106.037,
+              "areaKm2": 28.37
+            },
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Phường Sơn Nam",
+              "newWardShort": "Sơn Nam",
+              "newWardCode": "11983",
+              "newWardType": "Phường",
+              "lat": 20.6914,
+              "lon": 106.043,
+              "areaKm2": 23.62
+            }
+          ]
+        },
+        {
+          "code": "12292",
+          "name": "Xã Phạm Ngũ Lão",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Lương Bằng",
+              "newWardShort": "Lương Bằng",
+              "newWardCode": "12280",
+              "newWardType": "Xã",
+              "lat": 20.7517,
+              "lon": 106.068,
+              "areaKm2": 29.08
+            }
+          ]
+        },
+        {
+          "code": "12295",
+          "name": "Xã Phú Thọ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Đức Hợp",
+              "newWardShort": "Đức Hợp",
+              "newWardCode": "12313",
+              "newWardType": "Xã",
+              "lat": 20.7311,
+              "lon": 105.985,
+              "areaKm2": 22.37
+            }
+          ]
+        },
+        {
+          "code": "12301",
+          "name": "Xã Song Mai",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Hiệp Cường",
+              "newWardShort": "Hiệp Cường",
+              "newWardCode": "12322",
+              "newWardType": "Xã",
+              "lat": 20.7259,
+              "lon": 106.037,
+              "areaKm2": 28.37
+            }
+          ]
+        },
+        {
+          "code": "12286",
+          "name": "Xã Toàn Thắng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Nghĩa Dân",
+              "newWardShort": "Nghĩa Dân",
+              "newWardCode": "12286",
+              "newWardType": "Xã",
+              "lat": 20.7888,
+              "lon": 106.034,
+              "areaKm2": 23.29
+            }
+          ]
+        },
+        {
+          "code": "12289",
+          "name": "Xã Vĩnh Xá",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Nghĩa Dân",
+              "newWardShort": "Nghĩa Dân",
+              "newWardCode": "12286",
+              "newWardType": "Xã",
+              "lat": 20.7888,
+              "lon": 106.034,
+              "areaKm2": 23.29
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "333",
+      "name": "Huyện Phù Cừ",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "12391",
+          "name": "Thị trấn Trần Cao",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Quang Hưng",
+              "newWardShort": "Quang Hưng",
+              "newWardCode": "12391",
+              "newWardType": "Xã",
+              "lat": 20.7459,
+              "lon": 106.187,
+              "areaKm2": 15.89
+            }
+          ]
+        },
+        {
+          "code": "12412",
+          "name": "Xã Đình Cao",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Tiên Tiến",
+              "newWardShort": "Tiên Tiến",
+              "newWardCode": "12424",
+              "newWardType": "Xã",
+              "lat": 20.6982,
+              "lon": 106.201,
+              "areaKm2": 25.8
+            }
+          ]
+        },
+        {
+          "code": "12406",
+          "name": "Xã Đoàn Đào",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Đoàn Đào",
+              "newWardShort": "Đoàn Đào",
+              "newWardCode": "12406",
+              "newWardType": "Xã",
+              "lat": 20.7256,
+              "lon": 106.148,
+              "areaKm2": 22.39
+            }
+          ]
+        },
+        {
+          "code": "12403",
+          "name": "Xã Minh Hoàng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Đoàn Đào",
+              "newWardShort": "Đoàn Đào",
+              "newWardCode": "12406",
+              "newWardType": "Xã",
+              "lat": 20.7256,
+              "lon": 106.148,
+              "areaKm2": 22.39
+            }
+          ]
+        },
+        {
+          "code": "12394",
+          "name": "Xã Minh Tân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Quang Hưng",
+              "newWardShort": "Quang Hưng",
+              "newWardCode": "12391",
+              "newWardType": "Xã",
+              "lat": 20.7459,
+              "lon": 106.187,
+              "areaKm2": 15.89
+            }
+          ]
+        },
+        {
+          "code": "12427",
+          "name": "Xã Nguyên Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Tống Trân",
+              "newWardShort": "Tống Trân",
+              "newWardCode": "12427",
+              "newWardType": "Xã",
+              "lat": 20.6549,
+              "lon": 106.209,
+              "areaKm2": 20.73
+            }
+          ]
+        },
+        {
+          "code": "12415",
+          "name": "Xã Nhật Quang",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Tiên Tiến",
+              "newWardShort": "Tiên Tiến",
+              "newWardCode": "12424",
+              "newWardType": "Xã",
+              "lat": 20.6982,
+              "lon": 106.201,
+              "areaKm2": 25.8
+            }
+          ]
+        },
+        {
+          "code": "12397",
+          "name": "Xã Phan Sào Nam",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Đoàn Đào",
+              "newWardShort": "Đoàn Đào",
+              "newWardCode": "12406",
+              "newWardType": "Xã",
+              "lat": 20.7256,
+              "lon": 106.148,
+              "areaKm2": 22.39
+            }
+          ]
+        },
+        {
+          "code": "12400",
+          "name": "Xã Quang Hưng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Quang Hưng",
+              "newWardShort": "Quang Hưng",
+              "newWardCode": "12391",
+              "newWardType": "Xã",
+              "lat": 20.7459,
+              "lon": 106.187,
+              "areaKm2": 15.89
+            }
+          ]
+        },
+        {
+          "code": "12421",
+          "name": "Xã Tam Đa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Tống Trân",
+              "newWardShort": "Tống Trân",
+              "newWardCode": "12427",
+              "newWardType": "Xã",
+              "lat": 20.6549,
+              "lon": 106.209,
+              "areaKm2": 20.73
+            }
+          ]
+        },
+        {
+          "code": "12424",
+          "name": "Xã Tiên Tiến",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Tiên Tiến",
+              "newWardShort": "Tiên Tiến",
+              "newWardCode": "12424",
+              "newWardType": "Xã",
+              "lat": 20.6982,
+              "lon": 106.201,
+              "areaKm2": 25.8
+            }
+          ]
+        },
+        {
+          "code": "12409",
+          "name": "Xã Tống Phan",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Quang Hưng",
+              "newWardShort": "Quang Hưng",
+              "newWardCode": "12391",
+              "newWardType": "Xã",
+              "lat": 20.7459,
+              "lon": 106.187,
+              "areaKm2": 15.89
+            }
+          ]
+        },
+        {
+          "code": "12430",
+          "name": "Xã Tống Trân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Tống Trân",
+              "newWardShort": "Tống Trân",
+              "newWardCode": "12427",
+              "newWardType": "Xã",
+              "lat": 20.6549,
+              "lon": 106.209,
+              "areaKm2": 20.73
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "332",
+      "name": "Huyện Tiên Lữ",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "12337",
+          "name": "Thị trấn Vương",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Hoàng Hoa Thám",
+              "newWardShort": "Hoàng Hoa Thám",
+              "newWardCode": "12337",
+              "newWardType": "Xã",
+              "lat": 20.7009,
+              "lon": 106.108,
+              "areaKm2": 31.85
+            }
+          ]
+        },
+        {
+          "code": "12355",
+          "name": "Xã An Viên",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Hoàng Hoa Thám",
+              "newWardShort": "Hoàng Hoa Thám",
+              "newWardCode": "12337",
+              "newWardType": "Xã",
+              "lat": 20.7009,
+              "lon": 106.108,
+              "areaKm2": 31.85
+            }
+          ]
+        },
+        {
+          "code": "12376",
+          "name": "Xã Cương Chính",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Tiên Hoa",
+              "newWardShort": "Tiên Hoa",
+              "newWardCode": "12361",
+              "newWardType": "Xã",
+              "lat": 20.6815,
+              "lon": 106.169,
+              "areaKm2": 21.65
+            }
+          ]
+        },
+        {
+          "code": "12364",
+          "name": "Xã Hải Thắng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Tiên Lữ",
+              "newWardShort": "Tiên Lữ",
+              "newWardCode": "12364",
+              "newWardType": "Xã",
+              "lat": 20.6768,
+              "lon": 106.136,
+              "areaKm2": 31.8
+            }
+          ]
+        },
+        {
+          "code": "12340",
+          "name": "Xã Hưng Đạo",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Hoàng Hoa Thám",
+              "newWardShort": "Hoàng Hoa Thám",
+              "newWardCode": "12337",
+              "newWardType": "Xã",
+              "lat": 20.7009,
+              "lon": 106.108,
+              "areaKm2": 31.85
+            }
+          ]
+        },
+        {
+          "code": "12352",
+          "name": "Xã Lệ Xá",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Tiên Hoa",
+              "newWardShort": "Tiên Hoa",
+              "newWardCode": "12361",
+              "newWardType": "Xã",
+              "lat": 20.6815,
+              "lon": 106.169,
+              "areaKm2": 21.65
+            }
+          ]
+        },
+        {
+          "code": "12346",
+          "name": "Xã Nhật Tân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Hoàng Hoa Thám",
+              "newWardShort": "Hoàng Hoa Thám",
+              "newWardCode": "12337",
+              "newWardType": "Xã",
+              "lat": 20.7009,
+              "lon": 106.108,
+              "areaKm2": 31.85
+            }
+          ]
+        },
+        {
+          "code": "12370",
+          "name": "Xã Thiện Phiến",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Tiên Lữ",
+              "newWardShort": "Tiên Lữ",
+              "newWardCode": "12364",
+              "newWardType": "Xã",
+              "lat": 20.6768,
+              "lon": 106.136,
+              "areaKm2": 31.8
+            }
+          ]
+        },
+        {
+          "code": "12367",
+          "name": "Xã Thủ Sỹ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Tân Hưng",
+              "newWardShort": "Tân Hưng",
+              "newWardCode": "11977",
+              "newWardType": "Xã",
+              "lat": 20.6384,
+              "lon": 106.097,
+              "areaKm2": 92.41
+            }
+          ]
+        },
+        {
+          "code": "12373",
+          "name": "Xã Thụy Lôi",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Tiên Lữ",
+              "newWardShort": "Tiên Lữ",
+              "newWardCode": "12364",
+              "newWardType": "Xã",
+              "lat": 20.6768,
+              "lon": 106.136,
+              "areaKm2": 31.8
+            }
+          ]
+        },
+        {
+          "code": "12361",
+          "name": "Xã Trung Dũng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Tiên Hoa",
+              "newWardShort": "Tiên Hoa",
+              "newWardCode": "12361",
+              "newWardType": "Xã",
+              "lat": 20.6815,
+              "lon": 106.169,
+              "areaKm2": 21.65
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "326",
+      "name": "Huyện Văn Giang",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "12019",
+          "name": "Thị trấn Văn Giang",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Văn Giang",
+              "newWardShort": "Văn Giang",
+              "newWardCode": "12019",
+              "newWardType": "Xã",
+              "lat": 20.9276,
+              "lon": 105.927,
+              "areaKm2": 22.96
+            }
+          ]
+        },
+        {
+          "code": "12025",
+          "name": "Xã Cửu Cao",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Phụng Công",
+              "newWardShort": "Phụng Công",
+              "newWardCode": "12025",
+              "newWardType": "Xã",
+              "lat": 20.9583,
+              "lon": 105.93,
+              "areaKm2": 14.62
+            }
+          ]
+        },
+        {
+          "code": "12040",
+          "name": "Xã Liên Nghĩa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Văn Giang",
+              "newWardShort": "Văn Giang",
+              "newWardCode": "12019",
+              "newWardType": "Xã",
+              "lat": 20.9276,
+              "lon": 105.927,
+              "areaKm2": 22.96
+            }
+          ]
+        },
+        {
+          "code": "12034",
+          "name": "Xã Long Hưng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Nghĩa Trụ",
+              "newWardShort": "Nghĩa Trụ",
+              "newWardCode": "12031",
+              "newWardType": "Xã",
+              "lat": 20.9504,
+              "lon": 105.978,
+              "areaKm2": 22.8
+            }
+          ]
+        },
+        {
+          "code": "12049",
+          "name": "Xã Mễ Sở",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Mễ Sở",
+              "newWardShort": "Mễ Sở",
+              "newWardCode": "12049",
+              "newWardType": "Xã",
+              "lat": 20.8927,
+              "lon": 105.924,
+              "areaKm2": 17.51
+            }
+          ]
+        },
+        {
+          "code": "12031",
+          "name": "Xã Nghĩa Trụ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Nghĩa Trụ",
+              "newWardShort": "Nghĩa Trụ",
+              "newWardCode": "12031",
+              "newWardType": "Xã",
+              "lat": 20.9504,
+              "lon": 105.978,
+              "areaKm2": 22.8
+            }
+          ]
+        },
+        {
+          "code": "12028",
+          "name": "Xã Phụng Công",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Phụng Công",
+              "newWardShort": "Phụng Công",
+              "newWardCode": "12025",
+              "newWardType": "Xã",
+              "lat": 20.9583,
+              "lon": 105.93,
+              "areaKm2": 14.62
+            }
+          ]
+        },
+        {
+          "code": "12043",
+          "name": "Xã Tân Tiến",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Văn Giang",
+              "newWardShort": "Văn Giang",
+              "newWardCode": "12019",
+              "newWardType": "Xã",
+              "lat": 20.9276,
+              "lon": 105.927,
+              "areaKm2": 22.96
+            }
+          ]
+        },
+        {
+          "code": "12046",
+          "name": "Xã Thắng Lợi",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Mễ Sở",
+              "newWardShort": "Mễ Sở",
+              "newWardCode": "12049",
+              "newWardType": "Xã",
+              "lat": 20.8927,
+              "lon": 105.924,
+              "areaKm2": 17.51
+            }
+          ]
+        },
+        {
+          "code": "12037",
+          "name": "Xã Vĩnh Khúc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Nghĩa Trụ",
+              "newWardShort": "Nghĩa Trụ",
+              "newWardCode": "12031",
+              "newWardType": "Xã",
+              "lat": 20.9504,
+              "lon": 105.978,
+              "areaKm2": 22.8
+            }
+          ]
+        },
+        {
+          "code": "12022",
+          "name": "Xã Xuân Quan",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Phụng Công",
+              "newWardShort": "Phụng Công",
+              "newWardCode": "12025",
+              "newWardType": "Xã",
+              "lat": 20.9583,
+              "lon": 105.93,
+              "areaKm2": 14.62
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "325",
+      "name": "Huyện Văn Lâm",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "11986",
+          "name": "Thị trấn Như Quỳnh",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Như Quỳnh",
+              "newWardShort": "Như Quỳnh",
+              "newWardCode": "12004",
+              "newWardType": "Xã",
+              "lat": 20.9696,
+              "lon": 105.997,
+              "areaKm2": 27.32
+            }
+          ]
+        },
+        {
+          "code": "11992",
+          "name": "Xã Chỉ Đạo",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Lạc Đạo",
+              "newWardShort": "Lạc Đạo",
+              "newWardCode": "11992",
+              "newWardType": "Xã",
+              "lat": 20.9812,
+              "lon": 106.036,
+              "areaKm2": 22.22
+            }
+          ]
+        },
+        {
+          "code": "11995",
+          "name": "Xã Đại Đồng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Đại Đồng",
+              "newWardShort": "Đại Đồng",
+              "newWardCode": "11995",
+              "newWardType": "Xã",
+              "lat": 20.9885,
+              "lon": 106.093,
+              "areaKm2": 77.87
+            }
+          ]
+        },
+        {
+          "code": "12004",
+          "name": "Xã Đình Dù",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Đại Đồng",
+              "newWardShort": "Đại Đồng",
+              "newWardCode": "11995",
+              "newWardType": "Xã",
+              "lat": 20.9885,
+              "lon": 106.093,
+              "areaKm2": 77.87
+            },
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Như Quỳnh",
+              "newWardShort": "Như Quỳnh",
+              "newWardCode": "12004",
+              "newWardType": "Xã",
+              "lat": 20.9696,
+              "lon": 105.997,
+              "areaKm2": 27.32
+            }
+          ]
+        },
+        {
+          "code": "11989",
+          "name": "Xã Lạc Đạo",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Đại Đồng",
+              "newWardShort": "Đại Đồng",
+              "newWardCode": "11995",
+              "newWardType": "Xã",
+              "lat": 20.9885,
+              "lon": 106.093,
+              "areaKm2": 77.87
+            },
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Lạc Đạo",
+              "newWardShort": "Lạc Đạo",
+              "newWardCode": "11992",
+              "newWardType": "Xã",
+              "lat": 20.9812,
+              "lon": 106.036,
+              "areaKm2": 22.22
+            }
+          ]
+        },
+        {
+          "code": "12016",
+          "name": "Xã Lạc Hồng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Như Quỳnh",
+              "newWardShort": "Như Quỳnh",
+              "newWardCode": "12004",
+              "newWardType": "Xã",
+              "lat": 20.9696,
+              "lon": 105.997,
+              "areaKm2": 27.32
+            }
+          ]
+        },
+        {
+          "code": "12010",
+          "name": "Xã Lương Tài",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Đại Đồng",
+              "newWardShort": "Đại Đồng",
+              "newWardCode": "11995",
+              "newWardType": "Xã",
+              "lat": 20.9885,
+              "lon": 106.093,
+              "areaKm2": 77.87
+            }
+          ]
+        },
+        {
+          "code": "12007",
+          "name": "Xã Minh Hải",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Lạc Đạo",
+              "newWardShort": "Lạc Đạo",
+              "newWardCode": "11992",
+              "newWardType": "Xã",
+              "lat": 20.9812,
+              "lon": 106.036,
+              "areaKm2": 22.22
+            }
+          ]
+        },
+        {
+          "code": "12001",
+          "name": "Xã Tân Quang",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Như Quỳnh",
+              "newWardShort": "Như Quỳnh",
+              "newWardCode": "12004",
+              "newWardType": "Xã",
+              "lat": 20.9696,
+              "lon": 105.997,
+              "areaKm2": 27.32
+            }
+          ]
+        },
+        {
+          "code": "12013",
+          "name": "Xã Trưng Trắc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Như Quỳnh",
+              "newWardShort": "Như Quỳnh",
+              "newWardCode": "12004",
+              "newWardType": "Xã",
+              "lat": 20.9696,
+              "lon": 105.997,
+              "areaKm2": 27.32
+            }
+          ]
+        },
+        {
+          "code": "11998",
+          "name": "Xã Việt Hưng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Đại Đồng",
+              "newWardShort": "Đại Đồng",
+              "newWardCode": "11995",
+              "newWardType": "Xã",
+              "lat": 20.9885,
+              "lon": 106.093,
+              "areaKm2": 77.87
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "327",
+      "name": "Huyện Yên Mỹ",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "12052",
+          "name": "Thị trấn Yên Mỹ",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Yên Mỹ",
+              "newWardShort": "Yên Mỹ",
+              "newWardCode": "12073",
+              "newWardType": "Xã",
+              "lat": 20.8726,
+              "lon": 106.051,
+              "areaKm2": 33.12
+            }
+          ]
+        },
+        {
+          "code": "12061",
+          "name": "Xã Đồng Than",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Hoàn Long",
+              "newWardShort": "Hoàn Long",
+              "newWardCode": "12070",
+              "newWardType": "Xã",
+              "lat": 20.9115,
+              "lon": 106.005,
+              "areaKm2": 19.6
+            }
+          ]
+        },
+        {
+          "code": "12070",
+          "name": "Xã Hoàn Long",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Hoàn Long",
+              "newWardShort": "Hoàn Long",
+              "newWardCode": "12070",
+              "newWardType": "Xã",
+              "lat": 20.9115,
+              "lon": 106.005,
+              "areaKm2": 19.6
+            }
+          ]
+        },
+        {
+          "code": "12067",
+          "name": "Xã Liêu Xá",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Nguyễn Văn Linh",
+              "newWardShort": "Nguyễn Văn Linh",
+              "newWardCode": "12064",
+              "newWardType": "Xã",
+              "lat": 20.9203,
+              "lon": 106.042,
+              "areaKm2": 20.9
+            }
+          ]
+        },
+        {
+          "code": "12064",
+          "name": "Xã Ngọc Long",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Nguyễn Văn Linh",
+              "newWardShort": "Nguyễn Văn Linh",
+              "newWardCode": "12064",
+              "newWardType": "Xã",
+              "lat": 20.9203,
+              "lon": 106.042,
+              "areaKm2": 20.9
+            }
+          ]
+        },
+        {
+          "code": "12055",
+          "name": "Xã Nguyễn Văn Linh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Nguyễn Văn Linh",
+              "newWardShort": "Nguyễn Văn Linh",
+              "newWardCode": "12064",
+              "newWardType": "Xã",
+              "lat": 20.9203,
+              "lon": 106.042,
+              "areaKm2": 20.9
+            }
+          ]
+        },
+        {
+          "code": "12073",
+          "name": "Xã Tân Lập",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Yên Mỹ",
+              "newWardShort": "Yên Mỹ",
+              "newWardCode": "12073",
+              "newWardType": "Xã",
+              "lat": 20.8726,
+              "lon": 106.051,
+              "areaKm2": 33.12
+            }
+          ]
+        },
+        {
+          "code": "12100",
+          "name": "Xã Tân Minh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Yên Mỹ",
+              "newWardShort": "Yên Mỹ",
+              "newWardCode": "12073",
+              "newWardType": "Xã",
+              "lat": 20.8726,
+              "lon": 106.051,
+              "areaKm2": 33.12
+            }
+          ]
+        },
+        {
+          "code": "12076",
+          "name": "Xã Thanh Long",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Việt Yên",
+              "newWardShort": "Việt Yên",
+              "newWardCode": "12091",
+              "newWardType": "Xã",
+              "lat": 20.8816,
+              "lon": 106.002,
+              "areaKm2": 23.9845
+            }
+          ]
+        },
+        {
+          "code": "12085",
+          "name": "Xã Trung Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Yên Mỹ",
+              "newWardShort": "Yên Mỹ",
+              "newWardCode": "12073",
+              "newWardType": "Xã",
+              "lat": 20.8726,
+              "lon": 106.051,
+              "areaKm2": 33.12
+            }
+          ]
+        },
+        {
+          "code": "12091",
+          "name": "Xã Việt Yên",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Việt Yên",
+              "newWardShort": "Việt Yên",
+              "newWardCode": "12091",
+              "newWardType": "Xã",
+              "lat": 20.8816,
+              "lon": 106.002,
+              "areaKm2": 23.9845
+            }
+          ]
+        },
+        {
+          "code": "12079",
+          "name": "Xã Yên Phú",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Xã Việt Yên",
+              "newWardShort": "Việt Yên",
+              "newWardCode": "12091",
+              "newWardType": "Xã",
+              "lat": 20.8816,
+              "lon": 106.002,
+              "areaKm2": 23.9845
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "328",
+      "name": "Thị xã Mỹ Hào",
+      "type": "Thị xã",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "12124",
+          "name": "Phường Bạch Sam",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Phường Thượng Hồng",
+              "newWardShort": "Thượng Hồng",
+              "newWardCode": "12127",
+              "newWardType": "Phường",
+              "lat": 20.9348,
+              "lon": 106.128,
+              "areaKm2": 25.41
+            }
+          ]
+        },
+        {
+          "code": "12103",
+          "name": "Phường Bần Yên Nhân",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Phường Mỹ Hào",
+              "newWardShort": "Mỹ Hào",
+              "newWardCode": "12103",
+              "newWardType": "Phường",
+              "lat": 20.95,
+              "lon": 106.075,
+              "areaKm2": 28.36
+            }
+          ]
+        },
+        {
+          "code": "12121",
+          "name": "Phường Dị Sử",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Phường Đường Hào",
+              "newWardShort": "Đường Hào",
+              "newWardCode": "12133",
+              "newWardType": "Phường",
+              "lat": 20.8935,
+              "lon": 106.101,
+              "areaKm2": 25.62
+            }
+          ]
+        },
+        {
+          "code": "12127",
+          "name": "Phường Minh Đức",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Phường Thượng Hồng",
+              "newWardShort": "Thượng Hồng",
+              "newWardCode": "12127",
+              "newWardType": "Phường",
+              "lat": 20.9348,
+              "lon": 106.128,
+              "areaKm2": 25.41
+            }
+          ]
+        },
+        {
+          "code": "12118",
+          "name": "Phường Nhân Hòa",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Phường Mỹ Hào",
+              "newWardShort": "Mỹ Hào",
+              "newWardCode": "12103",
+              "newWardType": "Phường",
+              "lat": 20.95,
+              "lon": 106.075,
+              "areaKm2": 28.36
+            }
+          ]
+        },
+        {
+          "code": "12106",
+          "name": "Phường Phan Đình Phùng",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Phường Mỹ Hào",
+              "newWardShort": "Mỹ Hào",
+              "newWardCode": "12103",
+              "newWardType": "Phường",
+              "lat": 20.95,
+              "lon": 106.075,
+              "areaKm2": 28.36
+            }
+          ]
+        },
+        {
+          "code": "12130",
+          "name": "Phường Phùng Chí Kiên",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Phường Đường Hào",
+              "newWardShort": "Đường Hào",
+              "newWardCode": "12133",
+              "newWardType": "Phường",
+              "lat": 20.8935,
+              "lon": 106.101,
+              "areaKm2": 25.62
+            }
+          ]
+        },
+        {
+          "code": "12109",
+          "name": "Xã Cẩm Xá",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Phường Mỹ Hào",
+              "newWardShort": "Mỹ Hào",
+              "newWardCode": "12103",
+              "newWardType": "Phường",
+              "lat": 20.95,
+              "lon": 106.075,
+              "areaKm2": 28.36
+            }
+          ]
+        },
+        {
+          "code": "12112",
+          "name": "Xã Dương Quang",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Phường Thượng Hồng",
+              "newWardShort": "Thượng Hồng",
+              "newWardCode": "12127",
+              "newWardType": "Phường",
+              "lat": 20.9348,
+              "lon": 106.128,
+              "areaKm2": 25.41
+            }
+          ]
+        },
+        {
+          "code": "12115",
+          "name": "Xã Hòa Phong",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Phường Thượng Hồng",
+              "newWardShort": "Thượng Hồng",
+              "newWardCode": "12127",
+              "newWardType": "Phường",
+              "lat": 20.9348,
+              "lon": 106.128,
+              "areaKm2": 25.41
+            }
+          ]
+        },
+        {
+          "code": "12139",
+          "name": "Xã Hưng Long",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Phường Đường Hào",
+              "newWardShort": "Đường Hào",
+              "newWardCode": "12133",
+              "newWardType": "Phường",
+              "lat": 20.8935,
+              "lon": 106.101,
+              "areaKm2": 25.62
+            }
+          ]
+        },
+        {
+          "code": "12136",
+          "name": "Xã Ngọc Lâm",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Phường Đường Hào",
+              "newWardShort": "Đường Hào",
+              "newWardCode": "12133",
+              "newWardType": "Phường",
+              "lat": 20.8935,
+              "lon": 106.101,
+              "areaKm2": 25.62
+            }
+          ]
+        },
+        {
+          "code": "12133",
+          "name": "Xã Xuân Dục",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Hưng Yên",
+              "newProvinceSlug": "hung-yen",
+              "newProvinceCode": "33",
+              "newWard": "Phường Đường Hào",
+              "newWardShort": "Đường Hào",
+              "newWardCode": "12133",
+              "newWardType": "Phường",
+              "lat": 20.8935,
+              "lon": 106.101,
+              "areaKm2": 25.62
+            }
+          ]
+        }
+      ],
+      "results": []
+    }
+  ]
+}

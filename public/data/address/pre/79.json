@@ -1,0 +1,6088 @@
+{
+  "schemaVersion": 1,
+  "mergeDate": "2025-07-01",
+  "code": "79",
+  "name": "Thành phố Hồ Chí Minh",
+  "name_en": "Ho Chi Minh City",
+  "slug": "ho-chi-minh",
+  "districts": [
+    {
+      "code": "785",
+      "name": "Huyện Bình Chánh",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "27595",
+          "name": "Thị trấn Tân Túc",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Xã Tân Nhựt",
+              "newWardShort": "Tân Nhựt",
+              "newWardCode": "27595",
+              "newWardType": "Xã",
+              "lat": 10.7048,
+              "lon": 106.562,
+              "areaKm2": 43.67
+            }
+          ]
+        },
+        {
+          "code": "27625",
+          "name": "Xã An Phú Tây",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Xã Bình Chánh",
+              "newWardShort": "Bình Chánh",
+              "newWardCode": "27637",
+              "newWardType": "Xã",
+              "lat": 10.6662,
+              "lon": 106.586,
+              "areaKm2": 21.33
+            },
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Bình Đông",
+              "newWardShort": "Bình Đông",
+              "newWardCode": "27424",
+              "newWardType": "Phường",
+              "lat": 10.7012,
+              "lon": 106.612,
+              "areaKm2": 8.93
+            }
+          ]
+        },
+        {
+          "code": "27637",
+          "name": "Xã Bình Chánh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Xã Bình Chánh",
+              "newWardShort": "Bình Chánh",
+              "newWardCode": "27637",
+              "newWardType": "Xã",
+              "lat": 10.6662,
+              "lon": 106.586,
+              "areaKm2": 21.33
+            }
+          ]
+        },
+        {
+          "code": "27619",
+          "name": "Xã Bình Hưng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Xã Bình Hưng",
+              "newWardShort": "Bình Hưng",
+              "newWardCode": "27619",
+              "newWardType": "Xã",
+              "lat": 10.7067,
+              "lon": 106.66,
+              "areaKm2": 32.63
+            }
+          ]
+        },
+        {
+          "code": "27607",
+          "name": "Xã Bình Lợi",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Xã Bình Lợi",
+              "newWardShort": "Bình Lợi",
+              "newWardCode": "27610",
+              "newWardType": "Xã",
+              "lat": 10.754,
+              "lon": 106.516,
+              "areaKm2": 54.18
+            }
+          ]
+        },
+        {
+          "code": "27631",
+          "name": "Xã Đa Phước",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Xã Hưng Long",
+              "newWardShort": "Hưng Long",
+              "newWardCode": "27628",
+              "newWardType": "Xã",
+              "lat": 10.6594,
+              "lon": 106.645,
+              "areaKm2": 35.54
+            }
+          ]
+        },
+        {
+          "code": "27628",
+          "name": "Xã Hưng Long",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Xã Hưng Long",
+              "newWardShort": "Hưng Long",
+              "newWardCode": "27628",
+              "newWardType": "Xã",
+              "lat": 10.6594,
+              "lon": 106.645,
+              "areaKm2": 35.54
+            }
+          ]
+        },
+        {
+          "code": "27610",
+          "name": "Xã Lê Minh Xuân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Xã Bình Lợi",
+              "newWardShort": "Bình Lợi",
+              "newWardCode": "27610",
+              "newWardType": "Xã",
+              "lat": 10.754,
+              "lon": 106.516,
+              "areaKm2": 54.18
+            }
+          ]
+        },
+        {
+          "code": "27598",
+          "name": "Xã Phạm Văn Hai",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Xã Tân Vĩnh Lộc",
+              "newWardShort": "Tân Vĩnh Lộc",
+              "newWardCode": "27604",
+              "newWardType": "Xã",
+              "lat": 10.7912,
+              "lon": 106.551,
+              "areaKm2": 34.02
+            },
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Xã Vĩnh Lộc",
+              "newWardShort": "Vĩnh Lộc",
+              "newWardCode": "27601",
+              "newWardType": "Xã",
+              "lat": 10.8237,
+              "lon": 106.553,
+              "areaKm2": 30.58
+            }
+          ]
+        },
+        {
+          "code": "27622",
+          "name": "Xã Phong Phú",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Xã Bình Hưng",
+              "newWardShort": "Bình Hưng",
+              "newWardCode": "27619",
+              "newWardType": "Xã",
+              "lat": 10.7067,
+              "lon": 106.66,
+              "areaKm2": 32.63
+            }
+          ]
+        },
+        {
+          "code": "27640",
+          "name": "Xã Qui Đức",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Xã Hưng Long",
+              "newWardShort": "Hưng Long",
+              "newWardCode": "27628",
+              "newWardType": "Xã",
+              "lat": 10.6594,
+              "lon": 106.645,
+              "areaKm2": 35.54
+            }
+          ]
+        },
+        {
+          "code": "27616",
+          "name": "Xã Tân Kiên",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Tân Tạo",
+              "newWardShort": "Tân Tạo",
+              "newWardCode": "27457",
+              "newWardType": "Phường",
+              "lat": 10.7388,
+              "lon": 106.584,
+              "areaKm2": 14.7
+            },
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Xã Tân Nhựt",
+              "newWardShort": "Tân Nhựt",
+              "newWardCode": "27595",
+              "newWardType": "Xã",
+              "lat": 10.7048,
+              "lon": 106.562,
+              "areaKm2": 43.67
+            }
+          ]
+        },
+        {
+          "code": "27613",
+          "name": "Xã Tân Nhựt",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Xã Tân Nhựt",
+              "newWardShort": "Tân Nhựt",
+              "newWardCode": "27595",
+              "newWardType": "Xã",
+              "lat": 10.7048,
+              "lon": 106.562,
+              "areaKm2": 43.67
+            }
+          ]
+        },
+        {
+          "code": "27634",
+          "name": "Xã Tân Quý Tây",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Xã Bình Chánh",
+              "newWardShort": "Bình Chánh",
+              "newWardCode": "27637",
+              "newWardType": "Xã",
+              "lat": 10.6662,
+              "lon": 106.586,
+              "areaKm2": 21.33
+            }
+          ]
+        },
+        {
+          "code": "27601",
+          "name": "Xã Vĩnh Lộc A",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Xã Vĩnh Lộc",
+              "newWardShort": "Vĩnh Lộc",
+              "newWardCode": "27601",
+              "newWardType": "Xã",
+              "lat": 10.8237,
+              "lon": 106.553,
+              "areaKm2": 30.58
+            }
+          ]
+        },
+        {
+          "code": "27604",
+          "name": "Xã Vĩnh Lộc B",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Xã Tân Vĩnh Lộc",
+              "newWardShort": "Tân Vĩnh Lộc",
+              "newWardCode": "27604",
+              "newWardType": "Xã",
+              "lat": 10.7912,
+              "lon": 106.551,
+              "areaKm2": 34.02
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "787",
+      "name": "Huyện Cần Giờ",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "27664",
+          "name": "Thị trấn Cần Thạnh",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Xã Cần Giờ",
+              "newWardShort": "Cần Giờ",
+              "newWardCode": "27664",
+              "newWardType": "Xã",
+              "lat": 10.4524,
+              "lon": 106.908,
+              "areaKm2": 157.01
+            }
+          ]
+        },
+        {
+          "code": "27673",
+          "name": "Xã An Thới Đông",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Xã An Thới Đông",
+              "newWardShort": "An Thới Đông",
+              "newWardCode": "27673",
+              "newWardType": "Xã",
+              "lat": 10.5006,
+              "lon": 106.808,
+              "areaKm2": 257.84
+            },
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Xã Bình Khánh",
+              "newWardShort": "Bình Khánh",
+              "newWardCode": "27667",
+              "newWardType": "Xã",
+              "lat": 10.5788,
+              "lon": 106.887,
+              "areaKm2": 158.28
+            }
+          ]
+        },
+        {
+          "code": "27667",
+          "name": "Xã Bình Khánh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Xã Bình Khánh",
+              "newWardShort": "Bình Khánh",
+              "newWardCode": "27667",
+              "newWardType": "Xã",
+              "lat": 10.5788,
+              "lon": 106.887,
+              "areaKm2": 158.28
+            }
+          ]
+        },
+        {
+          "code": "27679",
+          "name": "Xã Long Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Xã Cần Giờ",
+              "newWardShort": "Cần Giờ",
+              "newWardCode": "27664",
+              "newWardType": "Xã",
+              "lat": 10.4524,
+              "lon": 106.908,
+              "areaKm2": 157.01
+            }
+          ]
+        },
+        {
+          "code": "27682",
+          "name": "Xã Lý Nhơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Xã An Thới Đông",
+              "newWardShort": "An Thới Đông",
+              "newWardCode": "27673",
+              "newWardType": "Xã",
+              "lat": 10.5006,
+              "lon": 106.808,
+              "areaKm2": 257.84
+            }
+          ]
+        },
+        {
+          "code": "27670",
+          "name": "Xã Tam Thôn Hiệp",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Xã Bình Khánh",
+              "newWardShort": "Bình Khánh",
+              "newWardCode": "27667",
+              "newWardType": "Xã",
+              "lat": 10.5788,
+              "lon": 106.887,
+              "areaKm2": 158.28
+            }
+          ]
+        },
+        {
+          "code": "27676",
+          "name": "Xã Thạnh An",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Xã Thạnh An",
+              "newWardShort": "Thạnh An",
+              "newWardCode": "27676",
+              "newWardType": "Xã",
+              "lat": 10.5464,
+              "lon": 106.975,
+              "areaKm2": 131.31
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "783",
+      "name": "Huyện Củ Chi",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "27496",
+          "name": "Thị trấn Củ Chi",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Xã Tân An Hội",
+              "newWardShort": "Tân An Hội",
+              "newWardCode": "27496",
+              "newWardType": "Xã",
+              "lat": 10.9633,
+              "lon": 106.471,
+              "areaKm2": 53.5
+            }
+          ]
+        },
+        {
+          "code": "27508",
+          "name": "Xã An Nhơn Tây",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Xã An Nhơn Tây",
+              "newWardShort": "An Nhơn Tây",
+              "newWardCode": "27508",
+              "newWardType": "Xã",
+              "lat": 11.1015,
+              "lon": 106.483,
+              "areaKm2": 77.69
+            }
+          ]
+        },
+        {
+          "code": "27502",
+          "name": "Xã An Phú",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Xã An Nhơn Tây",
+              "newWardShort": "An Nhơn Tây",
+              "newWardCode": "27508",
+              "newWardType": "Xã",
+              "lat": 11.1015,
+              "lon": 106.483,
+              "areaKm2": 77.69
+            }
+          ]
+        },
+        {
+          "code": "27550",
+          "name": "Xã Bình Mỹ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Xã Bình Mỹ",
+              "newWardShort": "Bình Mỹ",
+              "newWardCode": "27544",
+              "newWardType": "Xã",
+              "lat": 10.947,
+              "lon": 106.635,
+              "areaKm2": 54.43
+            }
+          ]
+        },
+        {
+          "code": "27544",
+          "name": "Xã Hòa Phú",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Xã Bình Mỹ",
+              "newWardShort": "Bình Mỹ",
+              "newWardCode": "27544",
+              "newWardType": "Xã",
+              "lat": 10.947,
+              "lon": 106.635,
+              "areaKm2": 54.43
+            }
+          ]
+        },
+        {
+          "code": "27511",
+          "name": "Xã Nhuận Đức",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Xã Nhuận Đức",
+              "newWardShort": "Nhuận Đức",
+              "newWardCode": "27511",
+              "newWardType": "Xã",
+              "lat": 11.0321,
+              "lon": 106.499,
+              "areaKm2": 62.05
+            }
+          ]
+        },
+        {
+          "code": "27514",
+          "name": "Xã Phạm Văn Cội",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Xã Nhuận Đức",
+              "newWardShort": "Nhuận Đức",
+              "newWardCode": "27511",
+              "newWardType": "Xã",
+              "lat": 11.0321,
+              "lon": 106.499,
+              "areaKm2": 62.05
+            }
+          ]
+        },
+        {
+          "code": "27517",
+          "name": "Xã Phú Hòa Đông",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Xã Phú Hòa Đông",
+              "newWardShort": "Phú Hòa Đông",
+              "newWardCode": "27541",
+              "newWardType": "Xã",
+              "lat": 10.9495,
+              "lon": 106.598,
+              "areaKm2": 59.75
+            }
+          ]
+        },
+        {
+          "code": "27499",
+          "name": "Xã Phú Mỹ Hưng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Xã An Nhơn Tây",
+              "newWardShort": "An Nhơn Tây",
+              "newWardCode": "27508",
+              "newWardType": "Xã",
+              "lat": 11.1015,
+              "lon": 106.483,
+              "areaKm2": 77.69
+            }
+          ]
+        },
+        {
+          "code": "27529",
+          "name": "Xã Phước Hiệp",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Xã Tân An Hội",
+              "newWardShort": "Tân An Hội",
+              "newWardCode": "27496",
+              "newWardType": "Xã",
+              "lat": 10.9633,
+              "lon": 106.471,
+              "areaKm2": 53.5
+            }
+          ]
+        },
+        {
+          "code": "27526",
+          "name": "Xã Phước Thạnh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Xã Thái Mỹ",
+              "newWardShort": "Thái Mỹ",
+              "newWardCode": "27526",
+              "newWardType": "Xã",
+              "lat": 10.9898,
+              "lon": 106.407,
+              "areaKm2": 62.44
+            }
+          ]
+        },
+        {
+          "code": "27535",
+          "name": "Xã Phước Vĩnh An",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Xã Củ Chi",
+              "newWardShort": "Củ Chi",
+              "newWardCode": "27553",
+              "newWardType": "Xã",
+              "lat": 10.9518,
+              "lon": 106.533,
+              "areaKm2": 64.87
+            }
+          ]
+        },
+        {
+          "code": "27532",
+          "name": "Xã Tân An Hội",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Xã Tân An Hội",
+              "newWardShort": "Tân An Hội",
+              "newWardCode": "27496",
+              "newWardType": "Xã",
+              "lat": 10.9633,
+              "lon": 106.471,
+              "areaKm2": 53.5
+            }
+          ]
+        },
+        {
+          "code": "27553",
+          "name": "Xã Tân Phú Trung",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Xã Củ Chi",
+              "newWardShort": "Củ Chi",
+              "newWardCode": "27553",
+              "newWardType": "Xã",
+              "lat": 10.9518,
+              "lon": 106.533,
+              "areaKm2": 64.87
+            }
+          ]
+        },
+        {
+          "code": "27547",
+          "name": "Xã Tân Thạnh Đông",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Xã Phú Hòa Đông",
+              "newWardShort": "Phú Hòa Đông",
+              "newWardCode": "27541",
+              "newWardType": "Xã",
+              "lat": 10.9495,
+              "lon": 106.598,
+              "areaKm2": 59.75
+            }
+          ]
+        },
+        {
+          "code": "27541",
+          "name": "Xã Tân Thạnh Tây",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Xã Phú Hòa Đông",
+              "newWardShort": "Phú Hòa Đông",
+              "newWardCode": "27541",
+              "newWardType": "Xã",
+              "lat": 10.9495,
+              "lon": 106.598,
+              "areaKm2": 59.75
+            }
+          ]
+        },
+        {
+          "code": "27556",
+          "name": "Xã Tân Thông Hội",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Xã Củ Chi",
+              "newWardShort": "Củ Chi",
+              "newWardCode": "27553",
+              "newWardType": "Xã",
+              "lat": 10.9518,
+              "lon": 106.533,
+              "areaKm2": 64.87
+            }
+          ]
+        },
+        {
+          "code": "27538",
+          "name": "Xã Thái Mỹ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Xã Thái Mỹ",
+              "newWardShort": "Thái Mỹ",
+              "newWardCode": "27526",
+              "newWardType": "Xã",
+              "lat": 10.9898,
+              "lon": 106.407,
+              "areaKm2": 62.44
+            }
+          ]
+        },
+        {
+          "code": "27523",
+          "name": "Xã Trung An",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Xã Bình Mỹ",
+              "newWardShort": "Bình Mỹ",
+              "newWardCode": "27544",
+              "newWardType": "Xã",
+              "lat": 10.947,
+              "lon": 106.635,
+              "areaKm2": 54.43
+            }
+          ]
+        },
+        {
+          "code": "27520",
+          "name": "Xã Trung Lập Hạ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Xã Nhuận Đức",
+              "newWardShort": "Nhuận Đức",
+              "newWardCode": "27511",
+              "newWardType": "Xã",
+              "lat": 11.0321,
+              "lon": 106.499,
+              "areaKm2": 62.05
+            }
+          ]
+        },
+        {
+          "code": "27505",
+          "name": "Xã Trung Lập Thượng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Xã Thái Mỹ",
+              "newWardShort": "Thái Mỹ",
+              "newWardCode": "27526",
+              "newWardType": "Xã",
+              "lat": 10.9898,
+              "lon": 106.407,
+              "areaKm2": 62.44
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "784",
+      "name": "Huyện Hóc Môn",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "27559",
+          "name": "Thị trấn Hóc Môn",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Xã Hóc Môn",
+              "newWardShort": "Hóc Môn",
+              "newWardCode": "27559",
+              "newWardType": "Xã",
+              "lat": 10.9021,
+              "lon": 106.591,
+              "areaKm2": 16.43
+            }
+          ]
+        },
+        {
+          "code": "27592",
+          "name": "Xã Bà Điểm",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Xã Bà Điểm",
+              "newWardShort": "Bà Điểm",
+              "newWardCode": "27592",
+              "newWardType": "Xã",
+              "lat": 10.8567,
+              "lon": 106.55,
+              "areaKm2": 27.36
+            }
+          ]
+        },
+        {
+          "code": "27568",
+          "name": "Xã Đông Thạnh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Xã Đông Thạnh",
+              "newWardShort": "Đông Thạnh",
+              "newWardCode": "27568",
+              "newWardType": "Xã",
+              "lat": 10.9069,
+              "lon": 106.645,
+              "areaKm2": 30.16
+            }
+          ]
+        },
+        {
+          "code": "27565",
+          "name": "Xã Nhị Bình",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Xã Đông Thạnh",
+              "newWardShort": "Đông Thạnh",
+              "newWardCode": "27568",
+              "newWardType": "Xã",
+              "lat": 10.9069,
+              "lon": 106.645,
+              "areaKm2": 30.16
+            }
+          ]
+        },
+        {
+          "code": "27562",
+          "name": "Xã Tân Hiệp",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Xã Hóc Môn",
+              "newWardShort": "Hóc Môn",
+              "newWardCode": "27559",
+              "newWardType": "Xã",
+              "lat": 10.9021,
+              "lon": 106.591,
+              "areaKm2": 16.43
+            }
+          ]
+        },
+        {
+          "code": "27571",
+          "name": "Xã Tân Thới Nhì",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Xã Xuân Thới Sơn",
+              "newWardShort": "Xuân Thới Sơn",
+              "newWardCode": "27577",
+              "newWardType": "Xã",
+              "lat": 10.89,
+              "lon": 106.557,
+              "areaKm2": 35.21
+            }
+          ]
+        },
+        {
+          "code": "27580",
+          "name": "Xã Tân Xuân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Xã Hóc Môn",
+              "newWardShort": "Hóc Môn",
+              "newWardCode": "27559",
+              "newWardType": "Xã",
+              "lat": 10.9021,
+              "lon": 106.591,
+              "areaKm2": 16.43
+            }
+          ]
+        },
+        {
+          "code": "27574",
+          "name": "Xã Thới Tam Thôn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Xã Đông Thạnh",
+              "newWardShort": "Đông Thạnh",
+              "newWardCode": "27568",
+              "newWardType": "Xã",
+              "lat": 10.9069,
+              "lon": 106.645,
+              "areaKm2": 30.16
+            }
+          ]
+        },
+        {
+          "code": "27586",
+          "name": "Xã Trung Chánh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Xã Bà Điểm",
+              "newWardShort": "Bà Điểm",
+              "newWardCode": "27592",
+              "newWardType": "Xã",
+              "lat": 10.8567,
+              "lon": 106.55,
+              "areaKm2": 27.36
+            }
+          ]
+        },
+        {
+          "code": "27583",
+          "name": "Xã Xuân Thới Đông",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Xã Xuân Thới Sơn",
+              "newWardShort": "Xuân Thới Sơn",
+              "newWardCode": "27577",
+              "newWardType": "Xã",
+              "lat": 10.89,
+              "lon": 106.557,
+              "areaKm2": 35.21
+            }
+          ]
+        },
+        {
+          "code": "27577",
+          "name": "Xã Xuân Thới Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Xã Xuân Thới Sơn",
+              "newWardShort": "Xuân Thới Sơn",
+              "newWardCode": "27577",
+              "newWardType": "Xã",
+              "lat": 10.89,
+              "lon": 106.557,
+              "areaKm2": 35.21
+            }
+          ]
+        },
+        {
+          "code": "27589",
+          "name": "Xã Xuân Thới Thượng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Xã Bà Điểm",
+              "newWardShort": "Bà Điểm",
+              "newWardCode": "27592",
+              "newWardType": "Xã",
+              "lat": 10.8567,
+              "lon": 106.55,
+              "areaKm2": 27.36
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "786",
+      "name": "Huyện Nhà Bè",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "27643",
+          "name": "Thị trấn Nhà Bè",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Xã Nhà Bè",
+              "newWardShort": "Nhà Bè",
+              "newWardCode": "27655",
+              "newWardType": "Xã",
+              "lat": 10.7078,
+              "lon": 106.699,
+              "areaKm2": 37.1
+            }
+          ]
+        },
+        {
+          "code": "27661",
+          "name": "Xã Hiệp Phước",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Xã Hiệp Phước",
+              "newWardShort": "Hiệp Phước",
+              "newWardCode": "27658",
+              "newWardType": "Xã",
+              "lat": 10.614,
+              "lon": 106.757,
+              "areaKm2": 63.33
+            }
+          ]
+        },
+        {
+          "code": "27658",
+          "name": "Xã Long Thới",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Xã Hiệp Phước",
+              "newWardShort": "Hiệp Phước",
+              "newWardCode": "27658",
+              "newWardType": "Xã",
+              "lat": 10.614,
+              "lon": 106.757,
+              "areaKm2": 63.33
+            }
+          ]
+        },
+        {
+          "code": "27652",
+          "name": "Xã Nhơn Đức",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Xã Hiệp Phước",
+              "newWardShort": "Hiệp Phước",
+              "newWardCode": "27658",
+              "newWardType": "Xã",
+              "lat": 10.614,
+              "lon": 106.757,
+              "areaKm2": 63.33
+            }
+          ]
+        },
+        {
+          "code": "27655",
+          "name": "Xã Phú Xuân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Xã Nhà Bè",
+              "newWardShort": "Nhà Bè",
+              "newWardCode": "27655",
+              "newWardType": "Xã",
+              "lat": 10.7078,
+              "lon": 106.699,
+              "areaKm2": 37.1
+            }
+          ]
+        },
+        {
+          "code": "27646",
+          "name": "Xã Phước Kiển",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Xã Nhà Bè",
+              "newWardShort": "Nhà Bè",
+              "newWardCode": "27655",
+              "newWardType": "Xã",
+              "lat": 10.7078,
+              "lon": 106.699,
+              "areaKm2": 37.1
+            }
+          ]
+        },
+        {
+          "code": "27649",
+          "name": "Xã Phước Lộc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Xã Nhà Bè",
+              "newWardShort": "Nhà Bè",
+              "newWardCode": "27655",
+              "newWardType": "Xã",
+              "lat": 10.7078,
+              "lon": 106.699,
+              "areaKm2": 37.1
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "760",
+      "name": "Quận 1",
+      "type": "Quận",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "26740",
+          "name": "Phường Bến Nghé",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Sài Gòn",
+              "newWardShort": "Sài Gòn",
+              "newWardCode": "26740",
+              "newWardType": "Phường",
+              "lat": 10.7805,
+              "lon": 106.704,
+              "areaKm2": 3.04
+            }
+          ]
+        },
+        {
+          "code": "26743",
+          "name": "Phường Bến Thành",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Bến Thành",
+              "newWardShort": "Bến Thành",
+              "newWardCode": "26743",
+              "newWardType": "Phường",
+              "lat": 10.7713,
+              "lon": 106.694,
+              "areaKm2": 1.85
+            }
+          ]
+        },
+        {
+          "code": "26761",
+          "name": "Phường Cầu Kho",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Cầu Ông Lãnh",
+              "newWardShort": "Cầu Ông Lãnh",
+              "newWardCode": "26758",
+              "newWardType": "Phường",
+              "lat": 10.7607,
+              "lon": 106.69,
+              "areaKm2": 1.6
+            }
+          ]
+        },
+        {
+          "code": "26752",
+          "name": "Phường Cầu Ông Lãnh",
+          "type": "Phường",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Bến Thành",
+              "newWardShort": "Bến Thành",
+              "newWardCode": "26743",
+              "newWardType": "Phường",
+              "lat": 10.7713,
+              "lon": 106.694,
+              "areaKm2": 1.85
+            },
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Cầu Ông Lãnh",
+              "newWardShort": "Cầu Ông Lãnh",
+              "newWardCode": "26758",
+              "newWardType": "Phường",
+              "lat": 10.7607,
+              "lon": 106.69,
+              "areaKm2": 1.6
+            }
+          ]
+        },
+        {
+          "code": "26755",
+          "name": "Phường Cô Giang",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Cầu Ông Lãnh",
+              "newWardShort": "Cầu Ông Lãnh",
+              "newWardCode": "26758",
+              "newWardType": "Phường",
+              "lat": 10.7607,
+              "lon": 106.69,
+              "areaKm2": 1.6
+            }
+          ]
+        },
+        {
+          "code": "26737",
+          "name": "Phường Đa Kao",
+          "type": "Phường",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Sài Gòn",
+              "newWardShort": "Sài Gòn",
+              "newWardCode": "26740",
+              "newWardType": "Phường",
+              "lat": 10.7805,
+              "lon": 106.704,
+              "areaKm2": 3.04
+            },
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Tân Định",
+              "newWardShort": "Tân Định",
+              "newWardCode": "26737",
+              "newWardType": "Phường",
+              "lat": 10.7917,
+              "lon": 106.693,
+              "areaKm2": 1.23
+            }
+          ]
+        },
+        {
+          "code": "26758",
+          "name": "Phường Nguyễn Cư Trinh",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Cầu Ông Lãnh",
+              "newWardShort": "Cầu Ông Lãnh",
+              "newWardCode": "26758",
+              "newWardType": "Phường",
+              "lat": 10.7607,
+              "lon": 106.69,
+              "areaKm2": 1.6
+            }
+          ]
+        },
+        {
+          "code": "26746",
+          "name": "Phường Nguyễn Thái Bình",
+          "type": "Phường",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Bến Thành",
+              "newWardShort": "Bến Thành",
+              "newWardCode": "26743",
+              "newWardType": "Phường",
+              "lat": 10.7713,
+              "lon": 106.694,
+              "areaKm2": 1.85
+            },
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Sài Gòn",
+              "newWardShort": "Sài Gòn",
+              "newWardCode": "26740",
+              "newWardType": "Phường",
+              "lat": 10.7805,
+              "lon": 106.704,
+              "areaKm2": 3.04
+            }
+          ]
+        },
+        {
+          "code": "26749",
+          "name": "Phường Phạm Ngũ Lão",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Bến Thành",
+              "newWardShort": "Bến Thành",
+              "newWardCode": "26743",
+              "newWardType": "Phường",
+              "lat": 10.7713,
+              "lon": 106.694,
+              "areaKm2": 1.85
+            }
+          ]
+        },
+        {
+          "code": "26734",
+          "name": "Phường Tân Định",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Tân Định",
+              "newWardShort": "Tân Định",
+              "newWardCode": "26737",
+              "newWardType": "Phường",
+              "lat": 10.7917,
+              "lon": 106.693,
+              "areaKm2": 1.23
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "771",
+      "name": "Quận 10",
+      "type": "Quận",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "27184",
+          "name": "Phường 1",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Vườn Lài",
+              "newWardShort": "Vườn Lài",
+              "newWardCode": "27190",
+              "newWardType": "Phường",
+              "lat": 10.7644,
+              "lon": 106.675,
+              "areaKm2": 1.27
+            }
+          ]
+        },
+        {
+          "code": "27178",
+          "name": "Phường 10",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Vườn Lài",
+              "newWardShort": "Vườn Lài",
+              "newWardCode": "27190",
+              "newWardType": "Phường",
+              "lat": 10.7644,
+              "lon": 106.675,
+              "areaKm2": 1.27
+            }
+          ]
+        },
+        {
+          "code": "27172",
+          "name": "Phường 12",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Hòa Hưng",
+              "newWardShort": "Hòa Hưng",
+              "newWardCode": "27163",
+              "newWardType": "Phường",
+              "lat": 10.7776,
+              "lon": 106.67,
+              "areaKm2": 2.59
+            }
+          ]
+        },
+        {
+          "code": "27166",
+          "name": "Phường 13",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Hòa Hưng",
+              "newWardShort": "Hòa Hưng",
+              "newWardCode": "27163",
+              "newWardType": "Phường",
+              "lat": 10.7776,
+              "lon": 106.67,
+              "areaKm2": 2.59
+            }
+          ]
+        },
+        {
+          "code": "27169",
+          "name": "Phường 14",
+          "type": "Phường",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Diên Hồng",
+              "newWardShort": "Diên Hồng",
+              "newWardCode": "27169",
+              "newWardType": "Phường",
+              "lat": 10.7691,
+              "lon": 106.662,
+              "areaKm2": 1.86
+            },
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Hòa Hưng",
+              "newWardShort": "Hòa Hưng",
+              "newWardCode": "27163",
+              "newWardType": "Phường",
+              "lat": 10.7776,
+              "lon": 106.67,
+              "areaKm2": 2.59
+            }
+          ]
+        },
+        {
+          "code": "27163",
+          "name": "Phường 15",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Hòa Hưng",
+              "newWardShort": "Hòa Hưng",
+              "newWardCode": "27163",
+              "newWardType": "Phường",
+              "lat": 10.7776,
+              "lon": 106.67,
+              "areaKm2": 2.59
+            }
+          ]
+        },
+        {
+          "code": "27190",
+          "name": "Phường 2",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Vườn Lài",
+              "newWardShort": "Vườn Lài",
+              "newWardCode": "27190",
+              "newWardType": "Phường",
+              "lat": 10.7644,
+              "lon": 106.675,
+              "areaKm2": 1.27
+            }
+          ]
+        },
+        {
+          "code": "27193",
+          "name": "Phường 4",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Vườn Lài",
+              "newWardShort": "Vườn Lài",
+              "newWardCode": "27190",
+              "newWardType": "Phường",
+              "lat": 10.7644,
+              "lon": 106.675,
+              "areaKm2": 1.27
+            }
+          ]
+        },
+        {
+          "code": "27202",
+          "name": "Phường 6",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Diên Hồng",
+              "newWardShort": "Diên Hồng",
+              "newWardCode": "27169",
+              "newWardType": "Phường",
+              "lat": 10.7691,
+              "lon": 106.662,
+              "areaKm2": 1.86
+            }
+          ]
+        },
+        {
+          "code": "27187",
+          "name": "Phường 8",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Diên Hồng",
+              "newWardShort": "Diên Hồng",
+              "newWardCode": "27169",
+              "newWardType": "Phường",
+              "lat": 10.7691,
+              "lon": 106.662,
+              "areaKm2": 1.86
+            }
+          ]
+        },
+        {
+          "code": "27181",
+          "name": "Phường 9",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Vườn Lài",
+              "newWardShort": "Vườn Lài",
+              "newWardCode": "27190",
+              "newWardType": "Phường",
+              "lat": 10.7644,
+              "lon": 106.675,
+              "areaKm2": 1.27
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "772",
+      "name": "Quận 11",
+      "type": "Quận",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "27247",
+          "name": "Phường 1",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Minh Phụng",
+              "newWardShort": "Minh Phụng",
+              "newWardCode": "27238",
+              "newWardType": "Phường",
+              "lat": 10.7559,
+              "lon": 106.648,
+              "areaKm2": 1.27
+            }
+          ]
+        },
+        {
+          "code": "27232",
+          "name": "Phường 10",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Bình Thới",
+              "newWardShort": "Bình Thới",
+              "newWardCode": "27232",
+              "newWardType": "Phường",
+              "lat": 10.7626,
+              "lon": 106.642,
+              "areaKm2": 1.52
+            }
+          ]
+        },
+        {
+          "code": "27226",
+          "name": "Phường 11",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Phú Thọ",
+              "newWardShort": "Phú Thọ",
+              "newWardCode": "27226",
+              "newWardType": "Phường",
+              "lat": 10.7675,
+              "lon": 106.654,
+              "areaKm2": 1.37
+            }
+          ]
+        },
+        {
+          "code": "27214",
+          "name": "Phường 14",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Hòa Bình",
+              "newWardShort": "Hòa Bình",
+              "newWardCode": "27211",
+              "newWardType": "Phường",
+              "lat": 10.7702,
+              "lon": 106.645,
+              "areaKm2": 0.98
+            }
+          ]
+        },
+        {
+          "code": "27208",
+          "name": "Phường 15",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Phú Thọ",
+              "newWardShort": "Phú Thọ",
+              "newWardCode": "27226",
+              "newWardType": "Phường",
+              "lat": 10.7675,
+              "lon": 106.654,
+              "areaKm2": 1.37
+            }
+          ]
+        },
+        {
+          "code": "27253",
+          "name": "Phường 16",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Minh Phụng",
+              "newWardShort": "Minh Phụng",
+              "newWardCode": "27238",
+              "newWardType": "Phường",
+              "lat": 10.7559,
+              "lon": 106.648,
+              "areaKm2": 1.27
+            }
+          ]
+        },
+        {
+          "code": "27220",
+          "name": "Phường 3",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Bình Thới",
+              "newWardShort": "Bình Thới",
+              "newWardCode": "27232",
+              "newWardType": "Phường",
+              "lat": 10.7626,
+              "lon": 106.642,
+              "areaKm2": 1.52
+            }
+          ]
+        },
+        {
+          "code": "27211",
+          "name": "Phường 5",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Hòa Bình",
+              "newWardShort": "Hòa Bình",
+              "newWardCode": "27211",
+              "newWardType": "Phường",
+              "lat": 10.7702,
+              "lon": 106.645,
+              "areaKm2": 0.98
+            }
+          ]
+        },
+        {
+          "code": "27238",
+          "name": "Phường 7",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Minh Phụng",
+              "newWardShort": "Minh Phụng",
+              "newWardCode": "27238",
+              "newWardType": "Phường",
+              "lat": 10.7559,
+              "lon": 106.648,
+              "areaKm2": 1.27
+            }
+          ]
+        },
+        {
+          "code": "27229",
+          "name": "Phường 8",
+          "type": "Phường",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Bình Thới",
+              "newWardShort": "Bình Thới",
+              "newWardCode": "27232",
+              "newWardType": "Phường",
+              "lat": 10.7626,
+              "lon": 106.642,
+              "areaKm2": 1.52
+            },
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Phú Thọ",
+              "newWardShort": "Phú Thọ",
+              "newWardCode": "27226",
+              "newWardType": "Phường",
+              "lat": 10.7675,
+              "lon": 106.654,
+              "areaKm2": 1.37
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "761",
+      "name": "Quận 12",
+      "type": "Quận",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "26779",
+          "name": "Phường An Phú Đông",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường An Phú Đông",
+              "newWardShort": "An Phú Đông",
+              "newWardCode": "26767",
+              "newWardType": "Phường",
+              "lat": 10.8625,
+              "lon": 106.693,
+              "areaKm2": 14.59
+            }
+          ]
+        },
+        {
+          "code": "26788",
+          "name": "Phường Đông Hưng Thuận",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Đông Hưng Thuận",
+              "newWardShort": "Đông Hưng Thuận",
+              "newWardCode": "26791",
+              "newWardType": "Phường",
+              "lat": 10.8357,
+              "lon": 106.622,
+              "areaKm2": 8.26
+            }
+          ]
+        },
+        {
+          "code": "26770",
+          "name": "Phường Hiệp Thành",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Tân Thới Hiệp",
+              "newWardShort": "Tân Thới Hiệp",
+              "newWardCode": "26782",
+              "newWardType": "Phường",
+              "lat": 10.8746,
+              "lon": 106.64,
+              "areaKm2": 8.06
+            }
+          ]
+        },
+        {
+          "code": "26776",
+          "name": "Phường Tân Chánh Hiệp",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Trung Mỹ Tây",
+              "newWardShort": "Trung Mỹ Tây",
+              "newWardCode": "26785",
+              "newWardType": "Phường",
+              "lat": 10.8601,
+              "lon": 106.622,
+              "areaKm2": 6.92
+            }
+          ]
+        },
+        {
+          "code": "26787",
+          "name": "Phường Tân Hưng Thuận",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Đông Hưng Thuận",
+              "newWardShort": "Đông Hưng Thuận",
+              "newWardCode": "26791",
+              "newWardType": "Phường",
+              "lat": 10.8357,
+              "lon": 106.622,
+              "areaKm2": 8.26
+            }
+          ]
+        },
+        {
+          "code": "26782",
+          "name": "Phường Tân Thới Hiệp",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Tân Thới Hiệp",
+              "newWardShort": "Tân Thới Hiệp",
+              "newWardCode": "26782",
+              "newWardType": "Phường",
+              "lat": 10.8746,
+              "lon": 106.64,
+              "areaKm2": 8.06
+            }
+          ]
+        },
+        {
+          "code": "26791",
+          "name": "Phường Tân Thới Nhất",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Đông Hưng Thuận",
+              "newWardShort": "Đông Hưng Thuận",
+              "newWardCode": "26791",
+              "newWardType": "Phường",
+              "lat": 10.8357,
+              "lon": 106.622,
+              "areaKm2": 8.26
+            }
+          ]
+        },
+        {
+          "code": "26767",
+          "name": "Phường Thạnh Lộc",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường An Phú Đông",
+              "newWardShort": "An Phú Đông",
+              "newWardCode": "26767",
+              "newWardType": "Phường",
+              "lat": 10.8625,
+              "lon": 106.693,
+              "areaKm2": 14.59
+            }
+          ]
+        },
+        {
+          "code": "26764",
+          "name": "Phường Thạnh Xuân",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Thới An",
+              "newWardShort": "Thới An",
+              "newWardCode": "26773",
+              "newWardType": "Phường",
+              "lat": 10.8791,
+              "lon": 106.666,
+              "areaKm2": 14.89
+            }
+          ]
+        },
+        {
+          "code": "26773",
+          "name": "Phường Thới An",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Thới An",
+              "newWardShort": "Thới An",
+              "newWardCode": "26773",
+              "newWardType": "Phường",
+              "lat": 10.8791,
+              "lon": 106.666,
+              "areaKm2": 14.89
+            }
+          ]
+        },
+        {
+          "code": "26785",
+          "name": "Phường Trung Mỹ Tây",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Trung Mỹ Tây",
+              "newWardShort": "Trung Mỹ Tây",
+              "newWardCode": "26785",
+              "newWardType": "Phường",
+              "lat": 10.8601,
+              "lon": 106.622,
+              "areaKm2": 6.92
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "770",
+      "name": "Quận 3",
+      "type": "Quận",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "27160",
+          "name": "Phường 1",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Bàn Cờ",
+              "newWardShort": "Bàn Cờ",
+              "newWardCode": "27154",
+              "newWardType": "Phường",
+              "lat": 10.7705,
+              "lon": 106.682,
+              "areaKm2": 0.99
+            }
+          ]
+        },
+        {
+          "code": "27133",
+          "name": "Phường 11",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Nhiêu Lộc",
+              "newWardShort": "Nhiêu Lộc",
+              "newWardCode": "27142",
+              "newWardType": "Phường",
+              "lat": 10.7855,
+              "lon": 106.676,
+              "areaKm2": 1.71
+            }
+          ]
+        },
+        {
+          "code": "27130",
+          "name": "Phường 12",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Nhiêu Lộc",
+              "newWardShort": "Nhiêu Lộc",
+              "newWardCode": "27142",
+              "newWardType": "Phường",
+              "lat": 10.7855,
+              "lon": 106.676,
+              "areaKm2": 1.71
+            }
+          ]
+        },
+        {
+          "code": "27127",
+          "name": "Phường 14",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Nhiêu Lộc",
+              "newWardShort": "Nhiêu Lộc",
+              "newWardCode": "27142",
+              "newWardType": "Phường",
+              "lat": 10.7855,
+              "lon": 106.676,
+              "areaKm2": 1.71
+            }
+          ]
+        },
+        {
+          "code": "27157",
+          "name": "Phường 2",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Bàn Cờ",
+              "newWardShort": "Bàn Cờ",
+              "newWardCode": "27154",
+              "newWardType": "Phường",
+              "lat": 10.7705,
+              "lon": 106.682,
+              "areaKm2": 0.99
+            }
+          ]
+        },
+        {
+          "code": "27154",
+          "name": "Phường 3",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Bàn Cờ",
+              "newWardShort": "Bàn Cờ",
+              "newWardCode": "27154",
+              "newWardType": "Phường",
+              "lat": 10.7705,
+              "lon": 106.682,
+              "areaKm2": 0.99
+            }
+          ]
+        },
+        {
+          "code": "27148",
+          "name": "Phường 4",
+          "type": "Phường",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Bàn Cờ",
+              "newWardShort": "Bàn Cờ",
+              "newWardCode": "27154",
+              "newWardType": "Phường",
+              "lat": 10.7705,
+              "lon": 106.682,
+              "areaKm2": 0.99
+            },
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Xuân Hòa",
+              "newWardShort": "Xuân Hòa",
+              "newWardCode": "27139",
+              "newWardType": "Phường",
+              "lat": 10.7818,
+              "lon": 106.69,
+              "areaKm2": 2.22
+            }
+          ]
+        },
+        {
+          "code": "27151",
+          "name": "Phường 5",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Bàn Cờ",
+              "newWardShort": "Bàn Cờ",
+              "newWardCode": "27154",
+              "newWardType": "Phường",
+              "lat": 10.7705,
+              "lon": 106.682,
+              "areaKm2": 0.99
+            }
+          ]
+        },
+        {
+          "code": "27142",
+          "name": "Phường 9",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Nhiêu Lộc",
+              "newWardShort": "Nhiêu Lộc",
+              "newWardCode": "27142",
+              "newWardType": "Phường",
+              "lat": 10.7855,
+              "lon": 106.676,
+              "areaKm2": 1.71
+            }
+          ]
+        },
+        {
+          "code": "27139",
+          "name": "Phường Võ Thị Sáu",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Xuân Hòa",
+              "newWardShort": "Xuân Hòa",
+              "newWardCode": "27139",
+              "newWardType": "Phường",
+              "lat": 10.7818,
+              "lon": 106.69,
+              "areaKm2": 2.22
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "773",
+      "name": "Quận 4",
+      "type": "Quận",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "27298",
+          "name": "Phường 1",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Vĩnh Hội",
+              "newWardShort": "Vĩnh Hội",
+              "newWardCode": "27286",
+              "newWardType": "Phường",
+              "lat": 10.7553,
+              "lon": 106.696,
+              "areaKm2": 1.17
+            }
+          ]
+        },
+        {
+          "code": "27259",
+          "name": "Phường 13",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Xóm Chiếu",
+              "newWardShort": "Xóm Chiếu",
+              "newWardCode": "27259",
+              "newWardType": "Phường",
+              "lat": 10.757,
+              "lon": 106.717,
+              "areaKm2": 1.94
+            }
+          ]
+        },
+        {
+          "code": "27295",
+          "name": "Phường 15",
+          "type": "Phường",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Khánh Hội",
+              "newWardShort": "Khánh Hội",
+              "newWardCode": "27265",
+              "newWardType": "Phường",
+              "lat": 10.7589,
+              "lon": 106.704,
+              "areaKm2": 1.07
+            },
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Xóm Chiếu",
+              "newWardShort": "Xóm Chiếu",
+              "newWardCode": "27259",
+              "newWardType": "Phường",
+              "lat": 10.757,
+              "lon": 106.717,
+              "areaKm2": 1.94
+            }
+          ]
+        },
+        {
+          "code": "27289",
+          "name": "Phường 16",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Xóm Chiếu",
+              "newWardShort": "Xóm Chiếu",
+              "newWardCode": "27259",
+              "newWardType": "Phường",
+              "lat": 10.757,
+              "lon": 106.717,
+              "areaKm2": 1.94
+            }
+          ]
+        },
+        {
+          "code": "27277",
+          "name": "Phường 18",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Xóm Chiếu",
+              "newWardShort": "Xóm Chiếu",
+              "newWardCode": "27259",
+              "newWardType": "Phường",
+              "lat": 10.757,
+              "lon": 106.717,
+              "areaKm2": 1.94
+            }
+          ]
+        },
+        {
+          "code": "27292",
+          "name": "Phường 2",
+          "type": "Phường",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Khánh Hội",
+              "newWardShort": "Khánh Hội",
+              "newWardCode": "27265",
+              "newWardType": "Phường",
+              "lat": 10.7589,
+              "lon": 106.704,
+              "areaKm2": 1.07
+            },
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Vĩnh Hội",
+              "newWardShort": "Vĩnh Hội",
+              "newWardCode": "27286",
+              "newWardType": "Phường",
+              "lat": 10.7553,
+              "lon": 106.696,
+              "areaKm2": 1.17
+            }
+          ]
+        },
+        {
+          "code": "27286",
+          "name": "Phường 3",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Vĩnh Hội",
+              "newWardShort": "Vĩnh Hội",
+              "newWardCode": "27286",
+              "newWardType": "Phường",
+              "lat": 10.7553,
+              "lon": 106.696,
+              "areaKm2": 1.17
+            }
+          ]
+        },
+        {
+          "code": "27283",
+          "name": "Phường 4",
+          "type": "Phường",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Khánh Hội",
+              "newWardShort": "Khánh Hội",
+              "newWardCode": "27265",
+              "newWardType": "Phường",
+              "lat": 10.7589,
+              "lon": 106.704,
+              "areaKm2": 1.07
+            },
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Vĩnh Hội",
+              "newWardShort": "Vĩnh Hội",
+              "newWardCode": "27286",
+              "newWardType": "Phường",
+              "lat": 10.7553,
+              "lon": 106.696,
+              "areaKm2": 1.17
+            }
+          ]
+        },
+        {
+          "code": "27271",
+          "name": "Phường 8",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Khánh Hội",
+              "newWardShort": "Khánh Hội",
+              "newWardCode": "27265",
+              "newWardType": "Phường",
+              "lat": 10.7589,
+              "lon": 106.704,
+              "areaKm2": 1.07
+            }
+          ]
+        },
+        {
+          "code": "27265",
+          "name": "Phường 9",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Khánh Hội",
+              "newWardShort": "Khánh Hội",
+              "newWardCode": "27265",
+              "newWardType": "Phường",
+              "lat": 10.7589,
+              "lon": 106.704,
+              "areaKm2": 1.07
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "774",
+      "name": "Quận 5",
+      "type": "Quận",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "27325",
+          "name": "Phường 1",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Chợ Quán",
+              "newWardShort": "Chợ Quán",
+              "newWardCode": "27301",
+              "newWardType": "Phường",
+              "lat": 10.7574,
+              "lon": 106.681,
+              "areaKm2": 1.28
+            }
+          ]
+        },
+        {
+          "code": "27328",
+          "name": "Phường 11",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Chợ Lớn",
+              "newWardShort": "Chợ Lớn",
+              "newWardCode": "27343",
+              "newWardType": "Phường",
+              "lat": 10.7532,
+              "lon": 106.659,
+              "areaKm2": 1.67
+            }
+          ]
+        },
+        {
+          "code": "27310",
+          "name": "Phường 12",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Chợ Lớn",
+              "newWardShort": "Chợ Lớn",
+              "newWardCode": "27343",
+              "newWardType": "Phường",
+              "lat": 10.7532,
+              "lon": 106.659,
+              "areaKm2": 1.67
+            }
+          ]
+        },
+        {
+          "code": "27343",
+          "name": "Phường 13",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Chợ Lớn",
+              "newWardShort": "Chợ Lớn",
+              "newWardCode": "27343",
+              "newWardType": "Phường",
+              "lat": 10.7532,
+              "lon": 106.659,
+              "areaKm2": 1.67
+            }
+          ]
+        },
+        {
+          "code": "27331",
+          "name": "Phường 14",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Chợ Lớn",
+              "newWardShort": "Chợ Lớn",
+              "newWardCode": "27343",
+              "newWardType": "Phường",
+              "lat": 10.7532,
+              "lon": 106.659,
+              "areaKm2": 1.67
+            }
+          ]
+        },
+        {
+          "code": "27307",
+          "name": "Phường 2",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Chợ Quán",
+              "newWardShort": "Chợ Quán",
+              "newWardCode": "27301",
+              "newWardType": "Phường",
+              "lat": 10.7574,
+              "lon": 106.681,
+              "areaKm2": 1.28
+            }
+          ]
+        },
+        {
+          "code": "27301",
+          "name": "Phường 4",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Chợ Quán",
+              "newWardShort": "Chợ Quán",
+              "newWardCode": "27301",
+              "newWardType": "Phường",
+              "lat": 10.7574,
+              "lon": 106.681,
+              "areaKm2": 1.28
+            }
+          ]
+        },
+        {
+          "code": "27334",
+          "name": "Phường 5",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường An Đông",
+              "newWardShort": "An Đông",
+              "newWardCode": "27316",
+              "newWardType": "Phường",
+              "lat": 10.7548,
+              "lon": 106.672,
+              "areaKm2": 1.32
+            }
+          ]
+        },
+        {
+          "code": "27316",
+          "name": "Phường 7",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường An Đông",
+              "newWardShort": "An Đông",
+              "newWardCode": "27316",
+              "newWardType": "Phường",
+              "lat": 10.7548,
+              "lon": 106.672,
+              "areaKm2": 1.32
+            }
+          ]
+        },
+        {
+          "code": "27304",
+          "name": "Phường 9",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường An Đông",
+              "newWardShort": "An Đông",
+              "newWardCode": "27316",
+              "newWardType": "Phường",
+              "lat": 10.7548,
+              "lon": 106.672,
+              "areaKm2": 1.32
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "775",
+      "name": "Quận 6",
+      "type": "Quận",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "27373",
+          "name": "Phường 1",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Bình Tiên",
+              "newWardShort": "Bình Tiên",
+              "newWardCode": "27373",
+              "newWardType": "Phường",
+              "lat": 10.7425,
+              "lon": 106.643,
+              "areaKm2": 1.61
+            }
+          ]
+        },
+        {
+          "code": "27385",
+          "name": "Phường 10",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Bình Phú",
+              "newWardShort": "Bình Phú",
+              "newWardCode": "27364",
+              "newWardType": "Phường",
+              "lat": 10.7388,
+              "lon": 106.629,
+              "areaKm2": 2.86
+            }
+          ]
+        },
+        {
+          "code": "27364",
+          "name": "Phường 11",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Bình Phú",
+              "newWardShort": "Bình Phú",
+              "newWardCode": "27364",
+              "newWardType": "Phường",
+              "lat": 10.7388,
+              "lon": 106.629,
+              "areaKm2": 2.86
+            }
+          ]
+        },
+        {
+          "code": "27358",
+          "name": "Phường 12",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Phú Lâm",
+              "newWardShort": "Phú Lâm",
+              "newWardCode": "27349",
+              "newWardType": "Phường",
+              "lat": 10.7529,
+              "lon": 106.63,
+              "areaKm2": 2
+            }
+          ]
+        },
+        {
+          "code": "27349",
+          "name": "Phường 13",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Phú Lâm",
+              "newWardShort": "Phú Lâm",
+              "newWardCode": "27349",
+              "newWardType": "Phường",
+              "lat": 10.7529,
+              "lon": 106.63,
+              "areaKm2": 2
+            }
+          ]
+        },
+        {
+          "code": "27346",
+          "name": "Phường 14",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Phú Lâm",
+              "newWardShort": "Phú Lâm",
+              "newWardCode": "27349",
+              "newWardType": "Phường",
+              "lat": 10.7529,
+              "lon": 106.63,
+              "areaKm2": 2
+            }
+          ]
+        },
+        {
+          "code": "27367",
+          "name": "Phường 2",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Bình Tây",
+              "newWardShort": "Bình Tây",
+              "newWardCode": "27367",
+              "newWardType": "Phường",
+              "lat": 10.7507,
+              "lon": 106.645,
+              "areaKm2": 1.05
+            }
+          ]
+        },
+        {
+          "code": "27382",
+          "name": "Phường 7",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Bình Tiên",
+              "newWardShort": "Bình Tiên",
+              "newWardCode": "27373",
+              "newWardType": "Phường",
+              "lat": 10.7425,
+              "lon": 106.643,
+              "areaKm2": 1.61
+            }
+          ]
+        },
+        {
+          "code": "27376",
+          "name": "Phường 8",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Bình Tiên",
+              "newWardShort": "Bình Tiên",
+              "newWardCode": "27373",
+              "newWardType": "Phường",
+              "lat": 10.7425,
+              "lon": 106.643,
+              "areaKm2": 1.61
+            }
+          ]
+        },
+        {
+          "code": "27352",
+          "name": "Phường 9",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Bình Tây",
+              "newWardShort": "Bình Tây",
+              "newWardCode": "27367",
+              "newWardType": "Phường",
+              "lat": 10.7507,
+              "lon": 106.645,
+              "areaKm2": 1.05
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "778",
+      "name": "Quận 7",
+      "type": "Quận",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "27478",
+          "name": "Phường Bình Thuận",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Tân Thuận",
+              "newWardShort": "Tân Thuận",
+              "newWardCode": "27478",
+              "newWardType": "Phường",
+              "lat": 10.7553,
+              "lon": 106.735,
+              "areaKm2": 10.16
+            }
+          ]
+        },
+        {
+          "code": "27493",
+          "name": "Phường Phú Mỹ",
+          "type": "Phường",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Phú Thuận",
+              "newWardShort": "Phú Thuận",
+              "newWardCode": "27484",
+              "newWardType": "Phường",
+              "lat": 10.7272,
+              "lon": 106.747,
+              "areaKm2": 10.55
+            },
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Tân Mỹ",
+              "newWardShort": "Tân Mỹ",
+              "newWardCode": "27487",
+              "newWardType": "Phường",
+              "lat": 10.715,
+              "lon": 106.731,
+              "areaKm2": 6.45
+            }
+          ]
+        },
+        {
+          "code": "27484",
+          "name": "Phường Phú Thuận",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Phú Thuận",
+              "newWardShort": "Phú Thuận",
+              "newWardCode": "27484",
+              "newWardType": "Phường",
+              "lat": 10.7272,
+              "lon": 106.747,
+              "areaKm2": 10.55
+            }
+          ]
+        },
+        {
+          "code": "27475",
+          "name": "Phường Tân Hưng",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Tân Hưng",
+              "newWardShort": "Tân Hưng",
+              "newWardCode": "27475",
+              "newWardType": "Phường",
+              "lat": 10.7372,
+              "lon": 106.705,
+              "areaKm2": 8.54
+            }
+          ]
+        },
+        {
+          "code": "27472",
+          "name": "Phường Tân Kiểng",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Tân Hưng",
+              "newWardShort": "Tân Hưng",
+              "newWardCode": "27475",
+              "newWardType": "Phường",
+              "lat": 10.7372,
+              "lon": 106.705,
+              "areaKm2": 8.54
+            }
+          ]
+        },
+        {
+          "code": "27490",
+          "name": "Phường Tân Phong",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Tân Hưng",
+              "newWardShort": "Tân Hưng",
+              "newWardCode": "27475",
+              "newWardType": "Phường",
+              "lat": 10.7372,
+              "lon": 106.705,
+              "areaKm2": 8.54
+            }
+          ]
+        },
+        {
+          "code": "27487",
+          "name": "Phường Tân Phú",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Tân Mỹ",
+              "newWardShort": "Tân Mỹ",
+              "newWardCode": "27487",
+              "newWardType": "Phường",
+              "lat": 10.715,
+              "lon": 106.731,
+              "areaKm2": 6.45
+            }
+          ]
+        },
+        {
+          "code": "27481",
+          "name": "Phường Tân Quy",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Tân Hưng",
+              "newWardShort": "Tân Hưng",
+              "newWardCode": "27475",
+              "newWardType": "Phường",
+              "lat": 10.7372,
+              "lon": 106.705,
+              "areaKm2": 8.54
+            }
+          ]
+        },
+        {
+          "code": "27466",
+          "name": "Phường Tân Thuận Đông",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Tân Thuận",
+              "newWardShort": "Tân Thuận",
+              "newWardCode": "27478",
+              "newWardType": "Phường",
+              "lat": 10.7553,
+              "lon": 106.735,
+              "areaKm2": 10.16
+            }
+          ]
+        },
+        {
+          "code": "27469",
+          "name": "Phường Tân Thuận Tây",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Tân Thuận",
+              "newWardShort": "Tân Thuận",
+              "newWardCode": "27478",
+              "newWardType": "Phường",
+              "lat": 10.7553,
+              "lon": 106.735,
+              "areaKm2": 10.16
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "776",
+      "name": "Quận 8",
+      "type": "Quận",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "27421",
+          "name": "Phường 14",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Phú Định",
+              "newWardShort": "Phú Định",
+              "newWardCode": "27427",
+              "newWardType": "Phường",
+              "lat": 10.7255,
+              "lon": 106.631,
+              "areaKm2": 5.85
+            }
+          ]
+        },
+        {
+          "code": "27427",
+          "name": "Phường 15",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Phú Định",
+              "newWardShort": "Phú Định",
+              "newWardCode": "27427",
+              "newWardType": "Phường",
+              "lat": 10.7255,
+              "lon": 106.631,
+              "areaKm2": 5.85
+            }
+          ]
+        },
+        {
+          "code": "27430",
+          "name": "Phường 16",
+          "type": "Phường",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Bình Phú",
+              "newWardShort": "Bình Phú",
+              "newWardCode": "27364",
+              "newWardType": "Phường",
+              "lat": 10.7388,
+              "lon": 106.629,
+              "areaKm2": 2.86
+            },
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Phú Định",
+              "newWardShort": "Phú Định",
+              "newWardCode": "27427",
+              "newWardType": "Phường",
+              "lat": 10.7255,
+              "lon": 106.631,
+              "areaKm2": 5.85
+            },
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Xã Tân Nhựt",
+              "newWardShort": "Tân Nhựt",
+              "newWardCode": "27595",
+              "newWardType": "Xã",
+              "lat": 10.7048,
+              "lon": 106.562,
+              "areaKm2": 43.67
+            }
+          ]
+        },
+        {
+          "code": "27409",
+          "name": "Phường 4",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Chánh Hưng",
+              "newWardShort": "Chánh Hưng",
+              "newWardCode": "27418",
+              "newWardType": "Phường",
+              "lat": 10.7434,
+              "lon": 106.677,
+              "areaKm2": 4.61
+            }
+          ]
+        },
+        {
+          "code": "27418",
+          "name": "Phường 5",
+          "type": "Phường",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Bình Đông",
+              "newWardShort": "Bình Đông",
+              "newWardCode": "27424",
+              "newWardType": "Phường",
+              "lat": 10.7012,
+              "lon": 106.612,
+              "areaKm2": 8.93
+            },
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Chánh Hưng",
+              "newWardShort": "Chánh Hưng",
+              "newWardCode": "27418",
+              "newWardType": "Phường",
+              "lat": 10.7434,
+              "lon": 106.677,
+              "areaKm2": 4.61
+            }
+          ]
+        },
+        {
+          "code": "27424",
+          "name": "Phường 6",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Bình Đông",
+              "newWardShort": "Bình Đông",
+              "newWardCode": "27424",
+              "newWardType": "Phường",
+              "lat": 10.7012,
+              "lon": 106.612,
+              "areaKm2": 8.93
+            }
+          ]
+        },
+        {
+          "code": "27433",
+          "name": "Phường 7",
+          "type": "Phường",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Bình Đông",
+              "newWardShort": "Bình Đông",
+              "newWardCode": "27424",
+              "newWardType": "Phường",
+              "lat": 10.7012,
+              "lon": 106.612,
+              "areaKm2": 8.93
+            },
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Xã Bình Hưng",
+              "newWardShort": "Bình Hưng",
+              "newWardCode": "27619",
+              "newWardType": "Xã",
+              "lat": 10.7067,
+              "lon": 106.66,
+              "areaKm2": 32.63
+            }
+          ]
+        },
+        {
+          "code": "27403",
+          "name": "Phường Hưng Phú",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Chánh Hưng",
+              "newWardShort": "Chánh Hưng",
+              "newWardCode": "27418",
+              "newWardType": "Phường",
+              "lat": 10.7434,
+              "lon": 106.677,
+              "areaKm2": 4.61
+            }
+          ]
+        },
+        {
+          "code": "27397",
+          "name": "Phường Rạch Ông",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Chánh Hưng",
+              "newWardShort": "Chánh Hưng",
+              "newWardCode": "27418",
+              "newWardType": "Phường",
+              "lat": 10.7434,
+              "lon": 106.677,
+              "areaKm2": 4.61
+            }
+          ]
+        },
+        {
+          "code": "27415",
+          "name": "Phường Xóm Củi",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Phú Định",
+              "newWardShort": "Phú Định",
+              "newWardCode": "27427",
+              "newWardType": "Phường",
+              "lat": 10.7255,
+              "lon": 106.631,
+              "areaKm2": 5.85
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "777",
+      "name": "Quận Bình Tân",
+      "type": "Quận",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "27460",
+          "name": "Phường An Lạc",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường An Lạc",
+              "newWardShort": "An Lạc",
+              "newWardCode": "27460",
+              "newWardType": "Phường",
+              "lat": 10.736,
+              "lon": 106.612,
+              "areaKm2": 10.47
+            }
+          ]
+        },
+        {
+          "code": "27463",
+          "name": "Phường An Lạc A",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường An Lạc",
+              "newWardShort": "An Lạc",
+              "newWardCode": "27460",
+              "newWardType": "Phường",
+              "lat": 10.736,
+              "lon": 106.612,
+              "areaKm2": 10.47
+            }
+          ]
+        },
+        {
+          "code": "27436",
+          "name": "Phường Bình Hưng Hòa",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Bình Hưng Hòa",
+              "newWardShort": "Bình Hưng Hòa",
+              "newWardCode": "27439",
+              "newWardType": "Phường",
+              "lat": 10.8027,
+              "lon": 106.605,
+              "areaKm2": 8.47
+            }
+          ]
+        },
+        {
+          "code": "27439",
+          "name": "Phường Bình Hưng Hòa A",
+          "type": "Phường",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Bình Hưng Hòa",
+              "newWardShort": "Bình Hưng Hòa",
+              "newWardCode": "27439",
+              "newWardType": "Phường",
+              "lat": 10.8027,
+              "lon": 106.605,
+              "areaKm2": 8.47
+            },
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Bình Trị Đông",
+              "newWardShort": "Bình Trị Đông",
+              "newWardCode": "27448",
+              "newWardType": "Phường",
+              "lat": 10.7723,
+              "lon": 106.608,
+              "areaKm2": 7.15
+            }
+          ]
+        },
+        {
+          "code": "27442",
+          "name": "Phường Bình Hưng Hòa B",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Bình Tân",
+              "newWardShort": "Bình Tân",
+              "newWardCode": "27442",
+              "newWardType": "Phường",
+              "lat": 10.8059,
+              "lon": 106.594,
+              "areaKm2": 11.25
+            }
+          ]
+        },
+        {
+          "code": "27445",
+          "name": "Phường Bình Trị Đông",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Bình Trị Đông",
+              "newWardShort": "Bình Trị Đông",
+              "newWardCode": "27448",
+              "newWardType": "Phường",
+              "lat": 10.7723,
+              "lon": 106.608,
+              "areaKm2": 7.15
+            }
+          ]
+        },
+        {
+          "code": "27448",
+          "name": "Phường Bình Trị Đông A",
+          "type": "Phường",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Bình Tân",
+              "newWardShort": "Bình Tân",
+              "newWardCode": "27442",
+              "newWardType": "Phường",
+              "lat": 10.8059,
+              "lon": 106.594,
+              "areaKm2": 11.25
+            },
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Bình Trị Đông",
+              "newWardShort": "Bình Trị Đông",
+              "newWardCode": "27448",
+              "newWardType": "Phường",
+              "lat": 10.7723,
+              "lon": 106.608,
+              "areaKm2": 7.15
+            }
+          ]
+        },
+        {
+          "code": "27451",
+          "name": "Phường Bình Trị Đông B",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường An Lạc",
+              "newWardShort": "An Lạc",
+              "newWardCode": "27460",
+              "newWardType": "Phường",
+              "lat": 10.736,
+              "lon": 106.612,
+              "areaKm2": 10.47
+            }
+          ]
+        },
+        {
+          "code": "27454",
+          "name": "Phường Tân Tạo",
+          "type": "Phường",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Bình Tân",
+              "newWardShort": "Bình Tân",
+              "newWardCode": "27442",
+              "newWardType": "Phường",
+              "lat": 10.8059,
+              "lon": 106.594,
+              "areaKm2": 11.25
+            },
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Tân Tạo",
+              "newWardShort": "Tân Tạo",
+              "newWardCode": "27457",
+              "newWardType": "Phường",
+              "lat": 10.7388,
+              "lon": 106.584,
+              "areaKm2": 14.7
+            },
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Xã Tân Vĩnh Lộc",
+              "newWardShort": "Tân Vĩnh Lộc",
+              "newWardCode": "27604",
+              "newWardType": "Xã",
+              "lat": 10.7912,
+              "lon": 106.551,
+              "areaKm2": 34.02
+            }
+          ]
+        },
+        {
+          "code": "27457",
+          "name": "Phường Tân Tạo A",
+          "type": "Phường",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Tân Tạo",
+              "newWardShort": "Tân Tạo",
+              "newWardCode": "27457",
+              "newWardType": "Phường",
+              "lat": 10.7388,
+              "lon": 106.584,
+              "areaKm2": 14.7
+            },
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Xã Tân Nhựt",
+              "newWardShort": "Tân Nhựt",
+              "newWardCode": "27595",
+              "newWardType": "Xã",
+              "lat": 10.7048,
+              "lon": 106.562,
+              "areaKm2": 43.67
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "765",
+      "name": "Quận Bình Thạnh",
+      "type": "Quận",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "26944",
+          "name": "Phường 1",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Gia Định",
+              "newWardShort": "Gia Định",
+              "newWardCode": "26944",
+              "newWardType": "Phường",
+              "lat": 10.7983,
+              "lon": 106.699,
+              "areaKm2": 2.76
+            }
+          ]
+        },
+        {
+          "code": "26908",
+          "name": "Phường 11",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Bình Lợi Trung",
+              "newWardShort": "Bình Lợi Trung",
+              "newWardCode": "26905",
+              "newWardType": "Phường",
+              "lat": 10.8273,
+              "lon": 106.706,
+              "areaKm2": 3.89
+            }
+          ]
+        },
+        {
+          "code": "26917",
+          "name": "Phường 12",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Bình Thạnh",
+              "newWardShort": "Bình Thạnh",
+              "newWardCode": "26929",
+              "newWardType": "Phường",
+              "lat": 10.8109,
+              "lon": 106.705,
+              "areaKm2": 3.32
+            }
+          ]
+        },
+        {
+          "code": "26905",
+          "name": "Phường 13",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Bình Lợi Trung",
+              "newWardShort": "Bình Lợi Trung",
+              "newWardCode": "26905",
+              "newWardType": "Phường",
+              "lat": 10.8273,
+              "lon": 106.706,
+              "areaKm2": 3.89
+            }
+          ]
+        },
+        {
+          "code": "26929",
+          "name": "Phường 14",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Bình Thạnh",
+              "newWardShort": "Bình Thạnh",
+              "newWardCode": "26929",
+              "newWardType": "Phường",
+              "lat": 10.8109,
+              "lon": 106.705,
+              "areaKm2": 3.32
+            }
+          ]
+        },
+        {
+          "code": "26950",
+          "name": "Phường 17",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Gia Định",
+              "newWardShort": "Gia Định",
+              "newWardCode": "26944",
+              "newWardType": "Phường",
+              "lat": 10.7983,
+              "lon": 106.699,
+              "areaKm2": 2.76
+            }
+          ]
+        },
+        {
+          "code": "26953",
+          "name": "Phường 19",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Thạnh Mỹ Tây",
+              "newWardShort": "Thạnh Mỹ Tây",
+              "newWardCode": "26956",
+              "newWardType": "Phường",
+              "lat": 10.7981,
+              "lon": 106.718,
+              "areaKm2": 4.4
+            }
+          ]
+        },
+        {
+          "code": "26941",
+          "name": "Phường 2",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Gia Định",
+              "newWardShort": "Gia Định",
+              "newWardCode": "26944",
+              "newWardType": "Phường",
+              "lat": 10.7983,
+              "lon": 106.699,
+              "areaKm2": 2.76
+            }
+          ]
+        },
+        {
+          "code": "26956",
+          "name": "Phường 22",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Thạnh Mỹ Tây",
+              "newWardShort": "Thạnh Mỹ Tây",
+              "newWardCode": "26956",
+              "newWardType": "Phường",
+              "lat": 10.7981,
+              "lon": 106.718,
+              "areaKm2": 4.4
+            }
+          ]
+        },
+        {
+          "code": "26920",
+          "name": "Phường 25",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Thạnh Mỹ Tây",
+              "newWardShort": "Thạnh Mỹ Tây",
+              "newWardCode": "26956",
+              "newWardType": "Phường",
+              "lat": 10.7981,
+              "lon": 106.718,
+              "areaKm2": 4.4
+            }
+          ]
+        },
+        {
+          "code": "26914",
+          "name": "Phường 26",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Bình Thạnh",
+              "newWardShort": "Bình Thạnh",
+              "newWardCode": "26929",
+              "newWardType": "Phường",
+              "lat": 10.8109,
+              "lon": 106.705,
+              "areaKm2": 3.32
+            }
+          ]
+        },
+        {
+          "code": "26911",
+          "name": "Phường 27",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Bình Quới",
+              "newWardShort": "Bình Quới",
+              "newWardCode": "26911",
+              "newWardType": "Phường",
+              "lat": 10.822,
+              "lon": 106.742,
+              "areaKm2": 6.34
+            }
+          ]
+        },
+        {
+          "code": "26962",
+          "name": "Phường 28",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Bình Quới",
+              "newWardShort": "Bình Quới",
+              "newWardCode": "26911",
+              "newWardType": "Phường",
+              "lat": 10.822,
+              "lon": 106.742,
+              "areaKm2": 6.34
+            }
+          ]
+        },
+        {
+          "code": "26923",
+          "name": "Phường 5",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Bình Lợi Trung",
+              "newWardShort": "Bình Lợi Trung",
+              "newWardCode": "26905",
+              "newWardType": "Phường",
+              "lat": 10.8273,
+              "lon": 106.706,
+              "areaKm2": 3.89
+            }
+          ]
+        },
+        {
+          "code": "26926",
+          "name": "Phường 7",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Gia Định",
+              "newWardShort": "Gia Định",
+              "newWardCode": "26944",
+              "newWardType": "Phường",
+              "lat": 10.7983,
+              "lon": 106.699,
+              "areaKm2": 2.76
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "764",
+      "name": "Quận Gò Vấp",
+      "type": "Quận",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "26890",
+          "name": "Phường 1",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Hạnh Thông",
+              "newWardShort": "Hạnh Thông",
+              "newWardCode": "26890",
+              "newWardType": "Phường",
+              "lat": 10.8213,
+              "lon": 106.683,
+              "areaKm2": 3.37
+            }
+          ]
+        },
+        {
+          "code": "26884",
+          "name": "Phường 10",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Gò Vấp",
+              "newWardShort": "Gò Vấp",
+              "newWardCode": "26884",
+              "newWardType": "Phường",
+              "lat": 10.8358,
+              "lon": 106.673,
+              "areaKm2": 2.81
+            }
+          ]
+        },
+        {
+          "code": "26899",
+          "name": "Phường 11",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Thông Tây Hội",
+              "newWardShort": "Thông Tây Hội",
+              "newWardCode": "26898",
+              "newWardType": "Phường",
+              "lat": 10.8417,
+              "lon": 106.655,
+              "areaKm2": 3.24
+            }
+          ]
+        },
+        {
+          "code": "26881",
+          "name": "Phường 12",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường An Hội Tây",
+              "newWardShort": "An Hội Tây",
+              "newWardCode": "26882",
+              "newWardType": "Phường",
+              "lat": 10.8389,
+              "lon": 106.638,
+              "areaKm2": 3.79
+            }
+          ]
+        },
+        {
+          "code": "26882",
+          "name": "Phường 14",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường An Hội Tây",
+              "newWardShort": "An Hội Tây",
+              "newWardCode": "26882",
+              "newWardType": "Phường",
+              "lat": 10.8389,
+              "lon": 106.638,
+              "areaKm2": 3.79
+            }
+          ]
+        },
+        {
+          "code": "26872",
+          "name": "Phường 15",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường An Hội Đông",
+              "newWardShort": "An Hội Đông",
+              "newWardCode": "26878",
+              "newWardType": "Phường",
+              "lat": 10.8501,
+              "lon": 106.667,
+              "areaKm2": 3.29
+            }
+          ]
+        },
+        {
+          "code": "26878",
+          "name": "Phường 16",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường An Hội Đông",
+              "newWardShort": "An Hội Đông",
+              "newWardCode": "26878",
+              "newWardType": "Phường",
+              "lat": 10.8501,
+              "lon": 106.667,
+              "areaKm2": 3.29
+            }
+          ]
+        },
+        {
+          "code": "26875",
+          "name": "Phường 17",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Gò Vấp",
+              "newWardShort": "Gò Vấp",
+              "newWardCode": "26884",
+              "newWardType": "Phường",
+              "lat": 10.8358,
+              "lon": 106.673,
+              "areaKm2": 2.81
+            }
+          ]
+        },
+        {
+          "code": "26902",
+          "name": "Phường 3",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Hạnh Thông",
+              "newWardShort": "Hạnh Thông",
+              "newWardCode": "26890",
+              "newWardType": "Phường",
+              "lat": 10.8213,
+              "lon": 106.683,
+              "areaKm2": 3.37
+            }
+          ]
+        },
+        {
+          "code": "26887",
+          "name": "Phường 5",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường An Nhơn",
+              "newWardShort": "An Nhơn",
+              "newWardCode": "26876",
+              "newWardType": "Phường",
+              "lat": 10.8427,
+              "lon": 106.683,
+              "areaKm2": 3.23
+            }
+          ]
+        },
+        {
+          "code": "26876",
+          "name": "Phường 6",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường An Nhơn",
+              "newWardShort": "An Nhơn",
+              "newWardCode": "26876",
+              "newWardType": "Phường",
+              "lat": 10.8427,
+              "lon": 106.683,
+              "areaKm2": 3.23
+            }
+          ]
+        },
+        {
+          "code": "26898",
+          "name": "Phường 8",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Thông Tây Hội",
+              "newWardShort": "Thông Tây Hội",
+              "newWardCode": "26898",
+              "newWardType": "Phường",
+              "lat": 10.8417,
+              "lon": 106.655,
+              "areaKm2": 3.24
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "768",
+      "name": "Quận Phú Nhuận",
+      "type": "Quận",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "27058",
+          "name": "Phường 1",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Cầu Kiệu",
+              "newWardShort": "Cầu Kiệu",
+              "newWardCode": "27058",
+              "newWardType": "Phường",
+              "lat": 10.7995,
+              "lon": 106.689,
+              "areaKm2": 1.23
+            }
+          ]
+        },
+        {
+          "code": "27070",
+          "name": "Phường 10",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Phú Nhuận",
+              "newWardShort": "Phú Nhuận",
+              "newWardCode": "27073",
+              "newWardType": "Phường",
+              "lat": 10.7943,
+              "lon": 106.673,
+              "areaKm2": 1.46
+            }
+          ]
+        },
+        {
+          "code": "27073",
+          "name": "Phường 11",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Phú Nhuận",
+              "newWardShort": "Phú Nhuận",
+              "newWardCode": "27073",
+              "newWardType": "Phường",
+              "lat": 10.7943,
+              "lon": 106.673,
+              "areaKm2": 1.46
+            }
+          ]
+        },
+        {
+          "code": "27085",
+          "name": "Phường 13",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Phú Nhuận",
+              "newWardShort": "Phú Nhuận",
+              "newWardCode": "27073",
+              "newWardType": "Phường",
+              "lat": 10.7943,
+              "lon": 106.673,
+              "areaKm2": 1.46
+            }
+          ]
+        },
+        {
+          "code": "27076",
+          "name": "Phường 15",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Cầu Kiệu",
+              "newWardShort": "Cầu Kiệu",
+              "newWardCode": "27058",
+              "newWardType": "Phường",
+              "lat": 10.7995,
+              "lon": 106.689,
+              "areaKm2": 1.23
+            },
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Phú Nhuận",
+              "newWardShort": "Phú Nhuận",
+              "newWardCode": "27073",
+              "newWardType": "Phường",
+              "lat": 10.7943,
+              "lon": 106.673,
+              "areaKm2": 1.46
+            }
+          ]
+        },
+        {
+          "code": "27061",
+          "name": "Phường 2",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Cầu Kiệu",
+              "newWardShort": "Cầu Kiệu",
+              "newWardCode": "27058",
+              "newWardType": "Phường",
+              "lat": 10.7995,
+              "lon": 106.689,
+              "areaKm2": 1.23
+            }
+          ]
+        },
+        {
+          "code": "27043",
+          "name": "Phường 4",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Đức Nhuận",
+              "newWardShort": "Đức Nhuận",
+              "newWardCode": "27043",
+              "newWardType": "Phường",
+              "lat": 10.8055,
+              "lon": 106.677,
+              "areaKm2": 2.16
+            }
+          ]
+        },
+        {
+          "code": "27046",
+          "name": "Phường 5",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Đức Nhuận",
+              "newWardShort": "Đức Nhuận",
+              "newWardCode": "27043",
+              "newWardType": "Phường",
+              "lat": 10.8055,
+              "lon": 106.677,
+              "areaKm2": 2.16
+            }
+          ]
+        },
+        {
+          "code": "27052",
+          "name": "Phường 7",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Cầu Kiệu",
+              "newWardShort": "Cầu Kiệu",
+              "newWardCode": "27058",
+              "newWardType": "Phường",
+              "lat": 10.7995,
+              "lon": 106.689,
+              "areaKm2": 1.23
+            }
+          ]
+        },
+        {
+          "code": "27064",
+          "name": "Phường 8",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Phú Nhuận",
+              "newWardShort": "Phú Nhuận",
+              "newWardCode": "27073",
+              "newWardType": "Phường",
+              "lat": 10.7943,
+              "lon": 106.673,
+              "areaKm2": 1.46
+            }
+          ]
+        },
+        {
+          "code": "27049",
+          "name": "Phường 9",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Đức Nhuận",
+              "newWardShort": "Đức Nhuận",
+              "newWardCode": "27043",
+              "newWardType": "Phường",
+              "lat": 10.8055,
+              "lon": 106.677,
+              "areaKm2": 2.16
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "766",
+      "name": "Quận Tân Bình",
+      "type": "Quận",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "26977",
+          "name": "Phường 1",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Tân Sơn Hòa",
+              "newWardShort": "Tân Sơn Hòa",
+              "newWardCode": "26977",
+              "newWardType": "Phường",
+              "lat": 10.806,
+              "lon": 106.666,
+              "areaKm2": 2.62
+            }
+          ]
+        },
+        {
+          "code": "26992",
+          "name": "Phường 10",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Bảy Hiền",
+              "newWardShort": "Bảy Hiền",
+              "newWardCode": "26983",
+              "newWardType": "Phường",
+              "lat": 10.7922,
+              "lon": 106.649,
+              "areaKm2": 2.86
+            }
+          ]
+        },
+        {
+          "code": "26983",
+          "name": "Phường 11",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Bảy Hiền",
+              "newWardShort": "Bảy Hiền",
+              "newWardCode": "26983",
+              "newWardType": "Phường",
+              "lat": 10.7922,
+              "lon": 106.649,
+              "areaKm2": 2.86
+            }
+          ]
+        },
+        {
+          "code": "26971",
+          "name": "Phường 12",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Bảy Hiền",
+              "newWardShort": "Bảy Hiền",
+              "newWardCode": "26983",
+              "newWardType": "Phường",
+              "lat": 10.7922,
+              "lon": 106.649,
+              "areaKm2": 2.86
+            }
+          ]
+        },
+        {
+          "code": "26974",
+          "name": "Phường 13",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Tân Bình",
+              "newWardShort": "Tân Bình",
+              "newWardCode": "27004",
+              "newWardType": "Phường",
+              "lat": 10.8006,
+              "lon": 106.642,
+              "areaKm2": 2.12
+            }
+          ]
+        },
+        {
+          "code": "27004",
+          "name": "Phường 14",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Tân Bình",
+              "newWardShort": "Tân Bình",
+              "newWardCode": "27004",
+              "newWardType": "Phường",
+              "lat": 10.8006,
+              "lon": 106.642,
+              "areaKm2": 2.12
+            }
+          ]
+        },
+        {
+          "code": "27007",
+          "name": "Phường 15",
+          "type": "Phường",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Tân Bình",
+              "newWardShort": "Tân Bình",
+              "newWardCode": "27004",
+              "newWardType": "Phường",
+              "lat": 10.8006,
+              "lon": 106.642,
+              "areaKm2": 2.12
+            },
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Tân Sơn",
+              "newWardShort": "Tân Sơn",
+              "newWardCode": "27007",
+              "newWardType": "Phường",
+              "lat": 10.8224,
+              "lon": 106.65,
+              "areaKm2": 10.12
+            }
+          ]
+        },
+        {
+          "code": "26965",
+          "name": "Phường 2",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Tân Sơn Hòa",
+              "newWardShort": "Tân Sơn Hòa",
+              "newWardCode": "26977",
+              "newWardType": "Phường",
+              "lat": 10.806,
+              "lon": 106.666,
+              "areaKm2": 2.62
+            }
+          ]
+        },
+        {
+          "code": "26980",
+          "name": "Phường 3",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Tân Sơn Hòa",
+              "newWardShort": "Tân Sơn Hòa",
+              "newWardCode": "26977",
+              "newWardType": "Phường",
+              "lat": 10.806,
+              "lon": 106.666,
+              "areaKm2": 2.62
+            }
+          ]
+        },
+        {
+          "code": "26968",
+          "name": "Phường 4",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Tân Sơn Nhất",
+              "newWardShort": "Tân Sơn Nhất",
+              "newWardCode": "26968",
+              "newWardType": "Phường",
+              "lat": 10.8007,
+              "lon": 106.658,
+              "areaKm2": 3.19
+            }
+          ]
+        },
+        {
+          "code": "26989",
+          "name": "Phường 5",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Tân Sơn Nhất",
+              "newWardShort": "Tân Sơn Nhất",
+              "newWardCode": "26968",
+              "newWardType": "Phường",
+              "lat": 10.8007,
+              "lon": 106.658,
+              "areaKm2": 3.19
+            }
+          ]
+        },
+        {
+          "code": "26995",
+          "name": "Phường 6",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Tân Hòa",
+              "newWardShort": "Tân Hòa",
+              "newWardCode": "26995",
+              "newWardType": "Phường",
+              "lat": 10.7809,
+              "lon": 106.655,
+              "areaKm2": 1.47
+            }
+          ]
+        },
+        {
+          "code": "26986",
+          "name": "Phường 7",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Tân Sơn Nhất",
+              "newWardShort": "Tân Sơn Nhất",
+              "newWardCode": "26968",
+              "newWardType": "Phường",
+              "lat": 10.8007,
+              "lon": 106.658,
+              "areaKm2": 3.19
+            }
+          ]
+        },
+        {
+          "code": "26998",
+          "name": "Phường 8",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Tân Hòa",
+              "newWardShort": "Tân Hòa",
+              "newWardCode": "26995",
+              "newWardType": "Phường",
+              "lat": 10.7809,
+              "lon": 106.655,
+              "areaKm2": 1.47
+            }
+          ]
+        },
+        {
+          "code": "27001",
+          "name": "Phường 9",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Tân Hòa",
+              "newWardShort": "Tân Hòa",
+              "newWardCode": "26995",
+              "newWardType": "Phường",
+              "lat": 10.7809,
+              "lon": 106.655,
+              "areaKm2": 1.47
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "767",
+      "name": "Quận Tân Phú",
+      "type": "Quận",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "27037",
+          "name": "Phường Hiệp Tân",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Phú Thạnh",
+              "newWardShort": "Phú Thạnh",
+              "newWardCode": "27028",
+              "newWardType": "Phường",
+              "lat": 10.7728,
+              "lon": 106.627,
+              "areaKm2": 2.98
+            }
+          ]
+        },
+        {
+          "code": "27034",
+          "name": "Phường Hòa Thạnh",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Tân Phú",
+              "newWardShort": "Tân Phú",
+              "newWardCode": "27031",
+              "newWardType": "Phường",
+              "lat": 10.7751,
+              "lon": 106.638,
+              "areaKm2": 2.52
+            }
+          ]
+        },
+        {
+          "code": "27028",
+          "name": "Phường Phú Thạnh",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Phú Thạnh",
+              "newWardShort": "Phú Thạnh",
+              "newWardCode": "27028",
+              "newWardType": "Phường",
+              "lat": 10.7728,
+              "lon": 106.627,
+              "areaKm2": 2.98
+            }
+          ]
+        },
+        {
+          "code": "27025",
+          "name": "Phường Phú Thọ Hòa",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Phú Thọ Hòa",
+              "newWardShort": "Phú Thọ Hòa",
+              "newWardCode": "27022",
+              "newWardType": "Phường",
+              "lat": 10.7923,
+              "lon": 106.621,
+              "areaKm2": 3.03
+            }
+          ]
+        },
+        {
+          "code": "27031",
+          "name": "Phường Phú Trung",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Tân Phú",
+              "newWardShort": "Tân Phú",
+              "newWardCode": "27031",
+              "newWardType": "Phường",
+              "lat": 10.7751,
+              "lon": 106.638,
+              "areaKm2": 2.52
+            }
+          ]
+        },
+        {
+          "code": "27016",
+          "name": "Phường Sơn Kỳ",
+          "type": "Phường",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Bình Hưng Hòa",
+              "newWardShort": "Bình Hưng Hòa",
+              "newWardCode": "27439",
+              "newWardType": "Phường",
+              "lat": 10.8027,
+              "lon": 106.605,
+              "areaKm2": 8.47
+            },
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Tân Sơn Nhì",
+              "newWardShort": "Tân Sơn Nhì",
+              "newWardCode": "27019",
+              "newWardType": "Phường",
+              "lat": 10.7987,
+              "lon": 106.63,
+              "areaKm2": 3.49
+            },
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Tây Thạnh",
+              "newWardShort": "Tây Thạnh",
+              "newWardCode": "27013",
+              "newWardType": "Phường",
+              "lat": 10.8108,
+              "lon": 106.622,
+              "areaKm2": 4
+            }
+          ]
+        },
+        {
+          "code": "27019",
+          "name": "Phường Tân Quý",
+          "type": "Phường",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Phú Thọ Hòa",
+              "newWardShort": "Phú Thọ Hòa",
+              "newWardCode": "27022",
+              "newWardType": "Phường",
+              "lat": 10.7923,
+              "lon": 106.621,
+              "areaKm2": 3.03
+            },
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Tân Sơn Nhì",
+              "newWardShort": "Tân Sơn Nhì",
+              "newWardCode": "27019",
+              "newWardType": "Phường",
+              "lat": 10.7987,
+              "lon": 106.63,
+              "areaKm2": 3.49
+            }
+          ]
+        },
+        {
+          "code": "27010",
+          "name": "Phường Tân Sơn Nhì",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Tân Sơn Nhì",
+              "newWardShort": "Tân Sơn Nhì",
+              "newWardCode": "27019",
+              "newWardType": "Phường",
+              "lat": 10.7987,
+              "lon": 106.63,
+              "areaKm2": 3.49
+            }
+          ]
+        },
+        {
+          "code": "27022",
+          "name": "Phường Tân Thành",
+          "type": "Phường",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Phú Thọ Hòa",
+              "newWardShort": "Phú Thọ Hòa",
+              "newWardCode": "27022",
+              "newWardType": "Phường",
+              "lat": 10.7923,
+              "lon": 106.621,
+              "areaKm2": 3.03
+            },
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Tân Phú",
+              "newWardShort": "Tân Phú",
+              "newWardCode": "27031",
+              "newWardType": "Phường",
+              "lat": 10.7751,
+              "lon": 106.638,
+              "areaKm2": 2.52
+            },
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Tân Sơn Nhì",
+              "newWardShort": "Tân Sơn Nhì",
+              "newWardCode": "27019",
+              "newWardType": "Phường",
+              "lat": 10.7987,
+              "lon": 106.63,
+              "areaKm2": 3.49
+            }
+          ]
+        },
+        {
+          "code": "27040",
+          "name": "Phường Tân Thới Hòa",
+          "type": "Phường",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Phú Thạnh",
+              "newWardShort": "Phú Thạnh",
+              "newWardCode": "27028",
+              "newWardType": "Phường",
+              "lat": 10.7728,
+              "lon": 106.627,
+              "areaKm2": 2.98
+            },
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Tân Phú",
+              "newWardShort": "Tân Phú",
+              "newWardCode": "27031",
+              "newWardType": "Phường",
+              "lat": 10.7751,
+              "lon": 106.638,
+              "areaKm2": 2.52
+            }
+          ]
+        },
+        {
+          "code": "27013",
+          "name": "Phường Tây Thạnh",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Tây Thạnh",
+              "newWardShort": "Tây Thạnh",
+              "newWardCode": "27013",
+              "newWardType": "Phường",
+              "lat": 10.8108,
+              "lon": 106.622,
+              "areaKm2": 4
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "769",
+      "name": "Thành phố Thủ Đức",
+      "type": "Thành phố",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "27094",
+          "name": "Phường An Khánh",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường An Khánh",
+              "newWardShort": "An Khánh",
+              "newWardCode": "27094",
+              "newWardType": "Phường",
+              "lat": 10.7882,
+              "lon": 106.732,
+              "areaKm2": 15.33
+            }
+          ]
+        },
+        {
+          "code": "27115",
+          "name": "Phường An Lợi Đông",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường An Khánh",
+              "newWardShort": "An Khánh",
+              "newWardCode": "27094",
+              "newWardType": "Phường",
+              "lat": 10.7882,
+              "lon": 106.732,
+              "areaKm2": 15.33
+            }
+          ]
+        },
+        {
+          "code": "27091",
+          "name": "Phường An Phú",
+          "type": "Phường",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường An Khánh",
+              "newWardShort": "An Khánh",
+              "newWardCode": "27094",
+              "newWardType": "Phường",
+              "lat": 10.7882,
+              "lon": 106.732,
+              "areaKm2": 15.33
+            },
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Bình Trưng",
+              "newWardShort": "Bình Trưng",
+              "newWardCode": "27097",
+              "newWardType": "Phường",
+              "lat": 10.795,
+              "lon": 106.767,
+              "areaKm2": 14.82
+            }
+          ]
+        },
+        {
+          "code": "26797",
+          "name": "Phường Bình Chiểu",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Tam Bình",
+              "newWardShort": "Tam Bình",
+              "newWardCode": "26803",
+              "newWardType": "Phường",
+              "lat": 10.8727,
+              "lon": 106.733,
+              "areaKm2": 10.71
+            }
+          ]
+        },
+        {
+          "code": "26824",
+          "name": "Phường Bình Thọ",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Thủ Đức",
+              "newWardShort": "Thủ Đức",
+              "newWardCode": "26824",
+              "newWardType": "Phường",
+              "lat": 10.8426,
+              "lon": 106.757,
+              "areaKm2": 8.81
+            }
+          ]
+        },
+        {
+          "code": "27097",
+          "name": "Phường Bình Trưng Đông",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Bình Trưng",
+              "newWardShort": "Bình Trưng",
+              "newWardCode": "27097",
+              "newWardType": "Phường",
+              "lat": 10.795,
+              "lon": 106.767,
+              "areaKm2": 14.82
+            }
+          ]
+        },
+        {
+          "code": "27100",
+          "name": "Phường Bình Trưng Tây",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Bình Trưng",
+              "newWardShort": "Bình Trưng",
+              "newWardCode": "27097",
+              "newWardType": "Phường",
+              "lat": 10.795,
+              "lon": 106.767,
+              "areaKm2": 14.82
+            }
+          ]
+        },
+        {
+          "code": "27109",
+          "name": "Phường Cát Lái",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Cát Lái",
+              "newWardShort": "Cát Lái",
+              "newWardCode": "27112",
+              "newWardType": "Phường",
+              "lat": 10.7634,
+              "lon": 106.773,
+              "areaKm2": 19.65
+            }
+          ]
+        },
+        {
+          "code": "26812",
+          "name": "Phường Hiệp Bình Chánh",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Hiệp Bình",
+              "newWardShort": "Hiệp Bình",
+              "newWardCode": "26809",
+              "newWardType": "Phường",
+              "lat": 10.8431,
+              "lon": 106.722,
+              "areaKm2": 16.01
+            }
+          ]
+        },
+        {
+          "code": "26809",
+          "name": "Phường Hiệp Bình Phước",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Hiệp Bình",
+              "newWardShort": "Hiệp Bình",
+              "newWardCode": "26809",
+              "newWardType": "Phường",
+              "lat": 10.8431,
+              "lon": 106.722,
+              "areaKm2": 16.01
+            }
+          ]
+        },
+        {
+          "code": "26839",
+          "name": "Phường Hiệp Phú",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Tăng Nhơn Phú",
+              "newWardShort": "Tăng Nhơn Phú",
+              "newWardCode": "26842",
+              "newWardType": "Phường",
+              "lat": 10.8433,
+              "lon": 106.798,
+              "areaKm2": 16.5
+            }
+          ]
+        },
+        {
+          "code": "26815",
+          "name": "Phường Linh Chiểu",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Thủ Đức",
+              "newWardShort": "Thủ Đức",
+              "newWardCode": "26824",
+              "newWardType": "Phường",
+              "lat": 10.8426,
+              "lon": 106.757,
+              "areaKm2": 8.81
+            }
+          ]
+        },
+        {
+          "code": "26821",
+          "name": "Phường Linh Đông",
+          "type": "Phường",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Hiệp Bình",
+              "newWardShort": "Hiệp Bình",
+              "newWardCode": "26809",
+              "newWardType": "Phường",
+              "lat": 10.8431,
+              "lon": 106.722,
+              "areaKm2": 16.01
+            },
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Thủ Đức",
+              "newWardShort": "Thủ Đức",
+              "newWardCode": "26824",
+              "newWardType": "Phường",
+              "lat": 10.8426,
+              "lon": 106.757,
+              "areaKm2": 8.81
+            }
+          ]
+        },
+        {
+          "code": "26818",
+          "name": "Phường Linh Tây",
+          "type": "Phường",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Linh Xuân",
+              "newWardShort": "Linh Xuân",
+              "newWardCode": "26800",
+              "newWardType": "Phường",
+              "lat": 10.8609,
+              "lon": 106.78,
+              "areaKm2": 12.29
+            },
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Thủ Đức",
+              "newWardShort": "Thủ Đức",
+              "newWardCode": "26824",
+              "newWardType": "Phường",
+              "lat": 10.8426,
+              "lon": 106.757,
+              "areaKm2": 8.81
+            }
+          ]
+        },
+        {
+          "code": "26800",
+          "name": "Phường Linh Trung",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Linh Xuân",
+              "newWardShort": "Linh Xuân",
+              "newWardCode": "26800",
+              "newWardType": "Phường",
+              "lat": 10.8609,
+              "lon": 106.78,
+              "areaKm2": 12.29
+            }
+          ]
+        },
+        {
+          "code": "26794",
+          "name": "Phường Linh Xuân",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Linh Xuân",
+              "newWardShort": "Linh Xuân",
+              "newWardCode": "26800",
+              "newWardType": "Phường",
+              "lat": 10.8609,
+              "lon": 106.78,
+              "areaKm2": 12.29
+            }
+          ]
+        },
+        {
+          "code": "26830",
+          "name": "Phường Long Bình",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Long Bình",
+              "newWardShort": "Long Bình",
+              "newWardCode": "26833",
+              "newWardType": "Phường",
+              "lat": 10.8614,
+              "lon": 106.834,
+              "areaKm2": 29.43
+            }
+          ]
+        },
+        {
+          "code": "26857",
+          "name": "Phường Long Phước",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Long Phước",
+              "newWardShort": "Long Phước",
+              "newWardCode": "26857",
+              "newWardType": "Phường",
+              "lat": 10.8068,
+              "lon": 106.85,
+              "areaKm2": 34.29
+            }
+          ]
+        },
+        {
+          "code": "26833",
+          "name": "Phường Long Thạnh Mỹ",
+          "type": "Phường",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Long Bình",
+              "newWardShort": "Long Bình",
+              "newWardCode": "26833",
+              "newWardType": "Phường",
+              "lat": 10.8614,
+              "lon": 106.834,
+              "areaKm2": 29.43
+            },
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Tăng Nhơn Phú",
+              "newWardShort": "Tăng Nhơn Phú",
+              "newWardCode": "26842",
+              "newWardType": "Phường",
+              "lat": 10.8433,
+              "lon": 106.798,
+              "areaKm2": 16.5
+            }
+          ]
+        },
+        {
+          "code": "26860",
+          "name": "Phường Long Trường",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Long Trường",
+              "newWardShort": "Long Trường",
+              "newWardCode": "26860",
+              "newWardType": "Phường",
+              "lat": 10.7934,
+              "lon": 106.812,
+              "areaKm2": 24.49
+            }
+          ]
+        },
+        {
+          "code": "26866",
+          "name": "Phường Phú Hữu",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Long Trường",
+              "newWardShort": "Long Trường",
+              "newWardCode": "26860",
+              "newWardType": "Phường",
+              "lat": 10.7934,
+              "lon": 106.812,
+              "areaKm2": 24.49
+            }
+          ]
+        },
+        {
+          "code": "26863",
+          "name": "Phường Phước Bình",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Phước Long",
+              "newWardShort": "Phước Long",
+              "newWardCode": "26848",
+              "newWardType": "Phường",
+              "lat": 10.8179,
+              "lon": 106.775,
+              "areaKm2": 9.23
+            }
+          ]
+        },
+        {
+          "code": "26851",
+          "name": "Phường Phước Long A",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Phước Long",
+              "newWardShort": "Phước Long",
+              "newWardCode": "26848",
+              "newWardType": "Phường",
+              "lat": 10.8179,
+              "lon": 106.775,
+              "areaKm2": 9.23
+            }
+          ]
+        },
+        {
+          "code": "26848",
+          "name": "Phường Phước Long B",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Phước Long",
+              "newWardShort": "Phước Long",
+              "newWardCode": "26848",
+              "newWardType": "Phường",
+              "lat": 10.8179,
+              "lon": 106.775,
+              "areaKm2": 9.23
+            }
+          ]
+        },
+        {
+          "code": "26803",
+          "name": "Phường Tam Bình",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Tam Bình",
+              "newWardShort": "Tam Bình",
+              "newWardCode": "26803",
+              "newWardType": "Phường",
+              "lat": 10.8727,
+              "lon": 106.733,
+              "areaKm2": 10.71
+            }
+          ]
+        },
+        {
+          "code": "26806",
+          "name": "Phường Tam Phú",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Tam Bình",
+              "newWardShort": "Tam Bình",
+              "newWardCode": "26803",
+              "newWardType": "Phường",
+              "lat": 10.8727,
+              "lon": 106.733,
+              "areaKm2": 10.71
+            }
+          ]
+        },
+        {
+          "code": "26836",
+          "name": "Phường Tân Phú",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Tăng Nhơn Phú",
+              "newWardShort": "Tăng Nhơn Phú",
+              "newWardCode": "26842",
+              "newWardType": "Phường",
+              "lat": 10.8433,
+              "lon": 106.798,
+              "areaKm2": 16.5
+            }
+          ]
+        },
+        {
+          "code": "26842",
+          "name": "Phường Tăng Nhơn Phú A",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Tăng Nhơn Phú",
+              "newWardShort": "Tăng Nhơn Phú",
+              "newWardCode": "26842",
+              "newWardType": "Phường",
+              "lat": 10.8433,
+              "lon": 106.798,
+              "areaKm2": 16.5
+            }
+          ]
+        },
+        {
+          "code": "26845",
+          "name": "Phường Tăng Nhơn Phú B",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Tăng Nhơn Phú",
+              "newWardShort": "Tăng Nhơn Phú",
+              "newWardCode": "26842",
+              "newWardType": "Phường",
+              "lat": 10.8433,
+              "lon": 106.798,
+              "areaKm2": 16.5
+            }
+          ]
+        },
+        {
+          "code": "27112",
+          "name": "Phường Thạnh Mỹ Lợi",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Cát Lái",
+              "newWardShort": "Cát Lái",
+              "newWardCode": "27112",
+              "newWardType": "Phường",
+              "lat": 10.7634,
+              "lon": 106.773,
+              "areaKm2": 19.65
+            }
+          ]
+        },
+        {
+          "code": "27088",
+          "name": "Phường Thảo Điền",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường An Khánh",
+              "newWardShort": "An Khánh",
+              "newWardCode": "27094",
+              "newWardType": "Phường",
+              "lat": 10.7882,
+              "lon": 106.732,
+              "areaKm2": 15.33
+            }
+          ]
+        },
+        {
+          "code": "27118",
+          "name": "Phường Thủ Thiêm",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường An Khánh",
+              "newWardShort": "An Khánh",
+              "newWardCode": "27094",
+              "newWardType": "Phường",
+              "lat": 10.7882,
+              "lon": 106.732,
+              "areaKm2": 15.33
+            }
+          ]
+        },
+        {
+          "code": "26854",
+          "name": "Phường Trường Thạnh",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Long Phước",
+              "newWardShort": "Long Phước",
+              "newWardCode": "26857",
+              "newWardType": "Phường",
+              "lat": 10.8068,
+              "lon": 106.85,
+              "areaKm2": 34.29
+            }
+          ]
+        },
+        {
+          "code": "26827",
+          "name": "Phường Trường Thọ",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Hồ Chí Minh",
+              "newProvinceSlug": "ho-chi-minh",
+              "newProvinceCode": "79",
+              "newWard": "Phường Thủ Đức",
+              "newWardShort": "Thủ Đức",
+              "newWardCode": "26824",
+              "newWardType": "Phường",
+              "lat": 10.8426,
+              "lon": 106.757,
+              "areaKm2": 8.81
+            }
+          ]
+        }
+      ],
+      "results": []
+    }
+  ]
+}

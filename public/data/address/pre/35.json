@@ -1,0 +1,2084 @@
+{
+  "schemaVersion": 1,
+  "mergeDate": "2025-07-01",
+  "code": "35",
+  "name": "Tỉnh Hà Nam",
+  "name_en": "Ha Nam Province",
+  "slug": "ha-nam",
+  "districts": [
+    {
+      "code": "352",
+      "name": "Huyện Bình Lục",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "13501",
+          "name": "Thị trấn Bình Mỹ",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Xã Bình Mỹ",
+              "newWardShort": "Bình Mỹ",
+              "newWardCode": "13501",
+              "newWardType": "Xã",
+              "lat": 20.4886,
+              "lon": 106.005,
+              "areaKm2": 82.62
+            }
+          ]
+        },
+        {
+          "code": "13552",
+          "name": "Xã An Đổ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Xã Bình Sơn",
+              "newWardShort": "Bình Sơn",
+              "newWardCode": "13558",
+              "newWardType": "Xã",
+              "lat": 20.4261,
+              "lon": 106.008,
+              "areaKm2": 281.7
+            }
+          ]
+        },
+        {
+          "code": "13561",
+          "name": "Xã An Lão",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Xã Bình Sơn",
+              "newWardShort": "Bình Sơn",
+              "newWardCode": "13558",
+              "newWardType": "Xã",
+              "lat": 20.4261,
+              "lon": 106.008,
+              "areaKm2": 281.7
+            }
+          ]
+        },
+        {
+          "code": "13528",
+          "name": "Xã An Ninh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Xã Bình Giang",
+              "newWardShort": "Bình Giang",
+              "newWardCode": "13531",
+              "newWardType": "Xã",
+              "lat": 20.505,
+              "lon": 106.123,
+              "areaKm2": 163.7
+            }
+          ]
+        },
+        {
+          "code": "13540",
+          "name": "Xã Bình An",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Xã Bình An",
+              "newWardShort": "Bình An",
+              "newWardCode": "13540",
+              "newWardType": "Xã",
+              "lat": 20.4982,
+              "lon": 106.058,
+              "areaKm2": 73.43
+            }
+          ]
+        },
+        {
+          "code": "13504",
+          "name": "Xã Bình Nghĩa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Xã Bình Lục",
+              "newWardShort": "Bình Lục",
+              "newWardCode": "13504",
+              "newWardType": "Xã",
+              "lat": 20.5476,
+              "lon": 106.013,
+              "areaKm2": 23.97
+            }
+          ]
+        },
+        {
+          "code": "13531",
+          "name": "Xã Bồ Đề",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Xã Bình Giang",
+              "newWardShort": "Bình Giang",
+              "newWardCode": "13531",
+              "newWardType": "Xã",
+              "lat": 20.505,
+              "lon": 106.123,
+              "areaKm2": 163.7
+            }
+          ]
+        },
+        {
+          "code": "13525",
+          "name": "Xã Đồn Xá",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Xã Bình Mỹ",
+              "newWardShort": "Bình Mỹ",
+              "newWardCode": "13501",
+              "newWardType": "Xã",
+              "lat": 20.4886,
+              "lon": 106.005,
+              "areaKm2": 82.62
+            }
+          ]
+        },
+        {
+          "code": "13516",
+          "name": "Xã Đồng Du",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Xã Bình Lục",
+              "newWardShort": "Bình Lục",
+              "newWardCode": "13504",
+              "newWardType": "Xã",
+              "lat": 20.5476,
+              "lon": 106.013,
+              "areaKm2": 23.97
+            }
+          ]
+        },
+        {
+          "code": "13555",
+          "name": "Xã La Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Xã Bình Mỹ",
+              "newWardShort": "Bình Mỹ",
+              "newWardCode": "13501",
+              "newWardType": "Xã",
+              "lat": 20.4886,
+              "lon": 106.005,
+              "areaKm2": 82.62
+            }
+          ]
+        },
+        {
+          "code": "13519",
+          "name": "Xã Ngọc Lũ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Xã Bình An",
+              "newWardShort": "Bình An",
+              "newWardCode": "13540",
+              "newWardType": "Xã",
+              "lat": 20.4982,
+              "lon": 106.058,
+              "areaKm2": 73.43
+            }
+          ]
+        },
+        {
+          "code": "13558",
+          "name": "Xã Tiêu Động",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Xã Bình Sơn",
+              "newWardShort": "Bình Sơn",
+              "newWardCode": "13558",
+              "newWardType": "Xã",
+              "lat": 20.4261,
+              "lon": 106.008,
+              "areaKm2": 281.7
+            }
+          ]
+        },
+        {
+          "code": "13510",
+          "name": "Xã Tràng An",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Xã Bình Lục",
+              "newWardShort": "Bình Lục",
+              "newWardCode": "13504",
+              "newWardType": "Xã",
+              "lat": 20.5476,
+              "lon": 106.013,
+              "areaKm2": 23.97
+            }
+          ]
+        },
+        {
+          "code": "13546",
+          "name": "Xã Trung Lương",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Xã Bình An",
+              "newWardShort": "Bình An",
+              "newWardCode": "13540",
+              "newWardType": "Xã",
+              "lat": 20.4982,
+              "lon": 106.058,
+              "areaKm2": 73.43
+            }
+          ]
+        },
+        {
+          "code": "13543",
+          "name": "Xã Vũ Bản",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Xã Bình Giang",
+              "newWardShort": "Bình Giang",
+              "newWardCode": "13531",
+              "newWardType": "Xã",
+              "lat": 20.505,
+              "lon": 106.123,
+              "areaKm2": 163.7
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "353",
+      "name": "Huyện Lý Nhân",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "13597",
+          "name": "Thị trấn Vĩnh Trụ",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Xã Vĩnh Trụ",
+              "newWardShort": "Vĩnh Trụ",
+              "newWardCode": "13597",
+              "newWardType": "Xã",
+              "lat": 20.5482,
+              "lon": 106.049,
+              "areaKm2": 17.59
+            }
+          ]
+        },
+        {
+          "code": "13588",
+          "name": "Xã Bắc Lý",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Xã Bắc Lý",
+              "newWardShort": "Bắc Lý",
+              "newWardCode": "13579",
+              "newWardType": "Xã",
+              "lat": 20.6006,
+              "lon": 106.112,
+              "areaKm2": 109.17
+            }
+          ]
+        },
+        {
+          "code": "13576",
+          "name": "Xã Chân Lý",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Xã Bắc Lý",
+              "newWardShort": "Bắc Lý",
+              "newWardCode": "13579",
+              "newWardType": "Xã",
+              "lat": 20.6006,
+              "lon": 106.112,
+              "areaKm2": 109.17
+            }
+          ]
+        },
+        {
+          "code": "13573",
+          "name": "Xã Chính Lý",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Xã Lý Nhân",
+              "newWardShort": "Lý Nhân",
+              "newWardCode": "13573",
+              "newWardType": "Xã",
+              "lat": 20.6001,
+              "lon": 106.004,
+              "areaKm2": 18.38
+            }
+          ]
+        },
+        {
+          "code": "13582",
+          "name": "Xã Công Lý",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Xã Nam Xang",
+              "newWardShort": "Nam Xang",
+              "newWardCode": "13591",
+              "newWardType": "Xã",
+              "lat": 20.5881,
+              "lon": 106.046,
+              "areaKm2": 22.7561
+            }
+          ]
+        },
+        {
+          "code": "13579",
+          "name": "Xã Đạo Lý",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Xã Bắc Lý",
+              "newWardShort": "Bắc Lý",
+              "newWardCode": "13579",
+              "newWardType": "Xã",
+              "lat": 20.6006,
+              "lon": 106.112,
+              "areaKm2": 109.17
+            }
+          ]
+        },
+        {
+          "code": "13591",
+          "name": "Xã Đức Lý",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Xã Nam Xang",
+              "newWardShort": "Nam Xang",
+              "newWardCode": "13591",
+              "newWardType": "Xã",
+              "lat": 20.5881,
+              "lon": 106.046,
+              "areaKm2": 22.7561
+            }
+          ]
+        },
+        {
+          "code": "13630",
+          "name": "Xã Hòa Hậu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Xã Nam Lý",
+              "newWardShort": "Nam Lý",
+              "newWardCode": "13627",
+              "newWardType": "Xã",
+              "lat": 20.5051,
+              "lon": 106.161,
+              "areaKm2": 28.69
+            }
+          ]
+        },
+        {
+          "code": "13567",
+          "name": "Xã Hợp Lý",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Xã Lý Nhân",
+              "newWardShort": "Lý Nhân",
+              "newWardCode": "13573",
+              "newWardType": "Xã",
+              "lat": 20.6001,
+              "lon": 106.004,
+              "areaKm2": 18.38
+            }
+          ]
+        },
+        {
+          "code": "13570",
+          "name": "Xã Nguyên Lý",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Xã Nam Xang",
+              "newWardShort": "Nam Xang",
+              "newWardCode": "13591",
+              "newWardType": "Xã",
+              "lat": 20.5881,
+              "lon": 106.046,
+              "areaKm2": 22.7561
+            }
+          ]
+        },
+        {
+          "code": "13618",
+          "name": "Xã Nhân Bình",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Xã Trần Thương",
+              "newWardShort": "Trần Thương",
+              "newWardCode": "13594",
+              "newWardType": "Xã",
+              "lat": 20.5511,
+              "lon": 106.104,
+              "areaKm2": 26.32
+            }
+          ]
+        },
+        {
+          "code": "13615",
+          "name": "Xã Nhân Chính",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Xã Vĩnh Trụ",
+              "newWardShort": "Vĩnh Trụ",
+              "newWardCode": "13597",
+              "newWardType": "Xã",
+              "lat": 20.5482,
+              "lon": 106.049,
+              "areaKm2": 17.59
+            }
+          ]
+        },
+        {
+          "code": "13606",
+          "name": "Xã Nhân Khang",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Xã Vĩnh Trụ",
+              "newWardShort": "Vĩnh Trụ",
+              "newWardCode": "13597",
+              "newWardType": "Xã",
+              "lat": 20.5482,
+              "lon": 106.049,
+              "areaKm2": 17.59
+            }
+          ]
+        },
+        {
+          "code": "13609",
+          "name": "Xã Nhân Mỹ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Xã Nhân Hà",
+              "newWardShort": "Nhân Hà",
+              "newWardCode": "13609",
+              "newWardType": "Xã",
+              "lat": 20.545,
+              "lon": 106.139,
+              "areaKm2": 23.98
+            }
+          ]
+        },
+        {
+          "code": "13612",
+          "name": "Xã Nhân Nghĩa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Xã Trần Thương",
+              "newWardShort": "Trần Thương",
+              "newWardCode": "13594",
+              "newWardType": "Xã",
+              "lat": 20.5511,
+              "lon": 106.104,
+              "areaKm2": 26.32
+            }
+          ]
+        },
+        {
+          "code": "13600",
+          "name": "Xã Nhân Thịnh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Xã Nhân Hà",
+              "newWardShort": "Nhân Hà",
+              "newWardCode": "13609",
+              "newWardType": "Xã",
+              "lat": 20.545,
+              "lon": 106.139,
+              "areaKm2": 23.98
+            }
+          ]
+        },
+        {
+          "code": "13621",
+          "name": "Xã Phú Phúc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Xã Nam Lý",
+              "newWardShort": "Nam Lý",
+              "newWardCode": "13627",
+              "newWardType": "Xã",
+              "lat": 20.5051,
+              "lon": 106.161,
+              "areaKm2": 28.69
+            }
+          ]
+        },
+        {
+          "code": "13627",
+          "name": "Xã Tiến Thắng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Xã Nam Lý",
+              "newWardShort": "Nam Lý",
+              "newWardCode": "13627",
+              "newWardType": "Xã",
+              "lat": 20.5051,
+              "lon": 106.161,
+              "areaKm2": 28.69
+            }
+          ]
+        },
+        {
+          "code": "13594",
+          "name": "Xã Trần Hưng Đạo",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Xã Trần Thương",
+              "newWardShort": "Trần Thương",
+              "newWardCode": "13594",
+              "newWardType": "Xã",
+              "lat": 20.5511,
+              "lon": 106.104,
+              "areaKm2": 26.32
+            }
+          ]
+        },
+        {
+          "code": "13585",
+          "name": "Xã Văn Lý",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Xã Lý Nhân",
+              "newWardShort": "Lý Nhân",
+              "newWardCode": "13573",
+              "newWardType": "Xã",
+              "lat": 20.6001,
+              "lon": 106.004,
+              "areaKm2": 18.38
+            }
+          ]
+        },
+        {
+          "code": "13624",
+          "name": "Xã Xuân Khê",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Xã Nhân Hà",
+              "newWardShort": "Nhân Hà",
+              "newWardCode": "13609",
+              "newWardType": "Xã",
+              "lat": 20.545,
+              "lon": 106.139,
+              "areaKm2": 23.98
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "351",
+      "name": "Huyện Thanh Liêm",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "13441",
+          "name": "Thị trấn Kiện Khê",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Phường Châu Sơn",
+              "newWardShort": "Châu Sơn",
+              "newWardCode": "13318",
+              "newWardType": "Phường",
+              "lat": 20.5057,
+              "lon": 105.895,
+              "areaKm2": 17.45
+            }
+          ]
+        },
+        {
+          "code": "13474",
+          "name": "Thị trấn Tân Thanh",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Xã Tân Thanh",
+              "newWardShort": "Tân Thanh",
+              "newWardCode": "13474",
+              "newWardType": "Xã",
+              "lat": 20.4754,
+              "lon": 105.906,
+              "areaKm2": 114.5
+            }
+          ]
+        },
+        {
+          "code": "13456",
+          "name": "Xã Liêm Cần",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Xã Liêm Hà",
+              "newWardShort": "Liêm Hà",
+              "newWardCode": "13456",
+              "newWardType": "Xã",
+              "lat": 20.5039,
+              "lon": 105.952,
+              "areaKm2": 20.95
+            }
+          ]
+        },
+        {
+          "code": "13450",
+          "name": "Xã Liêm Phong",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Xã Liêm Hà",
+              "newWardShort": "Liêm Hà",
+              "newWardCode": "13456",
+              "newWardType": "Xã",
+              "lat": 20.5039,
+              "lon": 105.952,
+              "areaKm2": 20.95
+            }
+          ]
+        },
+        {
+          "code": "13483",
+          "name": "Xã Liêm Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Xã Thanh Bình",
+              "newWardShort": "Thanh Bình",
+              "newWardCode": "13483",
+              "newWardType": "Xã",
+              "lat": 20.4567,
+              "lon": 105.968,
+              "areaKm2": 86
+            }
+          ]
+        },
+        {
+          "code": "13465",
+          "name": "Xã Liêm Thuận",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Xã Thanh Bình",
+              "newWardShort": "Thanh Bình",
+              "newWardCode": "13483",
+              "newWardType": "Xã",
+              "lat": 20.4567,
+              "lon": 105.968,
+              "areaKm2": 86
+            }
+          ]
+        },
+        {
+          "code": "13480",
+          "name": "Xã Liêm Túc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Xã Thanh Bình",
+              "newWardShort": "Thanh Bình",
+              "newWardCode": "13483",
+              "newWardType": "Xã",
+              "lat": 20.4567,
+              "lon": 105.968,
+              "areaKm2": 86
+            }
+          ]
+        },
+        {
+          "code": "13453",
+          "name": "Xã Thanh Hà",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Xã Liêm Hà",
+              "newWardShort": "Liêm Hà",
+              "newWardCode": "13456",
+              "newWardType": "Xã",
+              "lat": 20.5039,
+              "lon": 105.952,
+              "areaKm2": 20.95
+            }
+          ]
+        },
+        {
+          "code": "13498",
+          "name": "Xã Thanh Hải",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Xã Thanh Lâm",
+              "newWardShort": "Thanh Lâm",
+              "newWardCode": "13489",
+              "newWardType": "Xã",
+              "lat": 20.4215,
+              "lon": 105.893,
+              "areaKm2": 52.91
+            }
+          ]
+        },
+        {
+          "code": "13486",
+          "name": "Xã Thanh Hương",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Xã Thanh Liêm",
+              "newWardShort": "Thanh Liêm",
+              "newWardCode": "13495",
+              "newWardType": "Xã",
+              "lat": 20.4302,
+              "lon": 105.931,
+              "areaKm2": 23.27
+            }
+          ]
+        },
+        {
+          "code": "13489",
+          "name": "Xã Thanh Nghị",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Xã Thanh Lâm",
+              "newWardShort": "Thanh Lâm",
+              "newWardCode": "13489",
+              "newWardType": "Xã",
+              "lat": 20.4215,
+              "lon": 105.893,
+              "areaKm2": 52.91
+            }
+          ]
+        },
+        {
+          "code": "13495",
+          "name": "Xã Thanh Nguyên",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Xã Thanh Liêm",
+              "newWardShort": "Thanh Liêm",
+              "newWardCode": "13495",
+              "newWardType": "Xã",
+              "lat": 20.4302,
+              "lon": 105.931,
+              "areaKm2": 23.27
+            }
+          ]
+        },
+        {
+          "code": "13471",
+          "name": "Xã Thanh Phong",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Xã Tân Thanh",
+              "newWardShort": "Tân Thanh",
+              "newWardCode": "13474",
+              "newWardType": "Xã",
+              "lat": 20.4754,
+              "lon": 105.906,
+              "areaKm2": 114.5
+            }
+          ]
+        },
+        {
+          "code": "13492",
+          "name": "Xã Thanh Tâm",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Xã Thanh Liêm",
+              "newWardShort": "Thanh Liêm",
+              "newWardCode": "13495",
+              "newWardType": "Xã",
+              "lat": 20.4302,
+              "lon": 105.931,
+              "areaKm2": 23.27
+            }
+          ]
+        },
+        {
+          "code": "13477",
+          "name": "Xã Thanh Tân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Xã Thanh Lâm",
+              "newWardShort": "Thanh Lâm",
+              "newWardCode": "13489",
+              "newWardType": "Xã",
+              "lat": 20.4215,
+              "lon": 105.893,
+              "areaKm2": 52.91
+            }
+          ]
+        },
+        {
+          "code": "13468",
+          "name": "Xã Thanh Thủy",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Xã Tân Thanh",
+              "newWardShort": "Tân Thanh",
+              "newWardCode": "13474",
+              "newWardType": "Xã",
+              "lat": 20.4754,
+              "lon": 105.906,
+              "areaKm2": 114.5
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "347",
+      "name": "Thành phố Phủ Lý",
+      "type": "Thành phố",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "13294",
+          "name": "Phường Châu Cầu",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Phường Phủ Lý",
+              "newWardShort": "Phủ Lý",
+              "newWardCode": "13285",
+              "newWardType": "Phường",
+              "lat": 20.5307,
+              "lon": 105.928,
+              "areaKm2": 11.84
+            }
+          ]
+        },
+        {
+          "code": "13318",
+          "name": "Phường Châu Sơn",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Phường Châu Sơn",
+              "newWardShort": "Châu Sơn",
+              "newWardCode": "13318",
+              "newWardType": "Phường",
+              "lat": 20.5057,
+              "lon": 105.895,
+              "areaKm2": 17.45
+            }
+          ]
+        },
+        {
+          "code": "13303",
+          "name": "Phường Lam Hạ",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Phường Hà Nam",
+              "newWardShort": "Hà Nam",
+              "newWardCode": "13366",
+              "newWardType": "Phường",
+              "lat": 20.5789,
+              "lon": 105.938,
+              "areaKm2": 29.98
+            }
+          ]
+        },
+        {
+          "code": "13291",
+          "name": "Phường Lê Hồng Phong",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Phường Phù Vân",
+              "newWardShort": "Phù Vân",
+              "newWardCode": "13291",
+              "newWardType": "Phường",
+              "lat": 20.5591,
+              "lon": 105.904,
+              "areaKm2": 19.34
+            }
+          ]
+        },
+        {
+          "code": "13309",
+          "name": "Phường Liêm Chính",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Phường Phủ Lý",
+              "newWardShort": "Phủ Lý",
+              "newWardCode": "13285",
+              "newWardType": "Phường",
+              "lat": 20.5307,
+              "lon": 105.928,
+              "areaKm2": 11.84
+            }
+          ]
+        },
+        {
+          "code": "13285",
+          "name": "Phường Quang Trung",
+          "type": "Phường",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Phường Hà Nam",
+              "newWardShort": "Hà Nam",
+              "newWardCode": "13366",
+              "newWardType": "Phường",
+              "lat": 20.5789,
+              "lon": 105.938,
+              "areaKm2": 29.98
+            },
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Phường Phủ Lý",
+              "newWardShort": "Phủ Lý",
+              "newWardCode": "13285",
+              "newWardType": "Phường",
+              "lat": 20.5307,
+              "lon": 105.928,
+              "areaKm2": 11.84
+            }
+          ]
+        },
+        {
+          "code": "13366",
+          "name": "Phường Tân Hiệp",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Phường Hà Nam",
+              "newWardShort": "Hà Nam",
+              "newWardCode": "13366",
+              "newWardType": "Phường",
+              "lat": 20.5789,
+              "lon": 105.938,
+              "areaKm2": 29.98
+            }
+          ]
+        },
+        {
+          "code": "13444",
+          "name": "Phường Tân Liêm",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Phường Liêm Tuyền",
+              "newWardShort": "Liêm Tuyền",
+              "newWardCode": "13444",
+              "newWardType": "Phường",
+              "lat": 20.5366,
+              "lon": 105.97,
+              "areaKm2": 21.44
+            }
+          ]
+        },
+        {
+          "code": "13315",
+          "name": "Phường Thanh Châu",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Phường Phủ Lý",
+              "newWardShort": "Phủ Lý",
+              "newWardCode": "13285",
+              "newWardType": "Phường",
+              "lat": 20.5307,
+              "lon": 105.928,
+              "areaKm2": 11.84
+            }
+          ]
+        },
+        {
+          "code": "13459",
+          "name": "Phường Thanh Tuyền",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Phường Châu Sơn",
+              "newWardShort": "Châu Sơn",
+              "newWardCode": "13318",
+              "newWardType": "Phường",
+              "lat": 20.5057,
+              "lon": 105.895,
+              "areaKm2": 17.45
+            }
+          ]
+        },
+        {
+          "code": "13507",
+          "name": "Xã Đinh Xá",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Phường Liêm Tuyền",
+              "newWardShort": "Liêm Tuyền",
+              "newWardCode": "13444",
+              "newWardType": "Phường",
+              "lat": 20.5366,
+              "lon": 105.97,
+              "areaKm2": 21.44
+            }
+          ]
+        },
+        {
+          "code": "13426",
+          "name": "Xã Kim Bình",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Phường Phù Vân",
+              "newWardShort": "Phù Vân",
+              "newWardCode": "13291",
+              "newWardType": "Phường",
+              "lat": 20.5591,
+              "lon": 105.904,
+              "areaKm2": 19.34
+            }
+          ]
+        },
+        {
+          "code": "13306",
+          "name": "Xã Phù Vân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Phường Phù Vân",
+              "newWardShort": "Phù Vân",
+              "newWardCode": "13291",
+              "newWardType": "Phường",
+              "lat": 20.5591,
+              "lon": 105.904,
+              "areaKm2": 19.34
+            }
+          ]
+        },
+        {
+          "code": "13513",
+          "name": "Xã Trịnh Xá",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Phường Liêm Tuyền",
+              "newWardShort": "Liêm Tuyền",
+              "newWardCode": "13444",
+              "newWardType": "Phường",
+              "lat": 20.5366,
+              "lon": 105.97,
+              "areaKm2": 21.44
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "349",
+      "name": "Thị xã Duy Tiên",
+      "type": "Thị xã",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "13333",
+          "name": "Phường Bạch Thượng",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Phường Đồng Văn",
+              "newWardShort": "Đồng Văn",
+              "newWardCode": "13348",
+              "newWardType": "Phường",
+              "lat": 20.6434,
+              "lon": 105.931,
+              "areaKm2": 18.88
+            }
+          ]
+        },
+        {
+          "code": "13330",
+          "name": "Phường Châu Giang",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Phường Duy Tân",
+              "newWardShort": "Duy Tân",
+              "newWardCode": "13330",
+              "newWardType": "Phường",
+              "lat": 20.6623,
+              "lon": 105.997,
+              "areaKm2": 28.86
+            }
+          ]
+        },
+        {
+          "code": "13321",
+          "name": "Phường Đồng Văn",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Phường Đồng Văn",
+              "newWardShort": "Đồng Văn",
+              "newWardCode": "13348",
+              "newWardType": "Phường",
+              "lat": 20.6434,
+              "lon": 105.931,
+              "areaKm2": 18.88
+            }
+          ]
+        },
+        {
+          "code": "13342",
+          "name": "Phường Duy Hải",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Phường Duy Hà",
+              "newWardShort": "Duy Hà",
+              "newWardCode": "13336",
+              "newWardType": "Phường",
+              "lat": 20.6522,
+              "lon": 105.903,
+              "areaKm2": 15.46
+            }
+          ]
+        },
+        {
+          "code": "13336",
+          "name": "Phường Duy Minh",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Phường Duy Hà",
+              "newWardShort": "Duy Hà",
+              "newWardCode": "13336",
+              "newWardType": "Phường",
+              "lat": 20.6522,
+              "lon": 105.903,
+              "areaKm2": 15.46
+            }
+          ]
+        },
+        {
+          "code": "13324",
+          "name": "Phường Hòa Mạc",
+          "type": "Phường",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Phường Duy Tân",
+              "newWardShort": "Duy Tân",
+              "newWardCode": "13330",
+              "newWardType": "Phường",
+              "lat": 20.6623,
+              "lon": 105.997,
+              "areaKm2": 28.86
+            },
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Phường Duy Tiên",
+              "newWardShort": "Duy Tiên",
+              "newWardCode": "13324",
+              "newWardType": "Phường",
+              "lat": 20.6253,
+              "lon": 105.983,
+              "areaKm2": 28.93
+            }
+          ]
+        },
+        {
+          "code": "13357",
+          "name": "Phường Hoàng Đông",
+          "type": "Phường",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Phường Duy Hà",
+              "newWardShort": "Duy Hà",
+              "newWardCode": "13336",
+              "newWardType": "Phường",
+              "lat": 20.6522,
+              "lon": 105.903,
+              "areaKm2": 15.46
+            },
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Phường Hà Nam",
+              "newWardShort": "Hà Nam",
+              "newWardCode": "13366",
+              "newWardType": "Phường",
+              "lat": 20.5789,
+              "lon": 105.938,
+              "areaKm2": 29.98
+            }
+          ]
+        },
+        {
+          "code": "13354",
+          "name": "Phường Tiên Nội",
+          "type": "Phường",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Phường Hà Nam",
+              "newWardShort": "Hà Nam",
+              "newWardCode": "13366",
+              "newWardType": "Phường",
+              "lat": 20.5789,
+              "lon": 105.938,
+              "areaKm2": 29.98
+            },
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Phường Tiên Sơn",
+              "newWardShort": "Tiên Sơn",
+              "newWardCode": "13363",
+              "newWardType": "Phường",
+              "lat": 20.5778,
+              "lon": 105.974,
+              "areaKm2": 23.96
+            }
+          ]
+        },
+        {
+          "code": "13348",
+          "name": "Phường Yên Bắc",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Phường Đồng Văn",
+              "newWardShort": "Đồng Văn",
+              "newWardCode": "13348",
+              "newWardType": "Phường",
+              "lat": 20.6434,
+              "lon": 105.931,
+              "areaKm2": 18.88
+            }
+          ]
+        },
+        {
+          "code": "13345",
+          "name": "Xã Chuyên Ngoại",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Phường Duy Tiên",
+              "newWardShort": "Duy Tiên",
+              "newWardCode": "13324",
+              "newWardType": "Phường",
+              "lat": 20.6253,
+              "lon": 105.983,
+              "areaKm2": 28.93
+            }
+          ]
+        },
+        {
+          "code": "13327",
+          "name": "Xã Mộc Hoàn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Phường Duy Tân",
+              "newWardShort": "Duy Tân",
+              "newWardCode": "13330",
+              "newWardType": "Phường",
+              "lat": 20.6623,
+              "lon": 105.997,
+              "areaKm2": 28.86
+            }
+          ]
+        },
+        {
+          "code": "13363",
+          "name": "Xã Tiên Ngoại",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Phường Hà Nam",
+              "newWardShort": "Hà Nam",
+              "newWardCode": "13366",
+              "newWardType": "Phường",
+              "lat": 20.5789,
+              "lon": 105.938,
+              "areaKm2": 29.98
+            },
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Phường Tiên Sơn",
+              "newWardShort": "Tiên Sơn",
+              "newWardCode": "13363",
+              "newWardType": "Phường",
+              "lat": 20.5778,
+              "lon": 105.974,
+              "areaKm2": 23.96
+            }
+          ]
+        },
+        {
+          "code": "13369",
+          "name": "Xã Tiên Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Phường Tiên Sơn",
+              "newWardShort": "Tiên Sơn",
+              "newWardCode": "13363",
+              "newWardType": "Phường",
+              "lat": 20.5778,
+              "lon": 105.974,
+              "areaKm2": 23.96
+            }
+          ]
+        },
+        {
+          "code": "13351",
+          "name": "Xã Trác Văn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Phường Duy Tiên",
+              "newWardShort": "Duy Tiên",
+              "newWardCode": "13324",
+              "newWardType": "Phường",
+              "lat": 20.6253,
+              "lon": 105.983,
+              "areaKm2": 28.93
+            }
+          ]
+        },
+        {
+          "code": "13360",
+          "name": "Xã Yên Nam",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Phường Duy Tiên",
+              "newWardShort": "Duy Tiên",
+              "newWardCode": "13324",
+              "newWardType": "Phường",
+              "lat": 20.6253,
+              "lon": 105.983,
+              "areaKm2": 28.93
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "350",
+      "name": "Thị xã Kim Bảng",
+      "type": "Thị xã",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "13429",
+          "name": "Phường Ba Sao",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Phường Tam Chúc",
+              "newWardShort": "Tam Chúc",
+              "newWardCode": "13420",
+              "newWardType": "Phường",
+              "lat": 20.5558,
+              "lon": 105.813,
+              "areaKm2": 46.56
+            }
+          ]
+        },
+        {
+          "code": "13390",
+          "name": "Phường Đại Cương",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Phường Lê Hồ",
+              "newWardShort": "Lê Hồ",
+              "newWardCode": "13393",
+              "newWardType": "Phường",
+              "lat": 20.6281,
+              "lon": 105.854,
+              "areaKm2": 22.3964
+            }
+          ]
+        },
+        {
+          "code": "13405",
+          "name": "Phường Đồng Hóa",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Phường Lê Hồ",
+              "newWardShort": "Lê Hồ",
+              "newWardCode": "13393",
+              "newWardType": "Phường",
+              "lat": 20.6281,
+              "lon": 105.854,
+              "areaKm2": 22.3964
+            }
+          ]
+        },
+        {
+          "code": "13393",
+          "name": "Phường Lê Hồ",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Phường Lê Hồ",
+              "newWardShort": "Lê Hồ",
+              "newWardCode": "13393",
+              "newWardType": "Phường",
+              "lat": 20.6281,
+              "lon": 105.854,
+              "areaKm2": 22.3964
+            }
+          ]
+        },
+        {
+          "code": "13423",
+          "name": "Phường Ngọc Sơn",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Phường Kim Bảng",
+              "newWardShort": "Kim Bảng",
+              "newWardCode": "13384",
+              "newWardType": "Phường",
+              "lat": 20.5916,
+              "lon": 105.9,
+              "areaKm2": 15.22
+            }
+          ]
+        },
+        {
+          "code": "13384",
+          "name": "Phường Quế",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Phường Kim Bảng",
+              "newWardShort": "Kim Bảng",
+              "newWardCode": "13384",
+              "newWardType": "Phường",
+              "lat": 20.5916,
+              "lon": 105.9,
+              "areaKm2": 15.22
+            }
+          ]
+        },
+        {
+          "code": "13411",
+          "name": "Phường Tân Sơn",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Phường Nguyễn Úy",
+              "newWardShort": "Nguyễn Úy",
+              "newWardCode": "13396",
+              "newWardType": "Phường",
+              "lat": 20.6213,
+              "lon": 105.828,
+              "areaKm2": 24.5707
+            }
+          ]
+        },
+        {
+          "code": "13402",
+          "name": "Phường Tân Tựu",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Phường Kim Thanh",
+              "newWardShort": "Kim Thanh",
+              "newWardCode": "13402",
+              "newWardType": "Phường",
+              "lat": 20.616,
+              "lon": 105.901,
+              "areaKm2": 13.715
+            }
+          ]
+        },
+        {
+          "code": "13435",
+          "name": "Phường Thi Sơn",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Phường Lý Thường Kiệt",
+              "newWardShort": "Lý Thường Kiệt",
+              "newWardCode": "13435",
+              "newWardType": "Phường",
+              "lat": 20.531,
+              "lon": 105.856,
+              "areaKm2": 53.66
+            }
+          ]
+        },
+        {
+          "code": "13396",
+          "name": "Phường Tượng Lĩnh",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Phường Nguyễn Úy",
+              "newWardShort": "Nguyễn Úy",
+              "newWardCode": "13396",
+              "newWardType": "Phường",
+              "lat": 20.6213,
+              "lon": 105.828,
+              "areaKm2": 24.5707
+            }
+          ]
+        },
+        {
+          "code": "13408",
+          "name": "Xã Hoàng Tây",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Phường Kim Thanh",
+              "newWardShort": "Kim Thanh",
+              "newWardCode": "13402",
+              "newWardType": "Phường",
+              "lat": 20.616,
+              "lon": 105.901,
+              "areaKm2": 13.715
+            }
+          ]
+        },
+        {
+          "code": "13420",
+          "name": "Xã Khả Phong",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Phường Tam Chúc",
+              "newWardShort": "Tam Chúc",
+              "newWardCode": "13420",
+              "newWardType": "Phường",
+              "lat": 20.5558,
+              "lon": 105.813,
+              "areaKm2": 46.56
+            }
+          ]
+        },
+        {
+          "code": "13432",
+          "name": "Xã Liên Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Phường Lý Thường Kiệt",
+              "newWardShort": "Lý Thường Kiệt",
+              "newWardCode": "13435",
+              "newWardType": "Phường",
+              "lat": 20.531,
+              "lon": 105.856,
+              "areaKm2": 53.66
+            }
+          ]
+        },
+        {
+          "code": "13387",
+          "name": "Xã Nguyễn Úy",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Phường Nguyễn Úy",
+              "newWardShort": "Nguyễn Úy",
+              "newWardCode": "13396",
+              "newWardType": "Phường",
+              "lat": 20.6213,
+              "lon": 105.828,
+              "areaKm2": 24.5707
+            }
+          ]
+        },
+        {
+          "code": "13438",
+          "name": "Xã Thanh Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Phường Lý Thường Kiệt",
+              "newWardShort": "Lý Thường Kiệt",
+              "newWardCode": "13435",
+              "newWardType": "Phường",
+              "lat": 20.531,
+              "lon": 105.856,
+              "areaKm2": 53.66
+            }
+          ]
+        },
+        {
+          "code": "13414",
+          "name": "Xã Thụy Lôi",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Phường Tam Chúc",
+              "newWardShort": "Tam Chúc",
+              "newWardCode": "13420",
+              "newWardType": "Phường",
+              "lat": 20.5558,
+              "lon": 105.813,
+              "areaKm2": 46.56
+            }
+          ]
+        },
+        {
+          "code": "13417",
+          "name": "Xã Văn Xá",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Ninh Bình",
+              "newProvinceSlug": "ninh-binh",
+              "newProvinceCode": "37",
+              "newWard": "Phường Kim Bảng",
+              "newWardShort": "Kim Bảng",
+              "newWardCode": "13384",
+              "newWardType": "Phường",
+              "lat": 20.5916,
+              "lon": 105.9,
+              "areaKm2": 15.22
+            }
+          ]
+        }
+      ],
+      "results": []
+    }
+  ]
+}

@@ -1,0 +1,4118 @@
+{
+  "schemaVersion": 1,
+  "mergeDate": "2025-07-01",
+  "code": "14",
+  "name": "Tỉnh Sơn La",
+  "name_en": "Son La Province",
+  "slug": "son-la",
+  "districts": [
+    {
+      "code": "121",
+      "name": "Huyện Bắc Yên",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "3856",
+          "name": "Thị trấn Bắc Yên",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Bắc Yên",
+              "newWardShort": "Bắc Yên",
+              "newWardCode": "03856",
+              "newWardType": "Xã",
+              "lat": 21.2069,
+              "lon": 104.439,
+              "areaKm2": 195.23
+            }
+          ]
+        },
+        {
+          "code": "3895",
+          "name": "Xã Chiềng Sại",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Chiềng Sại",
+              "newWardShort": "Chiềng Sại",
+              "newWardCode": "03892",
+              "newWardType": "Xã",
+              "lat": 21.0745,
+              "lon": 104.474,
+              "areaKm2": 124.55
+            }
+          ]
+        },
+        {
+          "code": "3877",
+          "name": "Xã Chim Vàn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Pắc Ngà",
+              "newWardShort": "Pắc Ngà",
+              "newWardCode": "03871",
+              "newWardType": "Xã",
+              "lat": 21.3231,
+              "lon": 104.22,
+              "areaKm2": 122.59
+            }
+          ]
+        },
+        {
+          "code": "3862",
+          "name": "Xã Hang Chú",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Xím Vàng",
+              "newWardShort": "Xím Vàng",
+              "newWardCode": "03862",
+              "newWardType": "Xã",
+              "lat": 21.3584,
+              "lon": 104.32,
+              "areaKm2": 232.35
+            }
+          ]
+        },
+        {
+          "code": "3869",
+          "name": "Xã Háng Đồng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Tà Xùa",
+              "newWardShort": "Tà Xùa",
+              "newWardCode": "03868",
+              "newWardType": "Xã",
+              "lat": 21.3119,
+              "lon": 104.47,
+              "areaKm2": 233.67
+            }
+          ]
+        },
+        {
+          "code": "3886",
+          "name": "Xã Hồng Ngài",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Bắc Yên",
+              "newWardShort": "Bắc Yên",
+              "newWardCode": "03856",
+              "newWardType": "Xã",
+              "lat": 21.2069,
+              "lon": 104.439,
+              "areaKm2": 195.23
+            }
+          ]
+        },
+        {
+          "code": "3890",
+          "name": "Xã Hua Nhàn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Tạ Khoa",
+              "newWardShort": "Tạ Khoa",
+              "newWardCode": "03880",
+              "newWardType": "Xã",
+              "lat": 21.165,
+              "lon": 104.336,
+              "areaKm2": 191.88
+            }
+          ]
+        },
+        {
+          "code": "3874",
+          "name": "Xã Làng Chếu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Tà Xùa",
+              "newWardShort": "Tà Xùa",
+              "newWardCode": "03868",
+              "newWardType": "Xã",
+              "lat": 21.3119,
+              "lon": 104.47,
+              "areaKm2": 233.67
+            }
+          ]
+        },
+        {
+          "code": "3880",
+          "name": "Xã Mường Khoa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Tạ Khoa",
+              "newWardShort": "Tạ Khoa",
+              "newWardCode": "03880",
+              "newWardType": "Xã",
+              "lat": 21.165,
+              "lon": 104.336,
+              "areaKm2": 191.88
+            }
+          ]
+        },
+        {
+          "code": "3871",
+          "name": "Xã Pắc Ngà",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Pắc Ngà",
+              "newWardShort": "Pắc Ngà",
+              "newWardCode": "03871",
+              "newWardType": "Xã",
+              "lat": 21.3231,
+              "lon": 104.22,
+              "areaKm2": 122.59
+            }
+          ]
+        },
+        {
+          "code": "3859",
+          "name": "Xã Phiêng Ban",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Bắc Yên",
+              "newWardShort": "Bắc Yên",
+              "newWardCode": "03856",
+              "newWardType": "Xã",
+              "lat": 21.2069,
+              "lon": 104.439,
+              "areaKm2": 195.23
+            }
+          ]
+        },
+        {
+          "code": "3892",
+          "name": "Xã Phiêng Côn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Chiềng Sại",
+              "newWardShort": "Chiềng Sại",
+              "newWardCode": "03892",
+              "newWardType": "Xã",
+              "lat": 21.0745,
+              "lon": 104.474,
+              "areaKm2": 124.55
+            }
+          ]
+        },
+        {
+          "code": "3883",
+          "name": "Xã Song Pe",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Bắc Yên",
+              "newWardShort": "Bắc Yên",
+              "newWardCode": "03856",
+              "newWardType": "Xã",
+              "lat": 21.2069,
+              "lon": 104.439,
+              "areaKm2": 195.23
+            }
+          ]
+        },
+        {
+          "code": "3889",
+          "name": "Xã Tạ Khoa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Tạ Khoa",
+              "newWardShort": "Tạ Khoa",
+              "newWardCode": "03880",
+              "newWardType": "Xã",
+              "lat": 21.165,
+              "lon": 104.336,
+              "areaKm2": 191.88
+            }
+          ]
+        },
+        {
+          "code": "3868",
+          "name": "Xã Tà Xùa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Tà Xùa",
+              "newWardShort": "Tà Xùa",
+              "newWardCode": "03868",
+              "newWardType": "Xã",
+              "lat": 21.3119,
+              "lon": 104.47,
+              "areaKm2": 233.67
+            }
+          ]
+        },
+        {
+          "code": "3865",
+          "name": "Xã Xím Vàng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Xím Vàng",
+              "newWardShort": "Xím Vàng",
+              "newWardCode": "03862",
+              "newWardType": "Xã",
+              "lat": 21.3584,
+              "lon": 104.32,
+              "areaKm2": 232.35
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "125",
+      "name": "Huyện Mai Sơn",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "4105",
+          "name": "Thị trấn Hát Lót",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Mai Sơn",
+              "newWardShort": "Mai Sơn",
+              "newWardCode": "04105",
+              "newWardType": "Xã",
+              "lat": 21.1465,
+              "lon": 104.168,
+              "areaKm2": 164.4
+            }
+          ]
+        },
+        {
+          "code": "4120",
+          "name": "Xã Chiềng Ban",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Chiềng Mai",
+              "newWardShort": "Chiềng Mai",
+              "newWardCode": "04132",
+              "newWardType": "Xã",
+              "lat": 21.1813,
+              "lon": 103.977,
+              "areaKm2": 151.85
+            }
+          ]
+        },
+        {
+          "code": "4114",
+          "name": "Xã Chiềng Chăn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Chiềng Sung",
+              "newWardShort": "Chiềng Sung",
+              "newWardCode": "04108",
+              "newWardType": "Xã",
+              "lat": 21.2962,
+              "lon": 104.106,
+              "areaKm2": 109.28
+            }
+          ]
+        },
+        {
+          "code": "4129",
+          "name": "Xã Chiềng Chung",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Mường Chanh",
+              "newWardShort": "Mường Chanh",
+              "newWardCode": "04117",
+              "newWardType": "Xã",
+              "lat": 21.206,
+              "lon": 103.879,
+              "areaKm2": 65.48
+            }
+          ]
+        },
+        {
+          "code": "4147",
+          "name": "Xã Chiềng Dong",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Chiềng Mai",
+              "newWardShort": "Chiềng Mai",
+              "newWardCode": "04132",
+              "newWardType": "Xã",
+              "lat": 21.1813,
+              "lon": 103.977,
+              "areaKm2": 151.85
+            }
+          ]
+        },
+        {
+          "code": "4150",
+          "name": "Xã Chiềng Kheo",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Chiềng Mai",
+              "newWardShort": "Chiềng Mai",
+              "newWardCode": "04132",
+              "newWardType": "Xã",
+              "lat": 21.1813,
+              "lon": 103.977,
+              "areaKm2": 151.85
+            }
+          ]
+        },
+        {
+          "code": "4156",
+          "name": "Xã Chiềng Lương",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Phiêng Pằn",
+              "newWardShort": "Phiêng Pằn",
+              "newWardCode": "04159",
+              "newWardType": "Xã",
+              "lat": 21.0585,
+              "lon": 104.061,
+              "areaKm2": 320.65
+            }
+          ]
+        },
+        {
+          "code": "4132",
+          "name": "Xã Chiềng Mai",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Chiềng Mai",
+              "newWardShort": "Chiềng Mai",
+              "newWardCode": "04132",
+              "newWardType": "Xã",
+              "lat": 21.1813,
+              "lon": 103.977,
+              "areaKm2": 151.85
+            }
+          ]
+        },
+        {
+          "code": "4123",
+          "name": "Xã Chiềng Mung",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Chiềng Mung",
+              "newWardShort": "Chiềng Mung",
+              "newWardCode": "04123",
+              "newWardType": "Xã",
+              "lat": 21.255,
+              "lon": 104.07,
+              "areaKm2": 142.14
+            }
+          ]
+        },
+        {
+          "code": "4141",
+          "name": "Xã Chiềng Nơi",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Phiêng Cằm",
+              "newWardShort": "Phiêng Cằm",
+              "newWardCode": "04144",
+              "newWardType": "Xã",
+              "lat": 21.124,
+              "lon": 103.843,
+              "areaKm2": 280.33
+            }
+          ]
+        },
+        {
+          "code": "4108",
+          "name": "Xã Chiềng Sung",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Chiềng Sung",
+              "newWardShort": "Chiềng Sung",
+              "newWardCode": "04108",
+              "newWardType": "Xã",
+              "lat": 21.2962,
+              "lon": 104.106,
+              "areaKm2": 109.28
+            }
+          ]
+        },
+        {
+          "code": "4153",
+          "name": "Xã Chiềng Ve",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Chiềng Mai",
+              "newWardShort": "Chiềng Mai",
+              "newWardCode": "04132",
+              "newWardType": "Xã",
+              "lat": 21.1813,
+              "lon": 103.977,
+              "areaKm2": 151.85
+            }
+          ]
+        },
+        {
+          "code": "4138",
+          "name": "Xã Cò Nòi",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Mai Sơn",
+              "newWardShort": "Mai Sơn",
+              "newWardCode": "04105",
+              "newWardType": "Xã",
+              "lat": 21.1465,
+              "lon": 104.168,
+              "areaKm2": 164.4
+            }
+          ]
+        },
+        {
+          "code": "4135",
+          "name": "Xã Hát Lót",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Mai Sơn",
+              "newWardShort": "Mai Sơn",
+              "newWardCode": "04105",
+              "newWardType": "Xã",
+              "lat": 21.1465,
+              "lon": 104.168,
+              "areaKm2": 164.4
+            }
+          ]
+        },
+        {
+          "code": "4111",
+          "name": "Xã Mường Bằng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Chiềng Mung",
+              "newWardShort": "Chiềng Mung",
+              "newWardCode": "04123",
+              "newWardType": "Xã",
+              "lat": 21.255,
+              "lon": 104.07,
+              "areaKm2": 142.14
+            }
+          ]
+        },
+        {
+          "code": "4126",
+          "name": "Xã Mường Bon",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Chiềng Mung",
+              "newWardShort": "Chiềng Mung",
+              "newWardCode": "04123",
+              "newWardType": "Xã",
+              "lat": 21.255,
+              "lon": 104.07,
+              "areaKm2": 142.14
+            }
+          ]
+        },
+        {
+          "code": "4117",
+          "name": "Xã Mường Chanh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Mường Chanh",
+              "newWardShort": "Mường Chanh",
+              "newWardCode": "04117",
+              "newWardType": "Xã",
+              "lat": 21.206,
+              "lon": 103.879,
+              "areaKm2": 65.48
+            }
+          ]
+        },
+        {
+          "code": "4136",
+          "name": "Xã Nà Bó",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Tà Hộc",
+              "newWardShort": "Tà Hộc",
+              "newWardCode": "04136",
+              "newWardType": "Xã",
+              "lat": 21.238,
+              "lon": 104.192,
+              "areaKm2": 149.56
+            }
+          ]
+        },
+        {
+          "code": "4162",
+          "name": "Xã Nà Ớt",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Phiêng Pằn",
+              "newWardShort": "Phiêng Pằn",
+              "newWardCode": "04159",
+              "newWardType": "Xã",
+              "lat": 21.0585,
+              "lon": 104.061,
+              "areaKm2": 320.65
+            }
+          ]
+        },
+        {
+          "code": "4144",
+          "name": "Xã Phiêng Cằm",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Phiêng Cằm",
+              "newWardShort": "Phiêng Cằm",
+              "newWardCode": "04144",
+              "newWardType": "Xã",
+              "lat": 21.124,
+              "lon": 103.843,
+              "areaKm2": 280.33
+            }
+          ]
+        },
+        {
+          "code": "4159",
+          "name": "Xã Phiêng Pằn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Phiêng Pằn",
+              "newWardShort": "Phiêng Pằn",
+              "newWardCode": "04159",
+              "newWardType": "Xã",
+              "lat": 21.0585,
+              "lon": 104.061,
+              "areaKm2": 320.65
+            }
+          ]
+        },
+        {
+          "code": "4165",
+          "name": "Xã Tà Hộc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Tà Hộc",
+              "newWardShort": "Tà Hộc",
+              "newWardCode": "04136",
+              "newWardType": "Xã",
+              "lat": 21.238,
+              "lon": 104.192,
+              "areaKm2": 149.56
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "120",
+      "name": "Huyện Mường La",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "3808",
+          "name": "Thị trấn Ít Ong",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Mường La",
+              "newWardShort": "Mường La",
+              "newWardCode": "03808",
+              "newWardType": "Xã",
+              "lat": 21.5406,
+              "lon": 104.05,
+              "areaKm2": 341.86
+            }
+          ]
+        },
+        {
+          "code": "3832",
+          "name": "Xã Chiềng Ân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Chiềng Hoa",
+              "newWardShort": "Chiềng Hoa",
+              "newWardCode": "03850",
+              "newWardType": "Xã",
+              "lat": 21.4603,
+              "lon": 104.204,
+              "areaKm2": 296.48
+            }
+          ]
+        },
+        {
+          "code": "3838",
+          "name": "Xã Chiềng Công",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Chiềng Hoa",
+              "newWardShort": "Chiềng Hoa",
+              "newWardCode": "03850",
+              "newWardType": "Xã",
+              "lat": 21.4603,
+              "lon": 104.204,
+              "areaKm2": 296.48
+            }
+          ]
+        },
+        {
+          "code": "3850",
+          "name": "Xã Chiềng Hoa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Chiềng Hoa",
+              "newWardShort": "Chiềng Hoa",
+              "newWardCode": "03850",
+              "newWardType": "Xã",
+              "lat": 21.4603,
+              "lon": 104.204,
+              "areaKm2": 296.48
+            }
+          ]
+        },
+        {
+          "code": "3814",
+          "name": "Xã Chiềng Lao",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Chiềng Lao",
+              "newWardShort": "Chiềng Lao",
+              "newWardCode": "03814",
+              "newWardType": "Xã",
+              "lat": 21.636,
+              "lon": 103.904,
+              "areaKm2": 358.55
+            }
+          ]
+        },
+        {
+          "code": "3829",
+          "name": "Xã Chiềng Muôn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Mường La",
+              "newWardShort": "Mường La",
+              "newWardCode": "03808",
+              "newWardType": "Xã",
+              "lat": 21.5406,
+              "lon": 104.05,
+              "areaKm2": 341.86
+            }
+          ]
+        },
+        {
+          "code": "3844",
+          "name": "Xã Chiềng San",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Mường La",
+              "newWardShort": "Mường La",
+              "newWardCode": "03808",
+              "newWardType": "Xã",
+              "lat": 21.5406,
+              "lon": 104.05,
+              "areaKm2": 341.86
+            }
+          ]
+        },
+        {
+          "code": "3817",
+          "name": "Xã Hua Trai",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Chiềng Lao",
+              "newWardShort": "Chiềng Lao",
+              "newWardCode": "03814",
+              "newWardType": "Xã",
+              "lat": 21.636,
+              "lon": 103.904,
+              "areaKm2": 358.55
+            }
+          ]
+        },
+        {
+          "code": "3847",
+          "name": "Xã Mường Bú",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Mường Bú",
+              "newWardShort": "Mường Bú",
+              "newWardCode": "03847",
+              "newWardType": "Xã",
+              "lat": 21.4155,
+              "lon": 104.051,
+              "areaKm2": 213.65
+            }
+          ]
+        },
+        {
+          "code": "3853",
+          "name": "Xã Mường Chùm",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Mường Bú",
+              "newWardShort": "Mường Bú",
+              "newWardCode": "03847",
+              "newWardType": "Xã",
+              "lat": 21.4155,
+              "lon": 104.051,
+              "areaKm2": 213.65
+            }
+          ]
+        },
+        {
+          "code": "3823",
+          "name": "Xã Mường Trai",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Mường La",
+              "newWardShort": "Mường La",
+              "newWardCode": "03808",
+              "newWardType": "Xã",
+              "lat": 21.5406,
+              "lon": 104.05,
+              "areaKm2": 341.86
+            }
+          ]
+        },
+        {
+          "code": "3811",
+          "name": "Xã Nậm Giôn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Chiềng Lao",
+              "newWardShort": "Chiềng Lao",
+              "newWardCode": "03814",
+              "newWardType": "Xã",
+              "lat": 21.636,
+              "lon": 103.904,
+              "areaKm2": 358.55
+            }
+          ]
+        },
+        {
+          "code": "3826",
+          "name": "Xã Nậm Păm",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Mường La",
+              "newWardShort": "Mường La",
+              "newWardCode": "03808",
+              "newWardType": "Xã",
+              "lat": 21.5406,
+              "lon": 104.05,
+              "areaKm2": 341.86
+            }
+          ]
+        },
+        {
+          "code": "3820",
+          "name": "Xã Ngọc Chiến",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Ngọc Chiến",
+              "newWardShort": "Ngọc Chiến",
+              "newWardCode": "03820",
+              "newWardType": "Xã",
+              "lat": 21.6149,
+              "lon": 104.216,
+              "areaKm2": 212.19
+            }
+          ]
+        },
+        {
+          "code": "3835",
+          "name": "Xã Pi Toong",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Mường La",
+              "newWardShort": "Mường La",
+              "newWardCode": "03808",
+              "newWardType": "Xã",
+              "lat": 21.5406,
+              "lon": 104.05,
+              "areaKm2": 341.86
+            }
+          ]
+        },
+        {
+          "code": "3841",
+          "name": "Xã Tạ Bú",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Mường Bú",
+              "newWardShort": "Mường Bú",
+              "newWardCode": "03847",
+              "newWardType": "Xã",
+              "lat": 21.4155,
+              "lon": 104.051,
+              "areaKm2": 213.65
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "122",
+      "name": "Huyện Phù Yên",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "3910",
+          "name": "Thị trấn Quang Huy",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Phù Yên",
+              "newWardShort": "Phù Yên",
+              "newWardCode": "03910",
+              "newWardType": "Xã",
+              "lat": 21.2605,
+              "lon": 104.655,
+              "areaKm2": 117.98
+            }
+          ]
+        },
+        {
+          "code": "3976",
+          "name": "Xã Bắc Phong",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Tân Phong",
+              "newWardShort": "Tân Phong",
+              "newWardCode": "03970",
+              "newWardType": "Xã",
+              "lat": 21.0862,
+              "lon": 104.733,
+              "areaKm2": 135.45
+            }
+          ]
+        },
+        {
+          "code": "3967",
+          "name": "Xã Đá Đỏ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Kim Bon",
+              "newWardShort": "Kim Bon",
+              "newWardCode": "03961",
+              "newWardType": "Xã",
+              "lat": 21.1046,
+              "lon": 104.588,
+              "areaKm2": 104.51
+            }
+          ]
+        },
+        {
+          "code": "3922",
+          "name": "Xã Gia Phù",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Gia Phù",
+              "newWardShort": "Gia Phù",
+              "newWardCode": "03922",
+              "newWardType": "Xã",
+              "lat": 21.1914,
+              "lon": 104.561,
+              "areaKm2": 111.32
+            }
+          ]
+        },
+        {
+          "code": "3928",
+          "name": "Xã Huy Hạ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Phù Yên",
+              "newWardShort": "Phù Yên",
+              "newWardCode": "03910",
+              "newWardType": "Xã",
+              "lat": 21.2605,
+              "lon": 104.655,
+              "areaKm2": 117.98
+            }
+          ]
+        },
+        {
+          "code": "3931",
+          "name": "Xã Huy Tân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Phù Yên",
+              "newWardShort": "Phù Yên",
+              "newWardCode": "03910",
+              "newWardType": "Xã",
+              "lat": 21.2605,
+              "lon": 104.655,
+              "areaKm2": 117.98
+            }
+          ]
+        },
+        {
+          "code": "3916",
+          "name": "Xã Huy Thượng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Phù Yên",
+              "newWardShort": "Phù Yên",
+              "newWardCode": "03910",
+              "newWardType": "Xã",
+              "lat": 21.2605,
+              "lon": 104.655,
+              "areaKm2": 117.98
+            }
+          ]
+        },
+        {
+          "code": "3940",
+          "name": "Xã Huy Tường",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Phù Yên",
+              "newWardShort": "Phù Yên",
+              "newWardCode": "03910",
+              "newWardType": "Xã",
+              "lat": 21.2605,
+              "lon": 104.655,
+              "areaKm2": 117.98
+            }
+          ]
+        },
+        {
+          "code": "3961",
+          "name": "Xã Kim Bon",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Kim Bon",
+              "newWardShort": "Kim Bon",
+              "newWardCode": "03961",
+              "newWardType": "Xã",
+              "lat": 21.1046,
+              "lon": 104.588,
+              "areaKm2": 104.51
+            }
+          ]
+        },
+        {
+          "code": "3964",
+          "name": "Xã Mường Bang",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Mường Bang",
+              "newWardShort": "Mường Bang",
+              "newWardCode": "03943",
+              "newWardType": "Xã",
+              "lat": 21.168,
+              "lon": 104.806,
+              "areaKm2": 270.15
+            }
+          ]
+        },
+        {
+          "code": "3907",
+          "name": "Xã Mường Cơi",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Mường Cơi",
+              "newWardShort": "Mường Cơi",
+              "newWardCode": "03907",
+              "newWardType": "Xã",
+              "lat": 21.315,
+              "lon": 104.74,
+              "areaKm2": 194.98
+            }
+          ]
+        },
+        {
+          "code": "3943",
+          "name": "Xã Mường Do",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Mường Bang",
+              "newWardShort": "Mường Bang",
+              "newWardCode": "03943",
+              "newWardType": "Xã",
+              "lat": 21.168,
+              "lon": 104.806,
+              "areaKm2": 270.15
+            }
+          ]
+        },
+        {
+          "code": "3934",
+          "name": "Xã Mường Lang",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Mường Bang",
+              "newWardShort": "Mường Bang",
+              "newWardCode": "03943",
+              "newWardType": "Xã",
+              "lat": 21.168,
+              "lon": 104.806,
+              "areaKm2": 270.15
+            }
+          ]
+        },
+        {
+          "code": "3904",
+          "name": "Xã Mường Thải",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Mường Cơi",
+              "newWardShort": "Mường Cơi",
+              "newWardCode": "03907",
+              "newWardType": "Xã",
+              "lat": 21.315,
+              "lon": 104.74,
+              "areaKm2": 194.98
+            }
+          ]
+        },
+        {
+          "code": "3973",
+          "name": "Xã Nam Phong",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Tân Phong",
+              "newWardShort": "Tân Phong",
+              "newWardCode": "03970",
+              "newWardType": "Xã",
+              "lat": 21.0862,
+              "lon": 104.733,
+              "areaKm2": 135.45
+            }
+          ]
+        },
+        {
+          "code": "3946",
+          "name": "Xã Sập Xa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Gia Phù",
+              "newWardShort": "Gia Phù",
+              "newWardCode": "03922",
+              "newWardType": "Xã",
+              "lat": 21.1914,
+              "lon": 104.561,
+              "areaKm2": 111.32
+            }
+          ]
+        },
+        {
+          "code": "3937",
+          "name": "Xã Suối Bau",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Gia Phù",
+              "newWardShort": "Gia Phù",
+              "newWardCode": "03922",
+              "newWardType": "Xã",
+              "lat": 21.1914,
+              "lon": 104.561,
+              "areaKm2": 111.32
+            }
+          ]
+        },
+        {
+          "code": "3901",
+          "name": "Xã Suối Tọ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Suối Tọ",
+              "newWardShort": "Suối Tọ",
+              "newWardCode": "03901",
+              "newWardType": "Xã",
+              "lat": 21.3296,
+              "lon": 104.586,
+              "areaKm2": 177.49
+            }
+          ]
+        },
+        {
+          "code": "3919",
+          "name": "Xã Tân Lang",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Mường Cơi",
+              "newWardShort": "Mường Cơi",
+              "newWardCode": "03907",
+              "newWardType": "Xã",
+              "lat": 21.315,
+              "lon": 104.74,
+              "areaKm2": 194.98
+            }
+          ]
+        },
+        {
+          "code": "3970",
+          "name": "Xã Tân Phong",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Tân Phong",
+              "newWardShort": "Tân Phong",
+              "newWardCode": "03970",
+              "newWardType": "Xã",
+              "lat": 21.0862,
+              "lon": 104.733,
+              "areaKm2": 135.45
+            }
+          ]
+        },
+        {
+          "code": "3958",
+          "name": "Xã Tường Hạ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Tường Hạ",
+              "newWardShort": "Tường Hạ",
+              "newWardCode": "03958",
+              "newWardType": "Xã",
+              "lat": 21.1461,
+              "lon": 104.676,
+              "areaKm2": 120.85
+            }
+          ]
+        },
+        {
+          "code": "3955",
+          "name": "Xã Tường Phong",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Tường Hạ",
+              "newWardShort": "Tường Hạ",
+              "newWardCode": "03958",
+              "newWardType": "Xã",
+              "lat": 21.1461,
+              "lon": 104.676,
+              "areaKm2": 120.85
+            }
+          ]
+        },
+        {
+          "code": "3925",
+          "name": "Xã Tường Phù",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Gia Phù",
+              "newWardShort": "Gia Phù",
+              "newWardCode": "03922",
+              "newWardType": "Xã",
+              "lat": 21.1914,
+              "lon": 104.561,
+              "areaKm2": 111.32
+            }
+          ]
+        },
+        {
+          "code": "3949",
+          "name": "Xã Tường Thượng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Tường Hạ",
+              "newWardShort": "Tường Hạ",
+              "newWardCode": "03958",
+              "newWardType": "Xã",
+              "lat": 21.1461,
+              "lon": 104.676,
+              "areaKm2": 120.85
+            }
+          ]
+        },
+        {
+          "code": "3952",
+          "name": "Xã Tường Tiến",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Tường Hạ",
+              "newWardShort": "Tường Hạ",
+              "newWardCode": "03958",
+              "newWardType": "Xã",
+              "lat": 21.1461,
+              "lon": 104.676,
+              "areaKm2": 120.85
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "118",
+      "name": "Huyện Quỳnh Nhai",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "3703",
+          "name": "Thị trấn Mường Giàng",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Quỳnh Nhai",
+              "newWardShort": "Quỳnh Nhai",
+              "newWardCode": "03703",
+              "newWardType": "Xã",
+              "lat": 21.6433,
+              "lon": 103.661,
+              "areaKm2": 30.554
+            }
+          ]
+        },
+        {
+          "code": "3685",
+          "name": "Xã Cà Nàng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Mường Chiên",
+              "newWardShort": "Mường Chiên",
+              "newWardCode": "03688",
+              "newWardType": "Xã",
+              "lat": 21.9135,
+              "lon": 103.596,
+              "areaKm2": 382.2
+            }
+          ]
+        },
+        {
+          "code": "3706",
+          "name": "Xã Chiềng Bằng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Quỳnh Nhai",
+              "newWardShort": "Quỳnh Nhai",
+              "newWardCode": "03703",
+              "newWardType": "Xã",
+              "lat": 21.6433,
+              "lon": 103.661,
+              "areaKm2": 30.554
+            }
+          ]
+        },
+        {
+          "code": "3688",
+          "name": "Xã Chiềng Khay",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Mường Chiên",
+              "newWardShort": "Mường Chiên",
+              "newWardCode": "03688",
+              "newWardType": "Xã",
+              "lat": 21.9135,
+              "lon": 103.596,
+              "areaKm2": 382.2
+            }
+          ]
+        },
+        {
+          "code": "3718",
+          "name": "Xã Chiềng Khoang",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Quỳnh Nhai",
+              "newWardShort": "Quỳnh Nhai",
+              "newWardCode": "03703",
+              "newWardType": "Xã",
+              "lat": 21.6433,
+              "lon": 103.661,
+              "areaKm2": 30.554
+            }
+          ]
+        },
+        {
+          "code": "3700",
+          "name": "Xã Chiềng Ơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Quỳnh Nhai",
+              "newWardShort": "Quỳnh Nhai",
+              "newWardCode": "03703",
+              "newWardType": "Xã",
+              "lat": 21.6433,
+              "lon": 103.661,
+              "areaKm2": 30.554
+            }
+          ]
+        },
+        {
+          "code": "3682",
+          "name": "Xã Mường Chiên",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Mường Chiên",
+              "newWardShort": "Mường Chiên",
+              "newWardCode": "03688",
+              "newWardType": "Xã",
+              "lat": 21.9135,
+              "lon": 103.596,
+              "areaKm2": 382.2
+            }
+          ]
+        },
+        {
+          "code": "3694",
+          "name": "Xã Mường Giôn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Mường Giôn",
+              "newWardShort": "Mường Giôn",
+              "newWardCode": "03694",
+              "newWardType": "Xã",
+              "lat": 21.773,
+              "lon": 103.675,
+              "areaKm2": 290.54
+            }
+          ]
+        },
+        {
+          "code": "3709",
+          "name": "Xã Mường Sại",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Mường Sại",
+              "newWardShort": "Mường Sại",
+              "newWardCode": "03712",
+              "newWardType": "Xã",
+              "lat": 21.594,
+              "lon": 103.741,
+              "areaKm2": 122.94
+            }
+          ]
+        },
+        {
+          "code": "3712",
+          "name": "Xã Nặm Ét",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Mường Sại",
+              "newWardShort": "Mường Sại",
+              "newWardCode": "03712",
+              "newWardType": "Xã",
+              "lat": 21.594,
+              "lon": 103.741,
+              "areaKm2": 122.94
+            }
+          ]
+        },
+        {
+          "code": "3697",
+          "name": "Xã Pá Ma Pha Khinh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Mường Giôn",
+              "newWardShort": "Mường Giôn",
+              "newWardCode": "03694",
+              "newWardType": "Xã",
+              "lat": 21.773,
+              "lon": 103.675,
+              "areaKm2": 290.54
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "126",
+      "name": "Huyện Sông Mã",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "4168",
+          "name": "Thị trấn Sông Mã",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Sông Mã",
+              "newWardShort": "Sông Mã",
+              "newWardCode": "04168",
+              "newWardType": "Xã",
+              "lat": 21.0923,
+              "lon": 103.733,
+              "areaKm2": 105.99
+            }
+          ]
+        },
+        {
+          "code": "4171",
+          "name": "Xã Bó Sinh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Bó Sinh",
+              "newWardShort": "Bó Sinh",
+              "newWardCode": "04171",
+              "newWardType": "Xã",
+              "lat": 21.2218,
+              "lon": 103.49,
+              "areaKm2": 153.83
+            }
+          ]
+        },
+        {
+          "code": "4207",
+          "name": "Xã Chiềng Cang",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Mường Hung",
+              "newWardShort": "Mường Hung",
+              "newWardCode": "04219",
+              "newWardType": "Xã",
+              "lat": 20.9653,
+              "lon": 103.875,
+              "areaKm2": 226.09
+            }
+          ]
+        },
+        {
+          "code": "4180",
+          "name": "Xã Chiềng En",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Bó Sinh",
+              "newWardShort": "Bó Sinh",
+              "newWardCode": "04171",
+              "newWardType": "Xã",
+              "lat": 21.2218,
+              "lon": 103.49,
+              "areaKm2": 153.83
+            }
+          ]
+        },
+        {
+          "code": "4204",
+          "name": "Xã Chiềng Khoong",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Chiềng Khoong",
+              "newWardShort": "Chiềng Khoong",
+              "newWardCode": "04204",
+              "newWardType": "Xã",
+              "lat": 20.9598,
+              "lon": 103.767,
+              "areaKm2": 253.87
+            }
+          ]
+        },
+        {
+          "code": "4222",
+          "name": "Xã Chiềng Khương",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Chiềng Khương",
+              "newWardShort": "Chiềng Khương",
+              "newWardCode": "04222",
+              "newWardType": "Xã",
+              "lat": 20.9519,
+              "lon": 103.987,
+              "areaKm2": 149.82
+            }
+          ]
+        },
+        {
+          "code": "4177",
+          "name": "Xã Chiềng Phung",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Nậm Ty",
+              "newWardShort": "Nậm Ty",
+              "newWardCode": "04186",
+              "newWardType": "Xã",
+              "lat": 21.2238,
+              "lon": 103.653,
+              "areaKm2": 201.89
+            }
+          ]
+        },
+        {
+          "code": "4195",
+          "name": "Xã Chiềng Sơ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Chiềng Sơ",
+              "newWardShort": "Chiềng Sơ",
+              "newWardCode": "04195",
+              "newWardType": "Xã",
+              "lat": 21.1463,
+              "lon": 103.597,
+              "areaKm2": 140.31
+            }
+          ]
+        },
+        {
+          "code": "4189",
+          "name": "Xã Đứa Mòn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Mường Lầm",
+              "newWardShort": "Mường Lầm",
+              "newWardCode": "04183",
+              "newWardType": "Xã",
+              "lat": 21.1067,
+              "lon": 103.449,
+              "areaKm2": 167.1
+            }
+          ]
+        },
+        {
+          "code": "4210",
+          "name": "Xã Huổi Một",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Huổi Một",
+              "newWardShort": "Huổi Một",
+              "newWardCode": "04210",
+              "newWardType": "Xã",
+              "lat": 21.0371,
+              "lon": 103.634,
+              "areaKm2": 240.66
+            }
+          ]
+        },
+        {
+          "code": "4216",
+          "name": "Xã Mường Cai",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Chiềng Khoong",
+              "newWardShort": "Chiềng Khoong",
+              "newWardCode": "04204",
+              "newWardType": "Xã",
+              "lat": 20.9598,
+              "lon": 103.767,
+              "areaKm2": 253.87
+            }
+          ]
+        },
+        {
+          "code": "4219",
+          "name": "Xã Mường Hung",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Mường Hung",
+              "newWardShort": "Mường Hung",
+              "newWardCode": "04219",
+              "newWardType": "Xã",
+              "lat": 20.9653,
+              "lon": 103.875,
+              "areaKm2": 226.09
+            }
+          ]
+        },
+        {
+          "code": "4183",
+          "name": "Xã Mường Lầm",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Mường Lầm",
+              "newWardShort": "Mường Lầm",
+              "newWardCode": "04183",
+              "newWardType": "Xã",
+              "lat": 21.1067,
+              "lon": 103.449,
+              "areaKm2": 167.1
+            }
+          ]
+        },
+        {
+          "code": "4213",
+          "name": "Xã Mường Sai",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Chiềng Khương",
+              "newWardShort": "Chiềng Khương",
+              "newWardCode": "04222",
+              "newWardType": "Xã",
+              "lat": 20.9519,
+              "lon": 103.987,
+              "areaKm2": 149.82
+            }
+          ]
+        },
+        {
+          "code": "4198",
+          "name": "Xã Nà Nghịu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Sông Mã",
+              "newWardShort": "Sông Mã",
+              "newWardCode": "04168",
+              "newWardType": "Xã",
+              "lat": 21.0923,
+              "lon": 103.733,
+              "areaKm2": 105.99
+            }
+          ]
+        },
+        {
+          "code": "4201",
+          "name": "Xã Nậm Mằn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Huổi Một",
+              "newWardShort": "Huổi Một",
+              "newWardCode": "04210",
+              "newWardType": "Xã",
+              "lat": 21.0371,
+              "lon": 103.634,
+              "areaKm2": 240.66
+            }
+          ]
+        },
+        {
+          "code": "4186",
+          "name": "Xã Nậm Ty",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Nậm Ty",
+              "newWardShort": "Nậm Ty",
+              "newWardCode": "04186",
+              "newWardType": "Xã",
+              "lat": 21.2238,
+              "lon": 103.653,
+              "areaKm2": 201.89
+            }
+          ]
+        },
+        {
+          "code": "4174",
+          "name": "Xã Pú Bẩu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Bó Sinh",
+              "newWardShort": "Bó Sinh",
+              "newWardCode": "04171",
+              "newWardType": "Xã",
+              "lat": 21.2218,
+              "lon": 103.49,
+              "areaKm2": 153.83
+            }
+          ]
+        },
+        {
+          "code": "4192",
+          "name": "Xã Yên Hưng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Chiềng Sơ",
+              "newWardShort": "Chiềng Sơ",
+              "newWardCode": "04195",
+              "newWardType": "Xã",
+              "lat": 21.1463,
+              "lon": 103.597,
+              "areaKm2": 140.31
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "127",
+      "name": "Huyện Sốp Cộp",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "4234",
+          "name": "Xã Dồm Cang",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Púng Bánh",
+              "newWardShort": "Púng Bánh",
+              "newWardCode": "04228",
+              "newWardType": "Xã",
+              "lat": 21.0027,
+              "lon": 103.448,
+              "areaKm2": 364.64
+            }
+          ]
+        },
+        {
+          "code": "4246",
+          "name": "Xã Mường Lạn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Mường Lạn",
+              "newWardShort": "Mường Lạn",
+              "newWardCode": "04246",
+              "newWardType": "Xã",
+              "lat": 20.7685,
+              "lon": 103.709,
+              "areaKm2": 264.89
+            }
+          ]
+        },
+        {
+          "code": "4240",
+          "name": "Xã Mường Lèo",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Mường Lèo",
+              "newWardShort": "Mường Lèo",
+              "newWardCode": "04240",
+              "newWardType": "Xã",
+              "lat": 20.8929,
+              "lon": 103.351,
+              "areaKm2": 375.76
+            }
+          ]
+        },
+        {
+          "code": "4243",
+          "name": "Xã Mường Và",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Sốp Cộp",
+              "newWardShort": "Sốp Cộp",
+              "newWardCode": "04231",
+              "newWardType": "Xã",
+              "lat": 20.8366,
+              "lon": 103.569,
+              "areaKm2": 466.95
+            }
+          ]
+        },
+        {
+          "code": "4237",
+          "name": "Xã Nậm Lạnh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Sốp Cộp",
+              "newWardShort": "Sốp Cộp",
+              "newWardCode": "04231",
+              "newWardType": "Xã",
+              "lat": 20.8366,
+              "lon": 103.569,
+              "areaKm2": 466.95
+            }
+          ]
+        },
+        {
+          "code": "4228",
+          "name": "Xã Púng Bánh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Púng Bánh",
+              "newWardShort": "Púng Bánh",
+              "newWardCode": "04228",
+              "newWardType": "Xã",
+              "lat": 21.0027,
+              "lon": 103.448,
+              "areaKm2": 364.64
+            }
+          ]
+        },
+        {
+          "code": "4225",
+          "name": "Xã Sam Kha",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Púng Bánh",
+              "newWardShort": "Púng Bánh",
+              "newWardCode": "04228",
+              "newWardType": "Xã",
+              "lat": 21.0027,
+              "lon": 103.448,
+              "areaKm2": 364.64
+            }
+          ]
+        },
+        {
+          "code": "4231",
+          "name": "Xã Sốp Cộp",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Sốp Cộp",
+              "newWardShort": "Sốp Cộp",
+              "newWardCode": "04231",
+              "newWardType": "Xã",
+              "lat": 20.8366,
+              "lon": 103.569,
+              "areaKm2": 466.95
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "119",
+      "name": "Huyện Thuận Châu",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "3721",
+          "name": "Thị trấn Thuận Châu",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Thuận Châu",
+              "newWardShort": "Thuận Châu",
+              "newWardCode": "03721",
+              "newWardType": "Xã",
+              "lat": 21.4377,
+              "lon": 103.715,
+              "areaKm2": 132.83
+            }
+          ]
+        },
+        {
+          "code": "3805",
+          "name": "Xã Bản Lầm",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Muổi Nọi",
+              "newWardShort": "Muổi Nọi",
+              "newWardCode": "03799",
+              "newWardType": "Xã",
+              "lat": 21.253,
+              "lon": 103.785,
+              "areaKm2": 128.7
+            }
+          ]
+        },
+        {
+          "code": "3778",
+          "name": "Xã Bó Mười",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Mường Khiêng",
+              "newWardShort": "Mường Khiêng",
+              "newWardCode": "03757",
+              "newWardType": "Xã",
+              "lat": 21.4878,
+              "lon": 103.879,
+              "areaKm2": 204.2
+            }
+          ]
+        },
+        {
+          "code": "3793",
+          "name": "Xã Bon Phặng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Muổi Nọi",
+              "newWardShort": "Muổi Nọi",
+              "newWardCode": "03799",
+              "newWardType": "Xã",
+              "lat": 21.253,
+              "lon": 103.785,
+              "areaKm2": 128.7
+            }
+          ]
+        },
+        {
+          "code": "3766",
+          "name": "Xã Chiềng Bôm",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Nậm Lầu",
+              "newWardShort": "Nậm Lầu",
+              "newWardCode": "03784",
+              "newWardType": "Xã",
+              "lat": 21.3522,
+              "lon": 103.678,
+              "areaKm2": 247.63
+            }
+          ]
+        },
+        {
+          "code": "3733",
+          "name": "Xã Chiềng La",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Chiềng La",
+              "newWardShort": "Chiềng La",
+              "newWardCode": "03754",
+              "newWardType": "Xã",
+              "lat": 21.4872,
+              "lon": 103.754,
+              "areaKm2": 126.13
+            }
+          ]
+        },
+        {
+          "code": "3736",
+          "name": "Xã Chiềng Ngàm",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Chiềng La",
+              "newWardShort": "Chiềng La",
+              "newWardCode": "03754",
+              "newWardType": "Xã",
+              "lat": 21.4872,
+              "lon": 103.754,
+              "areaKm2": 126.13
+            }
+          ]
+        },
+        {
+          "code": "3787",
+          "name": "Xã Chiềng Pấc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Thuận Châu",
+              "newWardShort": "Thuận Châu",
+              "newWardCode": "03721",
+              "newWardType": "Xã",
+              "lat": 21.4377,
+              "lon": 103.715,
+              "areaKm2": 132.83
+            }
+          ]
+        },
+        {
+          "code": "3730",
+          "name": "Xã Chiềng Pha",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Bình Thuận",
+              "newWardShort": "Bình Thuận",
+              "newWardCode": "03724",
+              "newWardType": "Xã",
+              "lat": 21.5655,
+              "lon": 103.604,
+              "areaKm2": 121.78
+            }
+          ]
+        },
+        {
+          "code": "3781",
+          "name": "Xã Co Mạ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Co Mạ",
+              "newWardShort": "Co Mạ",
+              "newWardCode": "03781",
+              "newWardType": "Xã",
+              "lat": 21.3252,
+              "lon": 103.53,
+              "areaKm2": 214.28
+            }
+          ]
+        },
+        {
+          "code": "3796",
+          "name": "Xã Co Tòng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Co Mạ",
+              "newWardShort": "Co Mạ",
+              "newWardCode": "03781",
+              "newWardType": "Xã",
+              "lat": 21.3252,
+              "lon": 103.53,
+              "areaKm2": 214.28
+            }
+          ]
+        },
+        {
+          "code": "3742",
+          "name": "Xã é Tòng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Long Hẹ",
+              "newWardShort": "Long Hẹ",
+              "newWardCode": "03763",
+              "newWardType": "Xã",
+              "lat": 21.4304,
+              "lon": 103.499,
+              "areaKm2": 158.4
+            }
+          ]
+        },
+        {
+          "code": "3739",
+          "name": "Xã Liệp Tè",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Mường Khiêng",
+              "newWardShort": "Mường Khiêng",
+              "newWardCode": "03757",
+              "newWardType": "Xã",
+              "lat": 21.4878,
+              "lon": 103.879,
+              "areaKm2": 204.2
+            }
+          ]
+        },
+        {
+          "code": "3763",
+          "name": "Xã Long Hẹ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Long Hẹ",
+              "newWardShort": "Long Hẹ",
+              "newWardCode": "03763",
+              "newWardType": "Xã",
+              "lat": 21.4304,
+              "lon": 103.499,
+              "areaKm2": 158.4
+            }
+          ]
+        },
+        {
+          "code": "3799",
+          "name": "Xã Muổi Nọi",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Muổi Nọi",
+              "newWardShort": "Muổi Nọi",
+              "newWardCode": "03799",
+              "newWardType": "Xã",
+              "lat": 21.253,
+              "lon": 103.785,
+              "areaKm2": 128.7
+            }
+          ]
+        },
+        {
+          "code": "3760",
+          "name": "Xã Mường Bám",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Mường Bám",
+              "newWardShort": "Mường Bám",
+              "newWardCode": "03760",
+              "newWardType": "Xã",
+              "lat": 21.3817,
+              "lon": 103.39,
+              "areaKm2": 76.16
+            }
+          ]
+        },
+        {
+          "code": "3727",
+          "name": "Xã Mường é",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Mường É",
+              "newWardShort": "Mường É",
+              "newWardCode": "03727",
+              "newWardType": "Xã",
+              "lat": 21.4995,
+              "lon": 103.56,
+              "areaKm2": 139.91
+            }
+          ]
+        },
+        {
+          "code": "3757",
+          "name": "Xã Mường Khiêng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Mường Khiêng",
+              "newWardShort": "Mường Khiêng",
+              "newWardCode": "03757",
+              "newWardType": "Xã",
+              "lat": 21.4878,
+              "lon": 103.879,
+              "areaKm2": 204.2
+            }
+          ]
+        },
+        {
+          "code": "3790",
+          "name": "Xã Nậm Lầu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Nậm Lầu",
+              "newWardShort": "Nậm Lầu",
+              "newWardCode": "03784",
+              "newWardType": "Xã",
+              "lat": 21.3522,
+              "lon": 103.678,
+              "areaKm2": 247.63
+            }
+          ]
+        },
+        {
+          "code": "3754",
+          "name": "Xã Nong Lay",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Chiềng La",
+              "newWardShort": "Chiềng La",
+              "newWardCode": "03754",
+              "newWardType": "Xã",
+              "lat": 21.4872,
+              "lon": 103.754,
+              "areaKm2": 126.13
+            }
+          ]
+        },
+        {
+          "code": "3802",
+          "name": "Xã Pá Lông",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Co Mạ",
+              "newWardShort": "Co Mạ",
+              "newWardCode": "03781",
+              "newWardType": "Xã",
+              "lat": 21.3252,
+              "lon": 103.53,
+              "areaKm2": 214.28
+            }
+          ]
+        },
+        {
+          "code": "3724",
+          "name": "Xã Phổng Lái",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Bình Thuận",
+              "newWardShort": "Bình Thuận",
+              "newWardCode": "03724",
+              "newWardType": "Xã",
+              "lat": 21.5655,
+              "lon": 103.604,
+              "areaKm2": 121.78
+            }
+          ]
+        },
+        {
+          "code": "3745",
+          "name": "Xã Phổng Lập",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Mường É",
+              "newWardShort": "Mường É",
+              "newWardCode": "03727",
+              "newWardType": "Xã",
+              "lat": 21.4995,
+              "lon": 103.56,
+              "areaKm2": 139.91
+            }
+          ]
+        },
+        {
+          "code": "3748",
+          "name": "Xã Phổng Ly",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Thuận Châu",
+              "newWardShort": "Thuận Châu",
+              "newWardCode": "03721",
+              "newWardType": "Xã",
+              "lat": 21.4377,
+              "lon": 103.715,
+              "areaKm2": 132.83
+            }
+          ]
+        },
+        {
+          "code": "3784",
+          "name": "Xã Púng Tra",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Nậm Lầu",
+              "newWardShort": "Nậm Lầu",
+              "newWardCode": "03784",
+              "newWardType": "Xã",
+              "lat": 21.3522,
+              "lon": 103.678,
+              "areaKm2": 247.63
+            }
+          ]
+        },
+        {
+          "code": "3769",
+          "name": "Xã Thôm Mòn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Thuận Châu",
+              "newWardShort": "Thuận Châu",
+              "newWardCode": "03721",
+              "newWardType": "Xã",
+              "lat": 21.4377,
+              "lon": 103.715,
+              "areaKm2": 132.83
+            }
+          ]
+        },
+        {
+          "code": "3775",
+          "name": "Xã Tông Cọ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Chiềng La",
+              "newWardShort": "Chiềng La",
+              "newWardCode": "03754",
+              "newWardType": "Xã",
+              "lat": 21.4872,
+              "lon": 103.754,
+              "areaKm2": 126.13
+            }
+          ]
+        },
+        {
+          "code": "3772",
+          "name": "Xã Tông Lạnh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Thuận Châu",
+              "newWardShort": "Thuận Châu",
+              "newWardCode": "03721",
+              "newWardType": "Xã",
+              "lat": 21.4377,
+              "lon": 103.715,
+              "areaKm2": 132.83
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "128",
+      "name": "Huyện Vân Hồ",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "4036",
+          "name": "Xã Chiềng Khoa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Tô Múa",
+              "newWardShort": "Tô Múa",
+              "newWardCode": "04018",
+              "newWardType": "Xã",
+              "lat": 20.9151,
+              "lon": 104.822,
+              "areaKm2": 181.98
+            }
+          ]
+        },
+        {
+          "code": "4056",
+          "name": "Xã Chiềng Xuân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Chiềng Sơn",
+              "newWardShort": "Chiềng Sơn",
+              "newWardCode": "03985",
+              "newWardType": "Xã",
+              "lat": 20.7156,
+              "lon": 104.651,
+              "areaKm2": 204.9
+            }
+          ]
+        },
+        {
+          "code": "4054",
+          "name": "Xã Chiềng Yên",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Vân Hồ",
+              "newWardShort": "Vân Hồ",
+              "newWardCode": "04048",
+              "newWardType": "Xã",
+              "lat": 20.7914,
+              "lon": 104.94,
+              "areaKm2": 268.4
+            }
+          ]
+        },
+        {
+          "code": "4009",
+          "name": "Xã Liên Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Song Khủa",
+              "newWardShort": "Song Khủa",
+              "newWardCode": "04006",
+              "newWardType": "Xã",
+              "lat": 20.9154,
+              "lon": 104.913,
+              "areaKm2": 192.45
+            }
+          ]
+        },
+        {
+          "code": "4051",
+          "name": "Xã Lóng Luông",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Vân Hồ",
+              "newWardShort": "Vân Hồ",
+              "newWardCode": "04048",
+              "newWardType": "Xã",
+              "lat": 20.7914,
+              "lon": 104.94,
+              "areaKm2": 268.4
+            }
+          ]
+        },
+        {
+          "code": "4039",
+          "name": "Xã Mường Men",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Vân Hồ",
+              "newWardShort": "Vân Hồ",
+              "newWardCode": "04048",
+              "newWardType": "Xã",
+              "lat": 20.7914,
+              "lon": 104.94,
+              "areaKm2": 268.4
+            }
+          ]
+        },
+        {
+          "code": "4021",
+          "name": "Xã Mường Tè",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Song Khủa",
+              "newWardShort": "Song Khủa",
+              "newWardCode": "04006",
+              "newWardType": "Xã",
+              "lat": 20.9154,
+              "lon": 104.913,
+              "areaKm2": 192.45
+            }
+          ]
+        },
+        {
+          "code": "4042",
+          "name": "Xã Quang Minh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Song Khủa",
+              "newWardShort": "Song Khủa",
+              "newWardCode": "04006",
+              "newWardType": "Xã",
+              "lat": 20.9154,
+              "lon": 104.913,
+              "areaKm2": 192.45
+            }
+          ]
+        },
+        {
+          "code": "4006",
+          "name": "Xã Song Khủa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Song Khủa",
+              "newWardShort": "Song Khủa",
+              "newWardCode": "04006",
+              "newWardType": "Xã",
+              "lat": 20.9154,
+              "lon": 104.913,
+              "areaKm2": 192.45
+            }
+          ]
+        },
+        {
+          "code": "3994",
+          "name": "Xã Suối Bàng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Tô Múa",
+              "newWardShort": "Tô Múa",
+              "newWardCode": "04018",
+              "newWardType": "Xã",
+              "lat": 20.9151,
+              "lon": 104.822,
+              "areaKm2": 181.98
+            }
+          ]
+        },
+        {
+          "code": "4058",
+          "name": "Xã Tân Xuân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Xuân Nha",
+              "newWardShort": "Xuân Nha",
+              "newWardCode": "04057",
+              "newWardType": "Xã",
+              "lat": 20.6658,
+              "lon": 104.756,
+              "areaKm2": 263.37
+            }
+          ]
+        },
+        {
+          "code": "4018",
+          "name": "Xã Tô Múa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Tô Múa",
+              "newWardShort": "Tô Múa",
+              "newWardCode": "04018",
+              "newWardType": "Xã",
+              "lat": 20.9151,
+              "lon": 104.822,
+              "areaKm2": 181.98
+            }
+          ]
+        },
+        {
+          "code": "4048",
+          "name": "Xã Vân Hồ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Vân Hồ",
+              "newWardShort": "Vân Hồ",
+              "newWardCode": "04048",
+              "newWardType": "Xã",
+              "lat": 20.7914,
+              "lon": 104.94,
+              "areaKm2": 268.4
+            }
+          ]
+        },
+        {
+          "code": "4057",
+          "name": "Xã Xuân Nha",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Xuân Nha",
+              "newWardShort": "Xuân Nha",
+              "newWardCode": "04057",
+              "newWardType": "Xã",
+              "lat": 20.6658,
+              "lon": 104.756,
+              "areaKm2": 263.37
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "124",
+      "name": "Huyện Yên Châu",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "4075",
+          "name": "Thị trấn Yên Châu",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Yên Châu",
+              "newWardShort": "Yên Châu",
+              "newWardCode": "04075",
+              "newWardType": "Xã",
+              "lat": 21.0768,
+              "lon": 104.283,
+              "areaKm2": 246.55
+            }
+          ]
+        },
+        {
+          "code": "4063",
+          "name": "Xã Chiềng Đông",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Yên Châu",
+              "newWardShort": "Yên Châu",
+              "newWardCode": "04075",
+              "newWardType": "Xã",
+              "lat": 21.0768,
+              "lon": 104.283,
+              "areaKm2": 246.55
+            }
+          ]
+        },
+        {
+          "code": "4078",
+          "name": "Xã Chiềng Hặc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Chiềng Hặc",
+              "newWardShort": "Chiềng Hặc",
+              "newWardCode": "04078",
+              "newWardType": "Xã",
+              "lat": 20.9898,
+              "lon": 104.433,
+              "areaKm2": 239.91
+            }
+          ]
+        },
+        {
+          "code": "4090",
+          "name": "Xã Chiềng Khoi",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Yên Châu",
+              "newWardShort": "Yên Châu",
+              "newWardCode": "04075",
+              "newWardType": "Xã",
+              "lat": 21.0768,
+              "lon": 104.283,
+              "areaKm2": 246.55
+            }
+          ]
+        },
+        {
+          "code": "4084",
+          "name": "Xã Chiềng On",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Yên Sơn",
+              "newWardShort": "Yên Sơn",
+              "newWardCode": "04087",
+              "newWardType": "Xã",
+              "lat": 21,
+              "lon": 104.184,
+              "areaKm2": 116.62
+            }
+          ]
+        },
+        {
+          "code": "4072",
+          "name": "Xã Chiềng Pằn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Yên Châu",
+              "newWardShort": "Yên Châu",
+              "newWardCode": "04075",
+              "newWardType": "Xã",
+              "lat": 21.0768,
+              "lon": 104.283,
+              "areaKm2": 246.55
+            }
+          ]
+        },
+        {
+          "code": "4069",
+          "name": "Xã Chiềng Sàng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Yên Châu",
+              "newWardShort": "Yên Châu",
+              "newWardCode": "04075",
+              "newWardType": "Xã",
+              "lat": 21.0768,
+              "lon": 104.283,
+              "areaKm2": 246.55
+            }
+          ]
+        },
+        {
+          "code": "4102",
+          "name": "Xã Chiềng Tương",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Lóng Phiêng",
+              "newWardShort": "Lóng Phiêng",
+              "newWardCode": "04096",
+              "newWardType": "Xã",
+              "lat": 20.8865,
+              "lon": 104.386,
+              "areaKm2": 147.81
+            }
+          ]
+        },
+        {
+          "code": "4096",
+          "name": "Xã Lóng Phiêng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Lóng Phiêng",
+              "newWardShort": "Lóng Phiêng",
+              "newWardCode": "04096",
+              "newWardType": "Xã",
+              "lat": 20.8865,
+              "lon": 104.386,
+              "areaKm2": 147.81
+            }
+          ]
+        },
+        {
+          "code": "4081",
+          "name": "Xã Mường Lựm",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Chiềng Hặc",
+              "newWardShort": "Chiềng Hặc",
+              "newWardCode": "04078",
+              "newWardType": "Xã",
+              "lat": 20.9898,
+              "lon": 104.433,
+              "areaKm2": 239.91
+            }
+          ]
+        },
+        {
+          "code": "4099",
+          "name": "Xã Phiêng Khoài",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Phiêng Khoài",
+              "newWardShort": "Phiêng Khoài",
+              "newWardCode": "04099",
+              "newWardType": "Xã",
+              "lat": 20.9546,
+              "lon": 104.281,
+              "areaKm2": 103.77
+            }
+          ]
+        },
+        {
+          "code": "4066",
+          "name": "Xã Sặp Vạt",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Yên Châu",
+              "newWardShort": "Yên Châu",
+              "newWardCode": "04075",
+              "newWardType": "Xã",
+              "lat": 21.0768,
+              "lon": 104.283,
+              "areaKm2": 246.55
+            }
+          ]
+        },
+        {
+          "code": "4093",
+          "name": "Xã Tú Nang",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Chiềng Hặc",
+              "newWardShort": "Chiềng Hặc",
+              "newWardCode": "04078",
+              "newWardType": "Xã",
+              "lat": 20.9898,
+              "lon": 104.433,
+              "areaKm2": 239.91
+            }
+          ]
+        },
+        {
+          "code": "4087",
+          "name": "Xã Yên Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Yên Sơn",
+              "newWardShort": "Yên Sơn",
+              "newWardCode": "04087",
+              "newWardType": "Xã",
+              "lat": 21,
+              "lon": 104.184,
+              "areaKm2": 116.62
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "116",
+      "name": "Thành phố Sơn La",
+      "type": "Thành phố",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "3667",
+          "name": "Phường Chiềng An",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Phường Chiềng An",
+              "newWardShort": "Chiềng An",
+              "newWardCode": "03664",
+              "newWardType": "Phường",
+              "lat": 21.3856,
+              "lon": 103.895,
+              "areaKm2": 149.08
+            }
+          ]
+        },
+        {
+          "code": "3670",
+          "name": "Phường Chiềng Cơi",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Phường Chiềng Cơi",
+              "newWardShort": "Chiềng Cơi",
+              "newWardCode": "03670",
+              "newWardType": "Phường",
+              "lat": 21.2976,
+              "lon": 103.876,
+              "areaKm2": 93.56
+            }
+          ]
+        },
+        {
+          "code": "3646",
+          "name": "Phường Chiềng Lề",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Phường Tô Hiệu",
+              "newWardShort": "Tô Hiệu",
+              "newWardCode": "03646",
+              "newWardType": "Phường",
+              "lat": 21.3273,
+              "lon": 103.921,
+              "areaKm2": 11.92
+            }
+          ]
+        },
+        {
+          "code": "3679",
+          "name": "Phường Chiềng Sinh",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Phường Chiềng Sinh",
+              "newWardShort": "Chiềng Sinh",
+              "newWardCode": "03679",
+              "newWardType": "Phường",
+              "lat": 21.3052,
+              "lon": 103.978,
+              "areaKm2": 68.4
+            }
+          ]
+        },
+        {
+          "code": "3655",
+          "name": "Phường Quyết Tâm",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Phường Tô Hiệu",
+              "newWardShort": "Tô Hiệu",
+              "newWardCode": "03646",
+              "newWardType": "Phường",
+              "lat": 21.3273,
+              "lon": 103.921,
+              "areaKm2": 11.92
+            }
+          ]
+        },
+        {
+          "code": "3652",
+          "name": "Phường Quyết Thắng",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Phường Tô Hiệu",
+              "newWardShort": "Tô Hiệu",
+              "newWardCode": "03646",
+              "newWardType": "Phường",
+              "lat": 21.3273,
+              "lon": 103.921,
+              "areaKm2": 11.92
+            }
+          ]
+        },
+        {
+          "code": "3649",
+          "name": "Phường Tô Hiệu",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Phường Tô Hiệu",
+              "newWardShort": "Tô Hiệu",
+              "newWardCode": "03646",
+              "newWardType": "Phường",
+              "lat": 21.3273,
+              "lon": 103.921,
+              "areaKm2": 11.92
+            }
+          ]
+        },
+        {
+          "code": "3658",
+          "name": "Xã Chiềng Cọ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Phường Chiềng Cơi",
+              "newWardShort": "Chiềng Cơi",
+              "newWardCode": "03670",
+              "newWardType": "Phường",
+              "lat": 21.2976,
+              "lon": 103.876,
+              "areaKm2": 93.56
+            }
+          ]
+        },
+        {
+          "code": "3661",
+          "name": "Xã Chiềng Đen",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Phường Chiềng An",
+              "newWardShort": "Chiềng An",
+              "newWardCode": "03664",
+              "newWardType": "Phường",
+              "lat": 21.3856,
+              "lon": 103.895,
+              "areaKm2": 149.08
+            }
+          ]
+        },
+        {
+          "code": "3673",
+          "name": "Xã Chiềng Ngần",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Phường Chiềng Sinh",
+              "newWardShort": "Chiềng Sinh",
+              "newWardCode": "03679",
+              "newWardType": "Phường",
+              "lat": 21.3052,
+              "lon": 103.978,
+              "areaKm2": 68.4
+            }
+          ]
+        },
+        {
+          "code": "3664",
+          "name": "Xã Chiềng Xôm",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Phường Chiềng An",
+              "newWardShort": "Chiềng An",
+              "newWardCode": "03664",
+              "newWardType": "Phường",
+              "lat": 21.3856,
+              "lon": 103.895,
+              "areaKm2": 149.08
+            }
+          ]
+        },
+        {
+          "code": "3676",
+          "name": "Xã Hua La",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Phường Chiềng Cơi",
+              "newWardShort": "Chiềng Cơi",
+              "newWardCode": "03670",
+              "newWardType": "Phường",
+              "lat": 21.2976,
+              "lon": 103.876,
+              "areaKm2": 93.56
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "123",
+      "name": "Thị xã Mộc Châu",
+      "type": "Thị xã",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "3983",
+          "name": "Phường Bình Minh",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Phường Vân Sơn",
+              "newWardShort": "Vân Sơn",
+              "newWardCode": "04033",
+              "newWardType": "Phường",
+              "lat": 20.8771,
+              "lon": 104.716,
+              "areaKm2": 39.61
+            }
+          ]
+        },
+        {
+          "code": "3984",
+          "name": "Phường Cờ Đỏ",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Phường Thảo Nguyên",
+              "newWardShort": "Thảo Nguyên",
+              "newWardCode": "03982",
+              "newWardType": "Phường",
+              "lat": 20.8479,
+              "lon": 104.684,
+              "areaKm2": 53.09
+            }
+          ]
+        },
+        {
+          "code": "4030",
+          "name": "Phường Đông Sang",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Phường Mộc Sơn",
+              "newWardShort": "Mộc Sơn",
+              "newWardCode": "03979",
+              "newWardType": "Phường",
+              "lat": 20.8044,
+              "lon": 104.648,
+              "areaKm2": 37.88
+            }
+          ]
+        },
+        {
+          "code": "3980",
+          "name": "Phường Mộc Lỵ",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Phường Mộc Châu",
+              "newWardShort": "Mộc Châu",
+              "newWardCode": "03980",
+              "newWardType": "Phường",
+              "lat": 20.8747,
+              "lon": 104.565,
+              "areaKm2": 167.62
+            }
+          ]
+        },
+        {
+          "code": "3979",
+          "name": "Phường Mộc Sơn",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Phường Mộc Sơn",
+              "newWardShort": "Mộc Sơn",
+              "newWardCode": "03979",
+              "newWardType": "Phường",
+              "lat": 20.8044,
+              "lon": 104.648,
+              "areaKm2": 37.88
+            }
+          ]
+        },
+        {
+          "code": "4027",
+          "name": "Phường Mường Sang",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Phường Mộc Châu",
+              "newWardShort": "Mộc Châu",
+              "newWardCode": "03980",
+              "newWardType": "Phường",
+              "lat": 20.8747,
+              "lon": 104.565,
+              "areaKm2": 167.62
+            }
+          ]
+        },
+        {
+          "code": "3982",
+          "name": "Phường Thảo Nguyên",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Phường Thảo Nguyên",
+              "newWardShort": "Thảo Nguyên",
+              "newWardCode": "03982",
+              "newWardType": "Phường",
+              "lat": 20.8479,
+              "lon": 104.684,
+              "areaKm2": 53.09
+            }
+          ]
+        },
+        {
+          "code": "4033",
+          "name": "Phường Vân Sơn",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Phường Vân Sơn",
+              "newWardShort": "Vân Sơn",
+              "newWardCode": "04033",
+              "newWardType": "Phường",
+              "lat": 20.8771,
+              "lon": 104.716,
+              "areaKm2": 39.61
+            }
+          ]
+        },
+        {
+          "code": "4015",
+          "name": "Xã Chiềng Chung",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Đoàn Kết",
+              "newWardShort": "Đoàn Kết",
+              "newWardCode": "04000",
+              "newWardType": "Xã",
+              "lat": 20.9584,
+              "lon": 104.739,
+              "areaKm2": 240.66
+            }
+          ]
+        },
+        {
+          "code": "4012",
+          "name": "Xã Chiềng Hắc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Phường Mộc Châu",
+              "newWardShort": "Mộc Châu",
+              "newWardCode": "03980",
+              "newWardType": "Phường",
+              "lat": 20.8747,
+              "lon": 104.565,
+              "areaKm2": 167.62
+            }
+          ]
+        },
+        {
+          "code": "4024",
+          "name": "Xã Chiềng Khừa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Lóng Sập",
+              "newWardShort": "Lóng Sập",
+              "newWardCode": "04045",
+              "newWardType": "Xã",
+              "lat": 20.7987,
+              "lon": 104.502,
+              "areaKm2": 211.3
+            }
+          ]
+        },
+        {
+          "code": "3985",
+          "name": "Xã Chiềng Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Chiềng Sơn",
+              "newWardShort": "Chiềng Sơn",
+              "newWardCode": "03985",
+              "newWardType": "Xã",
+              "lat": 20.7156,
+              "lon": 104.651,
+              "areaKm2": 204.9
+            }
+          ]
+        },
+        {
+          "code": "4000",
+          "name": "Xã Đoàn Kết",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Đoàn Kết",
+              "newWardShort": "Đoàn Kết",
+              "newWardCode": "04000",
+              "newWardType": "Xã",
+              "lat": 20.9584,
+              "lon": 104.739,
+              "areaKm2": 240.66
+            }
+          ]
+        },
+        {
+          "code": "4045",
+          "name": "Xã Lóng Sập",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Lóng Sập",
+              "newWardShort": "Lóng Sập",
+              "newWardCode": "04045",
+              "newWardType": "Xã",
+              "lat": 20.7987,
+              "lon": 104.502,
+              "areaKm2": 211.3
+            }
+          ]
+        },
+        {
+          "code": "3997",
+          "name": "Xã Tân Yên",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Sơn La",
+              "newProvinceSlug": "son-la",
+              "newProvinceCode": "14",
+              "newWard": "Xã Tân Yên",
+              "newWardShort": "Tân Yên",
+              "newWardCode": "03997",
+              "newWardType": "Xã",
+              "lat": 20.9867,
+              "lon": 104.608,
+              "areaKm2": 192.79
+            }
+          ]
+        }
+      ],
+      "results": []
+    }
+  ]
+}

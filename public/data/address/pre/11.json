@@ -1,0 +1,2680 @@
+{
+  "schemaVersion": 1,
+  "mergeDate": "2025-07-01",
+  "code": "11",
+  "name": "Tỉnh Điện Biên",
+  "name_en": "Dien Bien Province",
+  "slug": "dien-bien",
+  "districts": [
+    {
+      "code": "94",
+      "name": "Thành phố Điện Biên Phủ",
+      "type": "Thành phố",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "3127",
+          "name": "Phường Him Lam",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Phường Điện Biên Phủ",
+              "newWardShort": "Điện Biên Phủ",
+              "newWardCode": "03127",
+              "newWardType": "Phường",
+              "lat": 21.4061,
+              "lon": 103.067,
+              "areaKm2": 56.75
+            }
+          ]
+        },
+        {
+          "code": "3136",
+          "name": "Phường Mường Thanh",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Phường Điện Biên Phủ",
+              "newWardShort": "Điện Biên Phủ",
+              "newWardCode": "03127",
+              "newWardType": "Phường",
+              "lat": 21.4061,
+              "lon": 103.067,
+              "areaKm2": 56.75
+            }
+          ]
+        },
+        {
+          "code": "3139",
+          "name": "Phường Nam Thanh",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Phường Mường Thanh",
+              "newWardShort": "Mường Thanh",
+              "newWardCode": "03334",
+              "newWardType": "Phường",
+              "lat": 21.3627,
+              "lon": 103.035,
+              "areaKm2": 27.56
+            }
+          ]
+        },
+        {
+          "code": "3124",
+          "name": "Phường Noong Bua",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Phường Mường Thanh",
+              "newWardShort": "Mường Thanh",
+              "newWardCode": "03334",
+              "newWardType": "Phường",
+              "lat": 21.3627,
+              "lon": 103.035,
+              "areaKm2": 27.56
+            }
+          ]
+        },
+        {
+          "code": "3133",
+          "name": "Phường Tân Thanh",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Phường Điện Biên Phủ",
+              "newWardShort": "Điện Biên Phủ",
+              "newWardCode": "03127",
+              "newWardType": "Phường",
+              "lat": 21.4061,
+              "lon": 103.067,
+              "areaKm2": 56.75
+            }
+          ]
+        },
+        {
+          "code": "3130",
+          "name": "Phường Thanh Bình",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Phường Điện Biên Phủ",
+              "newWardShort": "Điện Biên Phủ",
+              "newWardCode": "03127",
+              "newWardType": "Phường",
+              "lat": 21.4061,
+              "lon": 103.067,
+              "areaKm2": 56.75
+            }
+          ]
+        },
+        {
+          "code": "3142",
+          "name": "Phường Thanh Trường",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Phường Điện Biên Phủ",
+              "newWardShort": "Điện Biên Phủ",
+              "newWardCode": "03127",
+              "newWardType": "Phường",
+              "lat": 21.4061,
+              "lon": 103.067,
+              "areaKm2": 56.75
+            }
+          ]
+        },
+        {
+          "code": "3325",
+          "name": "Xã Mường Phăng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Mường Phăng",
+              "newWardShort": "Mường Phăng",
+              "newWardCode": "03325",
+              "newWardType": "Xã",
+              "lat": 21.466,
+              "lon": 103.104,
+              "areaKm2": 166.7
+            }
+          ]
+        },
+        {
+          "code": "3317",
+          "name": "Xã Nà Nhạn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Mường Phăng",
+              "newWardShort": "Mường Phăng",
+              "newWardCode": "03325",
+              "newWardType": "Xã",
+              "lat": 21.466,
+              "lon": 103.104,
+              "areaKm2": 166.7
+            }
+          ]
+        },
+        {
+          "code": "3316",
+          "name": "Xã Nà Tấu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Nà Tấu",
+              "newWardShort": "Nà Tấu",
+              "newWardCode": "03316",
+              "newWardType": "Xã",
+              "lat": 21.5724,
+              "lon": 103.154,
+              "areaKm2": 188.55
+            }
+          ]
+        },
+        {
+          "code": "3326",
+          "name": "Xã Pá Khoang",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Mường Phăng",
+              "newWardShort": "Mường Phăng",
+              "newWardCode": "03325",
+              "newWardType": "Xã",
+              "lat": 21.466,
+              "lon": 103.104,
+              "areaKm2": 166.7
+            }
+          ]
+        },
+        {
+          "code": "3145",
+          "name": "Xã Thanh Minh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Phường Điện Biên Phủ",
+              "newWardShort": "Điện Biên Phủ",
+              "newWardCode": "03127",
+              "newWardType": "Phường",
+              "lat": 21.4061,
+              "lon": 103.067,
+              "areaKm2": 56.75
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "100",
+      "name": "Huyện Điện Biên",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "3359",
+          "name": "Xã Hẹ Muông",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Núa Ngam",
+              "newWardShort": "Núa Ngam",
+              "newWardCode": "03358",
+              "newWardType": "Xã",
+              "lat": 21.172,
+              "lon": 103.043,
+              "areaKm2": 264.78
+            }
+          ]
+        },
+        {
+          "code": "3323",
+          "name": "Xã Hua Thanh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Thanh Nưa",
+              "newWardShort": "Thanh Nưa",
+              "newWardCode": "03328",
+              "newWardType": "Xã",
+              "lat": 21.4283,
+              "lon": 102.96,
+              "areaKm2": 176.97
+            }
+          ]
+        },
+        {
+          "code": "3367",
+          "name": "Xã Mường Lói",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Mường Nhà",
+              "newWardShort": "Mường Nhà",
+              "newWardCode": "03368",
+              "newWardType": "Xã",
+              "lat": 20.9745,
+              "lon": 103.166,
+              "areaKm2": 463
+            }
+          ]
+        },
+        {
+          "code": "3364",
+          "name": "Xã Mường Nhà",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Mường Nhà",
+              "newWardShort": "Mường Nhà",
+              "newWardCode": "03368",
+              "newWardType": "Xã",
+              "lat": 20.9745,
+              "lon": 103.166,
+              "areaKm2": 463
+            }
+          ]
+        },
+        {
+          "code": "3319",
+          "name": "Xã Mường Pồn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Mường Pồn",
+              "newWardShort": "Mường Pồn",
+              "newWardCode": "03202",
+              "newWardType": "Xã",
+              "lat": 21.5931,
+              "lon": 103.032,
+              "areaKm2": 258.76
+            }
+          ]
+        },
+        {
+          "code": "3365",
+          "name": "Xã Na Tông",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Núa Ngam",
+              "newWardShort": "Núa Ngam",
+              "newWardCode": "03358",
+              "newWardType": "Xã",
+              "lat": 21.172,
+              "lon": 103.043,
+              "areaKm2": 264.78
+            }
+          ]
+        },
+        {
+          "code": "3361",
+          "name": "Xã Na Ư",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Sam Mứn",
+              "newWardShort": "Sam Mứn",
+              "newWardCode": "03356",
+              "newWardType": "Xã",
+              "lat": 21.2182,
+              "lon": 102.953,
+              "areaKm2": 156.12
+            }
+          ]
+        },
+        {
+          "code": "3352",
+          "name": "Xã Noong Hẹt",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Thanh An",
+              "newWardShort": "Thanh An",
+              "newWardCode": "03352",
+              "newWardType": "Xã",
+              "lat": 21.3068,
+              "lon": 103.039,
+              "areaKm2": 136.72
+            }
+          ]
+        },
+        {
+          "code": "3349",
+          "name": "Xã Noong Luống",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Thanh Yên",
+              "newWardShort": "Thanh Yên",
+              "newWardCode": "03349",
+              "newWardType": "Xã",
+              "lat": 21.3062,
+              "lon": 102.921,
+              "areaKm2": 130.1
+            }
+          ]
+        },
+        {
+          "code": "3358",
+          "name": "Xã Núa Ngam",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Núa Ngam",
+              "newWardShort": "Núa Ngam",
+              "newWardCode": "03358",
+              "newWardType": "Xã",
+              "lat": 21.172,
+              "lon": 103.043,
+              "areaKm2": 264.78
+            }
+          ]
+        },
+        {
+          "code": "3340",
+          "name": "Xã Pa Thơm",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Thanh Yên",
+              "newWardShort": "Thanh Yên",
+              "newWardCode": "03349",
+              "newWardType": "Xã",
+              "lat": 21.3062,
+              "lon": 102.921,
+              "areaKm2": 130.1
+            }
+          ]
+        },
+        {
+          "code": "3368",
+          "name": "Xã Phu Luông",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Mường Nhà",
+              "newWardShort": "Mường Nhà",
+              "newWardCode": "03368",
+              "newWardType": "Xã",
+              "lat": 20.9745,
+              "lon": 103.166,
+              "areaKm2": 463
+            }
+          ]
+        },
+        {
+          "code": "3356",
+          "name": "Xã Pom Lót",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Sam Mứn",
+              "newWardShort": "Sam Mứn",
+              "newWardCode": "03356",
+              "newWardType": "Xã",
+              "lat": 21.2182,
+              "lon": 102.953,
+              "areaKm2": 156.12
+            }
+          ]
+        },
+        {
+          "code": "3355",
+          "name": "Xã Sam Mứn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Thanh An",
+              "newWardShort": "Thanh An",
+              "newWardCode": "03352",
+              "newWardType": "Xã",
+              "lat": 21.3068,
+              "lon": 103.039,
+              "areaKm2": 136.72
+            }
+          ]
+        },
+        {
+          "code": "3343",
+          "name": "Xã Thanh An",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Thanh An",
+              "newWardShort": "Thanh An",
+              "newWardCode": "03352",
+              "newWardType": "Xã",
+              "lat": 21.3068,
+              "lon": 103.039,
+              "areaKm2": 136.72
+            }
+          ]
+        },
+        {
+          "code": "3337",
+          "name": "Xã Thanh Chăn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Thanh Nưa",
+              "newWardShort": "Thanh Nưa",
+              "newWardCode": "03328",
+              "newWardType": "Xã",
+              "lat": 21.4283,
+              "lon": 102.96,
+              "areaKm2": 176.97
+            }
+          ]
+        },
+        {
+          "code": "3331",
+          "name": "Xã Thanh Hưng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Thanh Nưa",
+              "newWardShort": "Thanh Nưa",
+              "newWardCode": "03328",
+              "newWardType": "Xã",
+              "lat": 21.4283,
+              "lon": 102.96,
+              "areaKm2": 176.97
+            }
+          ]
+        },
+        {
+          "code": "3328",
+          "name": "Xã Thanh Luông",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Thanh Nưa",
+              "newWardShort": "Thanh Nưa",
+              "newWardCode": "03328",
+              "newWardType": "Xã",
+              "lat": 21.4283,
+              "lon": 102.96,
+              "areaKm2": 176.97
+            }
+          ]
+        },
+        {
+          "code": "3322",
+          "name": "Xã Thanh Nưa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Thanh Nưa",
+              "newWardShort": "Thanh Nưa",
+              "newWardCode": "03328",
+              "newWardType": "Xã",
+              "lat": 21.4283,
+              "lon": 102.96,
+              "areaKm2": 176.97
+            }
+          ]
+        },
+        {
+          "code": "3334",
+          "name": "Xã Thanh Xương",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Phường Mường Thanh",
+              "newWardShort": "Mường Thanh",
+              "newWardCode": "03334",
+              "newWardType": "Phường",
+              "lat": 21.3627,
+              "lon": 103.035,
+              "areaKm2": 27.56
+            }
+          ]
+        },
+        {
+          "code": "3346",
+          "name": "Xã Thanh Yên",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Thanh Yên",
+              "newWardShort": "Thanh Yên",
+              "newWardCode": "03349",
+              "newWardType": "Xã",
+              "lat": 21.3062,
+              "lon": 102.921,
+              "areaKm2": 130.1
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "101",
+      "name": "Huyện Điện Biên Đông",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "3203",
+          "name": "Thị trấn Điện Biên Đông",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Na Son",
+              "newWardShort": "Na Son",
+              "newWardCode": "03203",
+              "newWardType": "Xã",
+              "lat": 21.2506,
+              "lon": 103.18,
+              "areaKm2": 230.71
+            }
+          ]
+        },
+        {
+          "code": "3211",
+          "name": "Xã Chiềng Sơ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Mường Luân",
+              "newWardShort": "Mường Luân",
+              "newWardCode": "03214",
+              "newWardType": "Xã",
+              "lat": 21.2474,
+              "lon": 103.385,
+              "areaKm2": 186.22
+            }
+          ]
+        },
+        {
+          "code": "3385",
+          "name": "Xã Háng Lìa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Tìa Dình",
+              "newWardShort": "Tìa Dình",
+              "newWardCode": "03385",
+              "newWardType": "Xã",
+              "lat": 21.1393,
+              "lon": 103.341,
+              "areaKm2": 166.76
+            }
+          ]
+        },
+        {
+          "code": "3376",
+          "name": "Xã Keo Lôm",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Na Son",
+              "newWardShort": "Na Son",
+              "newWardCode": "03203",
+              "newWardType": "Xã",
+              "lat": 21.2506,
+              "lon": 103.18,
+              "areaKm2": 230.71
+            }
+          ]
+        },
+        {
+          "code": "3379",
+          "name": "Xã Luân Giói",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Mường Luân",
+              "newWardShort": "Mường Luân",
+              "newWardCode": "03214",
+              "newWardType": "Xã",
+              "lat": 21.2474,
+              "lon": 103.385,
+              "areaKm2": 186.22
+            }
+          ]
+        },
+        {
+          "code": "3214",
+          "name": "Xã Mường Luân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Mường Luân",
+              "newWardShort": "Mường Luân",
+              "newWardCode": "03214",
+              "newWardType": "Xã",
+              "lat": 21.2474,
+              "lon": 103.385,
+              "areaKm2": 186.22
+            }
+          ]
+        },
+        {
+          "code": "3205",
+          "name": "Xã Na Son",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Na Son",
+              "newWardShort": "Na Son",
+              "newWardCode": "03203",
+              "newWardType": "Xã",
+              "lat": 21.2506,
+              "lon": 103.18,
+              "areaKm2": 230.71
+            }
+          ]
+        },
+        {
+          "code": "3371",
+          "name": "Xã Nong U",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Pu Nhi",
+              "newWardShort": "Pu Nhi",
+              "newWardCode": "03370",
+              "newWardType": "Xã",
+              "lat": 21.3505,
+              "lon": 103.144,
+              "areaKm2": 181.22
+            }
+          ]
+        },
+        {
+          "code": "3208",
+          "name": "Xã Phì Nhừ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Xa Dung",
+              "newWardShort": "Xa Dung",
+              "newWardCode": "03208",
+              "newWardType": "Xã",
+              "lat": 21.3223,
+              "lon": 103.299,
+              "areaKm2": 215.5
+            }
+          ]
+        },
+        {
+          "code": "3382",
+          "name": "Xã Phình Giàng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Phình Giàng",
+              "newWardShort": "Phình Giàng",
+              "newWardCode": "03382",
+              "newWardType": "Xã",
+              "lat": 21.1207,
+              "lon": 103.22,
+              "areaKm2": 226.37
+            }
+          ]
+        },
+        {
+          "code": "3383",
+          "name": "Xã Pú Hồng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Phình Giàng",
+              "newWardShort": "Phình Giàng",
+              "newWardCode": "03382",
+              "newWardType": "Xã",
+              "lat": 21.1207,
+              "lon": 103.22,
+              "areaKm2": 226.37
+            }
+          ]
+        },
+        {
+          "code": "3370",
+          "name": "Xã Pu Nhi",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Pu Nhi",
+              "newWardShort": "Pu Nhi",
+              "newWardCode": "03370",
+              "newWardType": "Xã",
+              "lat": 21.3505,
+              "lon": 103.144,
+              "areaKm2": 181.22
+            }
+          ]
+        },
+        {
+          "code": "3384",
+          "name": "Xã Tìa Dình",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Tìa Dình",
+              "newWardShort": "Tìa Dình",
+              "newWardCode": "03385",
+              "newWardType": "Xã",
+              "lat": 21.1393,
+              "lon": 103.341,
+              "areaKm2": 166.76
+            }
+          ]
+        },
+        {
+          "code": "3373",
+          "name": "Xã Xa Dung",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Xa Dung",
+              "newWardShort": "Xa Dung",
+              "newWardCode": "03208",
+              "newWardType": "Xã",
+              "lat": 21.3223,
+              "lon": 103.299,
+              "areaKm2": 215.5
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "102",
+      "name": "Huyện Mường Ảng",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "3256",
+          "name": "Thị trấn Mường Ảng",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Mường Ảng",
+              "newWardShort": "Mường Ảng",
+              "newWardCode": "03256",
+              "newWardType": "Xã",
+              "lat": 21.4915,
+              "lon": 103.214,
+              "areaKm2": 85.94
+            }
+          ]
+        },
+        {
+          "code": "3310",
+          "name": "Xã Ẳng Cang",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Mường Ảng",
+              "newWardShort": "Mường Ảng",
+              "newWardCode": "03256",
+              "newWardType": "Xã",
+              "lat": 21.4915,
+              "lon": 103.214,
+              "areaKm2": 85.94
+            }
+          ]
+        },
+        {
+          "code": "3307",
+          "name": "Xã Ẳng Nưa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Mường Ảng",
+              "newWardShort": "Mường Ảng",
+              "newWardCode": "03256",
+              "newWardType": "Xã",
+              "lat": 21.4915,
+              "lon": 103.214,
+              "areaKm2": 85.94
+            }
+          ]
+        },
+        {
+          "code": "3292",
+          "name": "Xã Ẳng Tở",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Búng Lao",
+              "newWardShort": "Búng Lao",
+              "newWardCode": "03301",
+              "newWardType": "Xã",
+              "lat": 21.5388,
+              "lon": 103.306,
+              "areaKm2": 145.85
+            }
+          ]
+        },
+        {
+          "code": "3301",
+          "name": "Xã Búng Lao",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Búng Lao",
+              "newWardShort": "Búng Lao",
+              "newWardCode": "03301",
+              "newWardType": "Xã",
+              "lat": 21.5388,
+              "lon": 103.306,
+              "areaKm2": 145.85
+            }
+          ]
+        },
+        {
+          "code": "3286",
+          "name": "Xã Mường Đăng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Nà Tấu",
+              "newWardShort": "Nà Tấu",
+              "newWardCode": "03316",
+              "newWardType": "Xã",
+              "lat": 21.5724,
+              "lon": 103.154,
+              "areaKm2": 188.55
+            }
+          ]
+        },
+        {
+          "code": "3313",
+          "name": "Xã Mường Lạn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Mường Lạn",
+              "newWardShort": "Mường Lạn",
+              "newWardCode": "03313",
+              "newWardType": "Xã",
+              "lat": 21.4545,
+              "lon": 103.314,
+              "areaKm2": 264.89
+            }
+          ]
+        },
+        {
+          "code": "3312",
+          "name": "Xã Nặm Lịch",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Mường Lạn",
+              "newWardShort": "Mường Lạn",
+              "newWardCode": "03313",
+              "newWardType": "Xã",
+              "lat": 21.4545,
+              "lon": 103.314,
+              "areaKm2": 264.89
+            }
+          ]
+        },
+        {
+          "code": "3287",
+          "name": "Xã Ngối Cáy",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Nà Tấu",
+              "newWardShort": "Nà Tấu",
+              "newWardCode": "03316",
+              "newWardType": "Xã",
+              "lat": 21.5724,
+              "lon": 103.154,
+              "areaKm2": 188.55
+            }
+          ]
+        },
+        {
+          "code": "3302",
+          "name": "Xã Xuân Lao",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Mường Lạn",
+              "newWardShort": "Mường Lạn",
+              "newWardCode": "03313",
+              "newWardType": "Xã",
+              "lat": 21.4545,
+              "lon": 103.314,
+              "areaKm2": 264.89
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "97",
+      "name": "Huyện Mường Chà",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "3172",
+          "name": "Thị trấn Mường Chà",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Na Sang",
+              "newWardShort": "Na Sang",
+              "newWardCode": "03172",
+              "newWardType": "Xã",
+              "lat": 21.7742,
+              "lon": 103.068,
+              "areaKm2": 360.15
+            }
+          ]
+        },
+        {
+          "code": "3190",
+          "name": "Xã Hừa Ngài",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Pa Ham",
+              "newWardShort": "Pa Ham",
+              "newWardCode": "03193",
+              "newWardType": "Xã",
+              "lat": 21.888,
+              "lon": 103.217,
+              "areaKm2": 135.84
+            }
+          ]
+        },
+        {
+          "code": "3196",
+          "name": "Xã Huổi Lèng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Mường Tùng",
+              "newWardShort": "Mường Tùng",
+              "newWardCode": "03181",
+              "newWardType": "Xã",
+              "lat": 21.9457,
+              "lon": 103.081,
+              "areaKm2": 278.93
+            }
+          ]
+        },
+        {
+          "code": "3191",
+          "name": "Xã Huổi Mí",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Nậm Nèn",
+              "newWardShort": "Nậm Nèn",
+              "newWardCode": "03194",
+              "newWardType": "Xã",
+              "lat": 21.785,
+              "lon": 103.215,
+              "areaKm2": 175
+            }
+          ]
+        },
+        {
+          "code": "3200",
+          "name": "Xã Ma Thì Hồ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Na Sang",
+              "newWardShort": "Na Sang",
+              "newWardCode": "03172",
+              "newWardType": "Xã",
+              "lat": 21.7742,
+              "lon": 103.068,
+              "areaKm2": 360.15
+            }
+          ]
+        },
+        {
+          "code": "3202",
+          "name": "Xã Mường Mươn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Mường Pồn",
+              "newWardShort": "Mường Pồn",
+              "newWardCode": "03202",
+              "newWardType": "Xã",
+              "lat": 21.5931,
+              "lon": 103.032,
+              "areaKm2": 258.76
+            }
+          ]
+        },
+        {
+          "code": "3181",
+          "name": "Xã Mường Tùng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Mường Tùng",
+              "newWardShort": "Mường Tùng",
+              "newWardCode": "03181",
+              "newWardType": "Xã",
+              "lat": 21.9457,
+              "lon": 103.081,
+              "areaKm2": 278.93
+            }
+          ]
+        },
+        {
+          "code": "3201",
+          "name": "Xã Na Sang",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Na Sang",
+              "newWardShort": "Na Sang",
+              "newWardCode": "03172",
+              "newWardType": "Xã",
+              "lat": 21.7742,
+              "lon": 103.068,
+              "areaKm2": 360.15
+            }
+          ]
+        },
+        {
+          "code": "3194",
+          "name": "Xã Nậm Nèn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Nậm Nèn",
+              "newWardShort": "Nậm Nèn",
+              "newWardCode": "03194",
+              "newWardType": "Xã",
+              "lat": 21.785,
+              "lon": 103.215,
+              "areaKm2": 175
+            }
+          ]
+        },
+        {
+          "code": "3193",
+          "name": "Xã Pa Ham",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Pa Ham",
+              "newWardShort": "Pa Ham",
+              "newWardCode": "03193",
+              "newWardType": "Xã",
+              "lat": 21.888,
+              "lon": 103.217,
+              "areaKm2": 135.84
+            }
+          ]
+        },
+        {
+          "code": "3197",
+          "name": "Xã Sa Lông",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Na Sang",
+              "newWardShort": "Na Sang",
+              "newWardCode": "03172",
+              "newWardType": "Xã",
+              "lat": 21.7742,
+              "lon": 103.068,
+              "areaKm2": 360.15
+            }
+          ]
+        },
+        {
+          "code": "3178",
+          "name": "Xã Sá Tổng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Phường Mường Lay",
+              "newWardShort": "Mường Lay",
+              "newWardCode": "03151",
+              "newWardType": "Phường",
+              "lat": 22.0203,
+              "lon": 103.174,
+              "areaKm2": 222.65
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "96",
+      "name": "Huyện Mường Nhé",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "3157",
+          "name": "Xã Chung Chải",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Mường Nhé",
+              "newWardShort": "Mường Nhé",
+              "newWardCode": "03160",
+              "newWardType": "Xã",
+              "lat": 22.2202,
+              "lon": 102.427,
+              "areaKm2": 489.47
+            }
+          ]
+        },
+        {
+          "code": "3177",
+          "name": "Xã Huổi Lếch",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Mường Toong",
+              "newWardShort": "Mường Toong",
+              "newWardCode": "03163",
+              "newWardType": "Xã",
+              "lat": 22.1576,
+              "lon": 102.696,
+              "areaKm2": 230.69
+            }
+          ]
+        },
+        {
+          "code": "3158",
+          "name": "Xã Leng Su Sìn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Sín Thầu",
+              "newWardShort": "Sín Thầu",
+              "newWardCode": "03158",
+              "newWardType": "Xã",
+              "lat": 22.3799,
+              "lon": 102.293,
+              "areaKm2": 516.42
+            }
+          ]
+        },
+        {
+          "code": "3160",
+          "name": "Xã Mường Nhé",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Mường Nhé",
+              "newWardShort": "Mường Nhé",
+              "newWardCode": "03160",
+              "newWardType": "Xã",
+              "lat": 22.2202,
+              "lon": 102.427,
+              "areaKm2": 489.47
+            }
+          ]
+        },
+        {
+          "code": "3163",
+          "name": "Xã Mường Toong",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Mường Toong",
+              "newWardShort": "Mường Toong",
+              "newWardCode": "03163",
+              "newWardType": "Xã",
+              "lat": 22.1576,
+              "lon": 102.696,
+              "areaKm2": 230.69
+            }
+          ]
+        },
+        {
+          "code": "3162",
+          "name": "Xã Nậm Kè",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Nậm Kè",
+              "newWardShort": "Nậm Kè",
+              "newWardCode": "03162",
+              "newWardType": "Xã",
+              "lat": 22.0997,
+              "lon": 102.608,
+              "areaKm2": 224.7
+            }
+          ]
+        },
+        {
+          "code": "3161",
+          "name": "Xã Nậm Vì",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Mường Nhé",
+              "newWardShort": "Mường Nhé",
+              "newWardCode": "03160",
+              "newWardType": "Xã",
+              "lat": 22.2202,
+              "lon": 102.427,
+              "areaKm2": 489.47
+            }
+          ]
+        },
+        {
+          "code": "3159",
+          "name": "Xã Pá Mỳ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Nậm Kè",
+              "newWardShort": "Nậm Kè",
+              "newWardCode": "03162",
+              "newWardType": "Xã",
+              "lat": 22.0997,
+              "lon": 102.608,
+              "areaKm2": 224.7
+            }
+          ]
+        },
+        {
+          "code": "3164",
+          "name": "Xã Quảng Lâm",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Quảng Lâm",
+              "newWardShort": "Quảng Lâm",
+              "newWardCode": "03164",
+              "newWardType": "Xã",
+              "lat": 21.9966,
+              "lon": 102.604,
+              "areaKm2": 233.25
+            }
+          ]
+        },
+        {
+          "code": "3155",
+          "name": "Xã Sen Thượng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Sín Thầu",
+              "newWardShort": "Sín Thầu",
+              "newWardCode": "03158",
+              "newWardType": "Xã",
+              "lat": 22.3799,
+              "lon": 102.293,
+              "areaKm2": 516.42
+            }
+          ]
+        },
+        {
+          "code": "3154",
+          "name": "Xã Sín Thầu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Sín Thầu",
+              "newWardShort": "Sín Thầu",
+              "newWardCode": "03158",
+              "newWardType": "Xã",
+              "lat": 22.3799,
+              "lon": 102.293,
+              "areaKm2": 516.42
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "103",
+      "name": "Huyện Nậm Pồ",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "3166",
+          "name": "Xã Chà Cang",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Mường Chà",
+              "newWardShort": "Mường Chà",
+              "newWardCode": "03166",
+              "newWardType": "Xã",
+              "lat": 21.9679,
+              "lon": 102.799,
+              "areaKm2": 462.28
+            }
+          ]
+        },
+        {
+          "code": "3187",
+          "name": "Xã Chà Nưa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Mường Chà",
+              "newWardShort": "Mường Chà",
+              "newWardCode": "03166",
+              "newWardType": "Xã",
+              "lat": 21.9679,
+              "lon": 102.799,
+              "areaKm2": 462.28
+            }
+          ]
+        },
+        {
+          "code": "3175",
+          "name": "Xã Chà Tở",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Chà Tở",
+              "newWardShort": "Chà Tở",
+              "newWardCode": "03175",
+              "newWardType": "Xã",
+              "lat": 21.988,
+              "lon": 102.939,
+              "areaKm2": 227.92
+            }
+          ]
+        },
+        {
+          "code": "3170",
+          "name": "Xã Nà Bủng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Nà Bủng",
+              "newWardShort": "Nà Bủng",
+              "newWardCode": "03176",
+              "newWardType": "Xã",
+              "lat": 21.7218,
+              "lon": 102.714,
+              "areaKm2": 162.52
+            }
+          ]
+        },
+        {
+          "code": "3167",
+          "name": "Xã Na Cô Sa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Quảng Lâm",
+              "newWardShort": "Quảng Lâm",
+              "newWardCode": "03164",
+              "newWardType": "Xã",
+              "lat": 21.9966,
+              "lon": 102.604,
+              "areaKm2": 233.25
+            }
+          ]
+        },
+        {
+          "code": "3169",
+          "name": "Xã Nà Hỳ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Nà Hỳ",
+              "newWardShort": "Nà Hỳ",
+              "newWardCode": "03169",
+              "newWardType": "Xã",
+              "lat": 21.8366,
+              "lon": 102.724,
+              "areaKm2": 275.64
+            }
+          ]
+        },
+        {
+          "code": "3168",
+          "name": "Xã Nà Khoa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Nà Hỳ",
+              "newWardShort": "Nà Hỳ",
+              "newWardCode": "03169",
+              "newWardType": "Xã",
+              "lat": 21.8366,
+              "lon": 102.724,
+              "areaKm2": 275.64
+            }
+          ]
+        },
+        {
+          "code": "3173",
+          "name": "Xã Nậm Chua",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Nà Hỳ",
+              "newWardShort": "Nà Hỳ",
+              "newWardCode": "03169",
+              "newWardType": "Xã",
+              "lat": 21.8366,
+              "lon": 102.724,
+              "areaKm2": 275.64
+            }
+          ]
+        },
+        {
+          "code": "3174",
+          "name": "Xã Nậm Khăn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Chà Tở",
+              "newWardShort": "Chà Tở",
+              "newWardCode": "03175",
+              "newWardType": "Xã",
+              "lat": 21.988,
+              "lon": 102.939,
+              "areaKm2": 227.92
+            }
+          ]
+        },
+        {
+          "code": "3171",
+          "name": "Xã Nậm Nhừ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Nà Hỳ",
+              "newWardShort": "Nà Hỳ",
+              "newWardCode": "03169",
+              "newWardType": "Xã",
+              "lat": 21.8366,
+              "lon": 102.724,
+              "areaKm2": 275.64
+            }
+          ]
+        },
+        {
+          "code": "3156",
+          "name": "Xã Nậm Tin",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Mường Chà",
+              "newWardShort": "Mường Chà",
+              "newWardCode": "03166",
+              "newWardType": "Xã",
+              "lat": 21.9679,
+              "lon": 102.799,
+              "areaKm2": 462.28
+            }
+          ]
+        },
+        {
+          "code": "3165",
+          "name": "Xã Pa Tần",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Mường Chà",
+              "newWardShort": "Mường Chà",
+              "newWardCode": "03166",
+              "newWardType": "Xã",
+              "lat": 21.9679,
+              "lon": 102.799,
+              "areaKm2": 462.28
+            }
+          ]
+        },
+        {
+          "code": "3198",
+          "name": "Xã Phìn Hồ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Si Pa Phìn",
+              "newWardShort": "Si Pa Phìn",
+              "newWardCode": "03199",
+              "newWardType": "Xã",
+              "lat": 21.8069,
+              "lon": 102.921,
+              "areaKm2": 241.65
+            }
+          ]
+        },
+        {
+          "code": "3199",
+          "name": "Xã Si Pa Phìn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Si Pa Phìn",
+              "newWardShort": "Si Pa Phìn",
+              "newWardCode": "03199",
+              "newWardType": "Xã",
+              "lat": 21.8069,
+              "lon": 102.921,
+              "areaKm2": 241.65
+            }
+          ]
+        },
+        {
+          "code": "3176",
+          "name": "Xã Vàng Đán",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Nà Bủng",
+              "newWardShort": "Nà Bủng",
+              "newWardCode": "03176",
+              "newWardType": "Xã",
+              "lat": 21.7218,
+              "lon": 102.714,
+              "areaKm2": 162.52
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "98",
+      "name": "Huyện Tủa Chùa",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "3217",
+          "name": "Thị trấn Tủa Chùa",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Tủa Chùa",
+              "newWardShort": "Tủa Chùa",
+              "newWardCode": "03217",
+              "newWardType": "Xã",
+              "lat": 21.8236,
+              "lon": 103.36,
+              "areaKm2": 108.33
+            }
+          ]
+        },
+        {
+          "code": "3220",
+          "name": "Xã Huổi Só",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Tủa Thàng",
+              "newWardShort": "Tủa Thàng",
+              "newWardCode": "03220",
+              "newWardType": "Xã",
+              "lat": 22,
+              "lon": 103.434,
+              "areaKm2": 150.92
+            }
+          ]
+        },
+        {
+          "code": "3229",
+          "name": "Xã Lao Xả Phình",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Sín Chải",
+              "newWardShort": "Sín Chải",
+              "newWardCode": "03226",
+              "newWardType": "Xã",
+              "lat": 22.0568,
+              "lon": 103.331,
+              "areaKm2": 189.13
+            }
+          ]
+        },
+        {
+          "code": "3250",
+          "name": "Xã Mường Báng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Tủa Chùa",
+              "newWardShort": "Tủa Chùa",
+              "newWardCode": "03217",
+              "newWardType": "Xã",
+              "lat": 21.8236,
+              "lon": 103.36,
+              "areaKm2": 108.33
+            }
+          ]
+        },
+        {
+          "code": "3247",
+          "name": "Xã Mường Đun",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Sáng Nhè",
+              "newWardShort": "Sáng Nhè",
+              "newWardCode": "03244",
+              "newWardType": "Xã",
+              "lat": 21.8456,
+              "lon": 103.462,
+              "areaKm2": 190.02
+            }
+          ]
+        },
+        {
+          "code": "3223",
+          "name": "Xã Sín Chải",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Sín Chải",
+              "newWardShort": "Sín Chải",
+              "newWardCode": "03226",
+              "newWardType": "Xã",
+              "lat": 22.0568,
+              "lon": 103.331,
+              "areaKm2": 189.13
+            }
+          ]
+        },
+        {
+          "code": "3241",
+          "name": "Xã Sính Phình",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Sính Phình",
+              "newWardShort": "Sính Phình",
+              "newWardCode": "03241",
+              "newWardType": "Xã",
+              "lat": 21.939,
+              "lon": 103.339,
+              "areaKm2": 174.53
+            }
+          ]
+        },
+        {
+          "code": "3232",
+          "name": "Xã Tả Phìn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Sính Phình",
+              "newWardShort": "Sính Phình",
+              "newWardCode": "03241",
+              "newWardType": "Xã",
+              "lat": 21.939,
+              "lon": 103.339,
+              "areaKm2": 174.53
+            }
+          ]
+        },
+        {
+          "code": "3226",
+          "name": "Xã Tả Sìn Thàng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Sín Chải",
+              "newWardShort": "Sín Chải",
+              "newWardCode": "03226",
+              "newWardType": "Xã",
+              "lat": 22.0568,
+              "lon": 103.331,
+              "areaKm2": 189.13
+            }
+          ]
+        },
+        {
+          "code": "3238",
+          "name": "Xã Trung Thu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Sính Phình",
+              "newWardShort": "Sính Phình",
+              "newWardCode": "03241",
+              "newWardType": "Xã",
+              "lat": 21.939,
+              "lon": 103.339,
+              "areaKm2": 174.53
+            }
+          ]
+        },
+        {
+          "code": "3235",
+          "name": "Xã Tủa Thàng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Tủa Thàng",
+              "newWardShort": "Tủa Thàng",
+              "newWardCode": "03220",
+              "newWardType": "Xã",
+              "lat": 22,
+              "lon": 103.434,
+              "areaKm2": 150.92
+            }
+          ]
+        },
+        {
+          "code": "3244",
+          "name": "Xã Xá Nhè",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Sáng Nhè",
+              "newWardShort": "Sáng Nhè",
+              "newWardCode": "03244",
+              "newWardType": "Xã",
+              "lat": 21.8456,
+              "lon": 103.462,
+              "areaKm2": 190.02
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "99",
+      "name": "Huyện Tuần Giáo",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "3253",
+          "name": "Thị trấn Tuần Giáo",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Tuần Giáo",
+              "newWardShort": "Tuần Giáo",
+              "newWardCode": "03253",
+              "newWardType": "Xã",
+              "lat": 21.6313,
+              "lon": 103.434,
+              "areaKm2": 108.49
+            }
+          ]
+        },
+        {
+          "code": "3299",
+          "name": "Xã Chiềng Đông",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Búng Lao",
+              "newWardShort": "Búng Lao",
+              "newWardCode": "03301",
+              "newWardType": "Xã",
+              "lat": 21.5388,
+              "lon": 103.306,
+              "areaKm2": 145.85
+            }
+          ]
+        },
+        {
+          "code": "3298",
+          "name": "Xã Chiềng Sinh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Chiềng Sinh",
+              "newWardShort": "Chiềng Sinh",
+              "newWardCode": "03283",
+              "newWardType": "Xã",
+              "lat": 21.6201,
+              "lon": 103.34,
+              "areaKm2": 218.01
+            }
+          ]
+        },
+        {
+          "code": "3262",
+          "name": "Xã Mùn Chung",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Mường Mùn",
+              "newWardShort": "Mường Mùn",
+              "newWardCode": "03268",
+              "newWardType": "Xã",
+              "lat": 21.7236,
+              "lon": 103.297,
+              "areaKm2": 252.84
+            }
+          ]
+        },
+        {
+          "code": "3284",
+          "name": "Xã Mường Khong",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Chiềng Sinh",
+              "newWardShort": "Chiềng Sinh",
+              "newWardCode": "03283",
+              "newWardType": "Xã",
+              "lat": 21.6201,
+              "lon": 103.34,
+              "areaKm2": 218.01
+            }
+          ]
+        },
+        {
+          "code": "3268",
+          "name": "Xã Mường Mùn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Mường Mùn",
+              "newWardShort": "Mường Mùn",
+              "newWardCode": "03268",
+              "newWardType": "Xã",
+              "lat": 21.7236,
+              "lon": 103.297,
+              "areaKm2": 252.84
+            }
+          ]
+        },
+        {
+          "code": "3277",
+          "name": "Xã Mường Thín",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Chiềng Sinh",
+              "newWardShort": "Chiềng Sinh",
+              "newWardCode": "03283",
+              "newWardType": "Xã",
+              "lat": 21.6201,
+              "lon": 103.34,
+              "areaKm2": 218.01
+            }
+          ]
+        },
+        {
+          "code": "3283",
+          "name": "Xã Nà Sáy",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Chiềng Sinh",
+              "newWardShort": "Chiềng Sinh",
+              "newWardCode": "03283",
+              "newWardType": "Xã",
+              "lat": 21.6201,
+              "lon": 103.34,
+              "areaKm2": 218.01
+            }
+          ]
+        },
+        {
+          "code": "3263",
+          "name": "Xã Nà Tòng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Tủa Chùa",
+              "newWardShort": "Tủa Chùa",
+              "newWardCode": "03217",
+              "newWardType": "Xã",
+              "lat": 21.8236,
+              "lon": 103.36,
+              "areaKm2": 108.33
+            }
+          ]
+        },
+        {
+          "code": "3259",
+          "name": "Xã Phình Sáng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Sáng Nhè",
+              "newWardShort": "Sáng Nhè",
+              "newWardCode": "03244",
+              "newWardType": "Xã",
+              "lat": 21.8456,
+              "lon": 103.462,
+              "areaKm2": 190.02
+            }
+          ]
+        },
+        {
+          "code": "3271",
+          "name": "Xã Pú Nhung",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Pú Nhung",
+              "newWardShort": "Pú Nhung",
+              "newWardCode": "03260",
+              "newWardType": "Xã",
+              "lat": 21.7195,
+              "lon": 103.494,
+              "areaKm2": 209.93
+            }
+          ]
+        },
+        {
+          "code": "3269",
+          "name": "Xã Pú Xi",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Mường Mùn",
+              "newWardShort": "Mường Mùn",
+              "newWardCode": "03268",
+              "newWardType": "Xã",
+              "lat": 21.7236,
+              "lon": 103.297,
+              "areaKm2": 252.84
+            }
+          ]
+        },
+        {
+          "code": "3289",
+          "name": "Xã Quài Cang",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Tuần Giáo",
+              "newWardShort": "Tuần Giáo",
+              "newWardCode": "03253",
+              "newWardType": "Xã",
+              "lat": 21.6313,
+              "lon": 103.434,
+              "areaKm2": 108.49
+            }
+          ]
+        },
+        {
+          "code": "3274",
+          "name": "Xã Quài Nưa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Tuần Giáo",
+              "newWardShort": "Tuần Giáo",
+              "newWardCode": "03253",
+              "newWardType": "Xã",
+              "lat": 21.6313,
+              "lon": 103.434,
+              "areaKm2": 108.49
+            }
+          ]
+        },
+        {
+          "code": "3295",
+          "name": "Xã Quài Tở",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Quài Tở",
+              "newWardShort": "Quài Tở",
+              "newWardCode": "03295",
+              "newWardType": "Xã",
+              "lat": 21.5523,
+              "lon": 103.467,
+              "areaKm2": 182.01
+            }
+          ]
+        },
+        {
+          "code": "3260",
+          "name": "Xã Rạng Đông",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Pú Nhung",
+              "newWardShort": "Pú Nhung",
+              "newWardCode": "03260",
+              "newWardType": "Xã",
+              "lat": 21.7195,
+              "lon": 103.494,
+              "areaKm2": 209.93
+            }
+          ]
+        },
+        {
+          "code": "3265",
+          "name": "Xã Ta Ma",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Pú Nhung",
+              "newWardShort": "Pú Nhung",
+              "newWardCode": "03260",
+              "newWardType": "Xã",
+              "lat": 21.7195,
+              "lon": 103.494,
+              "areaKm2": 209.93
+            }
+          ]
+        },
+        {
+          "code": "3304",
+          "name": "Xã Tênh Phông",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Quài Tở",
+              "newWardShort": "Quài Tở",
+              "newWardCode": "03295",
+              "newWardType": "Xã",
+              "lat": 21.5523,
+              "lon": 103.467,
+              "areaKm2": 182.01
+            }
+          ]
+        },
+        {
+          "code": "3280",
+          "name": "Xã Tỏa Tình",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Xã Quài Tở",
+              "newWardShort": "Quài Tở",
+              "newWardCode": "03295",
+              "newWardType": "Xã",
+              "lat": 21.5523,
+              "lon": 103.467,
+              "areaKm2": 182.01
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "95",
+      "name": "Thị Xã Mường Lay",
+      "type": "Thị xã",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "3151",
+          "name": "Phường Na Lay",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Phường Mường Lay",
+              "newWardShort": "Mường Lay",
+              "newWardCode": "03151",
+              "newWardType": "Phường",
+              "lat": 22.0203,
+              "lon": 103.174,
+              "areaKm2": 222.65
+            }
+          ]
+        },
+        {
+          "code": "3148",
+          "name": "Phường Sông Đà",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Phường Mường Lay",
+              "newWardShort": "Mường Lay",
+              "newWardCode": "03151",
+              "newWardType": "Phường",
+              "lat": 22.0203,
+              "lon": 103.174,
+              "areaKm2": 222.65
+            }
+          ]
+        },
+        {
+          "code": "3184",
+          "name": "Xã Lay Nưa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Điện Biên",
+              "newProvinceSlug": "dien-bien",
+              "newProvinceCode": "11",
+              "newWard": "Phường Mường Lay",
+              "newWardShort": "Mường Lay",
+              "newWardCode": "03151",
+              "newWardType": "Phường",
+              "lat": 22.0203,
+              "lon": 103.174,
+              "areaKm2": 222.65
+            }
+          ]
+        }
+      ],
+      "results": []
+    }
+  ]
+}

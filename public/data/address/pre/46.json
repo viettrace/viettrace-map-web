@@ -1,0 +1,2751 @@
+{
+  "schemaVersion": 1,
+  "mergeDate": "2025-07-01",
+  "code": "46",
+  "name": "Thành phố Huế",
+  "name_en": "Hue City",
+  "slug": "hue",
+  "districts": [
+    {
+      "code": "481",
+      "name": "Huyện A Lưới",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "20044",
+          "name": "Thị trấn A Lưới",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Xã A Lưới 2",
+              "newWardShort": "A Lưới 2",
+              "newWardCode": "20044",
+              "newWardType": "Xã",
+              "lat": 16.2566,
+              "lon": 107.198,
+              "areaKm2": 97.62
+            }
+          ]
+        },
+        {
+          "code": "20068",
+          "name": "Xã A Ngo",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Xã A Lưới 2",
+              "newWardShort": "A Lưới 2",
+              "newWardCode": "20044",
+              "newWardType": "Xã",
+              "lat": 16.2566,
+              "lon": 107.198,
+              "areaKm2": 97.62
+            }
+          ]
+        },
+        {
+          "code": "20095",
+          "name": "Xã A Roàng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Xã A Lưới 4",
+              "newWardShort": "A Lưới 4",
+              "newWardCode": "20101",
+              "newWardType": "Xã",
+              "lat": 16.1404,
+              "lon": 107.351,
+              "areaKm2": 233.65
+            }
+          ]
+        },
+        {
+          "code": "20098",
+          "name": "Xã Đông Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Xã A Lưới 4",
+              "newWardShort": "A Lưới 4",
+              "newWardCode": "20101",
+              "newWardType": "Xã",
+              "lat": 16.1404,
+              "lon": 107.351,
+              "areaKm2": 233.65
+            }
+          ]
+        },
+        {
+          "code": "20065",
+          "name": "Xã Hồng Bắc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Xã A Lưới 2",
+              "newWardShort": "A Lưới 2",
+              "newWardCode": "20044",
+              "newWardType": "Xã",
+              "lat": 16.2566,
+              "lon": 107.198,
+              "areaKm2": 97.62
+            }
+          ]
+        },
+        {
+          "code": "20050",
+          "name": "Xã Hồng Hạ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Xã A Lưới 5",
+              "newWardShort": "A Lưới 5",
+              "newWardCode": "20050",
+              "newWardType": "Xã",
+              "lat": 16.2205,
+              "lon": 107.411,
+              "areaKm2": 464.4
+            }
+          ]
+        },
+        {
+          "code": "20053",
+          "name": "Xã Hồng Kim",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Xã A Lưới 1",
+              "newWardShort": "A Lưới 1",
+              "newWardCode": "20056",
+              "newWardType": "Xã",
+              "lat": 16.3409,
+              "lon": 107.149,
+              "areaKm2": 198.59
+            }
+          ]
+        },
+        {
+          "code": "20089",
+          "name": "Xã Hồng Thái",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Xã A Lưới 3",
+              "newWardShort": "A Lưới 3",
+              "newWardCode": "20071",
+              "newWardType": "Xã",
+              "lat": 16.2015,
+              "lon": 107.245,
+              "areaKm2": 154.23
+            }
+          ]
+        },
+        {
+          "code": "20086",
+          "name": "Xã Hồng Thượng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Xã A Lưới 3",
+              "newWardShort": "A Lưới 3",
+              "newWardCode": "20071",
+              "newWardType": "Xã",
+              "lat": 16.2015,
+              "lon": 107.245,
+              "areaKm2": 154.23
+            }
+          ]
+        },
+        {
+          "code": "20104",
+          "name": "Xã Hồng Thủy",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Xã A Lưới 1",
+              "newWardShort": "A Lưới 1",
+              "newWardCode": "20056",
+              "newWardType": "Xã",
+              "lat": 16.3409,
+              "lon": 107.149,
+              "areaKm2": 198.59
+            }
+          ]
+        },
+        {
+          "code": "20047",
+          "name": "Xã Hồng Vân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Xã A Lưới 1",
+              "newWardShort": "A Lưới 1",
+              "newWardCode": "20056",
+              "newWardType": "Xã",
+              "lat": 16.3409,
+              "lon": 107.149,
+              "areaKm2": 198.59
+            }
+          ]
+        },
+        {
+          "code": "20059",
+          "name": "Xã Hương Nguyên",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Xã A Lưới 5",
+              "newWardShort": "A Lưới 5",
+              "newWardCode": "20050",
+              "newWardType": "Xã",
+              "lat": 16.2205,
+              "lon": 107.411,
+              "areaKm2": 464.4
+            }
+          ]
+        },
+        {
+          "code": "20080",
+          "name": "Xã Hương Phong",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Xã A Lưới 4",
+              "newWardShort": "A Lưới 4",
+              "newWardCode": "20101",
+              "newWardType": "Xã",
+              "lat": 16.1404,
+              "lon": 107.351,
+              "areaKm2": 233.65
+            }
+          ]
+        },
+        {
+          "code": "20101",
+          "name": "Xã Lâm Đớt",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Xã A Lưới 4",
+              "newWardShort": "A Lưới 4",
+              "newWardCode": "20101",
+              "newWardType": "Xã",
+              "lat": 16.1404,
+              "lon": 107.351,
+              "areaKm2": 233.65
+            }
+          ]
+        },
+        {
+          "code": "20074",
+          "name": "Xã Phú Vinh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Xã A Lưới 3",
+              "newWardShort": "A Lưới 3",
+              "newWardCode": "20071",
+              "newWardType": "Xã",
+              "lat": 16.2015,
+              "lon": 107.245,
+              "areaKm2": 154.23
+            }
+          ]
+        },
+        {
+          "code": "20083",
+          "name": "Xã Quảng Nhâm",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Xã A Lưới 2",
+              "newWardShort": "A Lưới 2",
+              "newWardCode": "20044",
+              "newWardType": "Xã",
+              "lat": 16.2566,
+              "lon": 107.198,
+              "areaKm2": 97.62
+            }
+          ]
+        },
+        {
+          "code": "20071",
+          "name": "Xã Sơn Thủy",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Xã A Lưới 3",
+              "newWardShort": "A Lưới 3",
+              "newWardCode": "20071",
+              "newWardType": "Xã",
+              "lat": 16.2015,
+              "lon": 107.245,
+              "areaKm2": 154.23
+            }
+          ]
+        },
+        {
+          "code": "20056",
+          "name": "Xã Trung Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Xã A Lưới 1",
+              "newWardShort": "A Lưới 1",
+              "newWardCode": "20056",
+              "newWardType": "Xã",
+              "lat": 16.3409,
+              "lon": 107.149,
+              "areaKm2": 198.59
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "482",
+      "name": "Huyện Phú Lộc",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "20161",
+          "name": "Thị trấn Khe Tre",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Xã Khe Tre",
+              "newWardShort": "Khe Tre",
+              "newWardCode": "20161",
+              "newWardType": "Xã",
+              "lat": 16.1513,
+              "lon": 107.77,
+              "areaKm2": 256.02
+            }
+          ]
+        },
+        {
+          "code": "20110",
+          "name": "Thị trấn Lăng Cô",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Xã Chân Mây - Lăng Cô",
+              "newWardShort": "Chân Mây - Lăng Cô",
+              "newWardCode": "20137",
+              "newWardType": "Xã",
+              "lat": 16.246,
+              "lon": 108.014,
+              "areaKm2": 261.38
+            }
+          ]
+        },
+        {
+          "code": "20131",
+          "name": "Thị trấn Lộc Sơn",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Xã Hưng Lộc",
+              "newWardShort": "Hưng Lộc",
+              "newWardCode": "20131",
+              "newWardType": "Xã",
+              "lat": 16.292,
+              "lon": 107.705,
+              "areaKm2": 95.62
+            }
+          ]
+        },
+        {
+          "code": "20107",
+          "name": "Thị trấn Phú Lộc",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Xã Phú Lộc",
+              "newWardShort": "Phú Lộc",
+              "newWardCode": "20107",
+              "newWardType": "Xã",
+              "lat": 16.2682,
+              "lon": 107.886,
+              "areaKm2": 119.3
+            }
+          ]
+        },
+        {
+          "code": "20122",
+          "name": "Xã Giang Hải",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Xã Vinh Lộc",
+              "newWardShort": "Vinh Lộc",
+              "newWardCode": "20122",
+              "newWardType": "Xã",
+              "lat": 16.3606,
+              "lon": 107.867,
+              "areaKm2": 66.53
+            }
+          ]
+        },
+        {
+          "code": "20182",
+          "name": "Xã Hương Hữu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Xã Long Quảng",
+              "newWardShort": "Long Quảng",
+              "newWardCode": "20182",
+              "newWardType": "Xã",
+              "lat": 16.0997,
+              "lon": 107.587,
+              "areaKm2": 215.85
+            }
+          ]
+        },
+        {
+          "code": "20170",
+          "name": "Xã Hương Lộc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Xã Khe Tre",
+              "newWardShort": "Khe Tre",
+              "newWardCode": "20161",
+              "newWardType": "Xã",
+              "lat": 16.1513,
+              "lon": 107.77,
+              "areaKm2": 256.02
+            }
+          ]
+        },
+        {
+          "code": "20164",
+          "name": "Xã Hương Phú",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Xã Khe Tre",
+              "newWardShort": "Khe Tre",
+              "newWardCode": "20161",
+              "newWardType": "Xã",
+              "lat": 16.1513,
+              "lon": 107.77,
+              "areaKm2": 256.02
+            }
+          ]
+        },
+        {
+          "code": "20167",
+          "name": "Xã Hương Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Xã Nam Đông",
+              "newWardShort": "Nam Đông",
+              "newWardCode": "20179",
+              "newWardType": "Xã",
+              "lat": 16.066,
+              "lon": 107.717,
+              "areaKm2": 175.95
+            }
+          ]
+        },
+        {
+          "code": "20179",
+          "name": "Xã Hương Xuân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Xã Nam Đông",
+              "newWardShort": "Nam Đông",
+              "newWardCode": "20179",
+              "newWardType": "Xã",
+              "lat": 16.066,
+              "lon": 107.717,
+              "areaKm2": 175.95
+            }
+          ]
+        },
+        {
+          "code": "20140",
+          "name": "Xã Lộc An",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Xã Lộc An",
+              "newWardShort": "Lộc An",
+              "newWardCode": "20140",
+              "newWardType": "Xã",
+              "lat": 16.274,
+              "lon": 107.798,
+              "areaKm2": 177.58
+            }
+          ]
+        },
+        {
+          "code": "20134",
+          "name": "Xã Lộc Bình",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Xã Phú Lộc",
+              "newWardShort": "Phú Lộc",
+              "newWardCode": "20107",
+              "newWardType": "Xã",
+              "lat": 16.2682,
+              "lon": 107.886,
+              "areaKm2": 119.3
+            }
+          ]
+        },
+        {
+          "code": "20128",
+          "name": "Xã Lộc Bổn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Xã Hưng Lộc",
+              "newWardShort": "Hưng Lộc",
+              "newWardCode": "20131",
+              "newWardType": "Xã",
+              "lat": 16.292,
+              "lon": 107.705,
+              "areaKm2": 95.62
+            }
+          ]
+        },
+        {
+          "code": "20143",
+          "name": "Xã Lộc Điền",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Xã Lộc An",
+              "newWardShort": "Lộc An",
+              "newWardCode": "20140",
+              "newWardType": "Xã",
+              "lat": 16.274,
+              "lon": 107.798,
+              "areaKm2": 177.58
+            }
+          ]
+        },
+        {
+          "code": "20155",
+          "name": "Xã Lộc Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Xã Lộc An",
+              "newWardShort": "Lộc An",
+              "newWardCode": "20140",
+              "newWardType": "Xã",
+              "lat": 16.274,
+              "lon": 107.798,
+              "areaKm2": 177.58
+            }
+          ]
+        },
+        {
+          "code": "20146",
+          "name": "Xã Lộc Thủy",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Xã Chân Mây - Lăng Cô",
+              "newWardShort": "Chân Mây - Lăng Cô",
+              "newWardCode": "20137",
+              "newWardType": "Xã",
+              "lat": 16.246,
+              "lon": 108.014,
+              "areaKm2": 261.38
+            }
+          ]
+        },
+        {
+          "code": "20152",
+          "name": "Xã Lộc Tiến",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Xã Chân Mây - Lăng Cô",
+              "newWardShort": "Chân Mây - Lăng Cô",
+              "newWardCode": "20137",
+              "newWardType": "Xã",
+              "lat": 16.246,
+              "lon": 108.014,
+              "areaKm2": 261.38
+            }
+          ]
+        },
+        {
+          "code": "20149",
+          "name": "Xã Lộc Trì",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Xã Phú Lộc",
+              "newWardShort": "Phú Lộc",
+              "newWardCode": "20107",
+              "newWardType": "Xã",
+              "lat": 16.2682,
+              "lon": 107.886,
+              "areaKm2": 119.3
+            }
+          ]
+        },
+        {
+          "code": "20137",
+          "name": "Xã Lộc Vĩnh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Xã Chân Mây - Lăng Cô",
+              "newWardShort": "Chân Mây - Lăng Cô",
+              "newWardCode": "20137",
+              "newWardType": "Xã",
+              "lat": 16.246,
+              "lon": 108.014,
+              "areaKm2": 261.38
+            }
+          ]
+        },
+        {
+          "code": "20185",
+          "name": "Xã Thượng Lộ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Xã Khe Tre",
+              "newWardShort": "Khe Tre",
+              "newWardCode": "20161",
+              "newWardType": "Xã",
+              "lat": 16.1513,
+              "lon": 107.77,
+              "areaKm2": 256.02
+            }
+          ]
+        },
+        {
+          "code": "20188",
+          "name": "Xã Thượng Long",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Xã Long Quảng",
+              "newWardShort": "Long Quảng",
+              "newWardCode": "20182",
+              "newWardType": "Xã",
+              "lat": 16.0997,
+              "lon": 107.587,
+              "areaKm2": 215.85
+            }
+          ]
+        },
+        {
+          "code": "20191",
+          "name": "Xã Thượng Nhật",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Xã Nam Đông",
+              "newWardShort": "Nam Đông",
+              "newWardCode": "20179",
+              "newWardType": "Xã",
+              "lat": 16.066,
+              "lon": 107.717,
+              "areaKm2": 175.95
+            }
+          ]
+        },
+        {
+          "code": "20173",
+          "name": "Xã Thượng Quảng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Xã Long Quảng",
+              "newWardShort": "Long Quảng",
+              "newWardCode": "20182",
+              "newWardType": "Xã",
+              "lat": 16.0997,
+              "lon": 107.587,
+              "areaKm2": 215.85
+            }
+          ]
+        },
+        {
+          "code": "20125",
+          "name": "Xã Vinh Hiền",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Xã Vinh Lộc",
+              "newWardShort": "Vinh Lộc",
+              "newWardCode": "20122",
+              "newWardType": "Xã",
+              "lat": 16.3606,
+              "lon": 107.867,
+              "areaKm2": 66.53
+            }
+          ]
+        },
+        {
+          "code": "20116",
+          "name": "Xã Vinh Hưng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Xã Vinh Lộc",
+              "newWardShort": "Vinh Lộc",
+              "newWardCode": "20122",
+              "newWardType": "Xã",
+              "lat": 16.3606,
+              "lon": 107.867,
+              "areaKm2": 66.53
+            }
+          ]
+        },
+        {
+          "code": "20113",
+          "name": "Xã Vinh Mỹ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Xã Vinh Lộc",
+              "newWardShort": "Vinh Lộc",
+              "newWardCode": "20122",
+              "newWardType": "Xã",
+              "lat": 16.3606,
+              "lon": 107.867,
+              "areaKm2": 66.53
+            }
+          ]
+        },
+        {
+          "code": "20158",
+          "name": "Xã Xuân Lộc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Xã Hưng Lộc",
+              "newWardShort": "Hưng Lộc",
+              "newWardCode": "20131",
+              "newWardType": "Xã",
+              "lat": 16.292,
+              "lon": 107.705,
+              "areaKm2": 95.62
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "478",
+      "name": "Huyện Phú Vang",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "19942",
+          "name": "Thị trấn Phú Đa",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Xã Phú Vang",
+              "newWardShort": "Phú Vang",
+              "newWardCode": "19942",
+              "newWardType": "Xã",
+              "lat": 16.402,
+              "lon": 107.771,
+              "areaKm2": 86.19
+            }
+          ]
+        },
+        {
+          "code": "19912",
+          "name": "Xã Phú An",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Phường Mỹ Thượng",
+              "newWardShort": "Mỹ Thượng",
+              "newWardCode": "19930",
+              "newWardType": "Phường",
+              "lat": 16.5042,
+              "lon": 107.633,
+              "areaKm2": 28.83
+            }
+          ]
+        },
+        {
+          "code": "19921",
+          "name": "Xã Phú Diên",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Xã Phú Vinh",
+              "newWardShort": "Phú Vinh",
+              "newWardCode": "19945",
+              "newWardType": "Xã",
+              "lat": 16.4549,
+              "lon": 107.775,
+              "areaKm2": 57.95
+            }
+          ]
+        },
+        {
+          "code": "19954",
+          "name": "Xã Phú Gia",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Xã Phú Vang",
+              "newWardShort": "Phú Vang",
+              "newWardCode": "19942",
+              "newWardType": "Xã",
+              "lat": 16.402,
+              "lon": 107.771,
+              "areaKm2": 86.19
+            }
+          ]
+        },
+        {
+          "code": "19915",
+          "name": "Xã Phú Hải",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Phường Thuận An",
+              "newWardShort": "Thuận An",
+              "newWardCode": "19900",
+              "newWardType": "Phường",
+              "lat": 16.5518,
+              "lon": 107.641,
+              "areaKm2": 36.48
+            }
+          ]
+        },
+        {
+          "code": "19933",
+          "name": "Xã Phú Hồ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Xã Phú Hồ",
+              "newWardShort": "Phú Hồ",
+              "newWardCode": "19918",
+              "newWardType": "Xã",
+              "lat": 16.4778,
+              "lon": 107.688,
+              "areaKm2": 57.72
+            }
+          ]
+        },
+        {
+          "code": "19939",
+          "name": "Xã Phú Lương",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Xã Phú Hồ",
+              "newWardShort": "Phú Hồ",
+              "newWardCode": "19918",
+              "newWardType": "Xã",
+              "lat": 16.4778,
+              "lon": 107.688,
+              "areaKm2": 57.72
+            }
+          ]
+        },
+        {
+          "code": "19927",
+          "name": "Xã Phú Mỹ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Phường Mỹ Thượng",
+              "newWardShort": "Mỹ Thượng",
+              "newWardCode": "19930",
+              "newWardType": "Phường",
+              "lat": 16.5042,
+              "lon": 107.633,
+              "areaKm2": 28.83
+            }
+          ]
+        },
+        {
+          "code": "19903",
+          "name": "Xã Phú Thuận",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Phường Thuận An",
+              "newWardShort": "Thuận An",
+              "newWardCode": "19900",
+              "newWardType": "Phường",
+              "lat": 16.5518,
+              "lon": 107.641,
+              "areaKm2": 36.48
+            }
+          ]
+        },
+        {
+          "code": "19918",
+          "name": "Xã Phú Xuân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Xã Phú Hồ",
+              "newWardShort": "Phú Hồ",
+              "newWardCode": "19918",
+              "newWardType": "Xã",
+              "lat": 16.4778,
+              "lon": 107.688,
+              "areaKm2": 57.72
+            }
+          ]
+        },
+        {
+          "code": "19948",
+          "name": "Xã Vinh An",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Xã Phú Vinh",
+              "newWardShort": "Phú Vinh",
+              "newWardCode": "19945",
+              "newWardType": "Xã",
+              "lat": 16.4549,
+              "lon": 107.775,
+              "areaKm2": 57.95
+            }
+          ]
+        },
+        {
+          "code": "19957",
+          "name": "Xã Vinh Hà",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Xã Phú Vang",
+              "newWardShort": "Phú Vang",
+              "newWardCode": "19942",
+              "newWardType": "Xã",
+              "lat": 16.402,
+              "lon": 107.771,
+              "areaKm2": 86.19
+            }
+          ]
+        },
+        {
+          "code": "19945",
+          "name": "Xã Vinh Thanh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Xã Phú Vinh",
+              "newWardShort": "Phú Vinh",
+              "newWardCode": "19945",
+              "newWardType": "Xã",
+              "lat": 16.4549,
+              "lon": 107.775,
+              "areaKm2": 57.95
+            }
+          ]
+        },
+        {
+          "code": "19936",
+          "name": "Xã Vinh Xuân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Xã Phú Vinh",
+              "newWardShort": "Phú Vinh",
+              "newWardCode": "19945",
+              "newWardType": "Xã",
+              "lat": 16.4549,
+              "lon": 107.775,
+              "areaKm2": 57.95
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "477",
+      "name": "Huyện Quảng Điền",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "19867",
+          "name": "Thị trấn Sịa",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Xã Quảng Điền",
+              "newWardShort": "Quảng Điền",
+              "newWardCode": "19867",
+              "newWardType": "Xã",
+              "lat": 16.5697,
+              "lon": 107.533,
+              "areaKm2": 45.93
+            }
+          ]
+        },
+        {
+          "code": "19888",
+          "name": "Xã Quảng An",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Xã Quảng Điền",
+              "newWardShort": "Quảng Điền",
+              "newWardCode": "19867",
+              "newWardType": "Xã",
+              "lat": 16.5697,
+              "lon": 107.533,
+              "areaKm2": 45.93
+            }
+          ]
+        },
+        {
+          "code": "19879",
+          "name": "Xã Quảng Công",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Phường Phong Quảng",
+              "newWardShort": "Phong Quảng",
+              "newWardCode": "19873",
+              "newWardType": "Phường",
+              "lat": 16.6339,
+              "lon": 107.506,
+              "areaKm2": 41.7
+            }
+          ]
+        },
+        {
+          "code": "19876",
+          "name": "Xã Quảng Lợi",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Xã Đan Điền",
+              "newWardShort": "Đan Điền",
+              "newWardCode": "19885",
+              "newWardType": "Xã",
+              "lat": 16.6304,
+              "lon": 107.438,
+              "areaKm2": 82.62
+            }
+          ]
+        },
+        {
+          "code": "19873",
+          "name": "Xã Quảng Ngạn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Phường Phong Quảng",
+              "newWardShort": "Phong Quảng",
+              "newWardCode": "19873",
+              "newWardType": "Phường",
+              "lat": 16.6339,
+              "lon": 107.506,
+              "areaKm2": 41.7
+            }
+          ]
+        },
+        {
+          "code": "19897",
+          "name": "Xã Quảng Phú",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Xã Đan Điền",
+              "newWardShort": "Đan Điền",
+              "newWardCode": "19885",
+              "newWardType": "Xã",
+              "lat": 16.6304,
+              "lon": 107.438,
+              "areaKm2": 82.62
+            }
+          ]
+        },
+        {
+          "code": "19882",
+          "name": "Xã Quảng Phước",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Xã Quảng Điền",
+              "newWardShort": "Quảng Điền",
+              "newWardCode": "19867",
+              "newWardType": "Xã",
+              "lat": 16.5697,
+              "lon": 107.533,
+              "areaKm2": 45.93
+            }
+          ]
+        },
+        {
+          "code": "19870",
+          "name": "Xã Quảng Thái",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Xã Đan Điền",
+              "newWardShort": "Đan Điền",
+              "newWardCode": "19885",
+              "newWardType": "Xã",
+              "lat": 16.6304,
+              "lon": 107.438,
+              "areaKm2": 82.62
+            }
+          ]
+        },
+        {
+          "code": "19891",
+          "name": "Xã Quảng Thành",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Phường Hóa Châu",
+              "newWardShort": "Hóa Châu",
+              "newWardCode": "20014",
+              "newWardType": "Phường",
+              "lat": 16.5457,
+              "lon": 107.58,
+              "areaKm2": 34.6
+            }
+          ]
+        },
+        {
+          "code": "19894",
+          "name": "Xã Quảng Thọ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Xã Quảng Điền",
+              "newWardShort": "Quảng Điền",
+              "newWardCode": "19867",
+              "newWardType": "Xã",
+              "lat": 16.5697,
+              "lon": 107.533,
+              "areaKm2": 45.93
+            }
+          ]
+        },
+        {
+          "code": "19885",
+          "name": "Xã Quảng Vinh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Xã Đan Điền",
+              "newWardShort": "Đan Điền",
+              "newWardCode": "19885",
+              "newWardType": "Xã",
+              "lat": 16.6304,
+              "lon": 107.438,
+              "areaKm2": 82.62
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "475",
+      "name": "Quận Phú Xuân",
+      "type": "Quận",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "19803",
+          "name": "Phường An Hòa",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Phường Hương An",
+              "newWardShort": "Hương An",
+              "newWardCode": "19804",
+              "newWardType": "Phường",
+              "lat": 16.4612,
+              "lon": 107.515,
+              "areaKm2": 19.43
+            }
+          ]
+        },
+        {
+          "code": "19768",
+          "name": "Phường Đông Ba",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Phường Phú Xuân",
+              "newWardShort": "Phú Xuân",
+              "newWardCode": "19753",
+              "newWardType": "Phường",
+              "lat": 16.4785,
+              "lon": 107.577,
+              "areaKm2": 10.38
+            }
+          ]
+        },
+        {
+          "code": "19756",
+          "name": "Phường Gia Hội",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Phường Phú Xuân",
+              "newWardShort": "Phú Xuân",
+              "newWardCode": "19753",
+              "newWardType": "Phường",
+              "lat": 16.4785,
+              "lon": 107.577,
+              "areaKm2": 10.38
+            }
+          ]
+        },
+        {
+          "code": "20023",
+          "name": "Phường Hương An",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Phường Hương An",
+              "newWardShort": "Hương An",
+              "newWardCode": "19804",
+              "newWardType": "Phường",
+              "lat": 16.4612,
+              "lon": 107.515,
+              "areaKm2": 19.43
+            }
+          ]
+        },
+        {
+          "code": "19810",
+          "name": "Phường Hương Long",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Phường Kim Long",
+              "newWardShort": "Kim Long",
+              "newWardCode": "19774",
+              "newWardType": "Phường",
+              "lat": 16.4047,
+              "lon": 107.543,
+              "areaKm2": 90.14
+            }
+          ]
+        },
+        {
+          "code": "19804",
+          "name": "Phường Hương Sơ",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Phường Hương An",
+              "newWardShort": "Hương An",
+              "newWardCode": "19804",
+              "newWardType": "Phường",
+              "lat": 16.4612,
+              "lon": 107.515,
+              "areaKm2": 19.43
+            }
+          ]
+        },
+        {
+          "code": "20014",
+          "name": "Phường Hương Vinh",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Phường Hóa Châu",
+              "newWardShort": "Hóa Châu",
+              "newWardCode": "20014",
+              "newWardType": "Phường",
+              "lat": 16.5457,
+              "lon": 107.58,
+              "areaKm2": 34.6
+            }
+          ]
+        },
+        {
+          "code": "19774",
+          "name": "Phường Kim Long",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Phường Kim Long",
+              "newWardShort": "Kim Long",
+              "newWardCode": "19774",
+              "newWardType": "Phường",
+              "lat": 16.4047,
+              "lon": 107.543,
+              "areaKm2": 90.14
+            }
+          ]
+        },
+        {
+          "code": "20029",
+          "name": "Phường Long Hồ",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Phường Kim Long",
+              "newWardShort": "Kim Long",
+              "newWardCode": "19774",
+              "newWardType": "Phường",
+              "lat": 16.4047,
+              "lon": 107.543,
+              "areaKm2": 90.14
+            }
+          ]
+        },
+        {
+          "code": "19759",
+          "name": "Phường Phú Hậu",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Phường Phú Xuân",
+              "newWardShort": "Phú Xuân",
+              "newWardCode": "19753",
+              "newWardType": "Phường",
+              "lat": 16.4785,
+              "lon": 107.577,
+              "areaKm2": 10.38
+            }
+          ]
+        },
+        {
+          "code": "19750",
+          "name": "Phường Tây Lộc",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Phường Phú Xuân",
+              "newWardShort": "Phú Xuân",
+              "newWardCode": "19753",
+              "newWardType": "Phường",
+              "lat": 16.4785,
+              "lon": 107.577,
+              "areaKm2": 10.38
+            }
+          ]
+        },
+        {
+          "code": "19762",
+          "name": "Phường Thuận Hòa",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Phường Phú Xuân",
+              "newWardShort": "Phú Xuân",
+              "newWardCode": "19753",
+              "newWardType": "Phường",
+              "lat": 16.4785,
+              "lon": 107.577,
+              "areaKm2": 10.38
+            }
+          ]
+        },
+        {
+          "code": "19753",
+          "name": "Phường Thuận Lộc",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Phường Phú Xuân",
+              "newWardShort": "Phú Xuân",
+              "newWardCode": "19753",
+              "newWardType": "Phường",
+              "lat": 16.4785,
+              "lon": 107.577,
+              "areaKm2": 10.38
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "474",
+      "name": "Quận Thuận Hóa",
+      "type": "Quận",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "19801",
+          "name": "Phường An Cựu",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Phường An Cựu",
+              "newWardShort": "An Cựu",
+              "newWardCode": "19815",
+              "newWardType": "Phường",
+              "lat": 16.4316,
+              "lon": 107.596,
+              "areaKm2": 16.71
+            }
+          ]
+        },
+        {
+          "code": "19815",
+          "name": "Phường An Đông",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Phường An Cựu",
+              "newWardShort": "An Cựu",
+              "newWardCode": "19815",
+              "newWardType": "Phường",
+              "lat": 16.4316,
+              "lon": 107.596,
+              "areaKm2": 16.71
+            }
+          ]
+        },
+        {
+          "code": "19816",
+          "name": "Phường An Tây",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Phường An Cựu",
+              "newWardShort": "An Cựu",
+              "newWardCode": "19815",
+              "newWardType": "Phường",
+              "lat": 16.4316,
+              "lon": 107.596,
+              "areaKm2": 16.71
+            }
+          ]
+        },
+        {
+          "code": "19909",
+          "name": "Phường Dương Nỗ",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Phường Dương Nỗ",
+              "newWardShort": "Dương Nỗ",
+              "newWardCode": "19909",
+              "newWardType": "Phường",
+              "lat": 16.5248,
+              "lon": 107.598,
+              "areaKm2": 20.63
+            }
+          ]
+        },
+        {
+          "code": "20002",
+          "name": "Phường Hương Phong",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Phường Hóa Châu",
+              "newWardShort": "Hóa Châu",
+              "newWardCode": "20014",
+              "newWardType": "Phường",
+              "lat": 16.5457,
+              "lon": 107.58,
+              "areaKm2": 34.6
+            }
+          ]
+        },
+        {
+          "code": "19786",
+          "name": "Phường Phú Hội",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Phường Thuận Hóa",
+              "newWardShort": "Thuận Hóa",
+              "newWardCode": "19789",
+              "newWardType": "Phường",
+              "lat": 16.4556,
+              "lon": 107.584,
+              "areaKm2": 7.57
+            }
+          ]
+        },
+        {
+          "code": "19789",
+          "name": "Phường Phú Nhuận",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Phường Thuận Hóa",
+              "newWardShort": "Thuận Hóa",
+              "newWardCode": "19789",
+              "newWardType": "Phường",
+              "lat": 16.4556,
+              "lon": 107.584,
+              "areaKm2": 7.57
+            }
+          ]
+        },
+        {
+          "code": "19930",
+          "name": "Phường Phú Thượng",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Phường Mỹ Thượng",
+              "newWardShort": "Mỹ Thượng",
+              "newWardCode": "19930",
+              "newWardType": "Phường",
+              "lat": 16.5042,
+              "lon": 107.633,
+              "areaKm2": 28.83
+            }
+          ]
+        },
+        {
+          "code": "19798",
+          "name": "Phường Phước Vĩnh",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Phường Thuận Hóa",
+              "newWardShort": "Thuận Hóa",
+              "newWardCode": "19789",
+              "newWardType": "Phường",
+              "lat": 16.4556,
+              "lon": 107.584,
+              "areaKm2": 7.57
+            }
+          ]
+        },
+        {
+          "code": "19780",
+          "name": "Phường Phường Đúc",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Phường Thuận Hóa",
+              "newWardShort": "Thuận Hóa",
+              "newWardCode": "19789",
+              "newWardType": "Phường",
+              "lat": 16.4556,
+              "lon": 107.584,
+              "areaKm2": 7.57
+            }
+          ]
+        },
+        {
+          "code": "19900",
+          "name": "Phường Thuận An",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Phường Thuận An",
+              "newWardShort": "Thuận An",
+              "newWardCode": "19900",
+              "newWardType": "Phường",
+              "lat": 16.5518,
+              "lon": 107.641,
+              "areaKm2": 36.48
+            }
+          ]
+        },
+        {
+          "code": "19981",
+          "name": "Phường Thủy Bằng",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Phường Thủy Xuân",
+              "newWardShort": "Thủy Xuân",
+              "newWardCode": "19813",
+              "newWardType": "Phường",
+              "lat": 16.4077,
+              "lon": 107.583,
+              "areaKm2": 37.03
+            }
+          ]
+        },
+        {
+          "code": "19807",
+          "name": "Phường Thủy Biều",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Phường Thủy Xuân",
+              "newWardShort": "Thủy Xuân",
+              "newWardCode": "19813",
+              "newWardType": "Phường",
+              "lat": 16.4077,
+              "lon": 107.583,
+              "areaKm2": 37.03
+            }
+          ]
+        },
+        {
+          "code": "19963",
+          "name": "Phường Thủy Vân",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Phường Vỹ Dạ",
+              "newWardShort": "Vỹ Dạ",
+              "newWardCode": "19777",
+              "newWardType": "Phường",
+              "lat": 16.4779,
+              "lon": 107.611,
+              "areaKm2": 8.93
+            }
+          ]
+        },
+        {
+          "code": "19813",
+          "name": "Phường Thủy Xuân",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Phường Thủy Xuân",
+              "newWardShort": "Thủy Xuân",
+              "newWardCode": "19813",
+              "newWardType": "Phường",
+              "lat": 16.4077,
+              "lon": 107.583,
+              "areaKm2": 37.03
+            }
+          ]
+        },
+        {
+          "code": "19795",
+          "name": "Phường Trường An",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Phường Thuận Hóa",
+              "newWardShort": "Thuận Hóa",
+              "newWardCode": "19789",
+              "newWardType": "Phường",
+              "lat": 16.4556,
+              "lon": 107.584,
+              "areaKm2": 7.57
+            }
+          ]
+        },
+        {
+          "code": "19783",
+          "name": "Phường Vĩnh Ninh",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Phường Thuận Hóa",
+              "newWardShort": "Thuận Hóa",
+              "newWardCode": "19789",
+              "newWardType": "Phường",
+              "lat": 16.4556,
+              "lon": 107.584,
+              "areaKm2": 7.57
+            }
+          ]
+        },
+        {
+          "code": "19777",
+          "name": "Phường Vỹ Dạ",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Phường Vỹ Dạ",
+              "newWardShort": "Vỹ Dạ",
+              "newWardCode": "19777",
+              "newWardType": "Phường",
+              "lat": 16.4779,
+              "lon": 107.611,
+              "areaKm2": 8.93
+            }
+          ]
+        },
+        {
+          "code": "19792",
+          "name": "Phường Xuân Phú",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Phường Vỹ Dạ",
+              "newWardShort": "Vỹ Dạ",
+              "newWardCode": "19777",
+              "newWardType": "Phường",
+              "lat": 16.4779,
+              "lon": 107.611,
+              "areaKm2": 8.93
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "479",
+      "name": "Thị xã Hương Thủy",
+      "type": "Thị xã",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "19960",
+          "name": "Phường Phú Bài",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Phường Phú Bài",
+              "newWardShort": "Phú Bài",
+              "newWardCode": "19960",
+              "newWardType": "Phường",
+              "lat": 16.2807,
+              "lon": 107.611,
+              "areaKm2": 344.63
+            }
+          ]
+        },
+        {
+          "code": "19975",
+          "name": "Phường Thủy Châu",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Phường Hương Thủy",
+              "newWardShort": "Hương Thủy",
+              "newWardCode": "19975",
+              "newWardType": "Phường",
+              "lat": 16.4186,
+              "lon": 107.693,
+              "areaKm2": 33.93
+            }
+          ]
+        },
+        {
+          "code": "19969",
+          "name": "Phường Thủy Dương",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Phường Thanh Thủy",
+              "newWardShort": "Thanh Thủy",
+              "newWardCode": "19969",
+              "newWardType": "Phường",
+              "lat": 16.4205,
+              "lon": 107.635,
+              "areaKm2": 48.92
+            }
+          ]
+        },
+        {
+          "code": "19978",
+          "name": "Phường Thủy Lương",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Phường Hương Thủy",
+              "newWardShort": "Hương Thủy",
+              "newWardCode": "19975",
+              "newWardType": "Phường",
+              "lat": 16.4186,
+              "lon": 107.693,
+              "areaKm2": 33.93
+            }
+          ]
+        },
+        {
+          "code": "19972",
+          "name": "Phường Thủy Phương",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Phường Thanh Thủy",
+              "newWardShort": "Thanh Thủy",
+              "newWardCode": "19969",
+              "newWardType": "Phường",
+              "lat": 16.4205,
+              "lon": 107.635,
+              "areaKm2": 48.92
+            }
+          ]
+        },
+        {
+          "code": "19993",
+          "name": "Xã Dương Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Phường Phú Bài",
+              "newWardShort": "Phú Bài",
+              "newWardCode": "19960",
+              "newWardType": "Phường",
+              "lat": 16.2807,
+              "lon": 107.611,
+              "areaKm2": 344.63
+            }
+          ]
+        },
+        {
+          "code": "19990",
+          "name": "Xã Phú Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Phường Phú Bài",
+              "newWardShort": "Phú Bài",
+              "newWardCode": "19960",
+              "newWardType": "Phường",
+              "lat": 16.2807,
+              "lon": 107.611,
+              "areaKm2": 344.63
+            }
+          ]
+        },
+        {
+          "code": "19987",
+          "name": "Xã Thủy Phù",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Phường Phú Bài",
+              "newWardShort": "Phú Bài",
+              "newWardCode": "19960",
+              "newWardType": "Phường",
+              "lat": 16.2807,
+              "lon": 107.611,
+              "areaKm2": 344.63
+            }
+          ]
+        },
+        {
+          "code": "19984",
+          "name": "Xã Thủy Tân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Phường Hương Thủy",
+              "newWardShort": "Hương Thủy",
+              "newWardCode": "19975",
+              "newWardType": "Phường",
+              "lat": 16.4186,
+              "lon": 107.693,
+              "areaKm2": 33.93
+            }
+          ]
+        },
+        {
+          "code": "19966",
+          "name": "Xã Thủy Thanh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Phường Thanh Thủy",
+              "newWardShort": "Thanh Thủy",
+              "newWardCode": "19969",
+              "newWardType": "Phường",
+              "lat": 16.4205,
+              "lon": 107.635,
+              "areaKm2": 48.92
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "480",
+      "name": "Thị xã Hương Trà",
+      "type": "Thị xã",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "20020",
+          "name": "Phường Hương Chữ",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Phường Kim Trà",
+              "newWardShort": "Kim Trà",
+              "newWardCode": "20017",
+              "newWardType": "Phường",
+              "lat": 16.4941,
+              "lon": 107.509,
+              "areaKm2": 42.8
+            }
+          ]
+        },
+        {
+          "code": "20008",
+          "name": "Phường Hương Vân",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Phường Hương Trà",
+              "newWardShort": "Hương Trà",
+              "newWardCode": "19996",
+              "newWardType": "Phường",
+              "lat": 16.4064,
+              "lon": 107.401,
+              "areaKm2": 83.28
+            }
+          ]
+        },
+        {
+          "code": "20011",
+          "name": "Phường Hương Văn",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Phường Hương Trà",
+              "newWardShort": "Hương Trà",
+              "newWardCode": "19996",
+              "newWardType": "Phường",
+              "lat": 16.4064,
+              "lon": 107.401,
+              "areaKm2": 83.28
+            }
+          ]
+        },
+        {
+          "code": "20017",
+          "name": "Phường Hương Xuân",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Phường Kim Trà",
+              "newWardShort": "Kim Trà",
+              "newWardCode": "20017",
+              "newWardType": "Phường",
+              "lat": 16.4941,
+              "lon": 107.509,
+              "areaKm2": 42.8
+            }
+          ]
+        },
+        {
+          "code": "19996",
+          "name": "Phường Tứ Hạ",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Phường Hương Trà",
+              "newWardShort": "Hương Trà",
+              "newWardCode": "19996",
+              "newWardType": "Phường",
+              "lat": 16.4064,
+              "lon": 107.401,
+              "areaKm2": 83.28
+            }
+          ]
+        },
+        {
+          "code": "20041",
+          "name": "Xã Bình Thành",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Xã Bình Điền",
+              "newWardShort": "Bình Điền",
+              "newWardCode": "20035",
+              "newWardType": "Xã",
+              "lat": 16.3492,
+              "lon": 107.459,
+              "areaKm2": 266.5
+            }
+          ]
+        },
+        {
+          "code": "20035",
+          "name": "Xã Bình Tiến",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Xã Bình Điền",
+              "newWardShort": "Bình Điền",
+              "newWardCode": "20035",
+              "newWardType": "Xã",
+              "lat": 16.3492,
+              "lon": 107.459,
+              "areaKm2": 266.5
+            }
+          ]
+        },
+        {
+          "code": "20026",
+          "name": "Xã Hương Bình",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Xã Bình Điền",
+              "newWardShort": "Bình Điền",
+              "newWardCode": "20035",
+              "newWardType": "Xã",
+              "lat": 16.3492,
+              "lon": 107.459,
+              "areaKm2": 266.5
+            }
+          ]
+        },
+        {
+          "code": "20005",
+          "name": "Xã Hương Toàn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Phường Kim Trà",
+              "newWardShort": "Kim Trà",
+              "newWardCode": "20017",
+              "newWardType": "Phường",
+              "lat": 16.4941,
+              "lon": 107.509,
+              "areaKm2": 42.8
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "476",
+      "name": "Thị xã Phong Điền",
+      "type": "Thị xã",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "19858",
+          "name": "Phường Phong An",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Phường Phong Thái",
+              "newWardShort": "Phong Thái",
+              "newWardCode": "19858",
+              "newWardType": "Phường",
+              "lat": 16.5343,
+              "lon": 107.425,
+              "areaKm2": 187.02
+            }
+          ]
+        },
+        {
+          "code": "19843",
+          "name": "Phường Phong Hải",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Phường Phong Quảng",
+              "newWardShort": "Phong Quảng",
+              "newWardCode": "19873",
+              "newWardType": "Phường",
+              "lat": 16.6339,
+              "lon": 107.506,
+              "areaKm2": 41.7
+            }
+          ]
+        },
+        {
+          "code": "19852",
+          "name": "Phường Phong Hiền",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Phường Phong Thái",
+              "newWardShort": "Phong Thái",
+              "newWardCode": "19858",
+              "newWardType": "Phường",
+              "lat": 16.5343,
+              "lon": 107.425,
+              "areaKm2": 187.02
+            }
+          ]
+        },
+        {
+          "code": "19846",
+          "name": "Phường Phong Hòa",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Phường Phong Dinh",
+              "newWardShort": "Phong Dinh",
+              "newWardCode": "19831",
+              "newWardType": "Phường",
+              "lat": 16.6442,
+              "lon": 107.366,
+              "areaKm2": 87.17
+            }
+          ]
+        },
+        {
+          "code": "19828",
+          "name": "Phường Phong Phú",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Phường Phong Phú",
+              "newWardShort": "Phong Phú",
+              "newWardCode": "19828",
+              "newWardType": "Phường",
+              "lat": 16.6959,
+              "lon": 107.41,
+              "areaKm2": 60.85
+            }
+          ]
+        },
+        {
+          "code": "19819",
+          "name": "Phường Phong Thu",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Phường Phong Điền",
+              "newWardShort": "Phong Điền",
+              "newWardCode": "19819",
+              "newWardType": "Phường",
+              "lat": 16.4904,
+              "lon": 107.24,
+              "areaKm2": 592.48
+            }
+          ]
+        },
+        {
+          "code": "19831",
+          "name": "Xã Phong Bình",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Phường Phong Dinh",
+              "newWardShort": "Phong Dinh",
+              "newWardCode": "19831",
+              "newWardType": "Phường",
+              "lat": 16.6442,
+              "lon": 107.366,
+              "areaKm2": 87.17
+            }
+          ]
+        },
+        {
+          "code": "19837",
+          "name": "Xã Phong Chương",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Phường Phong Dinh",
+              "newWardShort": "Phong Dinh",
+              "newWardCode": "19831",
+              "newWardType": "Phường",
+              "lat": 16.6442,
+              "lon": 107.366,
+              "areaKm2": 87.17
+            }
+          ]
+        },
+        {
+          "code": "19855",
+          "name": "Xã Phong Mỹ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Phường Phong Điền",
+              "newWardShort": "Phong Điền",
+              "newWardCode": "19819",
+              "newWardType": "Phường",
+              "lat": 16.4904,
+              "lon": 107.24,
+              "areaKm2": 592.48
+            }
+          ]
+        },
+        {
+          "code": "19864",
+          "name": "Xã Phong Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Phường Phong Thái",
+              "newWardShort": "Phong Thái",
+              "newWardCode": "19858",
+              "newWardType": "Phường",
+              "lat": 16.5343,
+              "lon": 107.425,
+              "areaKm2": 187.02
+            }
+          ]
+        },
+        {
+          "code": "19825",
+          "name": "Xã Phong Thạnh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Phường Phong Phú",
+              "newWardShort": "Phong Phú",
+              "newWardCode": "19828",
+              "newWardType": "Phường",
+              "lat": 16.6959,
+              "lon": 107.41,
+              "areaKm2": 60.85
+            }
+          ]
+        },
+        {
+          "code": "19861",
+          "name": "Xã Phong Xuân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Huế",
+              "newProvinceSlug": "hue",
+              "newProvinceCode": "46",
+              "newWard": "Phường Phong Điền",
+              "newWardShort": "Phong Điền",
+              "newWardCode": "19819",
+              "newWardType": "Phường",
+              "lat": 16.4904,
+              "lon": 107.24,
+              "areaKm2": 592.48
+            }
+          ]
+        }
+      ],
+      "results": []
+    }
+  ]
+}

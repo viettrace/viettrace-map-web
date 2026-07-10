@@ -1,0 +1,4025 @@
+{
+  "schemaVersion": 1,
+  "mergeDate": "2025-07-01",
+  "code": "20",
+  "name": "Tỉnh Lạng Sơn",
+  "name_en": "Lang Son Province",
+  "slug": "lang-son",
+  "districts": [
+    {
+      "code": "185",
+      "name": "Huyện Bắc Sơn",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "6325",
+          "name": "Thị trấn Bắc Sơn",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Bắc Sơn",
+              "newWardShort": "Bắc Sơn",
+              "newWardCode": "06325",
+              "newWardType": "Xã",
+              "lat": 21.9122,
+              "lon": 106.329,
+              "areaKm2": 80.46
+            }
+          ]
+        },
+        {
+          "code": "6343",
+          "name": "Xã Bắc Quỳnh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Bắc Sơn",
+              "newWardShort": "Bắc Sơn",
+              "newWardCode": "06325",
+              "newWardType": "Xã",
+              "lat": 21.9122,
+              "lon": 106.329,
+              "areaKm2": 80.46
+            }
+          ]
+        },
+        {
+          "code": "6364",
+          "name": "Xã Chiến Thắng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Vũ Lễ",
+              "newWardShort": "Vũ Lễ",
+              "newWardCode": "06364",
+              "newWardType": "Xã",
+              "lat": 21.8158,
+              "lon": 106.182,
+              "areaKm2": 92.1
+            }
+          ]
+        },
+        {
+          "code": "6358",
+          "name": "Xã Chiêu Vũ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Vũ Lăng",
+              "newWardShort": "Vũ Lăng",
+              "newWardCode": "06367",
+              "newWardType": "Xã",
+              "lat": 21.8336,
+              "lon": 106.283,
+              "areaKm2": 112.27
+            }
+          ]
+        },
+        {
+          "code": "6337",
+          "name": "Xã Đồng ý",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Tân Tri",
+              "newWardShort": "Tân Tri",
+              "newWardCode": "06337",
+              "newWardType": "Xã",
+              "lat": 21.886,
+              "lon": 106.183,
+              "areaKm2": 137.61
+            }
+          ]
+        },
+        {
+          "code": "6349",
+          "name": "Xã Hưng Vũ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Hưng Vũ",
+              "newWardShort": "Hưng Vũ",
+              "newWardCode": "06349",
+              "newWardType": "Xã",
+              "lat": 21.805,
+              "lon": 106.366,
+              "areaKm2": 133.24
+            }
+          ]
+        },
+        {
+          "code": "6328",
+          "name": "Xã Long Đống",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Bắc Sơn",
+              "newWardShort": "Bắc Sơn",
+              "newWardCode": "06325",
+              "newWardType": "Xã",
+              "lat": 21.9122,
+              "lon": 106.329,
+              "areaKm2": 80.46
+            }
+          ]
+        },
+        {
+          "code": "6376",
+          "name": "Xã Nhất Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Nhất Hòa",
+              "newWardShort": "Nhất Hòa",
+              "newWardCode": "06376",
+              "newWardType": "Xã",
+              "lat": 21.739,
+              "lon": 106.26,
+              "areaKm2": 143.72
+            }
+          ]
+        },
+        {
+          "code": "6382",
+          "name": "Xã Nhất Tiến",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Nhất Hòa",
+              "newWardShort": "Nhất Hòa",
+              "newWardCode": "06376",
+              "newWardType": "Xã",
+              "lat": 21.739,
+              "lon": 106.26,
+              "areaKm2": 143.72
+            }
+          ]
+        },
+        {
+          "code": "6361",
+          "name": "Xã Tân Hương",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Vũ Lăng",
+              "newWardShort": "Vũ Lăng",
+              "newWardCode": "06367",
+              "newWardType": "Xã",
+              "lat": 21.8336,
+              "lon": 106.283,
+              "areaKm2": 112.27
+            }
+          ]
+        },
+        {
+          "code": "6352",
+          "name": "Xã Tân Lập",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Vũ Lăng",
+              "newWardShort": "Vũ Lăng",
+              "newWardCode": "06367",
+              "newWardType": "Xã",
+              "lat": 21.8336,
+              "lon": 106.283,
+              "areaKm2": 112.27
+            }
+          ]
+        },
+        {
+          "code": "6379",
+          "name": "Xã Tân Thành",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Nhất Hòa",
+              "newWardShort": "Nhất Hòa",
+              "newWardCode": "06376",
+              "newWardType": "Xã",
+              "lat": 21.739,
+              "lon": 106.26,
+              "areaKm2": 143.72
+            }
+          ]
+        },
+        {
+          "code": "6340",
+          "name": "Xã Tân Tri",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Tân Tri",
+              "newWardShort": "Tân Tri",
+              "newWardCode": "06337",
+              "newWardType": "Xã",
+              "lat": 21.886,
+              "lon": 106.183,
+              "areaKm2": 137.61
+            }
+          ]
+        },
+        {
+          "code": "6370",
+          "name": "Xã Trấn Yên",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Hưng Vũ",
+              "newWardShort": "Hưng Vũ",
+              "newWardCode": "06349",
+              "newWardType": "Xã",
+              "lat": 21.805,
+              "lon": 106.366,
+              "areaKm2": 133.24
+            }
+          ]
+        },
+        {
+          "code": "6331",
+          "name": "Xã Vạn Thủy",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Tân Tri",
+              "newWardShort": "Tân Tri",
+              "newWardCode": "06337",
+              "newWardType": "Xã",
+              "lat": 21.886,
+              "lon": 106.183,
+              "areaKm2": 137.61
+            }
+          ]
+        },
+        {
+          "code": "6367",
+          "name": "Xã Vũ Lăng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Vũ Lăng",
+              "newWardShort": "Vũ Lăng",
+              "newWardCode": "06367",
+              "newWardType": "Xã",
+              "lat": 21.8336,
+              "lon": 106.283,
+              "areaKm2": 112.27
+            }
+          ]
+        },
+        {
+          "code": "6373",
+          "name": "Xã Vũ Lễ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Vũ Lễ",
+              "newWardShort": "Vũ Lễ",
+              "newWardCode": "06364",
+              "newWardType": "Xã",
+              "lat": 21.8158,
+              "lon": 106.182,
+              "areaKm2": 92.1
+            }
+          ]
+        },
+        {
+          "code": "6355",
+          "name": "Xã Vũ Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Vũ Lễ",
+              "newWardShort": "Vũ Lễ",
+              "newWardCode": "06364",
+              "newWardType": "Xã",
+              "lat": 21.8158,
+              "lon": 106.182,
+              "areaKm2": 92.1
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "181",
+      "name": "Huyện Bình Gia",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "6112",
+          "name": "Thị trấn Bình Gia",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Bình Gia",
+              "newWardShort": "Bình Gia",
+              "newWardCode": "06112",
+              "newWardType": "Xã",
+              "lat": 21.9681,
+              "lon": 106.374,
+              "areaKm2": 104.98
+            }
+          ]
+        },
+        {
+          "code": "6118",
+          "name": "Xã Bình La",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Tân Văn",
+              "newWardShort": "Tân Văn",
+              "newWardCode": "06115",
+              "newWardType": "Xã",
+              "lat": 21.9275,
+              "lon": 106.455,
+              "areaKm2": 112.06
+            }
+          ]
+        },
+        {
+          "code": "6103",
+          "name": "Xã Hòa Bình",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Thiện Long",
+              "newWardShort": "Thiện Long",
+              "newWardCode": "06103",
+              "newWardType": "Xã",
+              "lat": 21.9783,
+              "lon": 106.174,
+              "areaKm2": 167.26
+            }
+          ]
+        },
+        {
+          "code": "6073",
+          "name": "Xã Hoa Thám",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Hoa Thám",
+              "newWardShort": "Hoa Thám",
+              "newWardCode": "06073",
+              "newWardType": "Xã",
+              "lat": 22.1832,
+              "lon": 106.364,
+              "areaKm2": 151.78
+            }
+          ]
+        },
+        {
+          "code": "6100",
+          "name": "Xã Hoàng Văn Thụ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Bình Gia",
+              "newWardShort": "Bình Gia",
+              "newWardCode": "06112",
+              "newWardType": "Xã",
+              "lat": 21.9681,
+              "lon": 106.374,
+              "areaKm2": 104.98
+            }
+          ]
+        },
+        {
+          "code": "6079",
+          "name": "Xã Hồng Phong",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Hồng Phong",
+              "newWardShort": "Hồng Phong",
+              "newWardCode": "06079",
+              "newWardType": "Xã",
+              "lat": 22.0681,
+              "lon": 106.416,
+              "areaKm2": 132.98
+            },
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Đồng Đăng",
+              "newWardShort": "Đồng Đăng",
+              "newWardCode": "06184",
+              "newWardType": "Xã",
+              "lat": 21.9461,
+              "lon": 106.722,
+              "areaKm2": 91.57
+            }
+          ]
+        },
+        {
+          "code": "6115",
+          "name": "Xã Hồng Thái",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Tân Văn",
+              "newWardShort": "Tân Văn",
+              "newWardCode": "06115",
+              "newWardType": "Xã",
+              "lat": 21.9275,
+              "lon": 106.455,
+              "areaKm2": 112.06
+            }
+          ]
+        },
+        {
+          "code": "6067",
+          "name": "Xã Hưng Đạo",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Hoa Thám",
+              "newWardShort": "Hoa Thám",
+              "newWardCode": "06073",
+              "newWardType": "Xã",
+              "lat": 22.1832,
+              "lon": 106.364,
+              "areaKm2": 151.78
+            }
+          ]
+        },
+        {
+          "code": "6094",
+          "name": "Xã Minh Khai",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Hồng Phong",
+              "newWardShort": "Hồng Phong",
+              "newWardCode": "06079",
+              "newWardType": "Xã",
+              "lat": 22.0681,
+              "lon": 106.416,
+              "areaKm2": 132.98
+            }
+          ]
+        },
+        {
+          "code": "6106",
+          "name": "Xã Mông Ân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Bình Gia",
+              "newWardShort": "Bình Gia",
+              "newWardCode": "06112",
+              "newWardType": "Xã",
+              "lat": 21.9681,
+              "lon": 106.374,
+              "areaKm2": 104.98
+            }
+          ]
+        },
+        {
+          "code": "6088",
+          "name": "Xã Quang Trung",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Thiện Thuật",
+              "newWardShort": "Thiện Thuật",
+              "newWardCode": "06091",
+              "newWardType": "Xã",
+              "lat": 22.0306,
+              "lon": 106.3,
+              "areaKm2": 134.5
+            }
+          ]
+        },
+        {
+          "code": "6076",
+          "name": "Xã Quý Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Quý Hòa",
+              "newWardShort": "Quý Hòa",
+              "newWardCode": "06076",
+              "newWardType": "Xã",
+              "lat": 22.1664,
+              "lon": 106.27,
+              "areaKm2": 130.28
+            }
+          ]
+        },
+        {
+          "code": "6109",
+          "name": "Xã Tân Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Thiện Long",
+              "newWardShort": "Thiện Long",
+              "newWardCode": "06103",
+              "newWardType": "Xã",
+              "lat": 21.9783,
+              "lon": 106.174,
+              "areaKm2": 167.26
+            }
+          ]
+        },
+        {
+          "code": "6121",
+          "name": "Xã Tân Văn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Tân Văn",
+              "newWardShort": "Tân Văn",
+              "newWardCode": "06115",
+              "newWardType": "Xã",
+              "lat": 21.9275,
+              "lon": 106.455,
+              "areaKm2": 112.06
+            }
+          ]
+        },
+        {
+          "code": "6085",
+          "name": "Xã Thiện Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Thiện Hòa",
+              "newWardShort": "Thiện Hòa",
+              "newWardCode": "06085",
+              "newWardType": "Xã",
+              "lat": 22.0794,
+              "lon": 106.216,
+              "areaKm2": 160.31
+            }
+          ]
+        },
+        {
+          "code": "6097",
+          "name": "Xã Thiện Long",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Thiện Long",
+              "newWardShort": "Thiện Long",
+              "newWardCode": "06103",
+              "newWardType": "Xã",
+              "lat": 21.9783,
+              "lon": 106.174,
+              "areaKm2": 167.26
+            }
+          ]
+        },
+        {
+          "code": "6091",
+          "name": "Xã Thiện Thuật",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Thiện Thuật",
+              "newWardShort": "Thiện Thuật",
+              "newWardCode": "06091",
+              "newWardType": "Xã",
+              "lat": 22.0306,
+              "lon": 106.3,
+              "areaKm2": 134.5
+            }
+          ]
+        },
+        {
+          "code": "6070",
+          "name": "Xã Vĩnh Yên",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Quý Hòa",
+              "newWardShort": "Quý Hòa",
+              "newWardCode": "06076",
+              "newWardType": "Xã",
+              "lat": 22.1664,
+              "lon": 106.27,
+              "areaKm2": 130.28
+            }
+          ]
+        },
+        {
+          "code": "6082",
+          "name": "Xã Yên Lỗ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Thiện Hòa",
+              "newWardShort": "Thiện Hòa",
+              "newWardCode": "06085",
+              "newWardType": "Xã",
+              "lat": 22.0794,
+              "lon": 106.216,
+              "areaKm2": 160.31
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "183",
+      "name": "Huyện Cao Lộc",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "6187",
+          "name": "Thị trấn Cao Lộc",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Phường Kỳ Lừa",
+              "newWardShort": "Kỳ Lừa",
+              "newWardCode": "06187",
+              "newWardType": "Phường",
+              "lat": 21.85926,
+              "lon": 106.75417,
+              "areaKm2": 0
+            }
+          ]
+        },
+        {
+          "code": "6184",
+          "name": "Thị trấn Đồng Đăng",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Đồng Đăng",
+              "newWardShort": "Đồng Đăng",
+              "newWardCode": "06184",
+              "newWardType": "Xã",
+              "lat": 21.9461,
+              "lon": 106.722,
+              "areaKm2": 91.57
+            }
+          ]
+        },
+        {
+          "code": "6190",
+          "name": "Xã Bảo Lâm",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Đồng Đăng",
+              "newWardShort": "Đồng Đăng",
+              "newWardCode": "06184",
+              "newWardType": "Xã",
+              "lat": 21.9461,
+              "lon": 106.722,
+              "areaKm2": 91.57
+            }
+          ]
+        },
+        {
+          "code": "6217",
+          "name": "Xã Bình Trung",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Khánh Khê",
+              "newWardShort": "Khánh Khê",
+              "newWardCode": "06286",
+              "newWardType": "Xã",
+              "lat": 21.85,
+              "lon": 106.667,
+              "areaKm2": 93.64
+            }
+          ]
+        },
+        {
+          "code": "6196",
+          "name": "Xã Cao Lâu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Ba Sơn",
+              "newWardShort": "Ba Sơn",
+              "newWardCode": "06196",
+              "newWardType": "Xã",
+              "lat": 21.9033,
+              "lon": 107.015,
+              "areaKm2": 154.96
+            }
+          ]
+        },
+        {
+          "code": "6232",
+          "name": "Xã Công Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Công Sơn",
+              "newWardShort": "Công Sơn",
+              "newWardCode": "06220",
+              "newWardType": "Xã",
+              "lat": 21.8792,
+              "lon": 106.866,
+              "areaKm2": 84.74
+            }
+          ]
+        },
+        {
+          "code": "6235",
+          "name": "Xã Gia Cát",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Phường Kỳ Lừa",
+              "newWardShort": "Kỳ Lừa",
+              "newWardCode": "06187",
+              "newWardType": "Phường",
+              "lat": 21.85926,
+              "lon": 106.75417,
+              "areaKm2": 0
+            }
+          ]
+        },
+        {
+          "code": "6220",
+          "name": "Xã Hải Yến",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Công Sơn",
+              "newWardShort": "Công Sơn",
+              "newWardCode": "06220",
+              "newWardType": "Xã",
+              "lat": 21.8792,
+              "lon": 106.866,
+              "areaKm2": 84.74
+            }
+          ]
+        },
+        {
+          "code": "6223",
+          "name": "Xã Hòa Cư",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Công Sơn",
+              "newWardShort": "Công Sơn",
+              "newWardCode": "06220",
+              "newWardType": "Xã",
+              "lat": 21.8792,
+              "lon": 106.866,
+              "areaKm2": 84.74
+            }
+          ]
+        },
+        {
+          "code": "6205",
+          "name": "Xã Hồng Phong",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Đồng Đăng",
+              "newWardShort": "Đồng Đăng",
+              "newWardCode": "06184",
+              "newWardType": "Xã",
+              "lat": 21.9461,
+              "lon": 106.722,
+              "areaKm2": 91.57
+            }
+          ]
+        },
+        {
+          "code": "6226",
+          "name": "Xã Hợp Thành",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Phường Kỳ Lừa",
+              "newWardShort": "Kỳ Lừa",
+              "newWardCode": "06187",
+              "newWardType": "Phường",
+              "lat": 21.85926,
+              "lon": 106.75417,
+              "areaKm2": 0
+            }
+          ]
+        },
+        {
+          "code": "6211",
+          "name": "Xã Lộc Yên",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Cao Lộc",
+              "newWardShort": "Cao Lộc",
+              "newWardCode": "06211",
+              "newWardType": "Xã",
+              "lat": 21.9434,
+              "lon": 106.816,
+              "areaKm2": 103.86
+            }
+          ]
+        },
+        {
+          "code": "6238",
+          "name": "Xã Mẫu Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Ba Sơn",
+              "newWardShort": "Ba Sơn",
+              "newWardCode": "06196",
+              "newWardType": "Xã",
+              "lat": 21.9033,
+              "lon": 107.015,
+              "areaKm2": 154.96
+            }
+          ]
+        },
+        {
+          "code": "6214",
+          "name": "Xã Phú Xá",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Đồng Đăng",
+              "newWardShort": "Đồng Đăng",
+              "newWardCode": "06184",
+              "newWardType": "Xã",
+              "lat": 21.9461,
+              "lon": 106.722,
+              "areaKm2": 91.57
+            }
+          ]
+        },
+        {
+          "code": "6244",
+          "name": "Xã Tân Liên",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Phường Kỳ Lừa",
+              "newWardShort": "Kỳ Lừa",
+              "newWardCode": "06187",
+              "newWardType": "Phường",
+              "lat": 21.85926,
+              "lon": 106.75417,
+              "areaKm2": 0
+            }
+          ]
+        },
+        {
+          "code": "6250",
+          "name": "Xã Tân Thành",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Tân Đoàn",
+              "newWardShort": "Tân Đoàn",
+              "newWardCode": "06316",
+              "newWardType": "Xã",
+              "lat": 21.7784,
+              "lon": 106.631,
+              "areaKm2": 100.41
+            }
+          ]
+        },
+        {
+          "code": "6199",
+          "name": "Xã Thạch Đạn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Cao Lộc",
+              "newWardShort": "Cao Lộc",
+              "newWardCode": "06211",
+              "newWardType": "Xã",
+              "lat": 21.9434,
+              "lon": 106.816,
+              "areaKm2": 103.86
+            }
+          ]
+        },
+        {
+          "code": "6193",
+          "name": "Xã Thanh Lòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Cao Lộc",
+              "newWardShort": "Cao Lộc",
+              "newWardCode": "06211",
+              "newWardType": "Xã",
+              "lat": 21.9434,
+              "lon": 106.816,
+              "areaKm2": 103.86
+            }
+          ]
+        },
+        {
+          "code": "6208",
+          "name": "Xã Thụy Hùng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Đồng Đăng",
+              "newWardShort": "Đồng Đăng",
+              "newWardCode": "06184",
+              "newWardType": "Xã",
+              "lat": 21.9461,
+              "lon": 106.722,
+              "areaKm2": 91.57
+            }
+          ]
+        },
+        {
+          "code": "6241",
+          "name": "Xã Xuân Long",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Khánh Khê",
+              "newWardShort": "Khánh Khê",
+              "newWardCode": "06286",
+              "newWardType": "Xã",
+              "lat": 21.85,
+              "lon": 106.667,
+              "areaKm2": 93.64
+            }
+          ]
+        },
+        {
+          "code": "6202",
+          "name": "Xã Xuất Lễ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Ba Sơn",
+              "newWardShort": "Ba Sơn",
+              "newWardCode": "06196",
+              "newWardType": "Xã",
+              "lat": 21.9033,
+              "lon": 107.015,
+              "areaKm2": 154.96
+            }
+          ]
+        },
+        {
+          "code": "6247",
+          "name": "Xã Yên Trạch",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Phường Đông Kinh",
+              "newWardShort": "Đông Kinh",
+              "newWardCode": "05977",
+              "newWardType": "Phường",
+              "lat": 21.8068,
+              "lon": 106.771,
+              "areaKm2": 54.71
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "187",
+      "name": "Huyện Chi Lăng",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "6466",
+          "name": "Thị trấn Chi Lăng",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Chi Lăng",
+              "newWardShort": "Chi Lăng",
+              "newWardCode": "06463",
+              "newWardType": "Xã",
+              "lat": 21.6099,
+              "lon": 106.546,
+              "areaKm2": 80.2056
+            }
+          ]
+        },
+        {
+          "code": "6463",
+          "name": "Thị trấn Đồng Mỏ",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Chi Lăng",
+              "newWardShort": "Chi Lăng",
+              "newWardCode": "06463",
+              "newWardType": "Xã",
+              "lat": 21.6099,
+              "lon": 106.546,
+              "areaKm2": 80.2056
+            }
+          ]
+        },
+        {
+          "code": "6478",
+          "name": "Xã Bắc Thủy",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Nhân Lý",
+              "newWardShort": "Nhân Lý",
+              "newWardCode": "06496",
+              "newWardType": "Xã",
+              "lat": 21.6949,
+              "lon": 106.661,
+              "areaKm2": 126.86
+            }
+          ]
+        },
+        {
+          "code": "6487",
+          "name": "Xã Bằng Hữu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Bằng Mạc",
+              "newWardShort": "Bằng Mạc",
+              "newWardCode": "06475",
+              "newWardType": "Xã",
+              "lat": 21.7164,
+              "lon": 106.528,
+              "areaKm2": 117.82
+            }
+          ]
+        },
+        {
+          "code": "6493",
+          "name": "Xã Bằng Mạc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Bằng Mạc",
+              "newWardShort": "Bằng Mạc",
+              "newWardCode": "06475",
+              "newWardType": "Xã",
+              "lat": 21.7164,
+              "lon": 106.528,
+              "areaKm2": 117.82
+            }
+          ]
+        },
+        {
+          "code": "6523",
+          "name": "Xã Chi Lăng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Chi Lăng",
+              "newWardShort": "Chi Lăng",
+              "newWardCode": "06463",
+              "newWardType": "Xã",
+              "lat": 21.6099,
+              "lon": 106.546,
+              "areaKm2": 80.2056
+            }
+          ]
+        },
+        {
+          "code": "6481",
+          "name": "Xã Chiến Thắng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Chiến Thắng",
+              "newWardShort": "Chiến Thắng",
+              "newWardCode": "06481",
+              "newWardType": "Xã",
+              "lat": 21.7333,
+              "lon": 106.759,
+              "areaKm2": 114.27
+            }
+          ]
+        },
+        {
+          "code": "6475",
+          "name": "Xã Gia Lộc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Bằng Mạc",
+              "newWardShort": "Bằng Mạc",
+              "newWardCode": "06475",
+              "newWardType": "Xã",
+              "lat": 21.7164,
+              "lon": 106.528,
+              "areaKm2": 117.82
+            }
+          ]
+        },
+        {
+          "code": "6508",
+          "name": "Xã Hòa Bình",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Vạn Linh",
+              "newWardShort": "Vạn Linh",
+              "newWardCode": "06505",
+              "newWardType": "Xã",
+              "lat": 21.6405,
+              "lon": 106.485,
+              "areaKm2": 126.54
+            }
+          ]
+        },
+        {
+          "code": "6514",
+          "name": "Xã Hữu Kiên",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Quan Sơn",
+              "newWardShort": "Quan Sơn",
+              "newWardCode": "06517",
+              "newWardType": "Xã",
+              "lat": 21.6123,
+              "lon": 106.727,
+              "areaKm2": 98.2
+            }
+          ]
+        },
+        {
+          "code": "6499",
+          "name": "Xã Lâm Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Nhân Lý",
+              "newWardShort": "Nhân Lý",
+              "newWardCode": "06496",
+              "newWardType": "Xã",
+              "lat": 21.6949,
+              "lon": 106.661,
+              "areaKm2": 126.86
+            }
+          ]
+        },
+        {
+          "code": "6502",
+          "name": "Xã Liên Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Chiến Thắng",
+              "newWardShort": "Chiến Thắng",
+              "newWardCode": "06481",
+              "newWardType": "Xã",
+              "lat": 21.7333,
+              "lon": 106.759,
+              "areaKm2": 114.27
+            }
+          ]
+        },
+        {
+          "code": "6484",
+          "name": "Xã Mai Sao",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Nhân Lý",
+              "newWardShort": "Nhân Lý",
+              "newWardCode": "06496",
+              "newWardType": "Xã",
+              "lat": 21.6949,
+              "lon": 106.661,
+              "areaKm2": 126.86
+            }
+          ]
+        },
+        {
+          "code": "6496",
+          "name": "Xã Nhân Lý",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Nhân Lý",
+              "newWardShort": "Nhân Lý",
+              "newWardCode": "06496",
+              "newWardType": "Xã",
+              "lat": 21.6949,
+              "lon": 106.661,
+              "areaKm2": 126.86
+            }
+          ]
+        },
+        {
+          "code": "6517",
+          "name": "Xã Quan Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Quan Sơn",
+              "newWardShort": "Quan Sơn",
+              "newWardCode": "06517",
+              "newWardType": "Xã",
+              "lat": 21.6123,
+              "lon": 106.727,
+              "areaKm2": 98.2
+            }
+          ]
+        },
+        {
+          "code": "6490",
+          "name": "Xã Thượng Cường",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Bằng Mạc",
+              "newWardShort": "Bằng Mạc",
+              "newWardCode": "06475",
+              "newWardType": "Xã",
+              "lat": 21.7164,
+              "lon": 106.528,
+              "areaKm2": 117.82
+            }
+          ]
+        },
+        {
+          "code": "6469",
+          "name": "Xã Vân An",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Chiến Thắng",
+              "newWardShort": "Chiến Thắng",
+              "newWardCode": "06481",
+              "newWardType": "Xã",
+              "lat": 21.7333,
+              "lon": 106.759,
+              "areaKm2": 114.27
+            }
+          ]
+        },
+        {
+          "code": "6505",
+          "name": "Xã Vạn Linh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Vạn Linh",
+              "newWardShort": "Vạn Linh",
+              "newWardCode": "06505",
+              "newWardType": "Xã",
+              "lat": 21.6405,
+              "lon": 106.485,
+              "areaKm2": 126.54
+            }
+          ]
+        },
+        {
+          "code": "6472",
+          "name": "Xã Vân Thủy",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Chiến Thắng",
+              "newWardShort": "Chiến Thắng",
+              "newWardCode": "06481",
+              "newWardType": "Xã",
+              "lat": 21.7333,
+              "lon": 106.759,
+              "areaKm2": 114.27
+            }
+          ]
+        },
+        {
+          "code": "6520",
+          "name": "Xã Y Tịch",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Vạn Linh",
+              "newWardShort": "Vạn Linh",
+              "newWardCode": "06505",
+              "newWardType": "Xã",
+              "lat": 21.6405,
+              "lon": 106.485,
+              "areaKm2": 126.54
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "189",
+      "name": "Huyện Đình Lập",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "6613",
+          "name": "Thị trấn Đình Lập",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Đình Lập",
+              "newWardShort": "Đình Lập",
+              "newWardCode": "06613",
+              "newWardType": "Xã",
+              "lat": 21.5854,
+              "lon": 107.071,
+              "areaKm2": 164.66
+            }
+          ]
+        },
+        {
+          "code": "6616",
+          "name": "Thị trấn Nông trường Thái Bình",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Thái Bình",
+              "newWardShort": "Thái Bình",
+              "newWardCode": "06616",
+              "newWardType": "Xã",
+              "lat": 21.4796,
+              "lon": 106.943,
+              "areaKm2": 305.25
+            }
+          ]
+        },
+        {
+          "code": "6646",
+          "name": "Xã Bắc Lãng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Châu Sơn",
+              "newWardShort": "Châu Sơn",
+              "newWardCode": "06637",
+              "newWardType": "Xã",
+              "lat": 21.4501,
+              "lon": 107.16,
+              "areaKm2": 301.31
+            }
+          ]
+        },
+        {
+          "code": "6619",
+          "name": "Xã Bắc Xa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Kiên Mộc",
+              "newWardShort": "Kiên Mộc",
+              "newWardCode": "06625",
+              "newWardType": "Xã",
+              "lat": 21.6343,
+              "lon": 107.222,
+              "areaKm2": 417.78
+            }
+          ]
+        },
+        {
+          "code": "6622",
+          "name": "Xã Bính Xá",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Đình Lập",
+              "newWardShort": "Đình Lập",
+              "newWardCode": "06613",
+              "newWardType": "Xã",
+              "lat": 21.5854,
+              "lon": 107.071,
+              "areaKm2": 164.66
+            },
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Kiên Mộc",
+              "newWardShort": "Kiên Mộc",
+              "newWardCode": "06625",
+              "newWardType": "Xã",
+              "lat": 21.6343,
+              "lon": 107.222,
+              "areaKm2": 417.78
+            }
+          ]
+        },
+        {
+          "code": "6637",
+          "name": "Xã Châu Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Châu Sơn",
+              "newWardShort": "Châu Sơn",
+              "newWardCode": "06637",
+              "newWardType": "Xã",
+              "lat": 21.4501,
+              "lon": 107.16,
+              "areaKm2": 301.31
+            }
+          ]
+        },
+        {
+          "code": "6634",
+          "name": "Xã Cường Lợi",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Châu Sơn",
+              "newWardShort": "Châu Sơn",
+              "newWardCode": "06637",
+              "newWardType": "Xã",
+              "lat": 21.4501,
+              "lon": 107.16,
+              "areaKm2": 301.31
+            }
+          ]
+        },
+        {
+          "code": "6628",
+          "name": "Xã Đình Lập",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Đình Lập",
+              "newWardShort": "Đình Lập",
+              "newWardCode": "06613",
+              "newWardType": "Xã",
+              "lat": 21.5854,
+              "lon": 107.071,
+              "areaKm2": 164.66
+            }
+          ]
+        },
+        {
+          "code": "6643",
+          "name": "Xã Đồng Thắng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Châu Sơn",
+              "newWardShort": "Châu Sơn",
+              "newWardCode": "06637",
+              "newWardType": "Xã",
+              "lat": 21.4501,
+              "lon": 107.16,
+              "areaKm2": 301.31
+            }
+          ]
+        },
+        {
+          "code": "6625",
+          "name": "Xã Kiên Mộc",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Châu Sơn",
+              "newWardShort": "Châu Sơn",
+              "newWardCode": "06637",
+              "newWardType": "Xã",
+              "lat": 21.4501,
+              "lon": 107.16,
+              "areaKm2": 301.31
+            },
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Kiên Mộc",
+              "newWardShort": "Kiên Mộc",
+              "newWardCode": "06625",
+              "newWardType": "Xã",
+              "lat": 21.6343,
+              "lon": 107.222,
+              "areaKm2": 417.78
+            }
+          ]
+        },
+        {
+          "code": "6640",
+          "name": "Xã Lâm Ca",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Thái Bình",
+              "newWardShort": "Thái Bình",
+              "newWardCode": "06616",
+              "newWardType": "Xã",
+              "lat": 21.4796,
+              "lon": 106.943,
+              "areaKm2": 305.25
+            }
+          ]
+        },
+        {
+          "code": "6631",
+          "name": "Xã Thái Bình",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Thái Bình",
+              "newWardShort": "Thái Bình",
+              "newWardCode": "06616",
+              "newWardType": "Xã",
+              "lat": 21.4796,
+              "lon": 106.943,
+              "areaKm2": 305.25
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "186",
+      "name": "Huyện Hữu Lũng",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "6385",
+          "name": "Thị trấn Hữu Lũng",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Hữu Lũng",
+              "newWardShort": "Hữu Lũng",
+              "newWardCode": "06385",
+              "newWardType": "Xã",
+              "lat": 21.5134,
+              "lon": 106.368,
+              "areaKm2": 52.87
+            }
+          ]
+        },
+        {
+          "code": "6427",
+          "name": "Xã Cai Kinh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Cai Kinh",
+              "newWardShort": "Cai Kinh",
+              "newWardCode": "06427",
+              "newWardType": "Xã",
+              "lat": 21.5876,
+              "lon": 106.408,
+              "areaKm2": 105.56
+            }
+          ]
+        },
+        {
+          "code": "6424",
+          "name": "Xã Đồng Tân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Hữu Lũng",
+              "newWardShort": "Hữu Lũng",
+              "newWardCode": "06385",
+              "newWardType": "Xã",
+              "lat": 21.5134,
+              "lon": 106.368,
+              "areaKm2": 52.87
+            }
+          ]
+        },
+        {
+          "code": "6436",
+          "name": "Xã Đồng Tiến",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Thiện Tân",
+              "newWardShort": "Thiện Tân",
+              "newWardCode": "06436",
+              "newWardType": "Xã",
+              "lat": 21.5592,
+              "lon": 106.211,
+              "areaKm2": 93.07
+            }
+          ]
+        },
+        {
+          "code": "6451",
+          "name": "Xã Hồ Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Hữu Lũng",
+              "newWardShort": "Hữu Lũng",
+              "newWardCode": "06385",
+              "newWardType": "Xã",
+              "lat": 21.5134,
+              "lon": 106.368,
+              "areaKm2": 52.87
+            }
+          ]
+        },
+        {
+          "code": "6397",
+          "name": "Xã Hòa Bình",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Yên Bình",
+              "newWardShort": "Yên Bình",
+              "newWardCode": "06391",
+              "newWardType": "Xã",
+              "lat": 21.6423,
+              "lon": 106.269,
+              "areaKm2": 119.22
+            }
+          ]
+        },
+        {
+          "code": "6430",
+          "name": "Xã Hòa Lạc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Tân Thành",
+              "newWardShort": "Tân Thành",
+              "newWardCode": "06445",
+              "newWardType": "Xã",
+              "lat": 21.5013,
+              "lon": 106.459,
+              "areaKm2": 64.8
+            }
+          ]
+        },
+        {
+          "code": "6445",
+          "name": "Xã Hòa Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Tân Thành",
+              "newWardShort": "Tân Thành",
+              "newWardCode": "06445",
+              "newWardType": "Xã",
+              "lat": 21.5013,
+              "lon": 106.459,
+              "areaKm2": 64.8
+            }
+          ]
+        },
+        {
+          "code": "6460",
+          "name": "Xã Hòa Thắng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Tuấn Sơn",
+              "newWardShort": "Tuấn Sơn",
+              "newWardCode": "06457",
+              "newWardType": "Xã",
+              "lat": 21.4533,
+              "lon": 106.35,
+              "areaKm2": 111.21
+            }
+          ]
+        },
+        {
+          "code": "6388",
+          "name": "Xã Hữu Liên",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Hữu Liên",
+              "newWardShort": "Hữu Liên",
+              "newWardCode": "06400",
+              "newWardType": "Xã",
+              "lat": 21.6616,
+              "lon": 106.367,
+              "areaKm2": 122.56
+            }
+          ]
+        },
+        {
+          "code": "6457",
+          "name": "Xã Minh Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Tuấn Sơn",
+              "newWardShort": "Tuấn Sơn",
+              "newWardCode": "06457",
+              "newWardType": "Xã",
+              "lat": 21.4533,
+              "lon": 106.35,
+              "areaKm2": 111.21
+            }
+          ]
+        },
+        {
+          "code": "6448",
+          "name": "Xã Minh Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Tuấn Sơn",
+              "newWardShort": "Tuấn Sơn",
+              "newWardCode": "06457",
+              "newWardType": "Xã",
+              "lat": 21.4533,
+              "lon": 106.35,
+              "areaKm2": 111.21
+            }
+          ]
+        },
+        {
+          "code": "6415",
+          "name": "Xã Minh Tiến",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Vân Nham",
+              "newWardShort": "Vân Nham",
+              "newWardCode": "06415",
+              "newWardType": "Xã",
+              "lat": 21.5342,
+              "lon": 106.281,
+              "areaKm2": 81.22
+            }
+          ]
+        },
+        {
+          "code": "6418",
+          "name": "Xã Nhật Tiến",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Vân Nham",
+              "newWardShort": "Vân Nham",
+              "newWardCode": "06415",
+              "newWardType": "Xã",
+              "lat": 21.5342,
+              "lon": 106.281,
+              "areaKm2": 81.22
+            }
+          ]
+        },
+        {
+          "code": "6394",
+          "name": "Xã Quyết Thắng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Yên Bình",
+              "newWardShort": "Yên Bình",
+              "newWardCode": "06391",
+              "newWardType": "Xã",
+              "lat": 21.6423,
+              "lon": 106.269,
+              "areaKm2": 119.22
+            }
+          ]
+        },
+        {
+          "code": "6442",
+          "name": "Xã Tân Thành",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Tân Thành",
+              "newWardShort": "Tân Thành",
+              "newWardCode": "06445",
+              "newWardType": "Xã",
+              "lat": 21.5013,
+              "lon": 106.459,
+              "areaKm2": 64.8
+            }
+          ]
+        },
+        {
+          "code": "6421",
+          "name": "Xã Thanh Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Thiện Tân",
+              "newWardShort": "Thiện Tân",
+              "newWardCode": "06436",
+              "newWardType": "Xã",
+              "lat": 21.5592,
+              "lon": 106.211,
+              "areaKm2": 93.07
+            }
+          ]
+        },
+        {
+          "code": "6406",
+          "name": "Xã Thiện Tân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Thiện Tân",
+              "newWardShort": "Thiện Tân",
+              "newWardCode": "06436",
+              "newWardType": "Xã",
+              "lat": 21.5592,
+              "lon": 106.211,
+              "areaKm2": 93.07
+            }
+          ]
+        },
+        {
+          "code": "6433",
+          "name": "Xã Vân Nham",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Vân Nham",
+              "newWardShort": "Vân Nham",
+              "newWardCode": "06415",
+              "newWardType": "Xã",
+              "lat": 21.5342,
+              "lon": 106.281,
+              "areaKm2": 81.22
+            }
+          ]
+        },
+        {
+          "code": "6391",
+          "name": "Xã Yên Bình",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Yên Bình",
+              "newWardShort": "Yên Bình",
+              "newWardCode": "06391",
+              "newWardType": "Xã",
+              "lat": 21.6423,
+              "lon": 106.269,
+              "areaKm2": 119.22
+            }
+          ]
+        },
+        {
+          "code": "6403",
+          "name": "Xã Yên Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Cai Kinh",
+              "newWardShort": "Cai Kinh",
+              "newWardCode": "06427",
+              "newWardType": "Xã",
+              "lat": 21.5876,
+              "lon": 106.408,
+              "areaKm2": 105.56
+            }
+          ]
+        },
+        {
+          "code": "6400",
+          "name": "Xã Yên Thịnh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Hữu Liên",
+              "newWardShort": "Hữu Liên",
+              "newWardCode": "06400",
+              "newWardType": "Xã",
+              "lat": 21.6616,
+              "lon": 106.367,
+              "areaKm2": 122.56
+            }
+          ]
+        },
+        {
+          "code": "6412",
+          "name": "Xã Yên Vượng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Cai Kinh",
+              "newWardShort": "Cai Kinh",
+              "newWardCode": "06427",
+              "newWardType": "Xã",
+              "lat": 21.5876,
+              "lon": 106.408,
+              "areaKm2": 105.56
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "188",
+      "name": "Huyện Lộc Bình",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "6529",
+          "name": "Thị trấn Lộc Bình",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Lộc Bình",
+              "newWardShort": "Lộc Bình",
+              "newWardCode": "06529",
+              "newWardType": "Xã",
+              "lat": 21.7668,
+              "lon": 106.908,
+              "areaKm2": 79.15
+            }
+          ]
+        },
+        {
+          "code": "6526",
+          "name": "Thị trấn Na Dương",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Na Dương",
+              "newWardShort": "Na Dương",
+              "newWardCode": "06526",
+              "newWardType": "Xã",
+              "lat": 21.6992,
+              "lon": 106.909,
+              "areaKm2": 109.91
+            }
+          ]
+        },
+        {
+          "code": "6610",
+          "name": "Xã Ái Quốc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Xuân Dương",
+              "newWardShort": "Xuân Dương",
+              "newWardCode": "06607",
+              "newWardType": "Xã",
+              "lat": 21.5822,
+              "lon": 106.895,
+              "areaKm2": 206.7
+            }
+          ]
+        },
+        {
+          "code": "6553",
+          "name": "Xã Đồng Bục",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Lộc Bình",
+              "newWardShort": "Lộc Bình",
+              "newWardCode": "06529",
+              "newWardType": "Xã",
+              "lat": 21.7668,
+              "lon": 106.908,
+              "areaKm2": 79.15
+            }
+          ]
+        },
+        {
+          "code": "6592",
+          "name": "Xã Đông Quan",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Na Dương",
+              "newWardShort": "Na Dương",
+              "newWardCode": "06526",
+              "newWardType": "Xã",
+              "lat": 21.6992,
+              "lon": 106.909,
+              "areaKm2": 109.91
+            }
+          ]
+        },
+        {
+          "code": "6550",
+          "name": "Xã Hữu Khánh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Lộc Bình",
+              "newWardShort": "Lộc Bình",
+              "newWardCode": "06529",
+              "newWardType": "Xã",
+              "lat": 21.7668,
+              "lon": 106.908,
+              "areaKm2": 79.15
+            }
+          ]
+        },
+        {
+          "code": "6598",
+          "name": "Xã Hữu Lân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Thống Nhất",
+              "newWardShort": "Thống Nhất",
+              "newWardCode": "06577",
+              "newWardType": "Xã",
+              "lat": 21.6804,
+              "lon": 106.824,
+              "areaKm2": 120.1
+            }
+          ]
+        },
+        {
+          "code": "6544",
+          "name": "Xã Khánh Xuân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Lộc Bình",
+              "newWardShort": "Lộc Bình",
+              "newWardCode": "06529",
+              "newWardType": "Xã",
+              "lat": 21.7668,
+              "lon": 106.908,
+              "areaKm2": 79.15
+            }
+          ]
+        },
+        {
+          "code": "6565",
+          "name": "Xã Khuất Xá",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Khuất Xá",
+              "newWardShort": "Khuất Xá",
+              "newWardCode": "06565",
+              "newWardType": "Xã",
+              "lat": 21.729,
+              "lon": 107.09,
+              "areaKm2": 124.91
+            }
+          ]
+        },
+        {
+          "code": "6601",
+          "name": "Xã Lợi Bác",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Lợi Bác",
+              "newWardShort": "Lợi Bác",
+              "newWardCode": "06601",
+              "newWardType": "Xã",
+              "lat": 21.6727,
+              "lon": 107.032,
+              "areaKm2": 139.11
+            }
+          ]
+        },
+        {
+          "code": "6532",
+          "name": "Xã Mẫu Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Mẫu Sơn",
+              "newWardShort": "Mẫu Sơn",
+              "newWardCode": "06541",
+              "newWardType": "Xã",
+              "lat": 21.8008,
+              "lon": 107.005,
+              "areaKm2": 136.04
+            }
+          ]
+        },
+        {
+          "code": "6595",
+          "name": "Xã Minh Hiệp",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Thống Nhất",
+              "newWardShort": "Thống Nhất",
+              "newWardCode": "06577",
+              "newWardType": "Xã",
+              "lat": 21.6804,
+              "lon": 106.824,
+              "areaKm2": 120.1
+            }
+          ]
+        },
+        {
+          "code": "6604",
+          "name": "Xã Nam Quan",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Xuân Dương",
+              "newWardShort": "Xuân Dương",
+              "newWardCode": "06607",
+              "newWardType": "Xã",
+              "lat": 21.5822,
+              "lon": 106.895,
+              "areaKm2": 206.7
+            }
+          ]
+        },
+        {
+          "code": "6589",
+          "name": "Xã Sàn Viên",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Lợi Bác",
+              "newWardShort": "Lợi Bác",
+              "newWardCode": "06601",
+              "newWardType": "Xã",
+              "lat": 21.6727,
+              "lon": 107.032,
+              "areaKm2": 139.11
+            }
+          ]
+        },
+        {
+          "code": "6559",
+          "name": "Xã Tam Gia",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Khuất Xá",
+              "newWardShort": "Khuất Xá",
+              "newWardCode": "06565",
+              "newWardType": "Xã",
+              "lat": 21.729,
+              "lon": 107.09,
+              "areaKm2": 124.91
+            }
+          ]
+        },
+        {
+          "code": "6577",
+          "name": "Xã Thống Nhất",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Thống Nhất",
+              "newWardShort": "Thống Nhất",
+              "newWardCode": "06577",
+              "newWardType": "Xã",
+              "lat": 21.6804,
+              "lon": 106.824,
+              "areaKm2": 120.1
+            }
+          ]
+        },
+        {
+          "code": "6562",
+          "name": "Xã Tú Đoạn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Na Dương",
+              "newWardShort": "Na Dương",
+              "newWardCode": "06526",
+              "newWardType": "Xã",
+              "lat": 21.6992,
+              "lon": 106.909,
+              "areaKm2": 109.91
+            }
+          ]
+        },
+        {
+          "code": "6547",
+          "name": "Xã Tú Mịch",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Mẫu Sơn",
+              "newWardShort": "Mẫu Sơn",
+              "newWardCode": "06541",
+              "newWardType": "Xã",
+              "lat": 21.8008,
+              "lon": 107.005,
+              "areaKm2": 136.04
+            }
+          ]
+        },
+        {
+          "code": "6607",
+          "name": "Xã Xuân Dương",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Xuân Dương",
+              "newWardShort": "Xuân Dương",
+              "newWardCode": "06607",
+              "newWardType": "Xã",
+              "lat": 21.5822,
+              "lon": 106.895,
+              "areaKm2": 206.7
+            }
+          ]
+        },
+        {
+          "code": "6541",
+          "name": "Xã Yên Khoái",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Mẫu Sơn",
+              "newWardShort": "Mẫu Sơn",
+              "newWardCode": "06541",
+              "newWardType": "Xã",
+              "lat": 21.8008,
+              "lon": 107.005,
+              "areaKm2": 136.04
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "180",
+      "name": "Huyện Tràng Định",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "6040",
+          "name": "Thị trấn Thất Khê",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Thất Khê",
+              "newWardShort": "Thất Khê",
+              "newWardCode": "06040",
+              "newWardType": "Xã",
+              "lat": 22.3367,
+              "lon": 106.4,
+              "areaKm2": 100.52
+            }
+          ]
+        },
+        {
+          "code": "6010",
+          "name": "Xã Cao Minh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Đoàn Kết",
+              "newWardShort": "Đoàn Kết",
+              "newWardCode": "06001",
+              "newWardType": "Xã",
+              "lat": 22.3868,
+              "lon": 106.262,
+              "areaKm2": 240.66
+            }
+          ]
+        },
+        {
+          "code": "6034",
+          "name": "Xã Chi Lăng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Thất Khê",
+              "newWardShort": "Thất Khê",
+              "newWardCode": "06040",
+              "newWardType": "Xã",
+              "lat": 22.3367,
+              "lon": 106.4,
+              "areaKm2": 100.52
+            }
+          ]
+        },
+        {
+          "code": "6013",
+          "name": "Xã Chí Minh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Thất Khê",
+              "newWardShort": "Thất Khê",
+              "newWardCode": "06040",
+              "newWardType": "Xã",
+              "lat": 22.3367,
+              "lon": 106.4,
+              "areaKm2": 100.52
+            }
+          ]
+        },
+        {
+          "code": "6043",
+          "name": "Xã Đào Viên",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Quốc Việt",
+              "newWardShort": "Quốc Việt",
+              "newWardCode": "06058",
+              "newWardType": "Xã",
+              "lat": 22.2101,
+              "lon": 106.629,
+              "areaKm2": 117.97
+            }
+          ]
+        },
+        {
+          "code": "6046",
+          "name": "Xã Đề Thám",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Tràng Định",
+              "newWardShort": "Tràng Định",
+              "newWardCode": "06046",
+              "newWardType": "Xã",
+              "lat": 22.2023,
+              "lon": 106.471,
+              "areaKm2": 118.41
+            }
+          ]
+        },
+        {
+          "code": "6001",
+          "name": "Xã Đoàn Kết",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Đoàn Kết",
+              "newWardShort": "Đoàn Kết",
+              "newWardCode": "06001",
+              "newWardType": "Xã",
+              "lat": 22.3868,
+              "lon": 106.262,
+              "areaKm2": 240.66
+            }
+          ]
+        },
+        {
+          "code": "6025",
+          "name": "Xã Đội Cấn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Quốc Khánh",
+              "newWardShort": "Quốc Khánh",
+              "newWardCode": "06004",
+              "newWardType": "Xã",
+              "lat": 22.3439,
+              "lon": 106.527,
+              "areaKm2": 168.15
+            }
+          ]
+        },
+        {
+          "code": "6055",
+          "name": "Xã Hùng Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Tràng Định",
+              "newWardShort": "Tràng Định",
+              "newWardCode": "06046",
+              "newWardType": "Xã",
+              "lat": 22.2023,
+              "lon": 106.471,
+              "areaKm2": 118.41
+            }
+          ]
+        },
+        {
+          "code": "6061",
+          "name": "Xã Hùng Việt",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Tràng Định",
+              "newWardShort": "Tràng Định",
+              "newWardCode": "06046",
+              "newWardType": "Xã",
+              "lat": 22.2023,
+              "lon": 106.471,
+              "areaKm2": 118.41
+            }
+          ]
+        },
+        {
+          "code": "6049",
+          "name": "Xã Kháng Chiến",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Kháng Chiến",
+              "newWardShort": "Kháng Chiến",
+              "newWardCode": "06037",
+              "newWardType": "Xã",
+              "lat": 22.268,
+              "lon": 106.59,
+              "areaKm2": 142
+            }
+          ]
+        },
+        {
+          "code": "5998",
+          "name": "Xã Khánh Long",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Đoàn Kết",
+              "newWardShort": "Đoàn Kết",
+              "newWardCode": "06001",
+              "newWardType": "Xã",
+              "lat": 22.3868,
+              "lon": 106.262,
+              "areaKm2": 240.66
+            }
+          ]
+        },
+        {
+          "code": "6031",
+          "name": "Xã Kim Đồng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Tân Tiến",
+              "newWardShort": "Tân Tiến",
+              "newWardCode": "06019",
+              "newWardType": "Xã",
+              "lat": 22.287,
+              "lon": 106.325,
+              "areaKm2": 207.2
+            }
+          ]
+        },
+        {
+          "code": "6004",
+          "name": "Xã Quốc Khánh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Quốc Khánh",
+              "newWardShort": "Quốc Khánh",
+              "newWardCode": "06004",
+              "newWardType": "Xã",
+              "lat": 22.3439,
+              "lon": 106.527,
+              "areaKm2": 168.15
+            }
+          ]
+        },
+        {
+          "code": "6058",
+          "name": "Xã Quốc Việt",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Quốc Việt",
+              "newWardShort": "Quốc Việt",
+              "newWardCode": "06058",
+              "newWardType": "Xã",
+              "lat": 22.2101,
+              "lon": 106.629,
+              "areaKm2": 117.97
+            }
+          ]
+        },
+        {
+          "code": "6028",
+          "name": "Xã Tân Minh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Kháng Chiến",
+              "newWardShort": "Kháng Chiến",
+              "newWardCode": "06037",
+              "newWardType": "Xã",
+              "lat": 22.268,
+              "lon": 106.59,
+              "areaKm2": 142
+            }
+          ]
+        },
+        {
+          "code": "6019",
+          "name": "Xã Tân Tiến",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Tân Tiến",
+              "newWardShort": "Tân Tiến",
+              "newWardCode": "06019",
+              "newWardType": "Xã",
+              "lat": 22.287,
+              "lon": 106.325,
+              "areaKm2": 207.2
+            }
+          ]
+        },
+        {
+          "code": "6022",
+          "name": "Xã Tân Yên",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Tân Tiến",
+              "newWardShort": "Tân Tiến",
+              "newWardCode": "06019",
+              "newWardType": "Xã",
+              "lat": 22.287,
+              "lon": 106.325,
+              "areaKm2": 207.2
+            }
+          ]
+        },
+        {
+          "code": "6016",
+          "name": "Xã Tri Phương",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Quốc Khánh",
+              "newWardShort": "Quốc Khánh",
+              "newWardCode": "06004",
+              "newWardType": "Xã",
+              "lat": 22.3439,
+              "lon": 106.527,
+              "areaKm2": 168.15
+            }
+          ]
+        },
+        {
+          "code": "6037",
+          "name": "Xã Trung Thành",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Kháng Chiến",
+              "newWardShort": "Kháng Chiến",
+              "newWardCode": "06037",
+              "newWardType": "Xã",
+              "lat": 22.268,
+              "lon": 106.59,
+              "areaKm2": 142
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "182",
+      "name": "Huyện Văn Lãng",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "6124",
+          "name": "Thị trấn Na Sầm",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Na Sầm",
+              "newWardShort": "Na Sầm",
+              "newWardCode": "06124",
+              "newWardType": "Xã",
+              "lat": 22.0766,
+              "lon": 106.607,
+              "areaKm2": 94.47
+            }
+          ]
+        },
+        {
+          "code": "6139",
+          "name": "Xã Bắc Hùng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Na Sầm",
+              "newWardShort": "Na Sầm",
+              "newWardCode": "06124",
+              "newWardType": "Xã",
+              "lat": 22.0766,
+              "lon": 106.607,
+              "areaKm2": 94.47
+            }
+          ]
+        },
+        {
+          "code": "6133",
+          "name": "Xã Bắc La",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Văn Lãng",
+              "newWardShort": "Văn Lãng",
+              "newWardCode": "06154",
+              "newWardType": "Xã",
+              "lat": 22.0881,
+              "lon": 106.541,
+              "areaKm2": 132.28
+            }
+          ]
+        },
+        {
+          "code": "6154",
+          "name": "Xã Bắc Việt",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Văn Lãng",
+              "newWardShort": "Văn Lãng",
+              "newWardCode": "06154",
+              "newWardType": "Xã",
+              "lat": 22.0881,
+              "lon": 106.541,
+              "areaKm2": 132.28
+            }
+          ]
+        },
+        {
+          "code": "6160",
+          "name": "Xã Gia Miễn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Hội Hoan",
+              "newWardShort": "Hội Hoan",
+              "newWardCode": "06151",
+              "newWardType": "Xã",
+              "lat": 22.0321,
+              "lon": 106.485,
+              "areaKm2": 117.43
+            }
+          ]
+        },
+        {
+          "code": "6178",
+          "name": "Xã Hoàng Văn Thụ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Hoàng Văn Thụ",
+              "newWardShort": "Hoàng Văn Thụ",
+              "newWardCode": "06172",
+              "newWardType": "Xã",
+              "lat": 21.8425,
+              "lon": 106.816,
+              "areaKm2": 61.7
+            }
+          ]
+        },
+        {
+          "code": "6157",
+          "name": "Xã Hoàng Việt",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Na Sầm",
+              "newWardShort": "Na Sầm",
+              "newWardCode": "06124",
+              "newWardType": "Xã",
+              "lat": 22.0766,
+              "lon": 106.607,
+              "areaKm2": 94.47
+            }
+          ]
+        },
+        {
+          "code": "6151",
+          "name": "Xã Hội Hoan",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Hội Hoan",
+              "newWardShort": "Hội Hoan",
+              "newWardCode": "06151",
+              "newWardType": "Xã",
+              "lat": 22.0321,
+              "lon": 106.485,
+              "areaKm2": 117.43
+            }
+          ]
+        },
+        {
+          "code": "6175",
+          "name": "Xã Hồng Thái",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Hoàng Văn Thụ",
+              "newWardShort": "Hoàng Văn Thụ",
+              "newWardCode": "06172",
+              "newWardType": "Xã",
+              "lat": 21.8425,
+              "lon": 106.816,
+              "areaKm2": 61.7
+            }
+          ]
+        },
+        {
+          "code": "6181",
+          "name": "Xã Nhạc Kỳ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Hoàng Văn Thụ",
+              "newWardShort": "Hoàng Văn Thụ",
+              "newWardCode": "06172",
+              "newWardType": "Xã",
+              "lat": 21.8425,
+              "lon": 106.816,
+              "areaKm2": 61.7
+            }
+          ]
+        },
+        {
+          "code": "6172",
+          "name": "Xã Tân Mỹ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Hoàng Văn Thụ",
+              "newWardShort": "Hoàng Văn Thụ",
+              "newWardCode": "06172",
+              "newWardType": "Xã",
+              "lat": 21.8425,
+              "lon": 106.816,
+              "areaKm2": 61.7
+            }
+          ]
+        },
+        {
+          "code": "6142",
+          "name": "Xã Tân Tác",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Văn Lãng",
+              "newWardShort": "Văn Lãng",
+              "newWardCode": "06154",
+              "newWardType": "Xã",
+              "lat": 22.0881,
+              "lon": 106.541,
+              "areaKm2": 132.28
+            }
+          ]
+        },
+        {
+          "code": "6166",
+          "name": "Xã Tân Thanh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Hoàng Văn Thụ",
+              "newWardShort": "Hoàng Văn Thụ",
+              "newWardCode": "06172",
+              "newWardType": "Xã",
+              "lat": 21.8425,
+              "lon": 106.816,
+              "areaKm2": 61.7
+            }
+          ]
+        },
+        {
+          "code": "6163",
+          "name": "Xã Thành Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Văn Lãng",
+              "newWardShort": "Văn Lãng",
+              "newWardCode": "06154",
+              "newWardType": "Xã",
+              "lat": 22.0881,
+              "lon": 106.541,
+              "areaKm2": 132.28
+            }
+          ]
+        },
+        {
+          "code": "6148",
+          "name": "Xã Thanh Long",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Thụy Hùng",
+              "newWardShort": "Thụy Hùng",
+              "newWardCode": "06148",
+              "newWardType": "Xã",
+              "lat": 22.1161,
+              "lon": 106.66,
+              "areaKm2": 108.76
+            }
+          ]
+        },
+        {
+          "code": "6136",
+          "name": "Xã Thụy Hùng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Thụy Hùng",
+              "newWardShort": "Thụy Hùng",
+              "newWardCode": "06148",
+              "newWardType": "Xã",
+              "lat": 22.1161,
+              "lon": 106.66,
+              "areaKm2": 108.76
+            }
+          ]
+        },
+        {
+          "code": "6127",
+          "name": "Xã Trùng Khánh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Thụy Hùng",
+              "newWardShort": "Thụy Hùng",
+              "newWardCode": "06148",
+              "newWardType": "Xã",
+              "lat": 22.1161,
+              "lon": 106.66,
+              "areaKm2": 108.76
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "184",
+      "name": "Huyện Văn Quan",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "6253",
+          "name": "Thị trấn Văn Quan",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Văn Quan",
+              "newWardShort": "Văn Quan",
+              "newWardCode": "06253",
+              "newWardType": "Xã",
+              "lat": 21.8669,
+              "lon": 106.505,
+              "areaKm2": 87.57
+            }
+          ]
+        },
+        {
+          "code": "6283",
+          "name": "Xã An Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Yên Phúc",
+              "newWardShort": "Yên Phúc",
+              "newWardCode": "06298",
+              "newWardType": "Xã",
+              "lat": 21.8164,
+              "lon": 106.552,
+              "areaKm2": 117.93
+            }
+          ]
+        },
+        {
+          "code": "6298",
+          "name": "Xã Bình Phúc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Yên Phúc",
+              "newWardShort": "Yên Phúc",
+              "newWardCode": "06298",
+              "newWardType": "Xã",
+              "lat": 21.8164,
+              "lon": 106.552,
+              "areaKm2": 117.93
+            }
+          ]
+        },
+        {
+          "code": "6280",
+          "name": "Xã Điềm He",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Điềm He",
+              "newWardShort": "Điềm He",
+              "newWardCode": "06280",
+              "newWardType": "Xã",
+              "lat": 21.9462,
+              "lon": 106.565,
+              "areaKm2": 103.12
+            }
+          ]
+        },
+        {
+          "code": "6274",
+          "name": "Xã Hòa Bình",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Văn Quan",
+              "newWardShort": "Văn Quan",
+              "newWardCode": "06253",
+              "newWardType": "Xã",
+              "lat": 21.8669,
+              "lon": 106.505,
+              "areaKm2": 87.57
+            }
+          ]
+        },
+        {
+          "code": "6322",
+          "name": "Xã Hữu Lễ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Tri Lễ",
+              "newWardShort": "Tri Lễ",
+              "newWardCode": "06313",
+              "newWardType": "Xã",
+              "lat": 21.7795,
+              "lon": 106.438,
+              "areaKm2": 243.95
+            }
+          ]
+        },
+        {
+          "code": "6286",
+          "name": "Xã Khánh Khê",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Khánh Khê",
+              "newWardShort": "Khánh Khê",
+              "newWardCode": "06286",
+              "newWardType": "Xã",
+              "lat": 21.85,
+              "lon": 106.667,
+              "areaKm2": 93.64
+            }
+          ]
+        },
+        {
+          "code": "6268",
+          "name": "Xã Liên Hội",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Điềm He",
+              "newWardShort": "Điềm He",
+              "newWardCode": "06280",
+              "newWardType": "Xã",
+              "lat": 21.9462,
+              "lon": 106.565,
+              "areaKm2": 103.12
+            }
+          ]
+        },
+        {
+          "code": "6292",
+          "name": "Xã Lương Năng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Tri Lễ",
+              "newWardShort": "Tri Lễ",
+              "newWardCode": "06313",
+              "newWardType": "Xã",
+              "lat": 21.7795,
+              "lon": 106.438,
+              "areaKm2": 243.95
+            }
+          ]
+        },
+        {
+          "code": "6307",
+          "name": "Xã Tân Đoàn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Tân Đoàn",
+              "newWardShort": "Tân Đoàn",
+              "newWardCode": "06316",
+              "newWardType": "Xã",
+              "lat": 21.7784,
+              "lon": 106.631,
+              "areaKm2": 100.41
+            }
+          ]
+        },
+        {
+          "code": "6256",
+          "name": "Xã Trấn Ninh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Điềm He",
+              "newWardShort": "Điềm He",
+              "newWardCode": "06280",
+              "newWardType": "Xã",
+              "lat": 21.9462,
+              "lon": 106.565,
+              "areaKm2": 103.12
+            }
+          ]
+        },
+        {
+          "code": "6316",
+          "name": "Xã Tràng Phái",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Tân Đoàn",
+              "newWardShort": "Tân Đoàn",
+              "newWardCode": "06316",
+              "newWardType": "Xã",
+              "lat": 21.7784,
+              "lon": 106.631,
+              "areaKm2": 100.41
+            }
+          ]
+        },
+        {
+          "code": "6313",
+          "name": "Xã Tri Lễ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Tri Lễ",
+              "newWardShort": "Tri Lễ",
+              "newWardCode": "06313",
+              "newWardType": "Xã",
+              "lat": 21.7795,
+              "lon": 106.438,
+              "areaKm2": 243.95
+            }
+          ]
+        },
+        {
+          "code": "6277",
+          "name": "Xã Tú Xuyên",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Văn Quan",
+              "newWardShort": "Văn Quan",
+              "newWardCode": "06253",
+              "newWardType": "Xã",
+              "lat": 21.8669,
+              "lon": 106.505,
+              "areaKm2": 87.57
+            }
+          ]
+        },
+        {
+          "code": "6319",
+          "name": "Xã Yên Phúc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Xã Yên Phúc",
+              "newWardShort": "Yên Phúc",
+              "newWardCode": "06298",
+              "newWardType": "Xã",
+              "lat": 21.8164,
+              "lon": 106.552,
+              "areaKm2": 117.93
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "178",
+      "name": "Thành phố Lạng Sơn",
+      "type": "Thành phố",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "5983",
+          "name": "Phường Chi Lăng",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Phường Lương Văn Tri",
+              "newWardShort": "Lương Văn Tri",
+              "newWardCode": "05983",
+              "newWardType": "Phường",
+              "lat": 21.8236,
+              "lon": 106.729,
+              "areaKm2": 31.76
+            }
+          ]
+        },
+        {
+          "code": "5980",
+          "name": "Phường Đông Kinh",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Phường Đông Kinh",
+              "newWardShort": "Đông Kinh",
+              "newWardCode": "05977",
+              "newWardType": "Phường",
+              "lat": 21.8068,
+              "lon": 106.771,
+              "areaKm2": 54.71
+            }
+          ]
+        },
+        {
+          "code": "5971",
+          "name": "Phường Hoàng Văn Thụ",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Phường Kỳ Lừa",
+              "newWardShort": "Kỳ Lừa",
+              "newWardCode": "06187",
+              "newWardType": "Phường",
+              "lat": 21.85926,
+              "lon": 106.75417,
+              "areaKm2": 0
+            }
+          ]
+        },
+        {
+          "code": "5974",
+          "name": "Phường Tam Thanh",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Phường Tam Thanh",
+              "newWardShort": "Tam Thanh",
+              "newWardCode": "05986",
+              "newWardType": "Phường",
+              "lat": 21.8837,
+              "lon": 106.743,
+              "areaKm2": 27.35
+            }
+          ]
+        },
+        {
+          "code": "5977",
+          "name": "Phường Vĩnh Trại",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Phường Đông Kinh",
+              "newWardShort": "Đông Kinh",
+              "newWardCode": "05977",
+              "newWardType": "Phường",
+              "lat": 21.8068,
+              "lon": 106.771,
+              "areaKm2": 54.71
+            }
+          ]
+        },
+        {
+          "code": "5986",
+          "name": "Xã Hoàng Đồng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Phường Tam Thanh",
+              "newWardShort": "Tam Thanh",
+              "newWardCode": "05986",
+              "newWardType": "Phường",
+              "lat": 21.8837,
+              "lon": 106.743,
+              "areaKm2": 27.35
+            }
+          ]
+        },
+        {
+          "code": "5992",
+          "name": "Xã Mai Pha",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Phường Đông Kinh",
+              "newWardShort": "Đông Kinh",
+              "newWardCode": "05977",
+              "newWardType": "Phường",
+              "lat": 21.8068,
+              "lon": 106.771,
+              "areaKm2": 54.71
+            }
+          ]
+        },
+        {
+          "code": "5989",
+          "name": "Xã Quảng Lạc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lạng Sơn",
+              "newProvinceSlug": "lang-son",
+              "newProvinceCode": "20",
+              "newWard": "Phường Lương Văn Tri",
+              "newWardShort": "Lương Văn Tri",
+              "newWardCode": "05983",
+              "newWardType": "Phường",
+              "lat": 21.8236,
+              "lon": 106.729,
+              "areaKm2": 31.76
+            }
+          ]
+        }
+      ],
+      "results": []
+    }
+  ]
+}

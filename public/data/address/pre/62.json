@@ -1,0 +1,2140 @@
+{
+  "schemaVersion": 1,
+  "mergeDate": "2025-07-01",
+  "code": "62",
+  "name": "Tỉnh Kon Tum",
+  "name_en": "Kon Tum Province",
+  "slug": "kon-tum",
+  "districts": [
+    {
+      "code": "610",
+      "name": "Huyện Đắk Glei",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "23341",
+          "name": "Thị trấn Đăk Glei",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Đăk Pék",
+              "newWardShort": "Đăk Pék",
+              "newWardCode": "23341",
+              "newWardType": "Xã",
+              "lat": 15.0668,
+              "lon": 107.743,
+              "areaKm2": 182.72
+            }
+          ]
+        },
+        {
+          "code": "23344",
+          "name": "Xã Đăk Blô",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Đăk Plô",
+              "newWardShort": "Đăk Plô",
+              "newWardCode": "23344",
+              "newWardType": "Xã",
+              "lat": 15.21,
+              "lon": 107.669,
+              "areaKm2": 433.41
+            }
+          ]
+        },
+        {
+          "code": "23356",
+          "name": "Xã Đăk Choong",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Xốp",
+              "newWardShort": "Xốp",
+              "newWardCode": "23356",
+              "newWardType": "Xã",
+              "lat": 15.1186,
+              "lon": 107.835,
+              "areaKm2": 265.86
+            }
+          ]
+        },
+        {
+          "code": "23371",
+          "name": "Xã Đăk Kroong",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Đăk Môn",
+              "newWardShort": "Đăk Môn",
+              "newWardCode": "23374",
+              "newWardType": "Xã",
+              "lat": 14.9516,
+              "lon": 107.69,
+              "areaKm2": 150.8
+            }
+          ]
+        },
+        {
+          "code": "23368",
+          "name": "Xã Đăk Long",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Đăk Long",
+              "newWardShort": "Đăk Long",
+              "newWardCode": "23368",
+              "newWardType": "Xã",
+              "lat": 14.9649,
+              "lon": 107.574,
+              "areaKm2": 280.5
+            }
+          ]
+        },
+        {
+          "code": "23347",
+          "name": "Xã Đăk Man",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Đăk Plô",
+              "newWardShort": "Đăk Plô",
+              "newWardCode": "23344",
+              "newWardType": "Xã",
+              "lat": 15.21,
+              "lon": 107.669,
+              "areaKm2": 433.41
+            }
+          ]
+        },
+        {
+          "code": "23374",
+          "name": "Xã Đăk Môn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Đăk Môn",
+              "newWardShort": "Đăk Môn",
+              "newWardCode": "23374",
+              "newWardType": "Xã",
+              "lat": 14.9516,
+              "lon": 107.69,
+              "areaKm2": 150.8
+            }
+          ]
+        },
+        {
+          "code": "23350",
+          "name": "Xã Đăk Nhoong",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Đăk Plô",
+              "newWardShort": "Đăk Plô",
+              "newWardCode": "23344",
+              "newWardType": "Xã",
+              "lat": 15.21,
+              "lon": 107.669,
+              "areaKm2": 433.41
+            }
+          ]
+        },
+        {
+          "code": "23353",
+          "name": "Xã Đăk Pék",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Đăk Pék",
+              "newWardShort": "Đăk Pék",
+              "newWardCode": "23341",
+              "newWardType": "Xã",
+              "lat": 15.0668,
+              "lon": 107.743,
+              "areaKm2": 182.72
+            }
+          ]
+        },
+        {
+          "code": "23362",
+          "name": "Xã Mường Hoong",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Ngọc Linh",
+              "newWardShort": "Ngọc Linh",
+              "newWardCode": "23365",
+              "newWardType": "Xã",
+              "lat": 15.1086,
+              "lon": 107.936,
+              "areaKm2": 180.35
+            }
+          ]
+        },
+        {
+          "code": "23365",
+          "name": "Xã Ngọc Linh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Ngọc Linh",
+              "newWardShort": "Ngọc Linh",
+              "newWardCode": "23365",
+              "newWardType": "Xã",
+              "lat": 15.1086,
+              "lon": 107.936,
+              "areaKm2": 180.35
+            }
+          ]
+        },
+        {
+          "code": "23359",
+          "name": "Xã Xốp",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Xốp",
+              "newWardShort": "Xốp",
+              "newWardCode": "23356",
+              "newWardType": "Xã",
+              "lat": 15.1186,
+              "lon": 107.835,
+              "areaKm2": 265.86
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "615",
+      "name": "Huyện Đăk Hà",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "23500",
+          "name": "Thị trấn Đăk Hà",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Đăk Hà",
+              "newWardShort": "Đăk Hà",
+              "newWardCode": "23500",
+              "newWardType": "Xã",
+              "lat": 14.4634,
+              "lon": 107.929,
+              "areaKm2": 104.08
+            }
+          ]
+        },
+        {
+          "code": "23506",
+          "name": "Xã Đăk Hring",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Đăk Mar",
+              "newWardShort": "Đăk Mar",
+              "newWardCode": "23512",
+              "newWardType": "Xã",
+              "lat": 14.574,
+              "lon": 107.924,
+              "areaKm2": 112.79
+            }
+          ]
+        },
+        {
+          "code": "23524",
+          "name": "Xã Đăk La",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Đăk Hà",
+              "newWardShort": "Đăk Hà",
+              "newWardCode": "23500",
+              "newWardType": "Xã",
+              "lat": 14.4634,
+              "lon": 107.929,
+              "areaKm2": 104.08
+            }
+          ]
+        },
+        {
+          "code": "23504",
+          "name": "Xã Đăk Long",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Đăk Pxi",
+              "newWardShort": "Đăk Pxi",
+              "newWardCode": "23504",
+              "newWardType": "Xã",
+              "lat": 14.719,
+              "lon": 108.005,
+              "areaKm2": 325.35
+            }
+          ]
+        },
+        {
+          "code": "23512",
+          "name": "Xã Đăk Mar",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Đăk Mar",
+              "newWardShort": "Đăk Mar",
+              "newWardCode": "23512",
+              "newWardType": "Xã",
+              "lat": 14.574,
+              "lon": 107.924,
+              "areaKm2": 112.79
+            }
+          ]
+        },
+        {
+          "code": "23510",
+          "name": "Xã Đăk Ngọk",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Đăk Ui",
+              "newWardShort": "Đăk Ui",
+              "newWardCode": "23510",
+              "newWardType": "Xã",
+              "lat": 14.586,
+              "lon": 108.009,
+              "areaKm2": 132.52
+            }
+          ]
+        },
+        {
+          "code": "23503",
+          "name": "Xã Đăk Pxi",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Đăk Pxi",
+              "newWardShort": "Đăk Pxi",
+              "newWardCode": "23504",
+              "newWardType": "Xã",
+              "lat": 14.719,
+              "lon": 108.005,
+              "areaKm2": 325.35
+            }
+          ]
+        },
+        {
+          "code": "23509",
+          "name": "Xã Đăk Ui",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Đăk Ui",
+              "newWardShort": "Đăk Ui",
+              "newWardCode": "23510",
+              "newWardType": "Xã",
+              "lat": 14.586,
+              "lon": 108.009,
+              "areaKm2": 132.52
+            }
+          ]
+        },
+        {
+          "code": "23521",
+          "name": "Xã Hà Mòn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Đăk Hà",
+              "newWardShort": "Đăk Hà",
+              "newWardCode": "23500",
+              "newWardType": "Xã",
+              "lat": 14.4634,
+              "lon": 107.929,
+              "areaKm2": 104.08
+            }
+          ]
+        },
+        {
+          "code": "23518",
+          "name": "Xã Ngọk Réo",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Ngọk Réo",
+              "newWardShort": "Ngọk Réo",
+              "newWardCode": "23515",
+              "newWardType": "Xã",
+              "lat": 14.4954,
+              "lon": 108.038,
+              "areaKm2": 170.29
+            }
+          ]
+        },
+        {
+          "code": "23515",
+          "name": "Xã Ngọk Wang",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Ngọk Réo",
+              "newWardShort": "Ngọk Réo",
+              "newWardCode": "23515",
+              "newWardType": "Xã",
+              "lat": 14.4954,
+              "lon": 108.038,
+              "areaKm2": 170.29
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "612",
+      "name": "Huyện Đắk Tô",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "23401",
+          "name": "Thị trấn Đăk Tô",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Đăk Tô",
+              "newWardShort": "Đăk Tô",
+              "newWardCode": "23401",
+              "newWardType": "Xã",
+              "lat": 14.6189,
+              "lon": 107.824,
+              "areaKm2": 218.38
+            }
+          ]
+        },
+        {
+          "code": "23427",
+          "name": "Xã Đăk Rơ Nga",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Ngọk Tụ",
+              "newWardShort": "Ngọk Tụ",
+              "newWardCode": "23428",
+              "newWardType": "Xã",
+              "lat": 14.7529,
+              "lon": 107.768,
+              "areaKm2": 160.97
+            }
+          ]
+        },
+        {
+          "code": "23430",
+          "name": "Xã Đăk Trăm",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Kon Đào",
+              "newWardShort": "Kon Đào",
+              "newWardCode": "23430",
+              "newWardType": "Xã",
+              "lat": 14.7452,
+              "lon": 107.865,
+              "areaKm2": 129.34
+            }
+          ]
+        },
+        {
+          "code": "23440",
+          "name": "Xã Diên Bình",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Đăk Tô",
+              "newWardShort": "Đăk Tô",
+              "newWardCode": "23401",
+              "newWardType": "Xã",
+              "lat": 14.6189,
+              "lon": 107.824,
+              "areaKm2": 218.38
+            }
+          ]
+        },
+        {
+          "code": "23434",
+          "name": "Xã Kon Đào",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Kon Đào",
+              "newWardShort": "Kon Đào",
+              "newWardCode": "23430",
+              "newWardType": "Xã",
+              "lat": 14.7452,
+              "lon": 107.865,
+              "areaKm2": 129.34
+            }
+          ]
+        },
+        {
+          "code": "23428",
+          "name": "Xã Ngọk Tụ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Ngọk Tụ",
+              "newWardShort": "Ngọk Tụ",
+              "newWardCode": "23428",
+              "newWardType": "Xã",
+              "lat": 14.7529,
+              "lon": 107.768,
+              "areaKm2": 160.97
+            }
+          ]
+        },
+        {
+          "code": "23443",
+          "name": "Xã Pô Kô",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Đăk Tô",
+              "newWardShort": "Đăk Tô",
+              "newWardCode": "23401",
+              "newWardType": "Xã",
+              "lat": 14.6189,
+              "lon": 107.824,
+              "areaKm2": 218.38
+            }
+          ]
+        },
+        {
+          "code": "23437",
+          "name": "Xã Tân Cảnh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Đăk Tô",
+              "newWardShort": "Đăk Tô",
+              "newWardCode": "23401",
+              "newWardType": "Xã",
+              "lat": 14.6189,
+              "lon": 107.824,
+              "areaKm2": 218.38
+            }
+          ]
+        },
+        {
+          "code": "23431",
+          "name": "Xã Văn Lem",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Kon Đào",
+              "newWardShort": "Kon Đào",
+              "newWardCode": "23430",
+              "newWardType": "Xã",
+              "lat": 14.7452,
+              "lon": 107.865,
+              "areaKm2": 129.34
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "618",
+      "name": "Huyện Ia H'Drai",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "23535",
+          "name": "Xã Ia Đal",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Ia Đal",
+              "newWardShort": "Ia Đal",
+              "newWardCode": "23535",
+              "newWardType": "Xã",
+              "lat": 14.2146,
+              "lon": 107.429,
+              "areaKm2": 218.11
+            }
+          ]
+        },
+        {
+          "code": "23537",
+          "name": "Xã Ia Dom",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Ia Tơi",
+              "newWardShort": "Ia Tơi",
+              "newWardCode": "23538",
+              "newWardType": "Xã",
+              "lat": 14.1125,
+              "lon": 107.531,
+              "areaKm2": 762.1
+            }
+          ]
+        },
+        {
+          "code": "23538",
+          "name": "Xã Ia Tơi",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Ia Tơi",
+              "newWardShort": "Ia Tơi",
+              "newWardCode": "23538",
+              "newWardType": "Xã",
+              "lat": 14.1125,
+              "lon": 107.531,
+              "areaKm2": 762.1
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "613",
+      "name": "Huyện Kon Plông",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "23473",
+          "name": "Thị trấn Măng Đen",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Măng Đen",
+              "newWardShort": "Măng Đen",
+              "newWardCode": "23473",
+              "newWardType": "Xã",
+              "lat": 14.6806,
+              "lon": 108.278,
+              "areaKm2": 396.93
+            }
+          ]
+        },
+        {
+          "code": "23452",
+          "name": "Xã Đăk Nên",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Măng Bút",
+              "newWardShort": "Măng Bút",
+              "newWardCode": "23455",
+              "newWardType": "Xã",
+              "lat": 14.9132,
+              "lon": 108.22,
+              "areaKm2": 417.53
+            }
+          ]
+        },
+        {
+          "code": "23455",
+          "name": "Xã Đăk Ring",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Măng Bút",
+              "newWardShort": "Măng Bút",
+              "newWardCode": "23455",
+              "newWardType": "Xã",
+              "lat": 14.9132,
+              "lon": 108.22,
+              "areaKm2": 417.53
+            }
+          ]
+        },
+        {
+          "code": "23461",
+          "name": "Xã Đăk Tăng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Măng Đen",
+              "newWardShort": "Măng Đen",
+              "newWardCode": "23473",
+              "newWardType": "Xã",
+              "lat": 14.6806,
+              "lon": 108.278,
+              "areaKm2": 396.93
+            }
+          ]
+        },
+        {
+          "code": "23476",
+          "name": "Xã Hiếu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Kon Plông",
+              "newWardShort": "Kon Plông",
+              "newWardCode": "23476",
+              "newWardType": "Xã",
+              "lat": 14.7211,
+              "lon": 108.415,
+              "areaKm2": 556.8
+            }
+          ]
+        },
+        {
+          "code": "23458",
+          "name": "Xã Măng Bút",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Măng Bút",
+              "newWardShort": "Măng Bút",
+              "newWardCode": "23455",
+              "newWardType": "Xã",
+              "lat": 14.9132,
+              "lon": 108.22,
+              "areaKm2": 417.53
+            }
+          ]
+        },
+        {
+          "code": "23470",
+          "name": "Xã Măng Cành",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Măng Đen",
+              "newWardShort": "Măng Đen",
+              "newWardCode": "23473",
+              "newWardType": "Xã",
+              "lat": 14.6806,
+              "lon": 108.278,
+              "areaKm2": 396.93
+            }
+          ]
+        },
+        {
+          "code": "23464",
+          "name": "Xã Ngọc Tem",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Kon Plông",
+              "newWardShort": "Kon Plông",
+              "newWardCode": "23476",
+              "newWardType": "Xã",
+              "lat": 14.7211,
+              "lon": 108.415,
+              "areaKm2": 556.8
+            }
+          ]
+        },
+        {
+          "code": "23467",
+          "name": "Xã Pờ Ê",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Kon Plông",
+              "newWardShort": "Kon Plông",
+              "newWardCode": "23476",
+              "newWardType": "Xã",
+              "lat": 14.7211,
+              "lon": 108.415,
+              "areaKm2": 556.8
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "614",
+      "name": "Huyện Kon Rẫy",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "23479",
+          "name": "Thị trấn Đăk Rve",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Đăk Rve",
+              "newWardShort": "Đăk Rve",
+              "newWardCode": "23479",
+              "newWardType": "Xã",
+              "lat": 14.4925,
+              "lon": 108.29,
+              "areaKm2": 212.54
+            }
+          ]
+        },
+        {
+          "code": "23482",
+          "name": "Xã Đăk Kôi",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Đăk Kôi",
+              "newWardShort": "Đăk Kôi",
+              "newWardCode": "23485",
+              "newWardType": "Xã",
+              "lat": 14.6275,
+              "lon": 108.152,
+              "areaKm2": 450.48
+            }
+          ]
+        },
+        {
+          "code": "23491",
+          "name": "Xã Đăk Pne",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Đăk Rve",
+              "newWardShort": "Đăk Rve",
+              "newWardCode": "23479",
+              "newWardType": "Xã",
+              "lat": 14.4925,
+              "lon": 108.29,
+              "areaKm2": 212.54
+            }
+          ]
+        },
+        {
+          "code": "23488",
+          "name": "Xã Đăk Ruồng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Kon Braih",
+              "newWardShort": "Kon Braih",
+              "newWardCode": "23497",
+              "newWardType": "Xã",
+              "lat": 14.4325,
+              "lon": 108.163,
+              "areaKm2": 250.89
+            }
+          ]
+        },
+        {
+          "code": "23485",
+          "name": "Xã Đăk Tơ Lung",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Đăk Kôi",
+              "newWardShort": "Đăk Kôi",
+              "newWardCode": "23485",
+              "newWardType": "Xã",
+              "lat": 14.6275,
+              "lon": 108.152,
+              "areaKm2": 450.48
+            }
+          ]
+        },
+        {
+          "code": "23494",
+          "name": "Xã Đăk Tờ Re",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Kon Braih",
+              "newWardShort": "Kon Braih",
+              "newWardCode": "23497",
+              "newWardType": "Xã",
+              "lat": 14.4325,
+              "lon": 108.163,
+              "areaKm2": 250.89
+            }
+          ]
+        },
+        {
+          "code": "23497",
+          "name": "Xã Tân Lập",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Kon Braih",
+              "newWardShort": "Kon Braih",
+              "newWardCode": "23497",
+              "newWardType": "Xã",
+              "lat": 14.4325,
+              "lon": 108.163,
+              "areaKm2": 250.89
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "611",
+      "name": "Huyện Ngọc Hồi",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "23377",
+          "name": "Thị trấn Plei Kần",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Bờ Y",
+              "newWardShort": "Bờ Y",
+              "newWardCode": "23377",
+              "newWardType": "Xã",
+              "lat": 14.7068,
+              "lon": 107.609,
+              "areaKm2": 242.11
+            }
+          ]
+        },
+        {
+          "code": "23380",
+          "name": "Xã Đăk Ang",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Dục Nông",
+              "newWardShort": "Dục Nông",
+              "newWardCode": "23383",
+              "newWardType": "Xã",
+              "lat": 14.8213,
+              "lon": 107.65,
+              "areaKm2": 321.99
+            }
+          ]
+        },
+        {
+          "code": "23383",
+          "name": "Xã Đăk Dục",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Dục Nông",
+              "newWardShort": "Dục Nông",
+              "newWardCode": "23383",
+              "newWardType": "Xã",
+              "lat": 14.8213,
+              "lon": 107.65,
+              "areaKm2": 321.99
+            }
+          ]
+        },
+        {
+          "code": "23392",
+          "name": "Xã Đăk Kan",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Sa Loong",
+              "newWardShort": "Sa Loong",
+              "newWardCode": "23392",
+              "newWardType": "Xã",
+              "lat": 14.596,
+              "lon": 107.634,
+              "areaKm2": 275.26
+            }
+          ]
+        },
+        {
+          "code": "23386",
+          "name": "Xã Đăk Nông",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Dục Nông",
+              "newWardShort": "Dục Nông",
+              "newWardCode": "23383",
+              "newWardType": "Xã",
+              "lat": 14.8213,
+              "lon": 107.65,
+              "areaKm2": 321.99
+            }
+          ]
+        },
+        {
+          "code": "23389",
+          "name": "Xã Đăk Xú",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Bờ Y",
+              "newWardShort": "Bờ Y",
+              "newWardCode": "23377",
+              "newWardType": "Xã",
+              "lat": 14.7068,
+              "lon": 107.609,
+              "areaKm2": 242.11
+            }
+          ]
+        },
+        {
+          "code": "23395",
+          "name": "Xã Pờ Y",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Bờ Y",
+              "newWardShort": "Bờ Y",
+              "newWardCode": "23377",
+              "newWardType": "Xã",
+              "lat": 14.7068,
+              "lon": 107.609,
+              "areaKm2": 242.11
+            }
+          ]
+        },
+        {
+          "code": "23398",
+          "name": "Xã Sa Loong",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Sa Loong",
+              "newWardShort": "Sa Loong",
+              "newWardCode": "23392",
+              "newWardType": "Xã",
+              "lat": 14.596,
+              "lon": 107.634,
+              "areaKm2": 275.26
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "616",
+      "name": "Huyện Sa Thầy",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "23527",
+          "name": "Thị trấn Sa Thầy",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Sa Thầy",
+              "newWardShort": "Sa Thầy",
+              "newWardCode": "23527",
+              "newWardType": "Xã",
+              "lat": 14.4325,
+              "lon": 107.764,
+              "areaKm2": 137.89
+            }
+          ]
+        },
+        {
+          "code": "23534",
+          "name": "Xã Hơ Moong",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Sa Bình",
+              "newWardShort": "Sa Bình",
+              "newWardCode": "23534",
+              "newWardType": "Xã",
+              "lat": 14.4412,
+              "lon": 107.842,
+              "areaKm2": 140.32
+            }
+          ]
+        },
+        {
+          "code": "23536",
+          "name": "Xã Mô Rai",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Mô Rai",
+              "newWardShort": "Mô Rai",
+              "newWardCode": "23536",
+              "newWardType": "Xã",
+              "lat": 14.3581,
+              "lon": 107.589,
+              "areaKm2": 583.92
+            }
+          ]
+        },
+        {
+          "code": "23530",
+          "name": "Xã Rờ Kơi",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Rờ Kơi",
+              "newWardShort": "Rờ Kơi",
+              "newWardCode": "23530",
+              "newWardType": "Xã",
+              "lat": 14.5204,
+              "lon": 107.728,
+              "areaKm2": 298.29
+            }
+          ]
+        },
+        {
+          "code": "23545",
+          "name": "Xã Sa Bình",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Sa Bình",
+              "newWardShort": "Sa Bình",
+              "newWardCode": "23534",
+              "newWardType": "Xã",
+              "lat": 14.4412,
+              "lon": 107.842,
+              "areaKm2": 140.32
+            }
+          ]
+        },
+        {
+          "code": "23542",
+          "name": "Xã Sa Nghĩa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Sa Bình",
+              "newWardShort": "Sa Bình",
+              "newWardCode": "23534",
+              "newWardType": "Xã",
+              "lat": 14.4412,
+              "lon": 107.842,
+              "areaKm2": 140.32
+            }
+          ]
+        },
+        {
+          "code": "23533",
+          "name": "Xã Sa Nhơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Sa Thầy",
+              "newWardShort": "Sa Thầy",
+              "newWardCode": "23527",
+              "newWardType": "Xã",
+              "lat": 14.4325,
+              "lon": 107.764,
+              "areaKm2": 137.89
+            }
+          ]
+        },
+        {
+          "code": "23539",
+          "name": "Xã Sa Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Sa Thầy",
+              "newWardShort": "Sa Thầy",
+              "newWardCode": "23527",
+              "newWardType": "Xã",
+              "lat": 14.4325,
+              "lon": 107.764,
+              "areaKm2": 137.89
+            }
+          ]
+        },
+        {
+          "code": "23554",
+          "name": "Xã Ya ly",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Ya Ly",
+              "newWardShort": "Ya Ly",
+              "newWardCode": "23548",
+              "newWardType": "Xã",
+              "lat": 14.2904,
+              "lon": 107.771,
+              "areaKm2": 271.31
+            }
+          ]
+        },
+        {
+          "code": "23551",
+          "name": "Xã Ya Tăng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Ya Ly",
+              "newWardShort": "Ya Ly",
+              "newWardCode": "23548",
+              "newWardType": "Xã",
+              "lat": 14.2904,
+              "lon": 107.771,
+              "areaKm2": 271.31
+            }
+          ]
+        },
+        {
+          "code": "23548",
+          "name": "Xã Ya Xiêr",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Ya Ly",
+              "newWardShort": "Ya Ly",
+              "newWardCode": "23548",
+              "newWardType": "Xã",
+              "lat": 14.2904,
+              "lon": 107.771,
+              "areaKm2": 271.31
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "617",
+      "name": "Huyện Tu Mơ Rông",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "23425",
+          "name": "Xã Đăk Hà",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Tu Mơ Rông",
+              "newWardShort": "Tu Mơ Rông",
+              "newWardCode": "23425",
+              "newWardType": "Xã",
+              "lat": 14.8184,
+              "lon": 107.965,
+              "areaKm2": 152.13
+            }
+          ]
+        },
+        {
+          "code": "23407",
+          "name": "Xã Đăk Na",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Đăk Sao",
+              "newWardShort": "Đăk Sao",
+              "newWardCode": "23416",
+              "newWardType": "Xã",
+              "lat": 14.9425,
+              "lon": 107.836,
+              "areaKm2": 172.29
+            }
+          ]
+        },
+        {
+          "code": "23417",
+          "name": "Xã Đăk Rơ Ông",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Đăk Tờ Kan",
+              "newWardShort": "Đăk Tờ Kan",
+              "newWardCode": "23419",
+              "newWardType": "Xã",
+              "lat": 14.8492,
+              "lon": 107.872,
+              "areaKm2": 131.84
+            }
+          ]
+        },
+        {
+          "code": "23416",
+          "name": "Xã Đăk Sao",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Đăk Sao",
+              "newWardShort": "Đăk Sao",
+              "newWardCode": "23416",
+              "newWardType": "Xã",
+              "lat": 14.9425,
+              "lon": 107.836,
+              "areaKm2": 172.29
+            }
+          ]
+        },
+        {
+          "code": "23419",
+          "name": "Xã Đăk Tờ Kan",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Đăk Tờ Kan",
+              "newWardShort": "Đăk Tờ Kan",
+              "newWardCode": "23419",
+              "newWardType": "Xã",
+              "lat": 14.8492,
+              "lon": 107.872,
+              "areaKm2": 131.84
+            }
+          ]
+        },
+        {
+          "code": "23410",
+          "name": "Xã Măng Ri",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Măng Ri",
+              "newWardShort": "Măng Ri",
+              "newWardCode": "23446",
+              "newWardType": "Xã",
+              "lat": 14.9174,
+              "lon": 108.027,
+              "areaKm2": 401.18
+            }
+          ]
+        },
+        {
+          "code": "23404",
+          "name": "Xã Ngọk Lây",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Măng Ri",
+              "newWardShort": "Măng Ri",
+              "newWardCode": "23446",
+              "newWardType": "Xã",
+              "lat": 14.9174,
+              "lon": 108.027,
+              "areaKm2": 401.18
+            }
+          ]
+        },
+        {
+          "code": "23413",
+          "name": "Xã Ngọk Yêu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Măng Ri",
+              "newWardShort": "Măng Ri",
+              "newWardCode": "23446",
+              "newWardType": "Xã",
+              "lat": 14.9174,
+              "lon": 108.027,
+              "areaKm2": 401.18
+            }
+          ]
+        },
+        {
+          "code": "23446",
+          "name": "Xã Tê Xăng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Măng Ri",
+              "newWardShort": "Măng Ri",
+              "newWardCode": "23446",
+              "newWardType": "Xã",
+              "lat": 14.9174,
+              "lon": 108.027,
+              "areaKm2": 401.18
+            }
+          ]
+        },
+        {
+          "code": "23422",
+          "name": "Xã Tu Mơ Rông",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Tu Mơ Rông",
+              "newWardShort": "Tu Mơ Rông",
+              "newWardCode": "23425",
+              "newWardType": "Xã",
+              "lat": 14.8184,
+              "lon": 107.965,
+              "areaKm2": 152.13
+            }
+          ]
+        },
+        {
+          "code": "23449",
+          "name": "Xã Văn Xuôi",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Măng Ri",
+              "newWardShort": "Măng Ri",
+              "newWardCode": "23446",
+              "newWardType": "Xã",
+              "lat": 14.9174,
+              "lon": 108.027,
+              "areaKm2": 401.18
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "608",
+      "name": "Thành phố Kon Tum",
+      "type": "Thành phố",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "23284",
+          "name": "Phường Duy Tân",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Phường Đăk Cấm",
+              "newWardShort": "Đăk Cấm",
+              "newWardCode": "23284",
+              "newWardType": "Phường",
+              "lat": 14.4251,
+              "lon": 108.021,
+              "areaKm2": 66.33
+            }
+          ]
+        },
+        {
+          "code": "23302",
+          "name": "Phường Lê Lợi",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Phường Đăk Bla",
+              "newWardShort": "Đăk Bla",
+              "newWardCode": "23302",
+              "newWardType": "Phường",
+              "lat": 14.323,
+              "lon": 107.987,
+              "areaKm2": 14.9847
+            }
+          ]
+        },
+        {
+          "code": "23296",
+          "name": "Phường Ngô Mây",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Phường Đăk Cấm",
+              "newWardShort": "Đăk Cấm",
+              "newWardCode": "23284",
+              "newWardType": "Phường",
+              "lat": 14.4251,
+              "lon": 108.021,
+              "areaKm2": 66.33
+            }
+          ]
+        },
+        {
+          "code": "23305",
+          "name": "Phường Nguyễn Trãi",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Phường Đăk Bla",
+              "newWardShort": "Đăk Bla",
+              "newWardCode": "23302",
+              "newWardType": "Phường",
+              "lat": 14.323,
+              "lon": 107.987,
+              "areaKm2": 14.9847
+            }
+          ]
+        },
+        {
+          "code": "23281",
+          "name": "Phường Quang Trung",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Phường Kon Tum",
+              "newWardShort": "Kon Tum",
+              "newWardCode": "23293",
+              "newWardType": "Phường",
+              "lat": 14.3545,
+              "lon": 108.013,
+              "areaKm2": 19.14
+            }
+          ]
+        },
+        {
+          "code": "23287",
+          "name": "Phường Quyết Thắng",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Phường Kon Tum",
+              "newWardShort": "Kon Tum",
+              "newWardCode": "23293",
+              "newWardType": "Phường",
+              "lat": 14.3545,
+              "lon": 108.013,
+              "areaKm2": 19.14
+            }
+          ]
+        },
+        {
+          "code": "23293",
+          "name": "Phường Thắng Lợi",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Phường Kon Tum",
+              "newWardShort": "Kon Tum",
+              "newWardCode": "23293",
+              "newWardType": "Phường",
+              "lat": 14.3545,
+              "lon": 108.013,
+              "areaKm2": 19.14
+            }
+          ]
+        },
+        {
+          "code": "23299",
+          "name": "Phường Thống Nhất",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Phường Kon Tum",
+              "newWardShort": "Kon Tum",
+              "newWardCode": "23293",
+              "newWardType": "Phường",
+              "lat": 14.3545,
+              "lon": 108.013,
+              "areaKm2": 19.14
+            }
+          ]
+        },
+        {
+          "code": "23308",
+          "name": "Phường Trần Hưng Đạo",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Phường Đăk Bla",
+              "newWardShort": "Đăk Bla",
+              "newWardCode": "23302",
+              "newWardType": "Phường",
+              "lat": 14.323,
+              "lon": 107.987,
+              "areaKm2": 14.9847
+            }
+          ]
+        },
+        {
+          "code": "23290",
+          "name": "Phường Trường Chinh",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Phường Kon Tum",
+              "newWardShort": "Kon Tum",
+              "newWardCode": "23293",
+              "newWardType": "Phường",
+              "lat": 14.3545,
+              "lon": 108.013,
+              "areaKm2": 19.14
+            }
+          ]
+        },
+        {
+          "code": "23332",
+          "name": "Xã Chư Hreng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Đăk Rơ Wa",
+              "newWardShort": "Đăk Rơ Wa",
+              "newWardCode": "23332",
+              "newWardType": "Xã",
+              "lat": 14.3119,
+              "lon": 108.021,
+              "areaKm2": 157.98
+            }
+          ]
+        },
+        {
+          "code": "23323",
+          "name": "Xã Đăk Blà",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Đăk Rơ Wa",
+              "newWardShort": "Đăk Rơ Wa",
+              "newWardCode": "23332",
+              "newWardType": "Xã",
+              "lat": 14.3119,
+              "lon": 108.021,
+              "areaKm2": 157.98
+            }
+          ]
+        },
+        {
+          "code": "23311",
+          "name": "Xã Đăk Cấm",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Phường Đăk Cấm",
+              "newWardShort": "Đăk Cấm",
+              "newWardCode": "23284",
+              "newWardType": "Phường",
+              "lat": 14.4251,
+              "lon": 108.021,
+              "areaKm2": 66.33
+            }
+          ]
+        },
+        {
+          "code": "23327",
+          "name": "Xã Đăk Năng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Ia Chim",
+              "newWardShort": "Ia Chim",
+              "newWardCode": "23326",
+              "newWardType": "Xã",
+              "lat": 14.3156,
+              "lon": 107.914,
+              "areaKm2": 115.49
+            }
+          ]
+        },
+        {
+          "code": "23335",
+          "name": "Xã Đăk Rơ Wa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Đăk Rơ Wa",
+              "newWardShort": "Đăk Rơ Wa",
+              "newWardCode": "23332",
+              "newWardType": "Xã",
+              "lat": 14.3119,
+              "lon": 108.021,
+              "areaKm2": 157.98
+            }
+          ]
+        },
+        {
+          "code": "23329",
+          "name": "Xã Đoàn Kết",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Ia Chim",
+              "newWardShort": "Ia Chim",
+              "newWardCode": "23326",
+              "newWardType": "Xã",
+              "lat": 14.3156,
+              "lon": 107.914,
+              "areaKm2": 115.49
+            }
+          ]
+        },
+        {
+          "code": "23338",
+          "name": "Xã Hòa Bình",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Đăk Rơ Wa",
+              "newWardShort": "Đăk Rơ Wa",
+              "newWardCode": "23332",
+              "newWardType": "Xã",
+              "lat": 14.3119,
+              "lon": 108.021,
+              "areaKm2": 157.98
+            }
+          ]
+        },
+        {
+          "code": "23326",
+          "name": "Xã Ia Chim",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Ia Chim",
+              "newWardShort": "Ia Chim",
+              "newWardCode": "23326",
+              "newWardType": "Xã",
+              "lat": 14.3156,
+              "lon": 107.914,
+              "areaKm2": 115.49
+            }
+          ]
+        },
+        {
+          "code": "23314",
+          "name": "Xã Kroong",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Ngọk Bay",
+              "newWardShort": "Ngọk Bay",
+              "newWardCode": "23317",
+              "newWardType": "Xã",
+              "lat": 14.3985,
+              "lon": 107.894,
+              "areaKm2": 62.09
+            }
+          ]
+        },
+        {
+          "code": "23317",
+          "name": "Xã Ngọk Bay",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Ngọk Bay",
+              "newWardShort": "Ngọk Bay",
+              "newWardCode": "23317",
+              "newWardType": "Xã",
+              "lat": 14.3985,
+              "lon": 107.894,
+              "areaKm2": 62.09
+            }
+          ]
+        },
+        {
+          "code": "23320",
+          "name": "Xã Vinh Quang",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Quảng Ngãi",
+              "newProvinceSlug": "quang-ngai",
+              "newProvinceCode": "51",
+              "newWard": "Xã Ngọk Bay",
+              "newWardShort": "Ngọk Bay",
+              "newWardCode": "23317",
+              "newWardType": "Xã",
+              "lat": 14.3985,
+              "lon": 107.894,
+              "areaKm2": 62.09
+            }
+          ]
+        }
+      ],
+      "results": []
+    }
+  ]
+}

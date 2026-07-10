@@ -1,0 +1,3940 @@
+{
+  "schemaVersion": 1,
+  "mergeDate": "2025-07-01",
+  "code": "24",
+  "name": "Tỉnh Bắc Giang",
+  "name_en": "Bac Giang Province",
+  "slug": "bac-giang",
+  "districts": [
+    {
+      "code": "213",
+      "name": "Thành phố Bắc Giang",
+      "type": "Thành phố",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "7738",
+          "name": "Phường Cảnh Thụy",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Phường Cảnh Thụy",
+              "newWardShort": "Cảnh Thụy",
+              "newWardCode": "07738",
+              "newWardType": "Phường",
+              "lat": 21.1889,
+              "lon": 106.266,
+              "areaKm2": 27.73
+            }
+          ]
+        },
+        {
+          "code": "7228",
+          "name": "Phường Đa Mai",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Phường Đa Mai",
+              "newWardShort": "Đa Mai",
+              "newWardCode": "07228",
+              "newWardType": "Phường",
+              "lat": 21.2995,
+              "lon": 106.169,
+              "areaKm2": 33.1
+            }
+          ]
+        },
+        {
+          "code": "7231",
+          "name": "Phường Dĩnh Kế",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Phường Bắc Giang",
+              "newWardShort": "Bắc Giang",
+              "newWardCode": "07210",
+              "newWardType": "Phường",
+              "lat": 21.2849,
+              "lon": 106.215,
+              "areaKm2": 23.23
+            }
+          ]
+        },
+        {
+          "code": "7441",
+          "name": "Phường Dĩnh Trì",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Phường Bắc Giang",
+              "newWardShort": "Bắc Giang",
+              "newWardCode": "07210",
+              "newWardType": "Phường",
+              "lat": 21.2849,
+              "lon": 106.215,
+              "areaKm2": 23.23
+            }
+          ]
+        },
+        {
+          "code": "7696",
+          "name": "Phường Đồng Sơn",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Phường Tiền Phong",
+              "newWardShort": "Tiền Phong",
+              "newWardCode": "07696",
+              "newWardType": "Phường",
+              "lat": 21.2374,
+              "lon": 106.183,
+              "areaKm2": 30.7
+            }
+          ]
+        },
+        {
+          "code": "7210",
+          "name": "Phường Hoàng Văn Thụ",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Phường Bắc Giang",
+              "newWardShort": "Bắc Giang",
+              "newWardCode": "07210",
+              "newWardType": "Phường",
+              "lat": 21.2849,
+              "lon": 106.215,
+              "areaKm2": 23.23
+            }
+          ]
+        },
+        {
+          "code": "7690",
+          "name": "Phường Hương Gián",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Phường Tân Tiến",
+              "newWardShort": "Tân Tiến",
+              "newWardCode": "07699",
+              "newWardType": "Phường",
+              "lat": 21.2594,
+              "lon": 106.243,
+              "areaKm2": 25.46
+            }
+          ]
+        },
+        {
+          "code": "7216",
+          "name": "Phường Mỹ Độ",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Phường Đa Mai",
+              "newWardShort": "Đa Mai",
+              "newWardCode": "07228",
+              "newWardType": "Phường",
+              "lat": 21.2995,
+              "lon": 106.169,
+              "areaKm2": 33.1
+            }
+          ]
+        },
+        {
+          "code": "7207",
+          "name": "Phường Ngô Quyền",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Phường Bắc Giang",
+              "newWardShort": "Bắc Giang",
+              "newWardCode": "07210",
+              "newWardType": "Phường",
+              "lat": 21.2849,
+              "lon": 106.215,
+              "areaKm2": 23.23
+            }
+          ]
+        },
+        {
+          "code": "7681",
+          "name": "Phường Nham Biền",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Phường Yên Dũng",
+              "newWardShort": "Yên Dũng",
+              "newWardCode": "07681",
+              "newWardType": "Phường",
+              "lat": 21.2011,
+              "lon": 106.21,
+              "areaKm2": 52.42
+            }
+          ]
+        },
+        {
+          "code": "7708",
+          "name": "Phường Nội Hoàng",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Phường Tiền Phong",
+              "newWardShort": "Tiền Phong",
+              "newWardCode": "07696",
+              "newWardType": "Phường",
+              "lat": 21.2374,
+              "lon": 106.183,
+              "areaKm2": 30.7
+            }
+          ]
+        },
+        {
+          "code": "7705",
+          "name": "Phường Song Khê",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Phường Tiền Phong",
+              "newWardShort": "Tiền Phong",
+              "newWardCode": "07696",
+              "newWardType": "Phường",
+              "lat": 21.2374,
+              "lon": 106.183,
+              "areaKm2": 30.7
+            }
+          ]
+        },
+        {
+          "code": "7222",
+          "name": "Phường Song Mai",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Phường Đa Mai",
+              "newWardShort": "Đa Mai",
+              "newWardCode": "07228",
+              "newWardType": "Phường",
+              "lat": 21.2995,
+              "lon": 106.169,
+              "areaKm2": 33.1
+            }
+          ]
+        },
+        {
+          "code": "7682",
+          "name": "Phường Tân An",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Phường Tân An",
+              "newWardShort": "Tân An",
+              "newWardCode": "07682",
+              "newWardType": "Phường",
+              "lat": 21.2403,
+              "lon": 106.294,
+              "areaKm2": 42.87
+            }
+          ]
+        },
+        {
+          "code": "7717",
+          "name": "Phường Tân Liễu",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Phường Yên Dũng",
+              "newWardShort": "Yên Dũng",
+              "newWardCode": "07681",
+              "newWardType": "Phường",
+              "lat": 21.2011,
+              "lon": 106.21,
+              "areaKm2": 52.42
+            }
+          ]
+        },
+        {
+          "code": "7687",
+          "name": "Phường Tân Mỹ",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Phường Đa Mai",
+              "newWardShort": "Đa Mai",
+              "newWardCode": "07228",
+              "newWardType": "Phường",
+              "lat": 21.2995,
+              "lon": 106.169,
+              "areaKm2": 33.1
+            }
+          ]
+        },
+        {
+          "code": "7699",
+          "name": "Phường Tân Tiến",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Phường Tân Tiến",
+              "newWardShort": "Tân Tiến",
+              "newWardCode": "07699",
+              "newWardType": "Phường",
+              "lat": 21.2594,
+              "lon": 106.243,
+              "areaKm2": 25.46
+            }
+          ]
+        },
+        {
+          "code": "7201",
+          "name": "Phường Thọ Xương",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Phường Bắc Giang",
+              "newWardShort": "Bắc Giang",
+              "newWardCode": "07210",
+              "newWardType": "Phường",
+              "lat": 21.2849,
+              "lon": 106.215,
+              "areaKm2": 23.23
+            }
+          ]
+        },
+        {
+          "code": "7711",
+          "name": "Phường Tiền Phong",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Phường Tiền Phong",
+              "newWardShort": "Tiền Phong",
+              "newWardCode": "07696",
+              "newWardType": "Phường",
+              "lat": 21.2374,
+              "lon": 106.183,
+              "areaKm2": 30.7
+            }
+          ]
+        },
+        {
+          "code": "7213",
+          "name": "Phường Trần Phú",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Phường Bắc Giang",
+              "newWardShort": "Bắc Giang",
+              "newWardCode": "07210",
+              "newWardType": "Phường",
+              "lat": 21.2849,
+              "lon": 106.215,
+              "areaKm2": 23.23
+            }
+          ]
+        },
+        {
+          "code": "7225",
+          "name": "Phường Xương Giang",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Phường Bắc Giang",
+              "newWardShort": "Bắc Giang",
+              "newWardCode": "07210",
+              "newWardType": "Phường",
+              "lat": 21.2849,
+              "lon": 106.215,
+              "areaKm2": 23.23
+            }
+          ]
+        },
+        {
+          "code": "7750",
+          "name": "Xã Đồng Phúc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Đồng Việt",
+              "newWardShort": "Đồng Việt",
+              "newWardCode": "07735",
+              "newWardType": "Xã",
+              "lat": 21.1622,
+              "lon": 106.297,
+              "areaKm2": 33.21
+            }
+          ]
+        },
+        {
+          "code": "7747",
+          "name": "Xã Đồng Việt",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Đồng Việt",
+              "newWardShort": "Đồng Việt",
+              "newWardCode": "07735",
+              "newWardType": "Xã",
+              "lat": 21.1622,
+              "lon": 106.297,
+              "areaKm2": 33.21
+            }
+          ]
+        },
+        {
+          "code": "7735",
+          "name": "Xã Đức Giang",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Đồng Việt",
+              "newWardShort": "Đồng Việt",
+              "newWardCode": "07735",
+              "newWardType": "Xã",
+              "lat": 21.1622,
+              "lon": 106.297,
+              "areaKm2": 33.21
+            }
+          ]
+        },
+        {
+          "code": "7723",
+          "name": "Xã Lãng Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Phường Tân An",
+              "newWardShort": "Tân An",
+              "newWardCode": "07682",
+              "newWardType": "Phường",
+              "lat": 21.2403,
+              "lon": 106.294,
+              "areaKm2": 42.87
+            }
+          ]
+        },
+        {
+          "code": "7702",
+          "name": "Xã Quỳnh Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Phường Tân An",
+              "newWardShort": "Tân An",
+              "newWardCode": "07682",
+              "newWardType": "Phường",
+              "lat": 21.2403,
+              "lon": 106.294,
+              "areaKm2": 42.87
+            }
+          ]
+        },
+        {
+          "code": "7729",
+          "name": "Xã Tiến Dũng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Phường Cảnh Thụy",
+              "newWardShort": "Cảnh Thụy",
+              "newWardCode": "07738",
+              "newWardType": "Phường",
+              "lat": 21.1889,
+              "lon": 106.266,
+              "areaKm2": 27.73
+            }
+          ]
+        },
+        {
+          "code": "7720",
+          "name": "Xã Trí Yên",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Phường Tân An",
+              "newWardShort": "Tân An",
+              "newWardCode": "07682",
+              "newWardType": "Phường",
+              "lat": 21.2403,
+              "lon": 106.294,
+              "areaKm2": 42.87
+            }
+          ]
+        },
+        {
+          "code": "7741",
+          "name": "Xã Tư Mại",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Phường Cảnh Thụy",
+              "newWardShort": "Cảnh Thụy",
+              "newWardCode": "07738",
+              "newWardType": "Phường",
+              "lat": 21.1889,
+              "lon": 106.266,
+              "areaKm2": 27.73
+            }
+          ]
+        },
+        {
+          "code": "7714",
+          "name": "Xã Xuân Phú",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Phường Tân Tiến",
+              "newWardShort": "Tân Tiến",
+              "newWardCode": "07699",
+              "newWardType": "Phường",
+              "lat": 21.2594,
+              "lon": 106.243,
+              "areaKm2": 25.46
+            }
+          ]
+        },
+        {
+          "code": "7726",
+          "name": "Xã Yên Lư",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Phường Yên Dũng",
+              "newWardShort": "Yên Dũng",
+              "newWardCode": "07681",
+              "newWardType": "Phường",
+              "lat": 21.2011,
+              "lon": 106.21,
+              "areaKm2": 52.42
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "223",
+      "name": "Huyện Hiệp Hòa",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "7870",
+          "name": "Thị trấn Bắc Lý",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Xuân Cẩm",
+              "newWardShort": "Xuân Cẩm",
+              "newWardCode": "07870",
+              "newWardType": "Xã",
+              "lat": 21.2718,
+              "lon": 105.958,
+              "areaKm2": 54.32
+            }
+          ]
+        },
+        {
+          "code": "7840",
+          "name": "Thị trấn Thắng",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Hiệp Hòa",
+              "newWardShort": "Hiệp Hòa",
+              "newWardCode": "07840",
+              "newWardType": "Xã",
+              "lat": 21.3189,
+              "lon": 105.999,
+              "areaKm2": 62.18
+            }
+          ]
+        },
+        {
+          "code": "7882",
+          "name": "Xã Châu Minh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Xuân Cẩm",
+              "newWardShort": "Xuân Cẩm",
+              "newWardCode": "07870",
+              "newWardType": "Xã",
+              "lat": 21.2718,
+              "lon": 105.958,
+              "areaKm2": 54.32
+            }
+          ]
+        },
+        {
+          "code": "7861",
+          "name": "Xã Danh Thắng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Hiệp Hòa",
+              "newWardShort": "Hiệp Hòa",
+              "newWardCode": "07840",
+              "newWardType": "Xã",
+              "lat": 21.3189,
+              "lon": 105.999,
+              "areaKm2": 62.18
+            }
+          ]
+        },
+        {
+          "code": "7867",
+          "name": "Xã Đoan Bái",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Hiệp Hòa",
+              "newWardShort": "Hiệp Hòa",
+              "newWardCode": "07840",
+              "newWardType": "Xã",
+              "lat": 21.3189,
+              "lon": 105.999,
+              "areaKm2": 62.18
+            }
+          ]
+        },
+        {
+          "code": "7879",
+          "name": "Xã Đông Lỗ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Hiệp Hòa",
+              "newWardShort": "Hiệp Hòa",
+              "newWardCode": "07840",
+              "newWardType": "Xã",
+              "lat": 21.3189,
+              "lon": 105.999,
+              "areaKm2": 62.18
+            }
+          ]
+        },
+        {
+          "code": "7816",
+          "name": "Xã Đồng Tiến",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Hoàng Vân",
+              "newWardShort": "Hoàng Vân",
+              "newWardCode": "07822",
+              "newWardType": "Xã",
+              "lat": 21.3882,
+              "lon": 105.982,
+              "areaKm2": 40.23
+            }
+          ]
+        },
+        {
+          "code": "7822",
+          "name": "Xã Hoàng Vân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Hoàng Vân",
+              "newWardShort": "Hoàng Vân",
+              "newWardCode": "07822",
+              "newWardType": "Xã",
+              "lat": 21.3882,
+              "lon": 105.982,
+              "areaKm2": 40.23
+            }
+          ]
+        },
+        {
+          "code": "7858",
+          "name": "Xã Hợp Thịnh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Hợp Thịnh",
+              "newWardShort": "Hợp Thịnh",
+              "newWardCode": "07864",
+              "newWardType": "Xã",
+              "lat": 21.3377,
+              "lon": 105.928,
+              "areaKm2": 49.27
+            }
+          ]
+        },
+        {
+          "code": "7849",
+          "name": "Xã Hùng Thái",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Hợp Thịnh",
+              "newWardShort": "Hợp Thịnh",
+              "newWardCode": "07864",
+              "newWardType": "Xã",
+              "lat": 21.3377,
+              "lon": 105.928,
+              "areaKm2": 49.27
+            }
+          ]
+        },
+        {
+          "code": "7876",
+          "name": "Xã Hương Lâm",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Xuân Cẩm",
+              "newWardShort": "Xuân Cẩm",
+              "newWardCode": "07870",
+              "newWardType": "Xã",
+              "lat": 21.2718,
+              "lon": 105.958,
+              "areaKm2": 54.32
+            }
+          ]
+        },
+        {
+          "code": "7846",
+          "name": "Xã Lương Phong",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Hiệp Hòa",
+              "newWardShort": "Hiệp Hòa",
+              "newWardCode": "07840",
+              "newWardType": "Xã",
+              "lat": 21.3189,
+              "lon": 105.999,
+              "areaKm2": 62.18
+            }
+          ]
+        },
+        {
+          "code": "7885",
+          "name": "Xã Mai Đình",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Xuân Cẩm",
+              "newWardShort": "Xuân Cẩm",
+              "newWardCode": "07870",
+              "newWardType": "Xã",
+              "lat": 21.2718,
+              "lon": 105.958,
+              "areaKm2": 54.32
+            }
+          ]
+        },
+        {
+          "code": "7864",
+          "name": "Xã Mai Trung",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Hợp Thịnh",
+              "newWardShort": "Hợp Thịnh",
+              "newWardCode": "07864",
+              "newWardType": "Xã",
+              "lat": 21.3377,
+              "lon": 105.928,
+              "areaKm2": 49.27
+            }
+          ]
+        },
+        {
+          "code": "7831",
+          "name": "Xã Ngọc Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Hoàng Vân",
+              "newWardShort": "Hoàng Vân",
+              "newWardCode": "07822",
+              "newWardType": "Xã",
+              "lat": 21.3882,
+              "lon": 105.982,
+              "areaKm2": 40.23
+            }
+          ]
+        },
+        {
+          "code": "7843",
+          "name": "Xã Sơn Thịnh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Hợp Thịnh",
+              "newWardShort": "Hợp Thịnh",
+              "newWardCode": "07864",
+              "newWardType": "Xã",
+              "lat": 21.3377,
+              "lon": 105.928,
+              "areaKm2": 49.27
+            }
+          ]
+        },
+        {
+          "code": "7855",
+          "name": "Xã Thường Thắng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Hợp Thịnh",
+              "newWardShort": "Hợp Thịnh",
+              "newWardCode": "07864",
+              "newWardType": "Xã",
+              "lat": 21.3377,
+              "lon": 105.928,
+              "areaKm2": 49.27
+            }
+          ]
+        },
+        {
+          "code": "7825",
+          "name": "Xã Toàn Thắng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Hoàng Vân",
+              "newWardShort": "Hoàng Vân",
+              "newWardCode": "07822",
+              "newWardType": "Xã",
+              "lat": 21.3882,
+              "lon": 105.982,
+              "areaKm2": 40.23
+            }
+          ]
+        },
+        {
+          "code": "7873",
+          "name": "Xã Xuân Cẩm",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Xuân Cẩm",
+              "newWardShort": "Xuân Cẩm",
+              "newWardCode": "07870",
+              "newWardType": "Xã",
+              "lat": 21.2718,
+              "lon": 105.958,
+              "areaKm2": 54.32
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "217",
+      "name": "Huyện Lạng Giang",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "7399",
+          "name": "Thị trấn Kép",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Kép",
+              "newWardShort": "Kép",
+              "newWardCode": "07399",
+              "newWardType": "Xã",
+              "lat": 21.4148,
+              "lon": 106.296,
+              "areaKm2": 58.65
+            }
+          ]
+        },
+        {
+          "code": "7375",
+          "name": "Thị trấn Vôi",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Lạng Giang",
+              "newWardShort": "Lạng Giang",
+              "newWardCode": "07375",
+              "newWardType": "Xã",
+              "lat": 21.3564,
+              "lon": 106.27,
+              "areaKm2": 55.41
+            }
+          ]
+        },
+        {
+          "code": "7396",
+          "name": "Xã An Hà",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Tiên Lục",
+              "newWardShort": "Tiên Lục",
+              "newWardCode": "07381",
+              "newWardType": "Xã",
+              "lat": 21.4174,
+              "lon": 106.216,
+              "areaKm2": 51.49
+            }
+          ]
+        },
+        {
+          "code": "7435",
+          "name": "Xã Đại Lâm",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Tân Dĩnh",
+              "newWardShort": "Tân Dĩnh",
+              "newWardCode": "07432",
+              "newWardType": "Xã",
+              "lat": 21.3019,
+              "lon": 106.27,
+              "areaKm2": 31.96
+            }
+          ]
+        },
+        {
+          "code": "7390",
+          "name": "Xã Đào Mỹ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Tiên Lục",
+              "newWardShort": "Tiên Lục",
+              "newWardCode": "07381",
+              "newWardType": "Xã",
+              "lat": 21.4174,
+              "lon": 106.216,
+              "areaKm2": 51.49
+            }
+          ]
+        },
+        {
+          "code": "7408",
+          "name": "Xã Dương Đức",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Mỹ Thái",
+              "newWardShort": "Mỹ Thái",
+              "newWardCode": "07420",
+              "newWardType": "Xã",
+              "lat": 21.3513,
+              "lon": 106.212,
+              "areaKm2": 46.63
+            }
+          ]
+        },
+        {
+          "code": "7405",
+          "name": "Xã Hương Lạc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Lạng Giang",
+              "newWardShort": "Lạng Giang",
+              "newWardCode": "07375",
+              "newWardType": "Xã",
+              "lat": 21.3564,
+              "lon": 106.27,
+              "areaKm2": 55.41
+            }
+          ]
+        },
+        {
+          "code": "7387",
+          "name": "Xã Hương Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Kép",
+              "newWardShort": "Kép",
+              "newWardCode": "07399",
+              "newWardType": "Xã",
+              "lat": 21.4148,
+              "lon": 106.296,
+              "areaKm2": 58.65
+            }
+          ]
+        },
+        {
+          "code": "7420",
+          "name": "Xã Mỹ Thái",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Mỹ Thái",
+              "newWardShort": "Mỹ Thái",
+              "newWardCode": "07420",
+              "newWardType": "Xã",
+              "lat": 21.3513,
+              "lon": 106.212,
+              "areaKm2": 46.63
+            }
+          ]
+        },
+        {
+          "code": "7378",
+          "name": "Xã Nghĩa Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Tiên Lục",
+              "newWardShort": "Tiên Lục",
+              "newWardCode": "07381",
+              "newWardType": "Xã",
+              "lat": 21.4174,
+              "lon": 106.216,
+              "areaKm2": 51.49
+            }
+          ]
+        },
+        {
+          "code": "7381",
+          "name": "Xã Nghĩa Hưng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Tiên Lục",
+              "newWardShort": "Tiên Lục",
+              "newWardCode": "07381",
+              "newWardType": "Xã",
+              "lat": 21.4174,
+              "lon": 106.216,
+              "areaKm2": 51.49
+            }
+          ]
+        },
+        {
+          "code": "7384",
+          "name": "Xã Quang Thịnh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Kép",
+              "newWardShort": "Kép",
+              "newWardCode": "07399",
+              "newWardType": "Xã",
+              "lat": 21.4148,
+              "lon": 106.296,
+              "areaKm2": 58.65
+            }
+          ]
+        },
+        {
+          "code": "7432",
+          "name": "Xã Tân Dĩnh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Tân Dĩnh",
+              "newWardShort": "Tân Dĩnh",
+              "newWardCode": "07432",
+              "newWardType": "Xã",
+              "lat": 21.3019,
+              "lon": 106.27,
+              "areaKm2": 31.96
+            }
+          ]
+        },
+        {
+          "code": "7417",
+          "name": "Xã Tân Hưng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Lạng Giang",
+              "newWardShort": "Lạng Giang",
+              "newWardCode": "07375",
+              "newWardType": "Xã",
+              "lat": 21.3564,
+              "lon": 106.27,
+              "areaKm2": 55.41
+            }
+          ]
+        },
+        {
+          "code": "7411",
+          "name": "Xã Tân Thanh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Mỹ Thái",
+              "newWardShort": "Mỹ Thái",
+              "newWardCode": "07420",
+              "newWardType": "Xã",
+              "lat": 21.3513,
+              "lon": 106.212,
+              "areaKm2": 46.63
+            }
+          ]
+        },
+        {
+          "code": "7438",
+          "name": "Xã Thái Đào",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Tân Dĩnh",
+              "newWardShort": "Tân Dĩnh",
+              "newWardCode": "07432",
+              "newWardType": "Xã",
+              "lat": 21.3019,
+              "lon": 106.27,
+              "areaKm2": 31.96
+            }
+          ]
+        },
+        {
+          "code": "7393",
+          "name": "Xã Tiên Lục",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Tiên Lục",
+              "newWardShort": "Tiên Lục",
+              "newWardCode": "07381",
+              "newWardType": "Xã",
+              "lat": 21.4174,
+              "lon": 106.216,
+              "areaKm2": 51.49
+            }
+          ]
+        },
+        {
+          "code": "7429",
+          "name": "Xã Xuân Hương",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Mỹ Thái",
+              "newWardShort": "Mỹ Thái",
+              "newWardCode": "07420",
+              "newWardType": "Xã",
+              "lat": 21.3513,
+              "lon": 106.212,
+              "areaKm2": 46.63
+            }
+          ]
+        },
+        {
+          "code": "7426",
+          "name": "Xã Xương Lâm",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Lạng Giang",
+              "newWardShort": "Lạng Giang",
+              "newWardCode": "07375",
+              "newWardType": "Xã",
+              "lat": 21.3564,
+              "lon": 106.27,
+              "areaKm2": 55.41
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "218",
+      "name": "Huyện Lục Nam",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "7444",
+          "name": "Thị trấn Đồi Ngô",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Lục Nam",
+              "newWardShort": "Lục Nam",
+              "newWardCode": "07444",
+              "newWardType": "Xã",
+              "lat": 21.3088,
+              "lon": 106.417,
+              "areaKm2": 58.91
+            }
+          ]
+        },
+        {
+          "code": "7477",
+          "name": "Thị trấn Phương Sơn",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Lục Nam",
+              "newWardShort": "Lục Nam",
+              "newWardCode": "07444",
+              "newWardType": "Xã",
+              "lat": 21.3088,
+              "lon": 106.417,
+              "areaKm2": 58.91
+            }
+          ]
+        },
+        {
+          "code": "7513",
+          "name": "Xã Bắc Lũng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Bắc Lũng",
+              "newWardShort": "Bắc Lũng",
+              "newWardCode": "07498",
+              "newWardType": "Xã",
+              "lat": 21.2615,
+              "lon": 106.352,
+              "areaKm2": 53.72
+            }
+          ]
+        },
+        {
+          "code": "7462",
+          "name": "Xã Bảo Đài",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Bảo Đài",
+              "newWardShort": "Bảo Đài",
+              "newWardCode": "07462",
+              "newWardType": "Xã",
+              "lat": 21.3514,
+              "lon": 106.358,
+              "areaKm2": 83.02
+            }
+          ]
+        },
+        {
+          "code": "7459",
+          "name": "Xã Bảo Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Bảo Đài",
+              "newWardShort": "Bảo Đài",
+              "newWardCode": "07462",
+              "newWardType": "Xã",
+              "lat": 21.3514,
+              "lon": 106.358,
+              "areaKm2": 83.02
+            }
+          ]
+        },
+        {
+          "code": "7492",
+          "name": "Xã Bình Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Lục Sơn",
+              "newWardShort": "Lục Sơn",
+              "newWardCode": "07492",
+              "newWardType": "Xã",
+              "lat": 21.2259,
+              "lon": 106.629,
+              "areaKm2": 125.98
+            }
+          ]
+        },
+        {
+          "code": "7519",
+          "name": "Xã Cẩm Lý",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Cẩm Lý",
+              "newWardShort": "Cẩm Lý",
+              "newWardCode": "07519",
+              "newWardType": "Xã",
+              "lat": 21.2099,
+              "lon": 106.366,
+              "areaKm2": 49.08
+            }
+          ]
+        },
+        {
+          "code": "7480",
+          "name": "Xã Chu Điện",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Lục Nam",
+              "newWardShort": "Lục Nam",
+              "newWardCode": "07444",
+              "newWardType": "Xã",
+              "lat": 21.3088,
+              "lon": 106.417,
+              "areaKm2": 58.91
+            }
+          ]
+        },
+        {
+          "code": "7483",
+          "name": "Xã Cương Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Lục Nam",
+              "newWardShort": "Lục Nam",
+              "newWardCode": "07444",
+              "newWardType": "Xã",
+              "lat": 21.3088,
+              "lon": 106.417,
+              "areaKm2": 58.91
+            }
+          ]
+        },
+        {
+          "code": "7522",
+          "name": "Xã Đan Hội",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Cẩm Lý",
+              "newWardShort": "Cẩm Lý",
+              "newWardCode": "07519",
+              "newWardType": "Xã",
+              "lat": 21.2099,
+              "lon": 106.366,
+              "areaKm2": 49.08
+            }
+          ]
+        },
+        {
+          "code": "7450",
+          "name": "Xã Đông Hưng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Đông Phú",
+              "newWardShort": "Đông Phú",
+              "newWardCode": "07450",
+              "newWardType": "Xã",
+              "lat": 21.384,
+              "lon": 106.438,
+              "areaKm2": 77.05
+            }
+          ]
+        },
+        {
+          "code": "7453",
+          "name": "Xã Đông Phú",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Đông Phú",
+              "newWardShort": "Đông Phú",
+              "newWardCode": "07450",
+              "newWardType": "Xã",
+              "lat": 21.384,
+              "lon": 106.438,
+              "areaKm2": 77.05
+            }
+          ]
+        },
+        {
+          "code": "7504",
+          "name": "Xã Huyền Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Nghĩa Phương",
+              "newWardShort": "Nghĩa Phương",
+              "newWardCode": "07486",
+              "newWardType": "Xã",
+              "lat": 21.2703,
+              "lon": 106.461,
+              "areaKm2": 88.32
+            }
+          ]
+        },
+        {
+          "code": "7501",
+          "name": "Xã Khám Lạng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Bắc Lũng",
+              "newWardShort": "Bắc Lũng",
+              "newWardCode": "07498",
+              "newWardType": "Xã",
+              "lat": 21.2615,
+              "lon": 106.352,
+              "areaKm2": 53.72
+            }
+          ]
+        },
+        {
+          "code": "7495",
+          "name": "Xã Lan Mẫu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Bắc Lũng",
+              "newWardShort": "Bắc Lũng",
+              "newWardCode": "07498",
+              "newWardType": "Xã",
+              "lat": 21.2615,
+              "lon": 106.352,
+              "areaKm2": 53.72
+            }
+          ]
+        },
+        {
+          "code": "7510",
+          "name": "Xã Lục Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Lục Sơn",
+              "newWardShort": "Lục Sơn",
+              "newWardCode": "07492",
+              "newWardType": "Xã",
+              "lat": 21.2259,
+              "lon": 106.629,
+              "areaKm2": 125.98
+            }
+          ]
+        },
+        {
+          "code": "7486",
+          "name": "Xã Nghĩa Phương",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Nghĩa Phương",
+              "newWardShort": "Nghĩa Phương",
+              "newWardCode": "07486",
+              "newWardType": "Xã",
+              "lat": 21.2703,
+              "lon": 106.461,
+              "areaKm2": 88.32
+            }
+          ]
+        },
+        {
+          "code": "7456",
+          "name": "Xã Tam Dị",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Bảo Đài",
+              "newWardShort": "Bảo Đài",
+              "newWardCode": "07462",
+              "newWardType": "Xã",
+              "lat": 21.3514,
+              "lon": 106.358,
+              "areaKm2": 83.02
+            }
+          ]
+        },
+        {
+          "code": "7465",
+          "name": "Xã Thanh Lâm",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Bảo Đài",
+              "newWardShort": "Bảo Đài",
+              "newWardCode": "07462",
+              "newWardType": "Xã",
+              "lat": 21.3514,
+              "lon": 106.358,
+              "areaKm2": 83.02
+            }
+          ]
+        },
+        {
+          "code": "7468",
+          "name": "Xã Tiên Nha",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Lục Nam",
+              "newWardShort": "Lục Nam",
+              "newWardCode": "07444",
+              "newWardType": "Xã",
+              "lat": 21.3088,
+              "lon": 106.417,
+              "areaKm2": 58.91
+            }
+          ]
+        },
+        {
+          "code": "7471",
+          "name": "Xã Trường Giang",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Nghĩa Phương",
+              "newWardShort": "Nghĩa Phương",
+              "newWardCode": "07486",
+              "newWardType": "Xã",
+              "lat": 21.2703,
+              "lon": 106.461,
+              "areaKm2": 88.32
+            }
+          ]
+        },
+        {
+          "code": "7507",
+          "name": "Xã Trường Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Trường Sơn",
+              "newWardShort": "Trường Sơn",
+              "newWardCode": "07489",
+              "newWardType": "Xã",
+              "lat": 21.2532,
+              "lon": 106.542,
+              "areaKm2": 72.55
+            }
+          ]
+        },
+        {
+          "code": "7489",
+          "name": "Xã Vô Tranh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Trường Sơn",
+              "newWardShort": "Trường Sơn",
+              "newWardCode": "07489",
+              "newWardType": "Xã",
+              "lat": 21.2532,
+              "lon": 106.542,
+              "areaKm2": 72.55
+            }
+          ]
+        },
+        {
+          "code": "7498",
+          "name": "Xã Yên Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Bắc Lũng",
+              "newWardShort": "Bắc Lũng",
+              "newWardCode": "07498",
+              "newWardType": "Xã",
+              "lat": 21.2615,
+              "lon": 106.352,
+              "areaKm2": 53.72
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "219",
+      "name": "Huyện Lục Ngạn",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "7573",
+          "name": "Thị trấn Biển Động",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Biển Động",
+              "newWardShort": "Biển Động",
+              "newWardCode": "07573",
+              "newWardType": "Xã",
+              "lat": 21.3751,
+              "lon": 106.744,
+              "areaKm2": 57.7
+            }
+          ]
+        },
+        {
+          "code": "7582",
+          "name": "Thị trấn Phì Điền",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Lục Ngạn",
+              "newWardShort": "Lục Ngạn",
+              "newWardCode": "07582",
+              "newWardType": "Xã",
+              "lat": 21.3848,
+              "lon": 106.678,
+              "areaKm2": 82.71
+            }
+          ]
+        },
+        {
+          "code": "7555",
+          "name": "Xã Biên Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Biên Sơn",
+              "newWardShort": "Biên Sơn",
+              "newWardCode": "07537",
+              "newWardType": "Xã",
+              "lat": 21.4706,
+              "lon": 106.749,
+              "areaKm2": 294.22
+            }
+          ]
+        },
+        {
+          "code": "7528",
+          "name": "Xã Cấm Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Tân Sơn",
+              "newWardShort": "Tân Sơn",
+              "newWardCode": "07531",
+              "newWardType": "Xã",
+              "lat": 21.5732,
+              "lon": 106.616,
+              "areaKm2": 95.37
+            }
+          ]
+        },
+        {
+          "code": "7609",
+          "name": "Xã Đèo Gia",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Đèo Gia",
+              "newWardShort": "Đèo Gia",
+              "newWardCode": "07594",
+              "newWardType": "Xã",
+              "lat": 21.3146,
+              "lon": 106.675,
+              "areaKm2": 102.93
+            }
+          ]
+        },
+        {
+          "code": "7591",
+          "name": "Xã Đồng Cốc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Lục Ngạn",
+              "newWardShort": "Lục Ngạn",
+              "newWardCode": "07582",
+              "newWardType": "Xã",
+              "lat": 21.3848,
+              "lon": 106.678,
+              "areaKm2": 82.71
+            }
+          ]
+        },
+        {
+          "code": "7570",
+          "name": "Xã Giáp Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Lục Ngạn",
+              "newWardShort": "Lục Ngạn",
+              "newWardCode": "07582",
+              "newWardType": "Xã",
+              "lat": 21.3848,
+              "lon": 106.678,
+              "areaKm2": 82.71
+            }
+          ]
+        },
+        {
+          "code": "7543",
+          "name": "Xã Hộ Đáp",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Sơn Hải",
+              "newWardShort": "Sơn Hải",
+              "newWardCode": "07543",
+              "newWardType": "Xã",
+              "lat": 21.509,
+              "lon": 106.581,
+              "areaKm2": 102.89
+            }
+          ]
+        },
+        {
+          "code": "7564",
+          "name": "Xã Kim Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Biển Động",
+              "newWardShort": "Biển Động",
+              "newWardCode": "07573",
+              "newWardType": "Xã",
+              "lat": 21.3751,
+              "lon": 106.744,
+              "areaKm2": 57.7
+            }
+          ]
+        },
+        {
+          "code": "7534",
+          "name": "Xã Phong Minh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Sa Lý",
+              "newWardShort": "Sa Lý",
+              "newWardCode": "07534",
+              "newWardType": "Xã",
+              "lat": 21.5371,
+              "lon": 106.774,
+              "areaKm2": 83.95
+            }
+          ]
+        },
+        {
+          "code": "7537",
+          "name": "Xã Phong Vân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Biên Sơn",
+              "newWardShort": "Biên Sơn",
+              "newWardCode": "07537",
+              "newWardType": "Xã",
+              "lat": 21.4706,
+              "lon": 106.749,
+              "areaKm2": 294.22
+            }
+          ]
+        },
+        {
+          "code": "7597",
+          "name": "Xã Phú Nhuận",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Biển Động",
+              "newWardShort": "Biển Động",
+              "newWardCode": "07573",
+              "newWardType": "Xã",
+              "lat": 21.3751,
+              "lon": 106.744,
+              "areaKm2": 57.7
+            }
+          ]
+        },
+        {
+          "code": "7540",
+          "name": "Xã Sa Lý",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Sa Lý",
+              "newWardShort": "Sa Lý",
+              "newWardCode": "07534",
+              "newWardType": "Xã",
+              "lat": 21.5371,
+              "lon": 106.774,
+              "areaKm2": 83.95
+            }
+          ]
+        },
+        {
+          "code": "7546",
+          "name": "Xã Sơn Hải",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Sơn Hải",
+              "newWardShort": "Sơn Hải",
+              "newWardCode": "07543",
+              "newWardType": "Xã",
+              "lat": 21.509,
+              "lon": 106.581,
+              "areaKm2": 102.89
+            }
+          ]
+        },
+        {
+          "code": "7567",
+          "name": "Xã Tân Hoa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Lục Ngạn",
+              "newWardShort": "Lục Ngạn",
+              "newWardCode": "07582",
+              "newWardType": "Xã",
+              "lat": 21.3848,
+              "lon": 106.678,
+              "areaKm2": 82.71
+            }
+          ]
+        },
+        {
+          "code": "7594",
+          "name": "Xã Tân Lập",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Đèo Gia",
+              "newWardShort": "Đèo Gia",
+              "newWardCode": "07594",
+              "newWardType": "Xã",
+              "lat": 21.3146,
+              "lon": 106.675,
+              "areaKm2": 102.93
+            }
+          ]
+        },
+        {
+          "code": "7606",
+          "name": "Xã Tân Mộc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Nam Dương",
+              "newWardShort": "Nam Dương",
+              "newWardCode": "07603",
+              "newWardType": "Xã",
+              "lat": 21.3146,
+              "lon": 106.587,
+              "areaKm2": 67.19
+            }
+          ]
+        },
+        {
+          "code": "7588",
+          "name": "Xã Tân Quang",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Lục Ngạn",
+              "newWardShort": "Lục Ngạn",
+              "newWardCode": "07582",
+              "newWardType": "Xã",
+              "lat": 21.3848,
+              "lon": 106.678,
+              "areaKm2": 82.71
+            }
+          ]
+        },
+        {
+          "code": "7531",
+          "name": "Xã Tân Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Tân Sơn",
+              "newWardShort": "Tân Sơn",
+              "newWardCode": "07531",
+              "newWardType": "Xã",
+              "lat": 21.5732,
+              "lon": 106.616,
+              "areaKm2": 95.37
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "220",
+      "name": "Huyện Sơn Động",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "7615",
+          "name": "Thị trấn An Châu",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Sơn Động",
+              "newWardShort": "Sơn Động",
+              "newWardCode": "07615",
+              "newWardType": "Xã",
+              "lat": 21.3265,
+              "lon": 106.847,
+              "areaKm2": 78.72
+            }
+          ]
+        },
+        {
+          "code": "7616",
+          "name": "Thị trấn Tây Yên Tử",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Tây Yên Tử",
+              "newWardShort": "Tây Yên Tử",
+              "newWardCode": "07616",
+              "newWardType": "Xã",
+              "lat": 21.1956,
+              "lon": 106.766,
+              "areaKm2": 132.76
+            }
+          ]
+        },
+        {
+          "code": "7660",
+          "name": "Xã An Bá",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Sơn Động",
+              "newWardShort": "Sơn Động",
+              "newWardCode": "07615",
+              "newWardType": "Xã",
+              "lat": 21.3265,
+              "lon": 106.847,
+              "areaKm2": 78.72
+            }
+          ]
+        },
+        {
+          "code": "7645",
+          "name": "Xã An Lạc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã An Lạc",
+              "newWardShort": "An Lạc",
+              "newWardCode": "07654",
+              "newWardType": "Xã",
+              "lat": 21.3245,
+              "lon": 106.945,
+              "areaKm2": 134.15
+            }
+          ]
+        },
+        {
+          "code": "7642",
+          "name": "Xã Cẩm Đàn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Yên Định",
+              "newWardShort": "Yên Định",
+              "newWardCode": "07642",
+              "newWardType": "Xã",
+              "lat": 21.3464,
+              "lon": 106.792,
+              "areaKm2": 48.17
+            }
+          ]
+        },
+        {
+          "code": "7627",
+          "name": "Xã Đại Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Đại Sơn",
+              "newWardShort": "Đại Sơn",
+              "newWardCode": "07627",
+              "newWardType": "Xã",
+              "lat": 21.4075,
+              "lon": 106.835,
+              "areaKm2": 76.38
+            }
+          ]
+        },
+        {
+          "code": "7666",
+          "name": "Xã Dương Hưu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Dương Hưu",
+              "newWardShort": "Dương Hưu",
+              "newWardCode": "07672",
+              "newWardType": "Xã",
+              "lat": 21.2329,
+              "lon": 106.912,
+              "areaKm2": 142.59
+            }
+          ]
+        },
+        {
+          "code": "7636",
+          "name": "Xã Giáo Liêm",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Đại Sơn",
+              "newWardShort": "Đại Sơn",
+              "newWardCode": "07627",
+              "newWardType": "Xã",
+              "lat": 21.4075,
+              "lon": 106.835,
+              "areaKm2": 76.38
+            }
+          ]
+        },
+        {
+          "code": "7624",
+          "name": "Xã Hữu Sản",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Vân Sơn",
+              "newWardShort": "Vân Sơn",
+              "newWardCode": "07621",
+              "newWardType": "Xã",
+              "lat": 21.4007,
+              "lon": 106.94,
+              "areaKm2": 73.99
+            }
+          ]
+        },
+        {
+          "code": "7654",
+          "name": "Xã Lệ Viễn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã An Lạc",
+              "newWardShort": "An Lạc",
+              "newWardCode": "07654",
+              "newWardType": "Xã",
+              "lat": 21.3245,
+              "lon": 106.945,
+              "areaKm2": 134.15
+            }
+          ]
+        },
+        {
+          "code": "7672",
+          "name": "Xã Long Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Dương Hưu",
+              "newWardShort": "Dương Hưu",
+              "newWardCode": "07672",
+              "newWardType": "Xã",
+              "lat": 21.2329,
+              "lon": 106.912,
+              "areaKm2": 142.59
+            }
+          ]
+        },
+        {
+          "code": "7630",
+          "name": "Xã Phúc Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Đại Sơn",
+              "newWardShort": "Đại Sơn",
+              "newWardCode": "07627",
+              "newWardType": "Xã",
+              "lat": 21.4075,
+              "lon": 106.835,
+              "areaKm2": 76.38
+            }
+          ]
+        },
+        {
+          "code": "7678",
+          "name": "Xã Thanh Luận",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Tây Yên Tử",
+              "newWardShort": "Tây Yên Tử",
+              "newWardCode": "07616",
+              "newWardType": "Xã",
+              "lat": 21.1956,
+              "lon": 106.766,
+              "areaKm2": 132.76
+            }
+          ]
+        },
+        {
+          "code": "7663",
+          "name": "Xã Tuấn Đạo",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Tuấn Đạo",
+              "newWardShort": "Tuấn Đạo",
+              "newWardCode": "07663",
+              "newWardType": "Xã",
+              "lat": 21.2754,
+              "lon": 106.769,
+              "areaKm2": 97.87
+            }
+          ]
+        },
+        {
+          "code": "7621",
+          "name": "Xã Vân Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Vân Sơn",
+              "newWardShort": "Vân Sơn",
+              "newWardCode": "07621",
+              "newWardType": "Xã",
+              "lat": 21.4007,
+              "lon": 106.94,
+              "areaKm2": 73.99
+            }
+          ]
+        },
+        {
+          "code": "7648",
+          "name": "Xã Vĩnh An",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Sơn Động",
+              "newWardShort": "Sơn Động",
+              "newWardCode": "07615",
+              "newWardType": "Xã",
+              "lat": 21.3265,
+              "lon": 106.847,
+              "areaKm2": 78.72
+            }
+          ]
+        },
+        {
+          "code": "7651",
+          "name": "Xã Yên Định",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Yên Định",
+              "newWardShort": "Yên Định",
+              "newWardCode": "07642",
+              "newWardType": "Xã",
+              "lat": 21.3464,
+              "lon": 106.792,
+              "areaKm2": 48.17
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "216",
+      "name": "Huyện Tân Yên",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "7339",
+          "name": "Thị trấn Cao Thượng",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Tân Yên",
+              "newWardShort": "Tân Yên",
+              "newWardCode": "07339",
+              "newWardType": "Xã",
+              "lat": 21.3653,
+              "lon": 106.127,
+              "areaKm2": 48.13
+            }
+          ]
+        },
+        {
+          "code": "7306",
+          "name": "Thị trấn Nhã Nam",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Nhã Nam",
+              "newWardShort": "Nhã Nam",
+              "newWardCode": "07306",
+              "newWardType": "Xã",
+              "lat": 21.4249,
+              "lon": 106.105,
+              "areaKm2": 34.43
+            }
+          ]
+        },
+        {
+          "code": "7321",
+          "name": "Xã An Dương",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Nhã Nam",
+              "newWardShort": "Nhã Nam",
+              "newWardCode": "07306",
+              "newWardType": "Xã",
+              "lat": 21.4249,
+              "lon": 106.105,
+              "areaKm2": 34.43
+            }
+          ]
+        },
+        {
+          "code": "7336",
+          "name": "Xã Cao Xá",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Tân Yên",
+              "newWardShort": "Tân Yên",
+              "newWardCode": "07339",
+              "newWardType": "Xã",
+              "lat": 21.3653,
+              "lon": 106.127,
+              "areaKm2": 48.13
+            }
+          ]
+        },
+        {
+          "code": "7330",
+          "name": "Xã Hợp Đức",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Phúc Hòa",
+              "newWardShort": "Phúc Hòa",
+              "newWardCode": "07330",
+              "newWardType": "Xã",
+              "lat": 21.3912,
+              "lon": 106.161,
+              "areaKm2": 32.69
+            }
+          ]
+        },
+        {
+          "code": "7333",
+          "name": "Xã Lam Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Quang Trung",
+              "newWardShort": "Quang Trung",
+              "newWardCode": "07333",
+              "newWardType": "Xã",
+              "lat": 21.4248,
+              "lon": 106.056,
+              "areaKm2": 31.36
+            }
+          ]
+        },
+        {
+          "code": "7357",
+          "name": "Xã Liên Chung",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Phúc Hòa",
+              "newWardShort": "Phúc Hòa",
+              "newWardCode": "07330",
+              "newWardType": "Xã",
+              "lat": 21.3912,
+              "lon": 106.161,
+              "areaKm2": 32.69
+            }
+          ]
+        },
+        {
+          "code": "7327",
+          "name": "Xã Liên Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Nhã Nam",
+              "newWardShort": "Nhã Nam",
+              "newWardCode": "07306",
+              "newWardType": "Xã",
+              "lat": 21.4249,
+              "lon": 106.105,
+              "areaKm2": 34.43
+            }
+          ]
+        },
+        {
+          "code": "7348",
+          "name": "Xã Ngọc Châu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Ngọc Thiện",
+              "newWardShort": "Ngọc Thiện",
+              "newWardCode": "07351",
+              "newWardType": "Xã",
+              "lat": 21.366,
+              "lon": 106.059,
+              "areaKm2": 51.26
+            }
+          ]
+        },
+        {
+          "code": "7363",
+          "name": "Xã Ngọc Lý",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Tân Yên",
+              "newWardShort": "Tân Yên",
+              "newWardCode": "07339",
+              "newWardType": "Xã",
+              "lat": 21.3653,
+              "lon": 106.127,
+              "areaKm2": 48.13
+            }
+          ]
+        },
+        {
+          "code": "7360",
+          "name": "Xã Ngọc Thiện",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Ngọc Thiện",
+              "newWardShort": "Ngọc Thiện",
+              "newWardCode": "07351",
+              "newWardType": "Xã",
+              "lat": 21.366,
+              "lon": 106.059,
+              "areaKm2": 51.26
+            }
+          ]
+        },
+        {
+          "code": "7351",
+          "name": "Xã Ngọc Vân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Ngọc Thiện",
+              "newWardShort": "Ngọc Thiện",
+              "newWardCode": "07351",
+              "newWardType": "Xã",
+              "lat": 21.366,
+              "lon": 106.059,
+              "areaKm2": 51.26
+            }
+          ]
+        },
+        {
+          "code": "7324",
+          "name": "Xã Phúc Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Phúc Hòa",
+              "newWardShort": "Phúc Hòa",
+              "newWardCode": "07330",
+              "newWardType": "Xã",
+              "lat": 21.3912,
+              "lon": 106.161,
+              "areaKm2": 32.69
+            }
+          ]
+        },
+        {
+          "code": "7315",
+          "name": "Xã Quang Trung",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Quang Trung",
+              "newWardShort": "Quang Trung",
+              "newWardCode": "07333",
+              "newWardType": "Xã",
+              "lat": 21.4248,
+              "lon": 106.056,
+              "areaKm2": 31.36
+            }
+          ]
+        },
+        {
+          "code": "7366",
+          "name": "Xã Quế Nham",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Phường Đa Mai",
+              "newWardShort": "Đa Mai",
+              "newWardCode": "07228",
+              "newWardType": "Phường",
+              "lat": 21.2995,
+              "lon": 106.169,
+              "areaKm2": 33.1
+            }
+          ]
+        },
+        {
+          "code": "7345",
+          "name": "Xã Song Vân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Ngọc Thiện",
+              "newWardShort": "Ngọc Thiện",
+              "newWardCode": "07351",
+              "newWardType": "Xã",
+              "lat": 21.366,
+              "lon": 106.059,
+              "areaKm2": 51.26
+            }
+          ]
+        },
+        {
+          "code": "7309",
+          "name": "Xã Tân Trung",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Nhã Nam",
+              "newWardShort": "Nhã Nam",
+              "newWardCode": "07306",
+              "newWardType": "Xã",
+              "lat": 21.4249,
+              "lon": 106.105,
+              "areaKm2": 34.43
+            }
+          ]
+        },
+        {
+          "code": "7354",
+          "name": "Xã Việt Lập",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Tân Yên",
+              "newWardShort": "Tân Yên",
+              "newWardCode": "07339",
+              "newWardType": "Xã",
+              "lat": 21.3653,
+              "lon": 106.127,
+              "areaKm2": 48.13
+            }
+          ]
+        },
+        {
+          "code": "7342",
+          "name": "Xã Việt Ngọc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Ngọc Thiện",
+              "newWardShort": "Ngọc Thiện",
+              "newWardCode": "07351",
+              "newWardType": "Xã",
+              "lat": 21.366,
+              "lon": 106.059,
+              "areaKm2": 51.26
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "215",
+      "name": "Huyện Yên Thế",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "7294",
+          "name": "Thị trấn Bố Hạ",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Bố Hạ",
+              "newWardShort": "Bố Hạ",
+              "newWardCode": "07294",
+              "newWardType": "Xã",
+              "lat": 21.4684,
+              "lon": 106.258,
+              "areaKm2": 41.32
+            }
+          ]
+        },
+        {
+          "code": "7288",
+          "name": "Thị trấn Phồn Xương",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Yên Thế",
+              "newWardShort": "Yên Thế",
+              "newWardCode": "07288",
+              "newWardType": "Xã",
+              "lat": 21.471,
+              "lon": 106.132,
+              "areaKm2": 43.67
+            }
+          ]
+        },
+        {
+          "code": "7285",
+          "name": "Xã An Thượng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Tam Tiến",
+              "newWardShort": "Tam Tiến",
+              "newWardCode": "07264",
+              "newWardType": "Xã",
+              "lat": 21.5025,
+              "lon": 106.076,
+              "areaKm2": 60.34
+            }
+          ]
+        },
+        {
+          "code": "7246",
+          "name": "Xã Canh Nậu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Xuân Lương",
+              "newWardShort": "Xuân Lương",
+              "newWardCode": "07246",
+              "newWardType": "Xã",
+              "lat": 21.5825,
+              "lon": 106.11,
+              "areaKm2": 99.67
+            }
+          ]
+        },
+        {
+          "code": "7258",
+          "name": "Xã Đồng Hưu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Đồng Kỳ",
+              "newWardShort": "Đồng Kỳ",
+              "newWardCode": "07282",
+              "newWardType": "Xã",
+              "lat": 21.5294,
+              "lon": 106.137,
+              "areaKm2": 61.44
+            }
+          ]
+        },
+        {
+          "code": "7282",
+          "name": "Xã Đồng Kỳ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Đồng Kỳ",
+              "newWardShort": "Đồng Kỳ",
+              "newWardCode": "07282",
+              "newWardType": "Xã",
+              "lat": 21.5294,
+              "lon": 106.137,
+              "areaKm2": 61.44
+            }
+          ]
+        },
+        {
+          "code": "7270",
+          "name": "Xã Đồng Lạc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Yên Thế",
+              "newWardShort": "Yên Thế",
+              "newWardCode": "07288",
+              "newWardType": "Xã",
+              "lat": 21.471,
+              "lon": 106.132,
+              "areaKm2": 43.67
+            }
+          ]
+        },
+        {
+          "code": "7273",
+          "name": "Xã Đông Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Bố Hạ",
+              "newWardShort": "Bố Hạ",
+              "newWardCode": "07294",
+              "newWardType": "Xã",
+              "lat": 21.4684,
+              "lon": 106.258,
+              "areaKm2": 41.32
+            }
+          ]
+        },
+        {
+          "code": "7260",
+          "name": "Xã Đồng Tâm",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Yên Thế",
+              "newWardShort": "Yên Thế",
+              "newWardCode": "07288",
+              "newWardType": "Xã",
+              "lat": 21.471,
+              "lon": 106.132,
+              "areaKm2": 43.67
+            }
+          ]
+        },
+        {
+          "code": "7243",
+          "name": "Xã Đồng Tiến",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Xuân Lương",
+              "newWardShort": "Xuân Lương",
+              "newWardCode": "07246",
+              "newWardType": "Xã",
+              "lat": 21.5825,
+              "lon": 106.11,
+              "areaKm2": 99.67
+            }
+          ]
+        },
+        {
+          "code": "7255",
+          "name": "Xã Đồng Vương",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Đồng Kỳ",
+              "newWardShort": "Đồng Kỳ",
+              "newWardCode": "07282",
+              "newWardType": "Xã",
+              "lat": 21.5294,
+              "lon": 106.137,
+              "areaKm2": 61.44
+            }
+          ]
+        },
+        {
+          "code": "7279",
+          "name": "Xã Hương Vĩ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Bố Hạ",
+              "newWardShort": "Bố Hạ",
+              "newWardCode": "07294",
+              "newWardType": "Xã",
+              "lat": 21.4684,
+              "lon": 106.258,
+              "areaKm2": 41.32
+            }
+          ]
+        },
+        {
+          "code": "7252",
+          "name": "Xã Tam Tiến",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Tam Tiến",
+              "newWardShort": "Tam Tiến",
+              "newWardCode": "07264",
+              "newWardType": "Xã",
+              "lat": 21.5025,
+              "lon": 106.076,
+              "areaKm2": 60.34
+            }
+          ]
+        },
+        {
+          "code": "7261",
+          "name": "Xã Tân Hiệp",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Yên Thế",
+              "newWardShort": "Yên Thế",
+              "newWardCode": "07288",
+              "newWardType": "Xã",
+              "lat": 21.471,
+              "lon": 106.132,
+              "areaKm2": 43.67
+            }
+          ]
+        },
+        {
+          "code": "7291",
+          "name": "Xã Tân Sỏi",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Yên Thế",
+              "newWardShort": "Yên Thế",
+              "newWardCode": "07288",
+              "newWardType": "Xã",
+              "lat": 21.471,
+              "lon": 106.132,
+              "areaKm2": 43.67
+            }
+          ]
+        },
+        {
+          "code": "7264",
+          "name": "Xã Tiến Thắng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Tam Tiến",
+              "newWardShort": "Tam Tiến",
+              "newWardCode": "07264",
+              "newWardType": "Xã",
+              "lat": 21.5025,
+              "lon": 106.076,
+              "areaKm2": 60.34
+            }
+          ]
+        },
+        {
+          "code": "7249",
+          "name": "Xã Xuân Lương",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Xuân Lương",
+              "newWardShort": "Xuân Lương",
+              "newWardCode": "07246",
+              "newWardType": "Xã",
+              "lat": 21.5825,
+              "lon": 106.11,
+              "areaKm2": 99.67
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "224",
+      "name": "Thị xã Chũ",
+      "type": "Thị xã",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "7525",
+          "name": "Phường Chũ",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Phường Chũ",
+              "newWardShort": "Chũ",
+              "newWardCode": "07525",
+              "newWardType": "Phường",
+              "lat": 21.4041,
+              "lon": 106.586,
+              "areaKm2": 57.18
+            }
+          ]
+        },
+        {
+          "code": "7561",
+          "name": "Phường Hồng Giang",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Phường Chũ",
+              "newWardShort": "Chũ",
+              "newWardCode": "07525",
+              "newWardType": "Phường",
+              "lat": 21.4041,
+              "lon": 106.586,
+              "areaKm2": 57.18
+            }
+          ]
+        },
+        {
+          "code": "7612",
+          "name": "Phường Phượng Sơn",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Phường Phượng Sơn",
+              "newWardShort": "Phượng Sơn",
+              "newWardCode": "07612",
+              "newWardType": "Phường",
+              "lat": 21.3557,
+              "lon": 106.506,
+              "areaKm2": 78.74
+            }
+          ]
+        },
+        {
+          "code": "7549",
+          "name": "Phường Thanh Hải",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Phường Chũ",
+              "newWardShort": "Chũ",
+              "newWardCode": "07525",
+              "newWardType": "Phường",
+              "lat": 21.4041,
+              "lon": 106.586,
+              "areaKm2": 57.18
+            }
+          ]
+        },
+        {
+          "code": "7579",
+          "name": "Phường Trù Hựu",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Phường Chũ",
+              "newWardShort": "Chũ",
+              "newWardCode": "07525",
+              "newWardType": "Phường",
+              "lat": 21.4041,
+              "lon": 106.586,
+              "areaKm2": 57.18
+            }
+          ]
+        },
+        {
+          "code": "7552",
+          "name": "Xã Kiên Lao",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Kiên Lao",
+              "newWardShort": "Kiên Lao",
+              "newWardCode": "07552",
+              "newWardType": "Xã",
+              "lat": 21.4409,
+              "lon": 106.522,
+              "areaKm2": 85.57
+            }
+          ]
+        },
+        {
+          "code": "7558",
+          "name": "Xã Kiên Thành",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Kiên Lao",
+              "newWardShort": "Kiên Lao",
+              "newWardCode": "07552",
+              "newWardType": "Xã",
+              "lat": 21.4409,
+              "lon": 106.522,
+              "areaKm2": 85.57
+            }
+          ]
+        },
+        {
+          "code": "7600",
+          "name": "Xã Mỹ An",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Phường Phượng Sơn",
+              "newWardShort": "Phượng Sơn",
+              "newWardCode": "07612",
+              "newWardType": "Phường",
+              "lat": 21.3557,
+              "lon": 106.506,
+              "areaKm2": 78.74
+            }
+          ]
+        },
+        {
+          "code": "7603",
+          "name": "Xã Nam Dương",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Xã Nam Dương",
+              "newWardShort": "Nam Dương",
+              "newWardCode": "07603",
+              "newWardType": "Xã",
+              "lat": 21.3146,
+              "lon": 106.587,
+              "areaKm2": 67.19
+            }
+          ]
+        },
+        {
+          "code": "7576",
+          "name": "Xã Quý Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Phường Phượng Sơn",
+              "newWardShort": "Phượng Sơn",
+              "newWardCode": "07612",
+              "newWardType": "Phường",
+              "lat": 21.3557,
+              "lon": 106.506,
+              "areaKm2": 78.74
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "222",
+      "name": "Thị Xã Việt Yên",
+      "type": "Thị xã",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "7777",
+          "name": "Phường Bích Động",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Phường Việt Yên",
+              "newWardShort": "Việt Yên",
+              "newWardCode": "07777",
+              "newWardType": "Phường",
+              "lat": 21.2955,
+              "lon": 106.119,
+              "areaKm2": 51.97
+            }
+          ]
+        },
+        {
+          "code": "7783",
+          "name": "Phường Hồng Thái",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Phường Việt Yên",
+              "newWardShort": "Việt Yên",
+              "newWardCode": "07777",
+              "newWardType": "Phường",
+              "lat": 21.2955,
+              "lon": 106.119,
+              "areaKm2": 51.97
+            }
+          ]
+        },
+        {
+          "code": "7795",
+          "name": "Phường Nếnh",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Phường Nếnh",
+              "newWardShort": "Nếnh",
+              "newWardCode": "07795",
+              "newWardType": "Phường",
+              "lat": 21.2338,
+              "lon": 106.123,
+              "areaKm2": 35.98
+            }
+          ]
+        },
+        {
+          "code": "7798",
+          "name": "Phường Ninh Sơn",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Phường Vân Hà",
+              "newWardShort": "Vân Hà",
+              "newWardCode": "07798",
+              "newWardType": "Phường",
+              "lat": 21.2483,
+              "lon": 106.059,
+              "areaKm2": 43.17
+            }
+          ]
+        },
+        {
+          "code": "7807",
+          "name": "Phường Quang Châu",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Phường Nếnh",
+              "newWardShort": "Nếnh",
+              "newWardCode": "07795",
+              "newWardType": "Phường",
+              "lat": 21.2338,
+              "lon": 106.123,
+              "areaKm2": 35.98
+            }
+          ]
+        },
+        {
+          "code": "7792",
+          "name": "Phường Quảng Minh",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Phường Vân Hà",
+              "newWardShort": "Vân Hà",
+              "newWardCode": "07798",
+              "newWardType": "Phường",
+              "lat": 21.2483,
+              "lon": 106.059,
+              "areaKm2": 43.17
+            }
+          ]
+        },
+        {
+          "code": "7789",
+          "name": "Phường Tăng Tiến",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Phường Nếnh",
+              "newWardShort": "Nếnh",
+              "newWardCode": "07795",
+              "newWardType": "Phường",
+              "lat": 21.2338,
+              "lon": 106.123,
+              "areaKm2": 35.98
+            }
+          ]
+        },
+        {
+          "code": "7774",
+          "name": "Phường Tự Lạn",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Phường Tự Lạn",
+              "newWardShort": "Tự Lạn",
+              "newWardCode": "07774",
+              "newWardType": "Phường",
+              "lat": 21.3075,
+              "lon": 106.059,
+              "areaKm2": 39.89
+            }
+          ]
+        },
+        {
+          "code": "7801",
+          "name": "Phường Vân Trung",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Phường Nếnh",
+              "newWardShort": "Nếnh",
+              "newWardCode": "07795",
+              "newWardType": "Phường",
+              "lat": 21.2338,
+              "lon": 106.123,
+              "areaKm2": 35.98
+            }
+          ]
+        },
+        {
+          "code": "7771",
+          "name": "Xã Hương Mai",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Phường Tự Lạn",
+              "newWardShort": "Tự Lạn",
+              "newWardCode": "07774",
+              "newWardType": "Phường",
+              "lat": 21.3075,
+              "lon": 106.059,
+              "areaKm2": 39.89
+            }
+          ]
+        },
+        {
+          "code": "7768",
+          "name": "Xã Minh Đức",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Phường Việt Yên",
+              "newWardShort": "Việt Yên",
+              "newWardCode": "07777",
+              "newWardType": "Phường",
+              "lat": 21.2955,
+              "lon": 106.119,
+              "areaKm2": 51.97
+            }
+          ]
+        },
+        {
+          "code": "7765",
+          "name": "Xã Nghĩa Trung",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Phường Việt Yên",
+              "newWardShort": "Việt Yên",
+              "newWardCode": "07777",
+              "newWardType": "Phường",
+              "lat": 21.2955,
+              "lon": 106.119,
+              "areaKm2": 51.97
+            }
+          ]
+        },
+        {
+          "code": "7759",
+          "name": "Xã Thượng Lan",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Phường Tự Lạn",
+              "newWardShort": "Tự Lạn",
+              "newWardCode": "07774",
+              "newWardType": "Phường",
+              "lat": 21.3075,
+              "lon": 106.059,
+              "areaKm2": 39.89
+            }
+          ]
+        },
+        {
+          "code": "7786",
+          "name": "Xã Tiên Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Phường Vân Hà",
+              "newWardShort": "Vân Hà",
+              "newWardCode": "07798",
+              "newWardType": "Phường",
+              "lat": 21.2483,
+              "lon": 106.059,
+              "areaKm2": 43.17
+            }
+          ]
+        },
+        {
+          "code": "7780",
+          "name": "Xã Trung Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Phường Vân Hà",
+              "newWardShort": "Vân Hà",
+              "newWardCode": "07798",
+              "newWardType": "Phường",
+              "lat": 21.2483,
+              "lon": 106.059,
+              "areaKm2": 43.17
+            }
+          ]
+        },
+        {
+          "code": "7804",
+          "name": "Xã Vân Hà",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Phường Vân Hà",
+              "newWardShort": "Vân Hà",
+              "newWardCode": "07798",
+              "newWardType": "Phường",
+              "lat": 21.2483,
+              "lon": 106.059,
+              "areaKm2": 43.17
+            }
+          ]
+        },
+        {
+          "code": "7762",
+          "name": "Xã Việt Tiến",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Bắc Ninh",
+              "newProvinceSlug": "bac-ninh",
+              "newProvinceCode": "24",
+              "newWard": "Phường Tự Lạn",
+              "newWardShort": "Tự Lạn",
+              "newWardCode": "07774",
+              "newWardType": "Phường",
+              "lat": 21.3075,
+              "lon": 106.059,
+              "areaKm2": 39.89
+            }
+          ]
+        }
+      ],
+      "results": []
+    }
+  ]
+}

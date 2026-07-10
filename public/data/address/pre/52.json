@@ -1,0 +1,3245 @@
+{
+  "schemaVersion": 1,
+  "mergeDate": "2025-07-01",
+  "code": "52",
+  "name": "Tỉnh Bình Định",
+  "name_en": "Binh Dinh Province",
+  "slug": "binh-dinh",
+  "districts": [
+    {
+      "code": "542",
+      "name": "Huyện An Lão",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "21609",
+          "name": "Thị trấn An Lão",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã An Lão",
+              "newWardShort": "An Lão",
+              "newWardCode": "21609",
+              "newWardType": "Xã",
+              "lat": 14.6304,
+              "lon": 108.914,
+              "areaKm2": 103.87
+            }
+          ]
+        },
+        {
+          "code": "21616",
+          "name": "Xã An Dũng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã An Vinh",
+              "newWardShort": "An Vinh",
+              "newWardCode": "21616",
+              "newWardType": "Xã",
+              "lat": 14.6136,
+              "lon": 108.814,
+              "areaKm2": 196.19
+            }
+          ]
+        },
+        {
+          "code": "21628",
+          "name": "Xã An Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã An Hòa",
+              "newWardShort": "An Hòa",
+              "newWardCode": "21628",
+              "newWardType": "Xã",
+              "lat": 14.5274,
+              "lon": 108.855,
+              "areaKm2": 77.9
+            }
+          ]
+        },
+        {
+          "code": "21610",
+          "name": "Xã An Hưng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã An Lão",
+              "newWardShort": "An Lão",
+              "newWardCode": "21609",
+              "newWardType": "Xã",
+              "lat": 14.6304,
+              "lon": 108.914,
+              "areaKm2": 103.87
+            }
+          ]
+        },
+        {
+          "code": "21634",
+          "name": "Xã An Nghĩa",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã An Hòa",
+              "newWardShort": "An Hòa",
+              "newWardCode": "21628",
+              "newWardType": "Xã",
+              "lat": 14.5274,
+              "lon": 108.855,
+              "areaKm2": 77.9
+            },
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã An Toàn",
+              "newWardShort": "An Toàn",
+              "newWardCode": "21622",
+              "newWardType": "Xã",
+              "lat": 14.4934,
+              "lon": 108.71,
+              "areaKm2": 295.34
+            }
+          ]
+        },
+        {
+          "code": "21631",
+          "name": "Xã An Quang",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã An Hòa",
+              "newWardShort": "An Hòa",
+              "newWardCode": "21628",
+              "newWardType": "Xã",
+              "lat": 14.5274,
+              "lon": 108.855,
+              "areaKm2": 77.9
+            }
+          ]
+        },
+        {
+          "code": "21625",
+          "name": "Xã An Tân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã An Lão",
+              "newWardShort": "An Lão",
+              "newWardCode": "21609",
+              "newWardType": "Xã",
+              "lat": 14.6304,
+              "lon": 108.914,
+              "areaKm2": 103.87
+            }
+          ]
+        },
+        {
+          "code": "21622",
+          "name": "Xã An Toàn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã An Toàn",
+              "newWardShort": "An Toàn",
+              "newWardCode": "21622",
+              "newWardType": "Xã",
+              "lat": 14.4934,
+              "lon": 108.71,
+              "areaKm2": 295.34
+            }
+          ]
+        },
+        {
+          "code": "21613",
+          "name": "Xã An Trung",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã An Vinh",
+              "newWardShort": "An Vinh",
+              "newWardCode": "21616",
+              "newWardType": "Xã",
+              "lat": 14.6136,
+              "lon": 108.814,
+              "areaKm2": 196.19
+            }
+          ]
+        },
+        {
+          "code": "21619",
+          "name": "Xã An Vinh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã An Vinh",
+              "newWardShort": "An Vinh",
+              "newWardCode": "21616",
+              "newWardType": "Xã",
+              "lat": 14.6136,
+              "lon": 108.814,
+              "areaKm2": 196.19
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "544",
+      "name": "Huyện Hoài Ân",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "21688",
+          "name": "Thị trấn Tăng Bạt Hổ",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Hoài Ân",
+              "newWardShort": "Hoài Ân",
+              "newWardCode": "21688",
+              "newWardType": "Xã",
+              "lat": 14.3087,
+              "lon": 109.001,
+              "areaKm2": 115.72
+            }
+          ]
+        },
+        {
+          "code": "21712",
+          "name": "Xã Ân Đức",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Hoài Ân",
+              "newWardShort": "Hoài Ân",
+              "newWardCode": "21688",
+              "newWardType": "Xã",
+              "lat": 14.3087,
+              "lon": 109.001,
+              "areaKm2": 115.72
+            }
+          ]
+        },
+        {
+          "code": "21691",
+          "name": "Xã Ân Hảo Đông",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Ân Hảo",
+              "newWardShort": "Ân Hảo",
+              "newWardCode": "21697",
+              "newWardType": "Xã",
+              "lat": 14.476,
+              "lon": 108.932,
+              "areaKm2": 95.46
+            }
+          ]
+        },
+        {
+          "code": "21690",
+          "name": "Xã Ân Hảo Tây",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Ân Hảo",
+              "newWardShort": "Ân Hảo",
+              "newWardCode": "21697",
+              "newWardType": "Xã",
+              "lat": 14.476,
+              "lon": 108.932,
+              "areaKm2": 95.46
+            }
+          ]
+        },
+        {
+          "code": "21715",
+          "name": "Xã Ân Hữu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Ân Tường",
+              "newWardShort": "Ân Tường",
+              "newWardCode": "21715",
+              "newWardType": "Xã",
+              "lat": 14.3551,
+              "lon": 108.869,
+              "areaKm2": 227.45
+            }
+          ]
+        },
+        {
+          "code": "21697",
+          "name": "Xã Ân Mỹ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Ân Hảo",
+              "newWardShort": "Ân Hảo",
+              "newWardCode": "21697",
+              "newWardType": "Xã",
+              "lat": 14.476,
+              "lon": 108.932,
+              "areaKm2": 95.46
+            }
+          ]
+        },
+        {
+          "code": "21727",
+          "name": "Xã Ân Nghĩa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Kim Sơn",
+              "newWardShort": "Kim Sơn",
+              "newWardCode": "21727",
+              "newWardType": "Xã",
+              "lat": 14.2495,
+              "lon": 108.862,
+              "areaKm2": 29.4
+            }
+          ]
+        },
+        {
+          "code": "21709",
+          "name": "Xã Ân Phong",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Hoài Ân",
+              "newWardShort": "Hoài Ân",
+              "newWardCode": "21688",
+              "newWardType": "Xã",
+              "lat": 14.3087,
+              "lon": 109.001,
+              "areaKm2": 115.72
+            }
+          ]
+        },
+        {
+          "code": "21694",
+          "name": "Xã Ân Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Vạn Đức",
+              "newWardShort": "Vạn Đức",
+              "newWardCode": "21703",
+              "newWardType": "Xã",
+              "lat": 14.4006,
+              "lon": 108.915,
+              "areaKm2": 111.88
+            }
+          ]
+        },
+        {
+          "code": "21706",
+          "name": "Xã Ân Thạnh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Vạn Đức",
+              "newWardShort": "Vạn Đức",
+              "newWardCode": "21703",
+              "newWardType": "Xã",
+              "lat": 14.4006,
+              "lon": 108.915,
+              "areaKm2": 111.88
+            }
+          ]
+        },
+        {
+          "code": "21703",
+          "name": "Xã Ân Tín",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Vạn Đức",
+              "newWardShort": "Vạn Đức",
+              "newWardCode": "21703",
+              "newWardType": "Xã",
+              "lat": 14.4006,
+              "lon": 108.915,
+              "areaKm2": 111.88
+            }
+          ]
+        },
+        {
+          "code": "21724",
+          "name": "Xã Ân Tường Đông",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Hoài Ân",
+              "newWardShort": "Hoài Ân",
+              "newWardCode": "21688",
+              "newWardType": "Xã",
+              "lat": 14.3087,
+              "lon": 109.001,
+              "areaKm2": 115.72
+            }
+          ]
+        },
+        {
+          "code": "21721",
+          "name": "Xã Ân Tường Tây",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Ân Tường",
+              "newWardShort": "Ân Tường",
+              "newWardCode": "21715",
+              "newWardType": "Xã",
+              "lat": 14.3551,
+              "lon": 108.869,
+              "areaKm2": 227.45
+            }
+          ]
+        },
+        {
+          "code": "21718",
+          "name": "Xã Bok Tới",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Kim Sơn",
+              "newWardShort": "Kim Sơn",
+              "newWardCode": "21727",
+              "newWardType": "Xã",
+              "lat": 14.2495,
+              "lon": 108.862,
+              "areaKm2": 29.4
+            }
+          ]
+        },
+        {
+          "code": "21700",
+          "name": "Xã Đak Mang",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Ân Tường",
+              "newWardShort": "Ân Tường",
+              "newWardCode": "21715",
+              "newWardType": "Xã",
+              "lat": 14.3551,
+              "lon": 108.869,
+              "areaKm2": 227.45
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "548",
+      "name": "Huyện Phù Cát",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "21862",
+          "name": "Thị trấn Cát Khánh",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Đề Gi",
+              "newWardShort": "Đề Gi",
+              "newWardCode": "21859",
+              "newWardType": "Xã",
+              "lat": 14.0999,
+              "lon": 109.138,
+              "areaKm2": 94.97
+            }
+          ]
+        },
+        {
+          "code": "21898",
+          "name": "Thị trấn Cát Tiến",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Cát Tiến",
+              "newWardShort": "Cát Tiến",
+              "newWardCode": "21880",
+              "newWardType": "Xã",
+              "lat": 14.0649,
+              "lon": 109.187,
+              "areaKm2": 103.36
+            }
+          ]
+        },
+        {
+          "code": "21853",
+          "name": "Thị trấn Ngô Mây",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Phù Cát",
+              "newWardShort": "Phù Cát",
+              "newWardCode": "21853",
+              "newWardType": "Xã",
+              "lat": 14.0023,
+              "lon": 109.074,
+              "areaKm2": 83.96
+            }
+          ]
+        },
+        {
+          "code": "21904",
+          "name": "Xã Cát Chánh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Ngô Mây",
+              "newWardShort": "Ngô Mây",
+              "newWardCode": "21901",
+              "newWardType": "Xã",
+              "lat": 13.9841,
+              "lon": 109.184,
+              "areaKm2": 61.42
+            }
+          ]
+        },
+        {
+          "code": "21880",
+          "name": "Xã Cát Hải",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Cát Tiến",
+              "newWardShort": "Cát Tiến",
+              "newWardCode": "21880",
+              "newWardType": "Xã",
+              "lat": 14.0649,
+              "lon": 109.187,
+              "areaKm2": 103.36
+            }
+          ]
+        },
+        {
+          "code": "21871",
+          "name": "Xã Cát Hanh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Hòa Hội",
+              "newWardShort": "Hòa Hội",
+              "newWardCode": "21871",
+              "newWardType": "Xã",
+              "lat": 14.0463,
+              "lon": 109.019,
+              "areaKm2": 136.27
+            }
+          ]
+        },
+        {
+          "code": "21883",
+          "name": "Xã Cát Hiệp",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Hòa Hội",
+              "newWardShort": "Hòa Hội",
+              "newWardCode": "21871",
+              "newWardType": "Xã",
+              "lat": 14.0463,
+              "lon": 109.019,
+              "areaKm2": 136.27
+            }
+          ]
+        },
+        {
+          "code": "21889",
+          "name": "Xã Cát Hưng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Ngô Mây",
+              "newWardShort": "Ngô Mây",
+              "newWardCode": "21901",
+              "newWardType": "Xã",
+              "lat": 13.9841,
+              "lon": 109.184,
+              "areaKm2": 61.42
+            }
+          ]
+        },
+        {
+          "code": "21868",
+          "name": "Xã Cát Lâm",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Hội Sơn",
+              "newWardShort": "Hội Sơn",
+              "newWardCode": "21868",
+              "newWardType": "Xã",
+              "lat": 14.1231,
+              "lon": 108.943,
+              "areaKm2": 182.34
+            }
+          ]
+        },
+        {
+          "code": "21859",
+          "name": "Xã Cát Minh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Đề Gi",
+              "newWardShort": "Đề Gi",
+              "newWardCode": "21859",
+              "newWardType": "Xã",
+              "lat": 14.0999,
+              "lon": 109.138,
+              "areaKm2": 94.97
+            }
+          ]
+        },
+        {
+          "code": "21886",
+          "name": "Xã Cát Nhơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Xuân An",
+              "newWardShort": "Xuân An",
+              "newWardCode": "21892",
+              "newWardType": "Xã",
+              "lat": 13.985,
+              "lon": 109.132,
+              "areaKm2": 67.61
+            }
+          ]
+        },
+        {
+          "code": "21856",
+          "name": "Xã Cát Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Hội Sơn",
+              "newWardShort": "Hội Sơn",
+              "newWardCode": "21868",
+              "newWardType": "Xã",
+              "lat": 14.1231,
+              "lon": 108.943,
+              "areaKm2": 182.34
+            }
+          ]
+        },
+        {
+          "code": "21865",
+          "name": "Xã Cát Tài",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Đề Gi",
+              "newWardShort": "Đề Gi",
+              "newWardCode": "21859",
+              "newWardType": "Xã",
+              "lat": 14.0999,
+              "lon": 109.138,
+              "areaKm2": 94.97
+            }
+          ]
+        },
+        {
+          "code": "21895",
+          "name": "Xã Cát Tân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Phù Cát",
+              "newWardShort": "Phù Cát",
+              "newWardCode": "21853",
+              "newWardType": "Xã",
+              "lat": 14.0023,
+              "lon": 109.074,
+              "areaKm2": 83.96
+            }
+          ]
+        },
+        {
+          "code": "21901",
+          "name": "Xã Cát Thắng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Ngô Mây",
+              "newWardShort": "Ngô Mây",
+              "newWardCode": "21901",
+              "newWardType": "Xã",
+              "lat": 13.9841,
+              "lon": 109.184,
+              "areaKm2": 61.42
+            }
+          ]
+        },
+        {
+          "code": "21874",
+          "name": "Xã Cát Thành",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Cát Tiến",
+              "newWardShort": "Cát Tiến",
+              "newWardCode": "21880",
+              "newWardType": "Xã",
+              "lat": 14.0649,
+              "lon": 109.187,
+              "areaKm2": 103.36
+            }
+          ]
+        },
+        {
+          "code": "21877",
+          "name": "Xã Cát Trinh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Phù Cát",
+              "newWardShort": "Phù Cát",
+              "newWardCode": "21853",
+              "newWardType": "Xã",
+              "lat": 14.0023,
+              "lon": 109.074,
+              "areaKm2": 83.96
+            }
+          ]
+        },
+        {
+          "code": "21892",
+          "name": "Xã Cát Tường",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Xuân An",
+              "newWardShort": "Xuân An",
+              "newWardCode": "21892",
+              "newWardType": "Xã",
+              "lat": 13.985,
+              "lon": 109.132,
+              "areaKm2": 67.61
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "545",
+      "name": "Huyện Phù Mỹ",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "21733",
+          "name": "Thị trấn Bình Dương",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Bình Dương",
+              "newWardShort": "Bình Dương",
+              "newWardCode": "21733",
+              "newWardType": "Xã",
+              "lat": 14.2693,
+              "lon": 109.101,
+              "areaKm2": 65.81
+            }
+          ]
+        },
+        {
+          "code": "21730",
+          "name": "Thị trấn Phù Mỹ",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Phù Mỹ",
+              "newWardShort": "Phù Mỹ",
+              "newWardCode": "21730",
+              "newWardType": "Xã",
+              "lat": 14.1867,
+              "lon": 109.086,
+              "areaKm2": 54.47
+            }
+          ]
+        },
+        {
+          "code": "21751",
+          "name": "Xã Mỹ An",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Phù Mỹ Đông",
+              "newWardShort": "Phù Mỹ Đông",
+              "newWardCode": "21751",
+              "newWardType": "Xã",
+              "lat": 14.2639,
+              "lon": 109.15,
+              "areaKm2": 85.62
+            }
+          ]
+        },
+        {
+          "code": "21781",
+          "name": "Xã Mỹ Cát",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã An Lương",
+              "newWardShort": "An Lương",
+              "newWardCode": "21769",
+              "newWardType": "Xã",
+              "lat": 14.1804,
+              "lon": 109.168,
+              "areaKm2": 66.57
+            }
+          ]
+        },
+        {
+          "code": "21769",
+          "name": "Xã Mỹ Chánh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã An Lương",
+              "newWardShort": "An Lương",
+              "newWardCode": "21769",
+              "newWardType": "Xã",
+              "lat": 14.1804,
+              "lon": 109.168,
+              "areaKm2": 66.57
+            }
+          ]
+        },
+        {
+          "code": "21784",
+          "name": "Xã Mỹ Chánh Tây",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Phù Mỹ",
+              "newWardShort": "Phù Mỹ",
+              "newWardCode": "21730",
+              "newWardType": "Xã",
+              "lat": 14.1867,
+              "lon": 109.086,
+              "areaKm2": 54.47
+            }
+          ]
+        },
+        {
+          "code": "21739",
+          "name": "Xã Mỹ Châu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Phù Mỹ Bắc",
+              "newWardShort": "Phù Mỹ Bắc",
+              "newWardCode": "21739",
+              "newWardType": "Xã",
+              "lat": 14.3318,
+              "lon": 109.069,
+              "areaKm2": 100.98
+            }
+          ]
+        },
+        {
+          "code": "21736",
+          "name": "Xã Mỹ Đức",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Phù Mỹ Bắc",
+              "newWardShort": "Phù Mỹ Bắc",
+              "newWardCode": "21739",
+              "newWardType": "Xã",
+              "lat": 14.3318,
+              "lon": 109.069,
+              "areaKm2": 100.98
+            }
+          ]
+        },
+        {
+          "code": "21775",
+          "name": "Xã Mỹ Hiệp",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Phù Mỹ Nam",
+              "newWardShort": "Phù Mỹ Nam",
+              "newWardCode": "21775",
+              "newWardType": "Xã",
+              "lat": 14.1276,
+              "lon": 109.046,
+              "areaKm2": 85.1
+            }
+          ]
+        },
+        {
+          "code": "21763",
+          "name": "Xã Mỹ Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Phù Mỹ Tây",
+              "newWardShort": "Phù Mỹ Tây",
+              "newWardCode": "21757",
+              "newWardType": "Xã",
+              "lat": 14.214,
+              "lon": 109.025,
+              "areaKm2": 97.53
+            }
+          ]
+        },
+        {
+          "code": "21745",
+          "name": "Xã Mỹ Lộc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Phù Mỹ Bắc",
+              "newWardShort": "Phù Mỹ Bắc",
+              "newWardCode": "21739",
+              "newWardType": "Xã",
+              "lat": 14.3318,
+              "lon": 109.069,
+              "areaKm2": 100.98
+            }
+          ]
+        },
+        {
+          "code": "21748",
+          "name": "Xã Mỹ Lợi",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Bình Dương",
+              "newWardShort": "Bình Dương",
+              "newWardCode": "21733",
+              "newWardType": "Xã",
+              "lat": 14.2693,
+              "lon": 109.101,
+              "areaKm2": 65.81
+            }
+          ]
+        },
+        {
+          "code": "21754",
+          "name": "Xã Mỹ Phong",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Bình Dương",
+              "newWardShort": "Bình Dương",
+              "newWardCode": "21733",
+              "newWardType": "Xã",
+              "lat": 14.2693,
+              "lon": 109.101,
+              "areaKm2": 65.81
+            }
+          ]
+        },
+        {
+          "code": "21772",
+          "name": "Xã Mỹ Quang",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Phù Mỹ",
+              "newWardShort": "Phù Mỹ",
+              "newWardCode": "21730",
+              "newWardType": "Xã",
+              "lat": 14.1867,
+              "lon": 109.086,
+              "areaKm2": 54.47
+            }
+          ]
+        },
+        {
+          "code": "21778",
+          "name": "Xã Mỹ Tài",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Phù Mỹ Nam",
+              "newWardShort": "Phù Mỹ Nam",
+              "newWardCode": "21775",
+              "newWardType": "Xã",
+              "lat": 14.1276,
+              "lon": 109.046,
+              "areaKm2": 85.1
+            }
+          ]
+        },
+        {
+          "code": "21742",
+          "name": "Xã Mỹ Thắng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Phù Mỹ Đông",
+              "newWardShort": "Phù Mỹ Đông",
+              "newWardCode": "21751",
+              "newWardType": "Xã",
+              "lat": 14.2639,
+              "lon": 109.15,
+              "areaKm2": 85.62
+            }
+          ]
+        },
+        {
+          "code": "21766",
+          "name": "Xã Mỹ Thành",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã An Lương",
+              "newWardShort": "An Lương",
+              "newWardCode": "21769",
+              "newWardType": "Xã",
+              "lat": 14.1804,
+              "lon": 109.168,
+              "areaKm2": 66.57
+            }
+          ]
+        },
+        {
+          "code": "21760",
+          "name": "Xã Mỹ Thọ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Phù Mỹ Đông",
+              "newWardShort": "Phù Mỹ Đông",
+              "newWardCode": "21751",
+              "newWardType": "Xã",
+              "lat": 14.2639,
+              "lon": 109.15,
+              "areaKm2": 85.62
+            }
+          ]
+        },
+        {
+          "code": "21757",
+          "name": "Xã Mỹ Trinh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Phù Mỹ Tây",
+              "newWardShort": "Phù Mỹ Tây",
+              "newWardCode": "21757",
+              "newWardType": "Xã",
+              "lat": 14.214,
+              "lon": 109.025,
+              "areaKm2": 97.53
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "547",
+      "name": "Huyện Tây Sơn",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "21808",
+          "name": "Thị trấn Phú Phong",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Tây Sơn",
+              "newWardShort": "Tây Sơn",
+              "newWardCode": "21808",
+              "newWardType": "Xã",
+              "lat": 13.8712,
+              "lon": 108.956,
+              "areaKm2": 334.62
+            }
+          ]
+        },
+        {
+          "code": "21829",
+          "name": "Xã Bình Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Bình An",
+              "newWardShort": "Bình An",
+              "newWardCode": "21829",
+              "newWardType": "Xã",
+              "lat": 13.9535,
+              "lon": 108.902,
+              "areaKm2": 73.43
+            }
+          ]
+        },
+        {
+          "code": "21847",
+          "name": "Xã Bình Nghi",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Tây Sơn",
+              "newWardShort": "Tây Sơn",
+              "newWardCode": "21808",
+              "newWardType": "Xã",
+              "lat": 13.8712,
+              "lon": 108.956,
+              "areaKm2": 334.62
+            }
+          ]
+        },
+        {
+          "code": "21811",
+          "name": "Xã Bình Tân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Bình Hiệp",
+              "newWardShort": "Bình Hiệp",
+              "newWardCode": "21817",
+              "newWardType": "Xã",
+              "lat": 13.9982,
+              "lon": 108.941,
+              "areaKm2": 123.68
+            }
+          ]
+        },
+        {
+          "code": "21823",
+          "name": "Xã Bình Thành",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Bình An",
+              "newWardShort": "Bình An",
+              "newWardCode": "21829",
+              "newWardType": "Xã",
+              "lat": 13.9535,
+              "lon": 108.902,
+              "areaKm2": 73.43
+            }
+          ]
+        },
+        {
+          "code": "21817",
+          "name": "Xã Bình Thuận",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Bình Hiệp",
+              "newWardShort": "Bình Hiệp",
+              "newWardCode": "21817",
+              "newWardType": "Xã",
+              "lat": 13.9982,
+              "lon": 108.941,
+              "areaKm2": 123.68
+            }
+          ]
+        },
+        {
+          "code": "21835",
+          "name": "Xã Bình Tường",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Bình Phú",
+              "newWardShort": "Bình Phú",
+              "newWardCode": "21835",
+              "newWardType": "Xã",
+              "lat": 13.8632,
+              "lon": 108.843,
+              "areaKm2": 47.3
+            }
+          ]
+        },
+        {
+          "code": "21826",
+          "name": "Xã Tây An",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Bình Hiệp",
+              "newWardShort": "Bình Hiệp",
+              "newWardCode": "21817",
+              "newWardType": "Xã",
+              "lat": 13.9982,
+              "lon": 108.941,
+              "areaKm2": 123.68
+            }
+          ]
+        },
+        {
+          "code": "21832",
+          "name": "Xã Tây Bình",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Bình An",
+              "newWardShort": "Bình An",
+              "newWardCode": "21829",
+              "newWardType": "Xã",
+              "lat": 13.9535,
+              "lon": 108.902,
+              "areaKm2": 73.43
+            }
+          ]
+        },
+        {
+          "code": "21820",
+          "name": "Xã Tây Giang",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Bình Khê",
+              "newWardShort": "Bình Khê",
+              "newWardCode": "21820",
+              "newWardType": "Xã",
+              "lat": 13.9733,
+              "lon": 108.807,
+              "areaKm2": 151.83
+            }
+          ]
+        },
+        {
+          "code": "21850",
+          "name": "Xã Tây Phú",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Bình Phú",
+              "newWardShort": "Bình Phú",
+              "newWardCode": "21835",
+              "newWardType": "Xã",
+              "lat": 13.8632,
+              "lon": 108.843,
+              "areaKm2": 47.3
+            }
+          ]
+        },
+        {
+          "code": "21814",
+          "name": "Xã Tây Thuận",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Bình Khê",
+              "newWardShort": "Bình Khê",
+              "newWardCode": "21820",
+              "newWardType": "Xã",
+              "lat": 13.9733,
+              "lon": 108.807,
+              "areaKm2": 151.83
+            }
+          ]
+        },
+        {
+          "code": "21838",
+          "name": "Xã Tây Vinh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Bình An",
+              "newWardShort": "Bình An",
+              "newWardCode": "21829",
+              "newWardType": "Xã",
+              "lat": 13.9535,
+              "lon": 108.902,
+              "areaKm2": 73.43
+            }
+          ]
+        },
+        {
+          "code": "21844",
+          "name": "Xã Tây Xuân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Tây Sơn",
+              "newWardShort": "Tây Sơn",
+              "newWardCode": "21808",
+              "newWardType": "Xã",
+              "lat": 13.8712,
+              "lon": 108.956,
+              "areaKm2": 334.62
+            }
+          ]
+        },
+        {
+          "code": "21841",
+          "name": "Xã Vĩnh An",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Bình Phú",
+              "newWardShort": "Bình Phú",
+              "newWardCode": "21835",
+              "newWardType": "Xã",
+              "lat": 13.8632,
+              "lon": 108.843,
+              "areaKm2": 47.3
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "550",
+      "name": "Huyện Tuy Phước",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "21955",
+          "name": "Thị trấn Diêu Trì",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Tuy Phước",
+              "newWardShort": "Tuy Phước",
+              "newWardCode": "21952",
+              "newWardType": "Xã",
+              "lat": 13.8339,
+              "lon": 109.216,
+              "areaKm2": 53.37
+            }
+          ]
+        },
+        {
+          "code": "21952",
+          "name": "Thị trấn Tuy Phước",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Tuy Phước",
+              "newWardShort": "Tuy Phước",
+              "newWardCode": "21952",
+              "newWardType": "Xã",
+              "lat": 13.8339,
+              "lon": 109.216,
+              "areaKm2": 53.37
+            }
+          ]
+        },
+        {
+          "code": "21985",
+          "name": "Xã Phước An",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Tuy Phước Tây",
+              "newWardShort": "Tuy Phước Tây",
+              "newWardCode": "21985",
+              "newWardType": "Xã",
+              "lat": 13.7929,
+              "lon": 109.103,
+              "areaKm2": 68.81
+            }
+          ]
+        },
+        {
+          "code": "21973",
+          "name": "Xã Phước Hiệp",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Tuy Phước Bắc",
+              "newWardShort": "Tuy Phước Bắc",
+              "newWardCode": "21964",
+              "newWardType": "Xã",
+              "lat": 13.8859,
+              "lon": 109.157,
+              "areaKm2": 37.03
+            }
+          ]
+        },
+        {
+          "code": "21967",
+          "name": "Xã Phước Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Tuy Phước Đông",
+              "newWardShort": "Tuy Phước Đông",
+              "newWardCode": "21970",
+              "newWardType": "Xã",
+              "lat": 13.8857,
+              "lon": 109.215,
+              "areaKm2": 60.66
+            }
+          ]
+        },
+        {
+          "code": "21961",
+          "name": "Xã Phước Hưng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Tuy Phước Bắc",
+              "newWardShort": "Tuy Phước Bắc",
+              "newWardCode": "21964",
+              "newWardType": "Xã",
+              "lat": 13.8859,
+              "lon": 109.157,
+              "areaKm2": 37.03
+            }
+          ]
+        },
+        {
+          "code": "21976",
+          "name": "Xã Phước Lộc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Tuy Phước",
+              "newWardShort": "Tuy Phước",
+              "newWardCode": "21952",
+              "newWardType": "Xã",
+              "lat": 13.8339,
+              "lon": 109.216,
+              "areaKm2": 53.37
+            }
+          ]
+        },
+        {
+          "code": "21979",
+          "name": "Xã Phước Nghĩa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Tuy Phước",
+              "newWardShort": "Tuy Phước",
+              "newWardCode": "21952",
+              "newWardType": "Xã",
+              "lat": 13.8339,
+              "lon": 109.216,
+              "areaKm2": 53.37
+            }
+          ]
+        },
+        {
+          "code": "21964",
+          "name": "Xã Phước Quang",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Tuy Phước Bắc",
+              "newWardShort": "Tuy Phước Bắc",
+              "newWardCode": "21964",
+              "newWardType": "Xã",
+              "lat": 13.8859,
+              "lon": 109.157,
+              "areaKm2": 37.03
+            }
+          ]
+        },
+        {
+          "code": "21970",
+          "name": "Xã Phước Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Tuy Phước Đông",
+              "newWardShort": "Tuy Phước Đông",
+              "newWardCode": "21970",
+              "newWardType": "Xã",
+              "lat": 13.8857,
+              "lon": 109.215,
+              "areaKm2": 60.66
+            }
+          ]
+        },
+        {
+          "code": "21958",
+          "name": "Xã Phước Thắng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Tuy Phước Đông",
+              "newWardShort": "Tuy Phước Đông",
+              "newWardCode": "21970",
+              "newWardType": "Xã",
+              "lat": 13.8857,
+              "lon": 109.215,
+              "areaKm2": 60.66
+            }
+          ]
+        },
+        {
+          "code": "21988",
+          "name": "Xã Phước Thành",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Tuy Phước Tây",
+              "newWardShort": "Tuy Phước Tây",
+              "newWardCode": "21985",
+              "newWardType": "Xã",
+              "lat": 13.7929,
+              "lon": 109.103,
+              "areaKm2": 68.81
+            }
+          ]
+        },
+        {
+          "code": "21982",
+          "name": "Xã Phước Thuận",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Tuy Phước",
+              "newWardShort": "Tuy Phước",
+              "newWardCode": "21952",
+              "newWardType": "Xã",
+              "lat": 13.8339,
+              "lon": 109.216,
+              "areaKm2": 53.37
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "551",
+      "name": "Huyện Vân Canh",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "21994",
+          "name": "Thị trấn Vân Canh",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Vân Canh",
+              "newWardShort": "Vân Canh",
+              "newWardCode": "21994",
+              "newWardType": "Xã",
+              "lat": 13.588,
+              "lon": 108.982,
+              "areaKm2": 208.75
+            }
+          ]
+        },
+        {
+          "code": "22006",
+          "name": "Xã Canh Hiển",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Canh Vinh",
+              "newWardShort": "Canh Vinh",
+              "newWardCode": "22006",
+              "newWardType": "Xã",
+              "lat": 13.683,
+              "lon": 109.043,
+              "areaKm2": 258.72
+            }
+          ]
+        },
+        {
+          "code": "22000",
+          "name": "Xã Canh Hiệp",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Canh Vinh",
+              "newWardShort": "Canh Vinh",
+              "newWardCode": "22006",
+              "newWardType": "Xã",
+              "lat": 13.683,
+              "lon": 109.043,
+              "areaKm2": 258.72
+            },
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Vân Canh",
+              "newWardShort": "Vân Canh",
+              "newWardCode": "21994",
+              "newWardType": "Xã",
+              "lat": 13.588,
+              "lon": 108.982,
+              "areaKm2": 208.75
+            }
+          ]
+        },
+        {
+          "code": "22012",
+          "name": "Xã Canh Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Vân Canh",
+              "newWardShort": "Vân Canh",
+              "newWardCode": "21994",
+              "newWardType": "Xã",
+              "lat": 13.588,
+              "lon": 108.982,
+              "areaKm2": 208.75
+            }
+          ]
+        },
+        {
+          "code": "21997",
+          "name": "Xã Canh Liên",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Canh Liên",
+              "newWardShort": "Canh Liên",
+              "newWardCode": "21997",
+              "newWardType": "Xã",
+              "lat": 13.6903,
+              "lon": 108.898,
+              "areaKm2": 331.67
+            },
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Canh Vinh",
+              "newWardShort": "Canh Vinh",
+              "newWardCode": "22006",
+              "newWardType": "Xã",
+              "lat": 13.683,
+              "lon": 109.043,
+              "areaKm2": 258.72
+            }
+          ]
+        },
+        {
+          "code": "22009",
+          "name": "Xã Canh Thuận",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Vân Canh",
+              "newWardShort": "Vân Canh",
+              "newWardCode": "21994",
+              "newWardType": "Xã",
+              "lat": 13.588,
+              "lon": 108.982,
+              "areaKm2": 208.75
+            }
+          ]
+        },
+        {
+          "code": "22003",
+          "name": "Xã Canh Vinh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Canh Vinh",
+              "newWardShort": "Canh Vinh",
+              "newWardCode": "22006",
+              "newWardType": "Xã",
+              "lat": 13.683,
+              "lon": 109.043,
+              "areaKm2": 258.72
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "546",
+      "name": "Huyện Vĩnh Thạnh",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "21786",
+          "name": "Thị trấn Vĩnh Thạnh",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Vĩnh Thạnh",
+              "newWardShort": "Vĩnh Thạnh",
+              "newWardCode": "21786",
+              "newWardType": "Xã",
+              "lat": 14.1791,
+              "lon": 108.727,
+              "areaKm2": 65.9
+            }
+          ]
+        },
+        {
+          "code": "21799",
+          "name": "Xã Vĩnh Hảo",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Vĩnh Thạnh",
+              "newWardShort": "Vĩnh Thạnh",
+              "newWardCode": "21786",
+              "newWardType": "Xã",
+              "lat": 14.1791,
+              "lon": 108.727,
+              "areaKm2": 65.9
+            }
+          ]
+        },
+        {
+          "code": "21796",
+          "name": "Xã Vĩnh Hiệp",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Vĩnh Thịnh",
+              "newWardShort": "Vĩnh Thịnh",
+              "newWardCode": "21796",
+              "newWardType": "Xã",
+              "lat": 14.1413,
+              "lon": 108.815,
+              "areaKm2": 133.91
+            }
+          ]
+        },
+        {
+          "code": "21801",
+          "name": "Xã Vĩnh Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Vĩnh Quang",
+              "newWardShort": "Vĩnh Quang",
+              "newWardCode": "21805",
+              "newWardType": "Xã",
+              "lat": 14.0843,
+              "lon": 108.742,
+              "areaKm2": 89.35
+            }
+          ]
+        },
+        {
+          "code": "21790",
+          "name": "Xã Vĩnh Kim",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Vĩnh Sơn",
+              "newWardShort": "Vĩnh Sơn",
+              "newWardCode": "21787",
+              "newWardType": "Xã",
+              "lat": 14.3348,
+              "lon": 108.711,
+              "areaKm2": 328.89
+            }
+          ]
+        },
+        {
+          "code": "21805",
+          "name": "Xã Vĩnh Quang",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Vĩnh Quang",
+              "newWardShort": "Vĩnh Quang",
+              "newWardCode": "21805",
+              "newWardType": "Xã",
+              "lat": 14.0843,
+              "lon": 108.742,
+              "areaKm2": 89.35
+            }
+          ]
+        },
+        {
+          "code": "21787",
+          "name": "Xã Vĩnh Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Vĩnh Sơn",
+              "newWardShort": "Vĩnh Sơn",
+              "newWardCode": "21787",
+              "newWardType": "Xã",
+              "lat": 14.3348,
+              "lon": 108.711,
+              "areaKm2": 328.89
+            }
+          ]
+        },
+        {
+          "code": "21802",
+          "name": "Xã Vĩnh Thịnh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Vĩnh Thịnh",
+              "newWardShort": "Vĩnh Thịnh",
+              "newWardCode": "21796",
+              "newWardType": "Xã",
+              "lat": 14.1413,
+              "lon": 108.815,
+              "areaKm2": 133.91
+            }
+          ]
+        },
+        {
+          "code": "21804",
+          "name": "Xã Vĩnh Thuận",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Vĩnh Quang",
+              "newWardShort": "Vĩnh Quang",
+              "newWardCode": "21805",
+              "newWardType": "Xã",
+              "lat": 14.0843,
+              "lon": 108.742,
+              "areaKm2": 89.35
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "540",
+      "name": "Thành phố Quy Nhơn",
+      "type": "Thành phố",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "21589",
+          "name": "Phường Bùi Thị Xuân",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Phường Quy Nhơn Tây",
+              "newWardShort": "Quy Nhơn Tây",
+              "newWardCode": "21589",
+              "newWardType": "Phường",
+              "lat": 13.7015,
+              "lon": 109.141,
+              "areaKm2": 118.63
+            }
+          ]
+        },
+        {
+          "code": "21556",
+          "name": "Phường Đống Đa",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Phường Quy Nhơn",
+              "newWardShort": "Quy Nhơn",
+              "newWardCode": "21583",
+              "newWardType": "Phường",
+              "lat": 13.7843,
+              "lon": 109.233,
+              "areaKm2": 21.78
+            }
+          ]
+        },
+        {
+          "code": "21595",
+          "name": "Phường Ghềnh Ráng",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Phường Quy Nhơn Nam",
+              "newWardShort": "Quy Nhơn Nam",
+              "newWardCode": "21592",
+              "newWardType": "Phường",
+              "lat": 13.729,
+              "lon": 109.206,
+              "areaKm2": 36.36
+            }
+          ]
+        },
+        {
+          "code": "21562",
+          "name": "Phường Hải Cảng",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Phường Quy Nhơn",
+              "newWardShort": "Quy Nhơn",
+              "newWardCode": "21583",
+              "newWardType": "Phường",
+              "lat": 13.7843,
+              "lon": 109.233,
+              "areaKm2": 21.78
+            }
+          ]
+        },
+        {
+          "code": "21577",
+          "name": "Phường Ngô Mây",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Phường Quy Nhơn Nam",
+              "newWardShort": "Quy Nhơn Nam",
+              "newWardCode": "21592",
+              "newWardType": "Phường",
+              "lat": 13.729,
+              "lon": 109.206,
+              "areaKm2": 36.36
+            }
+          ]
+        },
+        {
+          "code": "21592",
+          "name": "Phường Nguyễn Văn Cừ",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Phường Quy Nhơn Nam",
+              "newWardShort": "Quy Nhơn Nam",
+              "newWardCode": "21592",
+              "newWardType": "Phường",
+              "lat": 13.729,
+              "lon": 109.206,
+              "areaKm2": 36.36
+            }
+          ]
+        },
+        {
+          "code": "21550",
+          "name": "Phường Nhơn Bình",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Phường Quy Nhơn Đông",
+              "newWardShort": "Quy Nhơn Đông",
+              "newWardCode": "21601",
+              "newWardType": "Phường",
+              "lat": 13.8278,
+              "lon": 109.259,
+              "areaKm2": 81.97
+            }
+          ]
+        },
+        {
+          "code": "21553",
+          "name": "Phường Nhơn Phú",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Phường Quy Nhơn Bắc",
+              "newWardShort": "Quy Nhơn Bắc",
+              "newWardCode": "21553",
+              "newWardType": "Phường",
+              "lat": 13.788,
+              "lon": 109.167,
+              "areaKm2": 23.7
+            }
+          ]
+        },
+        {
+          "code": "21565",
+          "name": "Phường Quang Trung",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Phường Quy Nhơn Nam",
+              "newWardShort": "Quy Nhơn Nam",
+              "newWardCode": "21592",
+              "newWardType": "Phường",
+              "lat": 13.729,
+              "lon": 109.206,
+              "areaKm2": 36.36
+            }
+          ]
+        },
+        {
+          "code": "21583",
+          "name": "Phường Thị Nại",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Phường Quy Nhơn",
+              "newWardShort": "Quy Nhơn",
+              "newWardCode": "21583",
+              "newWardType": "Phường",
+              "lat": 13.7843,
+              "lon": 109.233,
+              "areaKm2": 21.78
+            }
+          ]
+        },
+        {
+          "code": "21580",
+          "name": "Phường Trần Phú",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Phường Quy Nhơn",
+              "newWardShort": "Quy Nhơn",
+              "newWardCode": "21583",
+              "newWardType": "Phường",
+              "lat": 13.7843,
+              "lon": 109.233,
+              "areaKm2": 21.78
+            }
+          ]
+        },
+        {
+          "code": "21559",
+          "name": "Phường Trần Quang Diệu",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Phường Quy Nhơn Bắc",
+              "newWardShort": "Quy Nhơn Bắc",
+              "newWardCode": "21553",
+              "newWardType": "Phường",
+              "lat": 13.788,
+              "lon": 109.167,
+              "areaKm2": 23.7
+            }
+          ]
+        },
+        {
+          "code": "21607",
+          "name": "Xã Nhơn Châu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã Nhơn Châu",
+              "newWardShort": "Nhơn Châu",
+              "newWardCode": "21607",
+              "newWardType": "Xã",
+              "lat": 13.6209,
+              "lon": 109.3473,
+              "areaKm2": 3.62
+            }
+          ]
+        },
+        {
+          "code": "21604",
+          "name": "Xã Nhơn Hải",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Phường Quy Nhơn Đông",
+              "newWardShort": "Quy Nhơn Đông",
+              "newWardCode": "21601",
+              "newWardType": "Phường",
+              "lat": 13.8278,
+              "lon": 109.259,
+              "areaKm2": 81.97
+            }
+          ]
+        },
+        {
+          "code": "21601",
+          "name": "Xã Nhơn Hội",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Phường Quy Nhơn Đông",
+              "newWardShort": "Quy Nhơn Đông",
+              "newWardCode": "21601",
+              "newWardType": "Phường",
+              "lat": 13.8278,
+              "lon": 109.259,
+              "areaKm2": 81.97
+            }
+          ]
+        },
+        {
+          "code": "21598",
+          "name": "Xã Nhơn Lý",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Phường Quy Nhơn Đông",
+              "newWardShort": "Quy Nhơn Đông",
+              "newWardCode": "21601",
+              "newWardType": "Phường",
+              "lat": 13.8278,
+              "lon": 109.259,
+              "areaKm2": 81.97
+            }
+          ]
+        },
+        {
+          "code": "21991",
+          "name": "Xã Phước Mỹ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Phường Quy Nhơn Tây",
+              "newWardShort": "Quy Nhơn Tây",
+              "newWardCode": "21589",
+              "newWardType": "Phường",
+              "lat": 13.7015,
+              "lon": 109.141,
+              "areaKm2": 118.63
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "549",
+      "name": "Thị xã An Nhơn",
+      "type": "Thị xã",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "21907",
+          "name": "Phường Bình Định",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Phường Bình Định",
+              "newWardShort": "Bình Định",
+              "newWardCode": "21907",
+              "newWardType": "Phường",
+              "lat": 13.8932,
+              "lon": 109.058,
+              "areaKm2": 25.16
+            }
+          ]
+        },
+        {
+          "code": "21910",
+          "name": "Phường Đập Đá",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Phường An Nhơn",
+              "newWardShort": "An Nhơn",
+              "newWardCode": "21910",
+              "newWardType": "Phường",
+              "lat": 13.9174,
+              "lon": 109.063,
+              "areaKm2": 3.23
+            }
+          ]
+        },
+        {
+          "code": "21943",
+          "name": "Phường Nhơn Hòa",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Phường An Nhơn Nam",
+              "newWardShort": "An Nhơn Nam",
+              "newWardCode": "21943",
+              "newWardType": "Phường",
+              "lat": 13.851,
+              "lon": 109.081,
+              "areaKm2": 60.05
+            }
+          ]
+        },
+        {
+          "code": "21934",
+          "name": "Phường Nhơn Hưng",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Phường An Nhơn Đông",
+              "newWardShort": "An Nhơn Đông",
+              "newWardCode": "21934",
+              "newWardType": "Phường",
+              "lat": 13.9106,
+              "lon": 109.112,
+              "areaKm2": 17.21
+            }
+          ]
+        },
+        {
+          "code": "21916",
+          "name": "Phường Nhơn Thành",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Phường An Nhơn Bắc",
+              "newWardShort": "An Nhơn Bắc",
+              "newWardCode": "21925",
+              "newWardType": "Phường",
+              "lat": 13.9326,
+              "lon": 109.153,
+              "areaKm2": 31.95
+            }
+          ]
+        },
+        {
+          "code": "21928",
+          "name": "Xã Nhơn An",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Phường An Nhơn Đông",
+              "newWardShort": "An Nhơn Đông",
+              "newWardCode": "21934",
+              "newWardType": "Phường",
+              "lat": 13.9106,
+              "lon": 109.112,
+              "areaKm2": 17.21
+            }
+          ]
+        },
+        {
+          "code": "21919",
+          "name": "Xã Nhơn Hạnh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Phường An Nhơn Bắc",
+              "newWardShort": "An Nhơn Bắc",
+              "newWardCode": "21925",
+              "newWardType": "Phường",
+              "lat": 13.9326,
+              "lon": 109.153,
+              "areaKm2": 31.95
+            }
+          ]
+        },
+        {
+          "code": "21922",
+          "name": "Xã Nhơn Hậu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Phường An Nhơn",
+              "newWardShort": "An Nhơn",
+              "newWardCode": "21910",
+              "newWardType": "Phường",
+              "lat": 13.9174,
+              "lon": 109.063,
+              "areaKm2": 3.23
+            }
+          ]
+        },
+        {
+          "code": "21937",
+          "name": "Xã Nhơn Khánh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Phường Bình Định",
+              "newWardShort": "Bình Định",
+              "newWardCode": "21907",
+              "newWardType": "Phường",
+              "lat": 13.8932,
+              "lon": 109.058,
+              "areaKm2": 25.16
+            }
+          ]
+        },
+        {
+          "code": "21940",
+          "name": "Xã Nhơn Lộc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã An Nhơn Tây",
+              "newWardShort": "An Nhơn Tây",
+              "newWardCode": "21940",
+              "newWardType": "Xã",
+              "lat": 13.8115,
+              "lon": 109.014,
+              "areaKm2": 77.7
+            }
+          ]
+        },
+        {
+          "code": "21913",
+          "name": "Xã Nhơn Mỹ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Phường An Nhơn",
+              "newWardShort": "An Nhơn",
+              "newWardCode": "21910",
+              "newWardType": "Phường",
+              "lat": 13.9174,
+              "lon": 109.063,
+              "areaKm2": 3.23
+            }
+          ]
+        },
+        {
+          "code": "21925",
+          "name": "Xã Nhơn Phong",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Phường An Nhơn Bắc",
+              "newWardShort": "An Nhơn Bắc",
+              "newWardCode": "21925",
+              "newWardType": "Phường",
+              "lat": 13.9326,
+              "lon": 109.153,
+              "areaKm2": 31.95
+            }
+          ]
+        },
+        {
+          "code": "21931",
+          "name": "Xã Nhơn Phúc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Phường Bình Định",
+              "newWardShort": "Bình Định",
+              "newWardCode": "21907",
+              "newWardType": "Phường",
+              "lat": 13.8932,
+              "lon": 109.058,
+              "areaKm2": 25.16
+            }
+          ]
+        },
+        {
+          "code": "21946",
+          "name": "Xã Nhơn Tân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Xã An Nhơn Tây",
+              "newWardShort": "An Nhơn Tây",
+              "newWardCode": "21940",
+              "newWardType": "Xã",
+              "lat": 13.8115,
+              "lon": 109.014,
+              "areaKm2": 77.7
+            }
+          ]
+        },
+        {
+          "code": "21949",
+          "name": "Xã Nhơn Thọ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Phường An Nhơn Nam",
+              "newWardShort": "An Nhơn Nam",
+              "newWardCode": "21943",
+              "newWardType": "Phường",
+              "lat": 13.851,
+              "lon": 109.081,
+              "areaKm2": 60.05
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "543",
+      "name": "Thị xã Hoài Nhơn",
+      "type": "Thị xã",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "21640",
+          "name": "Phường Bồng Sơn",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Phường Bồng Sơn",
+              "newWardShort": "Bồng Sơn",
+              "newWardCode": "21640",
+              "newWardType": "Phường",
+              "lat": 14.4036,
+              "lon": 109.029,
+              "areaKm2": 81.11
+            }
+          ]
+        },
+        {
+          "code": "21685",
+          "name": "Phường Hoài Đức",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Phường Bồng Sơn",
+              "newWardShort": "Bồng Sơn",
+              "newWardCode": "21640",
+              "newWardType": "Phường",
+              "lat": 14.4036,
+              "lon": 109.029,
+              "areaKm2": 81.11
+            }
+          ]
+        },
+        {
+          "code": "21661",
+          "name": "Phường Hoài Hảo",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Phường Hoài Nhơn Tây",
+              "newWardShort": "Hoài Nhơn Tây",
+              "newWardCode": "21661",
+              "newWardType": "Phường",
+              "lat": 14.5372,
+              "lon": 108.984,
+              "areaKm2": 78.15
+            }
+          ]
+        },
+        {
+          "code": "21670",
+          "name": "Phường Hoài Hương",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Phường Hoài Nhơn Đông",
+              "newWardShort": "Hoài Nhơn Đông",
+              "newWardCode": "21670",
+              "newWardType": "Phường",
+              "lat": 14.4479,
+              "lon": 109.087,
+              "areaKm2": 64.36
+            }
+          ]
+        },
+        {
+          "code": "21673",
+          "name": "Phường Hoài Tân",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Phường Hoài Nhơn Nam",
+              "newWardShort": "Hoài Nhơn Nam",
+              "newWardCode": "21673",
+              "newWardType": "Phường",
+              "lat": 14.4646,
+              "lon": 109.018,
+              "areaKm2": 37.67
+            }
+          ]
+        },
+        {
+          "code": "21667",
+          "name": "Phường Hoài Thanh",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Phường Hoài Nhơn",
+              "newWardShort": "Hoài Nhơn",
+              "newWardCode": "21664",
+              "newWardType": "Phường",
+              "lat": 14.5092,
+              "lon": 109.049,
+              "areaKm2": 40.32
+            }
+          ]
+        },
+        {
+          "code": "21664",
+          "name": "Phường Hoài Thanh Tây",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Phường Hoài Nhơn",
+              "newWardShort": "Hoài Nhơn",
+              "newWardCode": "21664",
+              "newWardType": "Phường",
+              "lat": 14.5092,
+              "lon": 109.049,
+              "areaKm2": 40.32
+            }
+          ]
+        },
+        {
+          "code": "21679",
+          "name": "Phường Hoài Xuân",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Phường Hoài Nhơn Nam",
+              "newWardShort": "Hoài Nhơn Nam",
+              "newWardCode": "21673",
+              "newWardType": "Phường",
+              "lat": 14.4646,
+              "lon": 109.018,
+              "areaKm2": 37.67
+            }
+          ]
+        },
+        {
+          "code": "21637",
+          "name": "Phường Tam Quan",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Phường Tam Quan",
+              "newWardShort": "Tam Quan",
+              "newWardCode": "21637",
+              "newWardType": "Phường",
+              "lat": 14.5729,
+              "lon": 109.01,
+              "areaKm2": 29.82
+            }
+          ]
+        },
+        {
+          "code": "21655",
+          "name": "Phường Tam Quan Bắc",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Phường Hoài Nhơn Bắc",
+              "newWardShort": "Hoài Nhơn Bắc",
+              "newWardCode": "21655",
+              "newWardType": "Phường",
+              "lat": 14.6198,
+              "lon": 109.008,
+              "areaKm2": 89.45
+            }
+          ]
+        },
+        {
+          "code": "21658",
+          "name": "Phường Tam Quan Nam",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Phường Hoài Nhơn",
+              "newWardShort": "Hoài Nhơn",
+              "newWardCode": "21664",
+              "newWardType": "Phường",
+              "lat": 14.5092,
+              "lon": 109.049,
+              "areaKm2": 40.32
+            }
+          ]
+        },
+        {
+          "code": "21649",
+          "name": "Xã Hoài Châu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Phường Tam Quan",
+              "newWardShort": "Tam Quan",
+              "newWardCode": "21637",
+              "newWardType": "Phường",
+              "lat": 14.5729,
+              "lon": 109.01,
+              "areaKm2": 29.82
+            }
+          ]
+        },
+        {
+          "code": "21646",
+          "name": "Xã Hoài Châu Bắc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Phường Hoài Nhơn Bắc",
+              "newWardShort": "Hoài Nhơn Bắc",
+              "newWardCode": "21655",
+              "newWardType": "Phường",
+              "lat": 14.6198,
+              "lon": 109.008,
+              "areaKm2": 89.45
+            }
+          ]
+        },
+        {
+          "code": "21676",
+          "name": "Xã Hoài Hải",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Phường Hoài Nhơn Đông",
+              "newWardShort": "Hoài Nhơn Đông",
+              "newWardCode": "21670",
+              "newWardType": "Phường",
+              "lat": 14.4479,
+              "lon": 109.087,
+              "areaKm2": 64.36
+            }
+          ]
+        },
+        {
+          "code": "21682",
+          "name": "Xã Hoài Mỹ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Phường Hoài Nhơn Đông",
+              "newWardShort": "Hoài Nhơn Đông",
+              "newWardCode": "21670",
+              "newWardType": "Phường",
+              "lat": 14.4479,
+              "lon": 109.087,
+              "areaKm2": 64.36
+            }
+          ]
+        },
+        {
+          "code": "21652",
+          "name": "Xã Hoài Phú",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Phường Hoài Nhơn Tây",
+              "newWardShort": "Hoài Nhơn Tây",
+              "newWardCode": "21661",
+              "newWardType": "Phường",
+              "lat": 14.5372,
+              "lon": 108.984,
+              "areaKm2": 78.15
+            }
+          ]
+        },
+        {
+          "code": "21643",
+          "name": "Xã Hoài Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Gia Lai",
+              "newProvinceSlug": "gia-lai",
+              "newProvinceCode": "52",
+              "newWard": "Phường Hoài Nhơn Bắc",
+              "newWardShort": "Hoài Nhơn Bắc",
+              "newWardCode": "21655",
+              "newWardType": "Phường",
+              "lat": 14.6198,
+              "lon": 109.008,
+              "areaKm2": 89.45
+            }
+          ]
+        }
+      ],
+      "results": []
+    }
+  ]
+}

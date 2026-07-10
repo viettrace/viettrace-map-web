@@ -1,0 +1,2365 @@
+{
+  "schemaVersion": 1,
+  "mergeDate": "2025-07-01",
+  "code": "94",
+  "name": "Tỉnh Sóc Trăng",
+  "name_en": "Soc Trang Province",
+  "slug": "soc-trang",
+  "districts": [
+    {
+      "code": "942",
+      "name": "Huyện Châu Thành",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "31569",
+          "name": "Thị trấn Châu Thành",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Phú Tâm",
+              "newWardShort": "Phú Tâm",
+              "newWardCode": "31569",
+              "newWardType": "Xã",
+              "lat": 9.71385,
+              "lon": 105.944,
+              "areaKm2": 48.88
+            }
+          ]
+        },
+        {
+          "code": "31594",
+          "name": "Xã An Hiệp",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã An Ninh",
+              "newWardShort": "An Ninh",
+              "newWardCode": "31594",
+              "newWardType": "Xã",
+              "lat": 9.63103,
+              "lon": 105.911,
+              "areaKm2": 68.81
+            }
+          ]
+        },
+        {
+          "code": "31600",
+          "name": "Xã An Ninh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã An Ninh",
+              "newWardShort": "An Ninh",
+              "newWardCode": "31594",
+              "newWardType": "Xã",
+              "lat": 9.63103,
+              "lon": 105.911,
+              "areaKm2": 68.81
+            }
+          ]
+        },
+        {
+          "code": "31570",
+          "name": "Xã Hồ Đắc Kiện",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Hồ Đắc Kiện",
+              "newWardShort": "Hồ Đắc Kiện",
+              "newWardCode": "31570",
+              "newWardType": "Xã",
+              "lat": 9.7071,
+              "lon": 105.857,
+              "areaKm2": 72.61
+            }
+          ]
+        },
+        {
+          "code": "31573",
+          "name": "Xã Phú Tâm",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Phú Tâm",
+              "newWardShort": "Phú Tâm",
+              "newWardCode": "31569",
+              "newWardType": "Xã",
+              "lat": 9.71385,
+              "lon": 105.944,
+              "areaKm2": 48.88
+            }
+          ]
+        },
+        {
+          "code": "31582",
+          "name": "Xã Phú Tân",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Phú Hữu",
+              "newWardShort": "Phú Hữu",
+              "newWardCode": "31378",
+              "newWardType": "Xã",
+              "lat": 9.90089,
+              "lon": 105.852,
+              "areaKm2": 60.54
+            },
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Thuận Hòa",
+              "newWardShort": "Thuận Hòa",
+              "newWardCode": "31582",
+              "newWardType": "Xã",
+              "lat": 9.68571,
+              "lon": 105.928,
+              "areaKm2": 45.86
+            }
+          ]
+        },
+        {
+          "code": "31585",
+          "name": "Xã Thiện Mỹ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Hồ Đắc Kiện",
+              "newWardShort": "Hồ Đắc Kiện",
+              "newWardCode": "31570",
+              "newWardType": "Xã",
+              "lat": 9.7071,
+              "lon": 105.857,
+              "areaKm2": 72.61
+            }
+          ]
+        },
+        {
+          "code": "31576",
+          "name": "Xã Thuận Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Thuận Hòa",
+              "newWardShort": "Thuận Hòa",
+              "newWardCode": "31582",
+              "newWardType": "Xã",
+              "lat": 9.68571,
+              "lon": 105.928,
+              "areaKm2": 45.86
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "945",
+      "name": "Huyện Cù Lao Dung",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "31615",
+          "name": "Thị trấn Cù Lao Dung",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã An Thạnh",
+              "newWardShort": "An Thạnh",
+              "newWardCode": "31615",
+              "newWardType": "Xã",
+              "lat": 9.68459,
+              "lon": 106.148,
+              "areaKm2": 94.92
+            }
+          ]
+        },
+        {
+          "code": "31618",
+          "name": "Xã An Thạnh 1",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã An Thạnh",
+              "newWardShort": "An Thạnh",
+              "newWardCode": "31615",
+              "newWardType": "Xã",
+              "lat": 9.68459,
+              "lon": 106.148,
+              "areaKm2": 94.92
+            }
+          ]
+        },
+        {
+          "code": "31630",
+          "name": "Xã An Thạnh 2",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Cù Lao Dung",
+              "newWardShort": "Cù Lao Dung",
+              "newWardCode": "31633",
+              "newWardType": "Xã",
+              "lat": 9.57508,
+              "lon": 106.225,
+              "areaKm2": 150.13
+            }
+          ]
+        },
+        {
+          "code": "31633",
+          "name": "Xã An Thạnh 3",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Cù Lao Dung",
+              "newWardShort": "Cù Lao Dung",
+              "newWardCode": "31633",
+              "newWardType": "Xã",
+              "lat": 9.57508,
+              "lon": 106.225,
+              "areaKm2": 150.13
+            }
+          ]
+        },
+        {
+          "code": "31624",
+          "name": "Xã An Thạnh Đông",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã An Thạnh",
+              "newWardShort": "An Thạnh",
+              "newWardCode": "31615",
+              "newWardType": "Xã",
+              "lat": 9.68459,
+              "lon": 106.148,
+              "areaKm2": 94.92
+            }
+          ]
+        },
+        {
+          "code": "31636",
+          "name": "Xã An Thạnh Nam",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Cù Lao Dung",
+              "newWardShort": "Cù Lao Dung",
+              "newWardCode": "31633",
+              "newWardType": "Xã",
+              "lat": 9.57508,
+              "lon": 106.225,
+              "areaKm2": 150.13
+            }
+          ]
+        },
+        {
+          "code": "31621",
+          "name": "Xã An Thạnh Tây",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã An Thạnh",
+              "newWardShort": "An Thạnh",
+              "newWardCode": "31615",
+              "newWardType": "Xã",
+              "lat": 9.68459,
+              "lon": 106.148,
+              "areaKm2": 94.92
+            }
+          ]
+        },
+        {
+          "code": "31627",
+          "name": "Xã Đại Ân 1",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Cù Lao Dung",
+              "newWardShort": "Cù Lao Dung",
+              "newWardCode": "31633",
+              "newWardType": "Xã",
+              "lat": 9.57508,
+              "lon": 106.225,
+              "areaKm2": 150.13
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "943",
+      "name": "Huyện Kế Sách",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "31531",
+          "name": "Thị trấn An Lạc Thôn",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã An Lạc Thôn",
+              "newWardShort": "An Lạc Thôn",
+              "newWardCode": "31531",
+              "newWardType": "Xã",
+              "lat": 9.87378,
+              "lon": 105.912,
+              "areaKm2": 84.99
+            }
+          ]
+        },
+        {
+          "code": "31528",
+          "name": "Thị trấn Kế Sách",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Kế Sách",
+              "newWardShort": "Kế Sách",
+              "newWardCode": "31528",
+              "newWardType": "Xã",
+              "lat": 9.77057,
+              "lon": 105.944,
+              "areaKm2": 61.58
+            }
+          ]
+        },
+        {
+          "code": "31540",
+          "name": "Xã An Lạc Tây",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Thới An Hội",
+              "newWardShort": "Thới An Hội",
+              "newWardCode": "31540",
+              "newWardType": "Xã",
+              "lat": 9.82553,
+              "lon": 105.979,
+              "areaKm2": 60.32
+            }
+          ]
+        },
+        {
+          "code": "31564",
+          "name": "Xã An Mỹ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Nhơn Mỹ",
+              "newWardShort": "Nhơn Mỹ",
+              "newWardCode": "31552",
+              "newWardType": "Xã",
+              "lat": 9.7621,
+              "lon": 106.025,
+              "areaKm2": 79.73
+            }
+          ]
+        },
+        {
+          "code": "31546",
+          "name": "Xã Ba Trinh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Đại Hải",
+              "newWardShort": "Đại Hải",
+              "newWardCode": "31561",
+              "newWardType": "Xã",
+              "lat": 9.79863,
+              "lon": 105.881,
+              "areaKm2": 70.52
+            }
+          ]
+        },
+        {
+          "code": "31561",
+          "name": "Xã Đại Hải",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Đại Hải",
+              "newWardShort": "Đại Hải",
+              "newWardCode": "31561",
+              "newWardType": "Xã",
+              "lat": 9.79863,
+              "lon": 105.881,
+              "areaKm2": 70.52
+            }
+          ]
+        },
+        {
+          "code": "31558",
+          "name": "Xã Kế An",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Kế Sách",
+              "newWardShort": "Kế Sách",
+              "newWardCode": "31528",
+              "newWardType": "Xã",
+              "lat": 9.77057,
+              "lon": 105.944,
+              "areaKm2": 61.58
+            }
+          ]
+        },
+        {
+          "code": "31555",
+          "name": "Xã Kế Thành",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Kế Sách",
+              "newWardShort": "Kế Sách",
+              "newWardCode": "31528",
+              "newWardType": "Xã",
+              "lat": 9.77057,
+              "lon": 105.944,
+              "areaKm2": 61.58
+            }
+          ]
+        },
+        {
+          "code": "31552",
+          "name": "Xã Nhơn Mỹ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Nhơn Mỹ",
+              "newWardShort": "Nhơn Mỹ",
+              "newWardCode": "31552",
+              "newWardType": "Xã",
+              "lat": 9.7621,
+              "lon": 106.025,
+              "areaKm2": 79.73
+            }
+          ]
+        },
+        {
+          "code": "31537",
+          "name": "Xã Phong Nẫm",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Phong Nẫm",
+              "newWardShort": "Phong Nẫm",
+              "newWardCode": "31537",
+              "newWardType": "Xã",
+              "lat": 9.8964,
+              "lon": 105.953,
+              "areaKm2": 17.3
+            }
+          ]
+        },
+        {
+          "code": "31549",
+          "name": "Xã Thới An Hội",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Thới An Hội",
+              "newWardShort": "Thới An Hội",
+              "newWardCode": "31540",
+              "newWardType": "Xã",
+              "lat": 9.82553,
+              "lon": 105.979,
+              "areaKm2": 60.32
+            }
+          ]
+        },
+        {
+          "code": "31543",
+          "name": "Xã Trinh Phú",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã An Lạc Thôn",
+              "newWardShort": "An Lạc Thôn",
+              "newWardCode": "31531",
+              "newWardType": "Xã",
+              "lat": 9.87378,
+              "lon": 105.912,
+              "areaKm2": 84.99
+            }
+          ]
+        },
+        {
+          "code": "31534",
+          "name": "Xã Xuân Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã An Lạc Thôn",
+              "newWardShort": "An Lạc Thôn",
+              "newWardCode": "31531",
+              "newWardType": "Xã",
+              "lat": 9.87378,
+              "lon": 105.912,
+              "areaKm2": 84.99
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "946",
+      "name": "Huyện Long Phú",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "31645",
+          "name": "Thị trấn Đại Ngãi",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Đại Ngãi",
+              "newWardShort": "Đại Ngãi",
+              "newWardCode": "31645",
+              "newWardType": "Xã",
+              "lat": 9.70034,
+              "lon": 106.08,
+              "areaKm2": 37.67
+            }
+          ]
+        },
+        {
+          "code": "31639",
+          "name": "Thị trấn Long Phú",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Long Phú",
+              "newWardShort": "Long Phú",
+              "newWardCode": "31639",
+              "newWardType": "Xã",
+              "lat": 9.59559,
+              "lon": 106.123,
+              "areaKm2": 76.77
+            }
+          ]
+        },
+        {
+          "code": "31663",
+          "name": "Xã Châu Khánh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Tân Thạnh",
+              "newWardShort": "Tân Thạnh",
+              "newWardCode": "31666",
+              "newWardType": "Xã",
+              "lat": 9.62301,
+              "lon": 106.064,
+              "areaKm2": 70.8
+            }
+          ]
+        },
+        {
+          "code": "31648",
+          "name": "Xã Hậu Thạnh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Trường Khánh",
+              "newWardShort": "Trường Khánh",
+              "newWardCode": "31654",
+              "newWardType": "Xã",
+              "lat": 9.68798,
+              "lon": 106.029,
+              "areaKm2": 58.33
+            }
+          ]
+        },
+        {
+          "code": "31651",
+          "name": "Xã Long Đức",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Đại Ngãi",
+              "newWardShort": "Đại Ngãi",
+              "newWardCode": "31645",
+              "newWardType": "Xã",
+              "lat": 9.70034,
+              "lon": 106.08,
+              "areaKm2": 37.67
+            }
+          ]
+        },
+        {
+          "code": "31669",
+          "name": "Xã Long Phú",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Long Phú",
+              "newWardShort": "Long Phú",
+              "newWardCode": "31639",
+              "newWardType": "Xã",
+              "lat": 9.59559,
+              "lon": 106.123,
+              "areaKm2": 76.77
+            },
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Phường Long Phú 1",
+              "newWardShort": "Long Phú 1",
+              "newWardCode": "31480",
+              "newWardType": "Phường",
+              "lat": 9.6522,
+              "lon": 105.639,
+              "areaKm2": 57.67
+            }
+          ]
+        },
+        {
+          "code": "31657",
+          "name": "Xã Phú Hữu",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Phú Hữu",
+              "newWardShort": "Phú Hữu",
+              "newWardCode": "31378",
+              "newWardType": "Xã",
+              "lat": 9.90089,
+              "lon": 105.852,
+              "areaKm2": 60.54
+            },
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Trường Khánh",
+              "newWardShort": "Trường Khánh",
+              "newWardCode": "31654",
+              "newWardType": "Xã",
+              "lat": 9.68798,
+              "lon": 106.029,
+              "areaKm2": 58.33
+            }
+          ]
+        },
+        {
+          "code": "31642",
+          "name": "Xã Song Phụng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Nhơn Mỹ",
+              "newWardShort": "Nhơn Mỹ",
+              "newWardCode": "31552",
+              "newWardType": "Xã",
+              "lat": 9.7621,
+              "lon": 106.025,
+              "areaKm2": 79.73
+            }
+          ]
+        },
+        {
+          "code": "31660",
+          "name": "Xã Tân Hưng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Tân Thạnh",
+              "newWardShort": "Tân Thạnh",
+              "newWardCode": "31666",
+              "newWardType": "Xã",
+              "lat": 9.62301,
+              "lon": 106.064,
+              "areaKm2": 70.8
+            }
+          ]
+        },
+        {
+          "code": "31666",
+          "name": "Xã Tân Thạnh",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Tân Thạnh",
+              "newWardShort": "Tân Thạnh",
+              "newWardCode": "31666",
+              "newWardType": "Xã",
+              "lat": 9.62301,
+              "lon": 106.064,
+              "areaKm2": 70.8
+            },
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Trường Thành",
+              "newWardShort": "Trường Thành",
+              "newWardCode": "31288",
+              "newWardType": "Xã",
+              "lat": 10.0423,
+              "lon": 105.61,
+              "areaKm2": 59.09
+            }
+          ]
+        },
+        {
+          "code": "31654",
+          "name": "Xã Trường Khánh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Trường Khánh",
+              "newWardShort": "Trường Khánh",
+              "newWardCode": "31654",
+              "newWardType": "Xã",
+              "lat": 9.68798,
+              "lon": 106.029,
+              "areaKm2": 58.33
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "944",
+      "name": "Huyện Mỹ Tú",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "31567",
+          "name": "Thị trấn Huỳnh Hữu Nghĩa",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Mỹ Tú",
+              "newWardShort": "Mỹ Tú",
+              "newWardCode": "31567",
+              "newWardType": "Xã",
+              "lat": 9.59959,
+              "lon": 105.792,
+              "areaKm2": 86.63
+            }
+          ]
+        },
+        {
+          "code": "31588",
+          "name": "Xã Hưng Phú",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Long Hưng",
+              "newWardShort": "Long Hưng",
+              "newWardCode": "31579",
+              "newWardType": "Xã",
+              "lat": 9.68836,
+              "lon": 105.798,
+              "areaKm2": 79.71
+            }
+          ]
+        },
+        {
+          "code": "31579",
+          "name": "Xã Long Hưng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Long Hưng",
+              "newWardShort": "Long Hưng",
+              "newWardCode": "31579",
+              "newWardType": "Xã",
+              "lat": 9.68836,
+              "lon": 105.798,
+              "areaKm2": 79.71
+            }
+          ]
+        },
+        {
+          "code": "31591",
+          "name": "Xã Mỹ Hương",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Mỹ Hương",
+              "newWardShort": "Mỹ Hương",
+              "newWardCode": "31591",
+              "newWardType": "Xã",
+              "lat": 9.5898,
+              "lon": 105.861,
+              "areaKm2": 104.74
+            }
+          ]
+        },
+        {
+          "code": "31603",
+          "name": "Xã Mỹ Phước",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Mỹ Phước",
+              "newWardShort": "Mỹ Phước",
+              "newWardCode": "31603",
+              "newWardType": "Xã",
+              "lat": 9.58793,
+              "lon": 105.721,
+              "areaKm2": 97.36
+            }
+          ]
+        },
+        {
+          "code": "31609",
+          "name": "Xã Mỹ Thuận",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Mỹ Tú",
+              "newWardShort": "Mỹ Tú",
+              "newWardCode": "31567",
+              "newWardType": "Xã",
+              "lat": 9.59959,
+              "lon": 105.792,
+              "areaKm2": 86.63
+            }
+          ]
+        },
+        {
+          "code": "31597",
+          "name": "Xã Mỹ Tú",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Mỹ Tú",
+              "newWardShort": "Mỹ Tú",
+              "newWardCode": "31567",
+              "newWardType": "Xã",
+              "lat": 9.59959,
+              "lon": 105.792,
+              "areaKm2": 86.63
+            }
+          ]
+        },
+        {
+          "code": "31612",
+          "name": "Xã Phú Mỹ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Mỹ Hương",
+              "newWardShort": "Mỹ Hương",
+              "newWardCode": "31591",
+              "newWardType": "Xã",
+              "lat": 9.5898,
+              "lon": 105.861,
+              "areaKm2": 104.74
+            }
+          ]
+        },
+        {
+          "code": "31606",
+          "name": "Xã Thuận Hưng",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Mỹ Hương",
+              "newWardShort": "Mỹ Hương",
+              "newWardCode": "31591",
+              "newWardType": "Xã",
+              "lat": 9.5898,
+              "lon": 105.861,
+              "areaKm2": 104.74
+            },
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Xà Phiên",
+              "newWardShort": "Xà Phiên",
+              "newWardCode": "31495",
+              "newWardType": "Xã",
+              "lat": 9.6319,
+              "lon": 105.527,
+              "areaKm2": 100.48
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "947",
+      "name": "Huyện Mỹ Xuyên",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "31684",
+          "name": "Thị trấn Mỹ Xuyên",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Phường Mỹ Xuyên",
+              "newWardShort": "Mỹ Xuyên",
+              "newWardCode": "31684",
+              "newWardType": "Phường",
+              "lat": 9.54742,
+              "lon": 105.918,
+              "areaKm2": 48.34
+            }
+          ]
+        },
+        {
+          "code": "31690",
+          "name": "Xã Đại Tâm",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Phường Mỹ Xuyên",
+              "newWardShort": "Mỹ Xuyên",
+              "newWardCode": "31684",
+              "newWardType": "Phường",
+              "lat": 9.54742,
+              "lon": 105.918,
+              "areaKm2": 48.34
+            }
+          ]
+        },
+        {
+          "code": "31720",
+          "name": "Xã Gia Hòa 1",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Nhu Gia",
+              "newWardShort": "Nhu Gia",
+              "newWardCode": "31708",
+              "newWardType": "Xã",
+              "lat": 9.47039,
+              "lon": 105.855,
+              "areaKm2": 75.59
+            }
+          ]
+        },
+        {
+          "code": "31726",
+          "name": "Xã Gia Hòa 2",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Gia Hòa",
+              "newWardShort": "Gia Hòa",
+              "newWardCode": "31726",
+              "newWardType": "Xã",
+              "lat": 9.43175,
+              "lon": 105.8,
+              "areaKm2": 77.06
+            }
+          ]
+        },
+        {
+          "code": "31717",
+          "name": "Xã Hòa Tú 1",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Hòa Tú",
+              "newWardShort": "Hòa Tú",
+              "newWardCode": "31717",
+              "newWardType": "Xã",
+              "lat": 9.4164,
+              "lon": 105.888,
+              "areaKm2": 67.15
+            }
+          ]
+        },
+        {
+          "code": "31729",
+          "name": "Xã Hòa Tú 2",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Hòa Tú",
+              "newWardShort": "Hòa Tú",
+              "newWardCode": "31717",
+              "newWardType": "Xã",
+              "lat": 9.4164,
+              "lon": 105.888,
+              "areaKm2": 67.15
+            }
+          ]
+        },
+        {
+          "code": "31711",
+          "name": "Xã Ngọc Đông",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Ngọc Tố",
+              "newWardShort": "Ngọc Tố",
+              "newWardCode": "31723",
+              "newWardType": "Xã",
+              "lat": 9.47663,
+              "lon": 105.939,
+              "areaKm2": 112.53
+            }
+          ]
+        },
+        {
+          "code": "31723",
+          "name": "Xã Ngọc Tố",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Ngọc Tố",
+              "newWardShort": "Ngọc Tố",
+              "newWardCode": "31723",
+              "newWardType": "Xã",
+              "lat": 9.47663,
+              "lon": 105.939,
+              "areaKm2": 112.53
+            }
+          ]
+        },
+        {
+          "code": "31693",
+          "name": "Xã Tham Đôn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Ngọc Tố",
+              "newWardShort": "Ngọc Tố",
+              "newWardCode": "31723",
+              "newWardType": "Xã",
+              "lat": 9.47663,
+              "lon": 105.939,
+              "areaKm2": 112.53
+            }
+          ]
+        },
+        {
+          "code": "31708",
+          "name": "Xã Thạnh Phú",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Nhu Gia",
+              "newWardShort": "Nhu Gia",
+              "newWardCode": "31708",
+              "newWardType": "Xã",
+              "lat": 9.47039,
+              "lon": 105.855,
+              "areaKm2": 75.59
+            }
+          ]
+        },
+        {
+          "code": "31714",
+          "name": "Xã Thạnh Quới",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Gia Hòa",
+              "newWardShort": "Gia Hòa",
+              "newWardCode": "31726",
+              "newWardType": "Xã",
+              "lat": 9.43175,
+              "lon": 105.8,
+              "areaKm2": 77.06
+            },
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Thạnh Quới",
+              "newWardShort": "Thạnh Quới",
+              "newWardCode": "31246",
+              "newWardType": "Xã",
+              "lat": 10.2075,
+              "lon": 105.348,
+              "areaKm2": 103.86
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "949",
+      "name": "Huyện Thạnh Trị",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "31757",
+          "name": "Thị trấn Hưng Lợi",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Phú Lộc",
+              "newWardShort": "Phú Lộc",
+              "newWardCode": "31756",
+              "newWardType": "Xã",
+              "lat": 9.43517,
+              "lon": 105.711,
+              "areaKm2": 80.15
+            }
+          ]
+        },
+        {
+          "code": "31756",
+          "name": "Thị trấn Phú Lộc",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Phú Lộc",
+              "newWardShort": "Phú Lộc",
+              "newWardCode": "31756",
+              "newWardType": "Xã",
+              "lat": 9.43517,
+              "lon": 105.711,
+              "areaKm2": 80.15
+            }
+          ]
+        },
+        {
+          "code": "31780",
+          "name": "Xã Châu Hưng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Vĩnh Lợi",
+              "newWardShort": "Vĩnh Lợi",
+              "newWardCode": "31777",
+              "newWardType": "Xã",
+              "lat": 9.4381,
+              "lon": 105.643,
+              "areaKm2": 31.98
+            }
+          ]
+        },
+        {
+          "code": "31765",
+          "name": "Xã Lâm Kiết",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Lâm Tân",
+              "newWardShort": "Lâm Tân",
+              "newWardCode": "31759",
+              "newWardType": "Xã",
+              "lat": 9.50692,
+              "lon": 105.773,
+              "areaKm2": 90.83
+            }
+          ]
+        },
+        {
+          "code": "31759",
+          "name": "Xã Lâm Tân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Lâm Tân",
+              "newWardShort": "Lâm Tân",
+              "newWardCode": "31759",
+              "newWardType": "Xã",
+              "lat": 9.50692,
+              "lon": 105.773,
+              "areaKm2": 90.83
+            }
+          ]
+        },
+        {
+          "code": "31762",
+          "name": "Xã Thạnh Tân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Tân Long",
+              "newWardShort": "Tân Long",
+              "newWardCode": "31741",
+              "newWardType": "Xã",
+              "lat": 9.52249,
+              "lon": 105.669,
+              "areaKm2": 102.12
+            }
+          ]
+        },
+        {
+          "code": "31774",
+          "name": "Xã Thạnh Trị",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Phú Lộc",
+              "newWardShort": "Phú Lộc",
+              "newWardCode": "31756",
+              "newWardType": "Xã",
+              "lat": 9.43517,
+              "lon": 105.711,
+              "areaKm2": 80.15
+            }
+          ]
+        },
+        {
+          "code": "31768",
+          "name": "Xã Tuân Tức",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Lâm Tân",
+              "newWardShort": "Lâm Tân",
+              "newWardCode": "31759",
+              "newWardType": "Xã",
+              "lat": 9.50692,
+              "lon": 105.773,
+              "areaKm2": 90.83
+            }
+          ]
+        },
+        {
+          "code": "31777",
+          "name": "Xã Vĩnh Lợi",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Vĩnh Lợi",
+              "newWardShort": "Vĩnh Lợi",
+              "newWardCode": "31777",
+              "newWardType": "Xã",
+              "lat": 9.4381,
+              "lon": 105.643,
+              "areaKm2": 31.98
+            }
+          ]
+        },
+        {
+          "code": "31771",
+          "name": "Xã Vĩnh Thành",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Vĩnh Lợi",
+              "newWardShort": "Vĩnh Lợi",
+              "newWardCode": "31777",
+              "newWardType": "Xã",
+              "lat": 9.4381,
+              "lon": 105.643,
+              "areaKm2": 31.98
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "951",
+      "name": "Huyện Trần Đề",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "31679",
+          "name": "Thị trấn Lịch Hội Thượng",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Lịch Hội Thượng",
+              "newWardShort": "Lịch Hội Thượng",
+              "newWardCode": "31679",
+              "newWardType": "Xã",
+              "lat": 9.4652,
+              "lon": 106.148,
+              "areaKm2": 48.99
+            }
+          ]
+        },
+        {
+          "code": "31673",
+          "name": "Thị trấn Trần Đề",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Trần Đề",
+              "newWardShort": "Trần Đề",
+              "newWardCode": "31673",
+              "newWardType": "Xã",
+              "lat": 9.51405,
+              "lon": 106.176,
+              "areaKm2": 93.92
+            }
+          ]
+        },
+        {
+          "code": "31672",
+          "name": "Xã Đại Ân 2",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Trần Đề",
+              "newWardShort": "Trần Đề",
+              "newWardCode": "31673",
+              "newWardType": "Xã",
+              "lat": 9.51405,
+              "lon": 106.176,
+              "areaKm2": 93.92
+            }
+          ]
+        },
+        {
+          "code": "31678",
+          "name": "Xã Lịch Hội Thượng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Lịch Hội Thượng",
+              "newWardShort": "Lịch Hội Thượng",
+              "newWardCode": "31679",
+              "newWardType": "Xã",
+              "lat": 9.4652,
+              "lon": 106.148,
+              "areaKm2": 48.99
+            }
+          ]
+        },
+        {
+          "code": "31675",
+          "name": "Xã Liêu Tú",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Liêu Tú",
+              "newWardShort": "Liêu Tú",
+              "newWardCode": "31675",
+              "newWardType": "Xã",
+              "lat": 9.48141,
+              "lon": 106.1,
+              "areaKm2": 83.15
+            }
+          ]
+        },
+        {
+          "code": "31687",
+          "name": "Xã Tài Văn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Tài Văn",
+              "newWardShort": "Tài Văn",
+              "newWardCode": "31687",
+              "newWardType": "Xã",
+              "lat": 9.54262,
+              "lon": 106.049,
+              "areaKm2": 68.07
+            }
+          ]
+        },
+        {
+          "code": "31699",
+          "name": "Xã Thạnh Thới An",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Thạnh Thới An",
+              "newWardShort": "Thạnh Thới An",
+              "newWardCode": "31699",
+              "newWardType": "Xã",
+              "lat": 9.48256,
+              "lon": 106.007,
+              "areaKm2": 87.15
+            }
+          ]
+        },
+        {
+          "code": "31702",
+          "name": "Xã Thạnh Thới Thuận",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Thạnh Thới An",
+              "newWardShort": "Thạnh Thới An",
+              "newWardCode": "31699",
+              "newWardType": "Xã",
+              "lat": 9.48256,
+              "lon": 106.007,
+              "areaKm2": 87.15
+            }
+          ]
+        },
+        {
+          "code": "31681",
+          "name": "Xã Trung Bình",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Trần Đề",
+              "newWardShort": "Trần Đề",
+              "newWardCode": "31673",
+              "newWardType": "Xã",
+              "lat": 9.51405,
+              "lon": 106.176,
+              "areaKm2": 93.92
+            }
+          ]
+        },
+        {
+          "code": "31696",
+          "name": "Xã Viên An",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Tài Văn",
+              "newWardShort": "Tài Văn",
+              "newWardCode": "31687",
+              "newWardType": "Xã",
+              "lat": 9.54262,
+              "lon": 106.049,
+              "areaKm2": 68.07
+            }
+          ]
+        },
+        {
+          "code": "31705",
+          "name": "Xã Viên Bình",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Liêu Tú",
+              "newWardShort": "Liêu Tú",
+              "newWardCode": "31675",
+              "newWardType": "Xã",
+              "lat": 9.48141,
+              "lon": 106.1,
+              "areaKm2": 83.15
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "941",
+      "name": "Thành phố Sóc Trăng",
+      "type": "Thành phố",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "31522",
+          "name": "Phường 1",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Phường Phú Lợi",
+              "newWardShort": "Phú Lợi",
+              "newWardCode": "31510",
+              "newWardType": "Phường",
+              "lat": 9.59174,
+              "lon": 105.985,
+              "areaKm2": 26.79
+            }
+          ]
+        },
+        {
+          "code": "31525",
+          "name": "Phường 10",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Phường Mỹ Xuyên",
+              "newWardShort": "Mỹ Xuyên",
+              "newWardCode": "31684",
+              "newWardType": "Phường",
+              "lat": 9.54742,
+              "lon": 105.918,
+              "areaKm2": 48.34
+            }
+          ]
+        },
+        {
+          "code": "31510",
+          "name": "Phường 2",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Phường Phú Lợi",
+              "newWardShort": "Phú Lợi",
+              "newWardCode": "31510",
+              "newWardType": "Phường",
+              "lat": 9.59174,
+              "lon": 105.985,
+              "areaKm2": 26.79
+            }
+          ]
+        },
+        {
+          "code": "31519",
+          "name": "Phường 3",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Phường Phú Lợi",
+              "newWardShort": "Phú Lợi",
+              "newWardCode": "31510",
+              "newWardType": "Phường",
+              "lat": 9.59174,
+              "lon": 105.985,
+              "areaKm2": 26.79
+            }
+          ]
+        },
+        {
+          "code": "31516",
+          "name": "Phường 4",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Phường Phú Lợi",
+              "newWardShort": "Phú Lợi",
+              "newWardCode": "31510",
+              "newWardType": "Phường",
+              "lat": 9.59174,
+              "lon": 105.985,
+              "areaKm2": 26.79
+            }
+          ]
+        },
+        {
+          "code": "31498",
+          "name": "Phường 5",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Phường Sóc Trăng",
+              "newWardShort": "Sóc Trăng",
+              "newWardCode": "31507",
+              "newWardType": "Phường",
+              "lat": 9.62716,
+              "lon": 105.991,
+              "areaKm2": 41.67
+            }
+          ]
+        },
+        {
+          "code": "31507",
+          "name": "Phường 6",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Phường Sóc Trăng",
+              "newWardShort": "Sóc Trăng",
+              "newWardCode": "31507",
+              "newWardType": "Phường",
+              "lat": 9.62716,
+              "lon": 105.991,
+              "areaKm2": 41.67
+            }
+          ]
+        },
+        {
+          "code": "31501",
+          "name": "Phường 7",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Phường Sóc Trăng",
+              "newWardShort": "Sóc Trăng",
+              "newWardCode": "31507",
+              "newWardType": "Phường",
+              "lat": 9.62716,
+              "lon": 105.991,
+              "areaKm2": 41.67
+            }
+          ]
+        },
+        {
+          "code": "31504",
+          "name": "Phường 8",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Phường Sóc Trăng",
+              "newWardShort": "Sóc Trăng",
+              "newWardCode": "31507",
+              "newWardType": "Phường",
+              "lat": 9.62716,
+              "lon": 105.991,
+              "areaKm2": 41.67
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "948",
+      "name": "Thị xã Ngã Năm",
+      "type": "Thị xã",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "31732",
+          "name": "Phường 1",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Phường Ngã Năm",
+              "newWardShort": "Ngã Năm",
+              "newWardCode": "31732",
+              "newWardType": "Phường",
+              "lat": 9.58612,
+              "lon": 105.612,
+              "areaKm2": 95.3
+            }
+          ]
+        },
+        {
+          "code": "31735",
+          "name": "Phường 2",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Phường Ngã Năm",
+              "newWardShort": "Ngã Năm",
+              "newWardCode": "31732",
+              "newWardType": "Phường",
+              "lat": 9.58612,
+              "lon": 105.612,
+              "areaKm2": 95.3
+            }
+          ]
+        },
+        {
+          "code": "31747",
+          "name": "Phường 3",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Phường Mỹ Quới",
+              "newWardShort": "Mỹ Quới",
+              "newWardCode": "31753",
+              "newWardType": "Phường",
+              "lat": 9.4866,
+              "lon": 105.58,
+              "areaKm2": 83.91
+            }
+          ]
+        },
+        {
+          "code": "31744",
+          "name": "Xã Long Bình",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Phường Long Bình",
+              "newWardShort": "Long Bình",
+              "newWardCode": "31473",
+              "newWardType": "Phường",
+              "lat": 9.72868,
+              "lon": 105.587,
+              "areaKm2": 40.2
+            },
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Tân Long",
+              "newWardShort": "Tân Long",
+              "newWardCode": "31741",
+              "newWardType": "Xã",
+              "lat": 9.52249,
+              "lon": 105.669,
+              "areaKm2": 102.12
+            }
+          ]
+        },
+        {
+          "code": "31750",
+          "name": "Xã Mỹ Bình",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Phường Mỹ Quới",
+              "newWardShort": "Mỹ Quới",
+              "newWardCode": "31753",
+              "newWardType": "Phường",
+              "lat": 9.4866,
+              "lon": 105.58,
+              "areaKm2": 83.91
+            }
+          ]
+        },
+        {
+          "code": "31753",
+          "name": "Xã Mỹ Quới",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Phường Mỹ Quới",
+              "newWardShort": "Mỹ Quới",
+              "newWardCode": "31753",
+              "newWardType": "Phường",
+              "lat": 9.4866,
+              "lon": 105.58,
+              "areaKm2": 83.91
+            }
+          ]
+        },
+        {
+          "code": "31741",
+          "name": "Xã Tân Long",
+          "type": "Xã",
+          "isDivided": true,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Tân Long",
+              "newWardShort": "Tân Long",
+              "newWardCode": "31741",
+              "newWardType": "Xã",
+              "lat": 9.52249,
+              "lon": 105.669,
+              "areaKm2": 102.12
+            },
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Thạnh Hòa",
+              "newWardShort": "Thạnh Hòa",
+              "newWardCode": "31408",
+              "newWardType": "Xã",
+              "lat": 9.87692,
+              "lon": 105.728,
+              "areaKm2": 81.36
+            }
+          ]
+        },
+        {
+          "code": "31738",
+          "name": "Xã Vĩnh Quới",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Phường Ngã Năm",
+              "newWardShort": "Ngã Năm",
+              "newWardCode": "31732",
+              "newWardType": "Phường",
+              "lat": 9.58612,
+              "lon": 105.612,
+              "areaKm2": 95.3
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "950",
+      "name": "Thị xã Vĩnh Châu",
+      "type": "Thị xã",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "31783",
+          "name": "Phường 1",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Phường Vĩnh Châu",
+              "newWardShort": "Vĩnh Châu",
+              "newWardCode": "31783",
+              "newWardType": "Phường",
+              "lat": 9.34799,
+              "lon": 106.034,
+              "areaKm2": 98.26
+            }
+          ]
+        },
+        {
+          "code": "31801",
+          "name": "Phường 2",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Phường Vĩnh Châu",
+              "newWardShort": "Vĩnh Châu",
+              "newWardCode": "31783",
+              "newWardType": "Phường",
+              "lat": 9.34799,
+              "lon": 106.034,
+              "areaKm2": 98.26
+            }
+          ]
+        },
+        {
+          "code": "31789",
+          "name": "Phường Khánh Hòa",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Phường Khánh Hòa",
+              "newWardShort": "Khánh Hòa",
+              "newWardCode": "31789",
+              "newWardType": "Phường",
+              "lat": 9.40992,
+              "lon": 106.026,
+              "areaKm2": 130.48
+            }
+          ]
+        },
+        {
+          "code": "31804",
+          "name": "Phường Vĩnh Phước",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Phường Vĩnh Phước",
+              "newWardShort": "Vĩnh Phước",
+              "newWardCode": "31804",
+              "newWardType": "Phường",
+              "lat": 9.32011,
+              "lon": 105.912,
+              "areaKm2": 103.15
+            }
+          ]
+        },
+        {
+          "code": "31786",
+          "name": "Xã Hòa Đông",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Phường Khánh Hòa",
+              "newWardShort": "Khánh Hòa",
+              "newWardCode": "31789",
+              "newWardType": "Phường",
+              "lat": 9.40992,
+              "lon": 106.026,
+              "areaKm2": 130.48
+            }
+          ]
+        },
+        {
+          "code": "31798",
+          "name": "Xã Lạc Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Phường Vĩnh Châu",
+              "newWardShort": "Vĩnh Châu",
+              "newWardCode": "31783",
+              "newWardType": "Phường",
+              "lat": 9.34799,
+              "lon": 106.034,
+              "areaKm2": 98.26
+            }
+          ]
+        },
+        {
+          "code": "31810",
+          "name": "Xã Lai Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Lai Hòa",
+              "newWardShort": "Lai Hòa",
+              "newWardCode": "31810",
+              "newWardType": "Xã",
+              "lat": 9.29803,
+              "lon": 105.844,
+              "areaKm2": 55.37
+            }
+          ]
+        },
+        {
+          "code": "31795",
+          "name": "Xã Vĩnh Hải",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Xã Vĩnh Hải",
+              "newWardShort": "Vĩnh Hải",
+              "newWardCode": "31795",
+              "newWardType": "Xã",
+              "lat": 9.37338,
+              "lon": 106.134,
+              "areaKm2": 83.75
+            }
+          ]
+        },
+        {
+          "code": "31792",
+          "name": "Xã Vĩnh Hiệp",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Phường Khánh Hòa",
+              "newWardShort": "Khánh Hòa",
+              "newWardCode": "31789",
+              "newWardType": "Phường",
+              "lat": 9.40992,
+              "lon": 106.026,
+              "areaKm2": 130.48
+            }
+          ]
+        },
+        {
+          "code": "31807",
+          "name": "Xã Vĩnh Tân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Thành phố Cần Thơ",
+              "newProvinceSlug": "can-tho",
+              "newProvinceCode": "92",
+              "newWard": "Phường Vĩnh Phước",
+              "newWardShort": "Vĩnh Phước",
+              "newWardCode": "31804",
+              "newWardType": "Phường",
+              "lat": 9.32011,
+              "lon": 105.912,
+              "areaKm2": 103.15
+            }
+          ]
+        }
+      ],
+      "results": []
+    }
+  ]
+}

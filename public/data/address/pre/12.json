@@ -1,0 +1,2202 @@
+{
+  "schemaVersion": 1,
+  "mergeDate": "2025-07-01",
+  "code": "12",
+  "name": "Tỉnh Lai Châu",
+  "name_en": "Lai Chau Province",
+  "slug": "lai-chau",
+  "districts": [
+    {
+      "code": "107",
+      "name": "Huyện Mường Tè",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "3433",
+          "name": "Thị trấn Mường Tè",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Bum Tở",
+              "newWardShort": "Bum Tở",
+              "newWardCode": "03433",
+              "newWardType": "Xã",
+              "lat": 22.3407,
+              "lon": 102.791,
+              "areaKm2": 384.07
+            }
+          ]
+        },
+        {
+          "code": "3466",
+          "name": "Xã Bum Nưa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Bum Nưa",
+              "newWardShort": "Bum Nưa",
+              "newWardCode": "03466",
+              "newWardType": "Xã",
+              "lat": 22.4925,
+              "lon": 102.85,
+              "areaKm2": 315.13
+            }
+          ]
+        },
+        {
+          "code": "3454",
+          "name": "Xã Bum Tở",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Bum Tở",
+              "newWardShort": "Bum Tở",
+              "newWardCode": "03433",
+              "newWardType": "Xã",
+              "lat": 22.3407,
+              "lon": 102.791,
+              "areaKm2": 384.07
+            }
+          ]
+        },
+        {
+          "code": "3439",
+          "name": "Xã Ka Lăng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Thu Lũm",
+              "newWardShort": "Thu Lũm",
+              "newWardCode": "03439",
+              "newWardType": "Xã",
+              "lat": 22.6474,
+              "lon": 102.448,
+              "areaKm2": 251.55
+            }
+          ]
+        },
+        {
+          "code": "3469",
+          "name": "Xã Kan Hồ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Bum Tở",
+              "newWardShort": "Bum Tở",
+              "newWardCode": "03433",
+              "newWardType": "Xã",
+              "lat": 22.3407,
+              "lon": 102.791,
+              "areaKm2": 384.07
+            }
+          ]
+        },
+        {
+          "code": "3451",
+          "name": "Xã Mù Cả",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Mù Cả",
+              "newWardShort": "Mù Cả",
+              "newWardCode": "03451",
+              "newWardType": "Xã",
+              "lat": 22.4844,
+              "lon": 102.459,
+              "areaKm2": 384.04
+            }
+          ]
+        },
+        {
+          "code": "3445",
+          "name": "Xã Mường Tè",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Mường Tè",
+              "newWardShort": "Mường Tè",
+              "newWardCode": "03445",
+              "newWardType": "Xã",
+              "lat": 22.482,
+              "lon": 102.63,
+              "areaKm2": 292
+            }
+          ]
+        },
+        {
+          "code": "3457",
+          "name": "Xã Nậm Khao",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Mường Tè",
+              "newWardShort": "Mường Tè",
+              "newWardCode": "03445",
+              "newWardType": "Xã",
+              "lat": 22.482,
+              "lon": 102.63,
+              "areaKm2": 292
+            }
+          ]
+        },
+        {
+          "code": "3442",
+          "name": "Xã Pa ủ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Pa Ủ",
+              "newWardShort": "Pa Ủ",
+              "newWardCode": "03442",
+              "newWardType": "Xã",
+              "lat": 22.6252,
+              "lon": 102.649,
+              "areaKm2": 444.58
+            }
+          ]
+        },
+        {
+          "code": "3448",
+          "name": "Xã Pa Vệ Sủ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Bum Nưa",
+              "newWardShort": "Bum Nưa",
+              "newWardCode": "03466",
+              "newWardType": "Xã",
+              "lat": 22.4925,
+              "lon": 102.85,
+              "areaKm2": 315.13
+            }
+          ]
+        },
+        {
+          "code": "3440",
+          "name": "Xã Tá Bạ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Pa Ủ",
+              "newWardShort": "Pa Ủ",
+              "newWardCode": "03442",
+              "newWardType": "Xã",
+              "lat": 22.6252,
+              "lon": 102.649,
+              "areaKm2": 444.58
+            }
+          ]
+        },
+        {
+          "code": "3463",
+          "name": "Xã Tà Tổng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Tà Tổng",
+              "newWardShort": "Tà Tổng",
+              "newWardCode": "03463",
+              "newWardType": "Xã",
+              "lat": 22.3233,
+              "lon": 102.604,
+              "areaKm2": 512.01
+            }
+          ]
+        },
+        {
+          "code": "3436",
+          "name": "Xã Thu Lũm",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Thu Lũm",
+              "newWardShort": "Thu Lũm",
+              "newWardCode": "03439",
+              "newWardType": "Xã",
+              "lat": 22.6474,
+              "lon": 102.448,
+              "areaKm2": 251.55
+            }
+          ]
+        },
+        {
+          "code": "3467",
+          "name": "Xã Vàng San",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Hua Bum",
+              "newWardShort": "Hua Bum",
+              "newWardCode": "03460",
+              "newWardType": "Xã",
+              "lat": 22.3565,
+              "lon": 102.98,
+              "areaKm2": 355.72
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "112",
+      "name": "Huyện Nậm Nhùn",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "3434",
+          "name": "Thị trấn Nậm Nhùn",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Nậm Hàng",
+              "newWardShort": "Nậm Hàng",
+              "newWardCode": "03434",
+              "newWardType": "Xã",
+              "lat": 22.145,
+              "lon": 103.019,
+              "areaKm2": 335.92
+            }
+          ]
+        },
+        {
+          "code": "3460",
+          "name": "Xã Hua Bum",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Hua Bum",
+              "newWardShort": "Hua Bum",
+              "newWardCode": "03460",
+              "newWardType": "Xã",
+              "lat": 22.3565,
+              "lon": 102.98,
+              "areaKm2": 355.72
+            }
+          ]
+        },
+        {
+          "code": "3481",
+          "name": "Xã Lê Lợi",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Lê Lợi",
+              "newWardShort": "Lê Lợi",
+              "newWardCode": "03487",
+              "newWardType": "Xã",
+              "lat": 22.1699,
+              "lon": 103.154,
+              "areaKm2": 288.36
+            }
+          ]
+        },
+        {
+          "code": "3472",
+          "name": "Xã Mường Mô",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Mường Mô",
+              "newWardShort": "Mường Mô",
+              "newWardCode": "03472",
+              "newWardType": "Xã",
+              "lat": 22.1502,
+              "lon": 102.868,
+              "areaKm2": 395.16
+            }
+          ]
+        },
+        {
+          "code": "3502",
+          "name": "Xã Nậm Ban",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Pa Tần",
+              "newWardShort": "Pa Tần",
+              "newWardCode": "03503",
+              "newWardType": "Xã",
+              "lat": 22.415,
+              "lon": 103.123,
+              "areaKm2": 316.53
+            }
+          ]
+        },
+        {
+          "code": "3473",
+          "name": "Xã Nậm Chà",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Mường Mô",
+              "newWardShort": "Mường Mô",
+              "newWardCode": "03472",
+              "newWardType": "Xã",
+              "lat": 22.1502,
+              "lon": 102.868,
+              "areaKm2": 395.16
+            }
+          ]
+        },
+        {
+          "code": "3475",
+          "name": "Xã Nậm Hàng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Nậm Hàng",
+              "newWardShort": "Nậm Hàng",
+              "newWardCode": "03434",
+              "newWardType": "Xã",
+              "lat": 22.145,
+              "lon": 103.019,
+              "areaKm2": 335.92
+            }
+          ]
+        },
+        {
+          "code": "3474",
+          "name": "Xã Nậm Manh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Nậm Hàng",
+              "newWardShort": "Nậm Hàng",
+              "newWardCode": "03434",
+              "newWardType": "Xã",
+              "lat": 22.145,
+              "lon": 103.019,
+              "areaKm2": 335.92
+            }
+          ]
+        },
+        {
+          "code": "3488",
+          "name": "Xã Nậm Pì",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Lê Lợi",
+              "newWardShort": "Lê Lợi",
+              "newWardCode": "03487",
+              "newWardType": "Xã",
+              "lat": 22.1699,
+              "lon": 103.154,
+              "areaKm2": 288.36
+            }
+          ]
+        },
+        {
+          "code": "3484",
+          "name": "Xã Pú Đao",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Lê Lợi",
+              "newWardShort": "Lê Lợi",
+              "newWardCode": "03487",
+              "newWardType": "Xã",
+              "lat": 22.1699,
+              "lon": 103.154,
+              "areaKm2": 288.36
+            }
+          ]
+        },
+        {
+          "code": "3503",
+          "name": "Xã Trung Chải",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Pa Tần",
+              "newWardShort": "Pa Tần",
+              "newWardCode": "03503",
+              "newWardType": "Xã",
+              "lat": 22.415,
+              "lon": 103.123,
+              "areaKm2": 316.53
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "109",
+      "name": "Huyện Phong Thổ",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "3549",
+          "name": "Thị trấn Phong Thổ",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Phong Thổ",
+              "newWardShort": "Phong Thổ",
+              "newWardCode": "03549",
+              "newWardType": "Xã",
+              "lat": 22.5296,
+              "lon": 103.269,
+              "areaKm2": 266.71
+            }
+          ]
+        },
+        {
+          "code": "3577",
+          "name": "Xã Bản Lang",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Khổng Lào",
+              "newWardShort": "Khổng Lào",
+              "newWardCode": "03583",
+              "newWardType": "Xã",
+              "lat": 22.5935,
+              "lon": 103.372,
+              "areaKm2": 188.12
+            }
+          ]
+        },
+        {
+          "code": "3571",
+          "name": "Xã Dào San",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Dào San",
+              "newWardShort": "Dào San",
+              "newWardCode": "03571",
+              "newWardType": "Xã",
+              "lat": 22.6637,
+              "lon": 103.361,
+              "areaKm2": 137.29
+            }
+          ]
+        },
+        {
+          "code": "3580",
+          "name": "Xã Hoang Thèn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Khổng Lào",
+              "newWardShort": "Khổng Lào",
+              "newWardCode": "03583",
+              "newWardType": "Xã",
+              "lat": 22.5935,
+              "lon": 103.372,
+              "areaKm2": 188.12
+            }
+          ]
+        },
+        {
+          "code": "3490",
+          "name": "Xã Huổi Luông",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Phong Thổ",
+              "newWardShort": "Phong Thổ",
+              "newWardCode": "03549",
+              "newWardType": "Xã",
+              "lat": 22.5296,
+              "lon": 103.269,
+              "areaKm2": 266.71
+            }
+          ]
+        },
+        {
+          "code": "3583",
+          "name": "Xã Khổng Lào",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Khổng Lào",
+              "newWardShort": "Khổng Lào",
+              "newWardCode": "03583",
+              "newWardType": "Xã",
+              "lat": 22.5935,
+              "lon": 103.372,
+              "areaKm2": 188.12
+            }
+          ]
+        },
+        {
+          "code": "3391",
+          "name": "Xã Lản Nhì Thàng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Phường Đoàn Kết",
+              "newWardShort": "Đoàn Kết",
+              "newWardCode": "03388",
+              "newWardType": "Phường",
+              "lat": 22.4412,
+              "lon": 103.397,
+              "areaKm2": 134.31
+            }
+          ]
+        },
+        {
+          "code": "3574",
+          "name": "Xã Ma Li Pho",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Phong Thổ",
+              "newWardShort": "Phong Thổ",
+              "newWardCode": "03549",
+              "newWardType": "Xã",
+              "lat": 22.5296,
+              "lon": 103.269,
+              "areaKm2": 266.71
+            }
+          ]
+        },
+        {
+          "code": "3553",
+          "name": "Xã Mồ Sì San",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Sì Lở Lầu",
+              "newWardShort": "Sì Lở Lầu",
+              "newWardCode": "03562",
+              "newWardType": "Xã",
+              "lat": 22.7547,
+              "lon": 103.36,
+              "areaKm2": 147.8
+            }
+          ]
+        },
+        {
+          "code": "3568",
+          "name": "Xã Mù Sang",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Dào San",
+              "newWardShort": "Dào San",
+              "newWardCode": "03571",
+              "newWardType": "Xã",
+              "lat": 22.6637,
+              "lon": 103.361,
+              "areaKm2": 137.29
+            }
+          ]
+        },
+        {
+          "code": "3589",
+          "name": "Xã Mường So",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Phong Thổ",
+              "newWardShort": "Phong Thổ",
+              "newWardCode": "03549",
+              "newWardType": "Xã",
+              "lat": 22.5296,
+              "lon": 103.269,
+              "areaKm2": 266.71
+            }
+          ]
+        },
+        {
+          "code": "3586",
+          "name": "Xã Nậm Xe",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Sin Suối Hồ",
+              "newWardShort": "Sin Suối Hồ",
+              "newWardCode": "03394",
+              "newWardType": "Xã",
+              "lat": 22.5207,
+              "lon": 103.492,
+              "areaKm2": 255.91
+            }
+          ]
+        },
+        {
+          "code": "3559",
+          "name": "Xã Pa Vây Sử",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Sì Lở Lầu",
+              "newWardShort": "Sì Lở Lầu",
+              "newWardCode": "03562",
+              "newWardType": "Xã",
+              "lat": 22.7547,
+              "lon": 103.36,
+              "areaKm2": 147.8
+            }
+          ]
+        },
+        {
+          "code": "3550",
+          "name": "Xã Sì Lở Lầu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Sì Lở Lầu",
+              "newWardShort": "Sì Lở Lầu",
+              "newWardCode": "03562",
+              "newWardType": "Xã",
+              "lat": 22.7547,
+              "lon": 103.36,
+              "areaKm2": 147.8
+            }
+          ]
+        },
+        {
+          "code": "3592",
+          "name": "Xã Sin Suối Hồ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Sin Suối Hồ",
+              "newWardShort": "Sin Suối Hồ",
+              "newWardCode": "03394",
+              "newWardType": "Xã",
+              "lat": 22.5207,
+              "lon": 103.492,
+              "areaKm2": 255.91
+            }
+          ]
+        },
+        {
+          "code": "3565",
+          "name": "Xã Tung Qua Lìn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Dào San",
+              "newWardShort": "Dào San",
+              "newWardCode": "03571",
+              "newWardType": "Xã",
+              "lat": 22.6637,
+              "lon": 103.361,
+              "areaKm2": 137.29
+            }
+          ]
+        },
+        {
+          "code": "3562",
+          "name": "Xã Vàng Ma Chải",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Sì Lở Lầu",
+              "newWardShort": "Sì Lở Lầu",
+              "newWardCode": "03562",
+              "newWardType": "Xã",
+              "lat": 22.7547,
+              "lon": 103.36,
+              "areaKm2": 147.8
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "108",
+      "name": "Huyện Sìn Hồ",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "3478",
+          "name": "Thị trấn Sìn Hồ",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Sìn Hồ",
+              "newWardShort": "Sìn Hồ",
+              "newWardCode": "03478",
+              "newWardType": "Xã",
+              "lat": 22.3263,
+              "lon": 103.226,
+              "areaKm2": 159.68
+            }
+          ]
+        },
+        {
+          "code": "3538",
+          "name": "Xã Căn Co",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Nậm Mạ",
+              "newWardShort": "Nậm Mạ",
+              "newWardCode": "03538",
+              "newWardType": "Xã",
+              "lat": 22.1516,
+              "lon": 103.425,
+              "areaKm2": 112.73
+            }
+          ]
+        },
+        {
+          "code": "3487",
+          "name": "Xã Chăn Nưa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Lê Lợi",
+              "newWardShort": "Lê Lợi",
+              "newWardCode": "03487",
+              "newWardType": "Xã",
+              "lat": 22.1699,
+              "lon": 103.154,
+              "areaKm2": 288.36
+            }
+          ]
+        },
+        {
+          "code": "3499",
+          "name": "Xã Hồng Thu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Hồng Thu",
+              "newWardShort": "Hồng Thu",
+              "newWardCode": "03508",
+              "newWardType": "Xã",
+              "lat": 22.4203,
+              "lon": 103.322,
+              "areaKm2": 178
+            }
+          ]
+        },
+        {
+          "code": "3529",
+          "name": "Xã Làng Mô",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Tủa Sín Chải",
+              "newWardShort": "Tủa Sín Chải",
+              "newWardCode": "03529",
+              "newWardType": "Xã",
+              "lat": 22.2005,
+              "lon": 103.273,
+              "areaKm2": 292.88
+            }
+          ]
+        },
+        {
+          "code": "3509",
+          "name": "Xã Lùng Thàng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Nậm Tăm",
+              "newWardShort": "Nậm Tăm",
+              "newWardCode": "03517",
+              "newWardType": "Xã",
+              "lat": 22.2929,
+              "lon": 103.382,
+              "areaKm2": 242.28
+            }
+          ]
+        },
+        {
+          "code": "3508",
+          "name": "Xã Ma Quai",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Hồng Thu",
+              "newWardShort": "Hồng Thu",
+              "newWardCode": "03508",
+              "newWardType": "Xã",
+              "lat": 22.4203,
+              "lon": 103.322,
+              "areaKm2": 178
+            }
+          ]
+        },
+        {
+          "code": "3526",
+          "name": "Xã Nậm Cha",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Nậm Tăm",
+              "newWardShort": "Nậm Tăm",
+              "newWardCode": "03517",
+              "newWardType": "Xã",
+              "lat": 22.2929,
+              "lon": 103.382,
+              "areaKm2": 242.28
+            }
+          ]
+        },
+        {
+          "code": "3544",
+          "name": "Xã Nậm Cuổi",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Nậm Cuổi",
+              "newWardShort": "Nậm Cuổi",
+              "newWardCode": "03544",
+              "newWardType": "Xã",
+              "lat": 22.0735,
+              "lon": 103.503,
+              "areaKm2": 177.16
+            }
+          ]
+        },
+        {
+          "code": "3547",
+          "name": "Xã Nậm Hăn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Nậm Cuổi",
+              "newWardShort": "Nậm Cuổi",
+              "newWardCode": "03544",
+              "newWardType": "Xã",
+              "lat": 22.0735,
+              "lon": 103.503,
+              "areaKm2": 177.16
+            }
+          ]
+        },
+        {
+          "code": "3535",
+          "name": "Xã Nậm Mạ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Nậm Mạ",
+              "newWardShort": "Nậm Mạ",
+              "newWardCode": "03538",
+              "newWardType": "Xã",
+              "lat": 22.1516,
+              "lon": 103.425,
+              "areaKm2": 112.73
+            }
+          ]
+        },
+        {
+          "code": "3517",
+          "name": "Xã Nậm Tăm",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Nậm Tăm",
+              "newWardShort": "Nậm Tăm",
+              "newWardCode": "03517",
+              "newWardType": "Xã",
+              "lat": 22.2929,
+              "lon": 103.382,
+              "areaKm2": 242.28
+            }
+          ]
+        },
+        {
+          "code": "3532",
+          "name": "Xã Noong Hẻo",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Pu Sam Cáp",
+              "newWardShort": "Pu Sam Cáp",
+              "newWardCode": "03532",
+              "newWardType": "Xã",
+              "lat": 22.2263,
+              "lon": 103.493,
+              "areaKm2": 152.23
+            }
+          ]
+        },
+        {
+          "code": "3527",
+          "name": "Xã Pa Khóa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Pu Sam Cáp",
+              "newWardShort": "Pu Sam Cáp",
+              "newWardCode": "03532",
+              "newWardType": "Xã",
+              "lat": 22.2263,
+              "lon": 103.493,
+              "areaKm2": 152.23
+            }
+          ]
+        },
+        {
+          "code": "3493",
+          "name": "Xã Pa Tần",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Pa Tần",
+              "newWardShort": "Pa Tần",
+              "newWardCode": "03503",
+              "newWardType": "Xã",
+              "lat": 22.415,
+              "lon": 103.123,
+              "areaKm2": 316.53
+            }
+          ]
+        },
+        {
+          "code": "3505",
+          "name": "Xã Phăng Sô Lin",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Sìn Hồ",
+              "newWardShort": "Sìn Hồ",
+              "newWardCode": "03478",
+              "newWardType": "Xã",
+              "lat": 22.3263,
+              "lon": 103.226,
+              "areaKm2": 159.68
+            }
+          ]
+        },
+        {
+          "code": "3496",
+          "name": "Xã Phìn Hồ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Hồng Thu",
+              "newWardShort": "Hồng Thu",
+              "newWardCode": "03508",
+              "newWardType": "Xã",
+              "lat": 22.4203,
+              "lon": 103.322,
+              "areaKm2": 178
+            }
+          ]
+        },
+        {
+          "code": "3523",
+          "name": "Xã Pu Sam Cáp",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Pu Sam Cáp",
+              "newWardShort": "Pu Sam Cáp",
+              "newWardCode": "03532",
+              "newWardType": "Xã",
+              "lat": 22.2263,
+              "lon": 103.493,
+              "areaKm2": 152.23
+            }
+          ]
+        },
+        {
+          "code": "3514",
+          "name": "Xã Sà Dề Phìn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Sìn Hồ",
+              "newWardShort": "Sìn Hồ",
+              "newWardCode": "03478",
+              "newWardType": "Xã",
+              "lat": 22.3263,
+              "lon": 103.226,
+              "areaKm2": 159.68
+            }
+          ]
+        },
+        {
+          "code": "3520",
+          "name": "Xã Tả Ngảo",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Tủa Sín Chải",
+              "newWardShort": "Tủa Sín Chải",
+              "newWardCode": "03529",
+              "newWardType": "Xã",
+              "lat": 22.2005,
+              "lon": 103.273,
+              "areaKm2": 292.88
+            }
+          ]
+        },
+        {
+          "code": "3511",
+          "name": "Xã Tả Phìn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Sìn Hồ",
+              "newWardShort": "Sìn Hồ",
+              "newWardCode": "03478",
+              "newWardType": "Xã",
+              "lat": 22.3263,
+              "lon": 103.226,
+              "areaKm2": 159.68
+            }
+          ]
+        },
+        {
+          "code": "3541",
+          "name": "Xã Tủa Sín Chải",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Tủa Sín Chải",
+              "newWardShort": "Tủa Sín Chải",
+              "newWardCode": "03529",
+              "newWardType": "Xã",
+              "lat": 22.2005,
+              "lon": 103.273,
+              "areaKm2": 292.88
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "106",
+      "name": "Huyện Tam Đường",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "3390",
+          "name": "Thị trấn Tam Đường",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Bình Lư",
+              "newWardShort": "Bình Lư",
+              "newWardCode": "03390",
+              "newWardType": "Xã",
+              "lat": 22.3532,
+              "lon": 103.678,
+              "areaKm2": 173.91
+            }
+          ]
+        },
+        {
+          "code": "3424",
+          "name": "Xã Bản Bo",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Bản Bo",
+              "newWardShort": "Bản Bo",
+              "newWardCode": "03424",
+              "newWardType": "Xã",
+              "lat": 22.2846,
+              "lon": 103.697,
+              "areaKm2": 100.82
+            }
+          ]
+        },
+        {
+          "code": "3418",
+          "name": "Xã Bản Giang",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Phường Tân Phong",
+              "newWardShort": "Tân Phong",
+              "newWardCode": "03408",
+              "newWardType": "Phường",
+              "lat": 22.3534,
+              "lon": 103.485,
+              "areaKm2": 106.77
+            }
+          ]
+        },
+        {
+          "code": "3421",
+          "name": "Xã Bản Hon",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Khun Há",
+              "newWardShort": "Khun Há",
+              "newWardCode": "03430",
+              "newWardType": "Xã",
+              "lat": 22.2581,
+              "lon": 103.583,
+              "areaKm2": 149.35
+            }
+          ]
+        },
+        {
+          "code": "3412",
+          "name": "Xã Bình Lư",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Bình Lư",
+              "newWardShort": "Bình Lư",
+              "newWardCode": "03390",
+              "newWardType": "Xã",
+              "lat": 22.3532,
+              "lon": 103.678,
+              "areaKm2": 173.91
+            }
+          ]
+        },
+        {
+          "code": "3405",
+          "name": "Xã Giang Ma",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Tả Lèng",
+              "newWardShort": "Tả Lèng",
+              "newWardCode": "03405",
+              "newWardType": "Xã",
+              "lat": 22.4009,
+              "lon": 103.558,
+              "areaKm2": 128.36
+            }
+          ]
+        },
+        {
+          "code": "3406",
+          "name": "Xã Hồ Thầu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Tả Lèng",
+              "newWardShort": "Tả Lèng",
+              "newWardCode": "03405",
+              "newWardType": "Xã",
+              "lat": 22.4009,
+              "lon": 103.558,
+              "areaKm2": 128.36
+            }
+          ]
+        },
+        {
+          "code": "3430",
+          "name": "Xã Khun Há",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Khun Há",
+              "newWardShort": "Khun Há",
+              "newWardCode": "03430",
+              "newWardType": "Xã",
+              "lat": 22.2581,
+              "lon": 103.583,
+              "areaKm2": 149.35
+            }
+          ]
+        },
+        {
+          "code": "3427",
+          "name": "Xã Nà Tăm",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Bản Bo",
+              "newWardShort": "Bản Bo",
+              "newWardCode": "03424",
+              "newWardType": "Xã",
+              "lat": 22.2846,
+              "lon": 103.697,
+              "areaKm2": 100.82
+            }
+          ]
+        },
+        {
+          "code": "3415",
+          "name": "Xã Nùng Nàng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Phường Tân Phong",
+              "newWardShort": "Tân Phong",
+              "newWardCode": "03408",
+              "newWardType": "Phường",
+              "lat": 22.3534,
+              "lon": 103.485,
+              "areaKm2": 106.77
+            }
+          ]
+        },
+        {
+          "code": "3413",
+          "name": "Xã Sơn Bình",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Bình Lư",
+              "newWardShort": "Bình Lư",
+              "newWardCode": "03390",
+              "newWardType": "Xã",
+              "lat": 22.3532,
+              "lon": 103.678,
+              "areaKm2": 173.91
+            }
+          ]
+        },
+        {
+          "code": "3400",
+          "name": "Xã Tả Lèng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Tả Lèng",
+              "newWardShort": "Tả Lèng",
+              "newWardCode": "03405",
+              "newWardType": "Xã",
+              "lat": 22.4009,
+              "lon": 103.558,
+              "areaKm2": 128.36
+            }
+          ]
+        },
+        {
+          "code": "3394",
+          "name": "Xã Thèn Sin",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Sin Suối Hồ",
+              "newWardShort": "Sin Suối Hồ",
+              "newWardCode": "03394",
+              "newWardType": "Xã",
+              "lat": 22.5207,
+              "lon": 103.492,
+              "areaKm2": 255.91
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "111",
+      "name": "Huyện Tân Uyên",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "3598",
+          "name": "Thị trấn Tân Uyên",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Tân Uyên",
+              "newWardShort": "Tân Uyên",
+              "newWardCode": "03598",
+              "newWardType": "Xã",
+              "lat": 22.1433,
+              "lon": 103.751,
+              "areaKm2": 296.25
+            }
+          ]
+        },
+        {
+          "code": "3607",
+          "name": "Xã Hố Mít",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Pắc Ta",
+              "newWardShort": "Pắc Ta",
+              "newWardCode": "03616",
+              "newWardType": "Xã",
+              "lat": 22.0992,
+              "lon": 103.859,
+              "areaKm2": 168.58
+            }
+          ]
+        },
+        {
+          "code": "3601",
+          "name": "Xã Mường Khoa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Mường Khoa",
+              "newWardShort": "Mường Khoa",
+              "newWardCode": "03601",
+              "newWardType": "Xã",
+              "lat": 22.1773,
+              "lon": 103.654,
+              "areaKm2": 168.83
+            }
+          ]
+        },
+        {
+          "code": "3610",
+          "name": "Xã Nậm Cần",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Tân Uyên",
+              "newWardShort": "Tân Uyên",
+              "newWardCode": "03598",
+              "newWardType": "Xã",
+              "lat": 22.1433,
+              "lon": 103.751,
+              "areaKm2": 296.25
+            }
+          ]
+        },
+        {
+          "code": "3613",
+          "name": "Xã Nậm Sỏ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Nậm Sỏ",
+              "newWardShort": "Nậm Sỏ",
+              "newWardCode": "03613",
+              "newWardType": "Xã",
+              "lat": 22.085,
+              "lon": 103.596,
+              "areaKm2": 263.35
+            }
+          ]
+        },
+        {
+          "code": "3616",
+          "name": "Xã Pắc Ta",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Pắc Ta",
+              "newWardShort": "Pắc Ta",
+              "newWardCode": "03616",
+              "newWardType": "Xã",
+              "lat": 22.0992,
+              "lon": 103.859,
+              "areaKm2": 168.58
+            }
+          ]
+        },
+        {
+          "code": "3602",
+          "name": "Xã Phúc Khoa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Mường Khoa",
+              "newWardShort": "Mường Khoa",
+              "newWardCode": "03601",
+              "newWardType": "Xã",
+              "lat": 22.1773,
+              "lon": 103.654,
+              "areaKm2": 168.83
+            }
+          ]
+        },
+        {
+          "code": "3622",
+          "name": "Xã Tà Mít",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Nậm Sỏ",
+              "newWardShort": "Nậm Sỏ",
+              "newWardCode": "03613",
+              "newWardType": "Xã",
+              "lat": 22.085,
+              "lon": 103.596,
+              "areaKm2": 263.35
+            }
+          ]
+        },
+        {
+          "code": "3604",
+          "name": "Xã Thân Thuộc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Tân Uyên",
+              "newWardShort": "Tân Uyên",
+              "newWardCode": "03598",
+              "newWardType": "Xã",
+              "lat": 22.1433,
+              "lon": 103.751,
+              "areaKm2": 296.25
+            }
+          ]
+        },
+        {
+          "code": "3605",
+          "name": "Xã Trung Đồng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Tân Uyên",
+              "newWardShort": "Tân Uyên",
+              "newWardCode": "03598",
+              "newWardType": "Xã",
+              "lat": 22.1433,
+              "lon": 103.751,
+              "areaKm2": 296.25
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "110",
+      "name": "Huyện Than Uyên",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "3595",
+          "name": "Thị trấn Than Uyên",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Than Uyên",
+              "newWardShort": "Than Uyên",
+              "newWardCode": "03595",
+              "newWardType": "Xã",
+              "lat": 21.957,
+              "lon": 103.884,
+              "areaKm2": 132.09
+            }
+          ]
+        },
+        {
+          "code": "3632",
+          "name": "Xã Hua Nà",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Than Uyên",
+              "newWardShort": "Than Uyên",
+              "newWardCode": "03595",
+              "newWardType": "Xã",
+              "lat": 21.957,
+              "lon": 103.884,
+              "areaKm2": 132.09
+            }
+          ]
+        },
+        {
+          "code": "3643",
+          "name": "Xã Khoen On",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Khoen On",
+              "newWardShort": "Khoen On",
+              "newWardCode": "03640",
+              "newWardType": "Xã",
+              "lat": 21.7686,
+              "lon": 103.854,
+              "areaKm2": 189.78
+            }
+          ]
+        },
+        {
+          "code": "3631",
+          "name": "Xã Mường Cang",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Than Uyên",
+              "newWardShort": "Than Uyên",
+              "newWardCode": "03595",
+              "newWardType": "Xã",
+              "lat": 21.957,
+              "lon": 103.884,
+              "areaKm2": 132.09
+            }
+          ]
+        },
+        {
+          "code": "3637",
+          "name": "Xã Mường Kim",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Mường Kim",
+              "newWardShort": "Mường Kim",
+              "newWardCode": "03637",
+              "newWardType": "Xã",
+              "lat": 21.8809,
+              "lon": 103.798,
+              "areaKm2": 316.32
+            }
+          ]
+        },
+        {
+          "code": "3625",
+          "name": "Xã Mường Mít",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Mường Than",
+              "newWardShort": "Mường Than",
+              "newWardCode": "03618",
+              "newWardType": "Xã",
+              "lat": 22.0198,
+              "lon": 103.861,
+              "areaKm2": 154.08
+            }
+          ]
+        },
+        {
+          "code": "3619",
+          "name": "Xã Mường Than",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Than Uyên",
+              "newWardShort": "Than Uyên",
+              "newWardCode": "03595",
+              "newWardType": "Xã",
+              "lat": 21.957,
+              "lon": 103.884,
+              "areaKm2": 132.09
+            }
+          ]
+        },
+        {
+          "code": "3628",
+          "name": "Xã Pha Mu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Mường Kim",
+              "newWardShort": "Mường Kim",
+              "newWardCode": "03637",
+              "newWardType": "Xã",
+              "lat": 21.8809,
+              "lon": 103.798,
+              "areaKm2": 316.32
+            }
+          ]
+        },
+        {
+          "code": "3618",
+          "name": "Xã Phúc Than",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Mường Than",
+              "newWardShort": "Mường Than",
+              "newWardCode": "03618",
+              "newWardType": "Xã",
+              "lat": 22.0198,
+              "lon": 103.861,
+              "areaKm2": 154.08
+            }
+          ]
+        },
+        {
+          "code": "3640",
+          "name": "Xã Ta Gia",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Khoen On",
+              "newWardShort": "Khoen On",
+              "newWardCode": "03640",
+              "newWardType": "Xã",
+              "lat": 21.7686,
+              "lon": 103.854,
+              "areaKm2": 189.78
+            }
+          ]
+        },
+        {
+          "code": "3634",
+          "name": "Xã Tà Hừa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Mường Kim",
+              "newWardShort": "Mường Kim",
+              "newWardCode": "03637",
+              "newWardType": "Xã",
+              "lat": 21.8809,
+              "lon": 103.798,
+              "areaKm2": 316.32
+            }
+          ]
+        },
+        {
+          "code": "3638",
+          "name": "Xã Tà Mung",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Xã Mường Kim",
+              "newWardShort": "Mường Kim",
+              "newWardCode": "03637",
+              "newWardType": "Xã",
+              "lat": 21.8809,
+              "lon": 103.798,
+              "areaKm2": 316.32
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "105",
+      "name": "Thành phố Lai Châu",
+      "type": "Thành phố",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "3389",
+          "name": "Phường Đoàn Kết",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Phường Đoàn Kết",
+              "newWardShort": "Đoàn Kết",
+              "newWardCode": "03388",
+              "newWardType": "Phường",
+              "lat": 22.4412,
+              "lon": 103.397,
+              "areaKm2": 134.31
+            }
+          ]
+        },
+        {
+          "code": "3408",
+          "name": "Phường Đông Phong",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Phường Tân Phong",
+              "newWardShort": "Tân Phong",
+              "newWardCode": "03408",
+              "newWardType": "Phường",
+              "lat": 22.3534,
+              "lon": 103.485,
+              "areaKm2": 106.77
+            }
+          ]
+        },
+        {
+          "code": "3386",
+          "name": "Phường Quyết Thắng",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Phường Đoàn Kết",
+              "newWardShort": "Đoàn Kết",
+              "newWardCode": "03388",
+              "newWardType": "Phường",
+              "lat": 22.4412,
+              "lon": 103.397,
+              "areaKm2": 134.31
+            }
+          ]
+        },
+        {
+          "code": "3388",
+          "name": "Phường Quyết Tiến",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Phường Đoàn Kết",
+              "newWardShort": "Đoàn Kết",
+              "newWardCode": "03388",
+              "newWardType": "Phường",
+              "lat": 22.4412,
+              "lon": 103.397,
+              "areaKm2": 134.31
+            }
+          ]
+        },
+        {
+          "code": "3387",
+          "name": "Phường Tân Phong",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Phường Tân Phong",
+              "newWardShort": "Tân Phong",
+              "newWardCode": "03408",
+              "newWardType": "Phường",
+              "lat": 22.3534,
+              "lon": 103.485,
+              "areaKm2": 106.77
+            }
+          ]
+        },
+        {
+          "code": "3409",
+          "name": "Xã San Thàng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Phường Tân Phong",
+              "newWardShort": "Tân Phong",
+              "newWardCode": "03408",
+              "newWardType": "Phường",
+              "lat": 22.3534,
+              "lon": 103.485,
+              "areaKm2": 106.77
+            }
+          ]
+        },
+        {
+          "code": "3403",
+          "name": "Xã Sùng Phài",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Lai Châu",
+              "newProvinceSlug": "lai-chau",
+              "newProvinceCode": "12",
+              "newWard": "Phường Đoàn Kết",
+              "newWardShort": "Đoàn Kết",
+              "newWardCode": "03388",
+              "newWardType": "Phường",
+              "lat": 22.4412,
+              "lon": 103.397,
+              "areaKm2": 134.31
+            }
+          ]
+        }
+      ],
+      "results": []
+    }
+  ]
+}

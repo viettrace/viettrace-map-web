@@ -1,0 +1,1353 @@
+{
+  "schemaVersion": 1,
+  "mergeDate": "2025-07-01",
+  "code": "95",
+  "name": "Tỉnh Bạc Liêu",
+  "name_en": "Bac Lieu Province",
+  "slug": "bac-lieu",
+  "districts": [
+    {
+      "code": "954",
+      "name": "Thành phố Bạc Liêu",
+      "type": "Thành phố",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "31825",
+          "name": "Phường 1",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cà Mau",
+              "newProvinceSlug": "ca-mau",
+              "newProvinceCode": "96",
+              "newWard": "Phường Bạc Liêu",
+              "newWardShort": "Bạc Liêu",
+              "newWardCode": "31825",
+              "newWardType": "Phường",
+              "lat": 9.28998,
+              "lon": 105.712,
+              "areaKm2": 5.98
+            }
+          ]
+        },
+        {
+          "code": "31813",
+          "name": "Phường 2",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cà Mau",
+              "newProvinceSlug": "ca-mau",
+              "newProvinceCode": "96",
+              "newWard": "Phường Bạc Liêu",
+              "newWardShort": "Bạc Liêu",
+              "newWardCode": "31825",
+              "newWardType": "Phường",
+              "lat": 9.28998,
+              "lon": 105.712,
+              "areaKm2": 5.98
+            }
+          ]
+        },
+        {
+          "code": "31816",
+          "name": "Phường 3",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cà Mau",
+              "newProvinceSlug": "ca-mau",
+              "newProvinceCode": "96",
+              "newWard": "Phường Bạc Liêu",
+              "newWardShort": "Bạc Liêu",
+              "newWardCode": "31825",
+              "newWardType": "Phường",
+              "lat": 9.28998,
+              "lon": 105.712,
+              "areaKm2": 5.98
+            }
+          ]
+        },
+        {
+          "code": "31819",
+          "name": "Phường 5",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cà Mau",
+              "newProvinceSlug": "ca-mau",
+              "newProvinceCode": "96",
+              "newWard": "Phường Vĩnh Trạch",
+              "newWardShort": "Vĩnh Trạch",
+              "newWardCode": "31834",
+              "newWardType": "Phường",
+              "lat": 9.29729,
+              "lon": 105.774,
+              "areaKm2": 10.22
+            }
+          ]
+        },
+        {
+          "code": "31822",
+          "name": "Phường 7",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cà Mau",
+              "newProvinceSlug": "ca-mau",
+              "newProvinceCode": "96",
+              "newWard": "Phường Bạc Liêu",
+              "newWardShort": "Bạc Liêu",
+              "newWardCode": "31825",
+              "newWardType": "Phường",
+              "lat": 9.28998,
+              "lon": 105.712,
+              "areaKm2": 5.98
+            }
+          ]
+        },
+        {
+          "code": "31828",
+          "name": "Phường 8",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cà Mau",
+              "newProvinceSlug": "ca-mau",
+              "newProvinceCode": "96",
+              "newWard": "Phường Bạc Liêu",
+              "newWardShort": "Bạc Liêu",
+              "newWardCode": "31825",
+              "newWardType": "Phường",
+              "lat": 9.28998,
+              "lon": 105.712,
+              "areaKm2": 5.98
+            }
+          ]
+        },
+        {
+          "code": "31831",
+          "name": "Phường Nhà Mát",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cà Mau",
+              "newProvinceSlug": "ca-mau",
+              "newProvinceCode": "96",
+              "newWard": "Phường Hiệp Thành",
+              "newWardShort": "Hiệp Thành",
+              "newWardCode": "31840",
+              "newWardType": "Phường",
+              "lat": 9.24855,
+              "lon": 105.771,
+              "areaKm2": 29.05
+            }
+          ]
+        },
+        {
+          "code": "31840",
+          "name": "Xã Hiệp Thành",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cà Mau",
+              "newProvinceSlug": "ca-mau",
+              "newProvinceCode": "96",
+              "newWard": "Phường Hiệp Thành",
+              "newWardShort": "Hiệp Thành",
+              "newWardCode": "31840",
+              "newWardType": "Phường",
+              "lat": 9.24855,
+              "lon": 105.771,
+              "areaKm2": 29.05
+            }
+          ]
+        },
+        {
+          "code": "31834",
+          "name": "Xã Vĩnh Trạch",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cà Mau",
+              "newProvinceSlug": "ca-mau",
+              "newProvinceCode": "96",
+              "newWard": "Phường Vĩnh Trạch",
+              "newWardShort": "Vĩnh Trạch",
+              "newWardCode": "31834",
+              "newWardType": "Phường",
+              "lat": 9.29729,
+              "lon": 105.774,
+              "areaKm2": 10.22
+            }
+          ]
+        },
+        {
+          "code": "31837",
+          "name": "Xã Vĩnh Trạch Đông",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cà Mau",
+              "newProvinceSlug": "ca-mau",
+              "newProvinceCode": "96",
+              "newWard": "Phường Hiệp Thành",
+              "newWardShort": "Hiệp Thành",
+              "newWardCode": "31840",
+              "newWardType": "Phường",
+              "lat": 9.24855,
+              "lon": 105.771,
+              "areaKm2": 29.05
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "960",
+      "name": "Huyện Đông Hải",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "31972",
+          "name": "Thị trấn Gành Hào",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cà Mau",
+              "newProvinceSlug": "ca-mau",
+              "newProvinceCode": "96",
+              "newWard": "Xã Gành Hào",
+              "newWardShort": "Gành Hào",
+              "newWardCode": "31972",
+              "newWardType": "Xã",
+              "lat": 9.08855,
+              "lon": 105.428,
+              "areaKm2": 13.4
+            }
+          ]
+        },
+        {
+          "code": "31990",
+          "name": "Xã An Phúc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cà Mau",
+              "newProvinceSlug": "ca-mau",
+              "newProvinceCode": "96",
+              "newWard": "Xã Định Thành",
+              "newWardShort": "Định Thành",
+              "newWardCode": "31993",
+              "newWardType": "Xã",
+              "lat": 9.09784,
+              "lon": 105.364,
+              "areaKm2": 31.58
+            }
+          ]
+        },
+        {
+          "code": "31987",
+          "name": "Xã An Trạch",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cà Mau",
+              "newProvinceSlug": "ca-mau",
+              "newProvinceCode": "96",
+              "newWard": "Xã An Trạch",
+              "newWardShort": "An Trạch",
+              "newWardCode": "31988",
+              "newWardType": "Xã",
+              "lat": 9.16773,
+              "lon": 105.36,
+              "areaKm2": 49.22
+            }
+          ]
+        },
+        {
+          "code": "31988",
+          "name": "Xã An Trạch A",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cà Mau",
+              "newProvinceSlug": "ca-mau",
+              "newProvinceCode": "96",
+              "newWard": "Xã An Trạch",
+              "newWardShort": "An Trạch",
+              "newWardCode": "31988",
+              "newWardType": "Xã",
+              "lat": 9.16773,
+              "lon": 105.36,
+              "areaKm2": 49.22
+            }
+          ]
+        },
+        {
+          "code": "31985",
+          "name": "Xã Điền Hải",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cà Mau",
+              "newProvinceSlug": "ca-mau",
+              "newProvinceCode": "96",
+              "newWard": "Xã Long Điền",
+              "newWardShort": "Long Điền",
+              "newWardCode": "31985",
+              "newWardType": "Xã",
+              "lat": 9.16165,
+              "lon": 105.463,
+              "areaKm2": 87.72
+            }
+          ]
+        },
+        {
+          "code": "31993",
+          "name": "Xã Định Thành",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cà Mau",
+              "newProvinceSlug": "ca-mau",
+              "newProvinceCode": "96",
+              "newWard": "Xã Định Thành",
+              "newWardShort": "Định Thành",
+              "newWardCode": "31993",
+              "newWardType": "Xã",
+              "lat": 9.09784,
+              "lon": 105.364,
+              "areaKm2": 31.58
+            }
+          ]
+        },
+        {
+          "code": "31996",
+          "name": "Xã Định Thành A",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cà Mau",
+              "newProvinceSlug": "ca-mau",
+              "newProvinceCode": "96",
+              "newWard": "Xã Định Thành",
+              "newWardShort": "Định Thành",
+              "newWardCode": "31993",
+              "newWardType": "Xã",
+              "lat": 9.09784,
+              "lon": 105.364,
+              "areaKm2": 31.58
+            }
+          ]
+        },
+        {
+          "code": "31981",
+          "name": "Xã Long Điền",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cà Mau",
+              "newProvinceSlug": "ca-mau",
+              "newProvinceCode": "96",
+              "newWard": "Xã Long Điền",
+              "newWardShort": "Long Điền",
+              "newWardCode": "31985",
+              "newWardType": "Xã",
+              "lat": 9.16165,
+              "lon": 105.463,
+              "areaKm2": 87.72
+            }
+          ]
+        },
+        {
+          "code": "31975",
+          "name": "Xã Long Điền Đông",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cà Mau",
+              "newProvinceSlug": "ca-mau",
+              "newProvinceCode": "96",
+              "newWard": "Xã Đông Hải",
+              "newWardShort": "Đông Hải",
+              "newWardCode": "31975",
+              "newWardType": "Xã",
+              "lat": 9.1817,
+              "lon": 105.532,
+              "areaKm2": 100.16
+            }
+          ]
+        },
+        {
+          "code": "31978",
+          "name": "Xã Long Điền Đông A",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cà Mau",
+              "newProvinceSlug": "ca-mau",
+              "newProvinceCode": "96",
+              "newWard": "Xã Đông Hải",
+              "newWardShort": "Đông Hải",
+              "newWardCode": "31975",
+              "newWardType": "Xã",
+              "lat": 9.1817,
+              "lon": 105.532,
+              "areaKm2": 100.16
+            }
+          ]
+        },
+        {
+          "code": "31984",
+          "name": "Xã Long Điền Tây",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cà Mau",
+              "newProvinceSlug": "ca-mau",
+              "newProvinceCode": "96",
+              "newWard": "Xã Gành Hào",
+              "newWardShort": "Gành Hào",
+              "newWardCode": "31972",
+              "newWardType": "Xã",
+              "lat": 9.08855,
+              "lon": 105.428,
+              "areaKm2": 13.4
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "961",
+      "name": "Huyện Hòa Bình",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "31891",
+          "name": "Thị trấn Hòa Bình",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cà Mau",
+              "newProvinceSlug": "ca-mau",
+              "newProvinceCode": "96",
+              "newWard": "Xã Hòa Bình",
+              "newWardShort": "Hòa Bình",
+              "newWardCode": "31891",
+              "newWardType": "Xã",
+              "lat": 9.23882,
+              "lon": 105.588,
+              "areaKm2": 26.54
+            }
+          ]
+        },
+        {
+          "code": "31915",
+          "name": "Xã Minh Diệu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cà Mau",
+              "newProvinceSlug": "ca-mau",
+              "newProvinceCode": "96",
+              "newWard": "Xã Vĩnh Mỹ",
+              "newWardShort": "Vĩnh Mỹ",
+              "newWardCode": "31918",
+              "newWardType": "Xã",
+              "lat": 9.31852,
+              "lon": 105.576,
+              "areaKm2": 40.72
+            }
+          ]
+        },
+        {
+          "code": "31918",
+          "name": "Xã Vĩnh Bình",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cà Mau",
+              "newProvinceSlug": "ca-mau",
+              "newProvinceCode": "96",
+              "newWard": "Xã Vĩnh Mỹ",
+              "newWardShort": "Vĩnh Mỹ",
+              "newWardCode": "31918",
+              "newWardType": "Xã",
+              "lat": 9.31852,
+              "lon": 105.576,
+              "areaKm2": 40.72
+            }
+          ]
+        },
+        {
+          "code": "31927",
+          "name": "Xã Vĩnh Hậu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cà Mau",
+              "newProvinceSlug": "ca-mau",
+              "newProvinceCode": "96",
+              "newWard": "Xã Vĩnh Hậu",
+              "newWardShort": "Vĩnh Hậu",
+              "newWardCode": "31927",
+              "newWardType": "Xã",
+              "lat": 9.20426,
+              "lon": 105.649,
+              "areaKm2": 105.94
+            }
+          ]
+        },
+        {
+          "code": "31930",
+          "name": "Xã Vĩnh Hậu A",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cà Mau",
+              "newProvinceSlug": "ca-mau",
+              "newProvinceCode": "96",
+              "newWard": "Xã Vĩnh Hậu",
+              "newWardShort": "Vĩnh Hậu",
+              "newWardCode": "31927",
+              "newWardType": "Xã",
+              "lat": 9.20426,
+              "lon": 105.649,
+              "areaKm2": 105.94
+            }
+          ]
+        },
+        {
+          "code": "31933",
+          "name": "Xã Vĩnh Mỹ A",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cà Mau",
+              "newProvinceSlug": "ca-mau",
+              "newProvinceCode": "96",
+              "newWard": "Xã Hòa Bình",
+              "newWardShort": "Hòa Bình",
+              "newWardCode": "31891",
+              "newWardType": "Xã",
+              "lat": 9.23882,
+              "lon": 105.588,
+              "areaKm2": 26.54
+            }
+          ]
+        },
+        {
+          "code": "31924",
+          "name": "Xã Vĩnh Mỹ B",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cà Mau",
+              "newProvinceSlug": "ca-mau",
+              "newProvinceCode": "96",
+              "newWard": "Xã Vĩnh Mỹ",
+              "newWardShort": "Vĩnh Mỹ",
+              "newWardCode": "31918",
+              "newWardType": "Xã",
+              "lat": 9.31852,
+              "lon": 105.576,
+              "areaKm2": 40.72
+            }
+          ]
+        },
+        {
+          "code": "31936",
+          "name": "Xã Vĩnh Thịnh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cà Mau",
+              "newProvinceSlug": "ca-mau",
+              "newProvinceCode": "96",
+              "newWard": "Xã Vĩnh Hậu",
+              "newWardShort": "Vĩnh Hậu",
+              "newWardCode": "31927",
+              "newWardType": "Xã",
+              "lat": 9.20426,
+              "lon": 105.649,
+              "areaKm2": 105.94
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "956",
+      "name": "Huyện Hồng Dân",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "31843",
+          "name": "Thị trấn Ngan Dừa",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cà Mau",
+              "newProvinceSlug": "ca-mau",
+              "newProvinceCode": "96",
+              "newWard": "Xã Hồng Dân",
+              "newWardShort": "Hồng Dân",
+              "newWardCode": "31843",
+              "newWardType": "Xã",
+              "lat": 9.53724,
+              "lon": 105.452,
+              "areaKm2": 15.62
+            }
+          ]
+        },
+        {
+          "code": "31855",
+          "name": "Xã Lộc Ninh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cà Mau",
+              "newProvinceSlug": "ca-mau",
+              "newProvinceCode": "96",
+              "newWard": "Xã Hồng Dân",
+              "newWardShort": "Hồng Dân",
+              "newWardCode": "31843",
+              "newWardType": "Xã",
+              "lat": 9.53724,
+              "lon": 105.452,
+              "areaKm2": 15.62
+            }
+          ]
+        },
+        {
+          "code": "31852",
+          "name": "Xã Ninh Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cà Mau",
+              "newProvinceSlug": "ca-mau",
+              "newProvinceCode": "96",
+              "newWard": "Xã Hồng Dân",
+              "newWardShort": "Hồng Dân",
+              "newWardCode": "31843",
+              "newWardType": "Xã",
+              "lat": 9.53724,
+              "lon": 105.452,
+              "areaKm2": 15.62
+            }
+          ]
+        },
+        {
+          "code": "31846",
+          "name": "Xã Ninh Quới",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cà Mau",
+              "newProvinceSlug": "ca-mau",
+              "newProvinceCode": "96",
+              "newWard": "Xã Ninh Quới",
+              "newWardShort": "Ninh Quới",
+              "newWardCode": "31849",
+              "newWardType": "Xã",
+              "lat": 9.52536,
+              "lon": 105.525,
+              "areaKm2": 32.42
+            }
+          ]
+        },
+        {
+          "code": "31849",
+          "name": "Xã Ninh Quới A",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cà Mau",
+              "newProvinceSlug": "ca-mau",
+              "newProvinceCode": "96",
+              "newWard": "Xã Ninh Quới",
+              "newWardShort": "Ninh Quới",
+              "newWardCode": "31849",
+              "newWardType": "Xã",
+              "lat": 9.52536,
+              "lon": 105.525,
+              "areaKm2": 32.42
+            }
+          ]
+        },
+        {
+          "code": "31864",
+          "name": "Xã Ninh Thạnh Lợi",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cà Mau",
+              "newProvinceSlug": "ca-mau",
+              "newProvinceCode": "96",
+              "newWard": "Xã Ninh Thạnh Lợi",
+              "newWardShort": "Ninh Thạnh Lợi",
+              "newWardCode": "31864",
+              "newWardType": "Xã",
+              "lat": 9.46717,
+              "lon": 105.345,
+              "areaKm2": 66.4
+            }
+          ]
+        },
+        {
+          "code": "31863",
+          "name": "Xã Ninh Thạnh Lợi A",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cà Mau",
+              "newProvinceSlug": "ca-mau",
+              "newProvinceCode": "96",
+              "newWard": "Xã Ninh Thạnh Lợi",
+              "newWardShort": "Ninh Thạnh Lợi",
+              "newWardCode": "31864",
+              "newWardType": "Xã",
+              "lat": 9.46717,
+              "lon": 105.345,
+              "areaKm2": 66.4
+            }
+          ]
+        },
+        {
+          "code": "31858",
+          "name": "Xã Vĩnh Lộc",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cà Mau",
+              "newProvinceSlug": "ca-mau",
+              "newProvinceCode": "96",
+              "newWard": "Xã Vĩnh Lộc",
+              "newWardShort": "Vĩnh Lộc",
+              "newWardCode": "31858",
+              "newWardType": "Xã",
+              "lat": 9.56159,
+              "lon": 105.357,
+              "areaKm2": 48.47
+            }
+          ]
+        },
+        {
+          "code": "31861",
+          "name": "Xã Vĩnh Lộc A",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cà Mau",
+              "newProvinceSlug": "ca-mau",
+              "newProvinceCode": "96",
+              "newWard": "Xã Vĩnh Lộc",
+              "newWardShort": "Vĩnh Lộc",
+              "newWardCode": "31858",
+              "newWardType": "Xã",
+              "lat": 9.56159,
+              "lon": 105.357,
+              "areaKm2": 48.47
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "957",
+      "name": "Huyện Phước Long",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "31867",
+          "name": "Thị trấn Phước Long",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cà Mau",
+              "newProvinceSlug": "ca-mau",
+              "newProvinceCode": "96",
+              "newWard": "Xã Phước Long",
+              "newWardShort": "Phước Long",
+              "newWardCode": "31867",
+              "newWardType": "Xã",
+              "lat": 9.44253,
+              "lon": 105.485,
+              "areaKm2": 49.48
+            }
+          ]
+        },
+        {
+          "code": "31879",
+          "name": "Xã Hưng Phú",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cà Mau",
+              "newProvinceSlug": "ca-mau",
+              "newProvinceCode": "96",
+              "newWard": "Xã Vĩnh Thanh",
+              "newWardShort": "Vĩnh Thanh",
+              "newWardCode": "31882",
+              "newWardType": "Xã",
+              "lat": 9.35997,
+              "lon": 105.519,
+              "areaKm2": 37.37
+            }
+          ]
+        },
+        {
+          "code": "31885",
+          "name": "Xã Phong Thạnh Tây A",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cà Mau",
+              "newProvinceSlug": "ca-mau",
+              "newProvinceCode": "96",
+              "newWard": "Xã Phong Hiệp",
+              "newWardShort": "Phong Hiệp",
+              "newWardCode": "31885",
+              "newWardType": "Xã",
+              "lat": 9.33702,
+              "lon": 105.318,
+              "areaKm2": 55.97
+            }
+          ]
+        },
+        {
+          "code": "31888",
+          "name": "Xã Phong Thạnh Tây B",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cà Mau",
+              "newProvinceSlug": "ca-mau",
+              "newProvinceCode": "96",
+              "newWard": "Xã Phong Hiệp",
+              "newWardShort": "Phong Hiệp",
+              "newWardCode": "31885",
+              "newWardType": "Xã",
+              "lat": 9.33702,
+              "lon": 105.318,
+              "areaKm2": 55.97
+            }
+          ]
+        },
+        {
+          "code": "31876",
+          "name": "Xã Phước Long",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cà Mau",
+              "newProvinceSlug": "ca-mau",
+              "newProvinceCode": "96",
+              "newWard": "Xã Vĩnh Phước",
+              "newWardShort": "Vĩnh Phước",
+              "newWardCode": "31876",
+              "newWardType": "Xã",
+              "lat": 9.39891,
+              "lon": 105.41,
+              "areaKm2": 75.5
+            }
+          ]
+        },
+        {
+          "code": "31870",
+          "name": "Xã Vĩnh Phú Đông",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cà Mau",
+              "newProvinceSlug": "ca-mau",
+              "newProvinceCode": "96",
+              "newWard": "Xã Phước Long",
+              "newWardShort": "Phước Long",
+              "newWardCode": "31867",
+              "newWardType": "Xã",
+              "lat": 9.44253,
+              "lon": 105.485,
+              "areaKm2": 49.48
+            }
+          ]
+        },
+        {
+          "code": "31873",
+          "name": "Xã Vĩnh Phú Tây",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cà Mau",
+              "newProvinceSlug": "ca-mau",
+              "newProvinceCode": "96",
+              "newWard": "Xã Vĩnh Phước",
+              "newWardShort": "Vĩnh Phước",
+              "newWardCode": "31876",
+              "newWardType": "Xã",
+              "lat": 9.39891,
+              "lon": 105.41,
+              "areaKm2": 75.5
+            }
+          ]
+        },
+        {
+          "code": "31882",
+          "name": "Xã Vĩnh Thanh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cà Mau",
+              "newProvinceSlug": "ca-mau",
+              "newProvinceCode": "96",
+              "newWard": "Xã Vĩnh Thanh",
+              "newWardShort": "Vĩnh Thanh",
+              "newWardCode": "31882",
+              "newWardType": "Xã",
+              "lat": 9.35997,
+              "lon": 105.519,
+              "areaKm2": 37.37
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "958",
+      "name": "Huyện Vĩnh Lợi",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "31900",
+          "name": "Thị trấn Châu Hưng",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cà Mau",
+              "newProvinceSlug": "ca-mau",
+              "newProvinceCode": "96",
+              "newWard": "Xã Vĩnh Lợi",
+              "newWardShort": "Vĩnh Lợi",
+              "newWardCode": "31900",
+              "newWardType": "Xã",
+              "lat": 9.36717,
+              "lon": 105.737,
+              "areaKm2": 31.98
+            }
+          ]
+        },
+        {
+          "code": "31903",
+          "name": "Xã Châu Hưng A",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cà Mau",
+              "newProvinceSlug": "ca-mau",
+              "newProvinceCode": "96",
+              "newWard": "Xã Vĩnh Lợi",
+              "newWardShort": "Vĩnh Lợi",
+              "newWardCode": "31900",
+              "newWardType": "Xã",
+              "lat": 9.36717,
+              "lon": 105.737,
+              "areaKm2": 31.98
+            }
+          ]
+        },
+        {
+          "code": "31912",
+          "name": "Xã Châu Thới",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cà Mau",
+              "newProvinceSlug": "ca-mau",
+              "newProvinceCode": "96",
+              "newWard": "Xã Châu Thới",
+              "newWardShort": "Châu Thới",
+              "newWardCode": "31894",
+              "newWardType": "Xã",
+              "lat": 9.39101,
+              "lon": 105.591,
+              "areaKm2": 23.04
+            }
+          ]
+        },
+        {
+          "code": "31909",
+          "name": "Xã Hưng Hội",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cà Mau",
+              "newProvinceSlug": "ca-mau",
+              "newProvinceCode": "96",
+              "newWard": "Xã Hưng Hội",
+              "newWardShort": "Hưng Hội",
+              "newWardCode": "31906",
+              "newWardType": "Xã",
+              "lat": 9.35235,
+              "lon": 105.796,
+              "areaKm2": 28.38
+            }
+          ]
+        },
+        {
+          "code": "31906",
+          "name": "Xã Hưng Thành",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cà Mau",
+              "newProvinceSlug": "ca-mau",
+              "newProvinceCode": "96",
+              "newWard": "Xã Hưng Hội",
+              "newWardShort": "Hưng Hội",
+              "newWardCode": "31906",
+              "newWardType": "Xã",
+              "lat": 9.35235,
+              "lon": 105.796,
+              "areaKm2": 28.38
+            }
+          ]
+        },
+        {
+          "code": "31921",
+          "name": "Xã Long Thạnh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cà Mau",
+              "newProvinceSlug": "ca-mau",
+              "newProvinceCode": "96",
+              "newWard": "Xã Hòa Bình",
+              "newWardShort": "Hòa Bình",
+              "newWardCode": "31891",
+              "newWardType": "Xã",
+              "lat": 9.23882,
+              "lon": 105.588,
+              "areaKm2": 26.54
+            }
+          ]
+        },
+        {
+          "code": "31894",
+          "name": "Xã Vĩnh Hưng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cà Mau",
+              "newProvinceSlug": "ca-mau",
+              "newProvinceCode": "96",
+              "newWard": "Xã Châu Thới",
+              "newWardShort": "Châu Thới",
+              "newWardCode": "31894",
+              "newWardType": "Xã",
+              "lat": 9.39101,
+              "lon": 105.591,
+              "areaKm2": 23.04
+            }
+          ]
+        },
+        {
+          "code": "31897",
+          "name": "Xã Vĩnh Hưng A",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cà Mau",
+              "newProvinceSlug": "ca-mau",
+              "newProvinceCode": "96",
+              "newWard": "Xã Châu Thới",
+              "newWardShort": "Châu Thới",
+              "newWardCode": "31894",
+              "newWardType": "Xã",
+              "lat": 9.39101,
+              "lon": 105.591,
+              "areaKm2": 23.04
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "959",
+      "name": "Thị xã Giá Rai",
+      "type": "Thị xã",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "31942",
+          "name": "Phường 1",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cà Mau",
+              "newProvinceSlug": "ca-mau",
+              "newProvinceCode": "96",
+              "newWard": "Phường Giá Rai",
+              "newWardShort": "Giá Rai",
+              "newWardCode": "31942",
+              "newWardType": "Phường",
+              "lat": 9.27477,
+              "lon": 105.409,
+              "areaKm2": 11.76
+            }
+          ]
+        },
+        {
+          "code": "31945",
+          "name": "Phường Hộ Phòng",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cà Mau",
+              "newProvinceSlug": "ca-mau",
+              "newProvinceCode": "96",
+              "newWard": "Phường Giá Rai",
+              "newWardShort": "Giá Rai",
+              "newWardCode": "31942",
+              "newWardType": "Phường",
+              "lat": 9.27477,
+              "lon": 105.409,
+              "areaKm2": 11.76
+            }
+          ]
+        },
+        {
+          "code": "31951",
+          "name": "Phường Láng Tròn",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cà Mau",
+              "newProvinceSlug": "ca-mau",
+              "newProvinceCode": "96",
+              "newWard": "Phường Láng Tròn",
+              "newWardShort": "Láng Tròn",
+              "newWardCode": "31951",
+              "newWardType": "Phường",
+              "lat": 9.29621,
+              "lon": 105.475,
+              "areaKm2": 32.18
+            }
+          ]
+        },
+        {
+          "code": "31954",
+          "name": "Xã Phong Tân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cà Mau",
+              "newProvinceSlug": "ca-mau",
+              "newProvinceCode": "96",
+              "newWard": "Phường Láng Tròn",
+              "newWardShort": "Láng Tròn",
+              "newWardCode": "31951",
+              "newWardType": "Phường",
+              "lat": 9.29621,
+              "lon": 105.475,
+              "areaKm2": 32.18
+            }
+          ]
+        },
+        {
+          "code": "31960",
+          "name": "Xã Phong Thạnh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cà Mau",
+              "newProvinceSlug": "ca-mau",
+              "newProvinceCode": "96",
+              "newWard": "Phường Giá Rai",
+              "newWardShort": "Giá Rai",
+              "newWardCode": "31942",
+              "newWardType": "Phường",
+              "lat": 9.27477,
+              "lon": 105.409,
+              "areaKm2": 11.76
+            }
+          ]
+        },
+        {
+          "code": "31963",
+          "name": "Xã Phong Thạnh A",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cà Mau",
+              "newProvinceSlug": "ca-mau",
+              "newProvinceCode": "96",
+              "newWard": "Phường Giá Rai",
+              "newWardShort": "Giá Rai",
+              "newWardCode": "31942",
+              "newWardType": "Phường",
+              "lat": 9.27477,
+              "lon": 105.409,
+              "areaKm2": 11.76
+            }
+          ]
+        },
+        {
+          "code": "31948",
+          "name": "Xã Phong Thạnh Đông",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cà Mau",
+              "newProvinceSlug": "ca-mau",
+              "newProvinceCode": "96",
+              "newWard": "Phường Láng Tròn",
+              "newWardShort": "Láng Tròn",
+              "newWardCode": "31951",
+              "newWardType": "Phường",
+              "lat": 9.29621,
+              "lon": 105.475,
+              "areaKm2": 32.18
+            }
+          ]
+        },
+        {
+          "code": "31966",
+          "name": "Xã Phong Thạnh Tây",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cà Mau",
+              "newProvinceSlug": "ca-mau",
+              "newProvinceCode": "96",
+              "newWard": "Xã Phong Thạnh",
+              "newWardShort": "Phong Thạnh",
+              "newWardCode": "31957",
+              "newWardType": "Xã",
+              "lat": 9.23435,
+              "lon": 105.315,
+              "areaKm2": 27.08
+            }
+          ]
+        },
+        {
+          "code": "31957",
+          "name": "Xã Tân Phong",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cà Mau",
+              "newProvinceSlug": "ca-mau",
+              "newProvinceCode": "96",
+              "newWard": "Xã Phong Thạnh",
+              "newWardShort": "Phong Thạnh",
+              "newWardCode": "31957",
+              "newWardType": "Xã",
+              "lat": 9.23435,
+              "lon": 105.315,
+              "areaKm2": 27.08
+            }
+          ]
+        },
+        {
+          "code": "31969",
+          "name": "Xã Tân Thạnh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Cà Mau",
+              "newProvinceSlug": "ca-mau",
+              "newProvinceCode": "96",
+              "newWard": "Xã Phong Thạnh",
+              "newWardShort": "Phong Thạnh",
+              "newWardCode": "31957",
+              "newWardType": "Xã",
+              "lat": 9.23435,
+              "lon": 105.315,
+              "areaKm2": 27.08
+            }
+          ]
+        }
+      ],
+      "results": []
+    }
+  ]
+}

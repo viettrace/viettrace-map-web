@@ -1,0 +1,2511 @@
+{
+  "schemaVersion": 1,
+  "mergeDate": "2025-07-01",
+  "code": "26",
+  "name": "Tỉnh Vĩnh Phúc",
+  "name_en": "Vinh Phuc Province",
+  "slug": "vinh-phuc",
+  "districts": [
+    {
+      "code": "249",
+      "name": "Huyện Bình Xuyên",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "8944",
+          "name": "Thị trấn Bá Hiến",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Bình Tuyền",
+              "newWardShort": "Bình Tuyền",
+              "newWardCode": "08944",
+              "newWardType": "Xã",
+              "lat": 21.3725,
+              "lon": 105.692,
+              "areaKm2": 58.5
+            }
+          ]
+        },
+        {
+          "code": "8962",
+          "name": "Thị trấn Đạo Đức",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Xuân Lãng",
+              "newWardShort": "Xuân Lãng",
+              "newWardCode": "08971",
+              "newWardType": "Xã",
+              "lat": 21.254,
+              "lon": 105.624,
+              "areaKm2": 29.9
+            }
+          ]
+        },
+        {
+          "code": "8936",
+          "name": "Thị trấn Gia Khánh",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Bình Xuyên",
+              "newWardShort": "Bình Xuyên",
+              "newWardCode": "08950",
+              "newWardType": "Xã",
+              "lat": 21.3224,
+              "lon": 105.648,
+              "areaKm2": 29.5
+            }
+          ]
+        },
+        {
+          "code": "8935",
+          "name": "Thị trấn Hương Canh",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Bình Nguyên",
+              "newWardShort": "Bình Nguyên",
+              "newWardCode": "08935",
+              "newWardType": "Xã",
+              "lat": 21.278,
+              "lon": 105.66,
+              "areaKm2": 30.6
+            }
+          ]
+        },
+        {
+          "code": "8968",
+          "name": "Thị trấn Thanh Lãng",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Xuân Lãng",
+              "newWardShort": "Xuân Lãng",
+              "newWardCode": "08971",
+              "newWardType": "Xã",
+              "lat": 21.254,
+              "lon": 105.624,
+              "areaKm2": 29.9
+            }
+          ]
+        },
+        {
+          "code": "8950",
+          "name": "Xã Hương Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Bình Xuyên",
+              "newWardShort": "Bình Xuyên",
+              "newWardCode": "08950",
+              "newWardType": "Xã",
+              "lat": 21.3224,
+              "lon": 105.648,
+              "areaKm2": 29.5
+            }
+          ]
+        },
+        {
+          "code": "8971",
+          "name": "Xã Phú Xuân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Xuân Lãng",
+              "newWardShort": "Xuân Lãng",
+              "newWardCode": "08971",
+              "newWardType": "Xã",
+              "lat": 21.254,
+              "lon": 105.624,
+              "areaKm2": 29.9
+            }
+          ]
+        },
+        {
+          "code": "8956",
+          "name": "Xã Quất Lưu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Bình Nguyên",
+              "newWardShort": "Bình Nguyên",
+              "newWardCode": "08935",
+              "newWardType": "Xã",
+              "lat": 21.278,
+              "lon": 105.66,
+              "areaKm2": 30.6
+            }
+          ]
+        },
+        {
+          "code": "8959",
+          "name": "Xã Sơn Lôi",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Bình Nguyên",
+              "newWardShort": "Bình Nguyên",
+              "newWardCode": "08935",
+              "newWardType": "Xã",
+              "lat": 21.278,
+              "lon": 105.66,
+              "areaKm2": 30.6
+            }
+          ]
+        },
+        {
+          "code": "8953",
+          "name": "Xã Tam Hợp",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Bình Nguyên",
+              "newWardShort": "Bình Nguyên",
+              "newWardCode": "08935",
+              "newWardType": "Xã",
+              "lat": 21.278,
+              "lon": 105.66,
+              "areaKm2": 30.6
+            }
+          ]
+        },
+        {
+          "code": "8965",
+          "name": "Xã Tân Phong",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Xuân Lãng",
+              "newWardShort": "Xuân Lãng",
+              "newWardCode": "08971",
+              "newWardType": "Xã",
+              "lat": 21.254,
+              "lon": 105.624,
+              "areaKm2": 29.9
+            }
+          ]
+        },
+        {
+          "code": "8947",
+          "name": "Xã Thiện Kế",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Bình Xuyên",
+              "newWardShort": "Bình Xuyên",
+              "newWardCode": "08950",
+              "newWardType": "Xã",
+              "lat": 21.3224,
+              "lon": 105.648,
+              "areaKm2": 29.5
+            }
+          ]
+        },
+        {
+          "code": "8938",
+          "name": "Xã Trung Mỹ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Bình Tuyền",
+              "newWardShort": "Bình Tuyền",
+              "newWardCode": "08944",
+              "newWardType": "Xã",
+              "lat": 21.3725,
+              "lon": 105.692,
+              "areaKm2": 58.5
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "246",
+      "name": "Huyện Lập Thạch",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "8789",
+          "name": "Thị trấn Hoa Sơn",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Liên Hòa",
+              "newWardShort": "Liên Hòa",
+              "newWardCode": "08812",
+              "newWardType": "Xã",
+              "lat": 21.4115,
+              "lon": 105.509,
+              "areaKm2": 18.8
+            }
+          ]
+        },
+        {
+          "code": "8761",
+          "name": "Thị trấn Lập Thạch",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Lập Thạch",
+              "newWardShort": "Lập Thạch",
+              "newWardCode": "08761",
+              "newWardType": "Xã",
+              "lat": 21.4301,
+              "lon": 105.464,
+              "areaKm2": 39.1
+            }
+          ]
+        },
+        {
+          "code": "8785",
+          "name": "Xã Bắc Bình",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Thái Hòa",
+              "newWardShort": "Thái Hòa",
+              "newWardCode": "08788",
+              "newWardType": "Xã",
+              "lat": 21.4589,
+              "lon": 105.501,
+              "areaKm2": 29
+            }
+          ]
+        },
+        {
+          "code": "8833",
+          "name": "Xã Bàn Giản",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Liên Hòa",
+              "newWardShort": "Liên Hòa",
+              "newWardCode": "08812",
+              "newWardType": "Xã",
+              "lat": 21.4115,
+              "lon": 105.509,
+              "areaKm2": 18.8
+            }
+          ]
+        },
+        {
+          "code": "8839",
+          "name": "Xã Đồng Ích",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Tiên Lữ",
+              "newWardShort": "Tiên Lữ",
+              "newWardCode": "08842",
+              "newWardType": "Xã",
+              "lat": 21.3731,
+              "lon": 105.462,
+              "areaKm2": 31.8
+            }
+          ]
+        },
+        {
+          "code": "8770",
+          "name": "Xã Hợp Lý",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Hợp Lý",
+              "newWardShort": "Hợp Lý",
+              "newWardCode": "08770",
+              "newWardType": "Xã",
+              "lat": 21.4873,
+              "lon": 105.444,
+              "areaKm2": 34.1
+            }
+          ]
+        },
+        {
+          "code": "8812",
+          "name": "Xã Liên Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Liên Hòa",
+              "newWardShort": "Liên Hòa",
+              "newWardCode": "08812",
+              "newWardType": "Xã",
+              "lat": 21.4115,
+              "lon": 105.509,
+              "areaKm2": 18.8
+            }
+          ]
+        },
+        {
+          "code": "8791",
+          "name": "Xã Liễn Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Thái Hòa",
+              "newWardShort": "Thái Hòa",
+              "newWardCode": "08788",
+              "newWardType": "Xã",
+              "lat": 21.4589,
+              "lon": 105.501,
+              "areaKm2": 29
+            }
+          ]
+        },
+        {
+          "code": "8767",
+          "name": "Xã Ngọc Mỹ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Hợp Lý",
+              "newWardShort": "Hợp Lý",
+              "newWardCode": "08770",
+              "newWardType": "Xã",
+              "lat": 21.4873,
+              "lon": 105.444,
+              "areaKm2": 34.1
+            }
+          ]
+        },
+        {
+          "code": "8764",
+          "name": "Xã Quang Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Hợp Lý",
+              "newWardShort": "Hợp Lý",
+              "newWardCode": "08770",
+              "newWardType": "Xã",
+              "lat": 21.4873,
+              "lon": 105.444,
+              "areaKm2": 34.1
+            }
+          ]
+        },
+        {
+          "code": "8866",
+          "name": "Xã Sơn Đông",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Sơn Đông",
+              "newWardShort": "Sơn Đông",
+              "newWardCode": "08866",
+              "newWardType": "Xã",
+              "lat": 21.332,
+              "lon": 105.461,
+              "areaKm2": 26.7
+            }
+          ]
+        },
+        {
+          "code": "8863",
+          "name": "Xã Tây Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Sơn Đông",
+              "newWardShort": "Sơn Đông",
+              "newWardCode": "08866",
+              "newWardType": "Xã",
+              "lat": 21.332,
+              "lon": 105.461,
+              "areaKm2": 26.7
+            }
+          ]
+        },
+        {
+          "code": "8788",
+          "name": "Xã Thái Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Thái Hòa",
+              "newWardShort": "Thái Hòa",
+              "newWardCode": "08788",
+              "newWardType": "Xã",
+              "lat": 21.4589,
+              "lon": 105.501,
+              "areaKm2": 29
+            }
+          ]
+        },
+        {
+          "code": "8842",
+          "name": "Xã Tiên Lữ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Tiên Lữ",
+              "newWardShort": "Tiên Lữ",
+              "newWardCode": "08842",
+              "newWardType": "Xã",
+              "lat": 21.3731,
+              "lon": 105.462,
+              "areaKm2": 31.8
+            }
+          ]
+        },
+        {
+          "code": "8815",
+          "name": "Xã Tử Du",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Lập Thạch",
+              "newWardShort": "Lập Thạch",
+              "newWardCode": "08761",
+              "newWardType": "Xã",
+              "lat": 21.4301,
+              "lon": 105.464,
+              "areaKm2": 39.1
+            }
+          ]
+        },
+        {
+          "code": "8845",
+          "name": "Xã Văn Quán",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Tiên Lữ",
+              "newWardShort": "Tiên Lữ",
+              "newWardCode": "08842",
+              "newWardType": "Xã",
+              "lat": 21.3731,
+              "lon": 105.462,
+              "areaKm2": 31.8
+            }
+          ]
+        },
+        {
+          "code": "8797",
+          "name": "Xã Vân Trục",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Lập Thạch",
+              "newWardShort": "Lập Thạch",
+              "newWardCode": "08761",
+              "newWardType": "Xã",
+              "lat": 21.4301,
+              "lon": 105.464,
+              "areaKm2": 39.1
+            }
+          ]
+        },
+        {
+          "code": "8794",
+          "name": "Xã Xuân Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Lập Thạch",
+              "newWardShort": "Lập Thạch",
+              "newWardCode": "08761",
+              "newWardType": "Xã",
+              "lat": 21.4301,
+              "lon": 105.464,
+              "areaKm2": 39.1
+            }
+          ]
+        },
+        {
+          "code": "8836",
+          "name": "Xã Xuân Lôi",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Tiên Lữ",
+              "newWardShort": "Tiên Lữ",
+              "newWardCode": "08842",
+              "newWardType": "Xã",
+              "lat": 21.3731,
+              "lon": 105.462,
+              "areaKm2": 31.8
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "253",
+      "name": "Huyện Sông Lô",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "8824",
+          "name": "Thị trấn Tam Sơn",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Tam Sơn",
+              "newWardShort": "Tam Sơn",
+              "newWardCode": "08824",
+              "newWardType": "Xã",
+              "lat": 21.4358,
+              "lon": 105.418,
+              "areaKm2": 33.1
+            }
+          ]
+        },
+        {
+          "code": "8860",
+          "name": "Xã Cao Phong",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Sơn Đông",
+              "newWardShort": "Sơn Đông",
+              "newWardCode": "08866",
+              "newWardType": "Xã",
+              "lat": 21.332,
+              "lon": 105.461,
+              "areaKm2": 26.7
+            }
+          ]
+        },
+        {
+          "code": "8806",
+          "name": "Xã Đôn Nhân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Hải Lựu",
+              "newWardShort": "Hải Lựu",
+              "newWardCode": "08782",
+              "newWardType": "Xã",
+              "lat": 21.4591,
+              "lon": 105.36,
+              "areaKm2": 38.8
+            }
+          ]
+        },
+        {
+          "code": "8800",
+          "name": "Xã Đồng Quế",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Tam Sơn",
+              "newWardShort": "Tam Sơn",
+              "newWardCode": "08824",
+              "newWardType": "Xã",
+              "lat": 21.4358,
+              "lon": 105.418,
+              "areaKm2": 33.1
+            }
+          ]
+        },
+        {
+          "code": "8848",
+          "name": "Xã Đồng Thịnh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Sông Lô",
+              "newWardShort": "Sông Lô",
+              "newWardCode": "08848",
+              "newWardType": "Xã",
+              "lat": 21.3776,
+              "lon": 105.421,
+              "areaKm2": 33.4
+            }
+          ]
+        },
+        {
+          "code": "8854",
+          "name": "Xã Đức Bác",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Sông Lô",
+              "newWardShort": "Sông Lô",
+              "newWardCode": "08848",
+              "newWardType": "Xã",
+              "lat": 21.3776,
+              "lon": 105.421,
+              "areaKm2": 33.4
+            }
+          ]
+        },
+        {
+          "code": "8782",
+          "name": "Xã Hải Lựu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Hải Lựu",
+              "newWardShort": "Hải Lựu",
+              "newWardCode": "08782",
+              "newWardType": "Xã",
+              "lat": 21.4591,
+              "lon": 105.36,
+              "areaKm2": 38.8
+            }
+          ]
+        },
+        {
+          "code": "8773",
+          "name": "Xã Lãng Công",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Yên Lãng",
+              "newWardShort": "Yên Lãng",
+              "newWardCode": "08773",
+              "newWardType": "Xã",
+              "lat": 21.495,
+              "lon": 105.384,
+              "areaKm2": 38.2
+            }
+          ]
+        },
+        {
+          "code": "8803",
+          "name": "Xã Nhân Đạo",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Hải Lựu",
+              "newWardShort": "Hải Lựu",
+              "newWardCode": "08782",
+              "newWardType": "Xã",
+              "lat": 21.4591,
+              "lon": 105.36,
+              "areaKm2": 38.8
+            }
+          ]
+        },
+        {
+          "code": "8809",
+          "name": "Xã Phương Khoan",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Hải Lựu",
+              "newWardShort": "Hải Lựu",
+              "newWardCode": "08782",
+              "newWardType": "Xã",
+              "lat": 21.4591,
+              "lon": 105.36,
+              "areaKm2": 38.8
+            }
+          ]
+        },
+        {
+          "code": "8776",
+          "name": "Xã Quang Yên",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Yên Lãng",
+              "newWardShort": "Yên Lãng",
+              "newWardCode": "08773",
+              "newWardType": "Xã",
+              "lat": 21.495,
+              "lon": 105.384,
+              "areaKm2": 38.2
+            }
+          ]
+        },
+        {
+          "code": "8818",
+          "name": "Xã Tân Lập",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Tam Sơn",
+              "newWardShort": "Tam Sơn",
+              "newWardCode": "08824",
+              "newWardType": "Xã",
+              "lat": 21.4358,
+              "lon": 105.418,
+              "areaKm2": 33.1
+            }
+          ]
+        },
+        {
+          "code": "8851",
+          "name": "Xã Tứ Yên",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Sông Lô",
+              "newWardShort": "Sông Lô",
+              "newWardCode": "08848",
+              "newWardType": "Xã",
+              "lat": 21.3776,
+              "lon": 105.421,
+              "areaKm2": 33.4
+            }
+          ]
+        },
+        {
+          "code": "8830",
+          "name": "Xã Yên Thạch",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Sông Lô",
+              "newWardShort": "Sông Lô",
+              "newWardCode": "08848",
+              "newWardType": "Xã",
+              "lat": 21.3776,
+              "lon": 105.421,
+              "areaKm2": 33.4
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "248",
+      "name": "Huyện Tam Đảo",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "8923",
+          "name": "Thị trấn Đại Đình",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Đại Đình",
+              "newWardShort": "Đại Đình",
+              "newWardCode": "08923",
+              "newWardType": "Xã",
+              "lat": 21.4615,
+              "lon": 105.577,
+              "areaKm2": 44
+            }
+          ]
+        },
+        {
+          "code": "8911",
+          "name": "Thị trấn Hợp Châu",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Tam Đảo",
+              "newWardShort": "Tam Đảo",
+              "newWardCode": "08911",
+              "newWardType": "Xã",
+              "lat": 21.409,
+              "lon": 105.643,
+              "areaKm2": 79.2
+            }
+          ]
+        },
+        {
+          "code": "8908",
+          "name": "Thị trấn Tam Đảo",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Tam Đảo",
+              "newWardShort": "Tam Đảo",
+              "newWardCode": "08911",
+              "newWardType": "Xã",
+              "lat": 21.409,
+              "lon": 105.643,
+              "areaKm2": 79.2
+            }
+          ]
+        },
+        {
+          "code": "8920",
+          "name": "Xã Bồ Lý",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Đại Đình",
+              "newWardShort": "Đại Đình",
+              "newWardCode": "08923",
+              "newWardType": "Xã",
+              "lat": 21.4615,
+              "lon": 105.577,
+              "areaKm2": 44
+            }
+          ]
+        },
+        {
+          "code": "8914",
+          "name": "Xã Đạo Trù",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Đạo Trù",
+              "newWardShort": "Đạo Trù",
+              "newWardCode": "08914",
+              "newWardType": "Xã",
+              "lat": 21.5163,
+              "lon": 105.553,
+              "areaKm2": 83.8
+            }
+          ]
+        },
+        {
+          "code": "8929",
+          "name": "Xã Hồ Sơn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Tam Đảo",
+              "newWardShort": "Tam Đảo",
+              "newWardCode": "08911",
+              "newWardType": "Xã",
+              "lat": 21.409,
+              "lon": 105.643,
+              "areaKm2": 79.2
+            }
+          ]
+        },
+        {
+          "code": "8932",
+          "name": "Xã Minh Quang",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Tam Đảo",
+              "newWardShort": "Tam Đảo",
+              "newWardCode": "08911",
+              "newWardType": "Xã",
+              "lat": 21.409,
+              "lon": 105.643,
+              "areaKm2": 79.2
+            }
+          ]
+        },
+        {
+          "code": "8926",
+          "name": "Xã Tam Quan",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Tam Dương Bắc",
+              "newWardShort": "Tam Dương Bắc",
+              "newWardCode": "08872",
+              "newWardType": "Xã",
+              "lat": 21.4299,
+              "lon": 105.578,
+              "areaKm2": 45.8
+            }
+          ]
+        },
+        {
+          "code": "8917",
+          "name": "Xã Yên Dương",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Đạo Trù",
+              "newWardShort": "Đạo Trù",
+              "newWardCode": "08914",
+              "newWardType": "Xã",
+              "lat": 21.5163,
+              "lon": 105.553,
+              "areaKm2": 83.8
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "247",
+      "name": "Huyện Tam Dương",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "8869",
+          "name": "Thị trấn Hợp Hòa",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Tam Dương",
+              "newWardShort": "Tam Dương",
+              "newWardCode": "08869",
+              "newWardType": "Xã",
+              "lat": 21.3729,
+              "lon": 105.572,
+              "areaKm2": 44.3
+            }
+          ]
+        },
+        {
+          "code": "8878",
+          "name": "Thị trấn Kim Long",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Tam Dương",
+              "newWardShort": "Tam Dương",
+              "newWardCode": "08869",
+              "newWardType": "Xã",
+              "lat": 21.3729,
+              "lon": 105.572,
+              "areaKm2": 44.3
+            }
+          ]
+        },
+        {
+          "code": "8887",
+          "name": "Xã An Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Hoàng An",
+              "newWardShort": "Hoàng An",
+              "newWardCode": "08896",
+              "newWardType": "Xã",
+              "lat": 21.3521,
+              "lon": 105.523,
+              "areaKm2": 20.8
+            }
+          ]
+        },
+        {
+          "code": "8884",
+          "name": "Xã Đạo Tú",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Tam Dương",
+              "newWardShort": "Tam Dương",
+              "newWardCode": "08869",
+              "newWardType": "Xã",
+              "lat": 21.3729,
+              "lon": 105.572,
+              "areaKm2": 44.3
+            }
+          ]
+        },
+        {
+          "code": "8875",
+          "name": "Xã Đồng Tĩnh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Tam Dương Bắc",
+              "newWardShort": "Tam Dương Bắc",
+              "newWardCode": "08872",
+              "newWardType": "Xã",
+              "lat": 21.4299,
+              "lon": 105.578,
+              "areaKm2": 45.8
+            }
+          ]
+        },
+        {
+          "code": "8893",
+          "name": "Xã Duy Phiên",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Hội Thịnh",
+              "newWardShort": "Hội Thịnh",
+              "newWardCode": "08905",
+              "newWardType": "Xã",
+              "lat": 21.315,
+              "lon": 105.548,
+              "areaKm2": 25.1
+            }
+          ]
+        },
+        {
+          "code": "8896",
+          "name": "Xã Hoàng Đan",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Hoàng An",
+              "newWardShort": "Hoàng An",
+              "newWardCode": "08896",
+              "newWardType": "Xã",
+              "lat": 21.3521,
+              "lon": 105.523,
+              "areaKm2": 20.8
+            }
+          ]
+        },
+        {
+          "code": "8872",
+          "name": "Xã Hoàng Hoa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Tam Dương Bắc",
+              "newWardShort": "Tam Dương Bắc",
+              "newWardCode": "08872",
+              "newWardType": "Xã",
+              "lat": 21.4299,
+              "lon": 105.578,
+              "areaKm2": 45.8
+            }
+          ]
+        },
+        {
+          "code": "8899",
+          "name": "Xã Hoàng Lâu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Hoàng An",
+              "newWardShort": "Hoàng An",
+              "newWardCode": "08896",
+              "newWardType": "Xã",
+              "lat": 21.3521,
+              "lon": 105.523,
+              "areaKm2": 20.8
+            }
+          ]
+        },
+        {
+          "code": "8905",
+          "name": "Xã Hội Thịnh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Hội Thịnh",
+              "newWardShort": "Hội Thịnh",
+              "newWardCode": "08905",
+              "newWardType": "Xã",
+              "lat": 21.315,
+              "lon": 105.548,
+              "areaKm2": 25.1
+            }
+          ]
+        },
+        {
+          "code": "8881",
+          "name": "Xã Hướng Đạo",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Tam Dương",
+              "newWardShort": "Tam Dương",
+              "newWardCode": "08869",
+              "newWardType": "Xã",
+              "lat": 21.3729,
+              "lon": 105.572,
+              "areaKm2": 44.3
+            }
+          ]
+        },
+        {
+          "code": "8890",
+          "name": "Xã Thanh Vân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Hội Thịnh",
+              "newWardShort": "Hội Thịnh",
+              "newWardCode": "08905",
+              "newWardType": "Xã",
+              "lat": 21.315,
+              "lon": 105.548,
+              "areaKm2": 25.1
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "252",
+      "name": "Huyện Vĩnh Tường",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "9112",
+          "name": "Thị trấn Thổ Tang",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Thổ Tang",
+              "newWardShort": "Thổ Tang",
+              "newWardCode": "09112",
+              "newWardType": "Xã",
+              "lat": 21.2333,
+              "lon": 105.489,
+              "areaKm2": 21.3
+            }
+          ]
+        },
+        {
+          "code": "9145",
+          "name": "Thị trấn Tứ Trưng",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Vĩnh Tường",
+              "newWardShort": "Vĩnh Tường",
+              "newWardCode": "09076",
+              "newWardType": "Xã",
+              "lat": 21.2269,
+              "lon": 105.52,
+              "areaKm2": 26.2
+            }
+          ]
+        },
+        {
+          "code": "9076",
+          "name": "Thị trấn Vĩnh Tường",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Vĩnh Tường",
+              "newWardShort": "Vĩnh Tường",
+              "newWardCode": "09076",
+              "newWardType": "Xã",
+              "lat": 21.2269,
+              "lon": 105.52,
+              "areaKm2": 26.2
+            }
+          ]
+        },
+        {
+          "code": "9151",
+          "name": "Xã An Nhân",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Vĩnh Phú",
+              "newWardShort": "Vĩnh Phú",
+              "newWardCode": "09154",
+              "newWardType": "Xã",
+              "lat": 21.1776,
+              "lon": 105.502,
+              "areaKm2": 34.6
+            }
+          ]
+        },
+        {
+          "code": "9085",
+          "name": "Xã Chấn Hưng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Vĩnh An",
+              "newWardShort": "Vĩnh An",
+              "newWardCode": "09079",
+              "newWardType": "Xã",
+              "lat": 21.3073,
+              "lon": 105.511,
+              "areaKm2": 21.4
+            }
+          ]
+        },
+        {
+          "code": "9100",
+          "name": "Xã Đại Đồng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Vĩnh Hưng",
+              "newWardShort": "Vĩnh Hưng",
+              "newWardCode": "09100",
+              "newWardType": "Xã",
+              "lat": 21.2828,
+              "lon": 105.495,
+              "areaKm2": 18.7
+            }
+          ]
+        },
+        {
+          "code": "9079",
+          "name": "Xã Kim Xá",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Vĩnh An",
+              "newWardShort": "Vĩnh An",
+              "newWardCode": "09079",
+              "newWardType": "Xã",
+              "lat": 21.3073,
+              "lon": 105.511,
+              "areaKm2": 21.4
+            }
+          ]
+        },
+        {
+          "code": "9106",
+          "name": "Xã Lũng Hòa",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Vĩnh Thành",
+              "newWardShort": "Vĩnh Thành",
+              "newWardCode": "09106",
+              "newWardType": "Xã",
+              "lat": 21.2634,
+              "lon": 105.463,
+              "areaKm2": 22
+            }
+          ]
+        },
+        {
+          "code": "9118",
+          "name": "Xã Lương Điền",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Vĩnh Tường",
+              "newWardShort": "Vĩnh Tường",
+              "newWardCode": "09076",
+              "newWardType": "Xã",
+              "lat": 21.2269,
+              "lon": 105.52,
+              "areaKm2": 26.2
+            }
+          ]
+        },
+        {
+          "code": "9088",
+          "name": "Xã Nghĩa Hưng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Vĩnh Hưng",
+              "newWardShort": "Vĩnh Hưng",
+              "newWardCode": "09100",
+              "newWardType": "Xã",
+              "lat": 21.2828,
+              "lon": 105.495,
+              "areaKm2": 18.7
+            }
+          ]
+        },
+        {
+          "code": "9148",
+          "name": "Xã Ngũ Kiên",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Vĩnh Phú",
+              "newWardShort": "Vĩnh Phú",
+              "newWardCode": "09154",
+              "newWardType": "Xã",
+              "lat": 21.1776,
+              "lon": 105.502,
+              "areaKm2": 34.6
+            }
+          ]
+        },
+        {
+          "code": "9097",
+          "name": "Xã Sao Đại Việt",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Vĩnh Thành",
+              "newWardShort": "Vĩnh Thành",
+              "newWardCode": "09106",
+              "newWardType": "Xã",
+              "lat": 21.2634,
+              "lon": 105.463,
+              "areaKm2": 22
+            }
+          ]
+        },
+        {
+          "code": "9124",
+          "name": "Xã Tân Phú",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Vĩnh Thành",
+              "newWardShort": "Vĩnh Thành",
+              "newWardCode": "09106",
+              "newWardType": "Xã",
+              "lat": 21.2634,
+              "lon": 105.463,
+              "areaKm2": 22
+            }
+          ]
+        },
+        {
+          "code": "9127",
+          "name": "Xã Thượng Trưng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Thổ Tang",
+              "newWardShort": "Thổ Tang",
+              "newWardCode": "09112",
+              "newWardType": "Xã",
+              "lat": 21.2333,
+              "lon": 105.489,
+              "areaKm2": 21.3
+            }
+          ]
+        },
+        {
+          "code": "9136",
+          "name": "Xã Tuân Chính",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Thổ Tang",
+              "newWardShort": "Thổ Tang",
+              "newWardCode": "09112",
+              "newWardType": "Xã",
+              "lat": 21.2333,
+              "lon": 105.489,
+              "areaKm2": 21.3
+            }
+          ]
+        },
+        {
+          "code": "9157",
+          "name": "Xã Vĩnh Phú",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Vĩnh Phú",
+              "newWardShort": "Vĩnh Phú",
+              "newWardCode": "09154",
+              "newWardType": "Xã",
+              "lat": 21.1776,
+              "lon": 105.502,
+              "areaKm2": 34.6
+            }
+          ]
+        },
+        {
+          "code": "9154",
+          "name": "Xã Vĩnh Thịnh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Vĩnh Phú",
+              "newWardShort": "Vĩnh Phú",
+              "newWardCode": "09154",
+              "newWardType": "Xã",
+              "lat": 21.1776,
+              "lon": 105.502,
+              "areaKm2": 34.6
+            }
+          ]
+        },
+        {
+          "code": "9130",
+          "name": "Xã Vũ Di",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Vĩnh Tường",
+              "newWardShort": "Vĩnh Tường",
+              "newWardCode": "09076",
+              "newWardType": "Xã",
+              "lat": 21.2269,
+              "lon": 105.52,
+              "areaKm2": 26.2
+            }
+          ]
+        },
+        {
+          "code": "9082",
+          "name": "Xã Yên Bình",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Vĩnh An",
+              "newWardShort": "Vĩnh An",
+              "newWardCode": "09079",
+              "newWardType": "Xã",
+              "lat": 21.3073,
+              "lon": 105.511,
+              "areaKm2": 21.4
+            }
+          ]
+        },
+        {
+          "code": "9091",
+          "name": "Xã Yên Lập",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Vĩnh Hưng",
+              "newWardShort": "Vĩnh Hưng",
+              "newWardCode": "09100",
+              "newWardType": "Xã",
+              "lat": 21.2828,
+              "lon": 105.495,
+              "areaKm2": 18.7
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "251",
+      "name": "Huyện Yên Lạc",
+      "type": "Huyện",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "9043",
+          "name": "Thị trấn Tam Hồng",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Tam Hồng",
+              "newWardShort": "Tam Hồng",
+              "newWardCode": "09043",
+              "newWardType": "Xã",
+              "lat": 21.2144,
+              "lon": 105.568,
+              "areaKm2": 22.6
+            }
+          ]
+        },
+        {
+          "code": "9025",
+          "name": "Thị trấn Yên Lạc",
+          "type": "Thị trấn",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Yên Lạc",
+              "newWardShort": "Yên Lạc",
+              "newWardCode": "09025",
+              "newWardType": "Xã",
+              "lat": 21.2559,
+              "lon": 105.588,
+              "areaKm2": 21.7
+            }
+          ]
+        },
+        {
+          "code": "9034",
+          "name": "Xã Bình Định",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Yên Lạc",
+              "newWardShort": "Yên Lạc",
+              "newWardCode": "09025",
+              "newWardType": "Xã",
+              "lat": 21.2559,
+              "lon": 105.588,
+              "areaKm2": 21.7
+            }
+          ]
+        },
+        {
+          "code": "9067",
+          "name": "Xã Đại Tự",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Liên Châu",
+              "newWardShort": "Liên Châu",
+              "newWardCode": "09064",
+              "newWardType": "Xã",
+              "lat": 21.18,
+              "lon": 105.567,
+              "areaKm2": 26
+            }
+          ]
+        },
+        {
+          "code": "9028",
+          "name": "Xã Đồng Cương",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Yên Lạc",
+              "newWardShort": "Yên Lạc",
+              "newWardCode": "09025",
+              "newWardType": "Xã",
+              "lat": 21.2559,
+              "lon": 105.588,
+              "areaKm2": 21.7
+            }
+          ]
+        },
+        {
+          "code": "9031",
+          "name": "Xã Đồng Văn",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Tề Lỗ",
+              "newWardShort": "Tề Lỗ",
+              "newWardCode": "09040",
+              "newWardType": "Xã",
+              "lat": 21.2592,
+              "lon": 105.55,
+              "areaKm2": 18.3
+            }
+          ]
+        },
+        {
+          "code": "9070",
+          "name": "Xã Hồng Châu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Liên Châu",
+              "newWardShort": "Liên Châu",
+              "newWardCode": "09064",
+              "newWardType": "Xã",
+              "lat": 21.18,
+              "lon": 105.567,
+              "areaKm2": 26
+            }
+          ]
+        },
+        {
+          "code": "9064",
+          "name": "Xã Liên Châu",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Liên Châu",
+              "newWardShort": "Liên Châu",
+              "newWardCode": "09064",
+              "newWardType": "Xã",
+              "lat": 21.18,
+              "lon": 105.567,
+              "areaKm2": 26
+            }
+          ]
+        },
+        {
+          "code": "9052",
+          "name": "Xã Nguyệt Đức",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Nguyệt Đức",
+              "newWardShort": "Nguyệt Đức",
+              "newWardCode": "09052",
+              "newWardType": "Xã",
+              "lat": 21.1982,
+              "lon": 105.612,
+              "areaKm2": 19
+            }
+          ]
+        },
+        {
+          "code": "9040",
+          "name": "Xã Tề Lỗ",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Tề Lỗ",
+              "newWardShort": "Tề Lỗ",
+              "newWardCode": "09040",
+              "newWardType": "Xã",
+              "lat": 21.2592,
+              "lon": 105.55,
+              "areaKm2": 18.3
+            }
+          ]
+        },
+        {
+          "code": "9073",
+          "name": "Xã Trung Hà",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Nguyệt Đức",
+              "newWardShort": "Nguyệt Đức",
+              "newWardCode": "09052",
+              "newWardType": "Xã",
+              "lat": 21.1982,
+              "lon": 105.612,
+              "areaKm2": 19
+            }
+          ]
+        },
+        {
+          "code": "9061",
+          "name": "Xã Trung Kiên",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Nguyệt Đức",
+              "newWardShort": "Nguyệt Đức",
+              "newWardCode": "09052",
+              "newWardType": "Xã",
+              "lat": 21.1982,
+              "lon": 105.612,
+              "areaKm2": 19
+            }
+          ]
+        },
+        {
+          "code": "9037",
+          "name": "Xã Trung Nguyên",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Tề Lỗ",
+              "newWardShort": "Tề Lỗ",
+              "newWardCode": "09040",
+              "newWardType": "Xã",
+              "lat": 21.2592,
+              "lon": 105.55,
+              "areaKm2": 18.3
+            }
+          ]
+        },
+        {
+          "code": "9049",
+          "name": "Xã Văn Tiến",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Nguyệt Đức",
+              "newWardShort": "Nguyệt Đức",
+              "newWardCode": "09052",
+              "newWardType": "Xã",
+              "lat": 21.1982,
+              "lon": 105.612,
+              "areaKm2": 19
+            }
+          ]
+        },
+        {
+          "code": "9046",
+          "name": "Xã Yên Đồng",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Tam Hồng",
+              "newWardShort": "Tam Hồng",
+              "newWardCode": "09043",
+              "newWardType": "Xã",
+              "lat": 21.2144,
+              "lon": 105.568,
+              "areaKm2": 22.6
+            }
+          ]
+        },
+        {
+          "code": "9055",
+          "name": "Xã Yên Phương",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Xã Tam Hồng",
+              "newWardShort": "Tam Hồng",
+              "newWardCode": "09043",
+              "newWardType": "Xã",
+              "lat": 21.2144,
+              "lon": 105.568,
+              "areaKm2": 22.6
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "244",
+      "name": "Thành phố Phúc Yên",
+      "type": "Thành phố",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "8747",
+          "name": "Phường Đồng Xuân",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Phường Xuân Hòa",
+              "newWardShort": "Xuân Hòa",
+              "newWardCode": "08746",
+              "newWardType": "Phường",
+              "lat": 21.3408,
+              "lon": 105.735,
+              "areaKm2": 96
+            }
+          ]
+        },
+        {
+          "code": "8740",
+          "name": "Phường Hai Bà Trưng",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Phường Phúc Yên",
+              "newWardShort": "Phúc Yên",
+              "newWardCode": "08740",
+              "newWardType": "Phường",
+              "lat": 21.2457,
+              "lon": 105.707,
+              "areaKm2": 23.4
+            }
+          ]
+        },
+        {
+          "code": "8737",
+          "name": "Phường Hùng Vương",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Phường Phúc Yên",
+              "newWardShort": "Phúc Yên",
+              "newWardCode": "08740",
+              "newWardType": "Phường",
+              "lat": 21.2457,
+              "lon": 105.707,
+              "areaKm2": 23.4
+            }
+          ]
+        },
+        {
+          "code": "8755",
+          "name": "Phường Nam Viêm",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Phường Phúc Yên",
+              "newWardShort": "Phúc Yên",
+              "newWardCode": "08740",
+              "newWardType": "Phường",
+              "lat": 21.2457,
+              "lon": 105.707,
+              "areaKm2": 23.4
+            }
+          ]
+        },
+        {
+          "code": "8743",
+          "name": "Phường Phúc Thắng",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Phường Phúc Yên",
+              "newWardShort": "Phúc Yên",
+              "newWardCode": "08740",
+              "newWardType": "Phường",
+              "lat": 21.2457,
+              "lon": 105.707,
+              "areaKm2": 23.4
+            }
+          ]
+        },
+        {
+          "code": "8758",
+          "name": "Phường Tiền Châu",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Phường Phúc Yên",
+              "newWardShort": "Phúc Yên",
+              "newWardCode": "08740",
+              "newWardType": "Phường",
+              "lat": 21.2457,
+              "lon": 105.707,
+              "areaKm2": 23.4
+            }
+          ]
+        },
+        {
+          "code": "8746",
+          "name": "Phường Xuân Hòa",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Phường Xuân Hòa",
+              "newWardShort": "Xuân Hòa",
+              "newWardCode": "08746",
+              "newWardType": "Phường",
+              "lat": 21.3408,
+              "lon": 105.735,
+              "areaKm2": 96
+            }
+          ]
+        },
+        {
+          "code": "8752",
+          "name": "Xã Cao Minh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Phường Xuân Hòa",
+              "newWardShort": "Xuân Hòa",
+              "newWardCode": "08746",
+              "newWardType": "Phường",
+              "lat": 21.3408,
+              "lon": 105.735,
+              "areaKm2": 96
+            }
+          ]
+        },
+        {
+          "code": "8749",
+          "name": "Xã Ngọc Thanh",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Phường Xuân Hòa",
+              "newWardShort": "Xuân Hòa",
+              "newWardCode": "08746",
+              "newWardType": "Phường",
+              "lat": 21.3408,
+              "lon": 105.735,
+              "areaKm2": 96
+            }
+          ]
+        }
+      ],
+      "results": []
+    },
+    {
+      "code": "243",
+      "name": "Thành phố Vĩnh Yên",
+      "type": "Thành phố",
+      "isIsland": false,
+      "wards": [
+        {
+          "code": "8725",
+          "name": "Phường Định Trung",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Phường Vĩnh Phúc",
+              "newWardShort": "Vĩnh Phúc",
+              "newWardCode": "08716",
+              "newWardType": "Phường",
+              "lat": 21.3178,
+              "lon": 105.608,
+              "areaKm2": 25.3
+            }
+          ]
+        },
+        {
+          "code": "8716",
+          "name": "Phường Đống Đa",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Phường Vĩnh Phúc",
+              "newWardShort": "Vĩnh Phúc",
+              "newWardCode": "08716",
+              "newWardType": "Phường",
+              "lat": 21.3178,
+              "lon": 105.608,
+              "areaKm2": 25.3
+            }
+          ]
+        },
+        {
+          "code": "8722",
+          "name": "Phường Đồng Tâm",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Phường Vĩnh Yên",
+              "newWardShort": "Vĩnh Yên",
+              "newWardCode": "08707",
+              "newWardType": "Phường",
+              "lat": 21.2937,
+              "lon": 105.584,
+              "areaKm2": 25
+            }
+          ]
+        },
+        {
+          "code": "8713",
+          "name": "Phường Hội Hợp",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Phường Vĩnh Yên",
+              "newWardShort": "Vĩnh Yên",
+              "newWardCode": "08707",
+              "newWardType": "Phường",
+              "lat": 21.2937,
+              "lon": 105.584,
+              "areaKm2": 25
+            }
+          ]
+        },
+        {
+          "code": "8728",
+          "name": "Phường Khai Quang",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Phường Vĩnh Phúc",
+              "newWardShort": "Vĩnh Phúc",
+              "newWardCode": "08716",
+              "newWardType": "Phường",
+              "lat": 21.3178,
+              "lon": 105.608,
+              "areaKm2": 25.3
+            }
+          ]
+        },
+        {
+          "code": "8710",
+          "name": "Phường Liên Bảo",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Phường Vĩnh Phúc",
+              "newWardShort": "Vĩnh Phúc",
+              "newWardCode": "08716",
+              "newWardType": "Phường",
+              "lat": 21.3178,
+              "lon": 105.608,
+              "areaKm2": 25.3
+            }
+          ]
+        },
+        {
+          "code": "8719",
+          "name": "Phường Ngô Quyền",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Phường Vĩnh Phúc",
+              "newWardShort": "Vĩnh Phúc",
+              "newWardCode": "08716",
+              "newWardType": "Phường",
+              "lat": 21.3178,
+              "lon": 105.608,
+              "areaKm2": 25.3
+            }
+          ]
+        },
+        {
+          "code": "8707",
+          "name": "Phường Tích Sơn",
+          "type": "Phường",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Phường Vĩnh Yên",
+              "newWardShort": "Vĩnh Yên",
+              "newWardCode": "08707",
+              "newWardType": "Phường",
+              "lat": 21.2937,
+              "lon": 105.584,
+              "areaKm2": 25
+            }
+          ]
+        },
+        {
+          "code": "8731",
+          "name": "Xã Thanh Trù",
+          "type": "Xã",
+          "isDivided": false,
+          "results": [
+            {
+              "newProvince": "Tỉnh Phú Thọ",
+              "newProvinceSlug": "phu-tho",
+              "newProvinceCode": "25",
+              "newWard": "Phường Vĩnh Yên",
+              "newWardShort": "Vĩnh Yên",
+              "newWardCode": "08707",
+              "newWardType": "Phường",
+              "lat": 21.2937,
+              "lon": 105.584,
+              "areaKm2": 25
+            }
+          ]
+        }
+      ],
+      "results": []
+    }
+  ]
+}
