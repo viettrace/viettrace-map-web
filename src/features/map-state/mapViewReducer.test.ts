@@ -25,7 +25,9 @@ describe('mapViewReducer', () => {
       type: 'selectFeature',
     });
 
-    expect(state.selectedFeature?.slug).toBe('ha-noi');
+    expect(state.selectedFeature?.type === 'province' ? state.selectedFeature.slug : null).toBe(
+      'ha-noi',
+    );
     expect(state.mode).toBe('post');
     expect(state.panels.detail).toBe(true);
   });

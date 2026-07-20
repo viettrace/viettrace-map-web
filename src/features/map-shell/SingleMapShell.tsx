@@ -10,6 +10,7 @@ import ProvinceBoundaryInteractions from '@src/features/boundaries/ProvinceBound
 import { useMapUrlState } from '@src/features/map-state/useMapUrlState';
 import type { MapViewAction, MapViewState } from '@src/features/map-state/mapViewTypes';
 import NestedDetailPanel from '@src/features/nested-detail/NestedDetailPanel';
+import PreWardDetailPanel from '@src/features/nested-detail/PreWardDetailPanel';
 import { findNestedBySelection } from '@src/features/nested-index/nestedIndexSearch';
 import type { NestedIndexEntry } from '@src/features/nested-index/nestedIndexTypes';
 import ProvinceDetailPanel from '@src/features/province-detail/ProvinceDetailPanel';
@@ -20,6 +21,7 @@ import { useMapLibre } from './useMapLibre';
 const NESTED_HIT_LAYER_IDS = [
   'districts-pre-2025-candidate-fill',
   'wards-post-2025-candidate-fill',
+  'wards-pre-2025-osm-fill',
 ];
 
 interface SingleMapShellProps {
@@ -30,7 +32,9 @@ interface SingleMapShellProps {
   nestedEntries: NestedIndexEntry[];
   onMapChange?: (map: maplibregl.Map | null) => void;
   onSelectNestedFromMap: (entry: NestedIndexEntry) => void;
+  onSelectParentDistrict: (entry: NestedIndexEntry) => void;
   onSelectParentProvince: (entry: ProvinceIndexEntry) => void;
+  onSelectPreWardFromMap: (properties: Record<string, unknown>) => void;
   onSelectProvinceFromMap: (entry: ProvinceIndexEntry) => void;
   provinceEntries: ProvinceIndexEntry[];
   state: MapViewState;
@@ -44,7 +48,9 @@ export default function SingleMapShell({
   nestedEntries,
   onMapChange,
   onSelectNestedFromMap,
+  onSelectParentDistrict,
   onSelectParentProvince,
+  onSelectPreWardFromMap,
   onSelectProvinceFromMap,
   provinceEntries,
   state,
@@ -57,6 +63,8 @@ export default function SingleMapShell({
   });
   const selectedProvince = findProvinceBySelection(provinceEntries, state.selectedFeature);
   const selectedNested = findNestedBySelection(nestedEntries, state.selectedFeature);
+  const selectedPreWard =
+    state.selectedFeature?.type === 'preWard' ? state.selectedFeature.data : null;
 
   // Expose the live map instance back up so MapShell can drive search fly-to
   // without owning the MapLibre lifecycle. Cleanup hands back null on unmount
@@ -122,6 +130,7 @@ export default function SingleMapShell({
             map={map}
             mode={state.mode}
             onSelect={onSelectNestedFromMap}
+            onSelectPreWard={onSelectPreWardFromMap}
           />
         </>
       )}
@@ -138,6 +147,17 @@ export default function SingleMapShell({
         <NestedDetailPanel
           entry={selectedNested}
           onClose={() => dispatch({ feature: null, type: 'selectFeature' })}
+          onSelectProvince={onSelectParentProvince}
+          provinceEntries={provinceEntries}
+        />
+      )}
+
+      {state.panels.detail && selectedPreWard && (
+        <PreWardDetailPanel
+          data={selectedPreWard}
+          nestedEntries={nestedEntries}
+          onClose={() => dispatch({ feature: null, type: 'selectFeature' })}
+          onSelectDistrict={onSelectParentDistrict}
           onSelectProvince={onSelectParentProvince}
           provinceEntries={provinceEntries}
         />

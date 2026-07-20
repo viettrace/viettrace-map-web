@@ -12,11 +12,17 @@ const NESTED_HIT_LAYER_BY_MODE: Record<MapMode, { layerId: string; type: 'distri
   post: { layerId: 'wards-post-2025-candidate-fill', type: 'ward' },
 };
 
+// Pre-2025 OSM-tier ward fill. In pre mode a ward click takes priority over its district (finer unit).
+const PRE_WARD_HIT_LAYER = 'wards-pre-2025-osm-fill';
+
 interface NestedBoundaryInteractionsProps {
   entries: NestedIndexEntry[];
   map: maplibregl.Map | null;
   mode: MapMode;
   onSelect: (entry: NestedIndexEntry) => void;
+  // Pre mode only: a pre-2025 ward was clicked (finer than a district). Receives the clicked tile
+  // feature's raw properties; the caller builds the ward selection from them (no nested-index lookup).
+  onSelectPreWard?: (properties: Record<string, unknown>) => void;
 }
 
 export default function NestedBoundaryInteractions({
@@ -24,15 +30,32 @@ export default function NestedBoundaryInteractions({
   map,
   mode,
   onSelect,
+  onSelectPreWard,
 }: NestedBoundaryInteractionsProps) {
   useEffect(() => {
-    if (!map || entries.length === 0) {
+    if (!map) {
       return;
     }
 
     const { layerId, type } = NESTED_HIT_LAYER_BY_MODE[mode];
 
     const handlePoint = (point: maplibregl.Point) => {
+      // Pre mode: a pre-2025 ward (finer unit) takes priority over its district.
+      if (mode === 'pre' && onSelectPreWard && map.getLayer(PRE_WARD_HIT_LAYER)) {
+        try {
+          const wardFeature = map.queryRenderedFeatures(point, {
+            layers: [PRE_WARD_HIT_LAYER],
+          })[0];
+
+          if (wardFeature?.properties) {
+            onSelectPreWard(wardFeature.properties);
+            return;
+          }
+        } catch {
+          // Ward hit-test failed — fall through to district selection.
+        }
+      }
+
       if (!map.getLayer(layerId)) {
         return;
       }
@@ -85,7 +108,7 @@ export default function NestedBoundaryInteractions({
         // Ignore cleanup errors from MapLibre teardown.
       }
     };
-  }, [entries, map, mode, onSelect]);
+  }, [entries, map, mode, onSelect, onSelectPreWard]);
 
   return null;
 }

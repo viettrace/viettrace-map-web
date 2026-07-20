@@ -43,7 +43,31 @@ interface SelectedNestedFeature {
   slug: string;
 }
 
-export type SelectedMapFeature = SelectedProvinceFeature | SelectedNestedFeature;
+// Pre-2025 ward selected from the map (OSM-tier layer). The panel reads the clicked tile feature's
+// own properties INLINE (no nested-index lookup): pre-2025 ward names collide across districts, so a
+// name→slug match would be ambiguous, but the exact clicked feature is unambiguous. Ephemeral — not
+// serialized to the URL (writeMapUrlState only persists province/nested).
+export interface PreWardData {
+  name: string;
+  oldDistrict: string;
+  oldProvince: string;
+  newWard: string | null;
+  newWardCode: string | null;
+  confidence: string | null;
+  areaQa: string | null;
+  matched: boolean;
+}
+
+interface SelectedPreWardFeature {
+  type: 'preWard';
+  mode: 'pre';
+  data: PreWardData;
+}
+
+export type SelectedMapFeature =
+  | SelectedProvinceFeature
+  | SelectedNestedFeature
+  | SelectedPreWardFeature;
 
 export interface MapViewState {
   mode: MapMode;
