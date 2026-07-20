@@ -180,6 +180,9 @@ NEXT_PUBLIC_PMTILES_URL_PRE_DISTRICTS_CANDIDATE=https://tiles.viettrace.org/nest
 NEXT_PUBLIC_PMTILES_URL_POST_WARDS_CANDIDATE=https://tiles.viettrace.org/nested/vn_wards_post_2025_candidate.pmtiles
 NEXT_PUBLIC_PMTILES_URL_PRE_DISTRICTS_CANDIDATE_LABELS=https://tiles.viettrace.org/nested/vn_districts_pre_2025_candidate_labels.pmtiles
 NEXT_PUBLIC_PMTILES_URL_POST_WARDS_CANDIDATE_LABELS=https://tiles.viettrace.org/nested/vn_wards_post_2025_candidate_labels.pmtiles
+# Pre-2025 ward polygons (OSM tier, ~41% national coverage) — polygon + interior outline + label points
+NEXT_PUBLIC_PMTILES_URL_PRE_WARDS_OSM=https://tiles.viettrace.org/nested/vn_wards_pre_2025_osm.pmtiles
+NEXT_PUBLIC_PMTILES_URL_PRE_WARDS_OSM_LABELS=https://tiles.viettrace.org/nested/vn_wards_pre_2025_osm_labels.pmtiles
 ```
 
 ### Tile URLs (legacy Martin — optional fallback)

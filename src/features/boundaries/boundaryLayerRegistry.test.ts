@@ -259,6 +259,44 @@ describe('boundaryLayerRegistry', () => {
     ]);
   });
 
+  it('adds the pre-2025 OSM ward layer, sources, and group when configured', () => {
+    const wardEnv: PublicEnv = {
+      ...env,
+      pmtilesUrlPreWardsOsm: 'https://tiles.example.test/pre-wards-osm.pmtiles',
+      pmtilesUrlPreWardsOsmLabels: 'https://tiles.example.test/pre-wards-osm-labels.pmtiles',
+    };
+    const sourceIds = getBoundarySourceDefinitions(wardEnv).map(source => source.id);
+    expect(sourceIds).toContain(boundarySourceIds.preWardsOsm);
+    expect(sourceIds).toContain(boundarySourceIds.preWardsOsmLabels);
+
+    const state = {
+      ...initialMapViewState,
+      layers: { ...initialMapViewState.layers, nestedCandidates: true },
+      mode: 'pre' as const,
+    };
+    const layers = getBoundaryLayerDefinitions('vi', state, {
+      includePreWardOsm: true,
+      includePreWardOsmLabels: true,
+    });
+    const outline = layers.find(definition => definition.layer.id === 'wards-pre-2025-osm-outline')
+      ?.layer as maplibregl.LineLayerSpecification | undefined;
+    const label = layers.find(definition => definition.layer.id === 'wards-pre-2025-osm-label')
+      ?.layer as maplibregl.SymbolLayerSpecification | undefined;
+
+    expect(
+      layers.find(definition => definition.layer.id === 'wards-pre-2025-osm-fill')?.layer.layout,
+    ).toMatchObject({ visibility: 'visible' });
+    // Outline draws from the interior source-layer (province + district borders erased).
+    expect(outline?.['source-layer']).toBe('vn_wards_pre_2025_osm_interior');
+    expect(label?.['source-layer']).toBe('vn_wards_pre_2025_osm_labels');
+    expect(label?.minzoom).toBe(11);
+    expect(
+      getBoundaryLayerGroups({ includePreWardOsm: true, includePreWardOsmLabels: true }).map(
+        group => group.id,
+      ),
+    ).toContain('pre-wards-osm');
+  });
+
   it('omits candidate sources when no candidate tile/PMTiles URL is configured', () => {
     const sources = getBoundarySourceDefinitions({
       ...env,

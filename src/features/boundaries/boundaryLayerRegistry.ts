@@ -16,6 +16,8 @@ export const boundarySourceIds = {
   pre: 'vn-provinces-pre',
   preDistrictsCandidateLabels: 'vn-districts-pre-2025-candidate-labels',
   preDistrictsCandidate: 'vn-districts-pre-2025-candidate',
+  preWardsOsmLabels: 'vn-wards-pre-2025-osm-labels',
+  preWardsOsm: 'vn-wards-pre-2025-osm',
   preLabels: 'province-labels-pre',
 } as const;
 
@@ -38,6 +40,9 @@ export const boundaryLayerIds = {
   preDistrictsCandidateFill: 'districts-pre-2025-candidate-fill',
   preDistrictsCandidateLabel: 'districts-pre-2025-candidate-label',
   preDistrictsCandidateOutline: 'districts-pre-2025-candidate-outline',
+  preWardsOsmFill: 'wards-pre-2025-osm-fill',
+  preWardsOsmLabel: 'wards-pre-2025-osm-label',
+  preWardsOsmOutline: 'wards-pre-2025-osm-outline',
   preFill: 'provinces-pre-fill',
   preNationalCapitalLabel: 'provinces-pre-national-capital-label',
   preNationalCapitalMarker: 'provinces-pre-national-capital-marker',
@@ -59,6 +64,9 @@ export const boundarySourceLayers = {
   preDistrictsCandidateLabels: 'vn_districts_pre_2025_candidate_labels',
   preDistrictsCandidate: 'vn_districts_pre_2025_candidate',
   preDistrictsCandidateInterior: 'vn_districts_pre_2025_candidate_interior',
+  preWardsOsmLabels: 'vn_wards_pre_2025_osm_labels',
+  preWardsOsm: 'vn_wards_pre_2025_osm',
+  preWardsOsmInterior: 'vn_wards_pre_2025_osm_interior',
 } as const;
 
 export const labelZoomStops = {
@@ -89,6 +97,12 @@ export const labelZoomStops = {
   preDistrictCandidates: {
     full: 9.5,
     min: 8.5,
+  },
+  // Pre-2025 ward labels defer to z11+ so the hand-off is province (z5–9) → district (z8.5+) →
+  // ward (z11+); deeper than post wards (z10.5) because pre mode also shows the district labels.
+  preWardOsmCandidates: {
+    full: 12,
+    min: 11,
   },
   preProvinces: {
     full: 5.75,
@@ -233,6 +247,8 @@ interface BoundaryLayerOptions {
   includePostWardCandidates?: boolean;
   includePreDistrictCandidateLabels?: boolean;
   includePreDistrictCandidates?: boolean;
+  includePreWardOsmLabels?: boolean;
+  includePreWardOsm?: boolean;
 }
 
 type BoundaryLayerGroupOptions = boolean | BoundaryLayerOptions;
@@ -308,6 +324,20 @@ const postWardCandidateLayerGroup: BoundaryLayerGroup = {
   ],
 };
 
+// Pre-2025 OSM-tier wards — same gating as the pre-2025 district group (pre mode + nested toggle).
+// Partial national coverage (328 of 695 districts); districts without ward geometry keep district-
+// level detail. A visual layer for now; click-to-identify-old-ward is the address-converter milestone.
+const preWardsOsmLayerGroup: BoundaryLayerGroup = {
+  id: 'pre-wards-osm',
+  isVisible: state =>
+    state.mode === 'pre' && state.layers.nestedCandidates && state.layers.boundaries,
+  layerIds: [
+    boundaryLayerIds.preWardsOsmFill,
+    boundaryLayerIds.preWardsOsmOutline,
+    boundaryLayerIds.preWardsOsmLabel,
+  ],
+};
+
 function normalizeLayerOptions(options: BoundaryLayerGroupOptions = {}): BoundaryLayerOptions {
   return typeof options === 'boolean' ? { includeOffshoreIslands: options } : options;
 }
@@ -342,6 +372,14 @@ export function getBoundaryLayerGroups(
     !normalizedOptions.includePostWardCandidates
   ) {
     groups.push(postWardCandidateLayerGroup);
+  }
+
+  if (normalizedOptions.includePreWardOsm) {
+    groups.push(preWardsOsmLayerGroup);
+  }
+
+  if (normalizedOptions.includePreWardOsmLabels && !normalizedOptions.includePreWardOsm) {
+    groups.push(preWardsOsmLayerGroup);
   }
 
   return groups;
@@ -536,6 +574,31 @@ function getNestedCandidateSourceDefinitions(
         minzoom: 0,
         tiles: [buildTileTemplate(env.tileUrlPostWardsCandidateLabels, env.tileCacheBuster)],
         type: 'vector',
+      },
+    });
+  }
+
+  // Pre-2025 OSM-tier wards (PMTiles only — no Martin fallback; Martin is retired).
+  if (env.pmtilesUrlPreWardsOsm) {
+    nestedSourceDefinitions.push({
+      id: boundarySourceIds.preWardsOsm,
+      source: {
+        maxzoom: 12,
+        minzoom: 0,
+        type: 'vector',
+        url: `pmtiles://${env.pmtilesUrlPreWardsOsm}`,
+      },
+    });
+  }
+
+  if (env.pmtilesUrlPreWardsOsmLabels) {
+    nestedSourceDefinitions.push({
+      id: boundarySourceIds.preWardsOsmLabels,
+      source: {
+        maxzoom: 12,
+        minzoom: 0,
+        type: 'vector',
+        url: `pmtiles://${env.pmtilesUrlPreWardsOsmLabels}`,
       },
     });
   }
@@ -951,6 +1014,10 @@ function getNestedCandidateLayerDefinitions(
     Boolean(options.includePostWardCandidates || options.includePostWardCandidateLabels) &&
     state.mode === 'post' &&
     state.layers.nestedCandidates;
+  const preWardVisible =
+    Boolean(options.includePreWardOsm || options.includePreWardOsmLabels) &&
+    state.mode === 'pre' &&
+    state.layers.nestedCandidates;
   const labelField: maplibregl.ExpressionSpecification =
     locale === 'en' ? ['coalesce', ['get', 'name_en'], ['get', 'name']] : ['get', 'name'];
   const layers: BoundaryLayerDefinition[] = [];
@@ -1091,6 +1158,77 @@ function getNestedCandidateLayerDefinitions(
     });
   }
 
+  if (options.includePreWardOsm) {
+    layers.push(
+      {
+        groupId: 'pre-wards-osm',
+        layer: {
+          filter: EXCLUDE_ARCHIPELAGO_FILTER,
+          id: boundaryLayerIds.preWardsOsmFill,
+          layout: { visibility: preWardVisible ? 'visible' : 'none' },
+          minzoom: 10,
+          paint: { 'fill-color': '#d44', 'fill-opacity': 0.03 },
+          source: boundarySourceIds.preWardsOsm,
+          'source-layer': boundarySourceLayers.preWardsOsm,
+          type: 'fill',
+        },
+      },
+      {
+        groupId: 'pre-wards-osm',
+        layer: {
+          filter: EXCLUDE_ARCHIPELAGO_FILTER,
+          id: boundaryLayerIds.preWardsOsmOutline,
+          layout: { visibility: preWardVisible ? 'visible' : 'none' },
+          minzoom: 10,
+          // Rose (#e11d48) — a lighter red than the district brick-red (#b91c1c) so the ward
+          // sub-division reads as one level finer. Source-layer = the interior lines (province +
+          // district borders already erased), so it never double-draws those.
+          paint: {
+            'line-color': '#e11d48',
+            'line-opacity': zoomRamp(10, 0.3, 12, 0.7),
+            'line-width': zoomRamp(10, 0.25, 13, 0.7),
+          },
+          source: boundarySourceIds.preWardsOsm,
+          'source-layer': boundarySourceLayers.preWardsOsmInterior,
+          type: 'line',
+        },
+      },
+    );
+  }
+
+  if (options.includePreWardOsmLabels) {
+    layers.push({
+      groupId: 'pre-wards-osm',
+      layer: {
+        filter: ['all', ['has', 'name'], EXCLUDE_ARCHIPELAGO_FILTER],
+        id: boundaryLayerIds.preWardsOsmLabel,
+        layout: {
+          // sort-key 9 (lowest): pre wards yield to province/city/capital/district labels.
+          'symbol-sort-key': 9,
+          'text-allow-overlap': false,
+          'text-anchor': 'center',
+          'text-field': labelField,
+          'text-font': ['Noto Sans Regular'],
+          'text-ignore-placement': false,
+          'text-max-width': 7,
+          'text-padding': 3,
+          'text-size': zoomRamp(labelZoomStops.preWardOsmCandidates.min, 10.5, 12, 12.5),
+          visibility: preWardVisible ? 'visible' : 'none',
+        },
+        minzoom: labelZoomStops.preWardOsmCandidates.min,
+        paint: {
+          'text-color': '#9f1239',
+          'text-halo-color': '#fff',
+          'text-halo-width': 2,
+          'text-opacity': 1,
+        },
+        source: boundarySourceIds.preWardsOsmLabels,
+        'source-layer': boundarySourceLayers.preWardsOsmLabels,
+        type: 'symbol',
+      },
+    });
+  }
+
   return layers;
 }
 
@@ -1098,6 +1236,7 @@ const provinceFillLayerIds = new Set<string>([boundaryLayerIds.preFill, boundary
 const nestedCandidateLabelLayerIds = new Set<string>([
   boundaryLayerIds.preDistrictsCandidateLabel,
   boundaryLayerIds.postWardsCandidateLabel,
+  boundaryLayerIds.preWardsOsmLabel,
 ]);
 
 function hasLayerId(definition: BoundaryLayerDefinition, layerIds: Set<string>) {

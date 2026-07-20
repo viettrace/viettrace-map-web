@@ -4,6 +4,8 @@ export interface PublicEnv {
   pmtilesUrlPostWardsCandidate?: string;
   pmtilesUrlPreDistrictsCandidateLabels?: string;
   pmtilesUrlPreDistrictsCandidate?: string;
+  pmtilesUrlPreWardsOsmLabels?: string;
+  pmtilesUrlPreWardsOsm?: string;
   pmtilesUrlPre?: string;
   pmtilesUrlPost?: string;
   pmtilesUrlIslands?: string;
@@ -37,6 +39,9 @@ const browserPublicEnv: PublicEnvSource = {
     process.env.NEXT_PUBLIC_PMTILES_URL_PRE_DISTRICTS_CANDIDATE_LABELS,
   NEXT_PUBLIC_PMTILES_URL_PRE_DISTRICTS_CANDIDATE:
     process.env.NEXT_PUBLIC_PMTILES_URL_PRE_DISTRICTS_CANDIDATE,
+  NEXT_PUBLIC_PMTILES_URL_PRE_WARDS_OSM_LABELS:
+    process.env.NEXT_PUBLIC_PMTILES_URL_PRE_WARDS_OSM_LABELS,
+  NEXT_PUBLIC_PMTILES_URL_PRE_WARDS_OSM: process.env.NEXT_PUBLIC_PMTILES_URL_PRE_WARDS_OSM,
   NEXT_PUBLIC_PMTILES_URL_PRE: process.env.NEXT_PUBLIC_PMTILES_URL_PRE,
   NEXT_PUBLIC_PMTILES_URL_POST: process.env.NEXT_PUBLIC_PMTILES_URL_POST,
   NEXT_PUBLIC_PMTILES_URL_ISLANDS: process.env.NEXT_PUBLIC_PMTILES_URL_ISLANDS,
@@ -85,6 +90,8 @@ export function readPublicEnv(env: PublicEnvSource = browserPublicEnv): PublicEn
       env.NEXT_PUBLIC_PMTILES_URL_PRE_DISTRICTS_CANDIDATE_LABELS || undefined,
     pmtilesUrlPreDistrictsCandidate:
       env.NEXT_PUBLIC_PMTILES_URL_PRE_DISTRICTS_CANDIDATE || undefined,
+    pmtilesUrlPreWardsOsmLabels: env.NEXT_PUBLIC_PMTILES_URL_PRE_WARDS_OSM_LABELS || undefined,
+    pmtilesUrlPreWardsOsm: env.NEXT_PUBLIC_PMTILES_URL_PRE_WARDS_OSM || undefined,
     pmtilesUrlPre,
     pmtilesUrlPost,
     pmtilesUrlIslands: env.NEXT_PUBLIC_PMTILES_URL_ISLANDS || undefined,
