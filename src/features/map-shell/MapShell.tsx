@@ -188,6 +188,37 @@ export default function MapShell() {
     [selectNested],
   );
 
+  // Map-click selection of a pre-2025 ward (OSM-tier layer). Builds the inline ward selection from
+  // the clicked tile feature's raw properties — no nested-index lookup (pre-2025 ward names collide
+  // across districts, and the tile carries the pre→post merge mapping). Keeps the current camera.
+  const selectPreWardFromMap = useCallback(
+    (properties: Record<string, unknown>) => {
+      const str = (value: unknown) => (typeof value === 'string' && value ? value : null);
+      dispatch({
+        feature: {
+          data: {
+            areaQa: str(properties.area_qa),
+            confidence: str(properties.confidence),
+            matched: properties.matched === true || properties.matched === 'true',
+            name: str(properties.name) ?? str(properties.old_ward) ?? '',
+            newWard: str(properties.new_ward),
+            newWardCode: str(properties.new_ward_code),
+            oldDistrict: str(properties.old_district) ?? '',
+            oldProvince: str(properties.old_province) ?? '',
+          },
+          mode: 'pre',
+          type: 'preWard',
+        },
+        type: 'selectFeature',
+      });
+
+      if (singleMap) {
+        clearHighlight(singleMap);
+      }
+    },
+    [singleMap],
+  );
+
   // Breadcrumb navigation up from a nested detail panel to its parent province.
   // Unlike a map click (which keeps the camera), this behaves like a search
   // selection — fly to the province and highlight it — since the user is
@@ -197,6 +228,15 @@ export default function MapShell() {
       selectProvince(entry, { fit: true });
     },
     [selectProvince],
+  );
+
+  // Breadcrumb navigation from the pre-2025 ward panel up to its parent district — fly + open the
+  // district panel (mirrors the province crumb, one level down).
+  const selectParentDistrict = useCallback(
+    (entry: NestedIndexEntry) => {
+      selectNested(entry, { fit: true });
+    },
+    [selectNested],
   );
 
   // Clear the search highlight when the detail panel closes (or selection is
@@ -272,7 +312,9 @@ export default function MapShell() {
           nestedEntries={nestedEntries}
           onMapChange={setSingleMap}
           onSelectNestedFromMap={selectNestedFromMap}
+          onSelectParentDistrict={selectParentDistrict}
           onSelectParentProvince={selectParentProvince}
+          onSelectPreWardFromMap={selectPreWardFromMap}
           onSelectProvinceFromMap={selectProvinceFromMap}
           provinceEntries={provinceEntries}
           state={state}
