@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.4.0 (2026-07-20)
+
+* feat: add pre-2025 OSM ward layers and configuration options ([d645c71](https://github.com/viettrace/viettrace-map-web/commit/d645c71))
+* feat: enhance offshore island label visibility and filtering in province search ([32244e7](https://github.com/viettrace/viettrace-map-web/commit/32244e7))
+* feat: improve offshore island label visibility and handling in territorial mode ([cd28641](https://github.com/viettrace/viettrace-map-web/commit/cd28641))
+
 ## <small>0.3.2 (2026-07-05)</small>
 
 * feat: add GRDP and GRDP per capita data to province statistics and update related components ([41ce009](https://github.com/viettrace/viettrace-map-web/commit/41ce009))
