@@ -314,6 +314,8 @@ export default function BoundaryLayers({ map, state, provinceEntries = [] }: Bou
     pmtilesUrlPostWardsCandidate,
     pmtilesUrlPreDistrictsCandidateLabels,
     pmtilesUrlPreDistrictsCandidate,
+    pmtilesUrlPreWardsOsmLabels,
+    pmtilesUrlPreWardsOsm,
     tileCacheBuster,
     tileUrlIslands,
     tileUrlPost,
@@ -334,6 +336,9 @@ export default function BoundaryLayers({ map, state, provinceEntries = [] }: Bou
     Boolean(pmtilesUrlPostWardsCandidateLabels) || Boolean(tileUrlPostWardsCandidateLabels);
   const includePreDistrictCandidateLabels =
     Boolean(pmtilesUrlPreDistrictsCandidateLabels) || Boolean(tileUrlPreDistrictsCandidateLabels);
+  // Pre-2025 OSM-tier wards: PMTiles only (no Martin). Included whenever the URL is set.
+  const includePreWardOsm = Boolean(pmtilesUrlPreWardsOsm);
+  const includePreWardOsmLabels = Boolean(pmtilesUrlPreWardsOsmLabels);
 
   useEffect(() => {
     if (!map) return;
@@ -355,6 +360,10 @@ export default function BoundaryLayers({ map, state, provinceEntries = [] }: Bou
         pmtilesUrlPreDistrictsCandidate: includePreDistrictCandidates
           ? pmtilesUrlPreDistrictsCandidate
           : undefined,
+        pmtilesUrlPreWardsOsmLabels: includePreWardOsmLabels
+          ? pmtilesUrlPreWardsOsmLabels
+          : undefined,
+        pmtilesUrlPreWardsOsm: includePreWardOsm ? pmtilesUrlPreWardsOsm : undefined,
         tileCacheBuster,
         tileUrlIslands,
         tileUrlPost,
@@ -391,6 +400,8 @@ export default function BoundaryLayers({ map, state, provinceEntries = [] }: Bou
         includePostWardCandidates,
         includePreDistrictCandidateLabels,
         includePreDistrictCandidates,
+        includePreWardOsmLabels,
+        includePreWardOsm,
       })) {
         const isLabel = layerDefinition.layer.type === 'symbol';
         replaceLayer(map, layerDefinition.layer, isLabel ? undefined : firstBasemapLabelId);
@@ -427,11 +438,15 @@ export default function BoundaryLayers({ map, state, provinceEntries = [] }: Bou
     pmtilesUrlPostWardsCandidate,
     pmtilesUrlPreDistrictsCandidateLabels,
     pmtilesUrlPreDistrictsCandidate,
+    pmtilesUrlPreWardsOsmLabels,
+    pmtilesUrlPreWardsOsm,
     includeOffshoreIslands,
     includePostWardCandidateLabels,
     includePostWardCandidates,
     includePreDistrictCandidateLabels,
     includePreDistrictCandidates,
+    includePreWardOsmLabels,
+    includePreWardOsm,
     tileCacheBuster,
     tileUrlIslands,
     tileUrlPost,
@@ -451,6 +466,8 @@ export default function BoundaryLayers({ map, state, provinceEntries = [] }: Bou
       includePostWardCandidates,
       includePreDistrictCandidateLabels,
       includePreDistrictCandidates,
+      includePreWardOsmLabels,
+      includePreWardOsm,
     })) {
       setLayerGroupVisibility(map, group.layerIds, group.isVisible(state));
     }
@@ -487,6 +504,8 @@ export default function BoundaryLayers({ map, state, provinceEntries = [] }: Bou
     includePostWardCandidates,
     includePreDistrictCandidateLabels,
     includePreDistrictCandidates,
+    includePreWardOsmLabels,
+    includePreWardOsm,
     locale,
     map,
     state,
