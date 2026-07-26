@@ -8,6 +8,7 @@ import type { ProvinceIndexEntry } from '@src/features/province-index/provinceIn
 import { readPublicEnv } from '@src/libs/config/publicEnv';
 import { replaceLayer } from '@src/libs/maplibre/layers';
 import { ensureSource } from '@src/libs/maplibre/sources';
+import { applyWhenStyleReady } from '@src/libs/maplibre/styleReady';
 import { setLayerGroupVisibility } from '@src/libs/maplibre/visibility';
 import { loadProvinceStatistics } from '@src/features/province-detail/provinceStatistics';
 import { loadRegionalClassification, type Region } from '@src/types/regional-classification';
@@ -163,6 +164,12 @@ const NESTED_OUTLINE_IDENTITY: [string, string][] = [
   [boundaryLayerIds.postWardsCandidateOutline, '#1d4ed8'],
 ];
 
+// Both non-default branches below finish asynchronously (they await a static JSON fetch), so a
+// slower earlier call can resolve *after* a newer one and repaint the map with the previous color
+// mode's colors. Each call takes a ticket and the async writes bail once superseded. Keyed per map
+// so the two compare-mode maps don't cancel each other's work.
+const fillColorTicket = new WeakMap<maplibregl.Map, number>();
+
 // Extracted to module level so the registration effect can call it synchronously after
 // recreating layers (replaceLayer resets paint to defaults). Effect A also calls this
 // on colorMode/provinceEntries changes, but no longer needs state.mode in its deps.
@@ -171,6 +178,10 @@ function applyProvinceFillColors(
   colorMode: ColorMode,
   provinceEntries: ProvinceIndexEntry[],
 ): void {
+  const ticket = (fillColorTicket.get(map) ?? 0) + 1;
+  fillColorTicket.set(map, ticket);
+  const isSuperseded = () => fillColorTicket.get(map) !== ticket;
+
   const preFillId = boundaryLayerIds.preFill;
   const postFillId = boundaryLayerIds.postFill;
   // In a data choropleth the red/blue mode outline is meaningless and clashes with the graduated
@@ -228,6 +239,7 @@ function applyProvinceFillColors(
     setNestedOutlineColors(false);
     loadRegionalClassification()
       .then(data => {
+        if (isSuperseded()) return;
         const regionNames = new Map<Region, string[]>();
         for (const entry of provinceEntries) {
           const region = data.provinceToRegion[entry.slug] as Region | undefined;
@@ -266,7 +278,7 @@ function applyProvinceFillColors(
   setNestedOutlineColors(true);
   loadProvinceStatistics()
     .then(stats => {
-      if (!stats) return;
+      if (!stats || isSuperseded()) return;
       const layers: ['pre' | 'post', string][] = [
         ['pre', preFillId],
         ['post', postFillId],
@@ -419,15 +431,7 @@ export default function BoundaryLayers({ map, state, provinceEntries = [] }: Bou
       }
     }
 
-    if (map.isStyleLoaded()) {
-      registerBoundaryLayers();
-    } else {
-      map.once('load', registerBoundaryLayers);
-    }
-
-    return () => {
-      map.off('load', registerBoundaryLayers);
-    };
+    return applyWhenStyleReady(map, registerBoundaryLayers);
     // Visibility changes are applied in a separate effect so toggles do not recreate layers.
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [
@@ -472,11 +476,11 @@ export default function BoundaryLayers({ map, state, provinceEntries = [] }: Bou
       setLayerGroupVisibility(map, group.layerIds, group.isVisible(state));
     }
 
-    // Ensure offshore island styling tracks the active mode even when the
-    // registration effect skipped a re-run (for example when the style was
-    // not flagged as loaded at the moment URL state restore dispatched a mode
-    // change). Without this sync, reopening the app with `?mode=post` can
-    // leave Hoang Sa and Truong Sa rendered with the pre-mode (red) palette.
+    // Ensure offshore island styling tracks the active mode even if the registration effect did not
+    // re-run — historically it could be skipped when the style was not flagged as loaded at the
+    // moment URL state restore dispatched a mode change, which left Hoang Sa and Truong Sa in the
+    // pre-mode (red) palette after opening the app with `?mode=post`. applyWhenStyleReady removed
+    // that skip; this sync stays as the cheap safety net.
     if (includeOffshoreIslands && state.layers.offshoreIslands) {
       // Reef fill is mode-independent (set once in the layer def); the outline tracks the active mode,
       // and the label tracks the mode too but goes neutral outside "territorial" state (boundaries OFF
@@ -515,23 +519,21 @@ export default function BoundaryLayers({ map, state, provinceEntries = [] }: Bou
   // state.mode is intentionally absent from deps — the registration effect handles
   // re-applying colors after layer recreation, so this effect only needs to fire when
   // colorMode or provinceEntries change.
+  //
+  // Must NOT gate on `isStyleLoaded()`: the visibility effect above runs first in the same commit
+  // and, for every transition into or out of a data choropleth, flips the offshore-island layers'
+  // visibility (their group hides in choropleth modes) — which marks that source for reload and so
+  // makes `isStyleLoaded()` report false right here. That used to defer this work to a `load` event
+  // that never fires again, leaving the map painted in the previous color mode while the legend and
+  // the dropdown showed the new one. See applyWhenStyleReady.
   useEffect(() => {
     if (!map) return;
 
-    function applyFillColors() {
-      if (!map) return;
-      applyProvinceFillColors(map, state.colorMode, provinceEntries);
-    }
+    const mapInstance = map;
 
-    if (map.isStyleLoaded()) {
-      applyFillColors();
-    } else {
-      map.once('load', applyFillColors);
-    }
-
-    return () => {
-      map.off('load', applyFillColors);
-    };
+    return applyWhenStyleReady(mapInstance, () => {
+      applyProvinceFillColors(mapInstance, state.colorMode, provinceEntries);
+    });
   }, [map, state.colorMode, provinceEntries]);
 
   // Effect B: authoritative manager for the region label layer.
@@ -559,15 +561,11 @@ export default function BoundaryLayers({ map, state, provinceEntries = [] }: Bou
         .catch(() => {});
     }
 
-    if (mapInstance.isStyleLoaded()) {
-      applyRegionLabels();
-    } else {
-      mapInstance.once('load', applyRegionLabels);
-    }
+    const dispose = applyWhenStyleReady(mapInstance, applyRegionLabels);
 
     return () => {
       cancelled = true;
-      mapInstance.off('load', applyRegionLabels);
+      dispose();
       removeRegionLabelsFromMap(mapInstance);
     };
   }, [map, state.colorMode, state.layers.boundaries, locale]);
@@ -587,15 +585,7 @@ export default function BoundaryLayers({ map, state, provinceEntries = [] }: Bou
       }
     }
 
-    if (map.isStyleLoaded()) {
-      syncBasemapPlaceLabels();
-    } else {
-      map.once('load', syncBasemapPlaceLabels);
-    }
-
-    return () => {
-      map.off('load', syncBasemapPlaceLabels);
-    };
+    return applyWhenStyleReady(map, syncBasemapPlaceLabels);
   }, [map, state.layers.nestedCandidates]);
 
   // OSM-boundaries toggle → reveal/hide the basemap's own VN settlement labels.
