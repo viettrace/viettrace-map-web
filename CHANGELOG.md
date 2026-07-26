@@ -1,5 +1,10 @@
 # Changelog
 
+## <small>0.4.1 (2026-07-26)</small>
+
+* feat: add pre-2025 ward selection and detail panel, enhancing map interactions ([c2a1214](https://github.com/viettrace/viettrace-map-web/commit/c2a1214))
+* feat: implement applyWhenStyleReady function to manage style readiness and apply changes safely ([95c0996](https://github.com/viettrace/viettrace-map-web/commit/95c0996))
+
 ## 0.4.0 (2026-07-20)
 
 * feat: add pre-2025 OSM ward layers and configuration options ([d645c71](https://github.com/viettrace/viettrace-map-web/commit/d645c71))
